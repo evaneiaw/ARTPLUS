@@ -1,0 +1,57 @@
+{
+  "id": "F-004",
+  "versao_ref": "24.03.10017",
+  "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\PDFObjectActions.dll",
+  "sha256": "8F6A23C1533E45AF657D91E62C18379AF3FE5B59C947C04A068A42E43573184D",
+  "sha256_medido_em": "2026-11-21",
+  "estatico": [
+    "GHIDRA-PDFObjectActions-0x1800940d0",
+    "GHIDRA-PDFObjectActions-0x1801303e0",
+    "GHIDRA-PDFObjectActions-0x180133230",
+    "GHIDRA-PDFObjectActions-0x18022c220",
+    "GHIDRA-PDFObjectActions-0x180276230",
+    "GHIDRA-PDFObjectActions-0x1802770d0",
+    "GHIDRA-PDFObjectActions-0x180277140",
+    "GHIDRA-PDFObjectActions-0x18028c310",
+    "GHIDRA-PDFObjectActions-0x18028c410",
+    "GHIDRA-PDFObjectActions-0x18028d3b0",
+    "GHIDRA-PDFObjectActions-0x18028df80",
+    "GHIDRA-PDFObjectActions-0x18030b240",
+    "GHIDRA-PDFObjectActions-0x180341480"
+  ],
+  "documentos": [
+    "rag/evidence/F-004/ghidra/PDFObjectActions__identity.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x1800940d0.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x1801303e0.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x180133230.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18022c220.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x180276230.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x1802770d0.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x180277140.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18028c310.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18028c410.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18028d3b0.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18028df80.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x18030b240.md",
+    "rag/evidence/F-004/ghidra/PDFObjectActions__0x180341480.md",
+    "rag/evidence/F-004/ghidra/_raw/index.tsv",
+    "rag/evidence/F-004/identity.json",
+    "rag/evidence/F-004/die.json"
+  ],
+  "comportamental": [
+    "CAP-20261121-02"
+  ],
+  "bloqueios": [
+    "CONCLUSAO NEGATIVA DA UI (CAP-20261121-02, v24.03.10017, executavel ArtPro+.exe): a acao 'Selection Mark' NAO existe na UI da versao-alvo pelos caminhos medidos. Nao existe menu 'Marks' na barra (literal: File Edit Object Select Prepress View Window Help); nao ha item 'Selection Mark' em File (22 itens), Object (25), Select (9) nem Prepress (20); nao ha rotulo 'Selection Mark' entre os 16 rotulos do ribbon. O atalho Ctrl+Shift+S que docs/behavior/SelectionMark.md atribui a Selection Mark esta atribuido no menu File a 'Save As...'. Evidence: docs/behavior/F-004-selection-mark.md, rag/evidence/F-004/behavior/CAP-20261121-02.md, shots 01-09.",
+    "UI NAO MEDIDA (escopo restante): menus View, Window, Edit e Help nao foram abertos, e a toolbar de contexto do objeto ativo (aba Object Browser, onde a descricao historica situa o icone 'proximo ao botao Select') nao foi inspecionada porque nenhum objeto foi selecionado. A ausencia de Selection Mark nesses locais NAO esta comprovada. Alem disso Ctrl+Shift+S nao foi acionado (evitou abrir o dialogo de gravacao): a atribuicao a Save As... e leitura de menu, nao efeito testado.",
+    "docs/behavior/SelectionMark.md declara 'Versao: 25.0' (historica, fora do fluxo ativo, sem CAP e sem artefato) e a UI que descreve (icone na toolbar, Ctrl+Shift+S, status 'Selection Mark ativo') nao se reproduz na v24.03.10017 nos caminhos medidos. O que o PDFObjectActions.dll v240 implementa sao operadores genericos de selecao/transformacao (GOVSelectHitElement, GOVSelectOverlapping*, GOVChangeScaleSelection, GOVChangeRotateSelection, GOVChangeFlipSelection, GOVCloneSelection), sem nome de produto e sem string de UI.",
+    "Este DLL nao contem a UI de Selection Mark: busca exata em 37006 strings (strings64 -n 6) nao encontra 'SelectionMark', 'Selection Mark' nem 'Selection mark'; nao ha string de toolbar/atalho. Coerente com a conclusao negativa da captura CAP-20261121-02, que tambem nao encontrou a acao na UI.",
+    "Os 16 IDs do manifest anterior foram descartados: 0x1802a6e30, 0x1802a6ed0, 0x1802a7690 e 0x1802a7780 sao enderecos da v25 (construtores de GOVSelectOverlapping/GOVSelectOverlappingObjects no projeto PDFObjectActions_New, executableSHA256 73ab2d7b...); 0x1802a7060 e 0x1802a79e0 caem no meio de funcoes; os outros 10 (0x1806dc21e, 0x1806dc254, 0x1806dc287, 0x1806dc2c4, 0x18068447e, 0x1806844b4, 0x180688437, 0x1806ac7c5, 0x1806e8f62, 0x1807015ed) apontam para o interior de nomes mangled na .rdata do v240, nao para funcoes. Deslocamento v25 -> v240 registrado em ghidra/PDFObjectActions__identity.md secao 8.",
+    "Evidencia anterior era de outro modulo: rag/evidence/F-004/ghidra/ continha ColorManipulationLayer__0x*.md/.json, ColorManipulationLayer.import.log, alem de strings64.txt/exports.txt/imports.txt/die.json do ColorManipulationLayer.dll. Movida para rag/evidence/F-004/_quarantine_color/ e substituida por medicao nova do PDFObjectActions.dll.",
+    "docs/reverse-engineering/PDFObjectActions_AUTO_TRIAGE.md esta rotulada como v240 mas descreve o binario da v25: declara tamanho 8299560 e sha256 73ab2d7b7df5ea73272eb5bdafb3408a90f6d471680300d3debf0b2294273bf4, enquanto o v240 real tem 8004528 bytes e sha256 8F6A23C1... Nao corrigido nesta passada (docs/ fora do escopo).",
+    "Titulos literais dos operadores nao provados: GOVChangeScaleSelection::GetTitle (0x180133940) chama GStringPool::GetString(0x73faa) e GOVSelectOverlappingObjects::GetTitle (0x18028d6d0) chama GStringPool::GetString(0x63254); a tabela do GStringPool nao foi localizada, entao o texto exato do titulo e inferido da existencia das strings 'Scale selection'/'Select ...' no binario, nao provado por referencia direta.",
+    "R4 da spec nao vinculada a Selection Mark: as strings WhatWithCropBox, 'CropBox size ...' e 'CropBox rectangle ...' existem no binario (verificado), mas nenhuma funcao desta passada as referencia; os atributos ?cAttr_*Resize@GOVChangePageBox indicam que o resize de caixa de pagina pertence ao operador GOVChangePageBox (inferencia pelo nome do atributo).",
+    "GOVChangeFlipSelection::Change (0x1800940d0): o Ghidra nao recupera com fidelidade os doubles movidos em registradores nesta funcao (sequencias CONCAT44), portanto a forma exata da matriz de espelhamento nao foi afirmada; ficou registrado apenas que a matriz e criada por GOVChangeMatrix com id 0x3ea e gravada em +0x1f8.",
+    "GOVSelectHitElement tem 4 sobrecargas de Select (0x1802759e0, 0x180275df0, 0x180276230, 0x180276bc0); apenas a sobrecarga de GOElement (0x180276230) foi analisada em detalhe. As demais foram extraidas em _raw/ mas nao entraram no manifest por falta de revisao."
+  ]
+}

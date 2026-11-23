@@ -1,0 +1,136 @@
+requested=0x18013aba0
+resolvedAddress=18013aba0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18013aba0 ~PDFPlusCutMark
+status=OK
+entry=18013aba0
+name=~PDFPlusCutMark
+qualifiedName=DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+namespace=DocumentMarks::PDFPlusCutMark
+signature=void ~PDFPlusCutMark(PDFPlusCutMark * this)
+returnType=void
+parameterCount=1
+bodyMin=18013aba0
+bodyMax=18013acd9
+bodySize=314
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803b858c refType=DATA fromFunction=
+180498d74 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18013b24e refType=UNCONDITIONAL_CALL fromFunction=18013b1f0 FUN_18013b1f0
+1801701c1 refType=UNCONDITIONAL_CALL fromFunction=1801701b0 FUN_1801701b0
+180174820 refType=UNCONDITIONAL_CALL fromFunction=180172550 FUN_180172550
+18013b20c refType=DATA fromFunction=18013b1f0 FUN_18013b1f0
+
+[CALLERS]
+1801701b0 FUN_1801701b0
+18013b1f0 FUN_18013b1f0
+180172550 FUN_180172550
+
+[CALLEES]
+180013c20 FUN_180013c20
+18006dda0 DocumentMarks::DynamicMark::~DynamicMark
+18006da40 FUN_18006da40
+18002c560 FUN_18002c560
+EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1800651a0 FUN_1800651a0
+
+[DIRECT_CALL_TARGETS]
+18013abc9 -> 18002c560 FUN_18002c560
+18013abd8 -> 18013abef DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013abe7 -> 18013abef DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013abf9 -> 18013ac52 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac18 -> 18013ac36 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac2d -> 18013acd4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac36 -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18013ac5e -> 18013aca4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac64 -> 18013aca4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac72 -> 18013aca4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac78 -> 18013aca4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac7e -> 18013aca4 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013ac87 -> 180013c20 FUN_180013c20
+18013ac93 -> 180013c20 FUN_180013c20
+18013ac9f -> 180013c20 FUN_180013c20
+18013acaf -> 18013acb6 DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark
+18013acb1 -> 1800651a0 FUN_1800651a0
+18013acbd -> 18006da40 FUN_18006da40
+18013accf -> 18006dda0 DocumentMarks::DynamicMark::~DynamicMark
+18013acd4 -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18013aba0 -> Stack[0x8] block=? sym=
+18013abad -> 1803231b0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18013abb4 -> 1803231b0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18013abb7 -> 180323330 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+18013abbe -> 180323330 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+18013acc5 -> Stack[0x8] block=? sym=
+18013acd4 -> 1802fdf38 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802fdf38
+
+[DECOMPILE]
+
+/* public: virtual __cdecl DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark(void) __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark(PDFPlusCutMark *this)
+
+{
+  int *piVar1;
+  int iVar2;
+  PDFPlusCutMark PVar3;
+  longlong *plVar4;
+  void *pvVar5;
+  void *_Memory;
+  
+                    /* 0x13aba0  414  ??1PDFPlusCutMark@DocumentMarks@@UEAA@XZ */
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  FUN_18002c560(this + 0x7b0);
+  plVar4 = *(longlong **)(this + 0x7b8);
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    piVar1 = (int *)((longlong)plVar4 + 0xc);
+    iVar2 = *piVar1;
+    *piVar1 = *piVar1 + -1;
+    UNLOCK();
+    if (iVar2 == 1) {
+      (**(code **)(*plVar4 + 0x10))();
+    }
+  }
+  pvVar5 = *(void **)(this + 0x798);
+  if (pvVar5 != (void *)0x0) {
+    _Memory = pvVar5;
+    if ((0xfff < (ulonglong)((*(longlong *)(this + 0x7a8) - (longlong)pvVar5 >> 2) * 4)) &&
+       (_Memory = *(void **)((longlong)pvVar5 + -8),
+       0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+    *(undefined8 *)(this + 0x798) = 0;
+    *(undefined8 *)(this + 0x7a0) = 0;
+    *(undefined8 *)(this + 0x7a8) = 0;
+  }
+  if ((((this[0x788] != (PDFPlusCutMark)0xff) && (this[0x788] == (PDFPlusCutMark)0x0)) &&
+      (PVar3 = this[0x780], PVar3 != (PDFPlusCutMark)0xff)) &&
+     ((PVar3 != (PDFPlusCutMark)0x0 && (PVar3 != (PDFPlusCutMark)0x1)))) {
+    FUN_180013c20(this + 0x758);
+    FUN_180013c20(this + 0x730);
+    FUN_180013c20(this + 0x708);
+  }
+  if (this[0x700] != (PDFPlusCutMark)0x0) {
+    FUN_1800651a0();
+  }
+  FUN_18006da40(this + 0x698);
+  DynamicMark::~DynamicMark((DynamicMark *)this);
+  return;
+}
+
+

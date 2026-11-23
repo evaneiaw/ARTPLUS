@@ -1,0 +1,3023 @@
+[
+  {
+    "dll": "EncryptionLayer.dll",
+    "functions": [
+      {
+        "name": "?Initialize@GEncryptionLayer@@SA_NXZ",
+        "address": "0x180233a18"
+      },
+      {
+        "name": "?Read@GRC4EnDeCrypt@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233a20"
+      },
+      {
+        "name": "?Reset@GRC4EnDeCrypt@@UEAAXXZ",
+        "address": "0x180233a28"
+      },
+      {
+        "name": "?CreateClone@GRC4EnDeCrypt@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233a30"
+      },
+      {
+        "name": "??1GRC4EnDeCrypt@@UEAA@XZ",
+        "address": "0x180233a38"
+      },
+      {
+        "name": "??0GRC4EnDeCrypt@@QEAA@PEAVGInStream@@AEBVGBuffer@@@Z",
+        "address": "0x180233a40"
+      },
+      {
+        "name": "?Finalize@GEncryptionLayer@@SAXXZ",
+        "address": "0x180233a48"
+      }
+    ]
+  },
+  {
+    "dll": "JPEGSupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Finalize@GJPEGSupportLayer@@SAXXZ",
+        "address": "0x180233d90"
+      },
+      {
+        "name": "??0GDCTDecode@@QEAA@AEAVGInStream@@W4ColorTransform@GDCTEnums@@@Z",
+        "address": "0x180233d98"
+      },
+      {
+        "name": "??0GDCTDecode@@QEAA@PEAVGInStream@@W4ColorTransform@GDCTEnums@@@Z",
+        "address": "0x180233da0"
+      },
+      {
+        "name": "??1GDCTDecode@@UEAA@XZ",
+        "address": "0x180233da8"
+      },
+      {
+        "name": "??0GDCTEncode@@QEAA@AEAVGInStream@@JJJW4ColorTransform@GDCTEnums@@J_N@Z",
+        "address": "0x180233db0"
+      },
+      {
+        "name": "??0GDCTEncode@@QEAA@PEAVGInStream@@JJJW4ColorTransform@GDCTEnums@@J_N@Z",
+        "address": "0x180233db8"
+      },
+      {
+        "name": "??1GDCTEncode@@UEAA@XZ",
+        "address": "0x180233dc0"
+      },
+      {
+        "name": "?CreateClone@GDCTDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233dc8"
+      },
+      {
+        "name": "?Reset@GDCTDecode@@UEAAXXZ",
+        "address": "0x180233dd0"
+      },
+      {
+        "name": "?Read@GDCTDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233dd8"
+      },
+      {
+        "name": "?CreateClone@GDCTEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233de0"
+      },
+      {
+        "name": "?Reset@GDCTEncode@@UEAAXXZ",
+        "address": "0x180233de8"
+      },
+      {
+        "name": "?Read@GDCTEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233df0"
+      },
+      {
+        "name": "?InitializeMarkers@GDCTEncode@@MEAAXPEAUjpeg_compress_struct@@@Z",
+        "address": "0x180233df8"
+      },
+      {
+        "name": "?WriteMarkers@GDCTEncode@@MEAAXPEAUjpeg_compress_struct@@@Z",
+        "address": "0x180233e00"
+      },
+      {
+        "name": "?Initialize@GJPEGSupportLayer@@SA_NXZ",
+        "address": "0x180233e08"
+      }
+    ]
+  },
+  {
+    "dll": "JPXSupportLayer.dll",
+    "functions": [
+      {
+        "name": "?GetICCProfileData@GJPXImageInfo@@QEBAAEBVGBuffer@@XZ",
+        "address": "0x180233e18"
+      },
+      {
+        "name": "??1GJPXImageInfo@@QEAA@XZ",
+        "address": "0x180233e20"
+      },
+      {
+        "name": "??1GJPXEncOptions@@QEAA@XZ",
+        "address": "0x180233e28"
+      },
+      {
+        "name": "??0GJPXEncOptions@@QEAA@AEBU0@@Z",
+        "address": "0x180233e30"
+      },
+      {
+        "name": "??0GJPXImageInfo@@QEAA@AEBU0@@Z",
+        "address": "0x180233e38"
+      },
+      {
+        "name": "??0GJPXEncode@@QEAA@AEAVGInStream@@V?$GSmartPtr@UGJPXImageInfo@@@@UGJPXEncOptions@@@Z",
+        "address": "0x180233e40"
+      },
+      {
+        "name": "??0GJPXEncode@@QEAA@PEAVGInStream@@V?$GSmartPtr@UGJPXImageInfo@@@@UGJPXEncOptions@@@Z",
+        "address": "0x180233e48"
+      },
+      {
+        "name": "??0GJPXEncode@@QEAA@AEBV0@@Z",
+        "address": "0x180233e50"
+      },
+      {
+        "name": "??1GJPXEncode@@UEAA@XZ",
+        "address": "0x180233e58"
+      },
+      {
+        "name": "?Initialize@GJPXSupportLayer@@SA_NXZ",
+        "address": "0x180233e60"
+      },
+      {
+        "name": "?Finalize@GJPXSupportLayer@@SAXXZ",
+        "address": "0x180233e68"
+      },
+      {
+        "name": "??0GJPXEncOptions@@QEAA@N@Z",
+        "address": "0x180233e70"
+      },
+      {
+        "name": "??0GJPXImageInfo@@QEAA@XZ",
+        "address": "0x180233e78"
+      },
+      {
+        "name": "?SetColourSpace@GJPXImageInfo@@QEAAXW4ColourSpace@GJPXEnums@@AEBVGBuffer@@@Z",
+        "address": "0x180233e80"
+      },
+      {
+        "name": "??0GJPXDecode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233e88"
+      },
+      {
+        "name": "??0GJPXDecode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233e90"
+      },
+      {
+        "name": "??0GJPXDecode@@QEAA@AEBV0@@Z",
+        "address": "0x180233e98"
+      },
+      {
+        "name": "??1GJPXDecode@@UEAA@XZ",
+        "address": "0x180233ea0"
+      },
+      {
+        "name": "?GetImageInfo@GJPXDecode@@QEAA?AV?$GSmartPtr@UGJPXImageInfo@@@@XZ",
+        "address": "0x180233ea8"
+      },
+      {
+        "name": "?GetColourSpaceType@GJPXImageInfo@@QEBA?AW4ColourSpace@GJPXEnums@@XZ",
+        "address": "0x180233eb0"
+      }
+    ]
+  },
+  {
+    "dll": "MD5SupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Initialize@GMD5SupportLayer@@SA_NXZ",
+        "address": "0x1802340e0"
+      },
+      {
+        "name": "?Finalize@GMD5SupportLayer@@SAXXZ",
+        "address": "0x1802340e8"
+      },
+      {
+        "name": "?DigestToBuffer@GMD5Digest@@SAXAEBVGBuffer@@AEAV2@@Z",
+        "address": "0x1802340f0"
+      }
+    ]
+  },
+  {
+    "dll": "FlateSupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Initialize@GFlateSupportLayer@@SA_NXZ",
+        "address": "0x180233a58"
+      },
+      {
+        "name": "?Finalize@GFlateSupportLayer@@SAXXZ",
+        "address": "0x180233a60"
+      },
+      {
+        "name": "??0GFlateDecode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233a68"
+      },
+      {
+        "name": "??0GFlateDecode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233a70"
+      },
+      {
+        "name": "??1GFlateDecode@@UEAA@XZ",
+        "address": "0x180233a78"
+      },
+      {
+        "name": "??0GFlateEncode@@QEAA@AEAVGInStream@@J@Z",
+        "address": "0x180233a80"
+      },
+      {
+        "name": "??0GFlateEncode@@QEAA@PEAVGInStream@@J@Z",
+        "address": "0x180233a88"
+      },
+      {
+        "name": "??1GFlateEncode@@UEAA@XZ",
+        "address": "0x180233a90"
+      },
+      {
+        "name": "?CreateClone@GFlateEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233a98"
+      },
+      {
+        "name": "?Reset@GFlateEncode@@UEAAXXZ",
+        "address": "0x180233aa0"
+      },
+      {
+        "name": "?Read@GFlateEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233aa8"
+      },
+      {
+        "name": "?CommonConstructor@GFlateEncode@@EEAAXJ@Z",
+        "address": "0x180233ab0"
+      },
+      {
+        "name": "?CreateClone@GFlateDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233ab8"
+      },
+      {
+        "name": "?Reset@GFlateDecode@@UEAAXXZ",
+        "address": "0x180233ac0"
+      },
+      {
+        "name": "?Read@GFlateDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233ac8"
+      }
+    ]
+  },
+  {
+    "dll": "AESSupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Finalize@GAESSupportLayer@@SAXXZ",
+        "address": "0x180233080"
+      },
+      {
+        "name": "?Initialize@GAESSupportLayer@@SA_NXZ",
+        "address": "0x180233088"
+      },
+      {
+        "name": "?Reset@GAESEnDeCrypt@@UEAAXXZ",
+        "address": "0x180233090"
+      },
+      {
+        "name": "?CreateClone@GAESEnDeCrypt@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233098"
+      },
+      {
+        "name": "?GetInitVector@GAESEnDeCrypt@@QEAAXAEAVGBuffer@@@Z",
+        "address": "0x1802330a0"
+      },
+      {
+        "name": "?Read@GAESEnDeCrypt@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802330a8"
+      },
+      {
+        "name": "??1GAESEnDeCrypt@@UEAA@XZ",
+        "address": "0x1802330b0"
+      },
+      {
+        "name": "??0GAESEnDeCrypt@@QEAA@PEAVGInStream@@AEBVGBuffer@@W4AESDirection@0@W4AESMode@0@1_N@Z",
+        "address": "0x1802330b8"
+      },
+      {
+        "name": "??0GAESEnDeCrypt@@QEAA@AEAVGInStream@@AEBVGBuffer@@W4AESDirection@0@W4AESMode@0@1_N@Z",
+        "address": "0x1802330c0"
+      }
+    ]
+  },
+  {
+    "dll": "TIFFSupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Reset@GCCITTEncode@@UEAAXXZ",
+        "address": "0x180234268"
+      },
+      {
+        "name": "?Finalize@GTIFFSupportLayer@@SAXXZ",
+        "address": "0x180234270"
+      },
+      {
+        "name": "??0GCCITTDecode@@QEAA@AEAVGInStream@@J_N1JJ11J@Z",
+        "address": "0x180234278"
+      },
+      {
+        "name": "??0GCCITTDecode@@QEAA@PEAVGInStream@@J_N1JJ11J@Z",
+        "address": "0x180234280"
+      },
+      {
+        "name": "??1GCCITTDecode@@UEAA@XZ",
+        "address": "0x180234288"
+      },
+      {
+        "name": "??0GCCITTEncode@@QEAA@AEAVGInStream@@J_N1JJ11J@Z",
+        "address": "0x180234290"
+      },
+      {
+        "name": "??0GCCITTEncode@@QEAA@PEAVGInStream@@J_N1JJ11J@Z",
+        "address": "0x180234298"
+      },
+      {
+        "name": "??1GCCITTEncode@@UEAA@XZ",
+        "address": "0x1802342a0"
+      },
+      {
+        "name": "??0GTIFFPred2Decode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x1802342a8"
+      },
+      {
+        "name": "??1GTIFFPred2Decode@@UEAA@XZ",
+        "address": "0x1802342b0"
+      },
+      {
+        "name": "??0GTIFFPred2Encode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x1802342b8"
+      },
+      {
+        "name": "??0GTIFFPred2Encode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x1802342c0"
+      },
+      {
+        "name": "??1GTIFFPred2Encode@@UEAA@XZ",
+        "address": "0x1802342c8"
+      },
+      {
+        "name": "?CreateClone@GTIFFPred2Decode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x1802342d0"
+      },
+      {
+        "name": "?Reset@GTIFFPred2Decode@@UEAAXXZ",
+        "address": "0x1802342d8"
+      },
+      {
+        "name": "?Read@GTIFFPred2Decode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802342e0"
+      },
+      {
+        "name": "?CreateClone@GTIFFPred2Encode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x1802342e8"
+      },
+      {
+        "name": "?Reset@GTIFFPred2Encode@@UEAAXXZ",
+        "address": "0x1802342f0"
+      },
+      {
+        "name": "?Read@GTIFFPred2Encode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802342f8"
+      },
+      {
+        "name": "?CreateClone@GCCITTDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180234300"
+      },
+      {
+        "name": "?Reset@GCCITTDecode@@UEAAXXZ",
+        "address": "0x180234308"
+      },
+      {
+        "name": "?Read@GCCITTDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180234310"
+      },
+      {
+        "name": "?CreateClone@GCCITTEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180234318"
+      },
+      {
+        "name": "?Read@GCCITTEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180234320"
+      },
+      {
+        "name": "?Initialize@GTIFFSupportLayer@@SA_NXZ",
+        "address": "0x180234328"
+      }
+    ]
+  },
+  {
+    "dll": "ImageSupportLayer.dll",
+    "functions": [
+      {
+        "name": "??0GBitExpander@@QEAA@AEAVGInStream@@J@Z",
+        "address": "0x180233ad8"
+      },
+      {
+        "name": "??1GBitExpander@@UEAA@XZ",
+        "address": "0x180233ae0"
+      },
+      {
+        "name": "?CreateClone@GBitExpander@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233ae8"
+      },
+      {
+        "name": "?Read@GBitExpander@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233af0"
+      },
+      {
+        "name": "?Reset@GBitExpander@@UEAAXXZ",
+        "address": "0x180233af8"
+      },
+      {
+        "name": "??0GASCII85Decode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233b00"
+      },
+      {
+        "name": "??0GASCII85Decode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233b08"
+      },
+      {
+        "name": "??1GASCII85Decode@@UEAA@XZ",
+        "address": "0x180233b10"
+      },
+      {
+        "name": "??0GASCII85Encode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233b18"
+      },
+      {
+        "name": "??0GASCII85Encode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233b20"
+      },
+      {
+        "name": "??1GASCII85Encode@@UEAA@XZ",
+        "address": "0x180233b28"
+      },
+      {
+        "name": "??0GLZWDecode@@QEAA@AEAVGInStream@@_N@Z",
+        "address": "0x180233b30"
+      },
+      {
+        "name": "??0GLZWDecode@@QEAA@PEAVGInStream@@_N@Z",
+        "address": "0x180233b38"
+      },
+      {
+        "name": "??1GLZWDecode@@UEAA@XZ",
+        "address": "0x180233b40"
+      },
+      {
+        "name": "??0GLZWEncode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233b48"
+      },
+      {
+        "name": "??0GLZWEncode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233b50"
+      },
+      {
+        "name": "??1GLZWEncode@@UEAA@XZ",
+        "address": "0x180233b58"
+      },
+      {
+        "name": "??0GPNGAvgEncode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x180233b60"
+      },
+      {
+        "name": "??0GPNGAvgEncode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233b68"
+      },
+      {
+        "name": "??1GPNGAvgEncode@@UEAA@XZ",
+        "address": "0x180233b70"
+      },
+      {
+        "name": "??0GPNGNoneEncode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x180233b78"
+      },
+      {
+        "name": "??0GPNGNoneEncode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233b80"
+      },
+      {
+        "name": "??1GPNGNoneEncode@@UEAA@XZ",
+        "address": "0x180233b88"
+      },
+      {
+        "name": "??0GPNGOptiDecode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233b90"
+      },
+      {
+        "name": "??1GPNGOptiDecode@@UEAA@XZ",
+        "address": "0x180233b98"
+      },
+      {
+        "name": "??0GPNGPaethEncode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x180233ba0"
+      },
+      {
+        "name": "??0GPNGPaethEncode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233ba8"
+      },
+      {
+        "name": "??1GPNGPaethEncode@@UEAA@XZ",
+        "address": "0x180233bb0"
+      },
+      {
+        "name": "??0GPNGSubEncode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x180233bb8"
+      },
+      {
+        "name": "??0GPNGSubEncode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233bc0"
+      },
+      {
+        "name": "??1GPNGSubEncode@@UEAA@XZ",
+        "address": "0x180233bc8"
+      },
+      {
+        "name": "??0GPNGUpEncode@@QEAA@AEAVGInStream@@JJJ@Z",
+        "address": "0x180233bd0"
+      },
+      {
+        "name": "?Read@GPNGAvgEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233bd8"
+      },
+      {
+        "name": "?Reset@GPNGAvgEncode@@UEAAXXZ",
+        "address": "0x180233be0"
+      },
+      {
+        "name": "?CreateClone@GPNGAvgEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233be8"
+      },
+      {
+        "name": "?Read@GPNGSubEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233bf0"
+      },
+      {
+        "name": "?Reset@GPNGSubEncode@@UEAAXXZ",
+        "address": "0x180233bf8"
+      },
+      {
+        "name": "?CreateClone@GPNGSubEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c00"
+      },
+      {
+        "name": "?Read@GLZWDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c08"
+      },
+      {
+        "name": "?Reset@GLZWDecode@@UEAAXXZ",
+        "address": "0x180233c10"
+      },
+      {
+        "name": "?CreateClone@GLZWDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c18"
+      },
+      {
+        "name": "?Read@GRunLengthDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c20"
+      },
+      {
+        "name": "?Reset@GRunLengthDecode@@UEAAXXZ",
+        "address": "0x180233c28"
+      },
+      {
+        "name": "?CreateClone@GRunLengthDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c30"
+      },
+      {
+        "name": "?Read@GPNGUpEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c38"
+      },
+      {
+        "name": "?Reset@GPNGUpEncode@@UEAAXXZ",
+        "address": "0x180233c40"
+      },
+      {
+        "name": "?CreateClone@GPNGUpEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c48"
+      },
+      {
+        "name": "?Read@GPNGOptiDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c50"
+      },
+      {
+        "name": "?Reset@GPNGOptiDecode@@UEAAXXZ",
+        "address": "0x180233c58"
+      },
+      {
+        "name": "?CreateClone@GPNGOptiDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c60"
+      },
+      {
+        "name": "?Read@GRunLengthEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c68"
+      },
+      {
+        "name": "?Reset@GRunLengthEncode@@UEAAXXZ",
+        "address": "0x180233c70"
+      },
+      {
+        "name": "?CreateClone@GRunLengthEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c78"
+      },
+      {
+        "name": "?Reset@GASCII85Decode@@UEAAXXZ",
+        "address": "0x180233c80"
+      },
+      {
+        "name": "?CreateClone@GASCII85Decode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233c88"
+      },
+      {
+        "name": "?Read@GASCII85Decode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233c90"
+      },
+      {
+        "name": "?Reset@GASCII85Encode@@UEAAXXZ",
+        "address": "0x180233c98"
+      },
+      {
+        "name": "?CreateClone@GASCII85Encode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233ca0"
+      },
+      {
+        "name": "?Read@GASCII85Encode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233ca8"
+      },
+      {
+        "name": "?Read@GPNGNoneEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233cb0"
+      },
+      {
+        "name": "?Reset@GPNGNoneEncode@@UEAAXXZ",
+        "address": "0x180233cb8"
+      },
+      {
+        "name": "?CreateClone@GPNGNoneEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233cc0"
+      },
+      {
+        "name": "?Reset@GLZWEncode@@UEAAXXZ",
+        "address": "0x180233cc8"
+      },
+      {
+        "name": "?CreateClone@GLZWEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233cd0"
+      },
+      {
+        "name": "?Read@GLZWEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233cd8"
+      },
+      {
+        "name": "?Read@GPNGPaethEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233ce0"
+      },
+      {
+        "name": "?Reset@GPNGPaethEncode@@UEAAXXZ",
+        "address": "0x180233ce8"
+      },
+      {
+        "name": "?CreateClone@GPNGPaethEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233cf0"
+      },
+      {
+        "name": "??1GRunLengthEncode@@UEAA@XZ",
+        "address": "0x180233cf8"
+      },
+      {
+        "name": "??0GRunLengthEncode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233d00"
+      },
+      {
+        "name": "??0GRunLengthEncode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233d08"
+      },
+      {
+        "name": "??1GRunLengthDecode@@UEAA@XZ",
+        "address": "0x180233d10"
+      },
+      {
+        "name": "??0GRunLengthDecode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233d18"
+      },
+      {
+        "name": "??0GRunLengthDecode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233d20"
+      },
+      {
+        "name": "??1GPNGUpEncode@@UEAA@XZ",
+        "address": "0x180233d28"
+      },
+      {
+        "name": "??0GPNGUpEncode@@QEAA@PEAVGInStream@@JJJ@Z",
+        "address": "0x180233d30"
+      }
+    ]
+  },
+  {
+    "dll": "JBIG2SupportLayer.dll",
+    "functions": [
+      {
+        "name": "?Initialize@GJBIG2SupportLayer@@SA_NXZ",
+        "address": "0x180233d40"
+      },
+      {
+        "name": "?Finalize@GJBIG2SupportLayer@@SAXXZ",
+        "address": "0x180233d48"
+      },
+      {
+        "name": "??0GJBIG2Decode@@QEAA@AEAVGInStream@@0@Z",
+        "address": "0x180233d50"
+      },
+      {
+        "name": "??0GJBIG2Decode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233d58"
+      },
+      {
+        "name": "??0GJBIG2Decode@@QEAA@PEAVGInStream@@0@Z",
+        "address": "0x180233d60"
+      },
+      {
+        "name": "??1GJBIG2Decode@@UEAA@XZ",
+        "address": "0x180233d68"
+      },
+      {
+        "name": "?CreateClone@GJBIG2Decode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233d70"
+      },
+      {
+        "name": "?Reset@GJBIG2Decode@@UEAAXXZ",
+        "address": "0x180233d78"
+      },
+      {
+        "name": "?Read@GJBIG2Decode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233d80"
+      }
+    ]
+  },
+  {
+    "dll": "WS2_32.dll",
+    "functions": [
+      {
+        "name": "closesocket",
+        "address": "0x180234410"
+      },
+      {
+        "name": "send",
+        "address": "0x180234418"
+      },
+      {
+        "name": "recv",
+        "address": "0x180234420"
+      },
+      {
+        "name": "WSASetLastError",
+        "address": "0x180234428"
+      },
+      {
+        "name": "getservbyname",
+        "address": "0x180234430"
+      },
+      {
+        "name": "connect",
+        "address": "0x180234438"
+      },
+      {
+        "name": "gethostbyaddr",
+        "address": "0x180234440"
+      },
+      {
+        "name": "inet_ntoa",
+        "address": "0x180234448"
+      },
+      {
+        "name": "inet_addr",
+        "address": "0x180234450"
+      },
+      {
+        "name": "htons",
+        "address": "0x180234458"
+      },
+      {
+        "name": "htonl",
+        "address": "0x180234460"
+      },
+      {
+        "name": "WSAGetLastError",
+        "address": "0x180234468"
+      },
+      {
+        "name": "WSACleanup",
+        "address": "0x180234470"
+      },
+      {
+        "name": "WSAStartup",
+        "address": "0x180234478"
+      },
+      {
+        "name": "gethostbyname",
+        "address": "0x180234480"
+      },
+      {
+        "name": "getservbyport",
+        "address": "0x180234488"
+      },
+      {
+        "name": "setsockopt",
+        "address": "0x180234490"
+      },
+      {
+        "name": "socket",
+        "address": "0x180234498"
+      },
+      {
+        "name": "getsockname",
+        "address": "0x1802344a0"
+      },
+      {
+        "name": "shutdown",
+        "address": "0x1802344a8"
+      },
+      {
+        "name": "getpeername",
+        "address": "0x1802344b0"
+      },
+      {
+        "name": "recvfrom",
+        "address": "0x1802344b8"
+      },
+      {
+        "name": "getsockopt",
+        "address": "0x1802344c0"
+      },
+      {
+        "name": "ntohs",
+        "address": "0x1802344c8"
+      },
+      {
+        "name": "sendto",
+        "address": "0x1802344d0"
+      },
+      {
+        "name": "select",
+        "address": "0x1802344d8"
+      },
+      {
+        "name": "ioctlsocket",
+        "address": "0x1802344e0"
+      }
+    ]
+  },
+  {
+    "dll": "ADVAPI32.dll",
+    "functions": [
+      {
+        "name": "CryptEnumProvidersW",
+        "address": "0x180233000"
+      },
+      {
+        "name": "CryptSignHashW",
+        "address": "0x180233008"
+      },
+      {
+        "name": "CryptDestroyHash",
+        "address": "0x180233010"
+      },
+      {
+        "name": "CryptCreateHash",
+        "address": "0x180233018"
+      },
+      {
+        "name": "CryptDecrypt",
+        "address": "0x180233020"
+      },
+      {
+        "name": "CryptExportKey",
+        "address": "0x180233028"
+      },
+      {
+        "name": "CryptGetUserKey",
+        "address": "0x180233030"
+      },
+      {
+        "name": "CryptGetProvParam",
+        "address": "0x180233038"
+      },
+      {
+        "name": "CryptSetHashParam",
+        "address": "0x180233040"
+      },
+      {
+        "name": "CryptDestroyKey",
+        "address": "0x180233048"
+      },
+      {
+        "name": "CryptReleaseContext",
+        "address": "0x180233050"
+      },
+      {
+        "name": "CryptAcquireContextW",
+        "address": "0x180233058"
+      },
+      {
+        "name": "ReportEventW",
+        "address": "0x180233060"
+      },
+      {
+        "name": "RegisterEventSourceW",
+        "address": "0x180233068"
+      },
+      {
+        "name": "DeregisterEventSource",
+        "address": "0x180233070"
+      }
+    ]
+  },
+  {
+    "dll": "CRYPT32.dll",
+    "functions": [
+      {
+        "name": "CertGetCertificateContextProperty",
+        "address": "0x1802339d0"
+      },
+      {
+        "name": "CertFreeCertificateContext",
+        "address": "0x1802339d8"
+      },
+      {
+        "name": "CertDuplicateCertificateContext",
+        "address": "0x1802339e0"
+      },
+      {
+        "name": "CertOpenSystemStoreW",
+        "address": "0x1802339e8"
+      },
+      {
+        "name": "CertEnumCertificatesInStore",
+        "address": "0x1802339f0"
+      },
+      {
+        "name": "CertCloseStore",
+        "address": "0x1802339f8"
+      },
+      {
+        "name": "CertOpenStore",
+        "address": "0x180233a00"
+      },
+      {
+        "name": "CertFindCertificateInStore",
+        "address": "0x180233a08"
+      }
+    ]
+  },
+  {
+    "dll": "USER32.dll",
+    "functions": [
+      {
+        "name": "MessageBoxW",
+        "address": "0x180234338"
+      },
+      {
+        "name": "GetUserObjectInformationW",
+        "address": "0x180234340"
+      },
+      {
+        "name": "GetProcessWindowStation",
+        "address": "0x180234348"
+      },
+      {
+        "name": "LoadStringA",
+        "address": "0x180234350"
+      }
+    ]
+  },
+  {
+    "dll": "bcrypt.dll",
+    "functions": [
+      {
+        "name": "BCryptGenRandom",
+        "address": "0x180234750"
+      }
+    ]
+  },
+  {
+    "dll": "BasicFrameworkCoreLayer.dll",
+    "functions": [
+      {
+        "name": "?WriteNBits@GBitWriter@@QEAAXKK@Z",
+        "address": "0x1802330d0"
+      },
+      {
+        "name": "?WriteNBits@GBitWriter@@QEAAX_KK@Z",
+        "address": "0x1802330d8"
+      },
+      {
+        "name": "??1GBitWriter@@QEAA@XZ",
+        "address": "0x1802330e0"
+      },
+      {
+        "name": "??0GBitWriter@@QEAA@AEAVGOutStream@@@Z",
+        "address": "0x1802330e8"
+      },
+      {
+        "name": "??0GPartialInStream@@QEAA@AEAVGInStream@@_J1@Z",
+        "address": "0x1802330f0"
+      },
+      {
+        "name": "?SetLength@PWin32FileImp@@QEAAX_J@Z",
+        "address": "0x1802330f8"
+      },
+      {
+        "name": "?GetSubBuffer@GBuffer@@QEBAXAEAV1@JJ@Z",
+        "address": "0x180233100"
+      },
+      {
+        "name": "?GetReal@GBuffer@@QEBANXZ",
+        "address": "0x180233108"
+      },
+      {
+        "name": "?SetFromStatic@GBuffer@@QEAAXPEBDJJ@Z",
+        "address": "0x180233110"
+      },
+      {
+        "name": "?SetFilePosition@PWin32FileImp@@IEBAXXZ",
+        "address": "0x180233118"
+      },
+      {
+        "name": "?Write@PWin32FileImp@@QEAAJAEBVGBuffer@@@Z",
+        "address": "0x180233120"
+      },
+      {
+        "name": "?Read@PWin32FileImp@@QEBAJAEAVGBuffer@@J@Z",
+        "address": "0x180233128"
+      },
+      {
+        "name": "?Open@PWin32FileImp@@QEAAXJ@Z",
+        "address": "0x180233130"
+      },
+      {
+        "name": "?UnSubscribe@?$GReceiver@VGEmptyMessage@@@@MEAAXJ@Z",
+        "address": "0x180233138"
+      },
+      {
+        "name": "?Skip@GPartialInStream@@UEAA_J_J@Z",
+        "address": "0x180233140"
+      },
+      {
+        "name": "?Read@GPartialInStream@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233148"
+      },
+      {
+        "name": "?Reset@GPartialInStream@@UEAAXXZ",
+        "address": "0x180233150"
+      },
+      {
+        "name": "?CreateClone@GPartialInStream@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233158"
+      },
+      {
+        "name": "??1GRecursionLock@@QEAA@XZ",
+        "address": "0x180233160"
+      },
+      {
+        "name": "?WriteNIdenticalBits@GBitWriter@@QEAAXKK@Z",
+        "address": "0x180233168"
+      },
+      {
+        "name": "??0GPartialInStream@@QEAA@PEAVGInStream@@_J1@Z",
+        "address": "0x180233170"
+      },
+      {
+        "name": "??0?$GReceiver@VGEmptyMessage@@@@QEAA@XZ",
+        "address": "0x180233178"
+      },
+      {
+        "name": "?Subscribe@?$GReceiver@VGEmptyMessage@@@@MEAAXJ@Z",
+        "address": "0x180233180"
+      },
+      {
+        "name": "??1?$GReceiver@VGEmptyMessage@@@@UEAA@XZ",
+        "address": "0x180233188"
+      },
+      {
+        "name": "?Write@GMemoryOutStream@@UEAAJAEBVGBuffer@@@Z",
+        "address": "0x180233190"
+      },
+      {
+        "name": "??1GMemoryOutStream@@UEAA@XZ",
+        "address": "0x180233198"
+      },
+      {
+        "name": "??0GMemoryOutStream@@QEAA@AEAVGBuffer@@@Z",
+        "address": "0x1802331a0"
+      },
+      {
+        "name": "?SetMoreMemoryFree@GAllocator@@QEAAX_N@Z",
+        "address": "0x1802331a8"
+      },
+      {
+        "name": "?Set@GBuffer@@QEAAXPEBEJ@Z",
+        "address": "0x1802331b0"
+      },
+      {
+        "name": "??0GLngString@@QEAA@J@Z",
+        "address": "0x1802331b8"
+      },
+      {
+        "name": "?GetLength@GFileInStream@@UEBA_JXZ",
+        "address": "0x1802331c0"
+      },
+      {
+        "name": "?Read@GFileInStream@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802331c8"
+      },
+      {
+        "name": "?Skip@GFileInStream@@UEAA_J_J@Z",
+        "address": "0x1802331d0"
+      },
+      {
+        "name": "?Reset@GFileInStream@@UEAAXXZ",
+        "address": "0x1802331d8"
+      },
+      {
+        "name": "?CreateClone@GFileInStream@@UEBAPEAVGInStream@@XZ",
+        "address": "0x1802331e0"
+      },
+      {
+        "name": "?CopyStream@GStreamSupport@@SA_JAEAVGInStream@@AEAVGOutStream@@@Z",
+        "address": "0x1802331e8"
+      },
+      {
+        "name": "??1GProgress@@QEAA@XZ",
+        "address": "0x1802331f0"
+      },
+      {
+        "name": "??0GProgress@@QEAA@N@Z",
+        "address": "0x1802331f8"
+      },
+      {
+        "name": "??0GFileOutStream@@QEAA@PEAV?$GFileBase@VPWin32FileImp@@@@@Z",
+        "address": "0x180233200"
+      },
+      {
+        "name": "??1GFileInStream@@UEAA@XZ",
+        "address": "0x180233208"
+      },
+      {
+        "name": "?NextByteBoundary@GBitWriter@@QEAAXXZ",
+        "address": "0x180233210"
+      },
+      {
+        "name": "??0GSimpleException@@QEAA@J@Z",
+        "address": "0x180233218"
+      },
+      {
+        "name": "??1GSimpleException@@UEAA@XZ",
+        "address": "0x180233220"
+      },
+      {
+        "name": "??0GSimpleException@@QEAA@AEBV0@@Z",
+        "address": "0x180233228"
+      },
+      {
+        "name": "??0GOutStream@@QEAA@XZ",
+        "address": "0x180233230"
+      },
+      {
+        "name": "??1GOutStream@@UEAA@XZ",
+        "address": "0x180233238"
+      },
+      {
+        "name": "?Skip@GOutStream@@UEAA_J_J@Z",
+        "address": "0x180233240"
+      },
+      {
+        "name": "?Reset@GOutStream@@UEAAXXZ",
+        "address": "0x180233248"
+      },
+      {
+        "name": "??1GPartialInStream@@UEAA@XZ",
+        "address": "0x180233250"
+      },
+      {
+        "name": "?Flush@GOutStream@@UEAAXXZ",
+        "address": "0x180233258"
+      },
+      {
+        "name": "??0GFileInStream@@QEAA@AEBV?$GSmartPtr@V?$GFileBase@VPWin32FileImp@@@@@@@Z",
+        "address": "0x180233260"
+      },
+      {
+        "name": "??0GFileInStream@@QEAA@AEBVGPathName@@@Z",
+        "address": "0x180233268"
+      },
+      {
+        "name": "?Flush@GBufferedOutStreamDecorator@@UEAAXXZ",
+        "address": "0x180233270"
+      },
+      {
+        "name": "??1GBufferedOutStreamDecorator@@UEAA@XZ",
+        "address": "0x180233278"
+      },
+      {
+        "name": "??0GBufferedOutStreamDecorator@@QEAA@PEAVGOutStream@@J@Z",
+        "address": "0x180233280"
+      },
+      {
+        "name": "??0GBufferedOutStreamDecorator@@QEAA@AEAVGOutStream@@J@Z",
+        "address": "0x180233288"
+      },
+      {
+        "name": "?GetFilePosition@PWin32FileImp@@IEBA_JXZ",
+        "address": "0x180233290"
+      },
+      {
+        "name": "?Reopen@PWin32FileImp@@IEAAXJ@Z",
+        "address": "0x180233298"
+      },
+      {
+        "name": "?GetLength@PWin32FileImp@@QEBA_JXZ",
+        "address": "0x1802332a0"
+      },
+      {
+        "name": "?Close@PWin32FileImp@@QEAAXXZ",
+        "address": "0x1802332a8"
+      },
+      {
+        "name": "??0PWin32FileImp@@QEAA@XZ",
+        "address": "0x1802332b0"
+      },
+      {
+        "name": "?IsSameFileOrFolder@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@0_N@Z",
+        "address": "0x1802332b8"
+      },
+      {
+        "name": "?SetFileType@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEAVGPathName@@AEBVGFileType@@_N@Z",
+        "address": "0x1802332c0"
+      },
+      {
+        "name": "?FileInUse@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x1802332c8"
+      },
+      {
+        "name": "?GetObjectLocked@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA?AW4LockedStatus@PWin32FileSystemImp@@AEBVGPathName@@@Z",
+        "address": "0x1802332d0"
+      },
+      {
+        "name": "?CopyAndRenameFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@0_N1@Z",
+        "address": "0x1802332d8"
+      },
+      {
+        "name": "?SetWritable@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@_N@Z",
+        "address": "0x1802332e0"
+      },
+      {
+        "name": "?IsWritable@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x1802332e8"
+      },
+      {
+        "name": "?TryToRemoveFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x1802332f0"
+      },
+      {
+        "name": "?RemoveFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x1802332f8"
+      },
+      {
+        "name": "?FileExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x180233300"
+      },
+      {
+        "name": "?GetDescription@GException@@QEBA?BVGString@@XZ",
+        "address": "0x180233308"
+      },
+      {
+        "name": "?GetBuffer@GStringSupport@@YA_NAEBVGString@@AEAVGBuffer@@@Z",
+        "address": "0x180233310"
+      },
+      {
+        "name": "?Read@GHexEncode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233318"
+      },
+      {
+        "name": "?Reset@GHexEncode@@UEAAXXZ",
+        "address": "0x180233320"
+      },
+      {
+        "name": "?CreateClone@GHexEncode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233328"
+      },
+      {
+        "name": "?Read@GHexDecode@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233330"
+      },
+      {
+        "name": "?Reset@GHexDecode@@UEAAXXZ",
+        "address": "0x180233338"
+      },
+      {
+        "name": "?CreateClone@GHexDecode@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233340"
+      },
+      {
+        "name": "??1GHexDecode@@UEAA@XZ",
+        "address": "0x180233348"
+      },
+      {
+        "name": "??0GHexDecode@@QEAA@PEAVGInStream@@@Z",
+        "address": "0x180233350"
+      },
+      {
+        "name": "??0GHexDecode@@QEAA@AEAVGInStream@@@Z",
+        "address": "0x180233358"
+      },
+      {
+        "name": "??1GHexEncode@@UEAA@XZ",
+        "address": "0x180233360"
+      },
+      {
+        "name": "??0GHexEncode@@QEAA@PEAVGInStream@@_N@Z",
+        "address": "0x180233368"
+      },
+      {
+        "name": "??0GHexEncode@@QEAA@AEAVGInStream@@_N@Z",
+        "address": "0x180233370"
+      },
+      {
+        "name": "?CreateUniqueFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@AEAV2@PEBVGFileType@@_N@Z",
+        "address": "0x180233378"
+      },
+      {
+        "name": "?TryFileExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z",
+        "address": "0x180233380"
+      },
+      {
+        "name": "??1GExceptionLocation@@QEAA@XZ",
+        "address": "0x180233388"
+      },
+      {
+        "name": "??0GExceptionLocation@@QEAA@AEBVGPathName@@@Z",
+        "address": "0x180233390"
+      },
+      {
+        "name": "??0GPathName@@QEAA@VGString@@@Z",
+        "address": "0x180233398"
+      },
+      {
+        "name": "?GetInt@GInStreamTokenizer@@QEBAJXZ",
+        "address": "0x1802333a0"
+      },
+      {
+        "name": "?Replace@GBuffer@@QEAAXJJAEBV1@@Z",
+        "address": "0x1802333a8"
+      },
+      {
+        "name": "?MarkConsolidatePending@GSignalBase@@IEAAXXZ",
+        "address": "0x1802333b0"
+      },
+      {
+        "name": "??0GDelayedMessageBase@@QEAA@XZ",
+        "address": "0x1802333b8"
+      },
+      {
+        "name": "??1GDelayedMessageBase@@UEAA@XZ",
+        "address": "0x1802333c0"
+      },
+      {
+        "name": "?GetInstance@GShiftJISEncoding@@SAPEAVGPlatformEncoding@@XZ",
+        "address": "0x1802333c8"
+      },
+      {
+        "name": "?SetToHexBuffer@GHexSupport@@YAXAEBVGBuffer@@AEAV2@@Z",
+        "address": "0x1802333d0"
+      },
+      {
+        "name": "?SetBuffer@GName@@QEAAXAEBVGBuffer@@@Z",
+        "address": "0x1802333d8"
+      },
+      {
+        "name": "?StripTrailingWhiteSpace@GBufferSupport@@SAAEAVGBuffer@@AEAV2@@Z",
+        "address": "0x1802333e0"
+      },
+      {
+        "name": "?GetBuffer@GString@@QEBA?AVGBuffer@@PEBVGEncoding@@@Z",
+        "address": "0x1802333e8"
+      },
+      {
+        "name": "?Swap@GBuffer@@QEAAXAEAV1@@Z",
+        "address": "0x1802333f0"
+      },
+      {
+        "name": "?GetInt64@GBuffer@@QEBA_JXZ",
+        "address": "0x1802333f8"
+      },
+      {
+        "name": "?cEmptyString@GString@@2V1@B",
+        "address": "0x180233400"
+      },
+      {
+        "name": "?GetLength@GFileOutStream@@UEBA_JXZ",
+        "address": "0x180233408"
+      },
+      {
+        "name": "?Reset@GFileOutStream@@UEAAXXZ",
+        "address": "0x180233410"
+      },
+      {
+        "name": "?Skip@GFileOutStream@@UEAA_J_J@Z",
+        "address": "0x180233418"
+      },
+      {
+        "name": "?Flush@GFileOutStream@@UEAAXXZ",
+        "address": "0x180233420"
+      },
+      {
+        "name": "?Write@GFileOutStream@@UEAAJAEBVGBuffer@@@Z",
+        "address": "0x180233428"
+      },
+      {
+        "name": "?Match@GRegExpSupport@@YA_NAEBVGBuffer@@0@Z",
+        "address": "0x180233430"
+      },
+      {
+        "name": "?SetDefault@GPreferences@@SAXJAEBVGBuffer@@0AEBVGString@@@Z",
+        "address": "0x180233438"
+      },
+      {
+        "name": "?GetInt32@GPreferences@@SAJAEBVGBuffer@@0@Z",
+        "address": "0x180233440"
+      },
+      {
+        "name": "?Get@GPreferences@@SAAEBVGString@@AEBVGBuffer@@0@Z",
+        "address": "0x180233448"
+      },
+      {
+        "name": "??1GFileOutStream@@UEAA@XZ",
+        "address": "0x180233450"
+      },
+      {
+        "name": "??0GFileOutStream@@QEAA@AEBVGPathName@@_N@Z",
+        "address": "0x180233458"
+      },
+      {
+        "name": "?GetSpecialPath@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA?AVGPathName@@J@Z",
+        "address": "0x180233460"
+      },
+      {
+        "name": "?CreateUniqueFolder@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@AEAV2@@Z",
+        "address": "0x180233468"
+      },
+      {
+        "name": "?RemoveFolder@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@JJ@Z",
+        "address": "0x180233470"
+      },
+      {
+        "name": "?CheckForErrors@PWin32SystemException@@SAXJ@Z",
+        "address": "0x180233478"
+      },
+      {
+        "name": "??K@YA?AVGPathName@@AEBV0@0@Z",
+        "address": "0x180233480"
+      },
+      {
+        "name": "?GetBranch@GPathName@@QEBA?AV1@XZ",
+        "address": "0x180233488"
+      },
+      {
+        "name": "?GetNativePathString@GPathName@@QEBA?AVGString@@XZ",
+        "address": "0x180233490"
+      },
+      {
+        "name": "?SetCrossPlatformString@GPathName@@UEAAXVGString@@@Z",
+        "address": "0x180233498"
+      },
+      {
+        "name": "?GetCrossPlatformString@GPathName@@UEBAAEBVGString@@XZ",
+        "address": "0x1802334a0"
+      },
+      {
+        "name": "??4GPathName@@QEAAAEAV0@$$QEAV0@@Z",
+        "address": "0x1802334a8"
+      },
+      {
+        "name": "??0GPathName@@QEAA@PEBD@Z",
+        "address": "0x1802334b0"
+      },
+      {
+        "name": "?AssignEncoding@GStringSupport@@YA_NAEBVGBuffer@@AEAVGString@@@Z",
+        "address": "0x1802334b8"
+      },
+      {
+        "name": "?EnsureUnicode@GString@@QEBAXXZ",
+        "address": "0x1802334c0"
+      },
+      {
+        "name": "??H@YA?BVGString@@AEBV0@0@Z",
+        "address": "0x1802334c8"
+      },
+      {
+        "name": "??YGString@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x1802334d0"
+      },
+      {
+        "name": "??4GString@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x1802334d8"
+      },
+      {
+        "name": "?SubstituteParams@GString@@QEAAAEAV1@AEBV1@0@Z",
+        "address": "0x1802334e0"
+      },
+      {
+        "name": "?IsEmpty@GString@@QEBA_NXZ",
+        "address": "0x1802334e8"
+      },
+      {
+        "name": "??0GString@@QEAA@N@Z",
+        "address": "0x1802334f0"
+      },
+      {
+        "name": "??0GString@@QEAA@J@Z",
+        "address": "0x1802334f8"
+      },
+      {
+        "name": "??0GString@@QEAA@AEBV0@@Z",
+        "address": "0x180233500"
+      },
+      {
+        "name": "??0GString@@QEAA@PEBD@Z",
+        "address": "0x180233508"
+      },
+      {
+        "name": "??0GString@@QEAA@PEBDPEBVGEncoding@@@Z",
+        "address": "0x180233510"
+      },
+      {
+        "name": "??YGBuffer@@QEAAAEAV0@PEBD@Z",
+        "address": "0x180233518"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@K@Z",
+        "address": "0x180233520"
+      },
+      {
+        "name": "?Finalize@GBasicFrameworkCoreLayer@@SAXXZ",
+        "address": "0x180233528"
+      },
+      {
+        "name": "?Initialize@GBasicFrameworkCoreLayer@@SA_NXZ",
+        "address": "0x180233530"
+      },
+      {
+        "name": "?GetPlatformCode@PSystem@@SAJXZ",
+        "address": "0x180233538"
+      },
+      {
+        "name": "?Set@?$GMatrixBase@N@@QEAAXNNNNNN@Z",
+        "address": "0x180233540"
+      },
+      {
+        "name": "?AppendByteArray@GBuffer@@QEAAXPEBEJ@Z",
+        "address": "0x180233548"
+      },
+      {
+        "name": "?IsRelative@GPathName@@QEBA_NXZ",
+        "address": "0x180233550"
+      },
+      {
+        "name": "??_0GPathName@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233558"
+      },
+      {
+        "name": "?SetDIPathString@GPathName@@QEAAXAEBVGString@@@Z",
+        "address": "0x180233560"
+      },
+      {
+        "name": "?GetDIPathString@GPathName@@QEBA?AVGString@@XZ",
+        "address": "0x180233568"
+      },
+      {
+        "name": "?SetNativePathString@GPathName@@QEAAXAEBVGString@@@Z",
+        "address": "0x180233570"
+      },
+      {
+        "name": "?Clear@GPathName@@QEAAXXZ",
+        "address": "0x180233578"
+      },
+      {
+        "name": "?AssignEncoding@GStringSupport@@YA_NAEBVGBuffer@@AEAVGString@@AEBV?$GTable@PEAVGEncoding@@@@@Z",
+        "address": "0x180233580"
+      },
+      {
+        "name": "??8@YA_NAEBVGString@@0@Z",
+        "address": "0x180233588"
+      },
+      {
+        "name": "?Set@GString@@QEAAXVGBuffer@@PEBVGEncoding@@@Z",
+        "address": "0x180233590"
+      },
+      {
+        "name": "?Clear@GString@@QEAAXXZ",
+        "address": "0x180233598"
+      },
+      {
+        "name": "?cDefaultSeparators@GInStreamTokenizer@@2V?$GTable@E@@B",
+        "address": "0x1802335a0"
+      },
+      {
+        "name": "?GetCurrentToken@GInStreamTokenizer@@QEBAJXZ",
+        "address": "0x1802335a8"
+      },
+      {
+        "name": "??0GInStreamTokenizer@@QEAA@PEAVGInStream@@AEBV?$GDict@VGBuffer@@K@@AEBV?$GTable@E@@@Z",
+        "address": "0x1802335b0"
+      },
+      {
+        "name": "?FindFirstOccurrence@GBuffer@@QEBAJEJ@Z",
+        "address": "0x1802335b8"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@_J@Z",
+        "address": "0x1802335c0"
+      },
+      {
+        "name": "?GetInstance@GPDFDocEncoding@@SAPEAV1@XZ",
+        "address": "0x1802335c8"
+      },
+      {
+        "name": "?SwapUnicodeBytes@GBufferSupport@@SAXAEAVGBuffer@@@Z",
+        "address": "0x1802335d0"
+      },
+      {
+        "name": "?GetRefCount@GRefCount@@QEBAJXZ",
+        "address": "0x1802335d8"
+      },
+      {
+        "name": "?RealToBuffer@GBufferSupport@@SAXNAEAVGBuffer@@_N@Z",
+        "address": "0x1802335e0"
+      },
+      {
+        "name": "?Set@GBuffer@@QEAAXN@Z",
+        "address": "0x1802335e8"
+      },
+      {
+        "name": "?Set@GBuffer@@QEAAX_J@Z",
+        "address": "0x1802335f0"
+      },
+      {
+        "name": "?GetHash@GBuffer@@QEBAKXZ",
+        "address": "0x1802335f8"
+      },
+      {
+        "name": "??4GInStream@@IEAAAEAV0@$$QEAV0@@Z",
+        "address": "0x180233600"
+      },
+      {
+        "name": "??0GInStream@@IEAA@$$QEAV0@@Z",
+        "address": "0x180233608"
+      },
+      {
+        "name": "??4GInStream@@IEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233610"
+      },
+      {
+        "name": "??0GInStream@@IEAA@AEBV0@@Z",
+        "address": "0x180233618"
+      },
+      {
+        "name": "??1GInStream@@UEAA@XZ",
+        "address": "0x180233620"
+      },
+      {
+        "name": "??0GInStream@@QEAA@XZ",
+        "address": "0x180233628"
+      },
+      {
+        "name": "?Reset@GInStreamConnector@@UEAAXXZ",
+        "address": "0x180233630"
+      },
+      {
+        "name": "?Read@GInStreamConnector@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x180233638"
+      },
+      {
+        "name": "?CreateClone@GInStreamConnector@@UEBAPEAVGInStream@@XZ",
+        "address": "0x180233640"
+      },
+      {
+        "name": "??1GInStreamConnector@@UEAA@XZ",
+        "address": "0x180233648"
+      },
+      {
+        "name": "??0GInStreamConnector@@QEAA@$$QEAV?$vector@V?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@V?$allocator@V?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@@2@@std@@@Z",
+        "address": "0x180233650"
+      },
+      {
+        "name": "?GetString@GStringPool@@SAAEBVGString@@J@Z",
+        "address": "0x180233658"
+      },
+      {
+        "name": "?AddStringPoolData@GStringPoolSupport@@SAXAEBVGBuffer@@PEBDPEAUGStringPoolDataStruct@@J_N@Z",
+        "address": "0x180233660"
+      },
+      {
+        "name": "??0GException@@QEAA@J@Z",
+        "address": "0x180233668"
+      },
+      {
+        "name": "?GetReal@GInStreamTokenizer@@QEBANXZ",
+        "address": "0x180233670"
+      },
+      {
+        "name": "?GetInt64@GInStreamTokenizer@@QEBA_JXZ",
+        "address": "0x180233678"
+      },
+      {
+        "name": "?GetTokenBuffer@GInStreamTokenizer@@QEBAAEBVGBuffer@@XZ",
+        "address": "0x180233680"
+      },
+      {
+        "name": "?GetNextToken@GInStreamTokenizer@@QEAAJXZ",
+        "address": "0x180233688"
+      },
+      {
+        "name": "??1GInStreamTokenizer@@QEAA@XZ",
+        "address": "0x180233690"
+      },
+      {
+        "name": "??0GInStreamTokenizer@@QEAA@AEAVGInStream@@AEBV?$GDict@VGBuffer@@K@@AEBV?$GTable@E@@@Z",
+        "address": "0x180233698"
+      },
+      {
+        "name": "?RollBack@GMemoryInStream@@UEAAJXZ",
+        "address": "0x1802336a0"
+      },
+      {
+        "name": "?SetRollBackPoint@GMemoryInStream@@UEAAXXZ",
+        "address": "0x1802336a8"
+      },
+      {
+        "name": "?Unread@GMemoryInStream@@UEAAJJ@Z",
+        "address": "0x1802336b0"
+      },
+      {
+        "name": "?Read@GMemoryInStream@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802336b8"
+      },
+      {
+        "name": "?Skip@GMemoryInStream@@UEAA_J_J@Z",
+        "address": "0x1802336c0"
+      },
+      {
+        "name": "?Reset@GMemoryInStream@@UEAAXXZ",
+        "address": "0x1802336c8"
+      },
+      {
+        "name": "?CreateClone@GMemoryInStream@@UEBAPEAVGInStream@@XZ",
+        "address": "0x1802336d0"
+      },
+      {
+        "name": "?RollBack@GBufferedInStreamDecorator@@UEAAJXZ",
+        "address": "0x1802336d8"
+      },
+      {
+        "name": "?SetInt@GString@@QEAAXJJ@Z",
+        "address": "0x1802336e0"
+      },
+      {
+        "name": "?SubstituteParams@GString@@QEAAAEAV1@AEBV1@00@Z",
+        "address": "0x1802336e8"
+      },
+      {
+        "name": "?SubstituteParams@GString@@QEAAAEAV1@AEBV1@@Z",
+        "address": "0x1802336f0"
+      },
+      {
+        "name": "??0GExceptionLocation@@QEAA@AEBVGString@@@Z",
+        "address": "0x1802336f8"
+      },
+      {
+        "name": "?Write@GBufferedOutStreamDecorator@@UEAAJAEBVGBuffer@@@Z",
+        "address": "0x180233700"
+      },
+      {
+        "name": "?SetPartialLength@GPartialInStream@@QEAAX_J@Z",
+        "address": "0x180233708"
+      },
+      {
+        "name": "?GetStreamLength@GStreamSupport@@SA_KAEAVGInStream@@@Z",
+        "address": "0x180233710"
+      },
+      {
+        "name": "?GetInstance@GUTF8Encoding@@SAPEAV1@XZ",
+        "address": "0x180233718"
+      },
+      {
+        "name": "??0GString@@QEAA@VGBuffer@@PEBVGEncoding@@@Z",
+        "address": "0x180233720"
+      },
+      {
+        "name": "??0GMemoryInStream@@QEAA@AEBVGBuffer@@@Z",
+        "address": "0x180233728"
+      },
+      {
+        "name": "??1GMemoryInStream@@UEAA@XZ",
+        "address": "0x180233730"
+      },
+      {
+        "name": "?UInt128ModuloUInt64@GMathLib@@YA_K_K00@Z",
+        "address": "0x180233738"
+      },
+      {
+        "name": "?GetInstance@GUnicodeEncoding@@SAPEAV1@XZ",
+        "address": "0x180233740"
+      },
+      {
+        "name": "??0GBufferedInStreamDecorator@@QEAA@PEAVGInStream@@J@Z",
+        "address": "0x180233748"
+      },
+      {
+        "name": "?QueueDelayedSignal@GSignalBase@@KAXPEBVGDelayedMessageBase@@@Z",
+        "address": "0x180233750"
+      },
+      {
+        "name": "?GetInstance@GPlatformEncoding@@SAPEAV1@XZ",
+        "address": "0x180233758"
+      },
+      {
+        "name": "??4GBuffer@@QEAAAEAV0@PEBD@Z",
+        "address": "0x180233760"
+      },
+      {
+        "name": "?GetSubBuffer@GBuffer@@QEBA?AV1@JJ@Z",
+        "address": "0x180233768"
+      },
+      {
+        "name": "?GetWritePtr@GBuffer@@QEAAPEAEXZ",
+        "address": "0x180233770"
+      },
+      {
+        "name": "?Allocate@GBuffer@@QEAAXJ@Z",
+        "address": "0x180233778"
+      },
+      {
+        "name": "?SetLength@GBuffer@@QEAAXJ@Z",
+        "address": "0x180233780"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@PEBEJ@Z",
+        "address": "0x180233788"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@XZ",
+        "address": "0x180233790"
+      },
+      {
+        "name": "?GetFileTypePtr@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAPEBVGFileType@@AEBVGPathName@@@Z",
+        "address": "0x180233798"
+      },
+      {
+        "name": "?GetFromUserID@GFileType@@SAPEBV1@J@Z",
+        "address": "0x1802337a0"
+      },
+      {
+        "name": "?SetRollBackPoint@GBufferedInStreamDecorator@@UEAAXXZ",
+        "address": "0x1802337a8"
+      },
+      {
+        "name": "?Unread@GBufferedInStreamDecorator@@UEAAJJ@Z",
+        "address": "0x1802337b0"
+      },
+      {
+        "name": "?Read@GBufferedInStreamDecorator@@UEAAJAEAVGBuffer@@J@Z",
+        "address": "0x1802337b8"
+      },
+      {
+        "name": "?Reset@GBufferedInStreamDecorator@@UEAAXXZ",
+        "address": "0x1802337c0"
+      },
+      {
+        "name": "?CreateClone@GBufferedInStreamDecorator@@UEBAPEAVGInStream@@XZ",
+        "address": "0x1802337c8"
+      },
+      {
+        "name": "?Skip@GInStream@@UEAA_J_J@Z",
+        "address": "0x1802337d0"
+      },
+      {
+        "name": "?PrepareString@GSASLPrep@@YA_NAEBVGBuffer@@AEAV2@_N@Z",
+        "address": "0x1802337d8"
+      },
+      {
+        "name": "??0GRefCount@@QEAA@XZ",
+        "address": "0x1802337e0"
+      },
+      {
+        "name": "??1GRefCount@@UEAA@XZ",
+        "address": "0x1802337e8"
+      },
+      {
+        "name": "?Acquire@GRefCount@@QEBAXXZ",
+        "address": "0x1802337f0"
+      },
+      {
+        "name": "?Release@GRefCount@@QEBAXXZ",
+        "address": "0x1802337f8"
+      },
+      {
+        "name": "??2GFastAllocatable@@SAPEAX_K@Z",
+        "address": "0x180233800"
+      },
+      {
+        "name": "??3GFastAllocatable@@SAXPEAX_K@Z",
+        "address": "0x180233808"
+      },
+      {
+        "name": "??3GFastAllocatable@@SAXPEAX0@Z",
+        "address": "0x180233810"
+      },
+      {
+        "name": "?GetInstance@GAllocator@@SAAEAV1@XZ",
+        "address": "0x180233818"
+      },
+      {
+        "name": "?Alloc@GAllocator@@QEAAPEAX_K@Z",
+        "address": "0x180233820"
+      },
+      {
+        "name": "?Free@GAllocator@@QEAAXPEAX_K@Z",
+        "address": "0x180233828"
+      },
+      {
+        "name": "??__M@YA?AUstrong_ordering@std@@AEBVGBuffer@@0@Z",
+        "address": "0x180233830"
+      },
+      {
+        "name": "?GetAllocation@GDictUtil@@YAJJ@Z",
+        "address": "0x180233838"
+      },
+      {
+        "name": "??1GSignalBase@@UEAA@XZ",
+        "address": "0x180233840"
+      },
+      {
+        "name": "??0GSignalBase@@IEAA@J@Z",
+        "address": "0x180233848"
+      },
+      {
+        "name": "?RegisterSignal@GSignalBase@@KAXPEBV1@@Z",
+        "address": "0x180233850"
+      },
+      {
+        "name": "?GetSignal@GSignalBase@@KAPEAV1@J@Z",
+        "address": "0x180233858"
+      },
+      {
+        "name": "??0GException@@QEAA@AEBV0@@Z",
+        "address": "0x180233860"
+      },
+      {
+        "name": "??4GException@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233868"
+      },
+      {
+        "name": "??1GException@@UEAA@XZ",
+        "address": "0x180233870"
+      },
+      {
+        "name": "?GetLngDescription@GException@@UEBA?BVGLngString@@XZ",
+        "address": "0x180233878"
+      },
+      {
+        "name": "?GetLngFullDescription@GException@@UEBA?BVGLngString@@XZ",
+        "address": "0x180233880"
+      },
+      {
+        "name": "?GetExceptionID@GException@@UEBAJXZ",
+        "address": "0x180233888"
+      },
+      {
+        "name": "??0GName@@QEAA@PEBD@Z",
+        "address": "0x180233890"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@AEBV0@@Z",
+        "address": "0x180233898"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@$$QEAV0@@Z",
+        "address": "0x1802338a0"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@PEBD@Z",
+        "address": "0x1802338a8"
+      },
+      {
+        "name": "??1GBuffer@@QEAA@XZ",
+        "address": "0x1802338b0"
+      },
+      {
+        "name": "??0GBuffer@@QEAA@J@Z",
+        "address": "0x1802338b8"
+      },
+      {
+        "name": "??YGBuffer@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x1802338c0"
+      },
+      {
+        "name": "??H@YA?AVGBuffer@@AEBV0@0@Z",
+        "address": "0x1802338c8"
+      },
+      {
+        "name": "?cEmptyBuffer@GBuffer@@2V1@B",
+        "address": "0x1802338d0"
+      },
+      {
+        "name": "??8@YA_NAEBVGBuffer@@0@Z",
+        "address": "0x1802338d8"
+      },
+      {
+        "name": "?GetPrecision@GLocalPrecisionSetter@@SANXZ",
+        "address": "0x1802338e0"
+      },
+      {
+        "name": "?GetPrecisionType@GLocalPrecisionSetter@@SA?AW4PrecisionType@1@XZ",
+        "address": "0x1802338e8"
+      },
+      {
+        "name": "?AreEqual@GMathLib@@YA_NNNNW4PrecisionType@GLocalPrecisionSetter@@@Z",
+        "address": "0x1802338f0"
+      },
+      {
+        "name": "??1ScopeGuardImplBase@@IEAA@XZ",
+        "address": "0x1802338f8"
+      },
+      {
+        "name": "??0ScopeGuardImplBase@@IEAA@XZ",
+        "address": "0x180233900"
+      },
+      {
+        "name": "?StreamsAreEqual@GStreamSupport@@SA_NAEAVGInStream@@0@Z",
+        "address": "0x180233908"
+      },
+      {
+        "name": "??1GExceptionHandler@@UEAA@XZ",
+        "address": "0x180233910"
+      },
+      {
+        "name": "?Handle@GExceptionHandler@@UEBAXXZ",
+        "address": "0x180233918"
+      },
+      {
+        "name": "??0GExceptionHandler@@QEAA@XZ",
+        "address": "0x180233920"
+      },
+      {
+        "name": "??0GExceptionHandler@@QEAA@AEBV0@@Z",
+        "address": "0x180233928"
+      },
+      {
+        "name": "??4GExceptionHandler@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233930"
+      },
+      {
+        "name": "??0GDateTime@@QEAA@_N@Z",
+        "address": "0x180233938"
+      },
+      {
+        "name": "?SetFromPDFDateTime@GDateTime@@QEAAJAEBVGBuffer@@@Z",
+        "address": "0x180233940"
+      },
+      {
+        "name": "?GetAsPDFDateTime@GDateTime@@QEBAXAEAVGBuffer@@@Z",
+        "address": "0x180233948"
+      },
+      {
+        "name": "?GetPtr@GBuffer@@QEBAPEBEXZ",
+        "address": "0x180233950"
+      },
+      {
+        "name": "?FindSubBuffer@GBuffer@@QEBAJAEBV1@J_N@Z",
+        "address": "0x180233958"
+      },
+      {
+        "name": "??4GBuffer@@QEAAAEAV0@$$QEAV0@@Z",
+        "address": "0x180233960"
+      },
+      {
+        "name": "??YGBuffer@@QEAAAEAV0@E@Z",
+        "address": "0x180233968"
+      },
+      {
+        "name": "??4GBuffer@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233970"
+      },
+      {
+        "name": "??0GPathName@@QEAA@XZ",
+        "address": "0x180233978"
+      },
+      {
+        "name": "??0GPathName@@QEAA@AEBV0@@Z",
+        "address": "0x180233980"
+      },
+      {
+        "name": "??4GPathName@@QEAAAEAV0@AEBV0@@Z",
+        "address": "0x180233988"
+      },
+      {
+        "name": "??1GPathName@@UEAA@XZ",
+        "address": "0x180233990"
+      },
+      {
+        "name": "?GetInstance@GASCIIEncoding@@SAPEAV1@XZ",
+        "address": "0x180233998"
+      },
+      {
+        "name": "??0GString@@QEAA@XZ",
+        "address": "0x1802339a0"
+      },
+      {
+        "name": "??1GString@@QEAA@XZ",
+        "address": "0x1802339a8"
+      },
+      {
+        "name": "?GetBuffer@GString@@QEBAJAEAVGBuffer@@PEBVGEncoding@@@Z",
+        "address": "0x1802339b0"
+      },
+      {
+        "name": "?IsEmpty@GPathName@@QEBA_NXZ",
+        "address": "0x1802339b8"
+      },
+      {
+        "name": "??1GBufferedInStreamDecorator@@UEAA@XZ",
+        "address": "0x1802339c0"
+      }
+    ]
+  },
+  {
+    "dll": "KERNEL32.dll",
+    "functions": [
+      {
+        "name": "TlsSetValue",
+        "address": "0x180233ec0"
+      },
+      {
+        "name": "TlsGetValue",
+        "address": "0x180233ec8"
+      },
+      {
+        "name": "TlsAlloc",
+        "address": "0x180233ed0"
+      },
+      {
+        "name": "GetCurrentThreadId",
+        "address": "0x180233ed8"
+      },
+      {
+        "name": "AcquireSRWLockShared",
+        "address": "0x180233ee0"
+      },
+      {
+        "name": "AcquireSRWLockExclusive",
+        "address": "0x180233ee8"
+      },
+      {
+        "name": "ReleaseSRWLockShared",
+        "address": "0x180233ef0"
+      },
+      {
+        "name": "ReleaseSRWLockExclusive",
+        "address": "0x180233ef8"
+      },
+      {
+        "name": "InitializeSRWLock",
+        "address": "0x180233f00"
+      },
+      {
+        "name": "FindClose",
+        "address": "0x180233f08"
+      },
+      {
+        "name": "ReadConsoleA",
+        "address": "0x180233f10"
+      },
+      {
+        "name": "ReadConsoleW",
+        "address": "0x180233f18"
+      },
+      {
+        "name": "SleepConditionVariableSRW",
+        "address": "0x180233f20"
+      },
+      {
+        "name": "RtlCaptureContext",
+        "address": "0x180233f28"
+      },
+      {
+        "name": "GetModuleHandleExW",
+        "address": "0x180233f30"
+      },
+      {
+        "name": "RtlVirtualUnwind",
+        "address": "0x180233f38"
+      },
+      {
+        "name": "UnhandledExceptionFilter",
+        "address": "0x180233f40"
+      },
+      {
+        "name": "SetUnhandledExceptionFilter",
+        "address": "0x180233f48"
+      },
+      {
+        "name": "GetCurrentProcess",
+        "address": "0x180233f50"
+      },
+      {
+        "name": "TerminateProcess",
+        "address": "0x180233f58"
+      },
+      {
+        "name": "IsProcessorFeaturePresent",
+        "address": "0x180233f60"
+      },
+      {
+        "name": "IsDebuggerPresent",
+        "address": "0x180233f68"
+      },
+      {
+        "name": "QueryPerformanceCounter",
+        "address": "0x180233f70"
+      },
+      {
+        "name": "DisableThreadLibraryCalls",
+        "address": "0x180233f78"
+      },
+      {
+        "name": "SetLastError",
+        "address": "0x180233f80"
+      },
+      {
+        "name": "MultiByteToWideChar",
+        "address": "0x180233f88"
+      },
+      {
+        "name": "InitializeSListHead",
+        "address": "0x180233f90"
+      },
+      {
+        "name": "GetModuleHandleW",
+        "address": "0x180233f98"
+      },
+      {
+        "name": "TlsFree",
+        "address": "0x180233fa0"
+      },
+      {
+        "name": "GetCurrentProcessId",
+        "address": "0x180233fa8"
+      },
+      {
+        "name": "GetSystemTimeAsFileTime",
+        "address": "0x180233fb0"
+      },
+      {
+        "name": "VirtualFree",
+        "address": "0x180233fb8"
+      },
+      {
+        "name": "GetEnvironmentVariableW",
+        "address": "0x180233fc0"
+      },
+      {
+        "name": "WideCharToMultiByte",
+        "address": "0x180233fc8"
+      },
+      {
+        "name": "GetACP",
+        "address": "0x180233fd0"
+      },
+      {
+        "name": "GetSystemDirectoryA",
+        "address": "0x180233fd8"
+      },
+      {
+        "name": "GetConsoleMode",
+        "address": "0x180233fe0"
+      },
+      {
+        "name": "SystemTimeToFileTime",
+        "address": "0x180233fe8"
+      },
+      {
+        "name": "GetSystemTime",
+        "address": "0x180233ff0"
+      },
+      {
+        "name": "FindNextFileW",
+        "address": "0x180233ff8"
+      },
+      {
+        "name": "RtlLookupFunctionEntry",
+        "address": "0x180234000"
+      },
+      {
+        "name": "FindFirstFileW",
+        "address": "0x180234008"
+      },
+      {
+        "name": "GetExitCodeThread",
+        "address": "0x180234010"
+      },
+      {
+        "name": "WaitForSingleObject",
+        "address": "0x180234018"
+      },
+      {
+        "name": "SleepConditionVariableCS",
+        "address": "0x180234020"
+      },
+      {
+        "name": "WakeAllConditionVariable",
+        "address": "0x180234028"
+      },
+      {
+        "name": "WakeConditionVariable",
+        "address": "0x180234030"
+      },
+      {
+        "name": "InitializeConditionVariable",
+        "address": "0x180234038"
+      },
+      {
+        "name": "DeleteCriticalSection",
+        "address": "0x180234040"
+      },
+      {
+        "name": "LeaveCriticalSection",
+        "address": "0x180234048"
+      },
+      {
+        "name": "EnterCriticalSection",
+        "address": "0x180234050"
+      },
+      {
+        "name": "InitializeCriticalSection",
+        "address": "0x180234058"
+      },
+      {
+        "name": "LoadLibraryW",
+        "address": "0x180234060"
+      },
+      {
+        "name": "FormatMessageA",
+        "address": "0x180234068"
+      },
+      {
+        "name": "SetConsoleMode",
+        "address": "0x180234070"
+      },
+      {
+        "name": "GetProcAddress",
+        "address": "0x180234078"
+      },
+      {
+        "name": "CloseHandle",
+        "address": "0x180234080"
+      },
+      {
+        "name": "CreateProcessW",
+        "address": "0x180234088"
+      },
+      {
+        "name": "FreeLibrary",
+        "address": "0x180234090"
+      },
+      {
+        "name": "LCMapStringA",
+        "address": "0x180234098"
+      },
+      {
+        "name": "GetStringTypeExA",
+        "address": "0x1802340a0"
+      },
+      {
+        "name": "GetUserDefaultLCID",
+        "address": "0x1802340a8"
+      },
+      {
+        "name": "LoadLibraryA",
+        "address": "0x1802340b0"
+      },
+      {
+        "name": "GetStdHandle",
+        "address": "0x1802340b8"
+      },
+      {
+        "name": "GetFileType",
+        "address": "0x1802340c0"
+      },
+      {
+        "name": "WriteFile",
+        "address": "0x1802340c8"
+      },
+      {
+        "name": "GetLastError",
+        "address": "0x1802340d0"
+      }
+    ]
+  },
+  {
+    "dll": "MSVCP140.dll",
+    "functions": [
+      {
+        "name": "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z",
+        "address": "0x180234100"
+      },
+      {
+        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAJ@Z",
+        "address": "0x180234108"
+      },
+      {
+        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAF@Z",
+        "address": "0x180234110"
+      },
+      {
+        "name": "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+        "address": "0x180234118"
+      },
+      {
+        "name": "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+        "address": "0x180234120"
+      },
+      {
+        "name": "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+        "address": "0x180234128"
+      },
+      {
+        "name": "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+        "address": "0x180234130"
+      },
+      {
+        "name": "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+        "address": "0x180234138"
+      },
+      {
+        "name": "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+        "address": "0x180234140"
+      },
+      {
+        "name": "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z",
+        "address": "0x180234148"
+      },
+      {
+        "name": "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+        "address": "0x180234150"
+      },
+      {
+        "name": "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z",
+        "address": "0x180234158"
+      },
+      {
+        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z",
+        "address": "0x180234160"
+      },
+      {
+        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_J@Z",
+        "address": "0x180234168"
+      },
+      {
+        "name": "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "address": "0x180234170"
+      },
+      {
+        "name": "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+        "address": "0x180234178"
+      },
+      {
+        "name": "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+        "address": "0x180234180"
+      },
+      {
+        "name": "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "address": "0x180234188"
+      },
+      {
+        "name": "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+        "address": "0x180234190"
+      },
+      {
+        "name": "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+        "address": "0x180234198"
+      },
+      {
+        "name": "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z",
+        "address": "0x1802341a0"
+      },
+      {
+        "name": "?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+        "address": "0x1802341a8"
+      },
+      {
+        "name": "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "address": "0x1802341b0"
+      },
+      {
+        "name": "?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+        "address": "0x1802341b8"
+      },
+      {
+        "name": "?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+        "address": "0x1802341c0"
+      },
+      {
+        "name": "?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+        "address": "0x1802341c8"
+      },
+      {
+        "name": "?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+        "address": "0x1802341d0"
+      },
+      {
+        "name": "?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+        "address": "0x1802341d8"
+      },
+      {
+        "name": "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+        "address": "0x1802341e0"
+      },
+      {
+        "name": "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+        "address": "0x1802341e8"
+      },
+      {
+        "name": "?__ExceptionPtrRethrow@@YAXPEBX@Z",
+        "address": "0x1802341f0"
+      },
+      {
+        "name": "?__ExceptionPtrCurrentException@@YAXPEAX@Z",
+        "address": "0x1802341f8"
+      },
+      {
+        "name": "?__ExceptionPtrToBool@@YA_NPEBX@Z",
+        "address": "0x180234200"
+      },
+      {
+        "name": "?__ExceptionPtrAssign@@YAXPEAXPEBX@Z",
+        "address": "0x180234208"
+      },
+      {
+        "name": "?__ExceptionPtrCopy@@YAXPEAXPEBX@Z",
+        "address": "0x180234210"
+      },
+      {
+        "name": "?__ExceptionPtrDestroy@@YAXPEAX@Z",
+        "address": "0x180234218"
+      },
+      {
+        "name": "?__ExceptionPtrCreate@@YAXPEAX@Z",
+        "address": "0x180234220"
+      },
+      {
+        "name": "?_Throw_Cpp_error@std@@YAXH@Z",
+        "address": "0x180234228"
+      },
+      {
+        "name": "_Mtx_unlock",
+        "address": "0x180234230"
+      },
+      {
+        "name": "_Mtx_lock",
+        "address": "0x180234238"
+      },
+      {
+        "name": "?_Xout_of_range@std@@YAXPEBD@Z",
+        "address": "0x180234240"
+      },
+      {
+        "name": "?_Xlength_error@std@@YAXPEBD@Z",
+        "address": "0x180234248"
+      },
+      {
+        "name": "?_Random_device@std@@YAIXZ",
+        "address": "0x180234250"
+      },
+      {
+        "name": "?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+        "address": "0x180234258"
+      }
+    ]
+  },
+  {
+    "dll": "VCRUNTIME140.dll",
+    "functions": [
+      {
+        "name": "__std_type_info_destroy_list",
+        "address": "0x180234360"
+      },
+      {
+        "name": "__C_specific_handler",
+        "address": "0x180234368"
+      },
+      {
+        "name": "__current_exception_context",
+        "address": "0x180234370"
+      },
+      {
+        "name": "__current_exception",
+        "address": "0x180234378"
+      },
+      {
+        "name": "memchr",
+        "address": "0x180234380"
+      },
+      {
+        "name": "_purecall",
+        "address": "0x180234388"
+      },
+      {
+        "name": "strrchr",
+        "address": "0x180234390"
+      },
+      {
+        "name": "strchr",
+        "address": "0x180234398"
+      },
+      {
+        "name": "wcsstr",
+        "address": "0x1802343a0"
+      },
+      {
+        "name": "memset",
+        "address": "0x1802343a8"
+      },
+      {
+        "name": "memcmp",
+        "address": "0x1802343b0"
+      },
+      {
+        "name": "__std_type_info_compare",
+        "address": "0x1802343b8"
+      },
+      {
+        "name": "__std_exception_destroy",
+        "address": "0x1802343c0"
+      },
+      {
+        "name": "__std_exception_copy",
+        "address": "0x1802343c8"
+      },
+      {
+        "name": "memmove",
+        "address": "0x1802343d0"
+      },
+      {
+        "name": "memcpy",
+        "address": "0x1802343d8"
+      },
+      {
+        "name": "_CxxThrowException",
+        "address": "0x1802343e0"
+      },
+      {
+        "name": "strstr",
+        "address": "0x1802343e8"
+      },
+      {
+        "name": "__std_terminate",
+        "address": "0x1802343f0"
+      }
+    ]
+  },
+  {
+    "dll": "VCRUNTIME140_1.dll",
+    "functions": [
+      {
+        "name": "__CxxFrameHandler4",
+        "address": "0x180234400"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-math-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "ceil",
+        "address": "0x180234560"
+      },
+      {
+        "name": "pow",
+        "address": "0x180234568"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "_register_onexit_function",
+        "address": "0x180234578"
+      },
+      {
+        "name": "_initialize_onexit_table",
+        "address": "0x180234580"
+      },
+      {
+        "name": "_execute_onexit_table",
+        "address": "0x180234588"
+      },
+      {
+        "name": "_configure_narrow_argv",
+        "address": "0x180234590"
+      },
+      {
+        "name": "_seh_filter_dll",
+        "address": "0x180234598"
+      },
+      {
+        "name": "_crt_atexit",
+        "address": "0x1802345a0"
+      },
+      {
+        "name": "terminate",
+        "address": "0x1802345a8"
+      },
+      {
+        "name": "_cexit",
+        "address": "0x1802345b0"
+      },
+      {
+        "name": "signal",
+        "address": "0x1802345b8"
+      },
+      {
+        "name": "_errno",
+        "address": "0x1802345c0"
+      },
+      {
+        "name": "exit",
+        "address": "0x1802345c8"
+      },
+      {
+        "name": "_invalid_parameter_noinfo_noreturn",
+        "address": "0x1802345d0"
+      },
+      {
+        "name": "_exit",
+        "address": "0x1802345d8"
+      },
+      {
+        "name": "_beginthreadex",
+        "address": "0x1802345e0"
+      },
+      {
+        "name": "_initterm",
+        "address": "0x1802345e8"
+      },
+      {
+        "name": "strerror_s",
+        "address": "0x1802345f0"
+      },
+      {
+        "name": "_initterm_e",
+        "address": "0x1802345f8"
+      },
+      {
+        "name": "_initialize_narrow_environment",
+        "address": "0x180234600"
+      },
+      {
+        "name": "raise",
+        "address": "0x180234608"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "realloc",
+        "address": "0x180234530"
+      },
+      {
+        "name": "_callnewh",
+        "address": "0x180234538"
+      },
+      {
+        "name": "free",
+        "address": "0x180234540"
+      },
+      {
+        "name": "calloc",
+        "address": "0x180234548"
+      },
+      {
+        "name": "malloc",
+        "address": "0x180234550"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "__acrt_iob_func",
+        "address": "0x180234618"
+      },
+      {
+        "name": "__stdio_common_vsscanf",
+        "address": "0x180234620"
+      },
+      {
+        "name": "__stdio_common_vsprintf_s",
+        "address": "0x180234628"
+      },
+      {
+        "name": "_wfopen",
+        "address": "0x180234630"
+      },
+      {
+        "name": "fputs",
+        "address": "0x180234638"
+      },
+      {
+        "name": "__stdio_common_vfprintf",
+        "address": "0x180234640"
+      },
+      {
+        "name": "_setmode",
+        "address": "0x180234648"
+      },
+      {
+        "name": "setvbuf",
+        "address": "0x180234650"
+      },
+      {
+        "name": "fwrite",
+        "address": "0x180234658"
+      },
+      {
+        "name": "ftell",
+        "address": "0x180234660"
+      },
+      {
+        "name": "fseek",
+        "address": "0x180234668"
+      },
+      {
+        "name": "fread",
+        "address": "0x180234670"
+      },
+      {
+        "name": "_fileno",
+        "address": "0x180234678"
+      },
+      {
+        "name": "fgets",
+        "address": "0x180234680"
+      },
+      {
+        "name": "fflush",
+        "address": "0x180234688"
+      },
+      {
+        "name": "ferror",
+        "address": "0x180234690"
+      },
+      {
+        "name": "feof",
+        "address": "0x180234698"
+      },
+      {
+        "name": "fclose",
+        "address": "0x1802346a0"
+      },
+      {
+        "name": "__stdio_common_vswprintf",
+        "address": "0x1802346a8"
+      },
+      {
+        "name": "__stdio_common_vsprintf",
+        "address": "0x1802346b0"
+      },
+      {
+        "name": "fopen",
+        "address": "0x1802346b8"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-utility-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "qsort",
+        "address": "0x180234740"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-string-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "strspn",
+        "address": "0x1802346c8"
+      },
+      {
+        "name": "strncpy_s",
+        "address": "0x1802346d0"
+      },
+      {
+        "name": "strcmp",
+        "address": "0x1802346d8"
+      },
+      {
+        "name": "isspace",
+        "address": "0x1802346e0"
+      },
+      {
+        "name": "strcspn",
+        "address": "0x1802346e8"
+      },
+      {
+        "name": "isdigit",
+        "address": "0x1802346f0"
+      },
+      {
+        "name": "tolower",
+        "address": "0x1802346f8"
+      },
+      {
+        "name": "strncmp",
+        "address": "0x180234700"
+      },
+      {
+        "name": "strncpy",
+        "address": "0x180234708"
+      },
+      {
+        "name": "strcpy_s",
+        "address": "0x180234710"
+      },
+      {
+        "name": "strcat_s",
+        "address": "0x180234718"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-time-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "_time64",
+        "address": "0x180234728"
+      },
+      {
+        "name": "_gmtime64_s",
+        "address": "0x180234730"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "strtoul",
+        "address": "0x1802344f0"
+      },
+      {
+        "name": "strtol",
+        "address": "0x1802344f8"
+      },
+      {
+        "name": "atoi",
+        "address": "0x180234500"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-environment-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "getenv",
+        "address": "0x180234510"
+      }
+    ]
+  },
+  {
+    "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+    "functions": [
+      {
+        "name": "_stat64i32",
+        "address": "0x180234520"
+      }
+    ]
+  }
+]

@@ -1,0 +1,241 @@
+requested=0x180166b70
+resolvedAddress=180166b70
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180166b70 FUN_180166b70
+status=OK
+entry=180166b70
+name=FUN_180166b70
+qualifiedName=FUN_180166b70
+namespace=Global
+signature=undefined FUN_180166b70()
+returnType=undefined
+parameterCount=0
+bodyMin=180166b70
+bodyMax=180166d62
+bodySize=499
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180488370 refType=DATA fromFunction=
+180170067 refType=UNCONDITIONAL_CALL fromFunction=18016ff90 FUN_18016ff90
+
+[CALLERS]
+18016ff90 FUN_18016ff90
+
+[CALLEES]
+EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18012e7c0 DocumentMarks::PDFPlusBearerBar::SetSizeReference
+18001e720 DocumentMarks::PDFPlusBearerBar::SetExtend
+EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+
+[DIRECT_CALL_TARGETS]
+180166b88 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180166b9b -> EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+180166bb2 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180166bc7 -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+180166bda -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166be2 -> 180166bee FUN_180166b70
+180166be9 -> 180166cad FUN_180166b70
+180166bf8 -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c00 -> 180166c0c FUN_180166b70
+180166c07 -> 180166cad FUN_180166b70
+180166c16 -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c1e -> 180166c2a FUN_180166b70
+180166c25 -> 180166cad FUN_180166b70
+180166c34 -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c3c -> 180166c45 FUN_180166b70
+180166c43 -> 180166cad FUN_180166b70
+180166c4f -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c57 -> 180166c60 FUN_180166b70
+180166c5e -> 180166cad FUN_180166b70
+180166c6a -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c72 -> 180166c7b FUN_180166b70
+180166c79 -> 180166cad FUN_180166b70
+180166c85 -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166c8d -> 180166c96 FUN_180166b70
+180166c94 -> 180166cad FUN_180166b70
+180166ca0 -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+180166cb0 -> 18012e7c0 DocumentMarks::PDFPlusBearerBar::SetSizeReference
+180166cbb -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+180166cd0 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180166ce0 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+180166ce8 -> 180166d29 FUN_180166b70
+180166cf6 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180166d0b -> EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+180166d15 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180166d23 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180166d45 -> 18001e720 DocumentMarks::PDFPlusBearerBar::SetExtend
+180166d50 -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+
+[STRINGS_REFERENCED]
+180312740 "Reference"
+18031a3a8 "LeftMostGridLayout"
+18031a3c0 "RightMostGridLayout"
+18031a3d8 "LeftMostGridLayoutColumn"
+18031a3f8 "RightMostGridLayoutColumn"
+18031a418 "TopMostGridLayout"
+18031a430 "BottomMostGridLayout"
+18031a448 "TopMostGridLayoutRow"
+18031a460 "BottomMostGridLayoutRow"
+18031a790 "Extends"
+
+[DATA_XREFS_FROM_BODY]
+180166b78 -> Stack[-0x28] block=? sym=
+180166b83 -> Stack[0x18] block=? sym=
+180166b88 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180166b8e -> Stack[0x18] block=? sym=
+180166b93 -> Stack[0x8] block=? sym=
+180166b9b -> 1802f3858 block=.rdata sym=PTR_GetDict_1802f3858
+180166ba6 -> 180312740 block=.rdata sym=s_Reference_180312740
+180166bad -> Stack[0x20] block=? sym=
+180166bb2 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180166bb8 -> Stack[0x20] block=? sym=
+180166bbd -> Stack[-0x38] block=? sym=
+180166bc2 -> Stack[0x8] block=? sym=
+180166bc7 -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+180166bd0 -> 18031a3a8 block=.rdata sym=s_LeftMostGridLayout_18031a3a8
+180166bda -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166bee -> 18031a3c0 block=.rdata sym=s_RightMostGridLayout_18031a3c0
+180166bf8 -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c0c -> 18031a3d8 block=.rdata sym=s_LeftMostGridLayoutColumn_18031a3d8
+180166c16 -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c2a -> 18031a3f8 block=.rdata sym=s_RightMostGridLayoutColumn_18031a3f8
+180166c34 -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c45 -> 18031a418 block=.rdata sym=s_TopMostGridLayout_18031a418
+180166c4f -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c60 -> 18031a430 block=.rdata sym=s_BottomMostGridLayout_18031a430
+180166c6a -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c7b -> 18031a448 block=.rdata sym=s_TopMostGridLayoutRow_18031a448
+180166c85 -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166c96 -> 18031a460 block=.rdata sym=s_BottomMostGridLayoutRow_18031a460
+180166ca0 -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+180166cb6 -> Stack[-0x38] block=? sym=
+180166cbb -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+180166cc4 -> 18031a790 block=.rdata sym=s_Extends_18031a790
+180166ccb -> Stack[0x20] block=? sym=
+180166cd0 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180166cd6 -> Stack[0x20] block=? sym=
+180166cdb -> Stack[0x8] block=? sym=
+180166ce0 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+180166cea -> 18031a790 block=.rdata sym=s_Extends_18031a790
+180166cf1 -> Stack[0x20] block=? sym=
+180166cf6 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180166cfc -> Stack[0x20] block=? sym=
+180166d01 -> Stack[-0x38] block=? sym=
+180166d06 -> Stack[0x8] block=? sym=
+180166d0b -> 1802f36b8 block=.rdata sym=PTR_GetNumber_1802f36b8
+180166d15 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180166d1e -> Stack[-0x38] block=? sym=
+180166d23 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180166d2e -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+180166d36 -> Stack[-0x30] block=? sym=
+180166d3c -> Stack[-0x38] block=? sym=
+180166d4b -> Stack[0x8] block=? sym=
+180166d50 -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+180166d56 -> Stack[-0x28] block=? sym=
+
+[DECOMPILE]
+
+void FUN_180166b70(undefined8 *param_1,char *param_2)
+
+{
+  GADict *this;
+  PDFPlusBearerBar *this_00;
+  GANumber *this_01;
+  bool bVar1;
+  GAName *this_02;
+  SizeReference SVar2;
+  double dVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  GName local_res8 [16];
+  GName local_res18 [8];
+  GName local_res20 [8];
+  GName local_38 [8];
+  double local_30;
+  
+  this = (GADict *)*param_1;
+  GName::GName(local_res18,param_2);
+  GADict::GetDict(this,local_res8);
+  this_00 = (PDFPlusBearerBar *)param_1[1];
+  GName::GName(local_res20,"Reference");
+  this_02 = (GAName *)GADict::GetName((GADict *)local_res8,local_38);
+  bVar1 = GAName::operator==(this_02,"LeftMostGridLayout");
+  if (bVar1) {
+    SVar2 = 1;
+  }
+  else {
+    bVar1 = GAName::operator==(this_02,"RightMostGridLayout");
+    if (bVar1) {
+      SVar2 = 2;
+    }
+    else {
+      bVar1 = GAName::operator==(this_02,"LeftMostGridLayoutColumn");
+      if (bVar1) {
+        SVar2 = 3;
+      }
+      else {
+        bVar1 = GAName::operator==(this_02,"RightMostGridLayoutColumn");
+        if (bVar1) {
+          SVar2 = 4;
+        }
+        else {
+          bVar1 = GAName::operator==(this_02,"TopMostGridLayout");
+          if (bVar1) {
+            SVar2 = 5;
+          }
+          else {
+            bVar1 = GAName::operator==(this_02,"BottomMostGridLayout");
+            if (bVar1) {
+              SVar2 = 6;
+            }
+            else {
+              bVar1 = GAName::operator==(this_02,"TopMostGridLayoutRow");
+              if (bVar1) {
+                SVar2 = 7;
+              }
+              else {
+                bVar1 = GAName::operator==(this_02,"BottomMostGridLayoutRow");
+                SVar2 = -(uint)bVar1 & 8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  DocumentMarks::PDFPlusBearerBar::SetSizeReference(this_00,SVar2);
+  GAName::~GAName((GAName *)local_38);
+  uVar4 = 0;
+  uVar5 = 0;
+  GName::GName(local_res20,"Extends");
+  bVar1 = GADict::Has((GADict *)local_res8,local_res20);
+  if (bVar1) {
+    GName::GName(local_res20,"Extends");
+    this_01 = (GANumber *)GADict::GetNumber((GADict *)local_res8,local_38);
+    dVar3 = GANumber::Get(this_01);
+    uVar4 = SUB84(dVar3,0);
+    uVar5 = (undefined4)((ulonglong)dVar3 >> 0x20);
+    GANumber::~GANumber((GANumber *)local_38);
+  }
+  local_30 = (double)CONCAT44(uVar5,uVar4) * (double)param_1[2] * DAT_1802fb5c8;
+  DocumentMarks::PDFPlusBearerBar::SetExtend
+            ((PDFPlusBearerBar *)param_1[1],
+             (CoordinateBase<YAGL::MilliPointCoordinateSystem> *)local_38);
+  GADict::~GADict((GADict *)local_res8);
+  return;
+}
+
+

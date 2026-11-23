@@ -1,0 +1,523 @@
+requested=0x1801798e0
+resolvedAddress=1801798e0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1801798e0 FUN_1801798e0
+status=OK
+entry=1801798e0
+name=FUN_1801798e0
+qualifiedName=FUN_1801798e0
+namespace=Global
+signature=undefined FUN_1801798e0()
+returnType=undefined
+parameterCount=0
+bodyMin=1801798e0
+bodyMax=180179e33
+bodySize=1362
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+1804886b8 refType=DATA fromFunction=
+180169667 refType=UNCONDITIONAL_CALL fromFunction=1801683e0 FUN_1801683e0
+
+[CALLERS]
+1801683e0 FUN_1801683e0
+
+[CALLEES]
+1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+18024bcf0 DocumentMarks::TextAreaMark::SetTextAreaSize
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+1800679f0 FUN_1800679f0
+180179e40 FUN_180179e40
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18024bae0 DocumentMarks::TextAreaMark::SetTextArea
+EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+EXTERNAL:000004a9 YAGL.DLL::YAGL::Compound::GetBoundingBox
+1801727f0 FUN_1801727f0
+1801a0010 DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetY
+EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+1801a0000 DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetX
+EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+
+[DIRECT_CALL_TARGETS]
+180179923 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179931 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+180179939 -> 180179c72 FUN_1801798e0
+18017994b -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179959 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+180179961 -> 180179c72 FUN_1801798e0
+180179973 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179981 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+18017998e -> 180179ba4 FUN_1801798e0
+18017999b -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801799ae -> EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+1801799c2 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+1801799d9 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+1801799f0 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+180179a07 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+180179a13 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180179a22 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180179a30 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180179a3e -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180179aaa -> 1800679f0 FUN_1800679f0
+180179ac8 -> 180179acc FUN_1801798e0
+180179aca -> 180179ae2 FUN_1801798e0
+180179ad6 -> 180179ddc FUN_1801798e0
+180179adc -> 180179ddc FUN_1801798e0
+180179af0 -> 180179af4 FUN_1801798e0
+180179af2 -> 180179b0a FUN_1801798e0
+180179afe -> 180179ddc FUN_1801798e0
+180179b04 -> 180179ddc FUN_1801798e0
+180179b0e -> 180179b1d FUN_1801798e0
+180179b10 -> 180179b1d FUN_1801798e0
+180179b1b -> 180179b26 FUN_1801798e0
+180179b2f -> 180179b3d FUN_1801798e0
+180179b31 -> 180179b3d FUN_1801798e0
+180179b3b -> 180179b45 FUN_1801798e0
+180179b5e -> 18024bcf0 DocumentMarks::TextAreaMark::SetTextAreaSize
+180179b69 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179b75 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179b81 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179b8d -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179b99 -> EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+180179b9f -> 180179db4 FUN_1801798e0
+180179bab -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179bb9 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+180179bc1 -> 180179e17 FUN_1801798e0
+180179bd2 -> 180179e40 FUN_180179e40
+180179bde -> 180179c2b FUN_1801798e0
+180179bf1 -> 180179bf7 FUN_1801798e0
+180179c0a -> 18024bae0 DocumentMarks::TextAreaMark::SetTextArea
+180179c18 -> EXTERNAL:000004a9 YAGL.DLL::YAGL::Compound::GetBoundingBox
+180179c25 -> 18024bcf0 DocumentMarks::TextAreaMark::SetTextAreaSize
+180179c33 -> 180179db4 FUN_1801798e0
+180179c48 -> 180179db4 FUN_1801798e0
+180179c5e -> 180179db4 FUN_1801798e0
+180179c6d -> 180179db4 FUN_1801798e0
+180179c7e -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179c93 -> 1801727f0 FUN_1801727f0
+180179c9f -> 1801a0000 DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetX
+180179cae -> 180179cf4 FUN_1801798e0
+180179cb4 -> 180179cf4 FUN_1801798e0
+180179cbe -> 180179cf4 FUN_1801798e0
+180179cd1 -> 180179cef FUN_1801798e0
+180179ce6 -> 180179cef FUN_1801798e0
+180179ce8 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180179cef -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180179d00 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179d15 -> 1801727f0 FUN_1801727f0
+180179d21 -> 1801a0010 DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetY
+180179d30 -> 180179d76 FUN_1801798e0
+180179d36 -> 180179d76 FUN_1801798e0
+180179d40 -> 180179d76 FUN_1801798e0
+180179d53 -> 180179d71 FUN_1801798e0
+180179d68 -> 180179d71 FUN_1801798e0
+180179d6a -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180179d71 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180179d82 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180179d90 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+180179d98 -> 180179db4 FUN_1801798e0
+180179da4 -> 180179e40 FUN_180179e40
+180179daf -> 18024bae0 DocumentMarks::TextAreaMark::SetTextArea
+180179de1 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179ded -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179df9 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179e05 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180179e11 -> EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+180179e2f -> 1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+
+[STRINGS_REFERENCED]
+18031a2b0 "Width"
+18031a2b8 "Height"
+18031af78 "Failed to read a valid container dictionary for TextAreaMark"
+
+[DATA_XREFS_FROM_BODY]
+1801798e3 -> Stack[0x8] block=? sym=
+1801798e7 -> Stack[0x10] block=? sym=
+1801798eb -> Stack[0x18] block=? sym=
+1801798f0 -> Stack[-0xb8] block=? sym=
+1801798fe -> Stack[-0x18] block=? sym=
+180179902 -> Stack[-0x28] block=? sym=
+180179906 -> Stack[-0x38] block=? sym=
+180179917 -> 18031a2b0 block=.rdata sym=s_Width_18031a2b0
+18017991e -> Stack[-0x170] block=? sym=
+180179923 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179929 -> Stack[-0x170] block=? sym=
+180179931 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+18017993f -> 18031a2b8 block=.rdata sym=s_Height_18031a2b8
+180179946 -> Stack[-0x178] block=? sym=
+18017994b -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179951 -> Stack[-0x178] block=? sym=
+180179959 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+180179967 -> 18031a2ac block=.rdata sym=DAT_18031a2ac
+18017996e -> Stack[-0x180] block=? sym=
+180179973 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179979 -> Stack[-0x180] block=? sym=
+180179981 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+180179987 -> Stack[-0x198] block=? sym=
+180179994 -> 18031a2ac block=.rdata sym=DAT_18031a2ac
+18017999b -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801799a1 -> Stack[-0x198] block=? sym=
+1801799a6 -> Stack[-0x188] block=? sym=
+1801799ae -> 1802f3850 block=.rdata sym=PTR_GetArray_1802f3850
+1801799b8 -> Stack[-0x170] block=? sym=
+1801799bd -> Stack[-0x188] block=? sym=
+1801799c2 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+1801799cf -> Stack[-0x178] block=? sym=
+1801799d4 -> Stack[-0x188] block=? sym=
+1801799d9 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+1801799e6 -> Stack[-0x180] block=? sym=
+1801799eb -> Stack[-0x188] block=? sym=
+1801799f0 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+1801799fd -> Stack[-0x168] block=? sym=
+180179a02 -> Stack[-0x188] block=? sym=
+180179a07 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+180179a0e -> Stack[-0x178] block=? sym=
+180179a13 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180179a1d -> Stack[-0x180] block=? sym=
+180179a22 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180179a2b -> Stack[-0x168] block=? sym=
+180179a30 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180179a39 -> Stack[-0x170] block=? sym=
+180179a3e -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180179a44 -> Stack[-0x198] block=? sym=
+180179a4d -> Stack[-0x198] block=? sym=
+180179a52 -> Stack[-0xd0] block=? sym=
+180179a56 -> Stack[-0x198] block=? sym=
+180179a5f -> Stack[-0x198] block=? sym=
+180179a6c -> Stack[-0xb0] block=? sym=
+180179a70 -> Stack[-0x198] block=? sym=
+180179a7a -> Stack[-0x198] block=? sym=
+180179a7f -> Stack[-0xc0] block=? sym=
+180179a83 -> Stack[-0x198] block=? sym=
+180179a8c -> Stack[-0x198] block=? sym=
+180179a9a -> Stack[-0xa0] block=? sym=
+180179a9e -> Stack[-0x90] block=? sym=
+180179aa2 -> Stack[-0xd8] block=? sym=
+180179aa6 -> Stack[-0x128] block=? sym=
+180179ab2 -> Stack[-0xf8] block=? sym=
+180179ab7 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+180179abf -> Stack[-0x118] block=? sym=
+180179ae2 -> Stack[-0xe8] block=? sym=
+180179ae7 -> Stack[-0x108] block=? sym=
+180179b12 -> Stack[-0x100] block=? sym=
+180179b16 -> Stack[-0x198] block=? sym=
+180179b20 -> Stack[-0x190] block=? sym=
+180179b26 -> Stack[-0x198] block=? sym=
+180179b33 -> Stack[-0xf0] block=? sym=
+180179b37 -> Stack[-0x138] block=? sym=
+180179b40 -> Stack[-0x130] block=? sym=
+180179b45 -> Stack[-0x138] block=? sym=
+180179b49 -> Stack[-0x198] block=? sym=
+180179b4c -> Stack[-0x128] block=? sym=
+180179b50 -> Stack[-0x138] block=? sym=
+180179b53 -> Stack[-0x118] block=? sym=
+180179b57 -> Stack[-0x128] block=? sym=
+180179b64 -> Stack[-0x168] block=? sym=
+180179b69 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179b70 -> Stack[-0x180] block=? sym=
+180179b75 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179b7c -> Stack[-0x178] block=? sym=
+180179b81 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179b88 -> Stack[-0x170] block=? sym=
+180179b8d -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179b94 -> Stack[-0x188] block=? sym=
+180179b99 -> 1802f3720 block=.rdata sym=PTR_~GAArray_1802f3720
+180179ba4 -> 18031a2a4 block=.rdata sym=DAT_18031a2a4
+180179bab -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179bb1 -> Stack[-0x198] block=? sym=
+180179bb9 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+180179bcd -> Stack[-0x148] block=? sym=
+180179bd8 -> Stack[-0x148] block=? sym=
+180179be3 -> Stack[-0x158] block=? sym=
+180179be9 -> Stack[-0x140] block=? sym=
+180179bf7 -> Stack[-0x148] block=? sym=
+180179bfc -> Stack[-0x158] block=? sym=
+180179c02 -> Stack[-0x158] block=? sym=
+180179c0f -> Stack[-0x88] block=? sym=
+180179c13 -> Stack[-0x148] block=? sym=
+180179c18 -> 1802f3c60 block=.rdata sym=PTR_GetBoundingBox_1802f3c60
+180179c2b -> Stack[-0x140] block=? sym=
+180179c72 -> 18031a2b0 block=.rdata sym=s_Width_18031a2b0
+180179c79 -> Stack[-0x198] block=? sym=
+180179c7e -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179c87 -> Stack[-0x198] block=? sym=
+180179c8f -> Stack[-0x128] block=? sym=
+180179ca5 -> Stack[-0x108] block=? sym=
+180179cb6 -> Stack[-0x110] block=? sym=
+180179cc3 -> Stack[-0x128] block=? sym=
+180179ce8 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180179cf4 -> 18031a2b8 block=.rdata sym=s_Height_18031a2b8
+180179cfb -> Stack[-0x198] block=? sym=
+180179d00 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179d09 -> Stack[-0x198] block=? sym=
+180179d11 -> Stack[-0x128] block=? sym=
+180179d27 -> Stack[-0x108] block=? sym=
+180179d38 -> Stack[-0x110] block=? sym=
+180179d45 -> Stack[-0x128] block=? sym=
+180179d6a -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180179d76 -> 18031a2a4 block=.rdata sym=DAT_18031a2a4
+180179d7d -> Stack[-0x198] block=? sym=
+180179d82 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180179d88 -> Stack[-0x198] block=? sym=
+180179d90 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+180179da0 -> Stack[-0x138] block=? sym=
+180179db4 -> Stack[-0x8] block=? sym=
+180179dbc -> Stack[0x8] block=? sym=
+180179dc0 -> Stack[0x10] block=? sym=
+180179dc4 -> Stack[0x18] block=? sym=
+180179dc8 -> Stack[-0x18] block=? sym=
+180179dcd -> Stack[-0x28] block=? sym=
+180179dd2 -> Stack[-0x38] block=? sym=
+180179ddc -> Stack[-0x168] block=? sym=
+180179de1 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179de8 -> Stack[-0x180] block=? sym=
+180179ded -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179df4 -> Stack[-0x178] block=? sym=
+180179df9 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179e00 -> Stack[-0x170] block=? sym=
+180179e05 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180179e0c -> Stack[-0x188] block=? sym=
+180179e11 -> 1802f3720 block=.rdata sym=PTR_~GAArray_1802f3720
+180179e17 -> 18031af78 block=.rdata sym=s_Failed_to_read_a_valid_container_18031af78
+180179e1e -> 18031af78 block=.rdata sym=s_Failed_to_read_a_valid_container_18031af78
+180179e1e -> Stack[-0x198] block=? sym=
+180179e23 -> 1803a9a10 block=.rdata sym=DAT_1803a9a10
+180179e2a -> Stack[-0x198] block=? sym=
+
+[DECOMPILE]
+
+void FUN_1801798e0(GADict *param_1,undefined8 param_2,TextAreaMark *param_3,undefined8 param_4)
+
+{
+  int *piVar1;
+  longlong *plVar2;
+  int iVar3;
+  double dVar4;
+  double dVar5;
+  double dVar6;
+  longlong *plVar7;
+  bool bVar8;
+  longlong lVar9;
+  variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+  *pvVar10;
+  undefined8 uVar11;
+  void *pvVar12;
+  uint uVar13;
+  uint uVar14;
+  undefined8 local_198;
+  double dStack_190;
+  GName local_188 [8];
+  GName local_180 [8];
+  GName local_178 [8];
+  GName local_170 [8];
+  GANumber local_168 [16];
+  undefined1 local_158 [16];
+  undefined4 local_148;
+  undefined4 uStack_144;
+  undefined4 uStack_140;
+  undefined4 uStack_13c;
+  undefined8 local_138;
+  double dStack_130;
+  void *local_128;
+  double dStack_120;
+  double local_118;
+  double dStack_110;
+  char local_108;
+  undefined7 uStack_107;
+  void *local_100;
+  double dStack_f8;
+  undefined8 local_f0;
+  double dStack_e8;
+  undefined1 local_d8 [8];
+  undefined4 local_d0;
+  undefined4 uStack_cc;
+  undefined4 uStack_c8;
+  undefined4 uStack_c4;
+  undefined4 local_c0;
+  undefined4 uStack_bc;
+  undefined4 uStack_b8;
+  undefined4 uStack_b4;
+  undefined4 local_b0;
+  undefined4 uStack_ac;
+  double dStack_a8;
+  undefined4 local_a0;
+  undefined4 uStack_9c;
+  double dStack_98;
+  undefined1 local_90;
+  
+  GName::GName(local_170,"Width");
+  bVar8 = GADict::Has(param_1,local_170);
+  if (!bVar8) {
+    GName::GName(local_178,"Height");
+    bVar8 = GADict::Has(param_1,local_178);
+    if (!bVar8) {
+      GName::GName(local_180,"Box");
+      bVar8 = GADict::Has(param_1,local_180);
+      if (bVar8) {
+        GName::GName((GName *)&local_198,"Box");
+        GADict::GetArray(param_1,local_188);
+        GAArray::GetNumber((GAArray *)local_188,(long)local_170);
+        GAArray::GetNumber((GAArray *)local_188,(long)local_178);
+        GAArray::GetNumber((GAArray *)local_188,(long)local_180);
+        GAArray::GetNumber((GAArray *)local_188,(long)local_168);
+        dVar4 = GANumber::Get((GANumber *)local_178);
+        dVar5 = GANumber::Get((GANumber *)local_180);
+        dVar6 = GANumber::Get(local_168);
+        dStack_a8 = GANumber::Get((GANumber *)local_170);
+        uStack_c8 = SUB84(dStack_a8,0);
+        uStack_c4 = (undefined4)((ulonglong)dStack_a8 >> 0x20);
+        local_d0 = (undefined4)local_198;
+        uStack_cc = local_198._4_4_;
+        dStack_a8 = dVar5 - dStack_a8;
+        local_b0 = (undefined4)local_198;
+        uStack_ac = local_198._4_4_;
+        local_c0 = (undefined4)local_198;
+        uStack_bc = local_198._4_4_;
+        dStack_98 = dVar6 - dVar4;
+        local_a0 = (undefined4)local_198;
+        uStack_9c = local_198._4_4_;
+        local_90 = 0;
+        dStack_190 = dVar6;
+        uStack_b8 = SUB84(dVar4,0);
+        uStack_b4 = (int)((ulonglong)dVar4 >> 0x20);
+        FUN_1800679f0(&local_128,local_d8);
+        uVar13 = (uint)DAT_1802fd1b0;
+        uVar14 = (uint)((ulonglong)DAT_1802fd1b0 >> 0x20);
+        if ((local_118 == 0.0) ||
+           ((double)CONCAT44((uint)((ulonglong)local_118 >> 0x20) ^ uVar14,
+                             SUB84(local_118,0) ^ uVar13) == dStack_f8)) {
+          dVar4 = (double)CONCAT71(uStack_107,local_108);
+          if ((dVar4 == 0.0) ||
+             ((double)CONCAT44((uint)((uint7)uStack_107 >> 0x18) ^ uVar14,SUB84(dVar4,0) ^ uVar13)
+              == dStack_e8)) {
+            if (local_118 == 0.0) {
+              local_198 = local_100;
+              dStack_190 = dStack_f8;
+            }
+            else {
+              dStack_190 = (double)CONCAT44((uint)((ulonglong)dStack_f8 >> 0x20) ^ uVar14,
+                                            SUB84(dStack_f8,0) ^ uVar13);
+            }
+            if (dVar4 == 0.0) {
+              local_138 = local_f0;
+              dStack_130 = dStack_e8;
+            }
+            else {
+              dStack_130 = (double)CONCAT44((uint)((ulonglong)dStack_e8 >> 0x20) ^ uVar14,
+                                            SUB84(dStack_e8,0) ^ uVar13);
+            }
+            local_128 = local_198;
+            dStack_120 = dStack_190;
+            local_118 = (double)local_138;
+            dStack_110 = dStack_130;
+            DocumentMarks::TextAreaMark::SetTextAreaSize
+                      (param_3,(DimensionBase<YAGL::MilliPointCoordinateSystem> *)&local_128);
+            GANumber::~GANumber(local_168);
+            GANumber::~GANumber((GANumber *)local_180);
+            GANumber::~GANumber((GANumber *)local_178);
+            GANumber::~GANumber((GANumber *)local_170);
+            GAArray::~GAArray((GAArray *)local_188);
+            return;
+          }
+        }
+        GANumber::~GANumber(local_168);
+        GANumber::~GANumber((GANumber *)local_180);
+        GANumber::~GANumber((GANumber *)local_178);
+        GANumber::~GANumber((GANumber *)local_170);
+        GAArray::~GAArray((GAArray *)local_188);
+      }
+      else {
+        GName::GName((GName *)&local_198,"Path");
+        bVar8 = GADict::Has(param_1,(GName *)&local_198);
+        if (bVar8) {
+          FUN_180179e40(&local_148,param_1,param_2);
+          if (CONCAT44(uStack_144,local_148) != 0) {
+            if (CONCAT44(uStack_13c,uStack_140) != 0) {
+              LOCK();
+              piVar1 = (int *)(CONCAT44(uStack_13c,uStack_140) + 8);
+              *piVar1 = *piVar1 + 1;
+              UNLOCK();
+            }
+            DocumentMarks::TextAreaMark::SetTextArea(param_3,local_158);
+            lVar9 = YAGL::Compound::GetBoundingBox((Compound *)CONCAT44(uStack_144,local_148));
+            DocumentMarks::TextAreaMark::SetTextAreaSize
+                      (param_3,(DimensionBase<YAGL::MilliPointCoordinateSystem> *)(lVar9 + 0x28));
+          }
+          plVar7 = (longlong *)CONCAT44(uStack_13c,uStack_140);
+          if (plVar7 == (longlong *)0x0) {
+            return;
+          }
+          LOCK();
+          plVar2 = plVar7 + 1;
+          lVar9 = *plVar2;
+          *(int *)plVar2 = (int)*plVar2 + -1;
+          UNLOCK();
+          if ((int)lVar9 != 1) {
+            return;
+          }
+          (**(code **)*plVar7)(plVar7);
+          LOCK();
+          piVar1 = (int *)((longlong)plVar7 + 0xc);
+          iVar3 = *piVar1;
+          *piVar1 = *piVar1 + -1;
+          UNLOCK();
+          if (iVar3 == 1) {
+            (**(code **)(*plVar7 + 8))(plVar7);
+            return;
+          }
+          return;
+        }
+      }
+      local_198 = "Failed to read a valid container dictionary for TextAreaMark";
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(&local_198,(ThrowInfo *)&DAT_1803a9a10);
+    }
+  }
+  GName::GName((GName *)&local_198,"Width");
+  pvVar10 = (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+             *)FUN_1801727f0(&local_128,param_1,&local_198,param_4);
+  DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetX
+            ((PDFPlusRepeatForSeparationsMark *)param_3,pvVar10);
+  if (((local_108 != -1) && (local_108 != '\0')) && (0xf < (ulonglong)dStack_110)) {
+    pvVar12 = local_128;
+    if ((0xfff < (longlong)dStack_110 + 1U) &&
+       (pvVar12 = *(void **)((longlong)local_128 + -8),
+       0x1f < (ulonglong)((longlong)local_128 + (-8 - (longlong)pvVar12)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar12);
+  }
+  GName::GName((GName *)&local_198,"Height");
+  pvVar10 = (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+             *)FUN_1801727f0(&local_128,param_1,&local_198,param_4);
+  DocumentMarks::PDFPlusRepeatForSeparationsMark::SetStepOffsetY
+            ((PDFPlusRepeatForSeparationsMark *)param_3,pvVar10);
+  if (((local_108 != -1) && (local_108 != '\0')) && (0xf < (ulonglong)dStack_110)) {
+    pvVar12 = local_128;
+    if ((0xfff < (longlong)dStack_110 + 1U) &&
+       (pvVar12 = *(void **)((longlong)local_128 + -8),
+       0x1f < (ulonglong)((longlong)local_128 + (-8 - (longlong)pvVar12)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar12);
+  }
+  GName::GName((GName *)&local_198,"Path");
+  bVar8 = GADict::Has(param_1,(GName *)&local_198);
+  if (bVar8) {
+    uVar11 = FUN_180179e40(&local_138,param_1,param_2);
+    DocumentMarks::TextAreaMark::SetTextArea(param_3,uVar11);
+  }
+  return;
+}
+
+

@@ -1,0 +1,262 @@
+requested=0x180052a50
+resolvedAddress=180052a50
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180052a50 parsePdfPropertiesDict
+status=OK
+entry=180052a50
+name=parsePdfPropertiesDict
+qualifiedName=DocumentMarks::CutMark::parsePdfPropertiesDict
+namespace=DocumentMarks::CutMark
+signature=bool parsePdfPropertiesDict(CutMark * this, map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::ContentObject*___ptr64,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,ArtDoc::ContentObject*___ptr64>_>_> * param_1)
+returnType=bool
+parameterCount=2
+bodyMin=180052a50
+bodyMax=180052c92
+bodySize=576
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ba054 refType=DATA fromFunction=
+18048fdb0 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180308c70 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+EXTERNAL:000001ce DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+180103b00 FUN_180103b00
+EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180010070 FUN_180010070
+EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180076080 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+EXTERNAL:000001cf DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+1802d6cb0 __security_check_cookie
+EXTERNAL:00000204 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+
+[DIRECT_CALL_TARGETS]
+180052a6e -> 180076080 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+180052a75 -> 180052be8 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052aa8 -> 180052aa0 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052aaf -> 180010070 FUN_180010070
+180052ac1 -> EXTERNAL:000001cf DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+180052ad3 -> 180052b0a DocumentMarks::CutMark::parsePdfPropertiesDict
+180052ae7 -> 180052b05 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052afc -> 180052b05 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052afe -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180052b05 -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180052b48 -> 180052b40 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052b4f -> 180010070 FUN_180010070
+180052b5d -> EXTERNAL:000001ce DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+180052b6e -> 180052ba5 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052b82 -> 180052ba0 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052b97 -> 180052ba0 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052b99 -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180052ba0 -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180052ba8 -> 180052bef DocumentMarks::CutMark::parsePdfPropertiesDict
+180052bc2 -> EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180052be3 -> 180103b00 FUN_180103b00
+180052bea -> 180052c76 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052c0e -> 180052c07 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052c18 -> 180010070 FUN_180010070
+180052c26 -> EXTERNAL:00000204 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+180052c3d -> 180052c74 DocumentMarks::CutMark::parsePdfPropertiesDict
+180052c51 -> 180052c6f DocumentMarks::CutMark::parsePdfPropertiesDict
+180052c66 -> 180052c6f DocumentMarks::CutMark::parsePdfPropertiesDict
+180052c68 -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180052c6f -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180052c7e -> 1802d6cb0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+180308de8 "CutMark"
+18033d088 "DM-CutMarkParams"
+18033d550 "DM-CutMarkParams-Offset"
+18033d590 "DM-CutMarkParams-Version"
+
+[DATA_XREFS_FROM_BODY]
+180052a50 -> Stack[0x18] block=? sym=
+180052a5c -> 180418e00 block=.data sym=DAT_180418e00
+180052a66 -> Stack[-0x28] block=? sym=
+180052a7b -> 1804189a8 block=.data sym=PTR_s_DM-CutMarkParams_1804189a8
+180052a7b -> 18033d088 block=.rdata sym=s_DM-CutMarkParams_18033d088
+180052a85 -> Stack[-0x68] block=? sym=
+180052a8d -> Stack[-0x58] block=? sym=
+180052aa3 -> 18033d088 block=.rdata sym=s_DM-CutMarkParams_18033d088
+180052aa3 -> 18033d089 block=.rdata sym=s_M-CutMarkParams_18033d088+1
+180052aaa -> Stack[-0x68] block=? sym=
+180052ab5 -> Stack[-0x68] block=? sym=
+180052ac1 -> 1802fb9d0 block=.rdata sym=PTR_GetDictionaryValue_1802fb9d0
+180052aca -> Stack[-0x50] block=? sym=
+180052ad8 -> Stack[-0x68] block=? sym=
+180052afe -> 1802fdf38 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802fdf38
+180052b0a -> 180304c20 block=.rdata sym=PTR_180304c20
+180052b12 -> Stack[-0x58] block=? sym=
+180052b18 -> Stack[-0x68] block=? sym=
+180052b1d -> 180418b10 block=.data sym=PTR_s_DM-CutMarkParams-Version_180418b10
+180052b1d -> 18033d590 block=.rdata sym=s_DM-CutMarkParams-Version_18033d590
+180052b27 -> Stack[-0x48] block=? sym=
+180052b2f -> Stack[-0x38] block=? sym=
+180052b43 -> 18033d590 block=.rdata sym=s_DM-CutMarkParams-Version_18033d590
+180052b43 -> 18033d591 block=.rdata sym=s_M-CutMarkParams-Version_18033d590+1
+180052b4a -> Stack[-0x48] block=? sym=
+180052b55 -> Stack[-0x48] block=? sym=
+180052b5d -> 1802fb9c8 block=.rdata sym=PTR_GetIntegerValue_1802fb9c8
+180052b65 -> Stack[-0x30] block=? sym=
+180052b73 -> Stack[-0x48] block=? sym=
+180052b99 -> 1802fdf38 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802fdf38
+180052baa -> 180308de8 block=.rdata sym=s_CutMark_180308de8
+180052bb1 -> 180308de8 block=.rdata sym=s_CutMark_180308de8
+180052bb1 -> Stack[-0x68] block=? sym=
+180052bb6 -> Stack[-0x60] block=? sym=
+180052bc2 -> 1802fb998 block=.rdata sym=PTR_GetContent_1802fb998
+180052bc8 -> Stack[-0x68] block=? sym=
+180052bcd -> 180308def block=.rdata sym=s__180308de8+7
+180052bcd -> Stack[-0x68] block=? sym=
+180052bd3 -> Stack[-0x68] block=? sym=
+180052bef -> 180418b00 block=.data sym=PTR_s_DM-CutMarkParams-Offset_180418b00
+180052bef -> 18033d550 block=.rdata sym=s_DM-CutMarkParams-Offset_18033d550
+180052bf9 -> Stack[-0x48] block=? sym=
+180052c01 -> Stack[-0x38] block=? sym=
+180052c0a -> 18033d550 block=.rdata sym=s_DM-CutMarkParams-Offset_18033d550
+180052c0a -> 18033d551 block=.rdata sym=s_M-CutMarkParams-Offset_18033d550+1
+180052c13 -> Stack[-0x48] block=? sym=
+180052c1e -> Stack[-0x48] block=? sym=
+180052c26 -> 1802fbb78 block=.rdata sym=PTR_GetFloatValue_1802fbb78
+180052c34 -> Stack[-0x30] block=? sym=
+180052c42 -> Stack[-0x48] block=? sym=
+180052c68 -> 1802fdf38 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802fdf38
+180052c76 -> Stack[-0x28] block=? sym=
+180052c83 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual bool __cdecl DocumentMarks::CutMark::parsePdfPropertiesDict(class std::map<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class
+   ArtDoc::ContentObject * __ptr64,struct std::less<class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class
+   ArtDoc::ContentObject * __ptr64> > > const & __ptr64) __ptr64 */
+
+bool __thiscall
+DocumentMarks::CutMark::parsePdfPropertiesDict
+          (CutMark *this,
+          map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::ContentObject*___ptr64,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,ArtDoc::ContentObject*___ptr64>_>_>
+          *param_1)
+
+{
+  bool bVar1;
+  int iVar2;
+  Dictionary *this_00;
+  Content *pCVar3;
+  char *_Memory;
+  void *pvVar4;
+  longlong lVar5;
+  longlong lVar6;
+  double dVar7;
+  undefined1 auStack_88 [32];
+  char *local_68;
+  undefined8 uStack_60;
+  undefined *local_58;
+  ulonglong uStack_50;
+  void *local_48;
+  undefined8 uStack_40;
+  undefined8 local_38;
+  ulonglong uStack_30;
+  ulonglong local_28;
+  
+                    /* 0x52a50  2128
+                       ?parsePdfPropertiesDict@CutMark@DocumentMarks@@UEAA_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+                        */
+  local_28 = DAT_180418e00 ^ (ulonglong)auStack_88;
+  bVar1 = DynamicMark::parsePdfPropertiesDict((DynamicMark *)this,param_1);
+  if (bVar1) {
+    local_68 = (char *)0x0;
+    uStack_60 = 0;
+    local_58 = (undefined *)0x0;
+    uStack_50 = 0;
+    lVar5 = -1;
+    lVar6 = -1;
+    do {
+      lVar6 = lVar6 + 1;
+    } while (PTR_s_DM_CutMarkParams_1804189a8[lVar6] != '\0');
+    FUN_180010070(&local_68);
+    this_00 = ArtDoc::Dictionary::GetDictionaryValue
+                        ((Dictionary *)(this + 0x2d0),
+                         (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                         &local_68);
+    if (0xf < uStack_50) {
+      _Memory = local_68;
+      if ((0xfff < uStack_50 + 1) &&
+         (_Memory = *(char **)(local_68 + -8), (char *)0x1f < local_68 + (-8 - (longlong)_Memory)))
+      {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    local_58 = PTR_180304c20;
+    uStack_50 = _UNK_180304c28;
+    local_68 = (char *)((ulonglong)local_68 & 0xffffffffffffff00);
+    local_48 = (void *)0x0;
+    uStack_40 = 0;
+    local_38 = 0;
+    uStack_30 = 0;
+    lVar6 = -1;
+    do {
+      lVar6 = lVar6 + 1;
+    } while (PTR_s_DM_CutMarkParams_Version_180418b10[lVar6] != '\0');
+    FUN_180010070(&local_48);
+    iVar2 = ArtDoc::Dictionary::GetIntegerValue
+                      (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                               &local_48);
+    if (0xf < uStack_30) {
+      pvVar4 = local_48;
+      if ((0xfff < uStack_30 + 1) &&
+         (pvVar4 = *(void **)((longlong)local_48 + -8),
+         0x1f < (ulonglong)((longlong)local_48 + (-8 - (longlong)pvVar4)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar4);
+    }
+    if (iVar2 < 2) {
+      local_48 = (void *)0x0;
+      uStack_40 = 0;
+      local_38 = 0;
+      uStack_30 = 0;
+      do {
+        lVar5 = lVar5 + 1;
+      } while (PTR_s_DM_CutMarkParams_Offset_180418b00[lVar5] != '\0');
+      FUN_180010070(&local_48,PTR_s_DM_CutMarkParams_Offset_180418b00,lVar5);
+      dVar7 = ArtDoc::Dictionary::GetFloatValue
+                        (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                                 &local_48);
+      *(double *)(this + 0x698) = dVar7;
+      if (0xf < uStack_30) {
+        pvVar4 = local_48;
+        if ((0xfff < uStack_30 + 1) &&
+           (pvVar4 = *(void **)((longlong)local_48 + -8),
+           0x1f < (ulonglong)((longlong)local_48 + (-8 - (longlong)pvVar4)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar4);
+      }
+      return true;
+    }
+    local_68 = "CutMark";
+    uStack_60 = 7;
+    pCVar3 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+    FUN_180103b00(pCVar3,iVar2,1,&local_68);
+  }
+  return false;
+}
+
+

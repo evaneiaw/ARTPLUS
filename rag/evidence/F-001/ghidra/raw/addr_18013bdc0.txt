@@ -1,0 +1,195 @@
+requested=0x18013bdc0
+resolvedAddress=18013bdc0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18013bdc0 FUN_18013bdc0
+status=OK
+entry=18013bdc0
+name=FUN_18013bdc0
+qualifiedName=FUN_18013bdc0
+namespace=Global
+signature=undefined FUN_18013bdc0()
+returnType=undefined
+parameterCount=0
+bodyMin=18013bdc0
+bodyMax=18013bf4b
+bodySize=396
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180498e4c refType=DATA fromFunction=
+18013d07a refType=UNCONDITIONAL_CALL fromFunction=18013cef0 RemoveInvalidCustomFormulasImp
+18013ef8c refType=UNCONDITIONAL_CALL fromFunction=18013ee90 regenerateMarkImp
+
+[CALLERS]
+18013ee90 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013cef0 DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+
+[CALLEES]
+EXTERNAL:0000046d LOCALIZATION.DLL::Localization::PointUnit
+EXTERNAL:0000046a LOCALIZATION.DLL::Localization::CanConvert
+EXTERNAL:000001d2 DOCUMENT.DLL::ArtDoc::GetVariableContextForObjectTarget
+1800188b0 FUN_1800188b0
+EXTERNAL:0000046c LOCALIZATION.DLL::Localization::Evaluate
+EXTERNAL:00000467 LOCALIZATION.DLL::Localization::Quantity::~Quantity
+EXTERNAL:0000046b LOCALIZATION.DLL::Localization::FormulaException::FormulaException
+18001baf0 FUN_18001baf0
+EXTERNAL:00000469 LOCALIZATION.DLL::Localization::Quantity::GetValueForUnit
+1802d6cb0 __security_check_cookie
+1802d7d4e VCRUNTIME140.DLL::_CxxThrowException
+EXTERNAL:00000465 LOCALIZATION.DLL::Localization::Unit::~Unit
+
+[DIRECT_CALL_TARGETS]
+18013bdf9 -> EXTERNAL:000001d2 DOCUMENT.DLL::ArtDoc::GetVariableContextForObjectTarget
+18013be50 -> EXTERNAL:0000046c LOCALIZATION.DLL::Localization::Evaluate
+18013be60 -> 18013be76 FUN_18013bdc0
+18013be6f -> 1800188b0 FUN_1800188b0
+18013be7d -> 18013be93 FUN_18013bdc0
+18013be8c -> 1800188b0 FUN_1800188b0
+18013be98 -> EXTERNAL:0000046d LOCALIZATION.DLL::Localization::PointUnit
+18013bea7 -> EXTERNAL:0000046a LOCALIZATION.DLL::Localization::CanConvert
+18013beb5 -> EXTERNAL:00000465 LOCALIZATION.DLL::Localization::Unit::~Unit
+18013bebd -> 18013bf20 FUN_18013bdc0
+18013bec4 -> EXTERNAL:0000046d LOCALIZATION.DLL::Localization::PointUnit
+18013bed3 -> EXTERNAL:00000469 LOCALIZATION.DLL::Localization::Quantity::GetValueForUnit
+18013bee1 -> EXTERNAL:00000465 LOCALIZATION.DLL::Localization::Unit::~Unit
+18013bef8 -> EXTERNAL:00000467 LOCALIZATION.DLL::Localization::Quantity::~Quantity
+18013bf08 -> 1802d6cb0 __security_check_cookie
+18013bf25 -> 18001baf0 FUN_18001baf0
+18013bf36 -> EXTERNAL:0000046b LOCALIZATION.DLL::Localization::FormulaException::FormulaException
+18013bf47 -> 1802d7d4e VCRUNTIME140.DLL::_CxxThrowException
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18013bdc4 -> Stack[-0x88] block=? sym=
+18013bdd0 -> Stack[-0x28] block=? sym=
+18013bdd8 -> 180418e00 block=.data sym=DAT_180418e00
+18013bde2 -> Stack[-0x38] block=? sym=
+18013bdef -> 1804172a8 block=.data sym=DocumentMarks::kPageContext
+18013bdf9 -> 1802fb9e8 block=.rdata sym=PTR_GetVariableContextForObjectTarget_1802fb9e8
+18013bdff -> Stack[-0xe8] block=? sym=
+18013be03 -> 18030cee0 block=.rdata sym=std::_Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>::vftable
+18013be0a -> 18030cee0 block=.rdata sym=std::_Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>::vftable
+18013be0a -> Stack[-0x78] block=? sym=
+18013be0e -> 1800cd780 block=.text sym=DocumentMarks::EvaluateFunction
+18013be15 -> 1800cd780 block=.text sym=DocumentMarks::EvaluateFunction
+18013be15 -> Stack[-0x70] block=? sym=
+18013be19 -> Stack[-0x78] block=? sym=
+18013be1d -> Stack[-0x40] block=? sym=
+18013be21 -> 180323388 block=.rdata sym=std::_Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem,1>___cdecl__anon_E70A8568::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>::vftable
+18013be28 -> 180323388 block=.rdata sym=std::_Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem,1>___cdecl__anon_E70A8568::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>::vftable
+18013be28 -> Stack[-0xb8] block=? sym=
+18013be2c -> Stack[-0xb0] block=? sym=
+18013be2f -> Stack[-0xb8] block=? sym=
+18013be33 -> Stack[-0x80] block=? sym=
+18013be37 -> Stack[-0x108] block=? sym=
+18013be3b -> Stack[-0x168] block=? sym=
+18013be40 -> Stack[-0x78] block=? sym=
+18013be44 -> Stack[-0xb8] block=? sym=
+18013be4b -> Stack[-0x130] block=? sym=
+18013be50 -> 1802fd2e8 block=.rdata sym=PTR_Evaluate_1802fd2e8
+18013be59 -> Stack[-0x80] block=? sym=
+18013be62 -> Stack[-0xb8] block=? sym=
+18013be65 -> Stack[-0xb8] block=? sym=
+18013be6f -> 1803233a8 block=.rdata sym=vftable[4]
+18013be72 -> Stack[-0x80] block=? sym=
+18013be76 -> Stack[-0x40] block=? sym=
+18013be7f -> Stack[-0x78] block=? sym=
+18013be82 -> Stack[-0x78] block=? sym=
+18013be8c -> 18030cf00 block=.rdata sym=vftable[4]
+18013be8f -> Stack[-0x40] block=? sym=
+18013be93 -> Stack[-0x150] block=? sym=
+18013be98 -> 1802fd2f0 block=.rdata sym=PTR_PointUnit_1802fd2f0
+18013bea2 -> Stack[-0x130] block=? sym=
+18013bea7 -> 1802fd2d8 block=.rdata sym=PTR_CanConvert_1802fd2d8
+18013beb0 -> Stack[-0x150] block=? sym=
+18013beb5 -> 1802fd2b0 block=.rdata sym=PTR_~Unit_1802fd2b0
+18013bebf -> Stack[-0x150] block=? sym=
+18013bec4 -> 1802fd2f0 block=.rdata sym=PTR_PointUnit_1802fd2f0
+18013bece -> Stack[-0x130] block=? sym=
+18013bed3 -> 1802fd2d0 block=.rdata sym=PTR_GetValueForUnit_1802fd2d0
+18013bedc -> Stack[-0x150] block=? sym=
+18013bee1 -> 1802fd2b0 block=.rdata sym=PTR_~Unit_1802fd2b0
+18013bee7 -> 1803066e0 block=.rdata sym=DAT_1803066e0
+18013bef3 -> Stack[-0x130] block=? sym=
+18013bef8 -> 1802fd2c0 block=.rdata sym=PTR_~Quantity_1802fd2c0
+18013bf01 -> Stack[-0x38] block=? sym=
+18013bf0d -> Stack[-0x30] block=? sym=
+18013bf20 -> Stack[-0x150] block=? sym=
+18013bf32 -> Stack[-0xe0] block=? sym=
+18013bf36 -> 1802fd2e0 block=.rdata sym=PTR_FormulaException_1802fd2e0
+18013bf3c -> 1803b7378 block=.rdata sym=DAT_1803b7378
+18013bf43 -> Stack[-0xe0] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+double * FUN_18013bdc0(double *param_1,ContentObject *param_2,undefined8 param_3)
+
+{
+  bool bVar1;
+  Unit *pUVar2;
+  undefined8 uVar3;
+  double dVar4;
+  undefined1 auStack_188 [32];
+  undefined1 *local_168;
+  Unit local_150 [32];
+  Quantity local_130 [40];
+  undefined1 local_108 [32];
+  undefined1 local_e8;
+  FormulaException local_e0 [40];
+  undefined **local_b8;
+  int local_b0;
+  undefined ***local_80;
+  undefined **local_78;
+  code *local_70;
+  undefined ***local_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_180418e00 ^ (ulonglong)auStack_188;
+  local_b0 = ArtDoc::GetVariableContextForObjectTarget(param_2,&DocumentMarks::kPageContext);
+  local_e8 = 0;
+  local_78 = std::
+             _Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>
+             ::vftable;
+  local_70 = DocumentMarks::EvaluateFunction;
+  local_40 = &local_78;
+  local_b8 = std::
+             _Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem,1>___cdecl__anon_E70A8568::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>
+             ::vftable;
+  local_80 = &local_b8;
+  local_168 = local_108;
+  Localization::Evaluate(local_130,param_3,&local_b8,&local_78);
+  if (local_80 != (undefined ***)0x0) {
+    (*(code *)(*local_80)[4])
+              (local_80,CONCAT71((int7)((ulonglong)&local_b8 >> 8),local_80 != &local_b8));
+    local_80 = (undefined ***)0x0;
+  }
+  if (local_40 != (undefined ***)0x0) {
+    (*(code *)(*local_40)[4])
+              (local_40,CONCAT71((int7)((ulonglong)&local_78 >> 8),local_40 != &local_78));
+    local_40 = (undefined ***)0x0;
+  }
+  pUVar2 = (Unit *)Localization::PointUnit();
+  bVar1 = Localization::CanConvert(local_130,pUVar2);
+  Localization::Unit::~Unit(local_150);
+  if (bVar1) {
+    pUVar2 = (Unit *)Localization::PointUnit();
+    dVar4 = Localization::Quantity::GetValueForUnit(local_130,pUVar2);
+    Localization::Unit::~Unit(local_150);
+    *param_1 = dVar4 * DAT_1803066e0;
+    Localization::Quantity::~Quantity(local_130);
+    return param_1;
+  }
+  uVar3 = FUN_18001baf0(local_150);
+  Localization::FormulaException::FormulaException(local_e0,1,uVar3);
+                    /* WARNING: Subroutine does not return */
+  _CxxThrowException(local_e0,(ThrowInfo *)&DAT_1803b7378);
+}
+
+

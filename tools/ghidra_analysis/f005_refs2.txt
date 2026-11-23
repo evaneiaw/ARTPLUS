@@ -1,0 +1,2507 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## FN 1800a1230
+   name=FUN_1800a1230
+   signature=undefined FUN_1800a1230(void)
+   entry=1800a1230 thunk=false external=false body=3746
+   -- callers --
+      1800a2c39 UNCONDITIONAL_CALL 1800a2c10 FUN_1800a2c10
+      18041cf64 DATA -
+   -- callees --
+      18001a410 FUN_18001a410
+      18001a8a0 FUN_18001a8a0
+      18002bf10 ArtColor::GenColorProfiles::Instance
+      1800a2100 DocumentIO::OpenFileHandler::OpenFileHandler
+      1800ccd40 ArtDoc::Module::Module
+      18015a7b0 FUN_18015a7b0
+      180167360 ArtDoc::RegisterContentPostReader
+      1801677e0 ArtDoc::RegisterFormDefinitionPieceInfoReader
+      180167920 ArtDoc::RegisterMarkReader
+      180167b00 ArtDoc::RegisterPieceInfoReader
+      180167ba0 ArtDoc::RegisterReuseFormQuery
+      180195c10 ArtDoc::RegisterPieceInfoWriter
+      180195d90 ArtDoc::RegisterPropertyMarkWriter
+      180196090 ArtDoc::RegisterTypeMarkWriter
+      1801e5170 FUN_1801e5170
+      1801ecb30 ArtDocGlue::PDFConverters::ToGPathName
+      180215f60 DocumentIO::FileDispatcher::GetInstance
+      180216270 DocumentIO::FileDispatcher::RegisterFileHandler
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+      1802aea00 __security_check_cookie
+      EXTERNAL:00000050 COLORMANIPULATIONLAYER.DLL::GCColorManipulation::GetInstance
+      EXTERNAL:00000078 COLORMANIPULATIONLAYER.DLL::GCColorManipulationLayer::Initialize
+      EXTERNAL:0000007a COLORMANIPULATIONLAYER.DLL::GCColorManipulation::PushLevel
+      EXTERNAL:0000008d CMS.DLL::TCMS_Init
+      EXTERNAL:00000117 LOGGING.DLL::Logging::Guard::Guard
+      EXTERNAL:00000118 LOGGING.DLL::Logging::Guard::~Guard
+      EXTERNAL:00000119 LOGGING.DLL::Logging::HasLevel
+      EXTERNAL:0000012a EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::ProcessSpecificTempDirectory
+      EXTERNAL:00000366 PDFOBJECTLAYER.DLL::GOPDFObjectLayer::Initialize
+      EXTERNAL:00000367 PDFOBJECTLAYER.DLL::GOErrorReporter::GOErrorReporter
+      EXTERNAL:00000369 PDFOBJECTLAYER.DLL::GOErrorReporter::SetInstance
+      EXTERNAL:000006d1 BASICFRAMEWORKCORELAYER.DLL::GFileSystemBase<PWin32FileSystemImp>::AddSpecialPath
+      EXTERNAL:000006d2 BASICFRAMEWORKCORELAYER.DLL::GCallbackAssert::SetInstance
+      EXTERNAL:000006d3 BASICFRAMEWORKCORELAYER.DLL::GCallbackAssert::GCallbackAssert
+      EXTERNAL:000006d7 BASICFRAMEWORKCORELAYER.DLL::GPathName::~GPathName
+      EXTERNAL:000006fa BASICFRAMEWORKCORELAYER.DLL::GBasicFrameworkCoreLayer::Initialize
+      EXTERNAL:00000803 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+      EXTERNAL:00000864 API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+   -- strings referenced --
+      1800a135d -> 1802ea8c0 "document.documentlayer"
+      1800a13df -> 1802eab80 "Start DocumentLayer (0/7)"
+      1800a1447 -> 1802ea8c0 "document.documentlayer"
+      1800a14c9 -> 1802eaba0 "Font caching done (1/7)"
+      1800a1584 -> 1802ea8c0 "document.documentlayer"
+      1800a1606 -> 1802eabb8 "Enfocus PDFLib initialized (2/7)"
+      1800a1682 -> 1802ea8c0 "document.documentlayer"
+      1800a1719 -> 1802eabf8 "BGCMS "
+      1800a173a -> 1802eabe0 " initialized (3/7)"
+      1800a1b75 -> 1802ea8c0 "document.documentlayer"
+      1800a1bf6 -> 1802eac00 "Mark/PieceInfo readers and writers installed (4/7)"
+      1800a1caa -> 1802ea8c0 "document.documentlayer"
+      1800a1d2c -> 1802eac38 "Reuse Form queries installed (5/7)"
+      1800a1e01 -> 1802eac60 "application/illustrator"
+      1800a1e08 -> 1802eac60 "application/illustrator"
+      1800a1e5a -> 1802ea8c0 "document.documentlayer"
+      1800a1edc -> 1802eac78 "File handlers registered (6/7)"
+      1800a1fb0 -> 1802ea8c0 "document.documentlayer"
+      1800a2032 -> 1802eac98 "Install default content post readers (7/7)"
+   -- decompiled --
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+longlong * FUN_1800a1230(longlong *param_1,int param_2)
+
+{
+  bool bVar1;
+  int iVar2;
+  GPathName *pGVar3;
+  GCallbackAssert *pGVar4;
+  basic_ostream<char,std::char_traits<char>_> *pbVar5;
+  GCColorManipulation *this;
+  GOErrorReporter *this_00;
+  undefined8 uVar6;
+  FileDispatcher *pFVar7;
+  OpenFileHandler *pOVar8;
+  code *pcVar9;
+  undefined **ppuVar10;
+  undefined1 *puVar11;
+  bool bVar12;
+  undefined1 auStack_1a8 [32];
+  Guard local_188 [8];
+  GCallbackAssert *local_180;
+  undefined **local_178;
+  code *local_170;
+  undefined ***local_140;
+  OpenFileHandler *local_138;
+  uint local_130;
+  longlong *local_128;
+  undefined **local_120;
+  code *pcStack_118;
+  undefined8 local_110;
+  OpenFileHandler *local_108;
+  undefined ***local_e8;
+  undefined1 local_e0 [40];
+  TCMS_RootDirChangeHandlers local_b8 [56];
+  TCMS_RootDirChangeHandlers *local_80;
+  longlong local_78 [7];
+  longlong *local_40;
+  ulonglong local_38;
+  
+  local_38 = DAT_1803e3780 ^ (ulonglong)auStack_1a8;
+  local_130 = 0;
+  bVar12 = param_2 != 0;
+  local_128 = param_1;
+  if (bVar12) {
+    *param_1 = (longlong)&DAT_1802eab10;
+    ArtDoc::Module::Module((Module *)(param_1 + 4));
+  }
+  local_130 = (uint)bVar12;
+  *(undefined ***)((longlong)*(int *)(*param_1 + 4) + (longlong)param_1) =
+       _anon_D86631B5::DocumentLayer::vftable;
+  *(int *)((longlong)*(int *)(*param_1 + 4) + -4 + (longlong)param_1) =
+       *(int *)(*param_1 + 4) + -0x20;
+  param_1[1] = 0;
+  GBasicFrameworkCoreLayer::Initialize();
+  ExtraBoostFilesystem::ProcessSpecificTempDirectory();
+  pGVar3 = (GPathName *)ArtDocGlue::PDFConverters::ToGPathName((path *)&local_120);
+  GFileSystemBase<PWin32FileSystemImp>::AddSpecialPath(-2,pGVar3);
+  GPathName::~GPathName((GPathName *)&local_120);
+  pGVar4 = (GCallbackAssert *)FUN_1802ae920(8);
+  local_180 = pGVar4;
+  if (pGVar4 == (GCallbackAssert *)0x0) {
+    pGVar4 = (GCallbackAssert *)0x0;
+  }
+  else {
+    GCallbackAssert::GCallbackAssert(pGVar4);
+    *(undefined ***)pGVar4 = _anon_D86631B5::EnfocusCallbackAssert::vftable;
+  }
+  GCallbackAssert::SetInstance(pGVar4);
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Start DocumentLayer (0/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  FUN_1801e5170();
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Font caching done (1/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  GOPDFObjectLayer::Initialize();
+  GCColorManipulationLayer::Initialize();
+  this = GCColorManipulation::GetInstance();
+  GCColorManipulation::PushLevel(this);
+  ArtColor::GenColorProfiles::Instance();
+  this_00 = (GOErrorReporter *)FUN_1802ae920(8);
+  if (this_00 == (GOErrorReporter *)0x0) {
+    this_00 = (GOErrorReporter *)0x0;
+  }
+  else {
+    *(undefined8 *)this_00 = 0;
+    GOErrorReporter::GOErrorReporter(this_00);
+    *(undefined ***)this_00 = _anon_D86631B5::ErrorReporter::vftable;
+  }
+  GOErrorReporter::SetInstance(this_00);
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Enfocus PDFLib initialized (2/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  local_80 = (TCMS_RootDirChangeHandlers *)0x0;
+  local_40 = (longlong *)0x0;
+  iVar2 = TCMS_Init(local_b8,(int *)(param_1 + 2));
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    puVar11 = &DAT_1802e4e73;
+    if (iVar2 != 0) {
+      puVar11 = &DAT_1802eabf4;
+    }
+    uVar6 = FUN_18001a8a0(clog_exref,"BGCMS ");
+    uVar6 = FUN_18001a8a0(uVar6,puVar11);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(uVar6," initialized (3/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  local_120 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_180149490;
+  local_e8 = &local_120;
+  ArtDoc::RegisterMarkReader(&PTR_DAT_1802eaa60,&local_120);
+  local_120 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1800ce740;
+  local_e8 = &local_120;
+  ArtDoc::RegisterMarkReader(&PTR_s_EskoPNGr_1802ea9c8,&local_120);
+  local_120 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkWriter_const_,std::default_delete<ArtDoc::MarkWriter_const_>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkWriter_const_,struct_std::default_delete<class_ArtDoc::MarkWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1800cea40;
+  local_e8 = &local_120;
+  local_178 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800ce9f0;
+  local_140 = &local_178;
+  ArtDoc::RegisterTypeMarkWriter(&local_178,&local_120);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_180152c90;
+  local_140 = &local_178;
+  ArtDoc::RegisterMarkReader(&PTR_s_Esko_Group_1802eaa78,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_180152c90;
+  local_140 = &local_178;
+  ArtDoc::RegisterMarkReader(&PTR_s_Esko_Group_1802eaa98,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkWriter_const_,std::default_delete<ArtDoc::MarkWriter_const_>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkWriter_const_,struct_std::default_delete<class_ArtDoc::MarkWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_180153390;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_180153340;
+  local_e8 = &local_120;
+  ArtDoc::RegisterTypeMarkWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_18013f1e0;
+  local_140 = &local_178;
+  ArtDoc::RegisterMarkReader(&PTR_s_inpd_Group_1802eaa40,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1801070c0;
+  local_140 = &local_178;
+  ArtDoc::RegisterMarkReader(&PTR_s_Group_1802eaa28,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,YAGL::RectangleBase<struct_YAGL::MilliPointCoordinateSystem>_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800e40b0;
+  local_140 = &local_178;
+  ArtDoc::RegisterPieceInfoReader(&PTR_s_EskoPNPDFO_1802ea9e8,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::PieceInfoWriter,std::default_delete<ArtDoc::PieceInfoWriter>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<ArtDoc::PieceInfoWriter_const_,std::default_delete<ArtDoc::PieceInfoWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1801a1740;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1801a09d0;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPieceInfoWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::PieceInfoWriter,std::default_delete<ArtDoc::PieceInfoWriter>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<ArtDoc::PieceInfoWriter_const_,std::default_delete<ArtDoc::PieceInfoWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1801d92f0;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1801d9240;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPieceInfoWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::PieceInfoWriter,std::default_delete<ArtDoc::PieceInfoWriter>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<ArtDoc::PieceInfoWriter_const_,std::default_delete<ArtDoc::PieceInfoWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1801a17b0;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1801a0bc0;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPieceInfoWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,YAGL::RectangleBase<struct_YAGL::MilliPointCoordinateSystem>_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_180152610;
+  local_140 = &local_178;
+  ArtDoc::RegisterPieceInfoReader(&PTR_s_Esko_Group_1802eaa98,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::PieceInfoWriter,std::default_delete<ArtDoc::PieceInfoWriter>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<ArtDoc::PieceInfoWriter_const_,std::default_delete<ArtDoc::PieceInfoWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_180152b20;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1801526d0;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPieceInfoWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkWriter_const_,std::default_delete<ArtDoc::MarkWriter_const_>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkWriter_const_,struct_std::default_delete<class_ArtDoc::MarkWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800f3a10;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_1800f39a0;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPropertyMarkWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkReader,std::default_delete<ArtDoc::MarkReader>_>_(__cdecl*)(GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkReader,struct_std::default_delete<class_ArtDoc::MarkReader>_>,GAObject_const&___ptr64,ArtDoc::Document&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_18015a360;
+  local_140 = &local_178;
+  ArtDoc::RegisterMarkReader(&PTR_s_Esko_Object_1802eaab8,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<class_std::unique_ptr<ArtDoc::MarkWriter_const_,std::default_delete<ArtDoc::MarkWriter_const_>_>_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64),std::unique_ptr<class_ArtDoc::MarkWriter_const_,struct_std::default_delete<class_ArtDoc::MarkWriter_const_>_>,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_18015a510;
+  local_140 = &local_178;
+  local_120 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext_const&___ptr64),bool,ArtDoc::ContentObject_const&___ptr64,ArtDoc::WriteContext_const&___ptr64>
+              ::vftable;
+  pcStack_118 = FUN_18015a480;
+  local_e8 = &local_120;
+  ArtDoc::RegisterPropertyMarkWriter(&local_120,&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<void_(__cdecl*)(GAObject,std::shared_ptr<ArtPaint::FormPaint_const_>_const&___ptr64,ArtDoc::ReadContext&___ptr64),void,GAObject,std::shared_ptr<class_ArtPaint::FormPaint_const_>_const&___ptr64,ArtDoc::ReadContext&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800cde60;
+  local_140 = &local_178;
+  ArtDoc::RegisterFormDefinitionPieceInfoReader(&PTR_s_EskoPNBrix_1802eaa08,&local_178);
+  FUN_18015a7b0();
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Mark/PieceInfo readers and writers installed (4/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  local_178 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,GAObject,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,GAObject>_>_>_const&___ptr64),bool,std::map<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>,class_GAObject,struct_std::less<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>,class_std::allocator<struct_std::pair<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const_,class_GAObject>_>_>_const&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800cdf90;
+  local_140 = &local_178;
+  ArtDoc::RegisterReuseFormQuery(&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<bool_(__cdecl*)(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,GAObject,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,GAObject>_>_>_const&___ptr64),bool,std::map<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>,class_GAObject,struct_std::less<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>,class_std::allocator<struct_std::pair<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const_,class_GAObject>_>_>_const&___ptr64>
+              ::vftable;
+  local_170 = FUN_1800ce100;
+  local_140 = &local_178;
+  ArtDoc::RegisterReuseFormQuery(&local_178);
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar1 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                            &local_120,0x14);
+  pcVar9 = (code *)local_108;
+  if ((OpenFileHandler *)0xf < local_108) {
+    pcVar9 = (code *)(local_108 + 1);
+    ppuVar10 = local_120;
+    if ((OpenFileHandler *)0xfff < pcVar9) {
+      pcVar9 = (code *)(local_108 + 0x28);
+      ppuVar10 = (undefined **)local_120[-1];
+      if ((char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+    }
+    free(ppuVar10);
+  }
+  if (bVar1) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Reuse Form queries installed (5/7)");
+    pcVar9 = FUN_18008d640;
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  pFVar7 = DocumentIO::FileDispatcher::GetInstance();
+  pOVar8 = (OpenFileHandler *)FUN_1802ae920(8);
+  if (pOVar8 == (OpenFileHandler *)0x0) {
+    pOVar8 = (OpenFileHandler *)0x0;
+  }
+  else {
+    *(undefined8 *)pOVar8 = 0;
+    local_138 = pOVar8;
+    DocumentIO::OpenFileHandler::OpenFileHandler(pOVar8,(OpenFileHandler *)pcVar9);
+    *(undefined ***)pOVar8 = _anon_D86631B5::OpenDocumentHandler::vftable;
+  }
+  local_130 = bVar12 | 2;
+  local_138 = (OpenFileHandler *)0x0;
+  ppuVar10 = &PTR_s_application_pdf_1802eaad8;
+  local_180 = (GCallbackAssert *)pOVar8;
+  DocumentIO::FileDispatcher::RegisterFileHandler
+            (pFVar7,&PTR_s_application_pdf_1802eaad8,&local_180);
+  pFVar7 = DocumentIO::FileDispatcher::GetInstance();
+  pOVar8 = (OpenFileHandler *)FUN_1802ae920(8);
+  if (pOVar8 == (OpenFileHandler *)0x0) {
+    pOVar8 = (OpenFileHandler *)0x0;
+  }
+  else {
+    *(undefined8 *)pOVar8 = 0;
+    local_138 = pOVar8;
+    DocumentIO::OpenFileHandler::OpenFileHandler(pOVar8,(OpenFileHandler *)ppuVar10);
+    *(undefined ***)pOVar8 = _anon_D86631B5::OpenDocumentHandler::vftable;
+  }
+  local_130 = bVar12 | 6;
+  local_138 = (OpenFileHandler *)0x0;
+  local_120 = (undefined **)0x1802eac60;
+  pcStack_118 = (code *)0x17;
+  local_180 = (GCallbackAssert *)pOVar8;
+  DocumentIO::FileDispatcher::RegisterFileHandler(pFVar7,&local_120,&local_180);
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar12 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                             &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar12) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"File handlers registered (6/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  local_178 = std::
+              _Func_impl_no_alloc<void_(__cdecl*)(ArtDoc::Content&___ptr64,ArtDoc::PostReadContext_const&___ptr64),void,ArtDoc::Content&___ptr64,ArtDoc::PostReadContext_const&___ptr64>
+              ::vftable;
+  local_170 = FUN_1801591a0;
+  local_140 = &local_178;
+  ArtDoc::RegisterContentPostReader(&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<void_(__cdecl*)(ArtDoc::Content&___ptr64,ArtDoc::PostReadContext_const&___ptr64),void,ArtDoc::Content&___ptr64,ArtDoc::PostReadContext_const&___ptr64>
+              ::vftable;
+  local_170 = FUN_18010c430;
+  local_140 = &local_178;
+  ArtDoc::RegisterContentPostReader(&local_178);
+  local_178 = std::
+              _Func_impl_no_alloc<`public:___cdecl__anon_D86631B5::DocumentLayer::DocumentLayer(void)___ptr64'::`2'::<lambda_1>,void,ArtDoc::Content&___ptr64,ArtDoc::PostReadContext_const&___ptr64>
+              ::vftable;
+  local_140 = &local_178;
+  ArtDoc::RegisterContentPostReader(&local_178);
+  local_120 = (undefined **)0x0;
+  pcStack_118 = (code *)0x0;
+  local_110 = 0;
+  local_108 = (OpenFileHandler *)0xf;
+  local_120 = (undefined **)FUN_1802ae920(0x20);
+  uVar6 = s_document_documentlayer_1802ea8c0._8_8_;
+  local_110 = 0x16;
+  local_108 = (OpenFileHandler *)0x1f;
+  *local_120 = (undefined *)s_document_documentlayer_1802ea8c0._0_8_;
+  local_120[1] = (undefined *)uVar6;
+  *(undefined4 *)(local_120 + 2) = s_document_documentlayer_1802ea8c0._16_4_;
+  *(undefined2 *)((longlong)local_120 + 0x14) = s_document_documentlayer_1802ea8c0._20_2_;
+  *(char *)((longlong)local_120 + 0x16) = '\0';
+  bVar12 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                             &local_120,0x14);
+  if (0xf < local_108) {
+    ppuVar10 = local_120;
+    if ((0xfff < (longlong)local_108 + 1U) &&
+       (ppuVar10 = (undefined **)local_120[-1],
+       (char *)0x1f < (char *)((longlong)local_120 + (-8 - (longlong)ppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppuVar10);
+  }
+  if (bVar12) {
+    Logging::Guard::Guard(local_188);
+    pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)
+             FUN_18001a8a0(clog_exref,"Install default content post readers (7/7)");
+    std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar5,FUN_18008d640);
+    Logging::Guard::~Guard(local_188);
+  }
+  if (local_40 != (longlong *)0x0) {
+    (**(code **)(*local_40 + 0x20))
+              (local_40,CONCAT71((int7)((ulonglong)local_78 >> 8),local_40 != local_78));
+    local_40 = (longlong *)0x0;
+  }
+  if (local_80 != (TCMS_RootDirChangeHandlers *)0x0) {
+    (**(code **)(*(longlong *)local_80 + 0x20))
+              (local_80,CONCAT71((int7)((ulonglong)*(longlong *)local_80 >> 8),local_80 != local_b8)
+              );
+    local_80 = (TCMS_RootDirChangeHandlers *)0x0;
+  }
+  FUN_18001a410(local_e0);
+  return param_1;
+}
+
+
+
+## FN 180094e90
+   name=ArtDoc::Document::Create
+   signature=unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_> __cdecl Create(unique_ptr<ArtDoc::PDFDocument,std::default_delete<ArtDoc::PDFDocument>_> param_1)
+   entry=180094e90 thunk=false external=false body=166
+   -- callers --
+      1800a3504 UNCONDITIONAL_CALL 1800a34a0 ArtDoc::WrapDocument
+      180377d64 DATA -
+      18041c58c DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180090600 ArtDoc::Document::Document
+      180091410 FUN_180091410
+      180098b30 FUN_180098b30
+      180145f00 FUN_180145f00
+      180159c90 FUN_180159c90
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+   -- strings referenced --
+   -- decompiled --
+
+/* public: static class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > __cdecl ArtDoc::Document::Create(class std::unique_ptr<class
+   ArtDoc::PDFDocument,struct std::default_delete<class ArtDoc::PDFDocument> >) */
+
+undefined8 * __cdecl
+ArtDoc::Document::Create
+          (undefined8 *param_1,undefined8 *param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 uVar1;
+  undefined8 local_res18;
+  Document *local_res20;
+  undefined4 uVar2;
+  
+                    /* 0x94e90  1296
+                       ?Create@Document@ArtDoc@@SA?AV?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@V?$unique_ptr@VPDFDocument@ArtDoc@@U?$default_delete@VPDFDocument@ArtDoc@@@std@@@4@@Z
+                        */
+  uVar1 = 0;
+  uVar2 = 0;
+  local_res20 = (Document *)FUN_1802ae920(0x330);
+  if (local_res20 != (Document *)0x0) {
+    local_res18 = *param_2;
+    *param_2 = 0;
+    uVar1 = Document(local_res20,&local_res18,0,param_4,uVar2);
+  }
+  *param_1 = uVar1;
+  FUN_180159c90(uVar1);
+  FUN_180098b30(*param_1);
+  param_2 = (undefined8 *)*param_2;
+  if (param_2 != (undefined8 *)0x0) {
+    *param_2 = PDFDocument::vftable;
+    FUN_180091410(param_2 + 1);
+    FUN_180145f00(param_2);
+    free(param_2);
+  }
+  return param_1;
+}
+
+
+
+## FN 180094f40
+   name=FUN_180094f40
+   signature=undefined FUN_180094f40(void)
+   entry=180094f40 thunk=false external=false body=540
+   -- callers --
+      18009aaf4 UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009ad2a UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009b0bd UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18041c598 DATA -
+   -- callees --
+      18001a8a0 FUN_18001a8a0
+      180173810 ArtDoc::Security::GetEncryption
+      180173880 ArtDoc::Security::GetPermissions
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+      1802aea00 __security_check_cookie
+      EXTERNAL:00000117 LOGGING.DLL::Logging::Guard::Guard
+      EXTERNAL:00000118 LOGGING.DLL::Logging::Guard::~Guard
+      EXTERNAL:00000119 LOGGING.DLL::Logging::HasLevel
+      EXTERNAL:00000696 PDFACCESSLAYER.DLL::GADocEncryptionParams::GADocEncryptionParams
+      EXTERNAL:000007cc MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+      EXTERNAL:00000803 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+      EXTERNAL:00000864 API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+   -- strings referenced --
+      180095053 -> 1802e9200 "document.document"
+      1800950ce -> 1802e9a88 "Document: Unknown encryption value "
+   -- decompiled --
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+GADocEncryptionParams * FUN_180094f40(GADocEncryptionParams *param_1,Security *param_2)
+
+{
+  undefined8 uVar1;
+  bool bVar2;
+  Encryption EVar3;
+  basic_ostream<char,std::char_traits<char>_> *this;
+  basic_ostream<char,struct_std::char_traits<char>_> *this_00;
+  char *_Memory;
+  EncryptionType EVar4;
+  PrintPermissions PVar5;
+  ChangePermissions CVar6;
+  undefined1 auStackY_88 [32];
+  Guard local_58 [4];
+  uint local_54;
+  char *local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  ulonglong local_38;
+  ulonglong local_30;
+  
+  local_30 = DAT_1803e3780 ^ (ulonglong)auStackY_88;
+  ArtDoc::Security::GetPermissions(param_2);
+  if ((local_54 & 0x10) == 0) {
+    if ((local_54 & 0x40) == 0) {
+      if ((local_54 >> 0xb & 1) == 0) {
+        CVar6 = (local_54 & 0x200 | 0x100) >> 8;
+        if ((local_54 >> 8 & 1) != 0) {
+          CVar6 = 4;
+        }
+      }
+      else {
+        CVar6 = 2;
+      }
+    }
+    else {
+      CVar6 = 5;
+    }
+  }
+  else {
+    CVar6 = 6;
+  }
+  if ((local_54 >> 0xc & 1) == 0) {
+    PVar5 = ((local_54 & 8) != 0) + 1;
+  }
+  else {
+    PVar5 = 3;
+  }
+  EVar3 = ArtDoc::Security::GetEncryption(param_2);
+  EVar4 = 2;
+  if (EVar3 != 0) {
+    if (EVar3 == 1) {
+      EVar4 = 1;
+    }
+    else if (EVar3 != 2) {
+      if (EVar3 == 3) {
+        EVar4 = 3;
+      }
+      else {
+        local_50 = (char *)0x0;
+        uStack_48 = 0;
+        local_40 = 0;
+        local_38 = 0xf;
+        local_50 = (char *)FUN_1802ae920(0x20);
+        uVar1 = s_document_document_1802e9200._8_8_;
+        local_40 = 0x11;
+        local_38 = 0x1f;
+        *(undefined8 *)local_50 = s_document_document_1802e9200._0_8_;
+        *(undefined8 *)(local_50 + 8) = uVar1;
+        local_50[0x10] = s_document_document_1802e9200[0x10];
+        local_50[0x11] = '\0';
+        bVar2 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *
+                                  )&local_50,1);
+        if (0xf < local_38) {
+          _Memory = local_50;
+          if ((0xfff < local_38 + 1) &&
+             (_Memory = *(char **)(local_50 + -8),
+             (char *)0x1f < local_50 + (-8 - (longlong)_Memory))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(_Memory);
+        }
+        if (bVar2) {
+          Logging::Guard::Guard(local_58);
+          this = (basic_ostream<char,std::char_traits<char>_> *)
+                 FUN_18001a8a0(clog_exref,"Document: Unknown encryption value ");
+          this_00 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(this,EVar3);
+          std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                    ((basic_ostream<char,std::char_traits<char>_> *)this_00,FUN_18008d640);
+          Logging::Guard::~Guard(local_58);
+        }
+      }
+    }
+  }
+  GADocEncryptionParams::GADocEncryptionParams
+            (param_1,EVar4,CVar6,PVar5,~(local_54 >> 10) & 1 | 2,2);
+  return param_1;
+}
+
+
+
+## FN 180093d60
+   name=ArtDoc::Document::Cache
+   signature=void __thiscall Cache(Document * this)
+   entry=180093d60 thunk=false external=false body=2050
+   -- callers --
+      18009023b UNCONDITIONAL_CALL 18008f590 ArtDoc::Document::Document
+      180090af8 UNCONDITIONAL_CALL 180090600 ArtDoc::Document::Document
+      180095a80 UNCONDITIONAL_CALL 180095a10 ArtDoc::Document::Flush
+      1800996cc UNCONDITIONAL_CALL 180099690 ArtDoc::Document::RevertToSaved
+      18009b18b UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009b66a UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009c299 UNCONDITIONAL_CALL 18009c230 ArtDoc::Document::Swap
+      180377bcc DATA -
+      18041c538 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180016af0 FUN_180016af0
+      180019900 ArtImg::ComponentToIntStreamConverter::GetBitsPerChannel
+      18001a8a0 FUN_18001a8a0
+      18001bf50 FUN_18001bf50
+      1800305a0 ArtColor::OutputIntent::~OutputIntent
+      180083f80 ArtDoc::ContentTracker::AddPageToDocument
+      18008cca0 FUN_18008cca0
+      18008d170 FUN_18008d170
+      1800923b0 FUN_1800923b0
+      180092410 FUN_180092410
+      180092ad0 FUN_180092ad0
+      180095d50 ArtDoc::Document::GetFilePath
+      180095f20 ArtDoc::Document::GetInfoFlag
+      1800971e0 ArtDoc::Document::GetPDFDocument
+      1800991b0 FUN_1800991b0
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+      18009ce00 FUN_18009ce00
+      18009cf50 FUN_18009cf50
+      1800a0aa0 ArtDoc::DocumentOpenException::DocumentOpenException
+      1800bf510 FUN_1800bf510
+      1800f2a40 ArtImg::PictureBuffer::GetBytesPerRow
+      1800f9770 ArtDoc::Page::Page
+      1800f9960 ArtDoc::Page::~Page
+      1800fbf00 FUN_1800fbf00
+      1800fe190 ArtDoc::Parts::Parts
+      1800fe860 ArtDoc::Parts::~Parts
+      180139890 FUN_180139890
+      18013f730 FUN_18013f730
+      1801463b0 FUN_1801463b0
+      180146440 FUN_180146440
+      180147c80 FUN_180147c80
+      180147f80 FUN_180147f80
+      18014b4b0 FUN_18014b4b0
+      180153e20 FUN_180153e20
+      180161dc0 FUN_180161dc0
+      180166a80 FUN_180166a80
+      180166c10 FUN_180166c10
+      18016b490 ArtDoc::ResourceManager::ResourceManager
+      18016c2a0 ArtDoc::ResourceManager::~ResourceManager
+      18016f260 ArtDoc::ResourceManager::GetFontManager
+      1801761f0 ArtDoc::Separation::MergeSeparationInfo
+      18019b970 FUN_18019b970
+      1801e7a80 ArtFont::FontManager::SetPDFDocument
+      1802ae3c5 MSVCP140.DLL::std::_Xbad_function_call
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+      1802aea00 __security_check_cookie
+      1802afba2 VCRUNTIME140.DLL::_CxxThrowException
+      EXTERNAL:00000117 LOGGING.DLL::Logging::Guard::Guard
+      EXTERNAL:00000118 LOGGING.DLL::Logging::Guard::~Guard
+      EXTERNAL:00000119 LOGGING.DLL::Logging::HasLevel
+      EXTERNAL:000003a0 PDFOBJECTLAYER.DLL::GODocument::UpdateNumPagesCache
+      EXTERNAL:00000464 PDFOBJECTLAYER.DLL::GODocument::GetDPartTree
+      EXTERNAL:000005f8 PDFACCESSLAYER.DLL::GADict::~GADict
+      EXTERNAL:0000067b PDFACCESSLAYER.DLL::GADictIterator::Next
+      EXTERNAL:0000067c PDFACCESSLAYER.DLL::GADictIterator::~GADictIterator
+      EXTERNAL:0000067d PDFACCESSLAYER.DLL::GADictIterator::GADictIterator
+      EXTERNAL:00000688 PDFACCESSLAYER.DLL::GADoc::GetCatalog
+      EXTERNAL:0000069c PDFACCESSLAYER.DLL::GADict::GetDict
+      EXTERNAL:0000069d PDFACCESSLAYER.DLL::GADict::Has
+      EXTERNAL:000006a0 PDFACCESSLAYER.DLL::GADict::Cast
+      EXTERNAL:000006a2 PDFACCESSLAYER.DLL::GAObject::IsDict
+      EXTERNAL:000006b5 PDFACCESSLAYER.DLL::GAObject::~GAObject
+      EXTERNAL:00000732 BASICFRAMEWORKCORELAYER.DLL::GRefCount::Acquire
+      EXTERNAL:00000739 BASICFRAMEWORKCORELAYER.DLL::GRefCount::Release
+      EXTERNAL:00000803 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+   -- strings referenced --
+      1800944bb -> 1802e9200 "document.document"
+      180094503 -> 1802ea1e0 "Document: File has no pages"
+   -- decompiled --
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* private: void __cdecl ArtDoc::Document::Cache(void) __ptr64 */
+
+void __thiscall ArtDoc::Document::Cache(Document *this)
+
+{
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  *pvVar1;
+  ResourceManager *this_00;
+  longlong lVar2;
+  undefined8 *puVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  Page *_Memory;
+  char cVar7;
+  bool bVar8;
+  PDFDocument *this_01;
+  GODocument *this_02;
+  undefined8 uVar9;
+  FontManager *this_03;
+  longlong lVar10;
+  GADoc *this_04;
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  *pvVar11;
+  undefined4 *puVar12;
+  ComponentToIntStreamConverter *this_05;
+  __uint64 _Var13;
+  Parts *pPVar14;
+  undefined8 uVar15;
+  basic_ostream<char,std::char_traits<char>_> *this_06;
+  path *ppVar16;
+  int iVar17;
+  undefined1 auStack_2c8 [32];
+  Guard local_2a8 [8];
+  GRefCount *local_2a0;
+  GADict local_298 [8];
+  Page *local_290;
+  GRefCount *local_288;
+  undefined8 local_280;
+  ResourceManager *local_278 [2];
+  undefined8 local_268;
+  undefined1 local_260 [24];
+  Document *local_248;
+  GADictIterator local_240 [24];
+  OutputIntent local_228 [224];
+  char local_148;
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  local_140 [40];
+  longlong local_118 [7];
+  longlong *local_e0;
+  longlong local_d8 [7];
+  longlong *local_a0;
+  DocumentOpenException local_98 [112];
+  ulonglong local_28;
+  
+                    /* 0x93d60  1194  ?Cache@Document@ArtDoc@@AEAAXXZ */
+  local_28 = DAT_1803e3780 ^ (ulonglong)auStack_2c8;
+  uVar15 = 0;
+  local_248 = this;
+  SwitchToWorkingFile(this);
+  cVar7 = FUN_1801463b0(*(undefined8 *)(this + 0xc0));
+  if ((cVar7 != '\0') && (cVar7 = FUN_180146440(*(undefined8 *)(this + 0xc0)), cVar7 == '\0')) {
+    FUN_180147c80(*(undefined8 *)(this + 0xc0),1);
+    this_01 = GetPDFDocument(this);
+    this_02 = (GODocument *)ArtImg::PictureBuffer::GetBytesPerRow((PictureBuffer *)this_01);
+    lVar10 = *(longlong *)(this + 0x130);
+    FUN_18008d170(this + 0x130,this + 0x130,*(undefined8 *)(lVar10 + 8));
+    *(longlong *)(lVar10 + 8) = lVar10;
+    *(longlong *)lVar10 = lVar10;
+    *(longlong *)(lVar10 + 0x10) = lVar10;
+    *(undefined8 *)(this + 0x138) = 0;
+    FUN_18009cf50(this + 0x140);
+    if (*(longlong *)(this + 0x1d8) == 0) {
+      local_278[0] = (ResourceManager *)FUN_1802ae920(0xb8);
+      if (local_278[0] == (ResourceManager *)0x0) {
+        uVar9 = 0;
+      }
+      else {
+        uVar9 = ResourceManager::ResourceManager(local_278[0],this);
+      }
+      this_00 = *(ResourceManager **)(this + 0x1d8);
+      *(undefined8 *)(this + 0x1d8) = uVar9;
+      if (this_00 != (ResourceManager *)0x0) {
+        ResourceManager::~ResourceManager(this_00);
+        free(this_00);
+      }
+    }
+    this_03 = ResourceManager::GetFontManager(*(ResourceManager **)(this + 0x1d8));
+    ArtFont::FontManager::SetPDFDocument(this_03,this_02);
+    uVar9 = *(undefined8 *)(this + 0xc0);
+    local_278[0] = (ResourceManager *)FUN_1802ae920(0x18);
+    if (local_278[0] == (ResourceManager *)0x0) {
+      lVar10 = 0;
+    }
+    else {
+      lVar10 = FUN_1800fbf00(local_278[0],uVar9);
+    }
+    lVar2 = *(longlong *)(this + 0x1d0);
+    *(longlong *)(this + 0x1d0) = lVar10;
+    if (lVar2 != 0) {
+      FUN_180092ad0();
+    }
+    FUN_18013f730(this);
+    this_04 = (GADoc *)(**(code **)(*(longlong *)this_02 + 0x80))(this_02);
+    GADoc::GetCatalog(this_04);
+    bVar8 = GetInfoFlag(this,2);
+    if (!bVar8) {
+      uVar9 = FUN_180153e20(local_140,local_298);
+      FUN_180092410(this + 0x2d8,uVar9);
+      FUN_18009ce00(local_140);
+    }
+    FUN_18019b970(local_260,this);
+    pvVar1 = (vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+              *)(this + 0x2d8);
+    pvVar11 = (vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+               *)Separation::MergeSeparationInfo(local_140,pvVar1);
+    if (pvVar1 != pvVar11) {
+      FUN_18009ce00(pvVar1);
+      *(undefined8 *)pvVar1 = *(undefined8 *)pvVar11;
+      *(undefined8 *)(this + 0x2e0) = *(undefined8 *)(pvVar11 + 8);
+      *(undefined8 *)(this + 0x2e8) = *(undefined8 *)(pvVar11 + 0x10);
+      *(undefined8 *)pvVar11 = 0;
+      *(undefined8 *)(pvVar11 + 8) = 0;
+      *(undefined8 *)(pvVar11 + 0x10) = 0;
+    }
+    FUN_18009ce00(local_140);
+    FUN_18009ce00(local_260);
+    bVar8 = GetInfoFlag(this,2);
+    FUN_1800bf510(local_260,local_298,!bVar8);
+    pvVar11 = (vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+               *)Separation::MergeSeparationInfo(local_140,pvVar1);
+    if (pvVar1 != pvVar11) {
+      FUN_18009ce00(pvVar1);
+      *(undefined8 *)pvVar1 = *(undefined8 *)pvVar11;
+      *(undefined8 *)(this + 0x2e0) = *(undefined8 *)(pvVar11 + 8);
+      *(undefined8 *)(this + 0x2e8) = *(undefined8 *)(pvVar11 + 0x10);
+      *(undefined8 *)pvVar11 = 0;
+      *(undefined8 *)(pvVar11 + 8) = 0;
+      *(undefined8 *)(pvVar11 + 0x10) = 0;
+    }
+    FUN_18009ce00(local_140);
+    FUN_18009ce00(local_260);
+    uVar9 = FUN_18014b4b0(local_228,this);
+    FUN_1800923b0(this + 0x1e0,uVar9);
+    if (local_148 != '\0') {
+      ArtColor::OutputIntent::~OutputIntent(local_228);
+    }
+    puVar12 = (undefined4 *)FUN_1800991b0(local_260,this,local_298);
+    uVar4 = puVar12[1];
+    uVar5 = puVar12[2];
+    uVar6 = puVar12[3];
+    *(undefined4 *)(this + 0x2c8) = *puVar12;
+    *(undefined4 *)(this + 0x2cc) = uVar4;
+    *(undefined4 *)(this + 0x2d0) = uVar5;
+    *(undefined4 *)(this + 0x2d4) = uVar6;
+    FUN_180139890(local_298,this);
+    bVar8 = GADict::Has(local_298,(GName *)&DAT_18040f708);
+    if (bVar8) {
+      GADict::GetDict(local_298,(GName *)&local_288);
+      GADictIterator::GADictIterator((GADictIterator *)local_140,(GADict *)&local_288);
+      local_290 = (Page *)0x0;
+      local_2a0 = (GRefCount *)0x0;
+      bVar8 = GADictIterator::Next
+                        ((GADictIterator *)local_140,(GName *)&local_290,(GAObject *)&local_2a0);
+      if (bVar8) {
+        do {
+          bVar8 = GAObject::IsDict((GAObject *)&local_2a0);
+          if (bVar8) {
+            FUN_180161dc0(local_260,local_290);
+            FUN_180166c10(local_118,local_260);
+            if (local_e0 != (longlong *)0x0) {
+              uVar9 = GADict::Cast((GAObject *)local_278);
+              if (local_e0 == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+                std::_Xbad_function_call();
+              }
+              (**(code **)(*local_e0 + 0x10))(local_e0,this,uVar9);
+              GADict::~GADict((GADict *)local_278);
+            }
+            if (local_e0 != (longlong *)0x0) {
+              (**(code **)(*local_e0 + 0x20))
+                        (local_e0,CONCAT71((int7)((ulonglong)local_118 >> 8),local_e0 != local_118))
+              ;
+            }
+          }
+          bVar8 = GADictIterator::Next
+                            ((GADictIterator *)local_140,(GName *)&local_290,(GAObject *)&local_2a0)
+          ;
+        } while (bVar8);
+      }
+      GAObject::~GAObject((GAObject *)&local_2a0);
+      GADictIterator::~GADictIterator((GADictIterator *)local_140);
+      GADict::~GADict((GADict *)&local_288);
+    }
+    GADictIterator::GADictIterator(local_240,local_298);
+    local_268 = 0;
+    local_280 = 0;
+    bVar8 = GADictIterator::Next(local_240,(GName *)&local_268,(GAObject *)&local_280);
+    if (bVar8) {
+      do {
+        FUN_180161dc0(local_260,local_268);
+        FUN_180166a80(local_d8,local_260);
+        if (local_a0 != (longlong *)0x0) {
+          uVar9 = (**(code **)(*(longlong *)this_02 + 0x80))(this_02);
+          if (local_a0 == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+            std::_Xbad_function_call();
+          }
+          (**(code **)(*local_a0 + 0x10))(local_a0,this,uVar9,&local_280);
+        }
+        if (local_a0 != (longlong *)0x0) {
+          (**(code **)(*local_a0 + 0x20))
+                    (local_a0,CONCAT71((int7)((ulonglong)local_d8 >> 8),local_a0 != local_d8));
+        }
+        bVar8 = GADictIterator::Next(local_240,(GName *)&local_268,(GAObject *)&local_280);
+      } while (bVar8);
+    }
+    iVar17 = 0;
+    while( true ) {
+      if (*(int *)(this_02 + 0x1a0) == -1) {
+        GODocument::UpdateNumPagesCache(this_02);
+      }
+      if (*(int *)(this_02 + 0x1a0) <= iVar17) break;
+      lVar10 = *(longlong *)(this + 0x1b8);
+      lVar2 = *(longlong *)(this + 0x1b0);
+      local_278[0] = (ResourceManager *)FUN_1802ae920(0x248);
+      if (local_278[0] == (ResourceManager *)0x0) {
+        this_05 = (ComponentToIntStreamConverter *)0x0;
+      }
+      else {
+        this_05 = (ComponentToIntStreamConverter *)
+                  Page::Page((Page *)local_278[0],this,lVar10 - lVar2 >> 3,0);
+      }
+      local_290 = (Page *)this_05;
+      _Var13 = ArtImg::ComponentToIntStreamConverter::GetBitsPerChannel(this_05);
+      FUN_180147f80(_Var13,this_02,(longlong)iVar17);
+      puVar3 = *(undefined8 **)(this + 0x1b8);
+      if (puVar3 == *(undefined8 **)(this + 0x1c0)) {
+        FUN_18008cca0(this + 0x1b0,puVar3,&local_290);
+      }
+      else {
+        local_290 = (Page *)0x0;
+        *puVar3 = this_05;
+        *(longlong *)(this + 0x1b8) = *(longlong *)(this + 0x1b8) + 8;
+      }
+      ContentTracker::AddPageToDocument
+                (*(ContentTracker **)(this + 0x1a8),*(Page **)(*(longlong *)(this + 0x1b8) + -8));
+      _Memory = local_290;
+      if (local_290 != (Page *)0x0) {
+        Page::~Page(local_290);
+        free(_Memory);
+      }
+      iVar17 = iVar17 + 1;
+    }
+    if (*(longlong *)(this + 0x1b0) == *(longlong *)(this + 0x1b8)) {
+      FUN_18001bf50(local_140,"document.document");
+      bVar8 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                                local_140,1);
+      FUN_180016af0(local_140);
+      if (bVar8) {
+        Logging::Guard::Guard(local_2a8);
+        this_06 = (basic_ostream<char,std::char_traits<char>_> *)
+                  FUN_18001a8a0(clog_exref,"Document: File has no pages");
+        std::basic_ostream<char,std::char_traits<char>_>::operator<<(this_06,FUN_18008d640);
+        Logging::Guard::~Guard(local_2a8);
+      }
+      ppVar16 = GetFilePath(this);
+      DocumentOpenException::DocumentOpenException(local_98,ppVar16,2);
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(local_98,(ThrowInfo *)&DAT_180376200);
+    }
+    GODocument::GetDPartTree(this_02);
+    if (local_2a0 != (GRefCount *)0x0) {
+      pPVar14 = (Parts *)FUN_1802ae920(0x48);
+      local_278[0] = (ResourceManager *)pPVar14;
+      if (pPVar14 != (Parts *)0x0) {
+        local_288 = local_2a0;
+        if (local_2a0 != (GRefCount *)0x0) {
+          GRefCount::Acquire(local_2a0);
+        }
+        uVar15 = Parts::Parts(pPVar14,this,&local_288);
+      }
+      pPVar14 = *(Parts **)(this + 0x1c8);
+      *(undefined8 *)(this + 0x1c8) = uVar15;
+      if (pPVar14 != (Parts *)0x0) {
+        Parts::~Parts(pPVar14);
+        free(pPVar14);
+      }
+    }
+    if (local_2a0 != (GRefCount *)0x0) {
+      GRefCount::Release(local_2a0);
+    }
+    GAObject::~GAObject((GAObject *)&local_280);
+    GADictIterator::~GADictIterator(local_240);
+    GADict::~GADict(local_298);
+  }
+  return;
+}
+
+
+
+## FN 18008f590
+   name=ArtDoc::Document::Document
+   signature=undefined __thiscall Document(Document * this, path * param_1, ReadOptions * param_2, PrivateKey param_3)
+   entry=18008f590 thunk=false external=false body=4198
+   -- callers --
+      180094e50 UNCONDITIONAL_CALL 180094e10 ArtDoc::Document::Create
+      180376b08 DATA -
+      18041c154 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180015140 FUN_180015140
+      180016af0 FUN_180016af0
+      18001a020 FUN_18001a020
+      18001a060 FUN_18001a060
+      18001a410 FUN_18001a410
+      18001a8a0 FUN_18001a8a0
+      18001bf50 FUN_18001bf50
+      1800396c0 FUN_1800396c0
+      18003ed10 ArtDoc::ActionList::ActionList
+      180040090 FUN_180040090
+      180043f00 FUN_180043f00
+      18004d000 ArtDoc::Errors::Errors
+      180059c20 ArtDoc::ChangeCollector::ChangeCollector
+      18005c2b0 FUN_18005c2b0
+      18005fd90 FUN_18005fd90
+      1800793f0 FUN_1800793f0
+      180083470 ArtDoc::ContentTracker::ContentTracker
+      18008bbc0 FUN_18008bbc0
+      18008bcf0 FUN_18008bcf0
+      18008bf40 FUN_18008bf40
+      18008dcb0 FUN_18008dcb0
+      18008dd20 FUN_18008dd20
+      18008e080 FUN_18008e080
+      18008e430 FUN_18008e430
+      18008ea50 FUN_18008ea50
+      180091550 FUN_180091550
+      1800922e0 FUN_1800922e0
+      180093d60 ArtDoc::Document::Cache
+      1800954c0 FUN_1800954c0
+      180095560 FUN_180095560
+      1800971e0 ArtDoc::Document::GetPDFDocument
+      180098560 FUN_180098560
+      18009cee0 FUN_18009cee0
+      18009df70 FUN_18009df70
+      18009e160 FUN_18009e160
+      1800a0aa0 ArtDoc::DocumentOpenException::DocumentOpenException
+      1800b4900 ArtDoc::DynamicObjectController::DynamicObjectController
+      1800b50c0 ArtDoc::ErrorAggregator::ErrorAggregator
+      1800bb330 ArtDoc::Halftones::Halftones
+      1800cb530 ArtDoc::Layers::Layers
+      1800f2a40 ArtImg::PictureBuffer::GetBytesPerRow
+      1800ff270 ArtPaint::DefaultFunction::GetColorConverter
+      1801318b0 FUN_1801318b0
+      180145c70 FUN_180145c70
+      180147d70 FUN_180147d70
+      180164b10 ArtDoc::Properties::Properties
+      1801688a0 ArtDoc::WriteOptions::GetFlavour
+      1801737d0 ArtDoc::Security::Security
+      180173820 ArtDoc::Security::GetPassword
+      180173880 ArtDoc::Security::GetPermissions
+      180173890 ArtDoc::Security::SetEncryption
+      1801738a0 ArtDoc::Security::SetPassword
+      1801738c0 ArtDoc::Security::SetPermissions
+      1801ca8b0 FUN_1801ca8b0
+      1801ecb30 ArtDocGlue::PDFConverters::ToGPathName
+      1802ad5fd PDFOBJECTLAYER.DLL::GODocument::GetGADoc
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+      1802aea00 __security_check_cookie
+      1802afba2 VCRUNTIME140.DLL::_CxxThrowException
+      EXTERNAL:00000117 LOGGING.DLL::Logging::Guard::Guard
+      EXTERNAL:00000118 LOGGING.DLL::Logging::Guard::~Guard
+      EXTERNAL:00000119 LOGGING.DLL::Logging::HasLevel
+      EXTERNAL:00000130 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_traits::convert
+      EXTERNAL:00000141 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::status
+      EXTERNAL:00000468 PDFOBJECTLAYER.DLL::GODocument::GetPermissions
+      EXTERNAL:00000469 PDFOBJECTLAYER.DLL::GODocument::IsEncrypted
+      EXTERNAL:00000471 PDFOBJECTLAYER.DLL::GODocument::GODocument
+      EXTERNAL:00000682 PDFACCESSLAYER.DLL::GADoc::GetEncryptionType
+      EXTERNAL:000006bc BASICFRAMEWORKCORELAYER.DLL::GFastAllocatable::operator_new
+      EXTERNAL:000006be BASICFRAMEWORKCORELAYER.DLL::GBuffer::GBuffer
+      EXTERNAL:000006d7 BASICFRAMEWORKCORELAYER.DLL::GPathName::~GPathName
+      EXTERNAL:00000737 BASICFRAMEWORKCORELAYER.DLL::GBuffer::~GBuffer
+      EXTERNAL:00000793 KERNEL32.DLL::LeaveCriticalSection
+      EXTERNAL:000007b0 KERNEL32.DLL::EnterCriticalSection
+      EXTERNAL:00000803 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+      EXTERNAL:00000864 API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+   -- strings referenced --
+      18008fbc8 -> 1802e9200 "document.document"
+      18008fc4c -> 1802e9f20 "Document: Open read/write but file is write-protected: "
+      18008fd01 -> 1802e9200 "document.document"
+      18008fd85 -> 1802e9f00 "Document: Open read/write: "
+      18008fe13 -> 1802e9200 "document.document"
+      18008fe9b -> 1802e9f58 "Document: Open read-only: "
+      180090543 -> 1802e9200 "document.document"
+      18009058b -> 1802e9ef0 "Document: File "
+      1800905ac -> 1802e9ed8 " could not be found"
+   -- decompiled --
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: __cdecl ArtDoc::Document::Document(class boost::filesystem::path const & __ptr64,class
+   ArtDoc::ReadOptions const & __ptr64,class ArtDoc::Document::PrivateKey) __ptr64 */
+
+Document * __thiscall
+ArtDoc::Document::Document(Document *this,error_code *param_1,WriteOptions *param_2)
+
+{
+  Document *pDVar1;
+  longlong *plVar2;
+  int *piVar3;
+  Document *pDVar4;
+  Security *this_00;
+  int iVar5;
+  undefined8 uVar6;
+  char cVar7;
+  bool bVar8;
+  bool bVar9;
+  Flavour FVar10;
+  long lVar11;
+  undefined4 uVar12;
+  uint uVar13;
+  undefined8 uVar14;
+  undefined8 *puVar15;
+  longlong lVar16;
+  uint *puVar17;
+  basic_ostream<char,std::char_traits<char>_> *pbVar18;
+  shared_ptr<ArtColor::ColorConverter> *psVar19;
+  char *pcVar20;
+  GODocument *pGVar21;
+  GPathName *pGVar22;
+  GADoc *this_01;
+  PDFDocument *pPVar23;
+  longlong *plVar24;
+  basic_string<wchar_t,ArtSys::Core::uni16char_traits,std::allocator<wchar_t>_> *pbVar25;
+  byte *pbVar26;
+  error_code *peVar27;
+  void *pvVar28;
+  Encryption EVar29;
+  error_code *peVar30;
+  undefined1 *puVar31;
+  undefined1 *puVar32;
+  uint uVar33;
+  undefined1 auStack_4b8 [32];
+  undefined4 local_498;
+  Guard local_488 [8];
+  Document *local_480;
+  Guard local_478;
+  Guard local_477;
+  Guard local_476 [6];
+  Document *local_470;
+  uint local_468;
+  undefined4 local_464;
+  error_code *local_460;
+  WriteOptions *local_458;
+  Document *local_450;
+  longlong *local_448;
+  Document *local_440 [2];
+  undefined1 local_430 [8];
+  longlong *local_428;
+  GBuffer local_420 [16];
+  Document *local_410;
+  path local_408 [8];
+  undefined8 local_400;
+  undefined8 uStack_3f8;
+  undefined8 local_3f0;
+  path local_3e8 [32];
+  undefined8 local_3c8 [3];
+  ulonglong local_3b0;
+  char *local_3a8;
+  undefined8 uStack_3a0;
+  undefined8 local_398;
+  ulonglong local_390;
+  char *local_388;
+  undefined8 uStack_380;
+  undefined8 local_378;
+  ulonglong local_370;
+  char *local_368;
+  undefined8 uStack_360;
+  undefined8 local_358;
+  ulonglong local_350;
+  void *local_348;
+  undefined8 uStack_340;
+  undefined8 local_338;
+  ulonglong uStack_330;
+  undefined1 local_328;
+  undefined7 uStack_327;
+  undefined8 local_318;
+  ulonglong uStack_310;
+  undefined8 local_308 [3];
+  ulonglong local_2f0;
+  undefined1 local_2e8 [64];
+  undefined1 local_2a8 [160];
+  ulonglong local_208;
+  undefined1 *local_200;
+  longlong local_1f8;
+  LPCRITICAL_SECTION local_1f0;
+  undefined1 local_1e8 [32];
+  undefined1 local_1c8 [48];
+  DocumentOpenException local_198 [336];
+  ulonglong local_48;
+  
+                    /* 0x8f590  121
+                       ??0Document@ArtDoc@@QEAA@AEBVpath@filesystem@boost@@AEBVReadOptions@1@VPrivateKey@01@@Z
+                        */
+  local_48 = DAT_1803e3780 ^ (ulonglong)auStack_4b8;
+  local_468 = 0;
+  *(undefined ***)this = _vftable_;
+  local_440[0] = this + 8;
+  *(undefined ***)local_440[0] =
+       boost::signals2::
+       signal<void___cdecl(void),boost::signals2::optional_last_value<void>,int,std::less<int>,boost::function<void___cdecl(void)>,boost::function<void___cdecl(boost::signals2::connection_const&___ptr64)>,boost::signals2::mutex>
+       ::vftable;
+  pDVar1 = this + 0x18;
+  local_480 = pDVar1;
+  local_460 = param_1;
+  local_458 = param_2;
+  local_410 = this;
+  local_448 = (longlong *)FUN_1802ae920(0x28);
+  if (local_448 == (longlong *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = FUN_18008e430(local_448,local_488,local_488);
+  }
+  *(undefined8 *)pDVar1 = uVar14;
+  *(undefined8 *)(this + 0x20) = 0;
+  puVar15 = (undefined8 *)FUN_18008bcf0(&local_448,uVar14);
+  plVar24 = local_448;
+  uVar6 = *(undefined8 *)(this + 0x20);
+  *(undefined8 *)(this + 0x20) = *puVar15;
+  *puVar15 = uVar6;
+  if (local_448 != (longlong *)0x0) {
+    LOCK();
+    plVar2 = local_448 + 1;
+    lVar16 = *plVar2;
+    *(int *)plVar2 = (int)*plVar2 + -1;
+    UNLOCK();
+    if ((int)lVar16 == 1) {
+      (**(code **)(*local_448 + 8))(local_448);
+      LOCK();
+      piVar3 = (int *)((longlong)plVar24 + 0xc);
+      iVar5 = *piVar3;
+      *piVar3 = *piVar3 + -1;
+      UNLOCK();
+      if (iVar5 == 1) {
+        (**(code **)(*plVar24 + 0x10))(plVar24);
+      }
+    }
+  }
+  FUN_180043f00(pDVar1,uVar14,uVar14);
+  pDVar1 = this + 0x28;
+  *(undefined8 *)pDVar1 = 0;
+  *(undefined8 *)(this + 0x30) = 0;
+  *(undefined8 *)(this + 0x38) = 0;
+  *(undefined8 *)(this + 0x40) = 7;
+  *(undefined2 *)pDVar1 = 0;
+  this[0x48] = (Document)0x0;
+  FUN_180015140(this + 0x50,param_1);
+  *(undefined8 *)(this + 0x70) = 0;
+  *(undefined4 *)(this + 0x78) = 0;
+  FVar10 = WriteOptions::GetFlavour(param_2);
+  *(Flavour *)(this + 0x7c) = FVar10;
+  Properties::Properties((Properties *)(this + 0x80));
+  local_480 = this + 0xc0;
+  local_480 = (Document *)FUN_1802ae920(0x30);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = FUN_180145c70(local_480);
+  }
+  *(undefined8 *)(this + 0xc0) = uVar14;
+  FUN_18008dcb0(this + 200);
+  local_480 = this + 0xd0;
+  local_480 = (Document *)FUN_1802ae920(0x80);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = FUN_1801ca8b0(local_480,this);
+  }
+  *(undefined8 *)(this + 0xd0) = uVar14;
+  local_480 = this + 0xd8;
+  local_480 = (Document *)FUN_1802ae920(0x30);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = FUN_1801318b0(local_480);
+  }
+  *(undefined8 *)(this + 0xd8) = uVar14;
+  local_480 = this + 0xe0;
+  local_480 = (Document *)FUN_1802ae920(0xd8);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = ActionList::ActionList((ActionList *)local_480,this);
+  }
+  *(undefined8 *)(this + 0xe0) = uVar14;
+  *(undefined8 *)(this + 0xe8) = DAT_18040f6e0;
+  *(undefined4 *)(this + 0xf0) = 0;
+  local_480 = this + 0xf8;
+  local_480 = (Document *)FUN_1802ae920(0xd0);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = ErrorAggregator::ErrorAggregator((ErrorAggregator *)local_480);
+  }
+  *(undefined8 *)(this + 0xf8) = uVar14;
+  local_480 = this + 0x100;
+  local_480 = (Document *)FUN_1802ae920(0x28);
+  if (local_480 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = Errors::Errors((Errors *)local_480,this);
+  }
+  *(undefined8 *)(this + 0x100) = uVar14;
+  *(undefined8 *)(this + 0x108) = 0;
+  *(undefined8 *)(this + 0x110) = 0;
+  *(undefined8 *)(this + 0x118) = 0;
+  *(undefined8 *)(this + 0x120) = 0;
+  *(undefined8 *)(this + 0x128) = 0xf;
+  this[0x110] = (Document)0x0;
+  pDVar4 = this + 0x130;
+  *(longlong *)pDVar4 = 0;
+  *(undefined8 *)(this + 0x138) = 0;
+  local_480 = pDVar4;
+  lVar16 = FUN_1802ae920(0x48);
+  *(longlong *)lVar16 = lVar16;
+  *(longlong *)(lVar16 + 8) = lVar16;
+  *(longlong *)(lVar16 + 0x10) = lVar16;
+  *(undefined2 *)(lVar16 + 0x18) = 0x101;
+  *(longlong *)pDVar4 = lVar16;
+  pDVar4 = this + 0x140;
+  *(longlong *)pDVar4 = 0;
+  *(undefined8 *)(this + 0x148) = 0;
+  local_480 = pDVar4;
+  lVar16 = FUN_1802ae920(0x28);
+  *(longlong *)lVar16 = lVar16;
+  *(longlong *)(lVar16 + 8) = lVar16;
+  *(longlong *)(lVar16 + 0x10) = lVar16;
+  *(undefined2 *)(lVar16 + 0x18) = 0x101;
+  *(longlong *)pDVar4 = lVar16;
+  local_480 = (Document *)0x7ffffffffffffffe;
+  local_464 = 0xfffffffe;
+  FUN_1800396c0(this + 0x150,&local_464,&local_480);
+  Security::Security((Security *)(this + 0x158));
+  local_470 = this + 0x1a8;
+  local_470 = (Document *)FUN_1802ae920(0x50);
+  if (local_470 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = ContentTracker::ContentTracker((ContentTracker *)local_470,this);
+  }
+  *(undefined8 *)(this + 0x1a8) = uVar14;
+  *(undefined8 *)(this + 0x1b0) = 0;
+  *(undefined8 *)(this + 0x1b8) = 0;
+  *(undefined8 *)(this + 0x1c0) = 0;
+  *(undefined8 *)(this + 0x1c8) = 0;
+  *(undefined8 *)(this + 0x1d0) = 0;
+  *(undefined8 *)(this + 0x1d8) = 0;
+  this[0x2c0] = (Document)0x0;
+  *(undefined8 *)(this + 0x2c8) = 0x3ff0000000000000;
+  *(undefined8 *)(this + 0x2d0) = 0x3ff0000000000000;
+  *(undefined8 *)(this + 0x2d8) = 0;
+  *(undefined8 *)(this + 0x2e0) = 0;
+  *(undefined8 *)(this + 0x2e8) = 0;
+  local_470 = this + 0x2f0;
+  local_470 = (Document *)FUN_1802ae920(0x58);
+  if (local_470 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = Layers::Layers((Layers *)local_470,this);
+  }
+  *(undefined8 *)(this + 0x2f0) = uVar14;
+  local_470 = this + 0x2f8;
+  local_470 = (Document *)FUN_1802ae920(0x40);
+  if (local_470 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = Halftones::Halftones((Halftones *)local_470,this);
+  }
+  *(undefined8 *)(this + 0x2f8) = uVar14;
+  FUN_1800793f0(this + 0x300);
+  *(undefined8 *)(this + 0x310) = 0;
+  *(undefined8 *)(this + 0x318) = 0;
+  if (*(longlong *)(this + 0x308) != 0) {
+    LOCK();
+    piVar3 = (int *)(*(longlong *)(this + 0x308) + 8);
+    *piVar3 = *piVar3 + 1;
+    UNLOCK();
+  }
+  *(undefined8 *)(this + 0x310) = *(undefined8 *)(this + 0x300);
+  *(undefined8 *)(this + 0x318) = *(undefined8 *)(this + 0x308);
+  local_470 = this + 800;
+  local_470 = (Document *)FUN_1802ae920(0x1b0);
+  if (local_470 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = ChangeCollector::ChangeCollector((ChangeCollector *)local_470,this);
+  }
+  *(undefined8 *)(this + 800) = uVar14;
+  local_470 = this + 0x328;
+  local_470 = (Document *)FUN_1802ae920(0x10);
+  if (local_470 == (Document *)0x0) {
+    uVar14 = 0;
+  }
+  else {
+    uVar14 = DynamicObjectController::DynamicObjectController
+                       ((DynamicObjectController *)local_470,this);
+  }
+  *(undefined8 *)(this + 0x328) = uVar14;
+  uVar33 = 0x7ff0;
+  local_400 = 0;
+  uStack_3f8 = 0;
+  local_3f0 = 0;
+  puVar17 = (uint *)boost::filesystem::detail::status(local_408,param_1);
+  if (*puVar17 < 2) {
+    FUN_18001bf50(local_3c8,"document.document");
+    bVar9 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                              local_3c8,1);
+    FUN_180016af0(local_3c8);
+    if (bVar9) {
+      Logging::Guard::Guard(local_488);
+      uVar14 = FUN_18001a8a0(clog_exref,"Document: File ");
+      uVar14 = FUN_18008bf40(uVar14,param_1);
+      pbVar18 = (basic_ostream<char,std::char_traits<char>_> *)
+                FUN_18001a8a0(uVar14," could not be found");
+      std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar18,FUN_18008d640);
+      Logging::Guard::~Guard(local_488);
+    }
+    DocumentOpenException::DocumentOpenException(local_198,(path *)param_1,0);
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(local_198,(ThrowInfo *)&DAT_180376200);
+  }
+  bVar9 = false;
+  if (pDVar1 != (Document *)param_1) {
+    peVar30 = param_1;
+    if (7 < *(ulonglong *)(param_1 + 0x18)) {
+      peVar30 = *(error_code **)param_1;
+    }
+    FUN_18009cee0(pDVar1,peVar30,*(undefined8 *)(param_1 + 0x10));
+  }
+  if (*(int *)(this + 0x7c) == 1) {
+    lVar16 = 5;
+    while (cVar7 = FUN_180098560(param_1), cVar7 == '\0') {
+      lVar16 = lVar16 + -1;
+      if (lVar16 == 0) {
+        local_3a8 = (char *)0x0;
+        uStack_3a0 = 0;
+        local_398 = 0;
+        local_390 = 0xf;
+        local_3a8 = (char *)FUN_1802ae920(0x20);
+        uVar14 = s_document_document_1802e9200._8_8_;
+        local_398 = 0x11;
+        local_390 = 0x1f;
+        *(undefined8 *)local_3a8 = s_document_document_1802e9200._0_8_;
+        *(undefined8 *)(local_3a8 + 8) = uVar14;
+        local_3a8[0x10] = s_document_document_1802e9200[0x10];
+        local_3a8[0x11] = '\0';
+        bVar8 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *
+                                  )&local_3a8,0x14);
+        if (0xf < local_390) {
+          pcVar20 = local_3a8;
+          if ((0xfff < local_390 + 1) &&
+             (pcVar20 = *(char **)(local_3a8 + -8),
+             (char *)0x1f < local_3a8 + (-8 - (longlong)pcVar20))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pcVar20);
+        }
+        if (bVar8) {
+          Logging::Guard::Guard(&local_478);
+          uVar14 = FUN_18001a8a0(clog_exref,
+                                 "Document: Open read/write but file is write-protected: ");
+          pbVar18 = (basic_ostream<char,std::char_traits<char>_> *)FUN_18008bf40(uVar14,param_1);
+          std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar18,FUN_18008d640);
+          Logging::Guard::~Guard(&local_478);
+        }
+        *(undefined4 *)(this + 0x7c) = 0;
+        goto LAB_18008ffac;
+      }
+      FUN_18009e160(local_440);
+      if ((longlong)local_440[0] < 0x7ffffffffd050f7f) {
+        local_450 = local_440[0] + 50000000;
+        FUN_18008e080(&local_450);
+      }
+      else {
+        local_450 = (Document *)0x7fffffffffffffff;
+        FUN_18008e080(&local_450);
+      }
+    }
+    uVar14 = FUN_180095560(local_2e8);
+    FUN_1800922e0(this + 0x50,uVar14);
+    FUN_18001a410(local_2e8);
+    local_388 = (char *)0x0;
+    uStack_380 = 0;
+    local_378 = 0;
+    local_370 = 0xf;
+    local_388 = (char *)FUN_1802ae920(0x20);
+    uVar14 = s_document_document_1802e9200._8_8_;
+    local_378 = 0x11;
+    local_370 = 0x1f;
+    *(undefined8 *)local_388 = s_document_document_1802e9200._0_8_;
+    *(undefined8 *)(local_388 + 8) = uVar14;
+    local_388[0x10] = s_document_document_1802e9200[0x10];
+    local_388[0x11] = '\0';
+    bVar9 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                              &local_388,0x14);
+    if (0xf < local_370) {
+      pcVar20 = local_388;
+      if ((0xfff < local_370 + 1) &&
+         (pcVar20 = *(char **)(local_388 + -8), (char *)0x1f < local_388 + (-8 - (longlong)pcVar20))
+         ) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pcVar20);
+    }
+    if (bVar9) {
+      Logging::Guard::Guard(&local_477);
+      uVar14 = FUN_18001a8a0(clog_exref,"Document: Open read/write: ");
+      pbVar18 = (basic_ostream<char,std::char_traits<char>_> *)FUN_18008bf40(uVar14,param_1);
+      std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar18,FUN_18008d640);
+      Logging::Guard::~Guard(&local_477);
+    }
+    bVar9 = true;
+  }
+  else {
+    local_368 = (char *)0x0;
+    uStack_360 = 0;
+    local_358 = 0;
+    local_350 = 0xf;
+    local_368 = (char *)FUN_1802ae920(0x20);
+    uVar14 = s_document_document_1802e9200._8_8_;
+    local_358 = 0x11;
+    local_350 = 0x1f;
+    *(undefined8 *)local_368 = s_document_document_1802e9200._0_8_;
+    *(undefined8 *)(local_368 + 8) = uVar14;
+    local_368[0x10] = s_document_document_1802e9200[0x10];
+    local_368[0x11] = '\0';
+    bVar8 = Logging::HasLevel((basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                              &local_368,0x14);
+    if (0xf < local_350) {
+      pcVar20 = local_368;
+      if ((0xfff < local_350 + 1) &&
+         (pcVar20 = *(char **)(local_368 + -8), (char *)0x1f < local_368 + (-8 - (longlong)pcVar20))
+         ) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pcVar20);
+    }
+    if (bVar8) {
+      Logging::Guard::Guard(local_476);
+      uVar14 = FUN_18001a8a0(clog_exref,"Document: Open read-only: ");
+      uStack_340 = 0;
+      local_338 = _DAT_1802e50c0;
+      uStack_330 = _UNK_1802e50c8;
+      local_348 = (void *)0x0;
+      local_468 = 0x7ff8;
+      lVar16 = *(longlong *)(param_1 + 0x10);
+      if (lVar16 != 0) {
+        if (*(ulonglong *)(param_1 + 0x18) < 8) {
+          peVar30 = param_1 + lVar16 * 2;
+          peVar27 = param_1;
+        }
+        else {
+          peVar30 = *(error_code **)param_1 + lVar16 * 2;
+          peVar27 = *(error_code **)param_1;
+        }
+        boost::filesystem::detail::path_traits::convert
+                  ((wchar_t *)peVar27,(wchar_t *)peVar30,
+                   (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_348,
+                   (codecvt<wchar_t,char,_Mbstatet> *)0x0);
+      }
+      uVar33 = 0x7ff4;
+      pbVar18 = (basic_ostream<char,std::char_traits<char>_> *)
+                FUN_18008dd20(uVar14,&local_348,0x26,0x22);
+      if (0xf < uStack_330) {
+        pvVar28 = local_348;
+        if ((0xfff < uStack_330 + 1) &&
+           (pvVar28 = *(void **)((longlong)local_348 + -8),
+           0x1f < (ulonglong)((longlong)local_348 + (-8 - (longlong)pvVar28)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar28);
+      }
+      local_338 = _DAT_1802e50c0;
+      uStack_330 = _UNK_1802e50c8;
+      local_348 = (void *)((ulonglong)local_348 & 0xffffffffffffff00);
+      std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar18,FUN_18008d640);
+      Logging::Guard::~Guard(local_476);
+    }
+  }
+LAB_18008ffac:
+  psVar19 = ArtPaint::DefaultFunction::GetColorConverter((DefaultFunction *)local_458);
+  pcVar20 = (char *)FUN_1800954c0(&local_328,psVar19);
+  if (0xf < *(ulonglong *)(pcVar20 + 0x18)) {
+    pcVar20 = *(char **)pcVar20;
+  }
+  GBuffer::GBuffer(local_420,pcVar20);
+  if (0xf < uStack_310) {
+    FUN_18001a020(&local_328,CONCAT71(uStack_327,local_328));
+  }
+  local_318 = _DAT_1802e50c0;
+  uStack_310 = _UNK_1802e50c8;
+  local_328 = 0;
+  pGVar21 = GFastAllocatable::operator_new(0x248);
+  local_470 = (Document *)pGVar21;
+  if (pGVar21 != (GODocument *)0x0) {
+    pGVar22 = (GPathName *)ArtDocGlue::PDFConverters::ToGPathName(local_3e8);
+    uVar33 = uVar33 | 1;
+    local_468 = uVar33;
+    GODocument::GODocument(pGVar21,pGVar22,local_420);
+    *(undefined ***)pGVar21 = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 8) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x18) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x28) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x48) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x68) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x88) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0xa8) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 200) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0xe8) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x108) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x128) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x148) = GODocument::vftable;
+    *(undefined ***)(pGVar21 + 0x168) = GODocument::vftable;
+  }
+  if ((uVar33 & 1) != 0) {
+    uVar33 = uVar33 & 0xfffffffe;
+    GPathName::~GPathName((GPathName *)local_3e8);
+  }
+  Security::SetPassword
+            ((Security *)(this + 0x158),1,
+             (basic_string<wchar_t,ArtSys::Core::uni16char_traits,std::allocator<wchar_t>_> *)
+             psVar19);
+  Security::SetEncryption((Security *)(this + 0x158),0);
+  lVar16 = Security::GetPassword((Security *)(this + 0x158),(Password)local_308);
+  local_468 = uVar33 | 2;
+  if ((*(longlong *)(lVar16 + 0x10) == 0) || (bVar8 = GODocument::IsEncrypted(pGVar21), !bVar8)) {
+    bVar8 = false;
+  }
+  else {
+    bVar8 = true;
+  }
+  if (7 < local_2f0) {
+    FUN_18001a060(local_308,local_308[0]);
+  }
+  if (bVar8) {
+    this_01 = (GADoc *)(**(code **)(*(longlong *)pGVar21 + 0x80))(pGVar21);
+    lVar11 = GADoc::GetEncryptionType(this_01);
+    this_00 = (Security *)(this + 0x158);
+    if (lVar11 == 8) {
+      Security::SetEncryption(this_00,1);
+    }
+    else {
+      if (lVar11 == 0x10) {
+        EVar29 = 1;
+      }
+      else {
+        if (lVar11 == 0x20) {
+          Security::SetEncryption(this_00,2);
+          goto LAB_180090223;
+        }
+        EVar29 = 3;
+        if (lVar11 != 0x40) {
+          Security::SetEncryption(this_00,3);
+          goto LAB_180090223;
+        }
+      }
+      Security::SetEncryption(this_00,EVar29);
+    }
+  }
+LAB_180090223:
+  FUN_180147d70(*(undefined8 *)(this + 0xc0),pGVar21,0,1);
+  Cache(this);
+  if (bVar9) {
+    local_470 = (Document *)FUN_1802ae920(0x40);
+    uVar14 = 0;
+    if (local_470 != (Document *)0x0) {
+      uVar14 = FUN_18008ea50(local_470,param_1,this + 0x50);
+    }
+    pvVar28 = *(void **)(this + 0x70);
+    *(undefined8 *)(this + 0x70) = uVar14;
+    if (pvVar28 != (void *)0x0) {
+      FUN_180091550(pvVar28);
+      free(pvVar28);
+    }
+    *(undefined4 *)(this + 0x78) = 1;
+    lVar16 = *(longlong *)(this + 0x70);
+    FUN_18008bbc0(local_1e8,this + 8);
+    lVar16 = *(longlong *)(lVar16 + 0x10);
+    local_1f0 = *(LPCRITICAL_SECTION *)(lVar16 + 0x18);
+    local_208 = 10;
+    local_200 = local_2a8;
+    local_1f8 = 0;
+    EnterCriticalSection(local_1f0);
+    local_498 = 0;
+    FUN_18009df70(lVar16,local_430,local_2a8,local_1e8);
+    LeaveCriticalSection(local_1f0);
+    if (local_200 != (undefined1 *)0x0) {
+      if (local_1f8 != 0) {
+        puVar31 = local_200 + local_1f8 * 0x10 + -0x10;
+        puVar32 = puVar31 + local_1f8 * -0x10;
+        for (; puVar32 < puVar31; puVar31 = puVar31 + -0x10) {
+          FUN_180040090(puVar31,0);
+        }
+      }
+      if (10 < local_208) {
+        puVar31 = local_200;
+        if ((0xfff < local_208 << 4) &&
+           (puVar31 = *(undefined1 **)(local_200 + -8),
+           (undefined1 *)0x1f < local_200 + (-8 - (longlong)puVar31))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(puVar31);
+      }
+    }
+    if (local_428 != (longlong *)0x0) {
+      LOCK();
+      piVar3 = (int *)((longlong)local_428 + 0xc);
+      iVar5 = *piVar3;
+      *piVar3 = *piVar3 + -1;
+      UNLOCK();
+      if (iVar5 == 1) {
+        (**(code **)(*local_428 + 0x10))();
+      }
+    }
+    FUN_18005c2b0(local_1c8);
+    FUN_18005fd90(local_1e8);
+  }
+  pPVar23 = GetPDFDocument(this);
+  plVar24 = (longlong *)ArtImg::PictureBuffer::GetBytesPerRow((PictureBuffer *)pPVar23);
+  uVar12 = (**(code **)(*plVar24 + 0xa8))(plVar24);
+  *(undefined4 *)(this + 0xf0) = uVar12;
+  GBuffer::~GBuffer(local_420);
+  uVar33 = _kEverything;
+  pPVar23 = GetPDFDocument(this);
+  pGVar21 = (GODocument *)ArtImg::PictureBuffer::GetBytesPerRow((PictureBuffer *)pPVar23);
+  if (pGVar21 != (GODocument *)0x0) {
+    uVar13 = GODocument::GetPermissions(pGVar21);
+    if ((uVar13 & 1) == 0) {
+      uVar33 = uVar33 & 0xfffffff7;
+    }
+    if ((uVar13 & 2) == 0) {
+      uVar33 = uVar33 & 0xffffefff;
+    }
+    if ((uVar13 & 4) == 0) {
+      uVar33 = uVar33 & 0xffffffef;
+    }
+    if ((uVar13 & 8) == 0) {
+      uVar33 = uVar33 & 0xffffffbf;
+    }
+    if ((uVar13 & 0x10) == 0) {
+      uVar33 = uVar33 & 0xfffffdff;
+    }
+    if ((uVar13 & 0x20) == 0) {
+      uVar33 = uVar33 & 0xfffff7ff;
+    }
+    if (-1 < (char)uVar13) {
+      uVar33 = uVar33 & 0xfffffbff;
+    }
+    if ((uVar13 >> 8 & 1) == 0) {
+      uVar33 = uVar33 & 0xffffdfff;
+    }
+    Security::SetPermissions((Security *)(this + 0x158),uVar33);
+    puVar17 = (uint *)Security::GetPermissions((Security *)(this + 0x158));
+    if ((*puVar17 & 0x2000) != 0) {
+      pbVar25 = (basic_string<wchar_t,ArtSys::Core::uni16char_traits,std::allocator<wchar_t>_> *)
+                Security::GetPassword((Security *)(this + 0x158),(Password)local_3c8);
+      Security::SetPassword((Security *)(this + 0x158),0,pbVar25);
+      if (7 < local_3b0) {
+        FUN_18001a060(local_3c8,local_3c8[0]);
+      }
+    }
+    pbVar26 = (byte *)Security::GetPermissions((Security *)(this + 0x158));
+    if ((*pbVar26 & 0x10) == 0) {
+      *(undefined4 *)(this + 0x7c) = 0;
+    }
+  }
+  return this;
+}
+
+
+
+## FN 1800a0ec0
+   name=FUN_1800a0ec0
+   signature=undefined FUN_1800a0ec0(void)
+   entry=1800a0ec0 thunk=false external=false body=349
+   -- callers --
+      1800a0bb7 UNCONDITIONAL_CALL 1800a0b80 ArtDoc::DocumentOpenException::GetDescription
+      18041cf10 DATA -
+   -- callees --
+      1802ae920 FUN_1802ae920
+   -- strings referenced --
+      1800a0f15 -> 1802ea840 "ERROR_FILE_UNKNOWN"
+      1800a0f4f -> 1802ea828 "ERROR_WRONG_PASSWORD"
+      1800a0f87 -> 1802ea810 "ERROR_FILE_INVALID"
+      1800a0fc1 -> 1802ea7f0 "ERROR_FILE_ACCESS_DENIED"
+      1800a0ffd -> 1802ea7d8 "ERROR_FILE_NOT_FOUND"
+   -- decompiled --
+
+undefined8 * FUN_1800a0ec0(undefined8 *param_1,int param_2)
+
+{
+  undefined8 uVar1;
+  char *pcVar2;
+  
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0xf;
+  if (param_2 == 0) {
+    pcVar2 = (char *)FUN_1802ae920(0x20);
+    *param_1 = pcVar2;
+    param_1[2] = 0x14;
+    param_1[3] = 0x1f;
+    uVar1 = s_ERROR_FILE_NOT_FOUND_1802ea7d8._8_8_;
+    *(undefined8 *)pcVar2 = s_ERROR_FILE_NOT_FOUND_1802ea7d8._0_8_;
+    *(undefined8 *)(pcVar2 + 8) = uVar1;
+    *(undefined4 *)(pcVar2 + 0x10) = s_ERROR_FILE_NOT_FOUND_1802ea7d8._16_4_;
+    pcVar2[0x14] = '\0';
+    return param_1;
+  }
+  if (param_2 == 1) {
+    pcVar2 = (char *)FUN_1802ae920(0x20);
+    *param_1 = pcVar2;
+    param_1[2] = 0x18;
+    param_1[3] = 0x1f;
+    uVar1 = s_ERROR_FILE_ACCESS_DENIED_1802ea7f0._8_8_;
+    *(undefined8 *)pcVar2 = s_ERROR_FILE_ACCESS_DENIED_1802ea7f0._0_8_;
+    *(undefined8 *)(pcVar2 + 8) = uVar1;
+    *(undefined8 *)(pcVar2 + 0x10) = s_ERROR_FILE_ACCESS_DENIED_1802ea7f0._16_8_;
+    pcVar2[0x18] = '\0';
+    return param_1;
+  }
+  if (param_2 == 2) {
+    pcVar2 = (char *)FUN_1802ae920(0x20);
+    *param_1 = pcVar2;
+    param_1[2] = 0x12;
+    param_1[3] = 0x1f;
+    uVar1 = s_ERROR_FILE_INVALID_1802ea810._8_8_;
+    *(undefined8 *)pcVar2 = s_ERROR_FILE_INVALID_1802ea810._0_8_;
+    *(undefined8 *)(pcVar2 + 8) = uVar1;
+    *(undefined2 *)(pcVar2 + 0x10) = s_ERROR_FILE_INVALID_1802ea810._16_2_;
+    pcVar2[0x12] = '\0';
+    return param_1;
+  }
+  if (param_2 == 3) {
+    pcVar2 = (char *)FUN_1802ae920(0x20);
+    *param_1 = pcVar2;
+    param_1[2] = 0x14;
+    param_1[3] = 0x1f;
+    uVar1 = s_ERROR_WRONG_PASSWORD_1802ea828._8_8_;
+    *(undefined8 *)pcVar2 = s_ERROR_WRONG_PASSWORD_1802ea828._0_8_;
+    *(undefined8 *)(pcVar2 + 8) = uVar1;
+    *(undefined4 *)(pcVar2 + 0x10) = s_ERROR_WRONG_PASSWORD_1802ea828._16_4_;
+    pcVar2[0x14] = '\0';
+    return param_1;
+  }
+  pcVar2 = (char *)FUN_1802ae920(0x20);
+  *param_1 = pcVar2;
+  param_1[2] = 0x12;
+  param_1[3] = 0x1f;
+  uVar1 = s_ERROR_FILE_UNKNOWN_1802ea840._8_8_;
+  *(undefined8 *)pcVar2 = s_ERROR_FILE_UNKNOWN_1802ea840._0_8_;
+  *(undefined8 *)(pcVar2 + 8) = uVar1;
+  *(undefined2 *)(pcVar2 + 0x10) = s_ERROR_FILE_UNKNOWN_1802ea840._16_2_;
+  pcVar2[0x12] = '\0';
+  return param_1;
+}
+
+
+
+## FN 1800971e0
+   name=ArtDoc::Document::GetPDFDocument
+   signature=PDFDocument * __thiscall GetPDFDocument(Document * this)
+   entry=1800971e0 thunk=false external=false body=334
+   -- callers --
+      1800903f4 UNCONDITIONAL_CALL 18008f590 ArtDoc::Document::Document
+      18009042b UNCONDITIONAL_CALL 18008f590 ArtDoc::Document::Document
+      180090b00 UNCONDITIONAL_CALL 180090600 ArtDoc::Document::Document
+      180093dd4 UNCONDITIONAL_CALL 180093d60 ArtDoc::Document::Cache
+      180095a88 UNCONDITIONAL_CALL 180095a10 ArtDoc::Document::Flush
+      1800996a9 UNCONDITIONAL_CALL 180099690 ArtDoc::Document::RevertToSaved
+      1800996d4 UNCONDITIONAL_CALL 180099690 ArtDoc::Document::RevertToSaved
+      180099a40 UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      180099b95 UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009b1a1 UNCONDITIONAL_CALL 180099710 ArtDoc::Document::Save
+      18009c0f6 UNCONDITIONAL_CALL 18009c0d0 ArtDoc::Document::SetXMPInfo
+      18009c603 UNCONDITIONAL_CALL 18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+      18009c75d UNCONDITIONAL_CALL 18009c720 ArtDoc::Document::Synchronize
+      1801462f0 UNCONDITIONAL_JUMP 1801462f0 ArtDoc::Document::GetPDFDocument
+      180378788 DATA -
+      18041c6f4 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      1801463b0 FUN_1801463b0
+      180147d70 FUN_180147d70
+      18016f260 ArtDoc::ResourceManager::GetFontManager
+      1801e7a80 ArtFont::FontManager::SetPDFDocument
+      EXTERNAL:00000466 PDFOBJECTLAYER.DLL::GODocument::SetVersion
+      EXTERNAL:00000472 PDFOBJECTLAYER.DLL::GODocument::GODocument
+      EXTERNAL:000006bc BASICFRAMEWORKCORELAYER.DLL::GFastAllocatable::operator_new
+   -- strings referenced --
+   -- decompiled --
+
+/* private: class ArtDoc::PDFDocument & __ptr64 __cdecl ArtDoc::Document::GetPDFDocument(void)const
+   __ptr64 */
+
+PDFDocument * __thiscall ArtDoc::Document::GetPDFDocument(Document *this)
+
+{
+  char cVar1;
+  GODocument *this_00;
+  FontManager *this_01;
+  
+                    /* 0x971e0  1945  ?GetPDFDocument@Document@ArtDoc@@AEBAAEAVPDFDocument@2@XZ */
+  cVar1 = FUN_1801463b0(*(undefined8 *)(this + 0xc0));
+  if (cVar1 == '\0') {
+    this_00 = GFastAllocatable::operator_new(0x248);
+    if (this_00 == (GODocument *)0x0) {
+      this_00 = (GODocument *)0x0;
+    }
+    else {
+      GODocument::GODocument(this_00,true);
+      *(undefined ***)this_00 = GODocument::vftable;
+      *(undefined ***)(this_00 + 8) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x18) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x28) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x48) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x68) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x88) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0xa8) = GODocument::vftable;
+      *(undefined ***)(this_00 + 200) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0xe8) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x108) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x128) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x148) = GODocument::vftable;
+      *(undefined ***)(this_00 + 0x168) = GODocument::vftable;
+    }
+    GODocument::SetVersion(this_00,1,3);
+    FUN_180147d70(*(undefined8 *)(this + 0xc0),this_00,1);
+    this_01 = ResourceManager::GetFontManager(*(ResourceManager **)(this + 0x1d8));
+    ArtFont::FontManager::SetPDFDocument(this_01,this_00);
+  }
+  return *(PDFDocument **)(this + 0xc0);
+}
+
+
+
+## FN 180097960
+   name=ArtDoc::Document::InsertPage
+   signature=indirect_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_>_>_>_>,boost::use_default,boost::use_default,boost::use_default,boost::use_default> __thiscall InsertPage(Document * this, RectangleBase<YAGL::MilliPointCoordinateSystem> * param_1, Part * param_2)
+   entry=180097960 thunk=false external=false body=326
+   -- callers --
+      180378be0 DATA -
+      18041c7a8 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180019bb0 ArtDoc::Detail::ListItem<ArtDoc::ContentObject>::SetNext
+      180083f80 ArtDoc::ContentTracker::AddPageToDocument
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+      18009dce0 FUN_18009dce0
+      1800f95a0 ArtDoc::Page::Page
+      1800f9960 ArtDoc::Page::~Page
+      1800fb770 ArtDoc::Page::SetPart
+      1800ff190 ArtDoc::Part::GetPageRange
+      1800ff460 ArtDoc::Parts::InsertPageIndex
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+   -- strings referenced --
+   -- decompiled --
+
+/* public: class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default> __cdecl
+   ArtDoc::Document::InsertPage(class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem>
+   const & __ptr64,class ArtDoc::Part & __ptr64) __ptr64 */
+
+RectangleBase<YAGL::MilliPointCoordinateSystem> * __thiscall
+ArtDoc::Document::InsertPage
+          (Document *this,RectangleBase<YAGL::MilliPointCoordinateSystem> *param_1,Part *param_2)
+
+{
+  longlong lVar1;
+  Page *pPVar2;
+  undefined8 *puVar3;
+  ContentObject *pCVar4;
+  Part *in_R9;
+  Page *local_res8;
+  undefined1 local_res10 [8];
+  
+                    /* 0x97960  2223
+                       ?InsertPage@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAVPart@2@@Z
+                        */
+  pPVar2 = (Page *)0x0;
+  SwitchToWorkingFile(this);
+  lVar1 = Part::GetPageRange(in_R9);
+  lVar1 = *(longlong *)(lVar1 + 8);
+  pCVar4 = (ContentObject *)(lVar1 - *(longlong *)(this + 0x1b0) >> 3);
+  local_res8 = (Page *)FUN_1802ae920(0x248);
+  if (local_res8 != (Page *)0x0) {
+    pPVar2 = (Page *)Page::Page(local_res8,this,pCVar4,param_2,0);
+  }
+  local_res8 = pPVar2;
+  puVar3 = (undefined8 *)FUN_18009dce0(this + 0x1b0,local_res10,lVar1,&local_res8);
+  pPVar2 = local_res8;
+  *(undefined8 *)param_1 = *puVar3;
+  if (local_res8 != (Page *)0x0) {
+    Page::~Page(local_res8);
+    free(pPVar2);
+  }
+  Page::SetPart((Page *)**(undefined8 **)param_1,in_R9);
+  ContentTracker::AddPageToDocument
+            (*(ContentTracker **)(this + 0x1a8),(Page *)**(undefined8 **)param_1);
+  if (in_R9 != (Part *)0x0) {
+    Parts::InsertPageIndex(*(Parts **)(this + 0x1c8),in_R9,(__uint64)pCVar4);
+  }
+  puVar3 = *(undefined8 **)param_1;
+  if (puVar3 != *(undefined8 **)(this + 0x1b8)) {
+    do {
+      Detail::ListItem<ArtDoc::ContentObject>::SetNext
+                ((ListItem<ArtDoc::ContentObject> *)*puVar3,pCVar4);
+      puVar3 = puVar3 + 1;
+      pCVar4 = pCVar4 + 1;
+    } while (puVar3 != *(undefined8 **)(this + 0x1b8));
+  }
+  return param_1;
+}
+
+
+
+## FN 180097c00
+   name=ArtDoc::Document::InsertPage
+   signature=indirect_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_>_>_>_>,boost::use_default,boost::use_default,boost::use_default,boost::use_default> __thiscall InsertPage(Document * this, unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_> param_1, Part * param_2)
+   entry=180097c00 thunk=false external=false body=534
+   -- callers --
+      180098b0e UNCONDITIONAL_CALL 180098ae0 ArtDoc::Document::MovePage
+      1800ff704 UNCONDITIONAL_CALL 1800ff610 ArtDoc::Part::InsertPart
+      180378be8 DATA -
+      18041c7c0 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      1800197e0 ArtImg::PictureBuffer::GetBitsPerSample
+      180019900 ArtImg::ComponentToIntStreamConverter::GetBitsPerChannel
+      180019bb0 ArtDoc::Detail::ListItem<ArtDoc::ContentObject>::SetNext
+      180072dd0 ArtDoc::CloneStrategy::CloneStrategy
+      180073aa0 ArtDoc::CloneStrategy::~CloneStrategy
+      180083f80 ArtDoc::ContentTracker::AddPageToDocument
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+      18009dce0 FUN_18009dce0
+      1800f95a0 ArtDoc::Page::Page
+      1800f9960 ArtDoc::Page::~Page
+      1800fa800 ArtDoc::ClonePage
+      1800fae70 ArtDoc::Page::GetPageBox
+      1800fb770 ArtDoc::Page::SetPart
+      1800ff190 ArtDoc::Part::GetPageRange
+      1800ff460 ArtDoc::Parts::InsertPageIndex
+      180131aa0 FUN_180131aa0
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+   -- strings referenced --
+   -- decompiled --
+
+/* public: class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default> __cdecl
+   ArtDoc::Document::InsertPage(class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> >,class ArtDoc::Part & __ptr64) __ptr64 */
+
+longlong * __thiscall
+ArtDoc::Document::InsertPage(Document *this,longlong *param_2,undefined8 *param_3,Part *param_4)
+
+{
+  longlong lVar1;
+  ComponentToIntStreamConverter *this_00;
+  Document *pDVar2;
+  undefined8 *puVar3;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> *pRVar4;
+  Page *pPVar5;
+  longlong *plVar6;
+  ContentObject *pCVar7;
+  Page *local_res8;
+  undefined1 local_res10 [8];
+  undefined8 *local_res18;
+  CloneStrategy local_c8 [144];
+  
+                    /* 0x97c00  2225
+                       ?InsertPage@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@AEAVPart@2@@Z
+                        */
+  pPVar5 = (Page *)0x0;
+  local_res18 = param_3;
+  SwitchToWorkingFile(this);
+  lVar1 = Part::GetPageRange(param_4);
+  lVar1 = *(longlong *)(lVar1 + 8);
+  pCVar7 = (ContentObject *)(lVar1 - *(longlong *)(this + 0x1b0) >> 3);
+  *param_2 = 0;
+  this_00 = (ComponentToIntStreamConverter *)
+            ArtImg::PictureBuffer::GetBitsPerSample((PictureBuffer *)*param_3);
+  pDVar2 = (Document *)ArtImg::ComponentToIntStreamConverter::GetBitsPerChannel(this_00);
+  if (pDVar2 == this) {
+    FUN_180131aa0(*(undefined8 *)(this + 0xd8),*param_3);
+    puVar3 = (undefined8 *)FUN_18009dce0(this + 0x1b0,&local_res8,lVar1,param_3);
+    puVar3 = (undefined8 *)*puVar3;
+    *param_2 = (longlong)puVar3;
+    Page::SetPart((Page *)*puVar3,param_4);
+    ContentTracker::AddPageToDocument(*(ContentTracker **)(this + 0x1a8),*(Page **)*param_2);
+  }
+  else {
+    CloneStrategy::CloneStrategy(local_c8,this,1);
+    pRVar4 = Page::GetPageBox((Page *)*param_3,0);
+    local_res8 = (Page *)FUN_1802ae920(0x248);
+    if (local_res8 != (Page *)0x0) {
+      pPVar5 = (Page *)Page::Page(local_res8,this,pCVar7,pRVar4,0);
+    }
+    local_res8 = pPVar5;
+    plVar6 = (longlong *)FUN_18009dce0(this + 0x1b0,local_res10,lVar1,&local_res8);
+    pPVar5 = local_res8;
+    *param_2 = *plVar6;
+    if (local_res8 != (Page *)0x0) {
+      Page::~Page(local_res8);
+      free(pPVar5);
+    }
+    Page::SetPart(*(Page **)*param_2,param_4);
+    ContentTracker::AddPageToDocument(*(ContentTracker **)(this + 0x1a8),*(Page **)*param_2);
+    ClonePage((Page *)*param_3,*(Page **)*param_2,local_c8);
+    CloneStrategy::~CloneStrategy(local_c8);
+  }
+  if (param_4 != (Part *)0x0) {
+    Parts::InsertPageIndex(*(Parts **)(this + 0x1c8),param_4,(__uint64)pCVar7);
+  }
+  puVar3 = (undefined8 *)*param_2;
+  if (puVar3 != *(undefined8 **)(this + 0x1b8)) {
+    do {
+      Detail::ListItem<ArtDoc::ContentObject>::SetNext
+                ((ListItem<ArtDoc::ContentObject> *)*puVar3,pCVar7);
+      puVar3 = puVar3 + 1;
+      pCVar7 = pCVar7 + 1;
+    } while (puVar3 != *(undefined8 **)(this + 0x1b8));
+  }
+  pPVar5 = (Page *)*param_3;
+  if (pPVar5 != (Page *)0x0) {
+    Page::~Page(pPVar5);
+    free(pPVar5);
+  }
+  return param_2;
+}
+
+
+
+## FN 180147ad0
+   name=FUN_180147ad0
+   signature=undefined FUN_180147ad0(void)
+   entry=180147ad0 thunk=false external=false body=69
+   -- callers --
+      180091b72 UNCONDITIONAL_CALL 180091730 ArtDoc::Document::~Document
+      1802e99a8 DATA -
+      1804234bc DATA -
+   -- callees --
+   -- strings referenced --
+   -- decompiled --
+
+void FUN_180147ad0(longlong param_1)
+
+{
+  longlong *plVar1;
+  undefined8 *puVar2;
+  
+  plVar1 = (longlong *)(param_1 + 0x20);
+  puVar2 = (undefined8 *)*plVar1;
+  if (puVar2 != (undefined8 *)0x0) {
+    if (*(char *)(param_1 + 0x2a) != '\0') {
+      (**(code **)*puVar2)(puVar2,1);
+      *plVar1 = 0;
+      return;
+    }
+    *plVar1 = 0;
+  }
+  return;
+}
+
+
+
+## FN 1801463b0
+   name=FUN_1801463b0
+   signature=undefined FUN_1801463b0(void)
+   entry=1801463b0 thunk=false external=false body=9
+   -- callers --
+      180093da2 UNCONDITIONAL_CALL 180093d60 ArtDoc::Document::Cache
+      180095e4f UNCONDITIONAL_CALL 180095d90 ArtDoc::Document::GetInfoDate
+      180095fad UNCONDITIONAL_CALL 180095f20 ArtDoc::Document::GetInfoFlag
+      18009628a UNCONDITIONAL_CALL 1800961b0 ArtDoc::Document::GetInfoString
+      1800971f4 UNCONDITIONAL_CALL 1800971e0 ArtDoc::Document::GetPDFDocument
+      180097603 UNCONDITIONAL_CALL 1800975e0 ArtDoc::Document::GetUniqueID
+      18009784c UNCONDITIONAL_CALL 180097830 ArtDoc::Document::GetXMPInfo
+      1802e99b0 DATA -
+   -- callees --
+   -- strings referenced --
+   -- decompiled --
+
+bool FUN_1801463b0(longlong param_1)
+
+{
+  return *(longlong *)(param_1 + 0x20) != 0;
+}
+
+
+
+## FN 18009cd50
+   name=FUN_18009cd50
+   signature=undefined FUN_18009cd50(void)
+   entry=18009cd50 thunk=false external=false body=20
+   -- callers --
+      1802e99e8 DATA -
+   -- callees --
+   -- strings referenced --
+   -- decompiled --
+
+void FUN_18009cd50(longlong param_1)
+
+{
+  if (*(longlong *)(param_1 + 0x80) == 0) {
+    return;
+  }
+                    /* WARNING: Could not recover jumptable at 0x00018009cd5c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _lock_file();
+  return;
+}
+
+
+
+## FN 18009cec0
+   name=FUN_18009cec0
+   signature=undefined FUN_18009cec0(void)
+   entry=18009cec0 thunk=false external=false body=20
+   -- callers --
+      1802e99f0 DATA -
+   -- callees --
+   -- strings referenced --
+   -- decompiled --
+
+void FUN_18009cec0(longlong param_1)
+
+{
+  if (*(longlong *)(param_1 + 0x80) == 0) {
+    return;
+  }
+                    /* WARNING: Could not recover jumptable at 0x00018009cecc. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  _unlock_file();
+  return;
+}
+
+

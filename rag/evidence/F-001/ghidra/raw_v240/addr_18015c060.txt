@@ -1,0 +1,50 @@
+requested=0x18015c060
+resolvedAddress=18015c060
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18015c060 FUN_18015c060
+status=OK
+entry=18015c060
+name=FUN_18015c060
+qualifiedName=FUN_18015c060
+namespace=Global
+signature=undefined FUN_18015c060()
+returnType=undefined
+parameterCount=0
+bodyMin=18015c060
+bodyMax=18015c075
+bodySize=22
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180319368 refType=DATA fromFunction=
+180319370 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18015c060 -> 180319368 block=.rdata sym=std::_Func_impl_no_alloc<`private:_void___cdecl_DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent(void)___ptr64'::`37'::<lambda_1>,bool,ArtDoc::ContentObject_const&___ptr64>::vftable
+18015c067 -> 180319368 block=.rdata sym=std::_Func_impl_no_alloc<`private:_void___cdecl_DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent(void)___ptr64'::`37'::<lambda_1>,bool,ArtDoc::ContentObject_const&___ptr64>::vftable
+
+[DECOMPILE]
+
+undefined8 * FUN_18015c060(longlong param_1,undefined8 *param_2)
+
+{
+  *param_2 = std::
+             _Func_impl_no_alloc<`private:_void___cdecl_DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent(void)___ptr64'::`37'::<lambda_1>,bool,ArtDoc::ContentObject_const&___ptr64>
+             ::vftable;
+  param_2[1] = *(undefined8 *)(param_1 + 8);
+  return param_2;
+}
+
+

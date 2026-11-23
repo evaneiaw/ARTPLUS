@@ -1,0 +1,59 @@
+requested=0x18001d6f0
+resolvedAddress=18001d6f0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001d6f0 getMarkType
+status=OK
+entry=18001d6f0
+name=getMarkType
+qualifiedName=DocumentMarks::BearerBar::getMarkType
+namespace=DocumentMarks::BearerBar
+signature=basic_string_view<char,std::char_traits<char>_> getMarkType(BearerBar * this)
+returnType=basic_string_view<char,std::char_traits<char>_>
+parameterCount=1
+bodyMin=18001d6f0
+bodyMax=18001d6fd
+bodySize=14
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abe44 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1802f9fa8 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18001d6f0 -> 1802fa130 block=.rdata sym=PTR_s_AIDynamicMarks-BearerBar_1802fa130
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual class std::basic_string_view<char,struct std::char_traits<char> > __cdecl
+   DocumentMarks::BearerBar::getMarkType(void)const __ptr64 */
+
+void __thiscall DocumentMarks::BearerBar::getMarkType(BearerBar *this)
+
+{
+  undefined8 uVar1;
+  undefined8 *in_RDX;
+  
+                    /* 0x1d6f0  1916
+                       ?getMarkType@BearerBar@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+                        */
+  uVar1 = _UNK_1802fa138;
+  *in_RDX = PTR_s_AIDynamicMarks_BearerBar_1802fa130;
+  in_RDX[1] = uVar1;
+  return;
+}
+
+

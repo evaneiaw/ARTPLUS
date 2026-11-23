@@ -1,0 +1,311 @@
+requested=0x18001be10
+resolvedAddress=18001be10
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001be10 FUN_18001be10
+status=OK
+entry=18001be10
+name=FUN_18001be10
+qualifiedName=FUN_18001be10
+namespace=Global
+signature=undefined FUN_18001be10()
+returnType=undefined
+parameterCount=0
+bodyMin=18001be10
+bodyMax=18001bfae
+bodySize=413
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+18047b26c refType=DATA fromFunction=
+18001df0d refType=UNCONDITIONAL_CALL fromFunction=18001de30 regenerateMarkImp
+18012a46e refType=UNCONDITIONAL_CALL fromFunction=18012a3d0 FUN_18012a3d0
+180048b2f refType=UNCONDITIONAL_CALL fromFunction=180048ae0 FUN_180048ae0
+18004b0ad refType=UNCONDITIONAL_CALL fromFunction=18004afc0 regenerateMarkImp
+18029757d refType=UNCONDITIONAL_CALL fromFunction=1802974d0 FUN_1802974d0
+1802975d6 refType=UNCONDITIONAL_CALL fromFunction=1802974d0 FUN_1802974d0
+180297636 refType=UNCONDITIONAL_CALL fromFunction=1802974d0 FUN_1802974d0
+18029768d refType=UNCONDITIONAL_CALL fromFunction=1802974d0 FUN_1802974d0
+180297834 refType=UNCONDITIONAL_CALL fromFunction=1802976c0 FUN_1802976c0
+18029788e refType=UNCONDITIONAL_CALL fromFunction=1802976c0 FUN_1802976c0
+1802978e9 refType=UNCONDITIONAL_CALL fromFunction=1802976c0 FUN_1802976c0
+180297945 refType=UNCONDITIONAL_CALL fromFunction=1802976c0 FUN_1802976c0
+18029732a refType=UNCONDITIONAL_CALL fromFunction=1802971a0 FUN_1802971a0
+18029737a refType=UNCONDITIONAL_CALL fromFunction=1802971a0 FUN_1802971a0
+1802973c7 refType=UNCONDITIONAL_CALL fromFunction=1802971a0 FUN_1802971a0
+180297415 refType=UNCONDITIONAL_CALL fromFunction=1802971a0 FUN_1802971a0
+180297b9a refType=UNCONDITIONAL_CALL fromFunction=180297a00 FUN_180297a00
+180297bea refType=UNCONDITIONAL_CALL fromFunction=180297a00 FUN_180297a00
+180297c37 refType=UNCONDITIONAL_CALL fromFunction=180297a00 FUN_180297a00
+180297c85 refType=UNCONDITIONAL_CALL fromFunction=180297a00 FUN_180297a00
+18004bac5 refType=UNCONDITIONAL_CALL fromFunction=18004b950 CreateFromSelectionAction
+180095c71 refType=UNCONDITIONAL_CALL fromFunction=180095bb0 linkMarkProperties
+18006eba5 refType=UNCONDITIONAL_CALL fromFunction=18006e930 CollectUsedFillColorants
+18006e407 refType=UNCONDITIONAL_CALL fromFunction=18006e160 FUN_18006e160
+18006ef53 refType=UNCONDITIONAL_CALL fromFunction=18006ecd0 CollectUsedStrokeColorants
+18029a0e3 refType=UNCONDITIONAL_CALL fromFunction=18029a070 FUN_18029a070
+180052a2b refType=UNCONDITIONAL_CALL fromFunction=180052950 regenerateMarkImp
+1802985a7 refType=UNCONDITIONAL_CALL fromFunction=1802983f0 FUN_1802983f0
+18029860e refType=UNCONDITIONAL_CALL fromFunction=1802983f0 FUN_1802983f0
+1802986a5 refType=UNCONDITIONAL_CALL fromFunction=1802983f0 FUN_1802983f0
+18029870c refType=UNCONDITIONAL_CALL fromFunction=1802983f0 FUN_1802983f0
+180298020 refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+18029807f refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+18029810e refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+18029816d refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+180298234 refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+180298293 refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+180298322 refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+180298381 refType=UNCONDITIONAL_CALL fromFunction=180297ec0 FUN_180297ec0
+180063c40 refType=UNCONDITIONAL_CALL fromFunction=180063b00 FUN_180063b00
+18006f3d0 refType=UNCONDITIONAL_CALL fromFunction=18006f2f0 ContentChangedSelf
+18007a9fe refType=UNCONDITIONAL_CALL fromFunction=18007a950 FUN_18007a950
+1800a0d1e refType=UNCONDITIONAL_CALL fromFunction=1800a0c90 regenerateMarkImp
+1800b1b3d refType=UNCONDITIONAL_CALL fromFunction=1800b1940 FUN_1800b1940
+1800bea02 refType=UNCONDITIONAL_CALL fromFunction=1800be9b0 GetDynObjParams
+1800bea39 refType=UNCONDITIONAL_CALL fromFunction=1800be9b0 GetDynObjParams
+1800bea70 refType=UNCONDITIONAL_CALL fromFunction=1800be9b0 GetDynObjParams
+1800beaa7 refType=UNCONDITIONAL_CALL fromFunction=1800be9b0 GetDynObjParams
+1800beadb refType=UNCONDITIONAL_CALL fromFunction=1800be9b0 GetDynObjParams
+1800beb51 refType=UNCONDITIONAL_CALL fromFunction=1800beaf0 GetErrorMessageParams
+1800beb8d refType=UNCONDITIONAL_CALL fromFunction=1800beaf0 GetErrorMessageParams
+1800bef45 refType=UNCONDITIONAL_CALL fromFunction=1800bef10 InstallMessageTranslator
+1800cc4cf refType=UNCONDITIONAL_CALL fromFunction=1800cc1e0 TrimSymbol
+1800cd4f7 refType=UNCONDITIONAL_CALL fromFunction=1800cd260 regenerateMarkImp
+1800cfc6b refType=UNCONDITIONAL_CALL fromFunction=1800cfa20 regenerateMarkImp
+1800ef5a2 refType=UNCONDITIONAL_CALL fromFunction=1800ef360 FUN_1800ef360
+1800f0f0e refType=UNCONDITIONAL_CALL fromFunction=1800f0ee0 FUN_1800f0ee0
+180115c26 refType=UNCONDITIONAL_CALL fromFunction=1801155b0 DegradeGridsToGroups
+180117436 refType=UNCONDITIONAL_CALL fromFunction=180117310 FUN_180117310
+1801184b2 refType=UNCONDITIONAL_CALL fromFunction=180118450 FUN_180118450
+18017d60e refType=UNCONDITIONAL_CALL fromFunction=18017d5e0 FUN_18017d5e0
+18018af73 refType=UNCONDITIONAL_CALL fromFunction=18018aef0 FUN_18018aef0
+18019d22c refType=UNCONDITIONAL_CALL fromFunction=18019d120 ContentChangedSelf
+1801a9a19 refType=UNCONDITIONAL_CALL fromFunction=1801a99c0 FUN_1801a99c0
+1801b70d4 refType=UNCONDITIONAL_CALL fromFunction=1801b6dd0 FUN_1801b6dd0
+1801b7494 refType=UNCONDITIONAL_CALL fromFunction=1801b7190 FUN_1801b7190
+1801b0812 refType=UNCONDITIONAL_CALL fromFunction=1801b07b0 FUN_1801b07b0
+1801d87c2 refType=UNCONDITIONAL_CALL fromFunction=1801d86b0 FUN_1801d86b0
+1801db495 refType=UNCONDITIONAL_CALL fromFunction=1801db420 FUN_1801db420
+1801db515 refType=UNCONDITIONAL_CALL fromFunction=1801db4b0 FUN_1801db4b0
+1801dd7e4 refType=UNCONDITIONAL_CALL fromFunction=1801dd790 FUN_1801dd790
+1801dd854 refType=UNCONDITIONAL_CALL fromFunction=1801dd800 FUN_1801dd800
+18021067a refType=UNCONDITIONAL_CALL fromFunction=1802104a0 FUN_1802104a0
+180222614 refType=UNCONDITIONAL_CALL fromFunction=1802225c0 FUN_1802225c0
+180222684 refType=UNCONDITIONAL_CALL fromFunction=180222630 FUN_180222630
+1802226f4 refType=UNCONDITIONAL_CALL fromFunction=1802226a0 FUN_1802226a0
+180222764 refType=UNCONDITIONAL_CALL fromFunction=180222710 FUN_180222710
+1802228d0 refType=UNCONDITIONAL_CALL fromFunction=180222880 FUN_180222880
+1802442bb refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+180244399 refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+18024447f refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+18024455f refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+180244642 refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+1802489f1 refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+180248a59 refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+180248ac3 refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+1802532c1 refType=UNCONDITIONAL_CALL fromFunction=180253140 FUN_180253140
+180261854 refType=UNCONDITIONAL_CALL fromFunction=180261820 FUN_180261820
+18026188e refType=UNCONDITIONAL_CALL fromFunction=180261860 FUN_180261860
+1802946d9 refType=UNCONDITIONAL_CALL fromFunction=180294690 FUN_180294690
+180294f17 refType=UNCONDITIONAL_CALL fromFunction=180294e70 FUN_180294e70
+1802aabcc refType=UNCONDITIONAL_CALL fromFunction=1802aa9f0 FUN_1802aa9f0
+1802ae8dd refType=UNCONDITIONAL_CALL fromFunction=1802ad690 FUN_1802ad690
+180214583 refType=UNCONDITIONAL_CALL fromFunction=1802133d0 FUN_1802133d0
+
+[CALLERS]
+180063b00 FUN_180063b00
+1802226a0 FUN_1802226a0
+18001de30 DocumentMarks::BearerBar::regenerateMarkImp
+1802971a0 FUN_1802971a0
+180118450 FUN_180118450
+1801155b0 DocumentMarks::DegradeGridsToGroups
+18006ecd0 DocumentMarks::CollectUsedStrokeColorants
+1800f0ee0 FUN_1800f0ee0
+180297ec0 FUN_180297ec0
+1800bef10 DocumentMarks::InstallMessageTranslator
+1801db4b0 FUN_1801db4b0
+1800cd260 DocumentMarks::GradationMark::regenerateMarkImp
+180253140 FUN_180253140
+1801db420 FUN_1801db420
+1802aa9f0 FUN_1802aa9f0
+1802ad690 FUN_1802ad690
+1801d86b0 FUN_1801d86b0
+1802976c0 FUN_1802976c0
+180222880 FUN_180222880
+18012a3d0 FUN_18012a3d0
+1800cc1e0 DocumentMarks::GradationMark::TrimSymbol
+18018aef0 FUN_18018aef0
+1802104a0 FUN_1802104a0
+180297a00 FUN_180297a00
+18019d120 DocumentMarks::PDFPlusRepeatForSeparationsMark::ContentChangedSelf
+180248720 DocumentMarks::TaskMarkSets::PrepareMarksCachePage
+1801b6dd0 FUN_1801b6dd0
+1801b07b0 FUN_1801b07b0
+18004b950 DocumentMarks::CreateFromSelectionAction::CreateFromSelectionAction
+180052950 DocumentMarks::CutMark::regenerateMarkImp
+1802133d0 FUN_1802133d0
+18017d5e0 FUN_18017d5e0
+1801dd790 FUN_1801dd790
+18029a070 FUN_18029a070
+180095bb0 DocumentMarks::DynamicObject::linkMarkProperties
+18004afc0 DocumentMarks::CornerMark::regenerateMarkImp
+180117310 FUN_180117310
+1802225c0 FUN_1802225c0
+18007a950 FUN_18007a950
+1800ef360 FUN_1800ef360
+1802983f0 FUN_1802983f0
+180243f40 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802974d0 FUN_1802974d0
+1800be9b0 DocumentMarks::ErrorProperties::GetDynObjParams
+1800cfa20 DocumentMarks::GridMark::regenerateMarkImp
+180048ae0 FUN_180048ae0
+18006e160 FUN_18006e160
+180222630 FUN_180222630
+1801dd800 FUN_1801dd800
+180294690 FUN_180294690
+1800beaf0 DocumentMarks::ErrorProperties::GetErrorMessageParams
+180294e70 FUN_180294e70
+180261820 FUN_180261820
+1800b1940 FUN_1800b1940
+180261860 FUN_180261860
+18006f2f0 DocumentMarks::DynamicMark::ContentChangedSelf
+180222710 FUN_180222710
+18006e930 DocumentMarks::CollectUsedFillColorants
+1801b7190 FUN_1801b7190
+1801a99c0 FUN_1801a99c0
+1800a0c90 DocumentMarks::DynamicTextObject::regenerateMarkImp
+
+[CALLEES]
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180016fd0 FUN_180016fd0
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1802ccf86 VCRUNTIME140.DLL::memmove
+1802cbe68 FUN_1802cbe68
+180016d60 FUN_180016d60
+
+[DIRECT_CALL_TARGETS]
+18001be54 -> 18001bfaa FUN_18001be10
+18001be78 -> 18001bfa4 FUN_18001be10
+18001be8f -> 18001bfa4 FUN_18001be10
+18001bea9 -> 18001bed4 FUN_18001be10
+18001beb2 -> 18001bfa4 FUN_18001be10
+18001beb8 -> 1802cbe68 FUN_1802cbe68
+18001bec0 -> 18001bf9d FUN_18001be10
+18001bed2 -> 18001bef7 FUN_18001be10
+18001bed7 -> 18001bef0 FUN_18001be10
+18001bedc -> 1802cbe68 FUN_1802cbe68
+18001beee -> 18001befc FUN_18001be10
+18001bf18 -> 18001bf1f FUN_18001be10
+18001bf1d -> 18001bf38 FUN_18001be10
+18001bf25 -> 1802ccf86 VCRUNTIME140.DLL::memmove
+18001bf38 -> 1802ccf86 VCRUNTIME140.DLL::memmove
+18001bf44 -> 18001bf77 FUN_18001be10
+18001bf58 -> 18001bf72 FUN_18001be10
+18001bf6d -> 18001bf9d FUN_18001be10
+18001bf72 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001bf9d -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001bfa4 -> 180016d60 FUN_180016d60
+18001bfaa -> 180016fd0 FUN_180016fd0
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18001be10 -> Stack[0x18] block=? sym=
+18001be15 -> Stack[0x8] block=? sym=
+18001be9d -> Stack[0x10] block=? sym=
+18001bee4 -> Stack[0x20] block=? sym=
+18001bee9 -> Stack[0x10] block=? sym=
+18001bef2 -> Stack[0x10] block=? sym=
+18001bef7 -> Stack[0x20] block=? sym=
+18001bf00 -> Stack[0x18] block=? sym=
+18001bf9d -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+
+[DECOMPILE]
+
+undefined8 * FUN_18001be10(longlong *param_1,void *param_2,undefined8 *param_3)
+
+{
+  ulonglong uVar1;
+  undefined8 *puVar2;
+  longlong lVar3;
+  void *pvVar4;
+  longlong lVar5;
+  ulonglong uVar6;
+  undefined8 *_Dst;
+  void *_Memory;
+  undefined8 *_Dst_00;
+  size_t _Size;
+  ulonglong uVar7;
+  
+  lVar3 = *param_1;
+  lVar5 = param_1[1] - lVar3 >> 3;
+  if (lVar5 == 0x1fffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180016fd0();
+  }
+  uVar1 = lVar5 + 1;
+  uVar6 = param_1[2] - lVar3 >> 3;
+  if (0x1fffffffffffffff - (uVar6 >> 1) < uVar6) {
+LAB_18001bfa4:
+                    /* WARNING: Subroutine does not return */
+    FUN_180016d60();
+  }
+  uVar6 = (uVar6 >> 1) + uVar6;
+  uVar7 = uVar1;
+  if (uVar1 <= uVar6) {
+    uVar7 = uVar6;
+  }
+  if (0x1fffffffffffffff < uVar7) goto LAB_18001bfa4;
+  uVar6 = uVar7 * 8;
+  if (uVar6 < 0x1000) {
+    if (uVar6 == 0) {
+      _Dst_00 = (undefined8 *)0x0;
+    }
+    else {
+      _Dst_00 = (undefined8 *)FUN_1802cbe68(uVar6);
+    }
+  }
+  else {
+    if (uVar6 + 0x27 <= uVar6) goto LAB_18001bfa4;
+    lVar5 = FUN_1802cbe68();
+    if (lVar5 == 0) goto LAB_18001bf9d;
+    _Dst_00 = (undefined8 *)(lVar5 + 0x27U & 0xffffffffffffffe0);
+    _Dst_00[-1] = lVar5;
+  }
+  puVar2 = _Dst_00 + ((longlong)param_2 - lVar3 >> 3);
+  *puVar2 = *param_3;
+  pvVar4 = (void *)*param_1;
+  if (param_2 == (void *)param_1[1]) {
+    _Size = param_1[1] - (longlong)pvVar4;
+    _Dst = _Dst_00;
+    param_2 = pvVar4;
+  }
+  else {
+    memmove(_Dst_00,pvVar4,(longlong)param_2 - (longlong)pvVar4);
+    _Dst = puVar2 + 1;
+    _Size = param_1[1] - (longlong)param_2;
+  }
+  memmove(_Dst,param_2,_Size);
+  pvVar4 = (void *)*param_1;
+  if (pvVar4 != (void *)0x0) {
+    _Memory = pvVar4;
+    if ((0xfff < (param_1[2] - (longlong)pvVar4 & 0xfffffffffffffff8U)) &&
+       (_Memory = *(void **)((longlong)pvVar4 + -8),
+       0x1f < (ulonglong)((longlong)pvVar4 + (-8 - (longlong)_Memory)))) {
+LAB_18001bf9d:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  *param_1 = (longlong)_Dst_00;
+  param_1[1] = (longlong)(_Dst_00 + uVar1);
+  param_1[2] = (longlong)(_Dst_00 + uVar7);
+  return puVar2;
+}
+
+

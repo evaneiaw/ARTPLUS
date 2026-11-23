@@ -1,0 +1,460 @@
+address: 18028df80
+name: GOVSelectOverlappingObjects::Select
+signature: bool __thiscall Select(GOPage * param_1)
+body_bytes: 2073
+param_count: 2
+
+[callers]
+[callees]
+  EXTERNAL:0000009f GEOMAPPER.DLL::GeoMapper::Input::TStack::TStack
+  EXTERNAL:0000019c PDFOBJECTTOOLSLAYER.DLL::GOVSelectOperator::GOVSelectOperator
+  1802fe5d0 GOVGeoMapperTStackBuilder::~GOVGeoMapperTStackBuilder
+  1803cf4c0 __security_check_cookie
+  18028c870 FUN_18028c870
+  1801237f0 FUN_1801237f0
+  EXTERNAL:000000b3 GEOMAPPER.DLL::GeoMapper::TElementAttributeIterator::TElementAttributeIterator
+  EXTERNAL:00000ef1 BASICFRAMEWORKCORELAYER.DLL::GProgress::~GProgress
+  EXTERNAL:00000b7b PDFOBJECTLAYER.DLL::GOElement::GetClassType
+  EXTERNAL:00000888 PDFOBJECTLAYER.DLL::GOPage::Accept
+  EXTERNAL:000000bc GEOMAPPER.DLL::GeoMapper::TGraph::TRegion::~TRegion
+  18028d7b0 FUN_18028d7b0
+  EXTERNAL:00000f8d BASICFRAMEWORKCORELAYER.DLL::GAllocator::Free
+  EXTERNAL:000000b5 GEOMAPPER.DLL::GeoMapper::TElementAttributeIterator::NextAttribute
+  EXTERNAL:00000743 PDFOBJECTLAYER.DLL::GTable<GOObject*___ptr64>::RemoveAllItems
+  EXTERNAL:000000b1 GEOMAPPER.DLL::GeoMapper::TGraph::TRegionIterator::~TRegionIterator
+  1802c6ca0 FUN_1802c6ca0
+  EXTERNAL:0000019d PDFOBJECTTOOLSLAYER.DLL::GOVSelectOperator::~GOVSelectOperator
+  EXTERNAL:000000b2 GEOMAPPER.DLL::GeoMapper::TGraph::TRegionIterator::NextRegion
+  EXTERNAL:000000bb GEOMAPPER.DLL::GeoMapper::TGraph::TRegion::TRegion
+  EXTERNAL:000000b4 GEOMAPPER.DLL::GeoMapper::TElementAttributeIterator::~TElementAttributeIterator
+  EXTERNAL:00000ef9 BASICFRAMEWORKCORELAYER.DLL::ScopeGuardImplBase::ScopeGuardImplBase
+  1803cf000 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+  EXTERNAL:00000ef8 BASICFRAMEWORKCORELAYER.DLL::ScopeGuardImplBase::~ScopeGuardImplBase
+  EXTERNAL:00000f8e BASICFRAMEWORKCORELAYER.DLL::GAllocator::GetInstance
+  1803cefc4 FUN_1803cefc4
+  EXTERNAL:000000a0 GEOMAPPER.DLL::GeoMapper::Input::TStack::~TStack
+  EXTERNAL:000000b0 GEOMAPPER.DLL::GeoMapper::TGraph::TRegionIterator::TRegionIterator
+  EXTERNAL:000009e4 PDFOBJECTLAYER.DLL::GTable<GOObject*___ptr64>::GetCount
+  18028d480 FUN_18028d480
+  EXTERNAL:000009d5 PDFOBJECTLAYER.DLL::GTable<GOObject*___ptr64>::GetItemAt
+  1802fe2c0 GOVGeoMapperTStackBuilder::GOVGeoMapperTStackBuilder
+  EXTERNAL:000000a5 GEOMAPPER.DLL::GeoMapper::TGraph::TGraph
+  EXTERNAL:00001135 API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+  18013da90 FUN_18013da90
+  EXTERNAL:00000ef0 BASICFRAMEWORKCORELAYER.DLL::GProgress::GProgress
+  EXTERNAL:00000f81 BASICFRAMEWORKCORELAYER.DLL::GMatrixBase<double>::GetInverse
+  EXTERNAL:000000a6 GEOMAPPER.DLL::GeoMapper::TGraph::~TGraph
+[string_refs]
+[pointer_hits_non_exec]
+  .rdata:1804f2240
+
+[decompiled]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: virtual bool __cdecl GOVSelectOverlappingObjects::Select(class GOPage & __ptr64)
+   __ptr64 */
+
+bool __thiscall
+GOVSelectOverlappingObjects::Select(GOVSelectOverlappingObjects *this,GOPage *param_1)
+
+{
+  int iVar1;
+  uint uVar2;
+  undefined4 uVar3;
+  void *pvVar4;
+  GOObject *pGVar5;
+  GOObject *pGVar6;
+  undefined8 uVar7;
+  bool bVar8;
+  longlong *_Memory;
+  bool bVar9;
+  char cVar10;
+  long lVar11;
+  GOObjectType *pGVar12;
+  GOObject **ppGVar13;
+  uint *puVar14;
+  undefined8 *puVar15;
+  longlong *_Memory_00;
+  TElementAttribute *pTVar16;
+  int *piVar17;
+  GAllocator *this_00;
+  uint uVar18;
+  int *piVar19;
+  void *pvVar20;
+  undefined4 *puVar21;
+  uint uVar22;
+  int *piVar23;
+  longlong lVar24;
+  uint uVar25;
+  int *piVar26;
+  ulonglong uVar27;
+  uint uVar28;
+  ulonglong uVar29;
+  ulonglong uVar30;
+  int iVar31;
+  uint uVar32;
+  undefined1 auStack_928 [32];
+  GProgress local_908 [8];
+  undefined8 local_900;
+  TRegion local_8f8 [8];
+  void *local_8f0;
+  int local_8e8;
+  int iStack_8e4;
+  longlong local_8e0;
+  char local_8d8 [8];
+  longlong *local_8d0;
+  undefined8 local_8c8;
+  undefined8 uStack_8c0;
+  undefined1 local_8b8 [8];
+  longlong *local_8b0;
+  undefined1 local_8a8;
+  undefined8 local_8a0;
+  ScopeGuardImplBase local_898 [8];
+  GOPage *local_890;
+  undefined1 *local_888;
+  undefined4 local_880;
+  undefined4 local_87c;
+  GOVSelectOperator *local_878;
+  TRegionIterator local_860 [32];
+  undefined **local_840;
+  void **local_838;
+  GOVSelectOverlappingObjects *local_830;
+  undefined ***local_808;
+  TStack local_800 [40];
+  undefined **local_7d8;
+  undefined4 local_7d0;
+  undefined4 uStack_7cc;
+  undefined4 uStack_7c8;
+  undefined4 uStack_7c4;
+  undefined ***local_7a0;
+  undefined1 local_798 [48];
+  TGraph local_768 [96];
+  GOVSelectOperator local_708 [496];
+  GOVSelectOperator local_518 [496];
+  GOVGeoMapperTStackBuilder local_328 [736];
+  ulonglong local_48;
+  
+                    /* 0x28df80  13460  ?Select@GOVSelectOverlappingObjects@@MEAA_NAEAVGOPage@@@Z */
+  local_48 = DAT_180723880 ^ (ulonglong)auStack_928;
+  if (*(int *)(this + 0x1e0) - 2U < 2) {
+    bVar9 = false;
+    lVar11 = GTable<GOObject*___ptr64>::GetCount
+                       ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8));
+    lVar11 = lVar11 + -1;
+    if (-1 < lVar11) {
+      do {
+        if (bVar9) goto LAB_18028e05c;
+        pGVar12 = GOElement::GetClassType();
+        ppGVar13 = GTable<GOObject*___ptr64>::GetItemAt
+                             ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8),lVar11);
+        puVar14 = (uint *)(**(code **)(*(longlong *)*ppGVar13 + 8))();
+        if (((*(uint *)(pGVar12 + 8) & puVar14[2]) != 0 ||
+            (*(uint *)(pGVar12 + 4) & puVar14[1]) != 0) || (*(uint *)pGVar12 & *puVar14) != 0) {
+          bVar9 = true;
+        }
+        lVar11 = lVar11 + -1;
+      } while (-1 < lVar11);
+      if (bVar9) goto LAB_18028e05c;
+    }
+    GTable<GOObject*___ptr64>::RemoveAllItems
+              ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8));
+  }
+  else {
+LAB_18028e05c:
+    GProgress::GProgress(local_908,0.0);
+    puVar15 = (undefined8 *)FUN_1802c6ca0(local_898,param_1);
+    uVar7 = puVar15[1];
+    *(undefined8 *)(this + 0x238) = *puVar15;
+    *(undefined8 *)(this + 0x240) = uVar7;
+    uVar7 = puVar15[3];
+    *(undefined8 *)(this + 0x248) = puVar15[2];
+    *(undefined8 *)(this + 0x250) = uVar7;
+    uVar7 = puVar15[5];
+    *(undefined8 *)(this + 600) = puVar15[4];
+    *(undefined8 *)(this + 0x260) = uVar7;
+    local_8f0 = (void *)0x0;
+    local_8e8 = 0;
+    iStack_8e4 = 0;
+    local_8e0 = 0;
+    local_8c8 = &local_8f0;
+    uStack_8c0 = this;
+    GeoMapper::Input::TStack::TStack(local_800);
+    GOVSelectOperator::GOVSelectOperator(local_518,1);
+    GOPage::Accept(param_1,(GOVisitor *)local_518);
+    GOVSelectOperator::GOVSelectOperator(local_708,7);
+    ScopeGuardImplBase::ScopeGuardImplBase(local_898);
+    local_888 = &LAB_1801239e4;
+    local_880 = 0;
+    local_87c = local_8a0._4_4_;
+    local_878 = local_708;
+    local_840 = std::
+                _Func_impl_no_alloc<`protected:_virtual_bool___cdecl_GOVSelectOverlappingObjects::Select(GOPage&___ptr64)___ptr64'::`2'::<lambda_1>,GeoMapper::TSimpleElementAttribute_const&___ptr64,GOElement_const&___ptr64>
+                ::vftable;
+    local_838 = &local_8f0;
+    local_808 = &local_840;
+    local_7d8 = std::
+                _Func_impl_no_alloc<`protected:_virtual_bool___cdecl_GOVSelectOverlappingObjects::Select(GOPage&___ptr64)___ptr64'::`2'::<lambda_1>,GeoMapper::TSimpleElementAttribute_const&___ptr64,GOElement_const&___ptr64>
+                ::vftable;
+    local_7d0 = (undefined4)local_8c8;
+    uStack_7cc = local_8c8._4_4_;
+    uStack_7c8 = (undefined4)uStack_8c0;
+    uStack_7c4 = uStack_8c0._4_4_;
+    local_7a0 = &local_7d8;
+    local_890 = param_1;
+    local_830 = this;
+    GOVGeoMapperTStackBuilder::GOVGeoMapperTStackBuilder(local_328,local_800);
+    GOPage::Accept(param_1,(GOVisitor *)local_328);
+    GOVGeoMapperTStackBuilder::~GOVGeoMapperTStackBuilder(local_328);
+    FUN_1801237f0(local_898);
+    ScopeGuardImplBase::~ScopeGuardImplBase(local_898);
+    GOVSelectOperator::~GOVSelectOperator(local_708);
+    GOVSelectOperator::~GOVSelectOperator(local_518);
+    GeoMapper::TGraph::TGraph(local_768,local_800,(TOptions *)0x0,(TRatGraphEditor *)0x0);
+    GeoMapper::TGraph::TRegionIterator::TRegionIterator
+              (local_860,local_768,false,(TFillSelector *)0x0);
+    GeoMapper::TGraph::TRegion::TRegion(local_8f8);
+    GMatrixBase<double>::GetInverse((GMatrixBase<double> *)(this + 0x238));
+    bVar9 = GeoMapper::TGraph::TRegionIterator::NextRegion(local_860,local_8f8);
+    if (bVar9) {
+LAB_18028e230:
+      _Memory_00 = (longlong *)FUN_1803cefc4(0x18);
+      if (_Memory_00 == (longlong *)0x0) {
+        _Memory_00 = (longlong *)0x0;
+      }
+      else {
+        *_Memory_00 = 0;
+        _Memory_00[1] = 0;
+        _Memory_00[2] = 0;
+      }
+      bVar9 = _Memory_00 != (longlong *)0x0;
+      local_8a8 = bVar9;
+      local_8a0 = _Memory_00;
+      GeoMapper::TElementAttributeIterator::TElementAttributeIterator
+                ((TElementAttributeIterator *)&local_8c8,local_8f8,true);
+      cVar10 = FUN_18028d480(local_8f8,local_798);
+      if (cVar10 == '\0') {
+        pTVar16 = GeoMapper::TElementAttributeIterator::NextAttribute
+                            ((TElementAttributeIterator *)&local_8c8);
+        while (pTVar16 != (TElementAttribute *)0x0) {
+          local_900._4_4_ = (undefined4)((ulonglong)local_900 >> 0x20);
+          local_900 = (char *)CONCAT44(local_900._4_4_,*(undefined4 *)(pTVar16 + 0x18));
+          puVar21 = (undefined4 *)_Memory_00[1];
+          if (puVar21 == (undefined4 *)_Memory_00[2]) {
+            FUN_18013da90(_Memory_00,puVar21,&local_900);
+          }
+          else {
+            *puVar21 = *(undefined4 *)(pTVar16 + 0x18);
+            _Memory_00[1] = _Memory_00[1] + 4;
+          }
+          pTVar16 = GeoMapper::TElementAttributeIterator::NextAttribute
+                              ((TElementAttributeIterator *)&local_8c8);
+        }
+        FUN_18028c870(*_Memory_00,_Memory_00[1],_Memory_00[1] - *_Memory_00 >> 2);
+        piVar23 = (int *)*_Memory_00;
+        piVar17 = (int *)_Memory_00[1];
+        if ((piVar23 != piVar17) && (piVar23 + 1 != piVar17)) {
+          piVar26 = piVar23 + 1;
+          iVar31 = *piVar23;
+          do {
+            iVar1 = *piVar26;
+            piVar19 = piVar26 + 1;
+            if (iVar31 == iVar1) goto joined_r0x00018028e32f;
+            piVar23 = piVar26;
+            piVar26 = piVar19;
+            iVar31 = iVar1;
+          } while (piVar19 != piVar17);
+        }
+        goto LAB_18028e34d;
+      }
+      goto LAB_18028e357;
+    }
+LAB_18028e49d:
+    if (*(int *)(this + 0x1e0) - 2U < 2) {
+      iVar31 = 0;
+      lVar11 = GTable<GOObject*___ptr64>::GetCount
+                         ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8));
+      if (0 < lVar11) {
+        do {
+          ppGVar13 = GTable<GOObject*___ptr64>::GetItemAt
+                               ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8),iVar31)
+          ;
+          pGVar5 = *ppGVar13;
+          pGVar12 = GOElement::GetClassType();
+          puVar14 = (uint *)(**(code **)(*(longlong *)pGVar5 + 8))(pGVar5);
+          if (((*(uint *)(pGVar12 + 8) & puVar14[2]) != 0 ||
+              (*(uint *)(pGVar12 + 4) & puVar14[1]) != 0) || (*(uint *)pGVar12 & *puVar14) != 0) {
+            uVar2 = *(uint *)(this + 0x210);
+            uVar22 = (uint)(((ulonglong)pGVar5 & 0xffffffff) % (ulonglong)uVar2);
+            uVar27 = (ulonglong)(int)uVar22;
+            uVar28 = 0;
+            lVar24 = *(longlong *)(this + 0x208);
+            uVar32 = *(uint *)(lVar24 + 0xc + uVar27 * 0x10);
+            if ((int)uVar32 < 0) {
+              pGVar6 = *(GOObject **)(lVar24 + uVar27 * 0x10);
+              uVar18 = uVar22;
+              if (pGVar6 == pGVar5) {
+LAB_18028e5d7:
+                if ((-1 < (int)uVar22) &&
+                   (puVar21 = (undefined4 *)((longlong)(int)uVar18 * 0x10 + 8 + lVar24),
+                   puVar21 != (undefined4 *)0x0)) {
+                  uVar3 = *puVar21;
+                  local_900 = (char *)CONCAT44(local_900._4_4_,uVar3);
+                  puVar21 = *(undefined4 **)(this + 0x1f8);
+                  if (puVar21 == *(undefined4 **)(this + 0x200)) {
+                    FUN_18013da90(this + 0x1f0,puVar21,&local_900);
+                  }
+                  else {
+                    *puVar21 = uVar3;
+                    *(longlong *)(this + 0x1f8) = *(longlong *)(this + 0x1f8) + 4;
+                  }
+                }
+                goto LAB_18028e61f;
+              }
+              uVar28 = 0;
+              if (uVar22 == (uint)(((ulonglong)pGVar6 & 0xffffffff) % (ulonglong)uVar2)) {
+                uVar28 = 1;
+              }
+            }
+            uVar32 = uVar32 & 0x7fffffff;
+            uVar29 = uVar27;
+            uVar25 = uVar2;
+            if (uVar28 < uVar32) {
+              do {
+                if ((int)uVar25 < 1) break;
+                uVar18 = (int)uVar27 + 1;
+                uVar30 = 0;
+                if (uVar18 != uVar2) {
+                  uVar30 = uVar29 + 1;
+                }
+                uVar27 = 0;
+                if (uVar18 != uVar2) {
+                  uVar27 = (ulonglong)uVar18;
+                }
+                uVar18 = (uint)uVar27;
+                if ((*(int *)(lVar24 + 0xc + uVar30 * 0x10) < 0) &&
+                   (uVar22 == *(uint *)(lVar24 + uVar30 * 0x10) % uVar2)) {
+                  if (*(GOObject **)(lVar24 + uVar30 * 0x10) == pGVar5) goto LAB_18028e5d7;
+                  uVar28 = uVar28 + 1;
+                }
+                uVar29 = uVar30;
+                uVar25 = uVar25 - 1;
+              } while ((int)uVar28 < (int)uVar32);
+            }
+          }
+LAB_18028e61f:
+          iVar31 = iVar31 + 1;
+          lVar11 = GTable<GOObject*___ptr64>::GetCount
+                             ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8));
+        } while (iVar31 < lVar11);
+      }
+      FUN_18028c870(*(longlong *)(this + 0x1f0),*(longlong *)(this + 0x1f8),
+                    *(longlong *)(this + 0x1f8) - *(longlong *)(this + 0x1f0) >> 2,0);
+      GTable<GOObject*___ptr64>::RemoveAllItems
+                ((GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e8));
+    }
+    GeoMapper::TGraph::TRegion::~TRegion(local_8f8);
+    GeoMapper::TGraph::TRegionIterator::~TRegionIterator(local_860);
+    GeoMapper::TGraph::~TGraph(local_768);
+    GeoMapper::Input::TStack::~TStack(local_800);
+    iVar31 = iStack_8e4;
+    lVar24 = local_8e0;
+    if (local_8e8 != 0) {
+      while (0 < iStack_8e4) {
+        iStack_8e4 = iStack_8e4 + -1;
+        puVar15 = *(undefined8 **)((longlong)local_8f0 + (longlong)iStack_8e4 * 8);
+        if (puVar15 != (undefined8 *)0x0) {
+          (**(code **)*puVar15)(puVar15,1);
+        }
+      }
+      if (local_8e0 != 0) {
+        lVar24 = local_8e0;
+        do {
+          iVar1 = *(int *)(lVar24 + 0xc);
+          if (iVar31 + -1 < iVar1) {
+            *(int *)(lVar24 + 0xc) = iVar1 - iVar31;
+          }
+          else if (-1 < iVar1) {
+            *(undefined4 *)(lVar24 + 0x10) = 2;
+            *(uint *)(lVar24 + 0xc) = (*(char *)(lVar24 + 8) != '\0') - 1;
+          }
+          lVar24 = *(longlong *)(lVar24 + 0x18);
+        } while (lVar24 != 0);
+      }
+      this_00 = GAllocator::GetInstance();
+      GAllocator::Free(this_00,local_8f0,(longlong)local_8e8 << 3);
+      lVar24 = local_8e0;
+    }
+    for (; lVar24 != 0; lVar24 = *(longlong *)(lVar24 + 0x18)) {
+      *(undefined4 *)(lVar24 + 0xc) = 0xffffffff;
+      *(undefined4 *)(lVar24 + 0x10) = 1;
+    }
+    GProgress::~GProgress(local_908);
+  }
+  return false;
+joined_r0x00018028e32f:
+  for (; piVar19 != piVar17; piVar19 = piVar19 + 1) {
+    if (*piVar23 != *piVar19) {
+      piVar23 = piVar23 + 1;
+      *piVar23 = *piVar19;
+    }
+  }
+  piVar17 = piVar23 + 1;
+LAB_18028e34d:
+  if (piVar17 != (int *)_Memory_00[1]) {
+    _Memory_00[1] = (longlong)piVar17;
+  }
+LAB_18028e357:
+  bVar8 = bVar9;
+  if (*_Memory_00 != _Memory_00[1]) {
+    bVar8 = false;
+    local_8a8 = 0;
+    local_900 = local_8d8;
+    local_8d8[0] = '\0';
+    local_8d0 = _Memory_00;
+    local_8b8[0] = bVar9;
+    local_8b0 = _Memory_00;
+    FUN_18028d7b0(this + 0x220,*(undefined4 *)(this + 0x22c),local_8b8);
+    _Memory = local_8d0;
+    if ((local_8d8[0] != '\0') && (local_8d0 != (longlong *)0x0)) {
+      pvVar4 = (void *)*local_8d0;
+      if (pvVar4 != (void *)0x0) {
+        pvVar20 = pvVar4;
+        if ((0xfff < (ulonglong)((local_8d0[2] - (longlong)pvVar4 >> 2) * 4)) &&
+           (pvVar20 = *(void **)((longlong)pvVar4 + -8),
+           0x1f < (ulonglong)((longlong)pvVar4 + (-8 - (longlong)pvVar20)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar20);
+        *_Memory = 0;
+        _Memory[1] = 0;
+        _Memory[2] = 0;
+      }
+      free(_Memory);
+    }
+  }
+  GeoMapper::TElementAttributeIterator::~TElementAttributeIterator
+            ((TElementAttributeIterator *)&local_8c8);
+  if (bVar8) {
+    pvVar4 = (void *)*_Memory_00;
+    if (pvVar4 != (void *)0x0) {
+      pvVar20 = pvVar4;
+      if ((0xfff < (ulonglong)((_Memory_00[2] - (longlong)pvVar4 >> 2) * 4)) &&
+         (pvVar20 = *(void **)((longlong)pvVar4 + -8),
+         0x1f < (ulonglong)((longlong)pvVar4 + (-8 - (longlong)pvVar20)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar20);
+      *_Memory_00 = 0;
+      _Memory_00[1] = 0;
+      _Memory_00[2] = 0;
+    }
+    free(_Memory_00);
+  }
+  bVar9 = GeoMapper::TGraph::TRegionIterator::NextRegion(local_860,local_8f8);
+  if (!bVar9) goto LAB_18028e49d;
+  goto LAB_18028e230;
+}
+
+

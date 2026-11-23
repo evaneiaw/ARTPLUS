@@ -1,0 +1,17 @@
+﻿ArtPro+ License Info (window 754x548 at 573,216)
+Text: "A suboptimal combination of ArtPro+ Edition licenses has been selected.\n\nAn ArtPro+ Essentials license offers all of the features of an ArtPro+ Digital license and more. This means you can deselect ArtPro+ Digital from the list below to release the license and make it available for use on another computer, without losing any features here."
+Text: "License Server: localhost"   Text: "(Change)"
+Edition License | Status | Type | Remaining Days
+ArtPro+ Essentials 24         network  Unlimited
+ArtPro+ Layout 24             network  Unlimited
+ArtPro+ Digital 24            network  Unlimited
+Additional Licenses
+ArtPro+ Advanced 24           network  Unlimited
+ArtPro+ Plate Cut             (no status)
+ArtPro+ GMG OpenColor Connector network Unlimited
+ArtPro+ Equinox               network  Unlimited
+ArtPro+ Variable Data Expansion network Unlimited
+Studio Designer 20            network  Unlimited
+Studio Toolkit for Labels 20  network  Unlimited
+Studio Toolkit for Shrink Sleeves 20 network Unlimited
+Buttons: [Continue] [Quit ArtPro+]

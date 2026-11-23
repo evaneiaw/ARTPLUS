@@ -1,0 +1,87 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## FN 180097ab0
+   name=ArtDoc::Document::InsertPage
+   signature=indirect_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_>_>_>_>,boost::use_default,boost::use_default,boost::use_default,boost::use_default> __thiscall InsertPage(Document * this, RectangleBase<YAGL::MilliPointCoordinateSystem> * param_1, indirect_iterator<class_std::_Vector_iterator<class_std::_Vector_val<struct_std::_Simple_types<class_std::unique_ptr<class_ArtDoc::Page,struct_std::default_delete<class_ArtDoc::Page>_>_>_>_>,struct_boost::use_default,struct_boost::use_default,struct_boost::use_default,struct_boost::use_default> param_2)
+   entry=180097ab0 thunk=false external=false body=325
+   -- callers --
+      180378be4 DATA -
+      18041c7b4 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180019bb0 ArtDoc::Detail::ListItem<ArtDoc::ContentObject>::SetNext
+      180083f80 ArtDoc::ContentTracker::AddPageToDocument
+      180095880 FUN_180095880
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+      18009dce0 FUN_18009dce0
+      1800f95a0 ArtDoc::Page::Page
+      1800f9960 ArtDoc::Page::~Page
+      1800fb770 ArtDoc::Page::SetPart
+      1800ff460 ArtDoc::Parts::InsertPageIndex
+      1802ae920 FUN_1802ae920
+      1802ae95c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+   -- strings referenced --
+   -- decompiled --
+
+/* public: class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default> __cdecl
+   ArtDoc::Document::InsertPage(class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem>
+   const & __ptr64,class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default>) __ptr64 */
+
+longlong * __thiscall
+ArtDoc::Document::InsertPage(Document *this,longlong *param_1,undefined8 param_3,Page *param_4)
+
+{
+  Page *pPVar1;
+  Part *pPVar2;
+  Page *pPVar3;
+  longlong *plVar4;
+  undefined8 *puVar5;
+  ContentObject *pCVar6;
+  undefined1 local_res8 [8];
+  Page *local_res20;
+  
+                    /* 0x97ab0  2224
+                       ?InsertPage@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V345@@Z
+                        */
+  pPVar3 = (Page *)0x0;
+  local_res20 = param_4;
+  SwitchToWorkingFile(this);
+  pPVar2 = (Part *)FUN_180095880(this,&local_res20);
+  pPVar1 = local_res20;
+  pCVar6 = (ContentObject *)((longlong)local_res20 - *(longlong *)(this + 0x1b0) >> 3);
+  local_res20 = (Page *)FUN_1802ae920(0x248);
+  if (local_res20 != (Page *)0x0) {
+    pPVar3 = (Page *)Page::Page(local_res20,this,pCVar6,param_3,0);
+  }
+  local_res20 = pPVar3;
+  plVar4 = (longlong *)FUN_18009dce0(this + 0x1b0,local_res8,pPVar1,&local_res20);
+  pPVar1 = local_res20;
+  *param_1 = *plVar4;
+  if (local_res20 != (Page *)0x0) {
+    Page::~Page(local_res20);
+    free(pPVar1);
+  }
+  Page::SetPart(*(Page **)*param_1,pPVar2);
+  ContentTracker::AddPageToDocument(*(ContentTracker **)(this + 0x1a8),*(Page **)*param_1);
+  if (pPVar2 != (Part *)0x0) {
+    Parts::InsertPageIndex(*(Parts **)(this + 0x1c8),pPVar2,(__uint64)pCVar6);
+  }
+  puVar5 = (undefined8 *)*param_1;
+  if (puVar5 != *(undefined8 **)(this + 0x1b8)) {
+    do {
+      Detail::ListItem<ArtDoc::ContentObject>::SetNext
+                ((ListItem<ArtDoc::ContentObject> *)*puVar5,pCVar6);
+      puVar5 = puVar5 + 1;
+      pCVar6 = pCVar6 + 1;
+    } while (puVar5 != *(undefined8 **)(this + 0x1b8));
+  }
+  return param_1;
+}
+
+

@@ -1,0 +1,8 @@
+requested=0x18013aba0
+resolvedAddress=18013aba0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=false
+containingFunction=18013aac0 PDFPlusExternalFileMark
+status=NO_FUNCTION_AT_ENTRY
+bytes=895c2420488d9778080000c683180100000080ba18010000007410488bcbff15

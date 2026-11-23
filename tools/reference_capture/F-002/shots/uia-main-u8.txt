@@ -1,0 +1,262 @@
+﻿ControlType.MenuBar|||961,31,958,22
+ControlType.MenuItem||File|961,31,34,21
+ControlType.MenuItem||Edit|995,31,36,21
+ControlType.MenuItem||Object|1031,31,51,21
+ControlType.MenuItem||Select|1082,31,47,21
+ControlType.MenuItem||Prepress|1129,31,60,21
+ControlType.MenuItem||View|1189,31,41,21
+ControlType.MenuItem||Window|1230,31,60,21
+ControlType.MenuItem||Help|1290,31,41,21
+ControlType.ToolBar|||961,53,958,54
+ControlType.CheckBox|qt_toolbar_ext_button||1906,55,12,50
+ControlType.CheckBox||Object Browser|963,55,93,50
+ControlType.CheckBox||Colors|1056,55,47,50
+ControlType.CheckBox||Images|1103,55,51,50
+ControlType.CheckBox||Placed Art|1154,55,67,50
+ControlType.CheckBox||Messages|1221,55,64,50
+ControlType.CheckBox||Action Lists|1285,55,74,50
+ControlType.CheckBox||Share & Approve|1359,55,103,50
+ControlType.Group|||1462,55,1,50
+ControlType.Button||Clean|1463,55,43,50
+ControlType.Button||Select|1506,55,44,50
+ControlType.Button||Recolor|1550,55,53,50
+ControlType.Button||Shaper|1603,55,49,50
+ControlType.Button||Barcode|1652,55,56,50
+ControlType.Button||Screening|1708,55,65,50
+ControlType.CheckBox||Trapping|1773,55,59,50
+ControlType.Button||Warp|1832,55,41,50
+ControlType.Group|||1873,55,1,50
+ControlType.CheckBox||3D|1874,55,31,50
+ControlType.Custom|||961,107,958,924
+ControlType.Group|||1664,107,255,924
+ControlType.Group|SidePanel||1664,107,255,67
+ControlType.Group|SidePanel.SidePanelTitleBar||1664,107,255,25
+ControlType.Text||Document|1694,107,56,25
+ControlType.Group|SidePanel.SidePanelContentWidget||1664,132,255,42
+ControlType.Table|||1664,132,255,42
+powershell : Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito 
+pequeno para 
+No linha:1 caractere:26
++ ... p\ArtPlus'; powershell -NoProfile -File 'tools\reference_capture\F-00 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Não é possível ...o pequeno para :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.DataItem|||1664,132,23,21
+ControlType.DataItem||Crosshair|1687,132,232,21
+ControlType.DataItem|||1664,153,23,21
+ControlType.DataItem||Page Boxes|1687,153,232,21
+ControlType.Group|SidePanel||1664,175,255,91
+ControlType.Group|SidePanel.SidePanelTitleBar||1664,175,255,25
+ControlType.Text||Layers|1694,175,33,25
+ControlType.Group|||1737,175,36,25
+ControlType.CheckBox|SidePanelTabButton||1737,175,18,25
+ControlType.CheckBox|SidePanelTabButton||1755,175,18,25
+ControlType.Group|SidePanel.SidePanelContentWidget||1664,200,255,66
+ControlType.Custom|||1664,200,255,66
+ControlType.Group|||1664,200,255,66
+ControlType.Table|LayersTable||1664,200,255,44
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.Header|||1664,200,23,23
+ControlType.Header|||1687,200,23,23
+ControlType.Header|||1710,200,22,23
+ControlType.Header||Name|1732,200,130,23
+ControlType.Header||Type|1862,200,35,23
+ControlType.Header|||1897,200,22,23
+ControlType.DataItem|||1664,223,23,21
+ControlType.DataItem|||1687,223,23,21
+ControlType.DataItem|||1710,223,22,21
+ControlType.DataItem||Unlayered Art|1732,223,130,21
+ControlType.DataItem|||1862,223,35,21
+ControlType.DataItem|||1897,223,22,21
+ControlType.Group|BottomBar||1664,244,255,22
+ControlType.Button|||1817,244,22,22
+ControlType.Group|BottomBar.Separator||1839,244,1,22
+ControlType.Button|||1840,244,22,22
+ControlType.Group|BottomBar.Separator||1862,244,1,22
+ControlType.Button|||1863,244,22,22
+ControlType.Group|BottomBar.Separator||1885,244,1,22
+ControlType.Button|||1886,244,33,22
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.DataItem||Artwork Only|1664,223,61,21
+ControlType.DataItem|||1725,223,22,21
+ControlType.Group|SidePanel||1664,267,255,47
+ControlType.Group|SidePanel.SidePanelTitleBar||1664,267,255,25
+ControlType.Text||Marks|1694,267,32,25
+ControlType.Group|SidePanel.SidePanelContentWidget||1664,292,255,22
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar||1664,292,255,22
+ControlType.Button|||1664,292,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1686,292,1,22
+ControlType.Button|||1687,292,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1709,292,1,22
+ControlType.Button|||1710,292,22,22
+ControlType.Button|||1795,292,33,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1828,292,1,22
+ControlType.Button|||1829,292,33,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1862,292,1,22
+ControlType.Button|||1863,292,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1885,292,1,22
+ControlType.Button|||1886,292,33,22
+ControlType.Group|SidePanel||1664,315,255,198
+ControlType.Group|SidePanel.SidePanelTitleBar||1664,315,255,25
+ControlType.Text||Separations|1694,315,61,25
+ControlType.Group|SidePanel.SidePanelContentWidget||1664,340,255,173
+ControlType.Group|||1664,340,255,23
+ControlType.Text||ISO Coated v2 300% (ECI)|1764,344,127,15
+ControlType.Text||Document Profile:|1668,344,92,15
+ControlType.Table|SidePanel.SidePanelContentWidget.SeparationsTable||1664,363,255,128
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.Header|||1664,363,23,23
+ControlType.Header|||1687,363,23,23
+ControlType.Header||Name|1710,363,131,23
+ControlType.Header||#|1841,363,22,23
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.Header||Setup|1863,363,56,23
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.DataItem|||1664,386,23,21
+ControlType.DataItem|||1687,386,23,21
+ControlType.DataItem||Cyan|1710,386,131,21
+ControlType.DataItem||1|1841,386,22,21
+ControlType.DataItem|||1863,386,56,21
+ControlType.DataItem|||1664,407,23,21
+ControlType.DataItem|||1687,407,23,21
+ControlType.DataItem||Magenta|1710,407,131,21
+ControlType.DataItem||2|1841,407,22,21
+ControlType.DataItem|||1863,407,56,21
+ControlType.DataItem|||1664,428,23,21
+ControlType.DataItem|||1687,428,23,21
+ControlType.DataItem||Yellow|1710,428,131,21
+ControlType.DataItem||3|1841,428,22,21
+ControlType.DataItem|||1863,428,56,21
+ControlType.DataItem|||1664,449,23,21
+ControlType.DataItem|||1687,449,23,21
+ControlType.DataItem||Black|1710,449,131,21
+ControlType.DataItem||4|1841,449,22,21
+ControlType.DataItem|||1863,449,56,21
+ControlType.DataItem|||1664,470,23,21
+ControlType.DataItem|||1687,470,23,21
+ControlType.DataItem||PANTONE 485 C|1710,470,131,21
+ControlType.DataItem||5|1841,470,22,21
+ControlType.DataItem|||1863,470,56,21
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar||1664,491,255,22
+ControlType.CheckBox|||1664,491,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1814,491,1,22
+ControlType.Button|||1815,491,24,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1839,491,1,22
+ControlType.Button|||1840,491,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1862,491,1,22
+ControlType.Button|||1863,491,22,22
+ControlType.Group|SidePanel.SidePanelContentWidget.BottomBar.Separator||1885,491,1,22
+ControlType.Button|||1886,491,33,22
+ControlType.Group|SidePanel||1664,514,255,85
+ControlType.Group|SidePanel.SidePanelTitleBar||1664,514,255,25
+ControlType.Text||Quality Control|1694,514,81,25
+ControlType.Group|SidePanel.SidePanelContentWidget||1664,539,255,60
+ControlType.Group|||1664,539,255,60
+ControlType.Button|||1664,545,23,23
+ControlType.ComboBox|||1687,546,228,21
+Não é possível converter o valor "8" para o tipo "System.Int32". Erro: "Valor era muito grande ou muito pequeno para 
+Int32."
+No H:\Desktop\ArtPlus\tools\reference_capture\F-002\ui2.ps1:173 caractere:7
++       "{0}|{1}|{2}|{3},{4},{5},{6}" -f $e.Current.ControlType.Program ...
++       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastIConvertible
+ 
+ControlType.ListItem||Total Area Coverage|0,0,640,17
+ControlType.ListItem||Breakout|0,17,640,17
+ControlType.ListItem||Flexo Plate Preview|0,34,640,17
+ControlType.ListItem||Flexo Print Preview|0,51,640,17
+ControlType.ListItem|||0,68,640,1
+ControlType.ListItem||Moiré Detection|0,69,640,17
+ControlType.ListItem||Object Screening|0,86,640,17
+ControlType.ListItem|||0,103,640,1
+ControlType.ListItem||Registration Error|0,104,640,17
+ControlType.ListItem|||0,121,640,1
+ControlType.ListItem||Digital Print Simulation|0,122,640,17
+ControlType.ListItem|||0,139,640,1
+ControlType.ListItem||Compare|0,140,640,17
+ControlType.Group|||1664,574,251,19
+ControlType.Spinner|||1728,574,60,19
+ControlType.Edit|||1729,575,58,17
+ControlType.Text||Limit:|1691,574,27,19
+ControlType.Group|||961,107,702,924
+ControlType.Group|BreadcrumbsBar||961,107,702,25
+ControlType.Group|||961,132,702,37
+ControlType.Group|||961,169,702,862
+ControlType.Group|LayeredView.main||961,169,702,862
+ControlType.Thumb|qt_splithandle_||1661,107,5,924

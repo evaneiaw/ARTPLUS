@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-22T13:30:01-03:00",
+  "feature": "F-008",
+  "test_name": "F-008",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-008.xml --output-on-failure -R ^F\\-008$",
+  "exit_code": 0,
+  "xml_path": "H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-008.xml",
+  "xml_sha256": "CDD54F11D2BF354D8A8FC4D055839F4DE79B291B2C6A82D18DDE5ABAAA67BB2C",
+  "log_path": "docs/testing/gates/logs/test-F-008-20261122-133001-786.log",
+  "tests": [
+    {
+      "name": "F-008",
+      "status": "passed",
+      "time": 0.026
+    }
+  ],
+  "failures": 0,
+  "failure_details": []
+}

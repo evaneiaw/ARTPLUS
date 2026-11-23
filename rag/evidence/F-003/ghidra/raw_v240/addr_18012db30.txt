@@ -1,0 +1,1271 @@
+requested=0x18012db30
+resolvedAddress=18012db30
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012db30 FUN_18012db30
+status=OK
+entry=18012db30
+name=FUN_18012db30
+qualifiedName=FUN_18012db30
+namespace=Global
+signature=undefined FUN_18012db30()
+returnType=undefined
+parameterCount=0
+bodyMin=18012db30
+bodyMax=18012e773
+bodySize=3140
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+18048645c refType=DATA fromFunction=
+18012fa45 refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+18012fd1f refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+
+[CALLERS]
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+
+[CALLEES]
+1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012a530 DocumentMarks::GetPDFPlusBoundingBox
+1800d4250 FUN_1800d4250
+18012d960 FUN_18012d960
+EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+
+[DIRECT_CALL_TARGETS]
+18012dbab -> 18012e70c FUN_18012db30
+18012dbd2 -> 18012e70c FUN_18012db30
+18012dcf9 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012dd07 -> 18012a530 DocumentMarks::GetPDFPlusBoundingBox
+18012dd10 -> 18012e0c6 FUN_18012db30
+18012dd34 -> 18012dd45 FUN_18012db30
+18012dd3f -> 18012ddf1 FUN_18012db30
+18012dd5f -> 18012ddba FUN_18012db30
+18012ddb8 -> 18012ddf1 FUN_18012db30
+18012ddf4 -> 18012de1b FUN_18012db30
+18012de15 -> 18012def7 FUN_18012db30
+18012de35 -> 18012dea7 FUN_18012db30
+18012dea5 -> 18012def7 FUN_18012db30
+18012df01 -> 18012df2b FUN_18012db30
+18012df25 -> 18012e010 FUN_18012db30
+18012df45 -> 18012dfbf FUN_18012db30
+18012dfbd -> 18012e010 FUN_18012db30
+18012e013 -> 18012e020 FUN_18012db30
+18012e01a -> 18012e0c1 FUN_18012db30
+18012e03e -> 18012e08c FUN_18012db30
+18012e08a -> 18012e0cf FUN_18012db30
+18012e0bf -> 18012e0cf FUN_18012db30
+18012e0da -> 18012dcf0 FUN_18012db30
+18012e0f0 -> 18012e705 FUN_18012db30
+18012e0f9 -> 18012e705 FUN_18012db30
+18012e102 -> 18012e705 FUN_18012db30
+18012e10b -> 18012e705 FUN_18012db30
+18012e118 -> 18012e433 FUN_18012db30
+18012e121 -> 18012e407 FUN_18012db30
+18012e12a -> 18012e3db FUN_18012db30
+18012e13a -> 18012e2b5 FUN_18012db30
+18012e144 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012e163 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012e17a -> 18012e3db FUN_18012db30
+18012e183 -> 18012e3db FUN_18012db30
+18012e19c -> 18012e1a9 FUN_18012db30
+18012e1a7 -> 18012e1bb FUN_18012db30
+18012e1ac -> 18012e1bb FUN_18012db30
+18012e2ab -> 1800d4250 FUN_1800d4250
+18012e2b0 -> 18012e71e FUN_18012db30
+18012e2b9 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012e2d8 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012e2ef -> 18012e407 FUN_18012db30
+18012e2f8 -> 18012e407 FUN_18012db30
+18012e310 -> 18012e31b FUN_18012db30
+18012e3d6 -> 18012e29e FUN_18012db30
+18012e402 -> 18012e71e FUN_18012db30
+18012e42e -> 18012e71e FUN_18012db30
+18012e436 -> 18012e6d8 FUN_18012db30
+18012e43f -> 18012e6bc FUN_18012db30
+18012e44f -> 18012e594 FUN_18012db30
+18012e455 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012e474 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012e491 -> 18012e6bc FUN_18012db30
+18012e49d -> 18012e6bc FUN_18012db30
+18012e4bf -> 18012e4cc FUN_18012db30
+18012e4ca -> 18012e4de FUN_18012db30
+18012e4cf -> 18012e4de FUN_18012db30
+18012e58f -> 18012e294 FUN_18012db30
+18012e598 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012e5b7 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012e5ce -> 18012e6d8 FUN_18012db30
+18012e5d7 -> 18012e6d8 FUN_18012db30
+18012e5ef -> 18012e5fa FUN_18012db30
+18012e6b7 -> 18012e294 FUN_18012db30
+18012e6d6 -> 18012e71e FUN_18012db30
+18012e703 -> 18012e71e FUN_18012db30
+18012e719 -> 18012d960 FUN_18012d960
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012db33 -> Stack[0x20] block=? sym=
+18012db37 -> Stack[0x18] block=? sym=
+18012db3b -> Stack[0x10] block=? sym=
+18012db3f -> Stack[0x8] block=? sym=
+18012db4f -> Stack[-0x338] block=? sym=
+18012db5d -> Stack[-0x58] block=? sym=
+18012db64 -> Stack[-0x68] block=? sym=
+18012db6b -> Stack[-0x78] block=? sym=
+18012db70 -> Stack[-0x88] block=? sym=
+18012db78 -> Stack[-0x98] block=? sym=
+18012db80 -> Stack[-0xa8] block=? sym=
+18012db88 -> Stack[-0xb8] block=? sym=
+18012db90 -> Stack[-0xc8] block=? sym=
+18012db98 -> Stack[-0xd8] block=? sym=
+18012dba0 -> Stack[-0xe8] block=? sym=
+18012dbb1 -> Stack[0x28] block=? sym=
+18012dbc8 -> Stack[-0x238] block=? sym=
+18012dbd8 -> Stack[-0x1d8] block=? sym=
+18012dbe2 -> Stack[-0x210] block=? sym=
+18012dbea -> Stack[-0x228] block=? sym=
+18012dbf1 -> Stack[-0x138] block=? sym=
+18012dbf8 -> Stack[-0x308] block=? sym=
+18012dbfc -> Stack[-0x208] block=? sym=
+18012dc04 -> Stack[-0x218] block=? sym=
+18012dc0c -> Stack[-0x178] block=? sym=
+18012dc14 -> Stack[-0x198] block=? sym=
+18012dc1c -> Stack[-0x128] block=? sym=
+18012dc24 -> Stack[-0x2e8] block=? sym=
+18012dc29 -> Stack[-0x2f0] block=? sym=
+18012dc2f -> Stack[-0x2f8] block=? sym=
+18012dc34 -> Stack[0x10] block=? sym=
+18012dc3b -> Stack[-0x3e8] block=? sym=
+18012dc40 -> Stack[-0x3f0] block=? sym=
+18012dc44 -> Stack[-0x158] block=? sym=
+18012dc4b -> Stack[-0x170] block=? sym=
+18012dc53 -> Stack[-0x288] block=? sym=
+18012dc5a -> Stack[-0x3f4] block=? sym=
+18012dc5e -> Stack[-0xf8] block=? sym=
+18012dc65 -> Stack[-0x188] block=? sym=
+18012dc6c -> Stack[-0x278] block=? sym=
+18012dc73 -> Stack[-0x330] block=? sym=
+18012dc77 -> Stack[-0x190] block=? sym=
+18012dc7f -> Stack[-0x1a8] block=? sym=
+18012dc86 -> Stack[-0x298] block=? sym=
+18012dc8d -> Stack[-0x3ec] block=? sym=
+18012dc91 -> Stack[-0x100] block=? sym=
+18012dc99 -> Stack[-0x2c8] block=? sym=
+18012dc9d -> Stack[-0x258] block=? sym=
+18012dca4 -> Stack[-0x338] block=? sym=
+18012dca8 -> Stack[-0x118] block=? sym=
+18012dcaf -> Stack[-0x148] block=? sym=
+18012dcb6 -> Stack[-0x3c0] block=? sym=
+18012dcbb -> Stack[-0x3f8] block=? sym=
+18012dcbf -> Stack[-0x120] block=? sym=
+18012dcc7 -> Stack[-0x318] block=? sym=
+18012dccb -> Stack[-0x268] block=? sym=
+18012dcd2 -> Stack[-0x328] block=? sym=
+18012dcd6 -> Stack[-0x248] block=? sym=
+18012dcdd -> Stack[-0x3c8] block=? sym=
+18012dce2 -> Stack[-0x408] block=? sym=
+18012dcf9 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012dcff -> Stack[-0x398] block=? sym=
+18012dd0c -> Stack[-0x348] block=? sym=
+18012dd16 -> Stack[-0x350] block=? sym=
+18012dd1a -> Stack[-0x390] block=? sym=
+18012dd1e -> Stack[-0x360] block=? sym=
+18012dd29 -> Stack[-0x370] block=? sym=
+18012dd2d -> Stack[-0x380] block=? sym=
+18012dd36 -> Stack[-0x3e8] block=? sym=
+18012dd45 -> Stack[-0x348] block=? sym=
+18012dd48 -> Stack[-0x330] block=? sym=
+18012dd4c -> Stack[-0x388] block=? sym=
+18012dd50 -> Stack[-0x378] block=? sym=
+18012dd54 -> Stack[-0x368] block=? sym=
+18012dd58 -> Stack[-0x358] block=? sym=
+18012dd61 -> Stack[-0x390] block=? sym=
+18012dd65 -> Stack[-0x380] block=? sym=
+18012dd69 -> Stack[-0x360] block=? sym=
+18012dd6d -> Stack[-0x220] block=? sym=
+18012dd74 -> Stack[-0x370] block=? sym=
+18012dd78 -> Stack[-0x210] block=? sym=
+18012dd7f -> Stack[-0x218] block=? sym=
+18012dd87 -> Stack[-0x200] block=? sym=
+18012dd8e -> Stack[-0x350] block=? sym=
+18012dd92 -> Stack[-0x208] block=? sym=
+18012dd9a -> Stack[-0x1e0] block=? sym=
+18012dda6 -> Stack[-0x3f0] block=? sym=
+18012ddac -> Stack[-0x3e8] block=? sym=
+18012ddb1 -> Stack[-0x1f0] block=? sym=
+18012ddbd -> Stack[-0x218] block=? sym=
+18012ddcc -> Stack[-0x3e8] block=? sym=
+18012ddd1 -> Stack[-0x3f0] block=? sym=
+18012dddc -> Stack[-0x208] block=? sym=
+18012dde3 -> Stack[-0x1f8] block=? sym=
+18012ddea -> Stack[-0x1e8] block=? sym=
+18012ddf6 -> Stack[-0x298] block=? sym=
+18012de01 -> Stack[-0x288] block=? sym=
+18012de1b -> Stack[-0x348] block=? sym=
+18012de1e -> Stack[-0x338] block=? sym=
+18012de22 -> Stack[-0x388] block=? sym=
+18012de26 -> Stack[-0x378] block=? sym=
+18012de2a -> Stack[-0x368] block=? sym=
+18012de2e -> Stack[-0x358] block=? sym=
+18012de37 -> Stack[-0x390] block=? sym=
+18012de3b -> Stack[-0x380] block=? sym=
+18012de3f -> Stack[-0x360] block=? sym=
+18012de43 -> Stack[-0x1a0] block=? sym=
+18012de4a -> Stack[-0x370] block=? sym=
+18012de4e -> Stack[-0x190] block=? sym=
+18012de55 -> Stack[-0x198] block=? sym=
+18012de5d -> Stack[-0x180] block=? sym=
+18012de64 -> Stack[-0x350] block=? sym=
+18012de68 -> Stack[-0x170] block=? sym=
+18012de6f -> Stack[-0x178] block=? sym=
+18012de77 -> Stack[-0x160] block=? sym=
+18012de83 -> Stack[-0x3f4] block=? sym=
+18012de89 -> Stack[-0x188] block=? sym=
+18012de90 -> Stack[-0x278] block=? sym=
+18012de97 -> Stack[-0x298] block=? sym=
+18012de9e -> Stack[-0x288] block=? sym=
+18012deaa -> Stack[-0x198] block=? sym=
+18012dec0 -> Stack[-0x288] block=? sym=
+18012decc -> Stack[-0x298] block=? sym=
+18012ded7 -> Stack[-0x278] block=? sym=
+18012dede -> Stack[-0x3f4] block=? sym=
+18012dee2 -> Stack[-0x188] block=? sym=
+18012dee9 -> Stack[-0x178] block=? sym=
+18012def0 -> Stack[-0x168] block=? sym=
+18012df03 -> Stack[-0x268] block=? sym=
+18012df0e -> Stack[-0x258] block=? sym=
+18012df2b -> Stack[-0x348] block=? sym=
+18012df2e -> Stack[-0x328] block=? sym=
+18012df32 -> Stack[-0x388] block=? sym=
+18012df36 -> Stack[-0x378] block=? sym=
+18012df3a -> Stack[-0x368] block=? sym=
+18012df3e -> Stack[-0x358] block=? sym=
+18012df47 -> Stack[-0x350] block=? sym=
+18012df4b -> Stack[-0x390] block=? sym=
+18012df4f -> Stack[-0x380] block=? sym=
+18012df53 -> Stack[-0x140] block=? sym=
+18012df5a -> Stack[-0x360] block=? sym=
+18012df5e -> Stack[-0x130] block=? sym=
+18012df65 -> Stack[-0x370] block=? sym=
+18012df69 -> Stack[-0x110] block=? sym=
+18012df70 -> Stack[-0x120] block=? sym=
+18012df77 -> Stack[-0x128] block=? sym=
+18012df88 -> Stack[-0x3ec] block=? sym=
+18012df8e -> Stack[-0x118] block=? sym=
+18012df95 -> Stack[-0x3c0] block=? sym=
+18012df9a -> Stack[-0x138] block=? sym=
+18012dfa1 -> Stack[-0x248] block=? sym=
+18012dfa8 -> Stack[-0x268] block=? sym=
+18012dfaf -> Stack[-0x258] block=? sym=
+18012dfb6 -> Stack[-0x100] block=? sym=
+18012dfc2 -> Stack[-0x138] block=? sym=
+18012dfd8 -> Stack[-0x258] block=? sym=
+18012dfe3 -> Stack[-0x268] block=? sym=
+18012dfeb -> Stack[-0x248] block=? sym=
+18012dff2 -> Stack[-0x3ec] block=? sym=
+18012dff6 -> Stack[-0x128] block=? sym=
+18012dffd -> Stack[-0x3c0] block=? sym=
+18012e002 -> Stack[-0x118] block=? sym=
+18012e009 -> Stack[-0x108] block=? sym=
+18012e020 -> Stack[-0x348] block=? sym=
+18012e026 -> Stack[-0x3c8] block=? sym=
+18012e02b -> Stack[-0x388] block=? sym=
+18012e02f -> Stack[-0x378] block=? sym=
+18012e033 -> Stack[-0x368] block=? sym=
+18012e037 -> Stack[-0x358] block=? sym=
+18012e040 -> Stack[-0x380] block=? sym=
+18012e044 -> Stack[-0x390] block=? sym=
+18012e048 -> Stack[-0x370] block=? sym=
+18012e04d -> Stack[-0x300] block=? sym=
+18012e051 -> Stack[-0x350] block=? sym=
+18012e055 -> Stack[-0x310] block=? sym=
+18012e059 -> Stack[-0x360] block=? sym=
+18012e05d -> Stack[-0x308] block=? sym=
+18012e061 -> Stack[-0x2f0] block=? sym=
+18012e066 -> Stack[-0x2f8] block=? sym=
+18012e06b -> Stack[-0x2d0] block=? sym=
+18012e078 -> Stack[-0x2e0] block=? sym=
+18012e07c -> Stack[-0x2e8] block=? sym=
+18012e081 -> Stack[-0x3f8] block=? sym=
+18012e085 -> Stack[-0x408] block=? sym=
+18012e08f -> Stack[-0x308] block=? sym=
+18012e097 -> Stack[-0x3f8] block=? sym=
+18012e0a3 -> Stack[-0x408] block=? sym=
+18012e0af -> Stack[-0x2f8] block=? sym=
+18012e0b7 -> Stack[-0x2e8] block=? sym=
+18012e0bb -> Stack[-0x2d8] block=? sym=
+18012e0c1 -> Stack[-0x408] block=? sym=
+18012e0c6 -> Stack[-0x3c8] block=? sym=
+18012e0cb -> Stack[-0x3f8] block=? sym=
+18012e0d3 -> Stack[-0x238] block=? sym=
+18012e0e0 -> Stack[0x18] block=? sym=
+18012e0e9 -> Stack[0x8] block=? sym=
+18012e111 -> Stack[0x30] block=? sym=
+18012e130 -> Stack[0x10] block=? sym=
+18012e140 -> Stack[-0x338] block=? sym=
+18012e144 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012e14c -> 18040b9f8 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+18012e156 -> Stack[-0x418] block=? sym=
+18012e15a -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012e168 -> Stack[-0x318] block=? sym=
+18012e176 -> Stack[-0x2d0] block=? sym=
+18012e180 -> Stack[-0x2bc] block=? sym=
+18012e189 -> Stack[-0x2c8] block=? sym=
+18012e195 -> Stack[-0x314] block=? sym=
+18012e199 -> Stack[-0x2c0] block=? sym=
+18012e1bb -> 1802fd810 block=.rdata sym=DAT_1802fd810
+18012e1c5 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18012e1cd -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18012e1d9 -> Stack[-0x278] block=? sym=
+18012e1e2 -> Stack[-0x2e0] block=? sym=
+18012e1e7 -> Stack[-0x160] block=? sym=
+18012e226 -> Stack[-0x408] block=? sym=
+18012e22b -> Stack[-0x298] block=? sym=
+18012e232 -> Stack[-0x3e0] block=? sym=
+18012e238 -> Stack[-0x288] block=? sym=
+18012e244 -> Stack[-0x3b0] block=? sym=
+18012e251 -> Stack[-0x408] block=? sym=
+18012e264 -> Stack[-0x408] block=? sym=
+18012e26e -> Stack[-0x408] block=? sym=
+18012e273 -> Stack[-0x408] block=? sym=
+18012e278 -> Stack[-0x3c0] block=? sym=
+18012e27e -> Stack[-0x3e8] block=? sym=
+18012e287 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+18012e28e -> Stack[-0x3d0] block=? sym=
+18012e294 -> Stack[-0x408] block=? sym=
+18012e299 -> Stack[-0x3d8] block=? sym=
+18012e29e -> Stack[-0x3e8] block=? sym=
+18012e2a6 -> Stack[-0x3c0] block=? sym=
+18012e2b5 -> Stack[-0x330] block=? sym=
+18012e2b9 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012e2c1 -> 18040b9f8 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+18012e2cb -> Stack[-0x418] block=? sym=
+18012e2cf -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012e2dd -> Stack[-0x318] block=? sym=
+18012e2eb -> Stack[-0x2d0] block=? sym=
+18012e2f5 -> Stack[-0x2bc] block=? sym=
+18012e2fe -> Stack[-0x2c8] block=? sym=
+18012e30a -> Stack[-0x2c0] block=? sym=
+18012e30d -> Stack[-0x314] block=? sym=
+18012e31b -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18012e327 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18012e331 -> Stack[-0x2e0] block=? sym=
+18012e336 -> Stack[-0x1e0] block=? sym=
+18012e35d -> 1802fd810 block=.rdata sym=DAT_1802fd810
+18012e380 -> Stack[-0x408] block=? sym=
+18012e386 -> Stack[-0x408] block=? sym=
+18012e38d -> Stack[-0x408] block=? sym=
+18012e39a -> Stack[-0x3b0] block=? sym=
+18012e39e -> Stack[-0x408] block=? sym=
+18012e3a3 -> Stack[-0x3e8] block=? sym=
+18012e3a8 -> Stack[-0x3a8] block=? sym=
+18012e3b1 -> Stack[-0x3e0] block=? sym=
+18012e3b7 -> Stack[-0x3c0] block=? sym=
+18012e3c1 -> Stack[-0x408] block=? sym=
+18012e3c6 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+18012e3d1 -> Stack[-0x3d8] block=? sym=
+18012e3db -> Stack[-0x278] block=? sym=
+18012e3e2 -> Stack[-0x3f4] block=? sym=
+18012e3f2 -> Stack[-0x168] block=? sym=
+18012e407 -> Stack[-0x1f8] block=? sym=
+18012e40e -> Stack[-0x1e8] block=? sym=
+18012e415 -> Stack[-0x3f0] block=? sym=
+18012e445 -> Stack[0x10] block=? sym=
+18012e455 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012e45d -> 18040b9f8 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+18012e467 -> Stack[-0x418] block=? sym=
+18012e46b -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012e479 -> Stack[-0x228] block=? sym=
+18012e48a -> Stack[-0x1e0] block=? sym=
+18012e497 -> Stack[-0x1cc] block=? sym=
+18012e4a3 -> Stack[-0x1d8] block=? sym=
+18012e4b2 -> Stack[-0x228] block=? sym=
+18012e4b9 -> Stack[-0x1d0] block=? sym=
+18012e4de -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18012e4e9 -> 1802fd810 block=.rdata sym=DAT_1802fd810
+18012e4f3 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18012e4ff -> Stack[-0x1e8] block=? sym=
+18012e532 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+18012e539 -> Stack[-0x3d0] block=? sym=
+18012e565 -> Stack[-0x408] block=? sym=
+18012e56a -> Stack[-0x408] block=? sym=
+18012e574 -> Stack[-0x3c0] block=? sym=
+18012e579 -> Stack[-0x3b0] block=? sym=
+18012e583 -> Stack[-0x408] block=? sym=
+18012e589 -> Stack[-0x3e8] block=? sym=
+18012e594 -> Stack[-0x328] block=? sym=
+18012e598 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012e5a0 -> 18040b9f8 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+18012e5aa -> Stack[-0x418] block=? sym=
+18012e5ae -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012e5bc -> Stack[-0x318] block=? sym=
+18012e5ca -> Stack[-0x2d0] block=? sym=
+18012e5d4 -> Stack[-0x2bc] block=? sym=
+18012e5dd -> Stack[-0x2c8] block=? sym=
+18012e5e9 -> Stack[-0x2c0] block=? sym=
+18012e5ec -> Stack[-0x318] block=? sym=
+18012e5fa -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18012e604 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18012e60c -> Stack[-0x3c0] block=? sym=
+18012e614 -> Stack[-0x248] block=? sym=
+18012e61d -> Stack[-0x268] block=? sym=
+18012e62b -> Stack[-0x258] block=? sym=
+18012e63f -> 1802fd810 block=.rdata sym=DAT_1802fd810
+18012e65b -> Stack[-0x3b0] block=? sym=
+18012e67b -> Stack[-0x408] block=? sym=
+18012e684 -> Stack[-0x2d8] block=? sym=
+18012e68d -> Stack[-0x408] block=? sym=
+18012e69b -> Stack[-0x3c0] block=? sym=
+18012e6a0 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+18012e6a7 -> Stack[-0x3d0] block=? sym=
+18012e6ad -> Stack[-0x408] block=? sym=
+18012e6b2 -> Stack[-0x3e8] block=? sym=
+18012e6bc -> Stack[-0x2d8] block=? sym=
+18012e6d8 -> Stack[-0x3c0] block=? sym=
+18012e6dd -> Stack[-0x3ec] block=? sym=
+18012e6e1 -> Stack[-0x248] block=? sym=
+18012e6f8 -> Stack[-0x108] block=? sym=
+18012e705 -> Stack[0x10] block=? sym=
+18012e70c -> Stack[0x20] block=? sym=
+18012e71e -> Stack[-0x40] block=? sym=
+18012e729 -> Stack[-0x58] block=? sym=
+18012e72e -> Stack[-0x68] block=? sym=
+18012e733 -> Stack[-0x78] block=? sym=
+18012e738 -> Stack[-0x88] block=? sym=
+18012e73d -> Stack[-0x98] block=? sym=
+18012e742 -> Stack[-0xa8] block=? sym=
+18012e747 -> Stack[-0xb8] block=? sym=
+18012e74c -> Stack[-0xc8] block=? sym=
+18012e754 -> Stack[-0xd8] block=? sym=
+18012e75c -> Stack[-0xe8] block=? sym=
+
+[DECOMPILE]
+
+longlong FUN_18012db30(longlong param_1,Content *param_2,int param_3,undefined8 param_4,
+                      longlong *param_5,int param_6)
+
+{
+  __uint64 _Var1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  double dVar10;
+  undefined1 auVar11 [12];
+  undefined1 auVar12 [12];
+  undefined1 auVar13 [12];
+  undefined1 auVar14 [12];
+  undefined1 auVar15 [12];
+  undefined1 auVar16 [12];
+  undefined1 auVar17 [12];
+  undefined1 auVar18 [12];
+  undefined1 auVar19 [12];
+  undefined1 auVar20 [12];
+  undefined1 auVar21 [12];
+  undefined1 auVar22 [16];
+  undefined1 auVar23 [16];
+  double dVar24;
+  undefined1 auVar25 [16];
+  bool bVar26;
+  bool bVar27;
+  bool bVar28;
+  bool bVar29;
+  double dVar30;
+  double dVar31;
+  undefined4 uVar32;
+  undefined4 uVar33;
+  double dVar34;
+  double dVar35;
+  undefined1 uVar36;
+  uint uVar37;
+  ContentObject *pCVar38;
+  longlong *plVar39;
+  int iVar40;
+  __uint64 *p_Var41;
+  double extraout_XMM0_Qb;
+  undefined1 auVar42 [16];
+  double dVar47;
+  undefined1 auVar43 [16];
+  undefined1 auVar44 [16];
+  double dVar48;
+  undefined1 auVar45 [16];
+  undefined1 auVar46 [16];
+  undefined1 auVar49 [16];
+  undefined1 auVar50 [16];
+  undefined1 auVar51 [16];
+  undefined1 in_XMM3 [16];
+  undefined1 auVar52 [16];
+  double dVar53;
+  uint uVar54;
+  uint uVar55;
+  undefined4 uVar56;
+  undefined4 uVar57;
+  undefined4 uVar58;
+  undefined4 uVar59;
+  undefined4 uVar60;
+  undefined4 uVar61;
+  undefined4 uVar62;
+  undefined4 uVar63;
+  undefined4 uVar64;
+  undefined4 uVar65;
+  undefined4 uVar66;
+  undefined4 uVar67;
+  undefined4 uVar68;
+  undefined4 uVar69;
+  undefined4 uVar70;
+  undefined4 uVar71;
+  undefined4 uVar72;
+  undefined4 uVar73;
+  undefined4 uVar74;
+  undefined4 uVar75;
+  undefined4 uVar76;
+  undefined4 uVar77;
+  undefined4 uVar78;
+  undefined4 uVar79;
+  undefined4 uVar80;
+  undefined4 uVar81;
+  undefined4 uVar82;
+  undefined4 uVar83;
+  undefined4 uVar84;
+  undefined4 uVar85;
+  undefined4 uVar86;
+  undefined4 uVar87;
+  undefined4 uVar88;
+  undefined4 uVar89;
+  undefined1 local_408 [16];
+  uint local_3f8;
+  uint local_3f4;
+  uint local_3f0;
+  uint local_3ec;
+  double local_3e8;
+  double dStack_3e0;
+  double local_3d8;
+  undefined8 uStack_3d0;
+  __uint64 local_3c8;
+  undefined1 local_3c0 [12];
+  undefined4 uStack_3b4;
+  undefined8 local_3b0;
+  double dStack_3a8;
+  Visitable local_398 [8];
+  double local_390;
+  double dStack_388;
+  double local_380;
+  double dStack_378;
+  undefined4 local_370;
+  undefined4 uStack_36c;
+  undefined4 uStack_368;
+  undefined4 uStack_364;
+  double local_360;
+  double dStack_358;
+  uint local_350;
+  undefined4 uStack_34c;
+  uint uStack_348;
+  undefined4 uStack_344;
+  __uint64 local_338;
+  __uint64 local_330;
+  __uint64 local_328;
+  int local_318;
+  int iStack_314;
+  double dStack_310;
+  undefined1 local_308 [16];
+  undefined1 local_2f8 [16];
+  undefined1 local_2e8 [12];
+  undefined4 uStack_2dc;
+  undefined1 local_2d8 [16];
+  double local_2c8;
+  int local_2c0;
+  char local_2bc;
+  double local_298;
+  double dStack_290;
+  double local_288;
+  double dStack_280;
+  undefined1 local_278 [12];
+  undefined4 uStack_26c;
+  double local_268;
+  double dStack_260;
+  double local_258;
+  undefined8 uStack_250;
+  undefined1 local_248 [16];
+  __uint64 *local_238;
+  int local_228;
+  undefined4 uStack_224;
+  double dStack_220;
+  undefined4 local_218;
+  undefined4 uStack_214;
+  undefined8 uStack_210;
+  undefined4 local_208;
+  undefined4 uStack_204;
+  undefined4 uStack_200;
+  undefined4 uStack_1fc;
+  undefined1 local_1f8 [16];
+  undefined1 local_1e8 [16];
+  double local_1d8;
+  int local_1d0;
+  char local_1cc;
+  __uint64 local_1a8;
+  double dStack_1a0;
+  undefined4 local_198;
+  undefined4 uStack_194;
+  undefined8 uStack_190;
+  undefined1 local_188 [16];
+  undefined1 local_178 [12];
+  undefined4 uStack_16c;
+  undefined1 local_168 [12];
+  undefined4 uStack_15c;
+  uint local_158;
+  undefined4 uStack_154;
+  __uint64 local_148;
+  double dStack_140;
+  undefined1 local_138 [16];
+  undefined4 local_128;
+  undefined4 uStack_124;
+  undefined8 uStack_120;
+  undefined1 local_118 [16];
+  undefined1 local_108 [12];
+  undefined4 uStack_fc;
+  uint local_f8;
+  undefined4 uStack_f4;
+  
+  if (param_3 == 0) {
+LAB_18012e70c:
+    FUN_18012d960(param_1,param_2,param_4);
+    return param_1;
+  }
+  bVar27 = false;
+  bVar28 = false;
+  bVar29 = false;
+  local_238 = (__uint64 *)param_5[1];
+  p_Var41 = (__uint64 *)*param_5;
+  if (p_Var41 == local_238) goto LAB_18012e70c;
+  bVar26 = false;
+  local_3e8 = uStack_210;
+  local_330 = CONCAT44(uStack_224,local_228);
+  uVar82 = local_178._8_4_;
+  uVar83 = uStack_16c;
+  uVar70 = (undefined4)uStack_190;
+  uVar71 = uStack_190._4_4_;
+  uVar66 = (undefined4)uStack_120;
+  uVar67 = uStack_120._4_4_;
+  uVar62 = local_2f8._8_4_;
+  uVar63 = local_2f8._12_4_;
+  dStack_3e0 = 0.0;
+  local_3f0 = (uint)local_1d8._0_1_;
+  local_288 = stack0xfffffffffffffe90;
+  dStack_280 = 0.0;
+  local_3f4 = local_158 & 0xff;
+  _local_278 = local_188;
+  local_298 = uStack_190;
+  dStack_290 = 0.0;
+  local_3ec = local_f8 & 0xff;
+  local_258 = stack0xffffffffffffff00;
+  uStack_250 = 0;
+  local_338 = local_1a8;
+  _local_3c0 = local_118;
+  local_3f8 = (uint)local_2c8._0_1_;
+  local_3c8 = CONCAT44(iStack_314,local_318);
+  local_268 = uStack_120;
+  dStack_260 = 0.0;
+  local_328 = local_148;
+  local_248 = local_138;
+  local_408 = local_308;
+  uVar56 = local_308._0_4_;
+  uVar57 = local_308._4_4_;
+  uVar58 = local_308._8_4_;
+  uVar59 = local_308._12_4_;
+  uVar60 = local_2f8._0_4_;
+  uVar61 = local_2f8._4_4_;
+  uVar64 = local_128;
+  uVar65 = uStack_124;
+  uVar68 = local_198;
+  uVar69 = uStack_194;
+  uVar72 = local_218;
+  uVar73 = uStack_214;
+  uVar74 = (undefined4)uStack_210;
+  uVar75 = uStack_210._4_4_;
+  uVar76 = local_208;
+  uVar77 = uStack_204;
+  uVar78 = uStack_200;
+  uVar79 = uStack_1fc;
+  uVar80 = local_178._0_4_;
+  uVar81 = local_178._4_4_;
+  uVar84 = uVar62;
+  uVar85 = uVar63;
+  uVar86 = local_2e8._0_4_;
+  uVar87 = local_2e8._4_4_;
+  uVar88 = local_2e8._8_4_;
+  uVar89 = uStack_2dc;
+  do {
+    _Var1 = *p_Var41;
+    ArtDoc::Content::GetObjectWithID(param_2,_Var1);
+    DocumentMarks::GetPDFPlusBoundingBox(local_398);
+    uVar54 = local_350;
+    dVar35 = dStack_358;
+    dVar34 = local_360;
+    uVar33 = uStack_364;
+    uVar32 = uStack_368;
+    uVar5 = uStack_36c;
+    uVar2 = local_370;
+    dVar31 = dStack_378;
+    dVar30 = local_380;
+    dVar53 = dStack_388;
+    if ((char)uStack_348 != '\0') {
+      uVar36 = (undefined1)local_350;
+      auVar22._8_8_ = dStack_388;
+      auVar22._0_8_ = local_390;
+      uVar56 = SUB84(local_390,0);
+      uVar57 = (undefined4)((ulonglong)local_390 >> 0x20);
+      uVar58 = SUB84(dStack_388,0);
+      uVar59 = (undefined4)((ulonglong)dStack_388 >> 0x20);
+      auVar25._8_8_ = dStack_358;
+      auVar25._0_8_ = local_360;
+      uVar4 = (undefined4)((ulonglong)local_360 >> 0x20);
+      uVar55 = SUB84(dStack_358,0);
+      uVar8 = (undefined4)((ulonglong)dStack_358 >> 0x20);
+      dVar24 = (double)CONCAT44(uStack_36c,local_370);
+      auVar23._8_4_ = uStack_368;
+      auVar23._0_8_ = dVar24;
+      auVar23._12_4_ = uStack_364;
+      in_XMM3._8_8_ = dStack_378;
+      in_XMM3._0_8_ = local_380;
+      uVar3 = SUB84(local_380,0);
+      uVar6 = (undefined4)((ulonglong)local_380 >> 0x20);
+      uVar7 = SUB84(dStack_378,0);
+      uVar9 = (undefined4)((ulonglong)dStack_378 >> 0x20);
+      dVar10 = auVar23._8_8_;
+      dVar47 = extraout_XMM0_Qb;
+      if (!bVar26) {
+LAB_18012dd45:
+        uStack_348 = CONCAT31(uStack_348._1_3_,(undefined1)local_350);
+        dStack_388 = local_390;
+        local_380 = dVar53;
+        dStack_378 = dVar30;
+        dStack_358 = local_360;
+        uVar72 = uVar56;
+        uVar73 = uVar57;
+        uVar74 = uVar58;
+        uVar75 = uVar59;
+        uVar76 = uVar3;
+        uVar77 = uVar6;
+        uVar78 = uVar7;
+        uVar79 = uVar9;
+        uVar37 = uVar55;
+        local_330 = _Var1;
+        if (bVar26) {
+          dStack_220 = local_390;
+          local_1d8 = (double)CONCAT44(uStack_344,uStack_348);
+          local_3f0 = uStack_348;
+          local_3e8 = dVar53;
+          dStack_3e0 = dVar30;
+          local_1f8._8_8_ = dVar10;
+          local_1f8._0_8_ = dVar24;
+          local_1e8._8_8_ = dVar35;
+          local_1e8._0_8_ = local_360;
+          dVar47 = 0.0;
+          local_138._8_8_ = local_360;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          uStack_34c = uVar8;
+        }
+        else {
+          auVar11._4_8_ = dVar47;
+          auVar11._0_4_ = uVar57;
+          auVar42._0_8_ = auVar11._0_8_ << 0x20;
+          auVar42._8_4_ = uVar58;
+          auVar42._12_4_ = uVar59;
+          local_3e8 = auVar42._8_8_;
+          dStack_3e0 = dVar53;
+          local_3f0 = local_350 & 0xff;
+          bVar26 = true;
+          dVar47 = dVar53;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          uStack_34c = uVar8;
+          local_1f8 = auVar23;
+          local_1e8 = auVar25;
+        }
+      }
+      else {
+        dVar47 = dStack_3e0;
+        uVar37 = local_350;
+        if (dStack_388 < local_3e8) goto LAB_18012dd45;
+      }
+      local_350 = uVar37;
+      dVar48 = dVar10;
+      if (!bVar27) {
+LAB_18012de1b:
+        uStack_348 = CONCAT31(uStack_348._1_3_,uVar36);
+        dStack_388 = local_390;
+        local_380 = dVar53;
+        dStack_378 = dVar30;
+        dStack_358 = dVar34;
+        uVar70 = uVar58;
+        uVar71 = uVar59;
+        uVar82 = uVar32;
+        uVar83 = uVar33;
+        uVar68 = uVar56;
+        uVar69 = uVar57;
+        uVar80 = uVar2;
+        uVar81 = uVar5;
+        local_338 = _Var1;
+        if (bVar27) {
+          dStack_1a0 = local_390;
+          stack0xfffffffffffffe90 = dVar10;
+          local_178._0_8_ = dVar24;
+          local_168._8_4_ = uVar55;
+          local_168._0_8_ = dVar34;
+          uStack_15c = uVar8;
+          local_158 = uStack_348;
+          uStack_154 = uStack_344;
+          local_3f4 = uStack_348;
+          stack0xfffffffffffffd90 = dVar31;
+          local_278._0_8_ = dVar30;
+          local_298 = dVar53;
+          dStack_290 = dVar30;
+          dStack_280 = dVar34;
+          dVar48 = dVar31;
+          local_138._8_8_ = dVar30;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+          local_288 = dVar10;
+        }
+        else {
+          auVar13._4_8_ = dVar47;
+          auVar13._0_4_ = uVar5;
+          auVar44._0_8_ = auVar13._0_8_ << 0x20;
+          auVar44._8_4_ = uVar32;
+          auVar44._12_4_ = uVar33;
+          auVar14._4_8_ = local_138._8_8_;
+          auVar14._0_4_ = uVar57;
+          auVar49._0_8_ = auVar14._0_8_ << 0x20;
+          auVar49._8_4_ = uVar58;
+          auVar49._12_4_ = uVar59;
+          local_288 = auVar44._8_8_;
+          local_298 = auVar49._8_8_;
+          bVar27 = true;
+          local_3f4 = uVar54 & 0xff;
+          local_138._8_8_ = dVar53;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+          _local_278 = in_XMM3;
+          _local_178 = auVar23;
+          _local_168 = auVar25;
+        }
+      }
+      else {
+        auVar12._4_8_ = dVar47;
+        auVar12._0_4_ = uVar5;
+        auVar43._0_8_ = auVar12._0_8_ << 0x20;
+        auVar43._8_4_ = uVar32;
+        auVar43._12_4_ = uVar33;
+        local_138._8_8_ = 0.0;
+        dVar47 = dVar10;
+        if (local_298 + local_288 < dVar53 + auVar43._8_8_) goto LAB_18012de1b;
+      }
+      if (!bVar28) {
+LAB_18012df2b:
+        uStack_348 = CONCAT31(uStack_348._1_3_,uVar36);
+        dStack_388 = local_390;
+        local_380 = dVar53;
+        dStack_378 = dVar30;
+        dStack_358 = dVar34;
+        uVar66 = uVar7;
+        uVar67 = uVar9;
+        uVar64 = uVar3;
+        uVar65 = uVar6;
+        local_328 = _Var1;
+        if (bVar28) {
+          dStack_140 = local_390;
+          local_118._8_8_ = dVar10;
+          local_118._0_8_ = dVar24;
+          local_3ec = uStack_348;
+          stack0xfffffffffffffc48 = dVar10;
+          local_3c0._0_8_ = dVar24;
+          local_248._8_8_ = dVar53;
+          local_248._0_8_ = local_390;
+          local_268 = dVar31;
+          local_258 = dVar35;
+          uStack_250 = CONCAT44(uStack_344,uStack_348);
+          local_108._8_4_ = uVar55;
+          local_108._0_8_ = dVar34;
+          uStack_fc = uVar8;
+          local_f8 = uStack_348;
+          uStack_f4 = uStack_344;
+          local_138._8_8_ = dVar24;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+          dStack_260 = dVar24;
+        }
+        else {
+          auVar16._4_8_ = dVar48;
+          auVar16._0_4_ = uVar4;
+          auVar46._0_8_ = auVar16._0_8_ << 0x20;
+          auVar46._8_4_ = uVar55;
+          auVar46._12_4_ = uVar8;
+          auVar17._4_8_ = local_138._8_8_;
+          auVar17._0_4_ = uVar6;
+          auVar51._0_8_ = auVar17._0_8_ << 0x20;
+          auVar51._8_4_ = uVar7;
+          auVar51._12_4_ = uVar9;
+          local_258 = auVar46._8_8_;
+          local_268 = auVar51._8_8_;
+          bVar28 = true;
+          local_3ec = uVar54 & 0xff;
+          local_138._8_8_ = dVar31;
+          _local_3c0 = auVar23;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+          local_248 = auVar22;
+          local_118 = auVar23;
+          _local_108 = auVar25;
+        }
+      }
+      else {
+        auVar15._4_8_ = dVar48;
+        auVar15._0_4_ = uVar4;
+        auVar45._0_8_ = auVar15._0_8_ << 0x20;
+        auVar45._8_4_ = uVar55;
+        auVar45._12_4_ = uVar8;
+        auVar50._8_4_ = uVar7;
+        auVar50._0_8_ = dVar31;
+        auVar50._12_4_ = uVar9;
+        local_138._8_8_ = auVar50._8_8_;
+        dVar48 = dVar35;
+        if (local_268 + local_258 < dVar31 + auVar45._8_8_) goto LAB_18012df2b;
+      }
+      if ((!bVar29) ||
+         (!((double)CONCAT44(uVar85,uVar84) < dVar31 || (double)CONCAT44(uVar85,uVar84) == dVar31)))
+      {
+        uStack_348 = CONCAT31(uStack_348._1_3_,uVar36);
+        dStack_388 = local_390;
+        local_380 = dVar53;
+        dStack_378 = dVar30;
+        dStack_358 = dVar34;
+        uVar60 = uVar3;
+        uVar61 = uVar6;
+        uVar62 = uVar7;
+        uVar63 = uVar9;
+        uVar84 = uVar7;
+        uVar85 = uVar9;
+        uVar86 = uVar2;
+        uVar87 = uVar5;
+        uVar88 = uVar32;
+        uVar89 = uVar33;
+        local_3c8 = _Var1;
+        if (bVar29) {
+          local_2c8 = (double)CONCAT44(uStack_344,uStack_348);
+          local_3f8 = uStack_348;
+          dStack_310 = local_390;
+          local_2f8._8_4_ = uVar7;
+          local_2f8._0_8_ = dVar30;
+          local_2f8._12_4_ = uVar9;
+          local_138._8_8_ = 0.0;
+          stack0xfffffffffffffd20 = dVar10;
+          local_2e8._0_8_ = dVar24;
+          local_2d8._8_8_ = dVar35;
+          local_2d8._0_8_ = dVar34;
+          local_408._8_4_ = uVar58;
+          local_408._0_8_ = local_390;
+          local_408._12_4_ = uVar59;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+        }
+        else {
+          local_3f8 = uVar54 & 0xff;
+          bVar29 = true;
+          local_408 = auVar22;
+          local_370 = uVar7;
+          uStack_36c = uVar9;
+          uStack_368 = uVar2;
+          uStack_364 = uVar5;
+          local_360 = dVar10;
+          local_350 = uVar55;
+          uStack_34c = uVar8;
+          local_2f8 = in_XMM3;
+          _local_2e8 = auVar23;
+          local_2d8 = auVar25;
+        }
+      }
+      else {
+        uVar56 = local_408._0_4_;
+        uVar57 = local_408._4_4_;
+        uVar58 = local_408._8_4_;
+        uVar59 = local_408._12_4_;
+      }
+    }
+    p_Var41 = p_Var41 + 1;
+  } while (p_Var41 != local_238);
+  if ((((!bVar26) || (!bVar27)) || (!bVar28)) || (!bVar29)) goto LAB_18012e70c;
+  if (param_6 == 0) {
+    if (param_3 == 5) {
+LAB_18012e6d8:
+      *(undefined4 *)(param_1 + 0x18) = uVar64;
+      *(undefined4 *)(param_1 + 0x1c) = uVar65;
+      *(undefined4 *)(param_1 + 0x20) = uVar66;
+      *(undefined4 *)(param_1 + 0x24) = uVar67;
+      *(undefined8 *)(param_1 + 8) = local_248._0_8_;
+      *(undefined8 *)(param_1 + 0x10) = local_248._8_8_;
+      *(char *)(param_1 + 0x48) = (char)local_3ec;
+      *(undefined8 *)(param_1 + 0x28) = local_3c0._0_8_;
+      *(double *)(param_1 + 0x30) = stack0xfffffffffffffc48;
+      *(undefined8 *)(param_1 + 0x38) = local_108._0_8_;
+      *(double *)(param_1 + 0x40) = stack0xffffffffffffff00;
+      return param_1;
+    }
+    if (param_3 == 6) {
+LAB_18012e6bc:
+      *(undefined4 *)(param_1 + 8) = uVar56;
+      *(undefined4 *)(param_1 + 0xc) = uVar57;
+      *(undefined4 *)(param_1 + 0x10) = uVar58;
+      *(undefined4 *)(param_1 + 0x14) = uVar59;
+      *(undefined4 *)(param_1 + 0x18) = uVar60;
+      *(undefined4 *)(param_1 + 0x1c) = uVar61;
+      *(undefined4 *)(param_1 + 0x20) = uVar62;
+      *(undefined4 *)(param_1 + 0x24) = uVar63;
+      *(char *)(param_1 + 0x48) = (char)local_3f8;
+      *(undefined4 *)(param_1 + 0x28) = uVar86;
+      *(undefined4 *)(param_1 + 0x2c) = uVar87;
+      *(undefined4 *)(param_1 + 0x30) = uVar88;
+      *(undefined4 *)(param_1 + 0x34) = uVar89;
+      *(undefined8 *)(param_1 + 0x38) = local_2d8._0_8_;
+      *(undefined8 *)(param_1 + 0x40) = local_2d8._8_8_;
+      return param_1;
+    }
+    if (param_3 == 7) {
+      pCVar38 = ArtDoc::Content::GetObjectWithID(param_2,local_328);
+      iVar40 = 0;
+      plVar39 = (longlong *)
+                __RTDynamicCast(pCVar38,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                                &DocumentMarks::GridInterface::RTTI_Type_Descriptor,0);
+      (**(code **)(*plVar39 + 8))(plVar39,&local_318);
+      auVar22 = _local_3c0;
+      if ((local_2d8._8_4_ != 1) || (local_2bc != '\0')) goto LAB_18012e6d8;
+      if (local_2c8 < 0.0) {
+        iVar40 = local_2c0;
+        if (local_318 < local_2c0) {
+          iVar40 = local_318;
+        }
+        iVar40 = iVar40 + -1;
+      }
+      if (local_318 < local_2c0) {
+        local_2c0 = local_318;
+      }
+      dStack_3a8 = local_268 + local_258;
+      local_3b0 = (double)CONCAT44(uVar65,uVar64);
+      dStack_3e0 = stack0xfffffffffffffc48 -
+                   (double)(local_2c0 + -1) *
+                   (((double)CONCAT44((uint)((ulonglong)local_2c8 >> 0x20) & DAT_1802fd810._4_4_,
+                                      SUB84(local_2c8,0) & (uint)DAT_1802fd810) * DAT_1802fa2f0) /
+                   DAT_1802fa2e8);
+      dVar53 = ((double)local_2d8._0_8_ * DAT_1802fa2f0) / DAT_1802fa2e8;
+      local_3c0._0_8_ = local_248._0_8_;
+      stack0xfffffffffffffc48 =
+           (double)local_248._8_8_ - ((double)iVar40 * local_2c8 * DAT_1802fa2f0) / DAT_1802fa2e8;
+      uStack_3d0 = CONCAT44((uint)((ulonglong)dVar53 >> 0x20) ^ DAT_1802fd1b0._4_4_,
+                            SUB84(dVar53,0) ^ (uint)DAT_1802fd1b0);
+      local_408._0_8_ = auVar22._0_8_;
+    }
+    else {
+      pCVar38 = ArtDoc::Content::GetObjectWithID(param_2,local_3c8);
+      iVar40 = 0;
+      plVar39 = (longlong *)
+                __RTDynamicCast(pCVar38,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                                &DocumentMarks::GridInterface::RTTI_Type_Descriptor,0);
+      (**(code **)(*plVar39 + 8))(plVar39,&local_228);
+      if ((local_1e8._8_4_ != 1) || (local_1cc != '\0')) goto LAB_18012e6bc;
+      if (local_1d8 <= 0.0) {
+        if (local_1d0 < local_228) {
+          iVar40 = (local_1d0 - (local_228 + -1) % local_1d0) + -1;
+        }
+      }
+      else {
+        iVar40 = (local_228 + -1) % local_1d0;
+      }
+      uVar54 = SUB84(local_1d8,0) & (uint)DAT_1802fd810;
+      uVar55 = (uint)((ulonglong)local_1d8 >> 0x20) & DAT_1802fd810._4_4_;
+      auVar21._4_4_ = uVar58;
+      auVar21._0_4_ = uVar57;
+      auVar21._8_4_ = uVar59;
+      if (local_228 < local_1d0) {
+        local_1d0 = local_228;
+      }
+      dVar53 = ((double)local_1e8._0_8_ * DAT_1802fa2f0) / DAT_1802fa2e8;
+      dStack_3a8 = (double)CONCAT44(uVar85,uVar84) - dVar53;
+      uStack_3d0 = CONCAT44((uint)((ulonglong)dVar53 >> 0x20) ^ DAT_1802fd1b0._4_4_,
+                            SUB84(dVar53,0) ^ (uint)DAT_1802fd1b0);
+      auVar19._4_4_ = uVar88;
+      auVar19._0_4_ = uVar87;
+      auVar19._8_4_ = uVar89;
+      dStack_3e0 = auVar19._4_8_ -
+                   (double)(local_1d0 + -1) *
+                   (((double)CONCAT44(uVar55,uVar54) * DAT_1802fa2f0) / DAT_1802fa2e8);
+      local_3c0._4_4_ = uVar57;
+      local_3c0._0_4_ = uVar56;
+      stack0xfffffffffffffc48 =
+           ((double)iVar40 * (double)CONCAT44(uVar55,uVar54) * DAT_1802fa2f0) / DAT_1802fa2e8 +
+           auVar21._4_8_;
+      local_3b0 = (double)CONCAT44(uVar61,uVar60);
+      local_408._4_4_ = uVar87;
+      local_408._0_4_ = uVar86;
+    }
+  }
+  else {
+    if (param_3 == 1) {
+LAB_18012e407:
+      *(undefined4 *)(param_1 + 8) = uVar72;
+      *(undefined4 *)(param_1 + 0xc) = uVar73;
+      *(undefined4 *)(param_1 + 0x10) = uVar74;
+      *(undefined4 *)(param_1 + 0x14) = uVar75;
+      *(undefined4 *)(param_1 + 0x18) = uVar76;
+      *(undefined4 *)(param_1 + 0x1c) = uVar77;
+      *(undefined4 *)(param_1 + 0x20) = uVar78;
+      *(undefined4 *)(param_1 + 0x24) = uVar79;
+      *(char *)(param_1 + 0x48) = (char)local_3f0;
+      *(undefined8 *)(param_1 + 0x28) = local_1f8._0_8_;
+      *(undefined8 *)(param_1 + 0x30) = local_1f8._8_8_;
+      *(undefined8 *)(param_1 + 0x38) = local_1e8._0_8_;
+      *(undefined8 *)(param_1 + 0x40) = local_1e8._8_8_;
+      return param_1;
+    }
+    if (param_3 == 2) {
+LAB_18012e3db:
+      *(undefined4 *)(param_1 + 8) = uVar68;
+      *(undefined4 *)(param_1 + 0xc) = uVar69;
+      *(undefined4 *)(param_1 + 0x10) = uVar70;
+      *(undefined4 *)(param_1 + 0x14) = uVar71;
+      *(undefined8 *)(param_1 + 0x18) = local_278._0_8_;
+      *(undefined8 *)(param_1 + 0x20) = stack0xfffffffffffffd90;
+      *(char *)(param_1 + 0x48) = (char)local_3f4;
+      *(undefined4 *)(param_1 + 0x28) = uVar80;
+      *(undefined4 *)(param_1 + 0x2c) = uVar81;
+      *(undefined4 *)(param_1 + 0x30) = uVar82;
+      *(undefined4 *)(param_1 + 0x34) = uVar83;
+      *(undefined8 *)(param_1 + 0x38) = local_168._0_8_;
+      *(double *)(param_1 + 0x40) = stack0xfffffffffffffea0;
+      return param_1;
+    }
+    if (param_3 == 3) {
+      pCVar38 = ArtDoc::Content::GetObjectWithID(param_2,local_330);
+      iVar40 = 0;
+      plVar39 = (longlong *)
+                __RTDynamicCast(pCVar38,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                                &DocumentMarks::GridInterface::RTTI_Type_Descriptor,0);
+      (**(code **)(*plVar39 + 8))(plVar39,&local_318);
+      if ((local_2d8._8_4_ != 2) || (local_2bc != '\0')) goto LAB_18012e407;
+      if (local_2c8 < 0.0) {
+        iVar40 = local_2c0;
+        if (iStack_314 < local_2c0) {
+          iVar40 = iStack_314;
+        }
+        iVar40 = iVar40 + -1;
+      }
+      auVar20._4_4_ = uVar78;
+      auVar20._0_4_ = uVar77;
+      auVar20._8_4_ = uVar79;
+      if (iStack_314 < local_2c0) {
+        local_2c0 = iStack_314;
+      }
+      dStack_3e0 = (stack0xfffffffffffffd20 * DAT_1802fa2f0) / DAT_1802fa2e8;
+      dStack_3a8 = ((double)iVar40 * local_2c8 * DAT_1802fa2f0) / DAT_1802fa2e8 +
+                   auVar20._4_8_ + (double)local_1e8._8_8_;
+      local_408._4_4_ = uVar77;
+      local_408._0_4_ = uVar76;
+      local_3b0 = (double)local_408._0_8_;
+      local_3c0._4_4_ = uVar73;
+      local_3c0._0_4_ = uVar72;
+      local_3c0._8_4_ = uVar74;
+      uStack_3b4 = uVar75;
+      dVar53 = (double)local_1e8._8_8_ -
+               (double)(local_2c0 + -1) *
+               (((double)CONCAT44((uint)((ulonglong)local_2c8 >> 0x20) & DAT_1802fd810._4_4_,
+                                  SUB84(local_2c8,0) & (uint)DAT_1802fd810) * DAT_1802fa2f0) /
+               DAT_1802fa2e8);
+      uStack_3d0 = CONCAT44((uint)((ulonglong)dVar53 >> 0x20) ^ DAT_1802fd1b0._4_4_,
+                            SUB84(dVar53,0) ^ (uint)DAT_1802fd1b0);
+      local_3d8 = (double)local_408._0_8_;
+      goto LAB_18012e29e;
+    }
+    pCVar38 = ArtDoc::Content::GetObjectWithID(param_2,local_338);
+    iVar40 = 0;
+    plVar39 = (longlong *)
+              __RTDynamicCast(pCVar38,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                              &DocumentMarks::GridInterface::RTTI_Type_Descriptor,0);
+    (**(code **)(*plVar39 + 8))(plVar39,&local_318);
+    if ((local_2d8._8_4_ != 2) || (local_2bc != '\0')) goto LAB_18012e3db;
+    if (local_2c8 <= 0.0) {
+      if (local_2c0 < iStack_314) {
+        iVar40 = (local_2c0 - (iStack_314 + -1) % local_2c0) + -1;
+      }
+    }
+    else {
+      iVar40 = (iStack_314 + -1) % local_2c0;
+    }
+    uVar54 = SUB84(local_2c8,0) & (uint)DAT_1802fd810;
+    uVar55 = (uint)((ulonglong)local_2c8 >> 0x20) & DAT_1802fd810._4_4_;
+    if (iStack_314 < local_2c0) {
+      local_2c0 = iStack_314;
+    }
+    auVar18._4_8_ = in_XMM3._8_8_;
+    auVar18._0_4_ = local_278._4_4_;
+    auVar52._0_8_ = auVar18._0_8_ << 0x20;
+    auVar52._8_4_ = local_278._8_4_;
+    auVar52._12_4_ = uStack_26c;
+    dStack_3e0 = (stack0xfffffffffffffd20 * DAT_1802fa2f0) / DAT_1802fa2e8;
+    dStack_3a8 = (auVar52._8_8_ + stack0xfffffffffffffea0) -
+                 ((double)iVar40 * (double)CONCAT44(uVar55,uVar54) * DAT_1802fa2f0) / DAT_1802fa2e8;
+    local_3b0 = local_278._0_8_;
+    local_408._0_8_ = local_3b0;
+    local_3c0._4_4_ = uVar69;
+    local_3c0._0_4_ = uVar68;
+    stack0xfffffffffffffc48 = (local_298 + local_288) - dStack_3e0;
+    dVar53 = stack0xfffffffffffffea0 -
+             (double)(local_2c0 + -1) *
+             (((double)CONCAT44(uVar55,uVar54) * DAT_1802fa2f0) / DAT_1802fa2e8);
+    uStack_3d0 = CONCAT44((uint)((ulonglong)dVar53 >> 0x20) ^ DAT_1802fd1b0._4_4_,
+                          SUB84(dVar53,0) ^ (uint)DAT_1802fd1b0);
+  }
+  local_3d8 = (double)local_408._0_8_;
+LAB_18012e29e:
+  local_3e8 = local_3d8;
+  FUN_1800d4250(param_1,local_3c0,&local_3e8);
+  return param_1;
+}
+
+

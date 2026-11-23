@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-21",
+  "sources": {
+    "modules": "docs/reverse-engineering/INVENTORY.md",
+    "features": "docs/features/*.md",
+    "functions": "rag/index/functions.jsonl"
+  },
+  "modules": {
+    "total": 289,
+    "by_status": {
+      "nao-tratado": 287,
+      "triado": 1,
+      "analisado": 0,
+      "comportamento": 0,
+      "spec": 1,
+      "arquitetado": 0,
+      "implementado": 0,
+      "testado": 0,
+      "auditado": 0
+    }
+  },
+  "features": {
+    "total": 7,
+    "by_status": {
+      "spec": 7,
+      "architecture": 0,
+      "implemented": 0,
+      "tested": 0,
+      "audited": 0
+    },
+    "ids": ["F-001", "F-002", "F-003", "F-004", "F-005", "F-006", "F-008"]
+  },
+  "features_notas": {
+    "F-001": "Trim Marks (Cut Mark) — spec reconciliada com a v24.03.10017: evidência estática v240 produzida (manifest + 37 .md, sha256 E47328BD...FA102), IDs v25 substituídos pelos equivalentes v240, regras R2/R3/R4/R7/R8/R10/R11 corrigidas (construtor não grava Orientation/Repetition/LineTypes; parser lê apenas Position/Reference/ReferenceID/Offset; geometria é Group por posição de dm::MarkPositionVector). Comportamento CAP-20261119-01 é histórico (v25) e está rotulado como não reconfirmado na v240. Lacuna declarada: contagem de posições e de caminhos por Group da geometria não medida. Laudo de auditoria anterior é anterior à reconciliação e será refeito.",
+    "F-002": "Mark Sets — reconciliada com a v24.03.10017. UI medida em CAP-20261121-03: não existe menu Marks nem o caminho 'Marks > Create > Mark Sets'; o acesso é painel Document > Marks > engrenagem (Load Mark Set..., Save/Delete Mark Set..., Update Marks, Create Mark from Selection, Add Mark, Delete Mark, Delete All Marks) e o botão + lista 7 Add … Mark. Diálogo Save/Delete Mark Set capturado (texto 'You are currently managing the local Mark Sets.', tabela Mark Sets, Name:, Save/Cancel); nada foi gravado. CAP-BLOCKED-20261121-01 superado e retirado do frontmatter. Estática: 7 funções v240 (ReadMarkSetFile 0x180248D30, ApplyMarksFromSet 0x180243EC0, CopyMarksToPageWithLog 0x180245380, PrepareMarksCachePage 0x180248720, ApplyMarkSetToPage 0x180014A00, ApplyMarkSet 0x1800147F0, CopyMarksToPage 0x1800426F0); os 4 IDs antigos eram do layout histórico. Clone: MarkSetProcessor compilado e sem UI; identifyRelevantSets() vazio (TODO F-002), marcas dinâmicas/relink não modeladas, sem undo.",
+    "F-003": "Bearer Bar Mark — confianca media: geometria fechada do PDF+ (0x180132A70 linhas 346..427) nao derivada; campos numericos nao expostos na UI observada",
+    "F-004": "Selection Mark — estática revalidada na v24.03.10017: 13 funções de PDFObjectActions.dll (sha256 8F6A23C1...F184D, 23.804 funções no Ghidra); pendência de endereços RESOLVIDA (deslocamento da versão histórica para v240 registrado em PDFObjectActions__identity.md §8; 10 IDs antigos provados como interior de nomes mangled e descartados). A UI (ícone, Ctrl+Shift+S, status 'Selection Mark ativo') não tem evidência v240: o DLL não contém essas strings e docs/behavior/SelectionMark.md é versão histórica sem CAP. CAP-20261120-01..06 removidos por não terem artefato.",
+    "F-005": "Open Document — spec reconciliada com a v24.03.10017: estática de Document.dll (14 funções Ghidra, sha256 DA91E285...FA9E21) e comportamento CAP-20261121-01 capturado na própria versão-alvo. Caminho de UI corrigido para File > Open... (não existe menu Documents); a abertura é um único comando com filtro All supported documents (*.pdf; *.pdpdla; *.ap; *.art) e despacho por MIME em DocumentIO::FileDispatcher::OpenFile (0x1802160B0, exceção código 7 quando não há handler); não há diálogo de importação. Lacunas declaradas: contagem de páginas não medida na captura, parse do PDF delegado a PDFOBJECTLAYER.DLL::GODocument e registro do handler application/pdf fora deste módulo. 0x180094F40 pertence a Document::Save (F-006), não à abertura.",
+    "F-006": "Save Document — confianca baixa: evidencia estatica de Document.dll (0x180099710) e NDLModel.dll (0x180021990); comportamental bloqueada (CAP-BLOCKED-006, GUI inativa, menu File sem resposta). UI/atalhos/library nao observados.",
+    "F-008": "Color Management/ICC — spec baseada em evidência estática de ColorManipulationLayer.dll (5 funções, 4 alta confiança, 1 média). Comportamental bloqueada por BLO-004 (GUI inativa, sem CAP-*). Dependências: mscms.dll + lcms.dll. Strings: ISO 12647-2, FOGRA53, Pantone."
+  },
+  "functions_indexed": 58,
+  "divergencias": [
+    "CAP-20261119-01 nao gerou PDF de saida (Save As falhou com 'O nome do arquivo nao e valido'); a persistencia de saida de F-001 permanece lacuna.",
+    "CAP-20261119-02 (F-003) nao gerou PDF de saida: tools/reference_capture/F-003/output/ esta vazio; as chaves Position/Offset/Extends da Bearer Bar so estao provadas por leitura de codigo, nao por arquivo gravado.",
+    "F-003: a escala de pixels da captura (zoom 97,52% => 3,686 px/mm) contradiz a largura medida da Media Box (580 px para 210 mm => 2,762 px/mm); nenhuma medida em mm derivada da captura deve ser tratada como validada.",
+    "CAP-BLOCKED-006: save com GUI inativa (menu File/atalhos nao responderam); captura CAP-20261121-01; spec F-006 em confianca baixa.",
+    "BLO-004: color management sem captura comportamental (GUI bloqueada); spec F-008 em confianca media; layout de diálogo, soft proof e exportação OutputIntent não capturados.",
+    "F-005: a triagem rag/evidence/F-005/rea/Document.dll.md registra sha256 0AA0311C...8160 e 4.447.272 bytes, divergentes do binario do manifest (DA91E285...FA9E21, 4.421.040 bytes); a triagem nao e usada como prova de funcao/endereco e precisa ser refeita sobre o binario v240 correto.",
+    "F-004: docs/reverse-engineering/PDFObjectActions_AUTO_TRIAGE.md esta rotulada como v240 mas descreve o binario da versao historica (8299560 bytes, 73ab2d7b...), enquanto o v240 real tem 8004528 bytes e 8F6A23C1...; nenhum endereco dela entra no manifest de F-004. A pasta rag/evidence/F-004/_quarantine_color/ guarda a evidencia antiga, que era do modulo ColorManipulationLayer."
+  ]
+}

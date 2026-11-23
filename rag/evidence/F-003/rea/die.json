@@ -1,0 +1,55 @@
+{
+    "detects": [
+        {
+            "filetype": "PE64",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "4841904",
+            "values": [
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker (14.38.33134)",
+                    "type": "linker",
+                    "version": "14.38.33134"
+                },
+                {
+                    "info": "C++",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++ (19.38.33134) [C++]",
+                    "type": "compiler",
+                    "version": "19.38.33134"
+                },
+                {
+                    "info": "dynamic",
+                    "name": "Microsoft C/C++ Runtime",
+                    "string": "Library: Microsoft C/C++ Runtime [dynamic]",
+                    "type": "library",
+                    "version": ""
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Visual Studio",
+                    "string": "Tool: Microsoft Visual Studio (2022, 17.8)",
+                    "type": "tool",
+                    "version": "2022, 17.8"
+                },
+                {
+                    "info": "PKCS #7",
+                    "name": "Windows Authenticode",
+                    "string": "Sign tool: Windows Authenticode (2.0) [PKCS #7]",
+                    "type": "sign tool",
+                    "version": "2.0"
+                },
+                {
+                    "info": "POGO",
+                    "name": "Records",
+                    "string": "Debug data: Records [POGO]",
+                    "type": "debug data",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+﻿{
+  "id": "CAP-20261121-03",
+  "feature": "F-002",
+  "funcionalidade": "Mark Set",
+  "versao_ref": "24.03.10017",
+  "data": "2026-11-21",
+  "veredito": "positivo",
+  "resumo": "Mark Set existe na v24.03.10017, acessivel pelo painel Document > Marks > botao de engrenagem. Itens literais: Load Mark Set..., Save/Delete Mark Set.... Dialogo 'Save/Delete Mark Set' aberto e capturado.",
+  "caminho_ui": "painel Document > Marks > [engrenagem] > Load Mark Set... | Save/Delete Mark Set...",
+  "rotulos_literais": {
+    "menu_engrenagem": [
+      "Load Mark Set...",
+      "Save/Delete Mark Set...",
+      "Update Marks",
+      "Create Mark from Selection",
+      "Add Mark",
+      "Load Custom Variables Database...",
+      "Delete Mark",
+      "Delete All Marks"
+    ],
+    "menu_mais": [
+      "Add Repeat for Grid Mark",
+      "Add Cut Mark",
+      "Add Bearer Bar Mark",
+      "Add Dimensions Mark",
+      "Add External File Mark",
+      "Add Position Mark",
+      "Add Input File Mark"
+    ],
+    "barra_menus": ["File", "Edit", "Object", "Select", "Prepress", "View", "Window", "Help"],
+    "dialogo_save_delete": {
+      "titulo": "Save/Delete Mark Set",
+      "texto": "You are currently managing the local Mark Sets.",
+      "tabela": "Mark Sets",
+      "vazio": "The list is empty.",
+      "campo": "Name:",
+      "botoes": ["Save", "Cancel"]
+    }
+  },
+  "entrada": {
+    "arquivo": "tools/reference_capture/F-002/input/test_vector.pdf",
+    "sha256": "ADFD91B4E95BCE3708DB37055885C355880068EE53A1472AB1DC82E0820640D7",
+    "sha256_pos_sessao": "ADFD91B4E95BCE3708DB37055885C355880068EE53A1472AB1DC82E0820640D7",
+    "bytes": 1868
+  },
+  "capturas": [
+    "shot-06-file-probe.png",
+    "shot-07-document-open.png",
+    "menu-1842.png",
+    "menu-1899.png",
+    "shot-08-save-delete-markset.png"
+  ],
+  "nao_medido": [
+    "texto do dialogo ArtPro+ License Info (nao apareceu na sessao)",
+    "dialogo de Load Mark Set...",
+    "menus Edit, Object, Select, Prepress, View, Window, Help",
+    "menu de contexto (canvas e objeto)",
+    "Ctrl+I (Inspector)",
+    "tooltips dos botoes da secao Marks (nao renderizaram)"
+  ],
+  "estado_final": {
+    "artpro_processos": 0,
+    "qtwebengine_processos": 0,
+    "arquivos_gravados": 0
+  }
+}
+

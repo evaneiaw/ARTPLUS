@@ -1,0 +1,519 @@
+requested=0x18016fa10
+resolvedAddress=18016fa10
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18016fa10 FUN_18016fa10
+status=OK
+entry=18016fa10
+name=FUN_18016fa10
+qualifiedName=FUN_18016fa10
+namespace=Global
+signature=undefined FUN_18016fa10()
+returnType=undefined
+parameterCount=0
+bodyMin=18016fa10
+bodyMax=18016ff8c
+bodySize=1403
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+1804884fc refType=DATA fromFunction=
+18016ba27 refType=UNCONDITIONAL_CALL fromFunction=1801683e0 FUN_1801683e0
+
+[CALLERS]
+1801683e0 FUN_1801683e0
+
+[CALLEES]
+EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180011420 FUN_180011420
+EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+EXTERNAL:000003a6 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+18017aac0 FUN_18017aac0
+18001e750 DocumentMarks::PDFPlusBearerBar::SetOffset
+EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+18012e790 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+EXTERNAL:0000041f PDFACCESSLAYER.DLL::GADict::GADict
+EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18017bac0 FUN_18017bac0
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1802cbfd0 __security_check_cookie
+EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+18004e3a0 FUN_18004e3a0
+EXTERNAL:000003fd PDFACCESSLAYER.DLL::GAObject::IsName
+18017a480 FUN_18017a480
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+EXTERNAL:00000421 PDFACCESSLAYER.DLL::GAArray::GetName
+180108450 DocumentMarks::MarkPosition::setAnchors
+EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+
+[DIRECT_CALL_TARGETS]
+18016fa53 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fa66 -> EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+18016fa77 -> EXTERNAL:0000041f PDFACCESSLAYER.DLL::GADict::GADict
+18016fa83 -> 18017bac0 FUN_18017bac0
+18016fa94 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016faa9 -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+18016fab3 -> 18017a480 FUN_18017a480
+18016fabf -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18016fad1 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fae6 -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+18016faf0 -> 18017a480 FUN_18017a480
+18016fafc -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18016fb0e -> 180108450 DocumentMarks::MarkPosition::setAnchors
+18016fb1f -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fb34 -> EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+18016fb3e -> EXTERNAL:000003fd PDFACCESSLAYER.DLL::GAObject::IsName
+18016fb4c -> EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+18016fb5b -> 18016fca5 FUN_18016fa10
+18016fb66 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fb7b -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+18016fb8e -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+18016fb96 -> 18016fc50 FUN_18016fa10
+18016fba8 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fbbd -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+18016fbcd -> EXTERNAL:000003a6 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+18016fbd7 -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18016fbeb -> 18004e3a0 FUN_18004e3a0
+18016fbf9 -> 18016fc2f FUN_18016fa10
+18016fc0c -> 18016fc2a FUN_18016fa10
+18016fc21 -> 18016fc2a FUN_18016fa10
+18016fc23 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18016fc2a -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18016fc48 -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18016fc4e -> 18016fca0 FUN_18016fa10
+18016fc5a -> 18017aac0 FUN_18017aac0
+18016fc66 -> 18012e790 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+18016fc75 -> 18016fca0 FUN_18016fa10
+18016fc7b -> 18016fca0 FUN_18016fa10
+18016fc81 -> 18016fca0 FUN_18016fa10
+18016fc87 -> 180011420 FUN_180011420
+18016fc90 -> 180011420 FUN_180011420
+18016fc9a -> 180011420 FUN_180011420
+18016fca0 -> 18016fe1c FUN_18016fa10
+18016fcaa -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fcbf -> EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+18016fcd1 -> EXTERNAL:00000421 PDFACCESSLAYER.DLL::GAArray::GetName
+18016fcdd -> EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+18016fcef -> EXTERNAL:00000434 PDFACCESSLAYER.DLL::GAName::operator==
+18016fcf7 -> 18016fdcc FUN_18016fa10
+18016fd08 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fd1c -> EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+18016fd2e -> EXTERNAL:00000421 PDFACCESSLAYER.DLL::GAArray::GetName
+18016fd3a -> EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+18016fd49 -> EXTERNAL:000003a6 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+18016fd53 -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18016fd67 -> 18004e3a0 FUN_18004e3a0
+18016fd75 -> 18016fdab FUN_18016fa10
+18016fd88 -> 18016fda6 FUN_18016fa10
+18016fd9d -> 18016fda6 FUN_18016fa10
+18016fd9f -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18016fda6 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18016fdc4 -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18016fdca -> 18016fe1c FUN_18016fa10
+18016fdd6 -> 18017aac0 FUN_18017aac0
+18016fde2 -> 18012e790 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+18016fdf1 -> 18016fe1c FUN_18016fa10
+18016fdf7 -> 18016fe1c FUN_18016fa10
+18016fdfd -> 18016fe1c FUN_18016fa10
+18016fe03 -> 180011420 FUN_180011420
+18016fe0c -> 180011420 FUN_180011420
+18016fe16 -> 180011420 FUN_180011420
+18016fe21 -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18016fe33 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fe43 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+18016fe4b -> 18016ff3e FUN_18016fa10
+18016fe5d -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+18016fe72 -> EXTERNAL:0000042b PDFACCESSLAYER.DLL::GADict::GetArray
+18016fe85 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+18016fe8f -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+18016fe9c -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+18016feb1 -> EXTERNAL:00000403 PDFACCESSLAYER.DLL::GAArray::GetNumber
+18016febb -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+18016fec8 -> 18016fed0 FUN_18016fa10
+18016feca -> 18016fed0 FUN_18016fa10
+18016fece -> 18016fed2 FUN_18016fa10
+18016fed6 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+18016fede -> 18016ff72 FUN_18016fa10
+18016fee6 -> EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+18016feef -> 18016ff08 FUN_18016fa10
+18016fef3 -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+18016fefc -> 18016ff08 FUN_18016fa10
+18016ff06 -> 18016ff10 FUN_18016fa10
+18016ff2c -> 18001e750 DocumentMarks::PDFPlusBearerBar::SetOffset
+18016ff37 -> EXTERNAL:00000405 PDFACCESSLAYER.DLL::GAArray::~GAArray
+18016ff43 -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+18016ff50 -> 1802cbfd0 __security_check_cookie
+18016ff88 -> 1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+
+[STRINGS_REFERENCED]
+1803126d0 "SourceAnchor"
+180312740 "Reference"
+180312788 "ObjectID"
+180312798 "ReferenceID"
+1803127a8 "ReferenceAnchor"
+1803127b8 "Offset"
+18031a378 "Position"
+18031ad78 "Vertical offset in bearer bar not supported."
+
+[DATA_XREFS_FROM_BODY]
+18016fa13 -> Stack[0x20] block=? sym=
+18016fa1a -> Stack[-0x58] block=? sym=
+18016fa25 -> Stack[-0x28] block=? sym=
+18016fa29 -> Stack[-0x38] block=? sym=
+18016fa2d -> 180409ec0 block=.data sym=DAT_180409ec0
+18016fa37 -> Stack[-0x40] block=? sym=
+18016fa47 -> 18031a378 block=.rdata sym=s_Position_18031a378
+18016fa4e -> Stack[-0x108] block=? sym=
+18016fa53 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fa59 -> Stack[-0x108] block=? sym=
+18016fa5e -> Stack[-0x128] block=? sym=
+18016fa66 -> 1802f3858 block=.rdata sym=PTR_GetDict_1802f3858
+18016fa6d -> Stack[-0x128] block=? sym=
+18016fa72 -> Stack[-0x130] block=? sym=
+18016fa77 -> 1802f37f0 block=.rdata sym=PTR_GADict_1802f37f0
+18016fa88 -> 1803126d0 block=.rdata sym=s_SourceAnchor_1803126d0
+18016fa8f -> Stack[-0x130] block=? sym=
+18016fa94 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fa9a -> Stack[-0x130] block=? sym=
+18016fa9f -> Stack[-0x138] block=? sym=
+18016faa4 -> Stack[-0x128] block=? sym=
+18016faa9 -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+18016faba -> Stack[-0x138] block=? sym=
+18016fabf -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18016fac5 -> 1803127a8 block=.rdata sym=s_ReferenceAnchor_1803127a8
+18016facc -> Stack[-0x130] block=? sym=
+18016fad1 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fad7 -> Stack[-0x130] block=? sym=
+18016fadc -> Stack[-0x138] block=? sym=
+18016fae1 -> Stack[-0x128] block=? sym=
+18016fae6 -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+18016faf7 -> Stack[-0x138] block=? sym=
+18016fafc -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18016fb13 -> 180312740 block=.rdata sym=s_Reference_180312740
+18016fb1a -> Stack[-0x130] block=? sym=
+18016fb1f -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fb25 -> Stack[-0x130] block=? sym=
+18016fb2a -> Stack[-0x138] block=? sym=
+18016fb2f -> Stack[-0x128] block=? sym=
+18016fb34 -> 1802f36b0 block=.rdata sym=PTR_Get_1802f36b0
+18016fb3e -> 1802f36e0 block=.rdata sym=PTR_IsName_1802f36e0
+18016fb47 -> Stack[-0x138] block=? sym=
+18016fb4c -> 1802f36c0 block=.rdata sym=PTR_~GAObject_1802f36c0
+18016fb52 -> 180312740 block=.rdata sym=s_Reference_180312740
+18016fb61 -> Stack[-0x118] block=? sym=
+18016fb66 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fb6c -> Stack[-0x118] block=? sym=
+18016fb71 -> Stack[-0x138] block=? sym=
+18016fb76 -> Stack[-0x128] block=? sym=
+18016fb7b -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+18016fb82 -> 180312788 block=.rdata sym=s_ObjectID_180312788
+18016fb89 -> Stack[-0x138] block=? sym=
+18016fb8e -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+18016fb9c -> 180312798 block=.rdata sym=s_ReferenceID_180312798
+18016fba3 -> Stack[-0x110] block=? sym=
+18016fba8 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fbae -> Stack[-0x110] block=? sym=
+18016fbb3 -> Stack[-0x130] block=? sym=
+18016fbb8 -> Stack[-0x128] block=? sym=
+18016fbbd -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+18016fbc4 -> Stack[-0x130] block=? sym=
+18016fbc9 -> Stack[-0x80] block=? sym=
+18016fbcd -> 1802f2908 block=.rdata sym=PTR_UTF8String_1802f2908
+18016fbd7 -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18016fbdd -> Stack[-0x80] block=? sym=
+18016fbe1 -> 180319968 block=.rdata sym=PTR_s_DocumentMarks_BearerBar_Referenc_180319968
+18016fbf1 -> Stack[-0x68] block=? sym=
+18016fbfe -> Stack[-0x80] block=? sym=
+18016fc23 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18016fc2f -> Stack[-0x70] block=? sym=
+18016fc37 -> Stack[-0x68] block=? sym=
+18016fc3f -> Stack[-0x80] block=? sym=
+18016fc43 -> Stack[-0x130] block=? sym=
+18016fc48 -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18016fc50 -> Stack[-0x138] block=? sym=
+18016fc55 -> Stack[-0x100] block=? sym=
+18016fc6c -> Stack[-0x88] block=? sym=
+18016fc83 -> Stack[-0xb0] block=? sym=
+18016fc8c -> Stack[-0xd8] block=? sym=
+18016fc95 -> Stack[-0x100] block=? sym=
+18016fca5 -> Stack[-0x110] block=? sym=
+18016fcaa -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fcb0 -> Stack[-0x110] block=? sym=
+18016fcb5 -> Stack[-0x118] block=? sym=
+18016fcba -> Stack[-0x128] block=? sym=
+18016fcbf -> 1802f3850 block=.rdata sym=PTR_GetArray_1802f3850
+18016fcc9 -> Stack[-0x138] block=? sym=
+18016fcd1 -> 1802f3800 block=.rdata sym=PTR_GetName_1802f3800
+18016fcd8 -> Stack[-0x118] block=? sym=
+18016fcdd -> 1802f3720 block=.rdata sym=PTR_~GAArray_1802f3720
+18016fce3 -> 180312788 block=.rdata sym=s_ObjectID_180312788
+18016fcea -> Stack[-0x138] block=? sym=
+18016fcef -> 1802f3898 block=.rdata sym=PTR_operator==_1802f3898
+18016fcfd -> 180312798 block=.rdata sym=s_ReferenceID_180312798
+18016fd04 -> Stack[-0x80] block=? sym=
+18016fd08 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fd0e -> Stack[-0x80] block=? sym=
+18016fd12 -> Stack[-0x120] block=? sym=
+18016fd17 -> Stack[-0x128] block=? sym=
+18016fd1c -> 1802f3850 block=.rdata sym=PTR_GetArray_1802f3850
+18016fd26 -> Stack[-0x130] block=? sym=
+18016fd2e -> 1802f3800 block=.rdata sym=PTR_GetName_1802f3800
+18016fd35 -> Stack[-0x120] block=? sym=
+18016fd3a -> 1802f3720 block=.rdata sym=PTR_~GAArray_1802f3720
+18016fd40 -> Stack[-0x130] block=? sym=
+18016fd45 -> Stack[-0x60] block=? sym=
+18016fd49 -> 1802f2908 block=.rdata sym=PTR_UTF8String_1802f2908
+18016fd53 -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18016fd59 -> Stack[-0x60] block=? sym=
+18016fd5d -> 180319968 block=.rdata sym=PTR_s_DocumentMarks_BearerBar_Referenc_180319968
+18016fd6d -> Stack[-0x48] block=? sym=
+18016fd7a -> Stack[-0x60] block=? sym=
+18016fd9f -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18016fdab -> Stack[-0x50] block=? sym=
+18016fdb3 -> Stack[-0x48] block=? sym=
+18016fdbb -> Stack[-0x60] block=? sym=
+18016fdbf -> Stack[-0x130] block=? sym=
+18016fdc4 -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18016fdcc -> Stack[-0x138] block=? sym=
+18016fdd1 -> Stack[-0x100] block=? sym=
+18016fde8 -> Stack[-0x88] block=? sym=
+18016fdff -> Stack[-0xb0] block=? sym=
+18016fe08 -> Stack[-0xd8] block=? sym=
+18016fe11 -> Stack[-0x100] block=? sym=
+18016fe1c -> Stack[-0x138] block=? sym=
+18016fe21 -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18016fe27 -> 1803127b8 block=.rdata sym=s_Offset_1803127b8
+18016fe2e -> Stack[-0x120] block=? sym=
+18016fe33 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fe39 -> Stack[-0x120] block=? sym=
+18016fe3e -> Stack[-0x128] block=? sym=
+18016fe43 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+18016fe51 -> 1803127b8 block=.rdata sym=s_Offset_1803127b8
+18016fe58 -> Stack[-0x120] block=? sym=
+18016fe5d -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18016fe63 -> Stack[-0x120] block=? sym=
+18016fe68 -> Stack[-0x138] block=? sym=
+18016fe6d -> Stack[-0x128] block=? sym=
+18016fe72 -> 1802f3850 block=.rdata sym=PTR_GetArray_1802f3850
+18016fe7c -> Stack[-0x80] block=? sym=
+18016fe80 -> Stack[-0x138] block=? sym=
+18016fe85 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+18016fe8f -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+18016fe98 -> Stack[-0x80] block=? sym=
+18016fe9c -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+18016fea8 -> Stack[-0x80] block=? sym=
+18016feac -> Stack[-0x138] block=? sym=
+18016feb1 -> 1802f3710 block=.rdata sym=PTR_GetNumber_1802f3710
+18016febb -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+18016fed2 -> Stack[-0x80] block=? sym=
+18016fed6 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+18016fee6 -> 1802f3c90 block=.rdata sym=PTR_ToHorizontal_1802f3c90
+18016fef3 -> 1802f3c88 block=.rdata sym=PTR_ToVertical_1802f3c88
+18016fefe -> 1802fb5a8 block=.rdata sym=DAT_1802fb5a8
+18016ff08 -> 1802fd198 block=.rdata sym=DAT_1802fd198
+18016ff18 -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+18016ff20 -> Stack[-0x78] block=? sym=
+18016ff25 -> Stack[-0x80] block=? sym=
+18016ff32 -> Stack[-0x138] block=? sym=
+18016ff37 -> 1802f3720 block=.rdata sym=PTR_~GAArray_1802f3720
+18016ff3e -> Stack[-0x128] block=? sym=
+18016ff43 -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+18016ff49 -> Stack[-0x40] block=? sym=
+18016ff55 -> Stack[-0x20] block=? sym=
+18016ff5d -> Stack[0x18] block=? sym=
+18016ff61 -> Stack[-0x30] block=? sym=
+18016ff66 -> Stack[-0x40] block=? sym=
+18016ff72 -> 18031ad78 block=.rdata sym=s_Vertical_offset_in_bearer_bar_no_18031ad78
+18016ff79 -> 18031ad78 block=.rdata sym=s_Vertical_offset_in_bearer_bar_no_18031ad78
+18016ff79 -> Stack[-0x80] block=? sym=
+18016ff7d -> 1803a9a10 block=.rdata sym=DAT_1803a9a10
+18016ff84 -> Stack[-0x80] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_18016fa10(GADict *param_1,ContentObject *param_2,undefined8 param_3,double param_4)
+
+{
+  void *pvVar1;
+  bool bVar2;
+  Anchor AVar3;
+  Anchor AVar4;
+  undefined8 uVar5;
+  GAObject *this;
+  Properties *pPVar6;
+  variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *pvVar7;
+  GAArray *pGVar8;
+  GANumber *pGVar9;
+  char *_Memory;
+  void *_Memory_00;
+  double dVar10;
+  double dVar11;
+  undefined1 auStack_158 [32];
+  GName local_138 [8];
+  GADict local_130 [8];
+  GName local_128 [8];
+  GName local_120 [8];
+  GName local_118 [8];
+  GName local_110 [8];
+  GName local_108 [8];
+  undefined1 local_100 [40];
+  undefined1 local_d8 [40];
+  undefined1 local_b0 [40];
+  char local_88;
+  char *local_80;
+  double local_78;
+  undefined8 local_70;
+  ulonglong local_68;
+  GAName local_60;
+  undefined7 uStack_5f;
+  undefined8 local_50;
+  ulonglong local_48;
+  ulonglong local_40;
+  
+  local_40 = DAT_180409ec0 ^ (ulonglong)auStack_158;
+  GName::GName(local_108,"Position");
+  GADict::GetDict(param_1,local_128);
+  uVar5 = GADict::GADict(local_130,(GADict *)local_128);
+  FUN_18017bac0(uVar5,param_3);
+  GName::GName((GName *)local_130,"SourceAnchor");
+  uVar5 = GADict::GetName((GADict *)local_128,local_138);
+  AVar3 = FUN_18017a480(uVar5);
+  GAName::~GAName((GAName *)local_138);
+  GName::GName((GName *)local_130,"ReferenceAnchor");
+  uVar5 = GADict::GetName((GADict *)local_128,local_138);
+  AVar4 = FUN_18017a480(uVar5);
+  GAName::~GAName((GAName *)local_138);
+  DocumentMarks::MarkPosition::setAnchors((MarkPosition *)(param_2 + 0x390),AVar3,AVar4);
+  GName::GName((GName *)local_130,"Reference");
+  this = (GAObject *)GADict::Get((GADict *)local_128,local_138);
+  bVar2 = GAObject::IsName(this);
+  GAObject::~GAObject((GAObject *)local_138);
+  if (bVar2) {
+    GName::GName(local_118,"Reference");
+    GADict::GetName((GADict *)local_128,local_138);
+    bVar2 = GAName::operator==((GAName *)local_138,"ObjectID");
+    if (bVar2) {
+      GName::GName(local_110,"ReferenceID");
+      GADict::GetName((GADict *)local_128,(GName *)local_130);
+      ArtDocGlue::PDFConverters::UTF8String((GAName *)&local_80);
+      pPVar6 = ArtDoc::ContentObject::GetProperties(param_2);
+      FUN_18004e3a0(pPVar6,&PTR_s_DocumentMarks_BearerBar_Referenc_180319968,&local_80);
+      if (0xf < local_68) {
+        _Memory = local_80;
+        if ((0xfff < local_68 + 1) &&
+           (_Memory = *(char **)(local_80 + -8), (char *)0x1f < local_80 + (-8 - (longlong)_Memory))
+           ) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(_Memory);
+      }
+      local_70 = 0;
+      local_68 = 0xf;
+      local_80 = (char *)((ulonglong)local_80 & 0xffffffffffffff00);
+      GAName::~GAName((GAName *)local_130);
+    }
+    else {
+      pvVar7 = (variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *)
+               FUN_18017aac0(local_100,local_138);
+      DocumentMarks::PDFPlusBearerBar::SetReferenceObject((PDFPlusBearerBar *)param_2,pvVar7);
+      if (((local_88 != -1) && (local_88 != '\0')) && (local_88 != '\x01')) {
+        FUN_180011420(local_b0);
+        FUN_180011420(local_d8);
+        FUN_180011420(local_100);
+      }
+    }
+  }
+  else {
+    GName::GName(local_110,"Reference");
+    pGVar8 = (GAArray *)GADict::GetArray((GADict *)local_128,local_118);
+    GAArray::GetName(pGVar8,(long)local_138);
+    GAArray::~GAArray((GAArray *)local_118);
+    bVar2 = GAName::operator==((GAName *)local_138,"ObjectID");
+    if (bVar2) {
+      GName::GName((GName *)&local_80,"ReferenceID");
+      pGVar8 = (GAArray *)GADict::GetArray((GADict *)local_128,local_120);
+      GAArray::GetName(pGVar8,(long)local_130);
+      GAArray::~GAArray((GAArray *)local_120);
+      ArtDocGlue::PDFConverters::UTF8String(&local_60);
+      pPVar6 = ArtDoc::ContentObject::GetProperties(param_2);
+      FUN_18004e3a0(pPVar6,&PTR_s_DocumentMarks_BearerBar_Referenc_180319968,&local_60);
+      if (0xf < local_48) {
+        pvVar1 = (void *)CONCAT71(uStack_5f,local_60);
+        _Memory_00 = pvVar1;
+        if ((0xfff < local_48 + 1) &&
+           (_Memory_00 = *(void **)((longlong)pvVar1 + -8),
+           0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)_Memory_00)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(_Memory_00);
+      }
+      local_50 = 0;
+      local_48 = 0xf;
+      local_60 = (GAName)0x0;
+      GAName::~GAName((GAName *)local_130);
+    }
+    else {
+      pvVar7 = (variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *)
+               FUN_18017aac0(local_100,local_138);
+      DocumentMarks::PDFPlusBearerBar::SetReferenceObject((PDFPlusBearerBar *)param_2,pvVar7);
+      if (((local_88 != -1) && (local_88 != '\0')) && (local_88 != '\x01')) {
+        FUN_180011420(local_b0);
+        FUN_180011420(local_d8);
+        FUN_180011420(local_100);
+      }
+    }
+  }
+  GAName::~GAName((GAName *)local_138);
+  GName::GName(local_120,"Offset");
+  bVar2 = GADict::Has((GADict *)local_128,local_120);
+  if (bVar2) {
+    GName::GName(local_120,"Offset");
+    GADict::GetArray((GADict *)local_128,local_138);
+    pGVar9 = (GANumber *)GAArray::GetNumber((GAArray *)local_138,(long)&local_80);
+    dVar10 = GANumber::Get(pGVar9);
+    GANumber::~GANumber((GANumber *)&local_80);
+    pGVar9 = (GANumber *)GAArray::GetNumber((GAArray *)local_138,(long)&local_80);
+    dVar11 = GANumber::Get(pGVar9);
+    GANumber::~GANumber((GANumber *)&local_80);
+    if (dVar11 != 0.0) {
+      local_80 = "Vertical offset in bearer bar not supported.";
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(&local_80,(ThrowInfo *)&DAT_1803a9a10);
+    }
+    AVar4 = YAGL::ToHorizontal(AVar3);
+    if ((AVar4 == 5) || (AVar3 = YAGL::ToVertical(AVar3), AVar3 == 7)) {
+      dVar11 = DAT_1802fd198;
+    }
+    else {
+      dVar11 = DAT_1802fb5a8;
+    }
+    local_78 = dVar11 * dVar10 * param_4 * DAT_1802fb5c8;
+    DocumentMarks::PDFPlusBearerBar::SetOffset
+              ((PDFPlusBearerBar *)param_2,
+               (CoordinateBase<YAGL::MilliPointCoordinateSystem> *)&local_80);
+    GAArray::~GAArray((GAArray *)local_138);
+  }
+  GADict::~GADict((GADict *)local_128);
+  return;
+}
+
+

@@ -1,0 +1,32 @@
+﻿HALT ATIVO ù gate bloqueia avanþo de funcionalidade (docs/agents/HALT.md).
+(verificaþÒo de etapa permitida; o avanþo continua bloqueado)
+========================================================================
+gate.py ù verificaþÒo factual do pipeline ArtPlus
+versÒo can¶nica: 24.03.10017
+========================================================================
+[GATE 0 versÒo] ok
+
+=== F-001 ===
+  estado comprovado: triado
+  [GATE 3 evidÛncia] REPROVADO
+      - manifest.json ausente
+  [GATE 2 spec] REPROVADO
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x18013A8B0
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x18013EE90
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x18013CB50
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x18017C5D0
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x180111410
+      - evidÛncia do frontmatter nÒo resolve: GHIDRA-DocumentMarks-0x180052CA0
+  [GATE 2 arquitetura] ok
+  [GATE 4 c¾digo] REPROVADO
+      - build.json (docs/testing/gates/build.json) Ú mais antigo que src/pdf/pdf_exporter.cpp (artefato precisa ser gerado depois do c¾digo)
+  [GATE 5 testes] REPROVADO
+      - F-001.test.json (docs/testing/gates/F-001.test.json) Ú mais antigo que src/pdf/pdf_exporter.cpp (artefato precisa ser gerado depois do c¾digo)
+  [GATE 6 auditoria] REPROVADO
+      - GATE code nÒo estß verde: build.json (docs/testing/gates/build.json) Ú mais antigo que src/pdf/pdf_exporter.cpp (artefato precisa ser gerado depois do c¾digo)
+      - GATE test nÒo estß verde: F-001.test.json (docs/testing/gates/F-001.test.json) Ú mais antigo que src/pdf/pdf_exporter.cpp (artefato precisa ser gerado depois do c¾digo)
+      - token impossÝvel: artefato ausente rag/evidence/F-001/manifest.json
+      - laudo Ú mais antigo que src/pdf/pdf_exporter.cpp (stale)
+
+HALT ATIVO: verificaþÒo registrada; avanþo de funcionalidade bloqueado.
+

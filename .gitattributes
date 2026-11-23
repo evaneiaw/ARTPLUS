@@ -1,0 +1,6 @@
+# EOL dos artefatos de gate: precisa reproduzir os bytes hasheados em build.json / F-00x.test.json.
+# Escopo restrito a docs/testing/gates/ para nao afetar outros JSON/XML do repositorio.
+docs/testing/gates/*.json text eol=lf
+docs/testing/gates/*.xml text eol=crlf
+docs/testing/gates/logs/build-*.log text eol=lf
+docs/testing/gates/logs/test-*.log text eol=lf

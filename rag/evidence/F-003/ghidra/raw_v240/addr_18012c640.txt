@@ -1,0 +1,171 @@
+requested=0x18012c640
+resolvedAddress=18012c640
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012c640 PDFPlusBearerBar
+status=OK
+entry=18012c640
+name=PDFPlusBearerBar
+qualifiedName=DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=undefined PDFPlusBearerBar(PDFPlusBearerBar * this, shared_ptr<ArtPaint::FormPaint_const_> param_1)
+returnType=undefined
+parameterCount=2
+bodyMin=18012c640
+bodyMax=18012c7fa
+bodySize=443
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aa3c0 refType=DATA fromFunction=
+1804863d8 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180165300 refType=UNCONDITIONAL_CALL fromFunction=1801652b0 FUN_1801652b0
+
+[CALLERS]
+1801652b0 FUN_1801652b0
+
+[CALLEES]
+180108450 DocumentMarks::MarkPosition::setAnchors
+180090ac0 FUN_180090ac0
+180024cf0 FUN_180024cf0
+1801089c0 DocumentMarks::MarkPosition::setReferenceObject
+18006bd80 DocumentMarks::DynamicMark::DynamicMark
+180020c10 FUN_180020c10
+180097950 DocumentMarks::DynamicObject::setColorType
+180093dd0 DocumentMarks::DynamicObject::SetTargetSeparations
+1801f7670 FUN_1801f7670
+180071b30 DocumentMarks::DynamicMark::SetSourceContent
+
+[DIRECT_CALL_TARGETS]
+18012c662 -> 18006bd80 DocumentMarks::DynamicMark::DynamicMark
+18012c6d3 -> 180024cf0 FUN_180024cf0
+18012c6e9 -> 18012c6ef DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c708 -> 180071b30 DocumentMarks::DynamicMark::SetSourceContent
+18012c717 -> 180097950 DocumentMarks::DynamicObject::setColorType
+18012c71c -> 1801f7670 FUN_1801f7670
+18012c756 -> 180090ac0 FUN_180090ac0
+18012c76f -> 180093dd0 DocumentMarks::DynamicObject::SetTargetSeparations
+18012c782 -> 18012c794 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c788 -> 18012c794 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c78f -> 180020c10 FUN_180020c10
+18012c79d -> 1801089c0 DocumentMarks::MarkPosition::setReferenceObject
+18012c7b2 -> 180108450 DocumentMarks::MarkPosition::setAnchors
+18012c7bf -> 18012c7ed DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c7d0 -> 18012c7ed DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c7e2 -> 18012c7ed DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012c640 -> Stack[0x10] block=? sym=
+18012c645 -> Stack[0x8] block=? sym=
+18012c668 -> 1803162b0 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18012c66f -> 1803162b0 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18012c672 -> 180316430 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Visitable'}
+18012c679 -> 180316430 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Visitable'}
+18012c6c9 -> 180027f50 block=.text sym=FUN_180027f50
+18012c6dc -> Stack[-0x98] block=? sym=
+18012c6f2 -> Stack[-0x98] block=? sym=
+18012c6fb -> Stack[-0x90] block=? sym=
+18012c700 -> Stack[-0x98] block=? sym=
+18012c721 -> Stack[-0x88] block=? sym=
+18012c726 -> Stack[0x20] block=? sym=
+18012c72e -> Stack[-0x28] block=? sym=
+18012c736 -> Stack[-0x88] block=? sym=
+18012c73b -> Stack[0x18] block=? sym=
+18012c74e -> Stack[0x18] block=? sym=
+18012c75c -> Stack[-0x20] block=? sym=
+18012c767 -> Stack[-0x88] block=? sym=
+18012c775 -> Stack[-0x20] block=? sym=
+18012c78a -> Stack[-0x88] block=? sym=
+
+[DECOMPILE]
+
+/* public: __cdecl DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar(class std::shared_ptr<class
+   ArtPaint::FormPaint const >) __ptr64 */
+
+PDFPlusBearerBar * __thiscall
+DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar(PDFPlusBearerBar *this,undefined8 *param_2)
+
+{
+  int *piVar1;
+  longlong *plVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  variant<std::variant<DocumentMarks::DynamicColorTopFilter,ArtDoc::ProcessingSteps::Key,std::variant<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::Separation::PredefinedPrintingMethod>,DocumentMarks::ColorantNameFilter,DocumentMarks::VariableColorantNameFilter,DocumentMarks::ProcessFilter,DocumentMarks::IndexFilter,DocumentMarks::LogicalFilter,DocumentMarks::ConditionalFilter>,DocumentMarks::UsePrintingUnits>
+  *local_res18;
+  variant<std::variant<DocumentMarks::DynamicColorTopFilter,ArtDoc::ProcessingSteps::Key,std::variant<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::Separation::PredefinedPrintingMethod>,DocumentMarks::ColorantNameFilter,DocumentMarks::VariableColorantNameFilter,DocumentMarks::ProcessFilter,DocumentMarks::IndexFilter,DocumentMarks::LogicalFilter,DocumentMarks::ConditionalFilter>,DocumentMarks::UsePrintingUnits>
+  *local_res20;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  variant<std::variant<DocumentMarks::DynamicColorTopFilter,ArtDoc::ProcessingSteps::Key,std::variant<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::Separation::PredefinedPrintingMethod>,DocumentMarks::ColorantNameFilter,DocumentMarks::VariableColorantNameFilter,DocumentMarks::ProcessFilter,DocumentMarks::IndexFilter,DocumentMarks::LogicalFilter,DocumentMarks::ConditionalFilter>,DocumentMarks::UsePrintingUnits>
+  local_88 [96];
+  undefined1 local_28;
+  char local_20;
+  
+                    /* 0x12c640  219
+                       ??0PDFPlusBearerBar@DocumentMarks@@QEAA@V?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+                        */
+  DynamicMark::DynamicMark((DynamicMark *)this,false,0x1ce);
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  *(undefined8 *)(this + 0x758) = 0;
+  *(undefined8 *)(this + 0x768) = 0;
+  *(undefined4 *)(this + 0x770) = 1;
+  *(undefined4 *)(this + 0x778) = 3;
+  this[0x7f0] = (PDFPlusBearerBar)0x0;
+  *(undefined4 *)(this + 0x7f8) = 0;
+  *(undefined8 *)(this + 0x800) = 0;
+  *(undefined8 *)(this + 0x808) = 0;
+  *(undefined8 *)(this + 0x810) = 0;
+  FUN_180024cf0(this + 0x818,4);
+  if (param_2[1] != 0) {
+    LOCK();
+    piVar1 = (int *)(param_2[1] + 8);
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+  }
+  local_98 = *param_2;
+  uStack_90 = param_2[1];
+  DynamicMark::SetSourceContent((DynamicMark *)this,&local_98);
+  DynamicObject::setColorType((DynamicObject *)this,5,0);
+  lVar5 = FUN_1801f7670();
+  local_res20 = local_88;
+  local_28 = 0xff;
+  local_res18 = local_88;
+  FUN_180090ac0((longlong)*(char *)(lVar5 + 0x60) + 1,&local_res18);
+  local_20 = '\0';
+  DynamicObject::SetTargetSeparations((DynamicObject *)this,local_88,0);
+  if ((local_20 != -1) && (local_20 == '\0')) {
+    FUN_180020c10(local_88);
+  }
+  MarkPosition::setReferenceObject((MarkPosition *)(this + 0x390),0);
+  MarkPosition::setAnchors((MarkPosition *)(this + 0x390),5,3);
+  plVar4 = (longlong *)param_2[1];
+  if (plVar4 != (longlong *)0x0) {
+    LOCK();
+    plVar2 = plVar4 + 1;
+    lVar5 = *plVar2;
+    *(int *)plVar2 = (int)*plVar2 + -1;
+    UNLOCK();
+    if ((int)lVar5 == 1) {
+      (**(code **)*plVar4)(plVar4);
+      LOCK();
+      piVar1 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar1;
+      *piVar1 = *piVar1 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  return this;
+}
+
+

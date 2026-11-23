@@ -1,0 +1,325 @@
+requested=0x18001d0e0
+resolvedAddress=18001d0e0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001d0e0 DumpInfo
+status=OK
+entry=18001d0e0
+name=DumpInfo
+qualifiedName=DocumentMarks::BearerBar::DumpInfo
+namespace=DocumentMarks::BearerBar
+signature=pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_> DumpInfo(BearerBar * this)
+returnType=pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>
+parameterCount=1
+bodyMin=18001d0e0
+bodyMax=18001d44b
+bodySize=876
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aaf98 refType=DATA fromFunction=
+18047b3a4 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1802f9f70 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+180093080 DocumentMarks::DynamicObject::DumpInfo
+18001e780 FUN_18001e780
+180019740 FUN_180019740
+EXTERNAL:00000528 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+1802cbfd0 __security_check_cookie
+EXTERNAL:00000545 MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::basic_streambuf<char,std::char_traits<char>_>
+EXTERNAL:00000525 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::~basic_ostream<char,std::char_traits<char>_>
+180019300 FUN_180019300
+EXTERNAL:00000526 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::basic_ostream<char,std::char_traits<char>_>
+18001d600 FUN_18001d600
+EXTERNAL:00000527 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>
+EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18000f510 FUN_18000f510
+EXTERNAL:00000544 MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+18001ba40 FUN_18001ba40
+18001c460 FUN_18001c460
+
+[DIRECT_CALL_TARGETS]
+18001d134 -> 180093080 DocumentMarks::DynamicObject::DumpInfo
+18001d14a -> EXTERNAL:00000527 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>
+18001d169 -> EXTERNAL:00000526 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::basic_ostream<char,std::char_traits<char>_>
+18001d19d -> EXTERNAL:00000545 MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::basic_streambuf<char,std::char_traits<char>_>
+18001d1e4 -> 180019300 FUN_180019300
+18001d1f5 -> 180019300 FUN_180019300
+18001d214 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001d224 -> 180019300 FUN_180019300
+18001d235 -> 180019300 FUN_180019300
+18001d258 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001d268 -> 180019300 FUN_180019300
+18001d279 -> 180019300 FUN_180019300
+18001d29c -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001d2ac -> 180019300 FUN_180019300
+18001d309 -> 180019300 FUN_180019300
+18001d314 -> 180019300 FUN_180019300
+18001d31f -> 180019300 FUN_180019300
+18001d32a -> 180019300 FUN_180019300
+18001d335 -> 180019300 FUN_180019300
+18001d344 -> 180019300 FUN_180019300
+18001d350 -> 18001ba40 FUN_18001ba40
+18001d36c -> 180019740 FUN_180019740
+18001d37a -> 18001e780 FUN_18001e780
+18001d387 -> 18000f510 FUN_18000f510
+18001d3e1 -> 18001d600 FUN_18001d600
+18001d3eb -> EXTERNAL:00000544 MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+18001d3f6 -> EXTERNAL:00000525 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::~basic_ostream<char,std::char_traits<char>_>
+18001d400 -> EXTERNAL:00000528 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+18001d40b -> 18001c460 FUN_18001c460
+18001d41d -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+1802f9df8 "Dynamic Barcode Mark: Empty code"
+1802fa240 "BearerBar("
+1802fa250 "width="
+1802fa258 ", extend="
+1802fa268 ", offset="
+1802fa288 ", location="
+
+[DATA_XREFS_FROM_BODY]
+18001d0e3 -> Stack[0x18] block=? sym=
+18001d0f2 -> Stack[-0xf8] block=? sym=
+18001d100 -> Stack[-0x48] block=? sym=
+18001d104 -> Stack[-0x58] block=? sym=
+18001d109 -> Stack[-0x68] block=? sym=
+18001d10e -> 180409ec0 block=.data sym=DAT_180409ec0
+18001d118 -> Stack[-0x78] block=? sym=
+18001d125 -> Stack[-0x1d0] block=? sym=
+18001d12c -> Stack[-0x1d8] block=? sym=
+18001d130 -> Stack[-0xb8] block=? sym=
+18001d13a -> 1802f9f38 block=.rdata sym=DAT_1802f9f38
+18001d141 -> 1802f9f38 block=.rdata sym=DAT_1802f9f38
+18001d141 -> Stack[-0x1c8] block=? sym=
+18001d146 -> Stack[-0x140] block=? sym=
+18001d14a -> 1802f3360 block=.rdata sym=PTR_basic_ios<char,std::char_traits<char>_>_1802f3360
+18001d151 -> Stack[-0x1d8] block=? sym=
+18001d15f -> Stack[-0x1c0] block=? sym=
+18001d164 -> Stack[-0x1c8] block=? sym=
+18001d169 -> 1802f3358 block=.rdata sym=PTR_basic_ostream<char,std::char_traits<char>_>_1802f3358
+18001d170 -> Stack[-0x1c8] block=? sym=
+18001d175 -> 1802f9f3c block=.rdata sym=DAT_1802f9f3c
+18001d179 -> 1802f9f30 block=.rdata sym=std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d180 -> 1802f9f30 block=.rdata sym=std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d185 -> Stack[-0x1c8] block=? sym=
+18001d18a -> 1802f9f3c block=.rdata sym=DAT_1802f9f3c
+18001d198 -> Stack[-0x1c0] block=? sym=
+18001d19d -> 1802f3450 block=.rdata sym=PTR_basic_streambuf<char,std::char_traits<char>_>_1802f3450
+18001d1a3 -> 1802f9eb0 block=.rdata sym=std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d1aa -> 1802f9eb0 block=.rdata sym=std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d1aa -> Stack[-0x1c0] block=? sym=
+18001d1af -> Stack[-0x158] block=? sym=
+18001d1b3 -> Stack[-0x150] block=? sym=
+18001d1d8 -> 1802fa240 block=.rdata sym=s_BearerBar(_1802fa240
+18001d1df -> Stack[-0x1c8] block=? sym=
+18001d1e9 -> 1802fa250 block=.rdata sym=s_width=_1802fa250
+18001d1f0 -> Stack[-0x1c8] block=? sym=
+18001d1fe -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18001d206 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18001d214 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001d21d -> 1802fa24c block=.rdata sym=DAT_1802fa24c
+18001d229 -> 1802fa258 block=.rdata sym=s_,_extend=_1802fa258
+18001d230 -> Stack[-0x1c8] block=? sym=
+18001d23f -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18001d248 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18001d258 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001d261 -> 1802fa24c block=.rdata sym=DAT_1802fa24c
+18001d26d -> 1802fa268 block=.rdata sym=s_,_offset=_1802fa268
+18001d274 -> Stack[-0x1c8] block=? sym=
+18001d283 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18001d28c -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18001d29c -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001d2a5 -> 1802fa24c block=.rdata sym=DAT_1802fa24c
+18001d2b5 -> 1802fa274 block=.rdata sym=DAT_1802fa274
+18001d2bc -> 1802f9ea0 block=.rdata sym=DAT_1802f9ea0
+18001d2ce -> 1802fa278 block=.rdata sym=DAT_1802fa278
+18001d2e0 -> 1802fa27c block=.rdata sym=DAT_1802fa27c
+18001d2f2 -> 1802fa280 block=.rdata sym=DAT_1802fa280
+18001d2fd -> 1802fa288 block=.rdata sym=s_,_location=_1802fa288
+18001d304 -> Stack[-0x1c8] block=? sym=
+18001d311 -> 1802fa280 block=.rdata sym=DAT_1802fa280
+18001d31c -> 1802fa27c block=.rdata sym=DAT_1802fa27c
+18001d327 -> 1802fa278 block=.rdata sym=DAT_1802fa278
+18001d332 -> 1802fa274 block=.rdata sym=DAT_1802fa274
+18001d33d -> 1802f9ea4 block=.rdata sym=DAT_1802f9ea4
+18001d349 -> 1802f9e0a block=.rdata sym=s_rk:_Empty_code_1802f9df8+0x12
+18001d34b -> Stack[-0x1c8] block=? sym=
+18001d355 -> Stack[-0x98] block=? sym=
+18001d359 -> Stack[-0x80] block=? sym=
+18001d35e -> Stack[-0x98] block=? sym=
+18001d363 -> Stack[-0x88] block=? sym=
+18001d367 -> Stack[-0x1c8] block=? sym=
+18001d371 -> Stack[-0xd8] block=? sym=
+18001d375 -> Stack[-0x1c0] block=? sym=
+18001d380 -> Stack[-0xb8] block=? sym=
+18001d38c -> Stack[-0xd8] block=? sym=
+18001d395 -> Stack[-0xc8] block=? sym=
+18001d39e -> 1802f9a10 block=.rdata sym=DAT_1802f9a10
+18001d3a6 -> Stack[-0xc8] block=? sym=
+18001d3ab -> Stack[-0xd8] block=? sym=
+18001d3af -> Stack[-0x1c8] block=? sym=
+18001d3b4 -> 1802f9f3c block=.rdata sym=DAT_1802f9f3c
+18001d3b8 -> 1802f9f30 block=.rdata sym=std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d3bf -> 1802f9f30 block=.rdata sym=std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d3c4 -> Stack[-0x1c8] block=? sym=
+18001d3c9 -> 1802f9f3c block=.rdata sym=DAT_1802f9f3c
+18001d3d7 -> 1802f9eb0 block=.rdata sym=std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable
+18001d3d7 -> Stack[-0x1c0] block=? sym=
+18001d3dc -> Stack[-0x1c0] block=? sym=
+18001d3e6 -> Stack[-0x1c0] block=? sym=
+18001d3eb -> 1802f3448 block=.rdata sym=PTR_~basic_streambuf<char,std::char_traits<char>_>_1802f3448
+18001d3f1 -> Stack[-0x1b8] block=? sym=
+18001d3f6 -> 1802f3350 block=.rdata sym=PTR_~basic_ostream<char,std::char_traits<char>_>_1802f3350
+18001d3fc -> Stack[-0x140] block=? sym=
+18001d400 -> 1802f3368 block=.rdata sym=PTR_~basic_ios<char,std::char_traits<char>_>_1802f3368
+18001d407 -> Stack[-0xb8] block=? sym=
+18001d413 -> Stack[-0x78] block=? sym=
+18001d422 -> Stack[-0x40] block=? sym=
+18001d42a -> Stack[0x10] block=? sym=
+18001d42e -> Stack[-0x50] block=? sym=
+18001d433 -> Stack[-0x60] block=? sym=
+18001d438 -> Stack[-0x70] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class
+   std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class
+   std::allocator<char> > > __cdecl DocumentMarks::BearerBar::DumpInfo(void)const __ptr64 */
+
+void __thiscall DocumentMarks::BearerBar::DumpInfo(BearerBar *this)
+
+{
+  uint uVar1;
+  double dVar2;
+  double dVar3;
+  double dVar4;
+  basic_ostream<char,std::char_traits<char>_> *pbVar5;
+  basic_ostream<char,struct_std::char_traits<char>_> *pbVar6;
+  undefined8 uVar7;
+  longlong in_RDX;
+  undefined8 ****ppppuVar8;
+  undefined1 *puVar9;
+  undefined1 *puVar10;
+  undefined1 *puVar11;
+  undefined1 *puVar12;
+  undefined1 auStack_1f8 [32];
+  undefined4 local_1d8;
+  basic_ostream<char,std::char_traits<char>_> abStack_1cc [4];
+  undefined *local_1c8;
+  undefined **local_1c0;
+  basic_ostream<char,std::char_traits<char>_> local_1b8 [96];
+  undefined8 local_158;
+  undefined4 local_150;
+  basic_ios<char,std::char_traits<char>_> local_140 [104];
+  undefined1 local_d8;
+  undefined7 uStack_d7;
+  undefined8 uStack_d0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  undefined1 local_b8 [32];
+  undefined8 ****local_98 [2];
+  undefined8 local_88;
+  ulonglong local_80;
+  ulonglong local_78;
+  
+                    /* 0x1d0e0  977
+                       ?DumpInfo@BearerBar@DocumentMarks@@UEBA?AU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@XZ
+                        */
+  local_78 = DAT_180409ec0 ^ (ulonglong)auStack_1f8;
+  local_1d8 = 0;
+  DynamicObject::DumpInfo((DynamicObject *)this);
+  local_1c8 = &DAT_1802f9f38;
+  std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>(local_140);
+  local_1d8 = 2;
+  std::basic_ostream<char,std::char_traits<char>_>::basic_ostream<char,std::char_traits<char>_>
+            ((basic_ostream<char,std::char_traits<char>_> *)&local_1c8,
+             (basic_streambuf<char,std::char_traits<char>_> *)&local_1c0,false);
+  *(undefined ***)(local_1b8 + (longlong)*(int *)(local_1c8 + 4) + -0x10) =
+       std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  *(int *)(local_1b8 + (longlong)*(int *)(local_1c8 + 4) + -0x14) = *(int *)(local_1c8 + 4) + -0x88;
+  std::basic_streambuf<char,std::char_traits<char>_>::basic_streambuf<char,std::char_traits<char>_>
+            ((basic_streambuf<char,std::char_traits<char>_> *)&local_1c0);
+  local_1c0 = std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  local_158 = 0;
+  local_150 = 4;
+  dVar2 = *(double *)(this + 0x758);
+  dVar3 = *(double *)(this + 0x768);
+  dVar4 = *(double *)(this + 0x778);
+  uVar1 = *(uint *)(this + 0x780);
+  FUN_180019300(&local_1c8,"BearerBar(");
+  pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(&local_1c8,"width=");
+  pbVar6 = std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                     (pbVar5,(dVar2 * DAT_1802fa2e8) / DAT_1802fa2f0);
+  FUN_180019300(pbVar6,&DAT_1802fa24c);
+  pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(&local_1c8,", extend=");
+  pbVar6 = std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                     (pbVar5,(dVar3 * DAT_1802fa2e8) / DAT_1802fa2f0);
+  FUN_180019300(pbVar6,&DAT_1802fa24c);
+  pbVar5 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(&local_1c8,", offset=");
+  pbVar6 = std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                     (pbVar5,(dVar4 * DAT_1802fa2e8) / DAT_1802fa2f0);
+  FUN_180019300(pbVar6,&DAT_1802fa24c);
+  puVar10 = &DAT_1802f9ea0;
+  puVar12 = &DAT_1802f9ea0;
+  if ((uVar1 & 8) != 0) {
+    puVar12 = &DAT_1802fa274;
+  }
+  puVar11 = &DAT_1802f9ea0;
+  if ((uVar1 & 4) != 0) {
+    puVar11 = &DAT_1802fa278;
+  }
+  puVar9 = &DAT_1802f9ea0;
+  if ((uVar1 & 2) != 0) {
+    puVar9 = &DAT_1802fa27c;
+  }
+  if ((uVar1 & 1) != 0) {
+    puVar10 = &DAT_1802fa280;
+  }
+  uVar7 = FUN_180019300(&local_1c8,", location=");
+  uVar7 = FUN_180019300(uVar7,puVar10);
+  uVar7 = FUN_180019300(uVar7,puVar9);
+  uVar7 = FUN_180019300(uVar7,puVar11);
+  uVar7 = FUN_180019300(uVar7,puVar12);
+  FUN_180019300(uVar7,&DAT_1802f9ea4);
+  FUN_18001ba40(&local_1c8,10);
+  ppppuVar8 = local_98;
+  if (0xf < local_80) {
+    ppppuVar8 = local_98[0];
+  }
+  FUN_180019740(&local_1c8,ppppuVar8,local_88);
+  uVar7 = FUN_18001e780(&local_1c0,&local_d8);
+  FUN_18000f510(uVar7,local_b8);
+  *(ulonglong *)(in_RDX + 0x20) = CONCAT71(uStack_d7,local_d8);
+  *(undefined8 *)(in_RDX + 0x28) = uStack_d0;
+  *(undefined4 *)(in_RDX + 0x30) = (undefined4)local_c8;
+  *(undefined4 *)(in_RDX + 0x34) = local_c8._4_4_;
+  *(undefined4 *)(in_RDX + 0x38) = (undefined4)uStack_c0;
+  *(undefined4 *)(in_RDX + 0x3c) = uStack_c0._4_4_;
+  local_c8 = _DAT_1802f9a10;
+  uStack_c0 = _UNK_1802f9a18;
+  local_d8 = 0;
+  *(undefined ***)(local_1b8 + (longlong)*(int *)(local_1c8 + 4) + -0x10) =
+       std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  *(int *)(local_1b8 + (longlong)*(int *)(local_1c8 + 4) + -0x14) = *(int *)(local_1c8 + 4) + -0x88;
+  local_1c0 = std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char>_>::vftable;
+  FUN_18001d600(&local_1c0);
+  std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+            ((basic_streambuf<char,std::char_traits<char>_> *)&local_1c0);
+  std::basic_ostream<char,std::char_traits<char>_>::~basic_ostream<char,std::char_traits<char>_>
+            (local_1b8);
+  std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>(local_140);
+  FUN_18001c460(local_b8);
+  return;
+}
+
+

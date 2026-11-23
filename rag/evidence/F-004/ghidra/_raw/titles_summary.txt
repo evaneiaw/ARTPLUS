@@ -1,0 +1,195 @@
+﻿# PDFObjectActions__1800945e0.titles.txt
+address: 1800945e0
+name: GOVChangeFlipSelection::GetDescription
+signature: void __thiscall GetDescription(GString * param_1)
+body_bytes: 52
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeFlipSelection::GetDescription(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall
+GOVChangeFlipSelection::GetDescription(GOVChangeFlipSelection *this,GString *param_1)
+# PDFObjectActions__180094620.titles.txt
+address: 180094620
+name: GOVChangeFlipSelection::GetTitle
+signature: void __thiscall GetTitle(GString * param_1)
+body_bytes: 38
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeFlipSelection::GetTitle(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall GOVChangeFlipSelection::GetTitle(GOVChangeFlipSelection *this,GString *param_1)
+
+# PDFObjectActions__1800947f0.titles.txt
+address: 1800947f0
+name: GOVChangeFlipSelection::LogConfiguration
+signature: void __thiscall LogConfiguration(void)
+body_bytes: 26
+[string_refs]
+[decompiled]
+
+/* protected: virtual void __cdecl GOVChangeFlipSelection::LogConfiguration(void)const __ptr64 */
+
+void __thiscall GOVChangeFlipSelection::LogConfiguration(GOVChangeFlipSelection *this)
+
+{
+# PDFObjectActions__1800f4740.titles.txt
+address: 1800f4740
+name: GOVChangeRasterizeSelection::GetDescription
+signature: void __thiscall GetDescription(GString * param_1)
+body_bytes: 228
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeRasterizeSelection::GetDescription(class GString &
+   __ptr64)const __ptr64 */
+
+void __thiscall
+GOVChangeRasterizeSelection::GetDescription(GOVChangeRasterizeSelection *this,GString *param_1)
+# PDFObjectActions__1800f4a00.titles.txt
+address: 1800f4a00
+name: GOVChangeRasterizeSelection::GetTitle
+signature: void __thiscall GetTitle(GString * param_1)
+body_bytes: 38
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeRasterizeSelection::GetTitle(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall
+GOVChangeRasterizeSelection::GetTitle(GOVChangeRasterizeSelection *this,GString *param_1)
+# PDFObjectActions__1800f5570.titles.txt
+address: 1800f5570
+name: GOVChangeRasterizeSelection::LogConfiguration
+signature: void __thiscall LogConfiguration(void)
+body_bytes: 1152
+[string_refs]
+[decompiled]
+
+/* protected: virtual void __cdecl GOVChangeRasterizeSelection::LogConfiguration(void)const __ptr64
+    */
+
+void __thiscall GOVChangeRasterizeSelection::LogConfiguration(GOVChangeRasterizeSelection *this)
+
+# PDFObjectActions__1801307d0.titles.txt
+address: 1801307d0
+name: GOVChangeRotateSelection::GetDescription
+signature: void __thiscall GetDescription(GString * param_1)
+body_bytes: 38
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeRotateSelection::GetDescription(class GString &
+   __ptr64)const __ptr64 */
+
+void __thiscall
+GOVChangeRotateSelection::GetDescription(GOVChangeRotateSelection *this,GString *param_1)
+# PDFObjectActions__180130a90.titles.txt
+address: 180130a90
+name: GOVChangeRotateSelection::LogConfiguration
+signature: void __thiscall LogConfiguration(void)
+body_bytes: 693
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeRotateSelection::LogConfiguration(void)const __ptr64 */
+
+void __thiscall GOVChangeRotateSelection::LogConfiguration(GOVChangeRotateSelection *this)
+
+{
+# PDFObjectActions__180133940.titles.txt
+address: 180133940
+name: GOVChangeScaleSelection::GetTitle
+signature: void __thiscall GetTitle(GString * param_1)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* protected: virtual void __cdecl GOVChangeScaleSelection::GetTitle(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall GOVChangeScaleSelection::GetTitle(GOVChangeScaleSelection *this,GString *param_1)
+
+# PDFObjectActions__180133ea0.titles.txt
+address: 180133ea0
+name: GOVChangeScaleSelection::LogConfiguration
+signature: void __thiscall LogConfiguration(void)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* protected: virtual void __cdecl GOVChangeScaleSelection::LogConfiguration(void)const __ptr64 */
+
+void __thiscall GOVChangeScaleSelection::LogConfiguration(GOVChangeScaleSelection *this)
+
+{
+# PDFObjectActions__180135e20.titles.txt
+address: 180135e20
+name: GOVChangeSelectionToForm::GetDescription
+signature: void __thiscall GetDescription(GString * param_1)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeSelectionToForm::GetDescription(class GString &
+   __ptr64)const __ptr64 */
+
+void __thiscall
+GOVChangeSelectionToForm::GetDescription(GOVChangeSelectionToForm *this,GString *param_1)
+# PDFObjectActions__180135e60.titles.txt
+address: 180135e60
+name: GOVChangeSelectionToForm::LogConfiguration
+signature: void __thiscall LogConfiguration(void)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVChangeSelectionToForm::LogConfiguration(void)const __ptr64 */
+
+void __thiscall GOVChangeSelectionToForm::LogConfiguration(GOVChangeSelectionToForm *this)
+
+{
+# PDFObjectActions__18022c490.titles.txt
+address: 18022c490
+name: GOVCloneSelection::GetTitle
+signature: void __thiscall GetTitle(GString * param_1)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVCloneSelection::GetTitle(class GString & __ptr64)const __ptr64 */
+
+void __thiscall GOVCloneSelection::GetTitle(GOVCloneSelection *this,GString *param_1)
+
+{
+# PDFObjectActions__18028c2b0.titles.txt
+address: 18028c2b0
+name: GOVSelectOverlapping::GetDescription
+signature: void __thiscall GetDescription(GString * param_1)
+body_bytes: 38
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVSelectOverlapping::GetDescription(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall GOVSelectOverlapping::GetDescription(GOVSelectOverlapping *this,GString *param_1)
+
+# PDFObjectActions__18028d6d0.titles.txt
+address: 18028d6d0
+name: GOVSelectOverlappingObjects::GetTitle
+signature: void __thiscall GetTitle(GString * param_1)
+body_bytes: 12
+[string_refs]
+[decompiled]
+
+/* public: virtual void __cdecl GOVSelectOverlappingObjects::GetTitle(class GString & __ptr64)const
+   __ptr64 */
+
+void __thiscall
+GOVSelectOverlappingObjects::GetTitle(GOVSelectOverlappingObjects *this,GString *param_1)

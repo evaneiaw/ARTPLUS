@@ -1,0 +1,20 @@
+HALT ATIVO — gate bloqueia avanço de funcionalidade (docs/agents/HALT.md).
+(verificação de etapa permitida; o avanço continua bloqueado)
+========================================================================
+gate.py — verificação factual do pipeline ArtPlus
+versão canônica: 24.03.10017
+========================================================================
+[GATE 0 versão] ok
+
+=== F-001 ===
+  estado comprovado: testado
+  [GATE 3 evidência] ok
+  [GATE 2 spec] ok
+  [GATE 2 arquitetura] ok
+  [GATE 4 código] ok
+  [GATE 5 testes] ok
+  [GATE 6 auditoria] REPROVADO
+      - laudo sem token de gate válido (esperado 89353B1D3CC7830DF9F465A0BC0B73BDF5164F0610E2EE686AA21597B9C0B96C)
+      - laudo é mais antigo que rag/evidence/F-001/manifest.json (stale)
+
+HALT ATIVO: verificação registrada; avanço de funcionalidade bloqueado.

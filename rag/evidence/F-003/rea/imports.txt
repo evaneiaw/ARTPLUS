@@ -1,0 +1,20 @@
+DocumentMarks.dll - PE32+ Import Table (from REA inspect_pe_imports):
+
+Format: PE32+ (64-bit), Machine: 0x8664 (amd64)
+
+Imported DLLs (from REA output):
+1. DocumentBarCode.dll - Barcode-related functions (SetSupplementalDigits, Clear, SetSymbolSize, SetUseOptimalSymbolSize, GetSupplementalDigits, SetMulticolorSeparations, GetCompositeComponent, AcceptsDecimalCode, GetDecimalCode, GetMulticolorSeparations, EndVisit Visitor, BeginVisit, SetInternalParameters, SetParameters, GetSupportedVersion, GetParametersVersion, GetTypeName, GetFontName, GetParameter, GetMessage, SetSupplementalDigits, BarCodeError constructor/destructor, SetCompositeComponent, SetDecimalCode, SetCode, ConstVisitor constructors/destructors)
+2. DocumentDimensions.dll - Box-related functions (Box destructor, Factory@Box, GetBoxProperties)
+3. DocumentEditSeparations.dll - Separation editing (RemapSeparation, ExplicitlyAddAndOrRemoveSeparations, ChangeSeparations)
+4. DocumentTypesetting.dll - Text typesetting (GetCharFeatures, SetRecognitionContext, ClearRecognitionContext, RecognizeTextForTextMark, GetFirstCharacterBasedUniversalText, ReadParagraphFeaturesFromUniversalText, GetUntransformedTextBounds, IsTypesettingBox, TextShape constructor/destructor, IsRectangle, GetCompoundPath, Transform, HasOverflow, GetUntransformedTextShape, SetTextBox, SetTextPath, IsTypesettingPoint, SetPointTextAnchor, GetCharacterCount, assignment operator, IsTextOnPathFlipped, SetTextOnPathFlipped, GetTypesettingType, ReadFirstBaselineFromUniversalText, GenerateTextForStory, GetUntransformedTextBoundsByCharRanges, ReflowTextGroup, GetCharRange, GetChildrenCharRanges, GetCharRangeAtCaretLocation)
+5. UniversalText.dll - Universal text handling (GetText, GetType, Content destructor, ToString, ToVariableProperties, GetStyleProperties, EndVisit Visitor, RemoveStyleProperty, SetStyleProperty, GetStyleProperty, GetVariableProperties, Visit, VariableText constructor/destructor, AddSpan, AddText, SetVariableProperties, SetVariable, RemoveVariable, GetVariable, Accept, GetStory, GetParagraphs, etc.)
+6. DocumentAppearance.dll - Visual appearance (GetEffects, GetReducedColorSpace, EndVisit Visitor, ConstVisitor/Visitor constructors/destructors, IsStroked, SetFillPaint, SetStrokePaint, SetEffects, IsFillable, IsFilled, GetStrokePaint, IsStrokable, Get@Factory, GetFillPaint)
+7. DocumentEdit.dll - Document editing (ExtractObjectFromParent, InsertNewObjectAfter, NewLayer, AddLayer, Delete, SetTransparency, ReplaceImage, Rasterize, SetTransformation, SetHalftoneSet, IsUpToDate, MakeReferencePageLink, ReferencePageLink, PerformRecordedErrorsAction, ChangeStrokePaint, SetChannelMapping, PlaceImage, SetHalftoneSet, InsertNewObjectBefore, SetAbsoluteTransformation, GetSeparationNames, GetWarningType, GetErrorType, UndoActionSelf, RedoActionSelf, DoActionSelf, RestructureAction, GetStrokeColor, SetStrokeColor, SetHalftoneSet, GetFillColor, SetFillColor, ConstLayerVisitor, GetChangeCollectorExtension, AcceptOnChangedObject, SetFormBBox, ReplaceObject, ChangeFillPaint, InsertNewObjectOnTop, InsertObjectOnTop, GetLink, GetPageBox, IsReferencePage, Expander, GetObjectsEnd, GetObjectsBegin, RestructureAction destructor, Transform, SetSeparationInfo, SendToLayer, MakeForm, SetLayerProcessingStep, InsertNewObjectOnTop, Expander destructor, Delete)
+8. DocumentScanConverter.dll - Scan conversion (Options, Environment, ScanConverter, CollectObjects, GetLineAsPlaneInterleaved, ObjectCollection)
+9. Document.dll - Core document (GetReducedColorSpace, ReleaseVariableContextForContent, Action, OutputIntent, WriteOptions, etc.)
+
+Additional imports from standard Windows DLLs:
+- KERNEL32.dll, USER32.dll, ADVAPI32.dll, SHELL32.dll, etc.
+- Qt6Core.dll, Qt6Gui.dll, Qt6Widgets.dll, etc.
+- MSVCP140.dll, VCRUNTIME140.dll, VCRUNTIME140_1.dll
+- boost_filesystem.dll, boost_thread.dll, etc.

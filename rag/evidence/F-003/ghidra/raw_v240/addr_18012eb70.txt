@@ -1,0 +1,59 @@
+requested=0x18012eb70
+resolvedAddress=18012eb70
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012eb70 getMarkType
+status=OK
+entry=18012eb70
+name=getMarkType
+qualifiedName=DocumentMarks::PDFPlusBearerBar::getMarkType
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=basic_string_view<char,std::char_traits<char>_> getMarkType(PDFPlusBearerBar * this)
+returnType=basic_string_view<char,std::char_traits<char>_>
+parameterCount=1
+bodyMin=18012eb70
+bodyMax=18012eb7d
+bodySize=14
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abe64 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316310 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012eb70 -> 180316458 block=.rdata sym=PTR_s_DynamicObject_PDFPlusBearerBar_180316458
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual class std::basic_string_view<char,struct std::char_traits<char> > __cdecl
+   DocumentMarks::PDFPlusBearerBar::getMarkType(void)const __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusBearerBar::getMarkType(PDFPlusBearerBar *this)
+
+{
+  undefined8 uVar1;
+  undefined8 *in_RDX;
+  
+                    /* 0x12eb70  1924
+                       ?getMarkType@PDFPlusBearerBar@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+                        */
+  uVar1 = _UNK_180316460;
+  *in_RDX = PTR_s_DynamicObject_PDFPlusBearerBar_180316458;
+  in_RDX[1] = uVar1;
+  return;
+}
+
+

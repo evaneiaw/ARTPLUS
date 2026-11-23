@@ -1,0 +1,19 @@
+﻿{
+  "evidence_id": "GHIDRA-ColorManipulationLayer-0x180014b80",
+  "subject": {
+    "name": "ColorManipulationLayer.dll",
+    "format": "pe",
+    "architecture": "x86_64",
+    "sha256": "92a8b38fa14ac6480a036acadf76c4563da49109805418e9e5688659c7de72a9"
+  },
+  "operation": "procedure_pseudo_code",
+  "parameters": { "procedure": "0x180014b80" },
+  "normalized_result": "/* public: static bool __cdecl GCColorManipulationLayer::Initialize(void) */\n\nbool __cdecl GCColorManipulationLayer::Initialize(void)\n{\n  char cVar1;\n  undefined8 uVar2;\n                    /* 0x14b80  443  ?Initialize@GCColorManipulationLayer@@SA_NXZ */\n  if (sInitialized != 0) {\n    sInitialized = sInitialized + 1;\n    return true;\n  }\n  sInitialized = sInitialized + 1;\n  GCICCProfileCache::CreateInstance();\n  cVar1 = FUN_180027c40();\n  if ((cVar1 == '\\0') || (uVar2 = FUN_1800269b0(), (char)uVar2 == '\\0')) {\n    return false;\n  }\n  InitializeStrings();\n  InitializeXYZProfile();\n  return true;\n}\n",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "limitations": [
+    "Pseudocódigo reconstruído do terminal da sessão anterior (REA decompile não salvou JSON para este endereço na segunda execução; caminho C:\\bg_prog_artpro+_v250... não existe).",
+    "FUN_180027c40 e FUN_1800269b0 são nomes placeholder do Ghidra; não há símbolo demangled disponível no export."
+  ],
+  "caller_input_path": "C:\\bg_prog_artpro+_v250\\ArtPro+.app\\Contents\\Windows\\ColorManipulationLayer.dll (invalido); importacao feita via rag/ghidra/exports/ColorManipulationLayer.dll"
+}

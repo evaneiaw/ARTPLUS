@@ -1,0 +1,143 @@
+requested=0x18013a8b0
+resolvedAddress=18013a8b0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18013a8b0 PDFPlusCutMark
+status=OK
+entry=18013a8b0
+name=PDFPlusCutMark
+qualifiedName=DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+namespace=DocumentMarks::PDFPlusCutMark
+signature=undefined PDFPlusCutMark(PDFPlusCutMark * this, shared_ptr<ArtPaint::FormPaint_const_> param_1)
+returnType=undefined
+parameterCount=2
+bodyMin=18013a8b0
+bodyMax=18013aa0b
+bodySize=348
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803b829c refType=DATA fromFunction=
+180498d2c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1801747ba refType=UNCONDITIONAL_CALL fromFunction=180172550 FUN_180172550
+
+[CALLERS]
+180172550 FUN_180172550
+
+[CALLEES]
+18010bd10 DocumentMarks::MarkPosition::setReferenceObject
+18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+18003a6a0 FUN_18003a6a0
+180098840 DocumentMarks::DynamicObject::setColorType
+180073340 DocumentMarks::DynamicMark::SetSourceContent
+
+[DIRECT_CALL_TARGETS]
+18013a8d4 -> 18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+18013a950 -> 18003a6a0 FUN_18003a6a0
+18013a984 -> 18013a98a DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+18013a9a3 -> 180073340 DocumentMarks::DynamicMark::SetSourceContent
+18013a9b3 -> 180098840 DocumentMarks::DynamicObject::setColorType
+18013a9c1 -> 18010bd10 DocumentMarks::MarkPosition::setReferenceObject
+18013a9ce -> 18013a9fc DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+18013a9df -> 18013a9fc DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+18013a9f1 -> 18013a9fc DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18013a8b0 -> Stack[0x20] block=? sym=
+18013a8b5 -> Stack[0x10] block=? sym=
+18013a8ba -> Stack[0x8] block=? sym=
+18013a8da -> 1803231b0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18013a8e1 -> 1803231b0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18013a8e4 -> 180323330 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+18013a8eb -> 180323330 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+18013a939 -> Stack[0x18] block=? sym=
+18013a958 -> Stack[0x18] block=? sym=
+18013a977 -> Stack[-0x28] block=? sym=
+18013a98d -> Stack[-0x28] block=? sym=
+18013a996 -> Stack[-0x20] block=? sym=
+18013a99b -> Stack[-0x28] block=? sym=
+18013a9ff -> Stack[0x20] block=? sym=
+
+[DECOMPILE]
+
+/* public: __cdecl DocumentMarks::PDFPlusCutMark::PDFPlusCutMark(class std::shared_ptr<class
+   ArtPaint::FormPaint const >) __ptr64 */
+
+PDFPlusCutMark * __thiscall
+DocumentMarks::PDFPlusCutMark::PDFPlusCutMark(PDFPlusCutMark *this,undefined8 *param_2)
+
+{
+  int *piVar1;
+  longlong *plVar2;
+  PDFPlusCutMark *pPVar3;
+  int iVar4;
+  undefined4 *puVar5;
+  longlong *plVar6;
+  longlong lVar7;
+  undefined8 local_28;
+  undefined8 uStack_20;
+  
+                    /* 0x13a8b0  226
+                       ??0PDFPlusCutMark@DocumentMarks@@QEAA@V?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+                        */
+  DynamicMark::DynamicMark((DynamicMark *)this,false,0x1ce);
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  *(undefined8 *)(this + 0x698) = 0;
+  this[0x6b8] = (PDFPlusCutMark)0x0;
+  this[0x700] = (PDFPlusCutMark)0x0;
+  *(undefined4 *)(this + 0x708) = 3;
+  this[0x780] = (PDFPlusCutMark)0x0;
+  this[0x788] = (PDFPlusCutMark)0x0;
+  *(undefined4 *)(this + 0x790) = 1;
+  *(undefined4 *)(this + 0x794) = 2;
+  pPVar3 = this + 0x798;
+  *(undefined8 *)pPVar3 = 0;
+  *(undefined8 *)(this + 0x7a0) = 0;
+  *(undefined8 *)(this + 0x7a8) = 0;
+  FUN_18003a6a0(pPVar3,1);
+  puVar5 = *(undefined4 **)pPVar3;
+  *puVar5 = 0;
+  *(undefined4 **)(this + 0x7a0) = puVar5 + 1;
+  *(undefined8 *)(this + 0x7b0) = 0;
+  *(undefined8 *)(this + 0x7b8) = 0;
+  if (param_2[1] != 0) {
+    LOCK();
+    piVar1 = (int *)(param_2[1] + 8);
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+  }
+  local_28 = *param_2;
+  uStack_20 = param_2[1];
+  DynamicMark::SetSourceContent((DynamicMark *)this,&local_28);
+  DynamicObject::setColorType((DynamicObject *)this,1,0);
+  MarkPosition::setReferenceObject((MarkPosition *)(this + 0x2f0),0);
+  plVar6 = (longlong *)param_2[1];
+  if (plVar6 != (longlong *)0x0) {
+    LOCK();
+    plVar2 = plVar6 + 1;
+    lVar7 = *plVar2;
+    *(int *)plVar2 = (int)*plVar2 + -1;
+    UNLOCK();
+    if ((int)lVar7 == 1) {
+      (**(code **)*plVar6)(plVar6);
+      LOCK();
+      piVar1 = (int *)((longlong)plVar6 + 0xc);
+      iVar4 = *piVar1;
+      *piVar1 = *piVar1 + -1;
+      UNLOCK();
+      if (iVar4 == 1) {
+        (**(code **)(*plVar6 + 8))(plVar6);
+      }
+    }
+  }
+  return this;
+}
+
+

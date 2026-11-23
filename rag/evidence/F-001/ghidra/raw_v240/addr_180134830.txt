@@ -1,0 +1,69 @@
+requested=0x180134830
+resolvedAddress=180134830
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180134830 Clone
+status=OK
+entry=180134830
+name=Clone
+qualifiedName=DocumentMarks::PDFPlusCutMark::Clone
+namespace=DocumentMarks::PDFPlusCutMark
+signature=PDFPlusCutMark * Clone(PDFPlusCutMark * this, CloneStrategy * param_1)
+returnType=PDFPlusCutMark *
+parameterCount=2
+bodyMin=180134830
+bodyMax=18013487a
+bodySize=75
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aadd0 refType=DATA fromFunction=
+1804867bc refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316ab8 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1801343d0 DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+1802cbe68 FUN_1802cbe68
+
+[DIRECT_CALL_TARGETS]
+180134845 -> 1802cbe68 FUN_1802cbe68
+180134852 -> 18013486e DocumentMarks::PDFPlusCutMark::Clone
+18013485d -> 1801343d0 DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180134830 -> Stack[0x8] block=? sym=
+18013484a -> Stack[0x18] block=? sym=
+180134863 -> Stack[0x8] block=? sym=
+180134870 -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* public: virtual class DocumentMarks::PDFPlusCutMark * __ptr64 __cdecl
+   DocumentMarks::PDFPlusCutMark::Clone(class ArtDoc::CloneStrategy & __ptr64)const __ptr64 */
+
+PDFPlusCutMark * __thiscall
+DocumentMarks::PDFPlusCutMark::Clone(PDFPlusCutMark *this,CloneStrategy *param_1)
+
+{
+  PDFPlusCutMark *pPVar1;
+  
+                    /* 0x134830  863
+                       ?Clone@PDFPlusCutMark@DocumentMarks@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+                        */
+  pPVar1 = (PDFPlusCutMark *)FUN_1802cbe68(0x850);
+  if (pPVar1 == (PDFPlusCutMark *)0x0) {
+    return (PDFPlusCutMark *)0x0;
+  }
+  pPVar1 = (PDFPlusCutMark *)PDFPlusCutMark(pPVar1,this,param_1);
+  return pPVar1;
+}
+
+

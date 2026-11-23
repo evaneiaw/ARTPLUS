@@ -1,0 +1,52 @@
+# Build
+build/
+build_*/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*_autogen/
+compile_commands.json
+
+# IDE / ambiente local
+.vs/
+.idea/
+*.user
+.qt/
+.scratchpad/
+.claude/settings.local.json
+
+# Ferramentas e dados grandes de engenharia reversa
+# Exports por DLL levam o nome do binário (*.dll): ficam fora do versionamento por peso,
+# mas continuam em disco para consulta local.
+rag/ghidra/exports/
+tools/ghidra_projects/
+tools/ghidra_12.2_PUBLIC/
+tools/pdf_inspector/
+tools/test_documents/
+dossiers/
+logs/
+/logs/
+
+# Binários
+*.o
+*.a
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyc
+*.pid
+
+# Logs e temporários
+*.log
+*.err
+temp_msg.txt
+test_output.txt
+test_results.txt
+test_results_final.txt
+
+# Artefatos de sessão de agente
+-scriptArgs

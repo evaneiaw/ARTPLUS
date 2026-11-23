@@ -1,0 +1,60 @@
+requested=0x180052340
+resolvedAddress=180052340
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180052340 CutMark
+status=OK
+entry=180052340
+name=CutMark
+qualifiedName=DocumentMarks::CutMark::CutMark
+namespace=DocumentMarks::CutMark
+signature=undefined CutMark(CutMark * this, bool param_1)
+returnType=undefined
+parameterCount=2
+bodyMin=180052340
+bodyMax=18005237c
+bodySize=61
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803b81f4 refType=DATA fromFunction=
+18048fd50 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18011235d refType=UNCONDITIONAL_CALL fromFunction=180111410 FUN_180111410
+
+[CALLERS]
+180111410 FUN_180111410
+
+[CALLEES]
+18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+
+[DIRECT_CALL_TARGETS]
+18005234f -> 18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180052354 -> 180308bd8 block=.rdata sym=DocumentMarks::CutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+180052366 -> 180308bd8 block=.rdata sym=DocumentMarks::CutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+180052369 -> 180308d58 block=.rdata sym=DocumentMarks::CutMark::`vftable'{for_`ArtDoc::Visitable'}
+180052370 -> 180308d58 block=.rdata sym=DocumentMarks::CutMark::`vftable'{for_`ArtDoc::Visitable'}
+
+[DECOMPILE]
+
+/* public: __cdecl DocumentMarks::CutMark::CutMark(bool) __ptr64 */
+
+CutMark * __thiscall DocumentMarks::CutMark::CutMark(CutMark *this,bool param_1)
+
+{
+                    /* 0x52340  184  ??0CutMark@DocumentMarks@@QEAA@_N@Z */
+  DynamicMark::DynamicMark((DynamicMark *)this,param_1,0xfd);
+  *(undefined8 *)(this + 0x698) = 0;
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  return this;
+}
+
+

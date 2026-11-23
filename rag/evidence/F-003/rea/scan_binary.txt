@@ -1,0 +1,136 @@
+Scanning strings and imports from C:\Esko\bg_prog_artpro+_v240\ArtPro+.app\Contents\Windows\ArtPro+.exe...
+
+--- Imported / Referenced DLLs ---
+.exe_libFNP.dll
+ADT.dll
+ADVAPI32.dll
+Aleph.dll
+AlephClient_Qt.dll
+ArtSys.dll
+COMCTL32.dll
+COMDLG32.dll
+CRYPT32.dll
+Cornering.dll
+CurveApprox.dll
+Document.dll
+DocumentFlexoTools.dll
+DocumentMarks.dll
+Extensis.dll
+ExtraBoostFilesystem.dll
+ExtraQt.dll
+GMGOpenColorModel.dll
+GeoMapper.dll
+HELLJobTicket.dll
+JEFModel.dll
+JEFModelActionList.dll
+JEFModelActionListTypes.dll
+JEFModelLocal.dll
+JEFTypes.dll
+NETAPI32.Dll
+NETAPI32.dll
+OLEAUT32.dll
+OPENGL32.dll
+PDFConversionRules.dll
+Pack3D.dll
+PredistortEngine.dll
+Preferences.dll
+QUSEREX.DLL
+Qt6Core.dll
+Qt6Gui.dll
+Qt6Network.dll
+Qt6PrintSupport.dll
+Qt6WebChannel.dll
+Qt6WebEngineCore.dll
+Qt6WebEngineWidgets.dll
+Qt6Widgets.dll
+SHELL32.dll
+SHLWAPI.dll
+SSO.dll
+Secur32.dll
+Snapping.dll
+SoftwareAnalyticsCore.dll
+StructuralDesignImportProfile.dll
+StudioCommon.dll
+StudioDesignerCoreController.dll
+StudioDesignerCoreRenderEngine.dll
+UECILib.dll
+USER32.dll
+UnifiedToolkitInterprocess.dll
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+VERSION.dll
+VSN16.DLL
+VisualizerSDKDaliRenderResources.dll
+WINHTTP.dll
+WINSOCK.DLL
+WS2_32.Dll
+WS2_32.dll
+WSOCK32.Dll
+WSOCK32.dll
+YAGL.dll
+advapi32.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+aws-sdk-cpp-core.dll
+bcrypt.dll
+boost_filesystem.dll
+boost_iostreams.dll
+boost_nowide.dll
+boost_thread.dll
+d3d9.dll
+dali.dll
+euclid.dll
+icmp.Dll
+iphlpapi.dll
+kernel32.dll
+lcms.dll
+lib3d.dll
+libxml.dll
+libxmlGlue.dll
+ntdll.dll
+ole32.dll
+secur32.dll
+security.dll
+wtsapi32.dll
+zlib1.dll
+
+Total ASCII strings found: 214375
+
+--- Keyword Match Summary ---
+Keyword 'Action': 8616 matches (Sample: ['ACTION/C', 'ACTION/WARNING/COULD NOT USE BARCODE PROPERTIES FROM JOB SETUP/MULTIPLE ITEMS HEADER', 'ACTION/WARNING/COULD NOT USE BARCODE PROPERTIES FROM JOB SETUP/SINGLE ITEM'])
+Keyword 'ARD': 1168 matches (Sample: ['.ardD', 'StandardH', 'PcharD'])
+Keyword 'PDF': 311 matches (Sample: ['Ep.pdf', '0.pdf', '0.pdf'])
+Keyword 'CF2': 7 matches (Sample: ['E .cf2', 'application/cf2', 'LICENSE/OPEN LAYOUT CF2 REQUIRES LAYOUT OR ADVANCED LICENSE'])
+Keyword 'Trap': 740 matches (Sample: ['TrappingH', 'InfoFlagTrapped', 'One file is trapped'])
+Keyword 'BarCode': 1257 matches (Sample: ['BARCODESH', 'BARCODE INSPECTOR/ERROR MESSAGE TITLE/CHECK DIGIT ADDED', 'BARCODE INSPECTOR/ERROR MESSAGE TITLE/CHECK DIGITS ADDED'])
+Keyword '3D': 500 matches (Sample: ['3333D3', '3333D3', '3333D3'])
+Keyword 'ArtPro': 14223 matches (Sample: ['artproplus', 'ArtProPlus_24.03', ':/Application/ArtPro'])
+Keyword 'Spot': 106 matches (Sample: ['ConvertColorToSpot', 'ACTION/PAINT/CONVERT TO SPOT', 'CONVERT TO SPOT/DOCUMENT SEPARATIONS'])
+Keyword 'Step': 710 matches (Sample: ['ACTION/WARNING/PROCESSING STEP OBJECT NOT OVERPRINTING', 'MESSAGECENTER/ABBREVIATED MESSAGE/PROC STEP OBJECT NOT OVERPRINTING', 'ACTION/WARNING/PROCESSING STEP OBJECT WITH CUSTOM TRANSPARENCY'])
+Keyword 'Overprint': 127 matches (Sample: ['ACTION/WARNING/PROCESSING STEP OBJECT NOT OVERPRINTING', 'MESSAGECENTER/ABBREVIATED MESSAGE/PROC STEP OBJECT NOT OVERPRINTING', 'ImageOverprint'])
+Keyword 'Bleed': 177 matches (Sample: ['MESSAGECENTER/ABBREVIATED MESSAGE/BLEED BOX NOT COVERED BY MEDIA BOX', 'ACTION/WARNING/MANUAL BLEED DECISIONS INVALID', 'MESSAGECENTER/ABBREVIATED MESSAGE/MANUAL BLEED DECISIONS INVALID'])
+Keyword 'Separation': 1310 matches (Sample: ['WARNING/SEPARATION/INK TYPE MISMATCH', 'ACTION/WARNING/DYNAMIC MARKS/REPEAT FOR SEPARATIONS MARK HAS UNRESOLVED SEPARATION VARIABLES IN EXTERNAL FILE MARK', 'ACTION/WARNING/DYNAMIC MARKS/INPUT FILE MARK HAS UNSUPPORTED SEPARATION INDEX __INDEX__'])
+Keyword 'Marks': 1324 matches (Sample: ['ACTION/WARNING/DYNAMIC MARKS/STATION PLACEHOLDER __NAME__ NOT FOUND', 'ACTION/WARNING/DYNAMIC MARKS/MARK HAS UNRESOLVED COLORS', 'ACTION/WARNING/DYNAMIC MARKS/MARK HAS HIDDEN COLORS'])
+Keyword 'Repeat': 370 matches (Sample: ['ACTION/WARNING/DYNAMIC MARKS/REPEAT FOR SEPARATIONS MARK HAS UNRESOLVED SEPARATION VARIABLES IN EXTERNAL FILE MARK', 'ACTION/WARNING/DYNAMIC MARK/REPEAT FOR SEPARATIONS MARK HAS UNRESOLVED COLORS', 'MESSAGECENTER/ABBREVIATED MESSAGE/REPEAT FOR SEPARATIONS MARK COLOR NOT RESOLVED'])
+Keyword 'MediaBox': 15 matches (Sample: ['PageMediaBox', 'LastUsedMediaBox', 'MediaBoxOrigin'])
+Keyword 'CropBox': 13 matches (Sample: ['PageHasCropBox', 'PageCropBox', 'CropBoxOrigin'])
+Keyword 'BleedBox': 13 matches (Sample: ['PageHasBleedBox', 'PageBleedBox', 'BleedBoxOrigin'])
+Keyword 'TrimBox': 35 matches (Sample: ['PageHasTrimBox', 'PageTrimBox', 'LastUsedTrimBox'])
+Keyword 'ArtBox': 13 matches (Sample: ['PageHasArtBox', 'PageArtBox', 'ArtBoxOrigin'])
+Keyword 'Screen': 445 matches (Sample: ['Screen set names are different', 'Screen set halftones are different', 'One of the objects is screened'])
+Keyword 'Preflight': 225 matches (Sample: ['MESSAGE CENTER/NO PREFLIGHT MESSAGES', 'PREFLIGHT/NORMALIZED PDF LIMITATION', 'PreflightProfiles'])
+Keyword 'MFG': 5 matches (Sample: ['application/vnd.artios-cad.mfg', 'LICENSE/OPEN MFG REQUIRES LAYOUT OR ADVANCED LICENSE', '0JNCMFGIA'])
+Keyword 'Esko': 301 matches (Sample: ['application/vnd.esko.ct', 'application/vnd.esko.lp', 'https://eskornd.github.io/samplesite/boot/'])
+Keyword 'CMYK': 143 matches (Sample: ['COLOR SPACE/CMYK', 'Converted to CMYK', 'ACTION/REMAP INK TO CMYK'])
+Keyword 'ActionList': 5465 matches (Sample: ['ActionList', 'actionlistparameter.', 'ActionListCustomizedShortcutMap'])
+Keyword 'Studio': 179 matches (Sample: ['LICENSE/EXPORT 3D REQUIRES STUDIO 3D LICENSE', 'LICENSE/EXPORT 3D REQUIRES STUDIO 3D LICENSE TITLE', 'StudioDesigner'])
+Keyword 'Qt': 1724 matches (Sample: ['QtCore/qbytearrayview.h', 'QtCore/qarraydatapointer.h', 'QtCore/qarraydataops.h'])

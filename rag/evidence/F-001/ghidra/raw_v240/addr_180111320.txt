@@ -1,0 +1,201 @@
+requested=0x180111320
+resolvedAddress=180111320
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180111320 FUN_180111320
+status=OK
+entry=180111320
+name=FUN_180111320
+qualifiedName=FUN_180111320
+namespace=Global
+signature=undefined FUN_180111320()
+returnType=undefined
+parameterCount=0
+bodyMin=180111320
+bodyMax=1801114ba
+bodySize=411
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+1804853d0 refType=DATA fromFunction=
+1801100cb refType=UNCONDITIONAL_CALL fromFunction=18010ffd0 FUN_18010ffd0
+
+[CALLERS]
+18010ffd0 FUN_18010ffd0
+
+[CALLEES]
+1801116c0 FUN_1801116c0
+EXTERNAL:00000218 DOCUMENT.DLL::ArtDoc::Content::GetType
+1802cbe68 FUN_1802cbe68
+EXTERNAL:00000166 DOCUMENT.DLL::ArtDoc::VisitorBase::~VisitorBase
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180016510 FUN_180016510
+18003bfc0 FUN_18003bfc0
+EXTERNAL:00000167 DOCUMENT.DLL::ArtDoc::VisitorBase::VisitorBase
+1802cbfd0 __security_check_cookie
+
+[DIRECT_CALL_TARGETS]
+180111348 -> EXTERNAL:00000218 DOCUMENT.DLL::ArtDoc::Content::GetType
+180111350 -> 18011149a FUN_180111320
+18011135a -> EXTERNAL:00000167 DOCUMENT.DLL::ArtDoc::VisitorBase::VisitorBase
+180111379 -> 1802cbe68 FUN_1802cbe68
+1801113a4 -> 18011146d FUN_180111320
+1801113c9 -> EXTERNAL:00000167 DOCUMENT.DLL::ArtDoc::VisitorBase::VisitorBase
+1801113f0 -> 18011142c FUN_180111320
+1801113f9 -> 180111424 FUN_180111320
+180111402 -> 1801116c0 FUN_1801116c0
+180111410 -> 18011142c FUN_180111320
+18011141f -> 180016510 FUN_180016510
+180111422 -> 180111428 FUN_180111320
+180111441 -> 180111457 FUN_180111320
+180111466 -> EXTERNAL:00000166 DOCUMENT.DLL::ArtDoc::VisitorBase::~VisitorBase
+18011147d -> 18003bfc0 FUN_18003bfc0
+18011148b -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180111494 -> EXTERNAL:00000166 DOCUMENT.DLL::ArtDoc::VisitorBase::~VisitorBase
+1801114a1 -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180111320 -> Stack[0x10] block=? sym=
+180111325 -> Stack[0x18] block=? sym=
+18011132b -> Stack[-0x5f] block=? sym=
+180111337 -> 180409ec0 block=.data sym=DAT_180409ec0
+180111341 -> Stack[-0x18] block=? sym=
+180111348 -> 1802f1c98 block=.rdata sym=PTR_GetType_1802f1c98
+180111356 -> Stack[-0xc8] block=? sym=
+18011135a -> 1802f1710 block=.rdata sym=PTR_VisitorBase_1802f1710
+180111361 -> 1803134d8 block=.rdata sym=_anon_FE1A3C35::DynObjIDCollector::vftable
+180111368 -> 1803134d8 block=.rdata sym=_anon_FE1A3C35::DynObjIDCollector::vftable
+180111368 -> Stack[-0xc8] block=? sym=
+18011136e -> Stack[-0xc0] block=? sym=
+180111372 -> Stack[-0xb8] block=? sym=
+18011138f -> Stack[-0xc0] block=? sym=
+180111396 -> Stack[-0xc8] block=? sym=
+1801113a0 -> Stack[-0xb8] block=? sym=
+1801113aa -> 180313c98 block=.rdata sym=std::_Func_impl_no_alloc<`void___cdecl__anon_FE1A3C35::PostProcessVDPObjects(ArtDoc::Content&___ptr64)'::`2'::<lambda_1>,bool,DocumentMarks::VDPObject&___ptr64>::vftable
+1801113b1 -> 180313c98 block=.rdata sym=std::_Func_impl_no_alloc<`void___cdecl__anon_FE1A3C35::PostProcessVDPObjects(ArtDoc::Content&___ptr64)'::`2'::<lambda_1>,bool,DocumentMarks::VDPObject&___ptr64>::vftable
+1801113b1 -> Stack[-0xa8] block=? sym=
+1801113b5 -> Stack[-0xc0] block=? sym=
+1801113b9 -> Stack[-0xa0] block=? sym=
+1801113bd -> Stack[-0xa8] block=? sym=
+1801113c1 -> Stack[-0x70] block=? sym=
+1801113c5 -> Stack[-0x68] block=? sym=
+1801113c9 -> 1802f1710 block=.rdata sym=PTR_VisitorBase_1802f1710
+1801113cf -> 1803137d8 block=.rdata sym=ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable
+1801113d6 -> 1803137d8 block=.rdata sym=ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable
+1801113d6 -> Stack[-0x68] block=? sym=
+1801113da -> 180313918 block=.rdata sym=ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable
+1801113e1 -> 180313918 block=.rdata sym=ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable
+1801113e1 -> Stack[-0x60] block=? sym=
+1801113e5 -> Stack[-0x20] block=? sym=
+1801113e9 -> Stack[-0x70] block=? sym=
+1801113f2 -> Stack[-0xa8] block=? sym=
+1801113fb -> Stack[-0xa8] block=? sym=
+1801113fe -> Stack[-0x58] block=? sym=
+180111402 -> 180313ca0 block=.rdata sym=vftable[1]
+180111405 -> Stack[-0x20] block=? sym=
+180111409 -> Stack[-0x70] block=? sym=
+180111412 -> Stack[-0xa8] block=? sym=
+180111415 -> Stack[-0xa8] block=? sym=
+18011141f -> 180313cb8 block=.rdata sym=vftable[4]
+180111424 -> Stack[-0x20] block=? sym=
+180111428 -> Stack[-0x70] block=? sym=
+18011142f -> Stack[-0x68] block=? sym=
+18011143a -> Stack[-0x20] block=? sym=
+180111446 -> Stack[-0x58] block=? sym=
+180111453 -> Stack[-0x20] block=? sym=
+180111457 -> 180313278 block=.rdata sym=ArtDoc::Visitor<DocumentMarks::VDPObject>::`vftable'
+18011145e -> 180313278 block=.rdata sym=ArtDoc::Visitor<DocumentMarks::VDPObject>::`vftable'
+18011145e -> Stack[-0x60] block=? sym=
+180111462 -> Stack[-0x68] block=? sym=
+180111466 -> 1802f1708 block=.rdata sym=PTR_~VisitorBase_1802f1708
+18011146d -> Stack[-0xc0] block=? sym=
+180111475 -> Stack[-0xc0] block=? sym=
+180111479 -> Stack[-0xc0] block=? sym=
+180111487 -> Stack[-0xc0] block=? sym=
+180111490 -> Stack[-0xc8] block=? sym=
+180111494 -> 1802f1708 block=.rdata sym=PTR_~VisitorBase_1802f1708
+18011149a -> Stack[-0x18] block=? sym=
+1801114a6 -> Stack[-0x10] block=? sym=
+1801114ae -> Stack[0x8] block=? sym=
+1801114b2 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180111320(Content *param_1)
+
+{
+  Type TVar1;
+  undefined1 auStack_e8 [32];
+  undefined **local_c8;
+  void *local_c0;
+  longlong local_b8;
+  undefined **local_a8;
+  void **local_a0;
+  undefined ***local_70;
+  undefined **local_68;
+  undefined **local_60;
+  undefined **local_58 [7];
+  undefined ***local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_180409ec0 ^ (ulonglong)auStack_e8;
+  TVar1 = ArtDoc::Content::GetType(param_1);
+  if ((char)TVar1 != '\0') {
+    return;
+  }
+  ArtDoc::VisitorBase::VisitorBase((VisitorBase *)&local_c8);
+  local_c8 = _anon_FE1A3C35::DynObjIDCollector::vftable;
+  local_c0 = (void *)0x0;
+  local_b8 = 0;
+  local_c0 = (void *)FUN_1802cbe68(0x48);
+  *(void **)local_c0 = local_c0;
+  *(void **)((longlong)local_c0 + 8) = local_c0;
+  *(void **)((longlong)local_c0 + 0x10) = local_c0;
+  *(undefined2 *)((longlong)local_c0 + 0x18) = 0x101;
+  (**(code **)(*(longlong *)param_1 + 0x10))(param_1,&local_c8);
+  if (local_b8 == 0) goto LAB_18011146d;
+  local_a8 = std::
+             _Func_impl_no_alloc<`void___cdecl__anon_FE1A3C35::PostProcessVDPObjects(ArtDoc::Content&___ptr64)'::`2'::<lambda_1>,bool,DocumentMarks::VDPObject&___ptr64>
+             ::vftable;
+  local_a0 = &local_c0;
+  local_70 = &local_a8;
+  ArtDoc::VisitorBase::VisitorBase((VisitorBase *)&local_68);
+  local_68 = ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable;
+  local_60 = ArtDoc::SimpleVisitor<DocumentMarks::VDPObject>::vftable;
+  local_20 = (undefined ***)0x0;
+  if (local_70 != (undefined ***)0x0) {
+    if (local_70 == &local_a8) {
+      local_20 = (undefined ***)(*(code *)(*local_70)[1])(local_70,local_58);
+      if (local_70 == (undefined ***)0x0) goto LAB_18011142c;
+      (*(code *)(*local_70)[4])
+                (local_70,CONCAT71((int7)((ulonglong)&local_a8 >> 8),local_70 != &local_a8));
+    }
+    else {
+      local_20 = local_70;
+    }
+    local_70 = (undefined ***)0x0;
+  }
+LAB_18011142c:
+  (**(code **)(*(longlong *)param_1 + 0x10))(param_1,&local_68);
+  if (local_20 != (undefined ***)0x0) {
+    (*(code *)(*local_20)[4])
+              (local_20,CONCAT71((int7)((ulonglong)local_58 >> 8),local_20 != local_58));
+    local_20 = (undefined ***)0x0;
+  }
+  local_60 = ArtDoc::Visitor<DocumentMarks::VDPObject>::_vftable_;
+  ArtDoc::VisitorBase::~VisitorBase((VisitorBase *)&local_68);
+LAB_18011146d:
+  FUN_18003bfc0(&local_c0,&local_c0,*(undefined8 *)((longlong)local_c0 + 8));
+  free(local_c0);
+  ArtDoc::VisitorBase::~VisitorBase((VisitorBase *)&local_c8);
+  return;
+}
+
+

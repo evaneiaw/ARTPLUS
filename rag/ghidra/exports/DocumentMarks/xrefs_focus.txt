@@ -1,0 +1,1247 @@
+# DumpXrefs run: DocumentMarks.dll
+
+=== ADDR 18001e350
+  function: 18001e350 DocumentMarks::BearerBar::BearerBar
+  references to (18001e350):
+    <- 1803b81b0 [DATA] in (data)
+    <- 18048d290 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18001edcd [UNCONDITIONAL_CALL] in 18001eda0 DocumentMarks::BearerBar::Clone
+  callers (functions):
+    * (data)
+    * 18001eda0 DocumentMarks::BearerBar::Clone
+  callees of 18001e350:
+    -> 18006cf00 DocumentMarks::DynamicMark::DynamicMark
+
+=== ADDR 18001e3c0
+  function: 18001e3c0 DocumentMarks::BearerBar::BearerBar
+  references to (18001e3c0):
+    <- 1803b81b4 [DATA] in (data)
+    <- 18048d29c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180111792 [UNCONDITIONAL_CALL] in 180111410 FUN_180111410
+  callers (functions):
+    * (data)
+    * 180111410 FUN_180111410
+  callees of 18001e3c0:
+    -> 18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+
+=== ADDR 18001e790
+  function: 18001e790 DocumentMarks::BearerBar::~BearerBar
+  references to (18001e790):
+    <- 1803b8524 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18010ee41 [UNCONDITIONAL_CALL] in 18010ee30 FUN_18010ee30
+    <- 18001ea2c [DATA] in 18001ea10 FUN_18001ea10
+  callers (functions):
+    * (data)
+    * 18010ee30 FUN_18010ee30
+    * 18001ea10 FUN_18001ea10
+  callees of 18001e790:
+    -> 18006dda0 DocumentMarks::DynamicMark::~DynamicMark
+
+=== ADDR 18001eda0
+  function: 18001eda0 DocumentMarks::BearerBar::Clone
+  references to (18001eda0):
+    <- 1803b8c8c [DATA] in (data)
+    <- 18048d38c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180305180 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001eda0:
+    -> 1802d6b50 FUN_1802d6b50
+    -> 18001e350 DocumentMarks::BearerBar::BearerBar
+
+=== ADDR 18001f160
+  function: 18001f160 DocumentMarks::BearerBar::DumpInfo
+  references to (18001f160):
+    <- 1803b8e84 [DATA] in (data)
+    <- 18048d3a4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1803051a0 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f160:
+    -> EXTERNAL:0000054a MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::basic_ostream<char,std::char_traits<char>_>
+    -> 1802d6cb0 __security_check_cookie
+    -> 18001b3e0 FUN_18001b3e0
+    -> EXTERNAL:0000056d MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::~basic_streambuf<char,std::char_traits<char>_>
+    -> 180011ca0 FUN_180011ca0
+    -> EXTERNAL:00000549 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::~basic_ostream<char,std::char_traits<char>_>
+    -> 18001f5a0 FUN_18001f5a0
+    -> EXTERNAL:00000579 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::~basic_ios<char,std::char_traits<char>_>
+    -> 18001b810 FUN_18001b810
+    -> 18001e5b0 FUN_18001e5b0
+    -> 180020730 FUN_180020730
+    -> EXTERNAL:00000589 MSVCP140.DLL::std::basic_ios<char,std::char_traits<char>_>::basic_ios<char,std::char_traits<char>_>
+    -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+    -> 180093e40 DocumentMarks::DynamicObject::DumpInfo
+    -> EXTERNAL:0000056c MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::basic_streambuf<char,std::char_traits<char>_>
+    -> 18001da70 FUN_18001da70
+
+=== ADDR 18001f650
+  function: 18001f650 DocumentMarks::BearerBar::getExtend
+  references to (18001f650):
+    <- 1803b9ce4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f650:
+    (none)
+
+=== ADDR 18001f660
+  function: 18001f660 DocumentMarks::SNRCell::GetStationPanels
+  references to (18001f660):
+    <- 1803b9364 [DATA] in (data)
+    <- 1803b9374 [DATA] in (data)
+    <- 1803b9380 [DATA] in (data)
+    <- 1803b93d8 [DATA] in (data)
+    <- 1803b9cf0 [DATA] in (data)
+    <- 1803b9cf4 [DATA] in (data)
+    <- 1803b9cf8 [DATA] in (data)
+    <- 1803b9cfc [DATA] in (data)
+    <- 1803b9d08 [DATA] in (data)
+    <- 1803b9d18 [DATA] in (data)
+    <- 1803b9d24 [DATA] in (data)
+    <- 1803b9d60 [DATA] in (data)
+    <- 1803b9ec4 [DATA] in (data)
+    <- 1803b9ec8 [DATA] in (data)
+    <- 1803b9ed0 [DATA] in (data)
+    <- 1803b9edc [DATA] in (data)
+    <- 1803b9f34 [DATA] in (data)
+    <- 1803b9f4c [DATA] in (data)
+    <- 18048d3c8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18028d59d [UNCONDITIONAL_CALL] in 18028d580 DocumentMarks::VDPImageBase::getRefBoxes
+    <- 18028d61d [UNCONDITIONAL_CALL] in 18028d600 DocumentMarks::VDPImageBase::getRefObjects
+    <- 180305238 [DATA] in (data)
+    <- 180308108 [DATA] in (data)
+    <- 180308418 [DATA] in (data)
+    <- 180308c98 [DATA] in (data)
+    <- 18031a2c8 [DATA] in (data)
+    <- 180322a70 [DATA] in (data)
+    <- 1803235c8 [DATA] in (data)
+    <- 1803297e0 [DATA] in (data)
+    <- 180329ed0 [DATA] in (data)
+    <- 180329ed8 [DATA] in (data)
+    <- 18032b4f0 [DATA] in (data)
+    <- 18032b580 [DATA] in (data)
+    <- 18032bda8 [DATA] in (data)
+    <- 180335798 [DATA] in (data)
+    <- 1803357b8 [DATA] in (data)
+    <- 18033b3e0 [DATA] in (data)
+    <- 18033b3e8 [DATA] in (data)
+    <- 18033c330 [DATA] in (data)
+    <- 18033c338 [DATA] in (data)
+    <- 18033c340 [DATA] in (data)
+    <- 18033c7b8 [DATA] in (data)
+    <- 18033c7c0 [DATA] in (data)
+    <- 18033c938 [DATA] in (data)
+    <- 18033c940 [DATA] in (data)
+    <- 18033cab8 [DATA] in (data)
+    <- 18033cac0 [DATA] in (data)
+    <- 18033cd78 [DATA] in (data)
+  callers (functions):
+    * (data)
+    * 18028d580 DocumentMarks::VDPImageBase::getRefBoxes
+    * 18028d600 DocumentMarks::VDPImageBase::getRefObjects
+  callees of 18001f660:
+    (none)
+
+=== ADDR 18001f680
+  function: 18001f680 DocumentMarks::BearerBar::getLocation
+  references to (18001f680):
+    <- 1803b9d7c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f680:
+    (none)
+
+=== ADDR 18001f690
+  function: 18001f690 DocumentMarks::BearerBar::getMarkType
+  references to (18001f690):
+    <- 1803b9d98 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1803051d8 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f690:
+    (none)
+
+=== ADDR 18001f6a0
+  function: 18001f6a0 DocumentMarks::BearerBar::getOffset
+  references to (18001f6a0):
+    <- 1803b9e20 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f6a0:
+    (none)
+
+=== ADDR 18001f6b0
+  function: 18001f6b0 DocumentMarks::BearerBar::getWidth
+  references to (18001f6b0):
+    <- 1803b9fa0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f6b0:
+    (none)
+
+=== ADDR 18001f870
+  function: 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+  references to (18001f870):
+    <- 1803ba04c [DATA] in (data)
+    <- 18048d3e0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180305210 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001f870:
+    -> EXTERNAL:000001cf DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+    -> 180103b00 FUN_180103b00
+    -> EXTERNAL:00000204 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+    -> EXTERNAL:00000205 DOCUMENT.DLL::ArtDoc::Dictionary::GetBoolValue
+    -> 1802d6cb0 __security_check_cookie
+    -> 180076080 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+    -> 180010070 FUN_180010070
+    -> EXTERNAL:000001ce DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+
+=== ADDR 18001fdb0
+  function: 18001fdb0 DocumentMarks::BearerBar::regenerateMarkImp
+  references to (18001fdb0):
+    <- 1803ba114 [DATA] in (data)
+    <- 18048d3f8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180305260 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18001fdb0:
+    -> EXTERNAL:00000206 DOCUMENT.DLL::ArtDoc::Fillable::IsFilled
+    -> EXTERNAL:00000209 DOCUMENT.DLL::ArtDoc::Path::Path
+    -> 1800f7d70 FUN_1800f7d70
+    -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> 1800964d0 DocumentMarks::DynamicObject::getPositionRefBBox
+    -> EXTERNAL:0000020d DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Get
+    -> 1802d6b50 FUN_1802d6b50
+    -> EXTERNAL:0000009f DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+    -> EXTERNAL:0000009e DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+    -> 180095420 DocumentMarks::DynamicObject::applyColor
+    -> EXTERNAL:0000020c DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::~Factory
+    -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+    -> 18001edf0 FUN_18001edf0
+    -> EXTERNAL:00000207 DOCUMENT.DLL::ArtDoc::Fillable::SetFillPaint
+    -> 18001b3e0 FUN_18001b3e0
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 18001de60 FUN_18001de60
+    -> 180119370 DocumentMarks::GetMarksDebugLevel
+    -> EXTERNAL:00000208 DOCUMENT.DLL::ArtDoc::Fillable::GetFillPaint
+    -> EXTERNAL:0000020b DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Factory
+    -> 1800f79a0 FUN_1800f79a0
+
+=== ADDR 1800206d0
+  function: 1800206d0 DocumentMarks::PDFPlusBearerBar::SetExtend
+  references to (1800206d0):
+    <- 1803b9734 [DATA] in (data)
+    <- 1803ba1e4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180170df5 [UNCONDITIONAL_CALL] in 180170c20 FUN_180170c20
+    <- 1800aa2bb [DATA] in 1800aa260 DocumentMarks::SetBearerBarExtend
+    <- 1800aa2c2 [DATA] in 1800aa260 DocumentMarks::SetBearerBarExtend
+  callers (functions):
+    * (data)
+    * 180170c20 FUN_180170c20
+    * 1800aa260 DocumentMarks::SetBearerBarExtend
+  callees of 1800206d0:
+    (none)
+
+=== ADDR 1800206e0
+  function: 1800206e0 DocumentMarks::BearerBar::setLocation
+  references to (1800206e0):
+    <- 1803ba1f4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 1800206e0:
+    (none)
+
+=== ADDR 1800206f0
+  function: 1800206f0 DocumentMarks::BearerBar::setOffset
+  references to (1800206f0):
+    <- 1803ba200 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 1800206f0:
+    (none)
+
+=== ADDR 180020700
+  function: 180020700 DocumentMarks::PDFPlusBearerBar::SetOffset
+  references to (180020700):
+    <- 1803b97ac [DATA] in (data)
+    <- 1803ba248 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18017a2c4 [UNCONDITIONAL_CALL] in 180179da0 FUN_180179da0
+    <- 1800aa41b [DATA] in 1800aa3c0 DocumentMarks::SetBearerBarOffset
+    <- 1800aa422 [DATA] in 1800aa3c0 DocumentMarks::SetBearerBarOffset
+  callers (functions):
+    * (data)
+    * 180179da0 FUN_180179da0
+    * 1800aa3c0 DocumentMarks::SetBearerBarOffset
+  callees of 180020700:
+    (none)
+
+=== ADDR 180020950
+  function: 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+  references to (180020950):
+    <- 1803ba260 [DATA] in (data)
+    <- 18048d458 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180305258 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180020950:
+    -> EXTERNAL:000001c9 DOCUMENT.DLL::ArtDoc::Dictionary::~Dictionary
+    -> 1800989d0 DocumentMarks::DynamicObject::updatePdfPropertiesDictImp
+    -> EXTERNAL:000001cc DOCUMENT.DLL::ArtDoc::Dictionary::AddDictionary
+    -> 1802d6cb0 __security_check_cookie
+    -> EXTERNAL:000001d1 DOCUMENT.DLL::ArtDoc::Dictionary::Dictionary
+    -> 180010070 FUN_180010070
+    -> EXTERNAL:00000203 DOCUMENT.DLL::ArtDoc::Dictionary::AddFloat
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> EXTERNAL:000001ca DOCUMENT.DLL::ArtDoc::Dictionary::AddInteger
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+
+=== ADDR 18001c690
+  function: 18001c690 DocumentMarks::PDFPlusBearerBar::GetOffset
+  references to (18001c690):
+    <- 1803b9250 [DATA] in (data)
+    <- 1803b9254 [DATA] in (data)
+    <- 1803b92a0 [DATA] in (data)
+    <- 1803b92d8 [DATA] in (data)
+    <- 1803b93e8 [DATA] in (data)
+    <- 1803b940c [DATA] in (data)
+    <- 1803b9410 [DATA] in (data)
+    <- 1803b9414 [DATA] in (data)
+    <- 1803b9ce8 [DATA] in (data)
+    <- 1803b9d68 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180107062 [UNCONDITIONAL_CALL] in 180106be0 FUN_180106be0
+    <- 1801070cc [UNCONDITIONAL_CALL] in 180106be0 FUN_180106be0
+    <- 18010711d [UNCONDITIONAL_CALL] in 180106be0 FUN_180106be0
+    <- 1800736ad [UNCONDITIONAL_CALL] in 180073690 FUN_180073690
+    <- 18007377d [UNCONDITIONAL_CALL] in 180073760 FUN_180073760
+    <- 1800737cd [UNCONDITIONAL_CALL] in 1800737b0 FUN_1800737b0
+    <- 18010d9da [UNCONDITIONAL_CALL] in 18010d970 FUN_18010d970
+    <- 1800b5e73 [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 1800b5e9b [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 1801089c8 [UNCONDITIONAL_CALL] in 1801089b0 FUN_1801089b0
+    <- 180184cf1 [UNCONDITIONAL_CALL] in 180184c90 FUN_180184c90
+    <- 18018937b [UNCONDITIONAL_CALL] in 180189210 FUN_180189210
+    <- 18018feec [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 18018ff31 [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 18018cfc9 [UNCONDITIONAL_CALL] in 18018cd00 FUN_18018cd00
+    <- 180191c57 [UNCONDITIONAL_CALL] in 180191650 FUN_180191650
+    <- 180191d53 [UNCONDITIONAL_CALL] in 180191d10 FUN_180191d10
+    <- 18018d408 [UNCONDITIONAL_CALL] in 18018d340 FUN_18018d340
+    <- 18018db77 [UNCONDITIONAL_CALL] in 18018d8e0 FUN_18018d8e0
+    <- 18018db9b [UNCONDITIONAL_CALL] in 18018d8e0 FUN_18018d8e0
+    <- 18018e053 [UNCONDITIONAL_CALL] in 18018def0 FUN_18018def0
+    <- 1801950c5 [UNCONDITIONAL_CALL] in 180194f70 FUN_180194f70
+    <- 18022b086 [UNCONDITIONAL_CALL] in 18022b030 FUN_18022b030
+    <- 18022b186 [UNCONDITIONAL_CALL] in 18022b030 FUN_18022b030
+    <- 18022b286 [UNCONDITIONAL_CALL] in 18022b030 FUN_18022b030
+    <- 18027954c [UNCONDITIONAL_CALL] in 180279540 FUN_180279540
+    <- 1800aa3f1 [DATA] in 1800aa3c0 DocumentMarks::SetBearerBarOffset
+    <- 1800aa3f8 [DATA] in 1800aa3c0 DocumentMarks::SetBearerBarOffset
+    <- 1800ad93a [DATA] in 1800ad910 DocumentMarks::SetCutMarkOffset
+    <- 1800ad941 [DATA] in 1800ad910 DocumentMarks::SetCutMarkOffset
+    <- 1800adb38 [DATA] in 1800adb10 DocumentMarks::SetCutMarkOffset
+    <- 1800adb3f [DATA] in 1800adb10 DocumentMarks::SetCutMarkOffset
+    <- 1800b0977 [DATA] in 1800b0950 DocumentMarks::SetExternalFileMarkURI
+    <- 1800b097e [DATA] in 1800b0950 DocumentMarks::SetExternalFileMarkURI
+  callers (functions):
+    * (data)
+    * 180106be0 FUN_180106be0
+    * 180073690 FUN_180073690
+    * 180073760 FUN_180073760
+    * 1800737b0 FUN_1800737b0
+    * 18010d970 FUN_18010d970
+    * 1800b5560 FUN_1800b5560
+    * 1801089b0 FUN_1801089b0
+    * 180184c90 FUN_180184c90
+    * 180189210 FUN_180189210
+    * 18018f990 FUN_18018f990
+    * 18018cd00 FUN_18018cd00
+    * 180191650 FUN_180191650
+    * 180191d10 FUN_180191d10
+    * 18018d340 FUN_18018d340
+    * 18018d8e0 FUN_18018d8e0
+    * 18018def0 FUN_18018def0
+    * 180194f70 FUN_180194f70
+    * 18022b030 FUN_18022b030
+    * 180279540 FUN_180279540
+    * 1800aa3c0 DocumentMarks::SetBearerBarOffset
+    * 1800ad910 DocumentMarks::SetCutMarkOffset
+    * 1800adb10 DocumentMarks::SetCutMarkOffset
+    * 1800b0950 DocumentMarks::SetExternalFileMarkURI
+  callees of 18001c690:
+    (none)
+
+=== ADDR 18012faa0
+  function: 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+  references to (18012faa0):
+    <- 1803b828c [DATA] in (data)
+    <- 180498720 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18016f2a0 [UNCONDITIONAL_CALL] in 18016f250 FUN_18016f250
+  callers (functions):
+    * (data)
+    * 18016f250 FUN_18016f250
+  callees of 18012faa0:
+    -> 180026ca0 FUN_180026ca0
+    -> 1800919c0 FUN_1800919c0
+    -> 180073340 DocumentMarks::DynamicMark::SetSourceContent
+    -> 180201680 FUN_180201680
+    -> 180094e20 DocumentMarks::DynamicObject::SetTargetSeparations
+    -> 18010b790 DocumentMarks::MarkPosition::setAnchors
+    -> 18006d6f0 DocumentMarks::DynamicMark::DynamicMark
+    -> 180022e80 FUN_180022e80
+    -> 18010bd10 DocumentMarks::MarkPosition::setReferenceObject
+    -> 180098840 DocumentMarks::DynamicObject::setColorType
+
+=== ADDR 18012ff20
+  function: 18012ff20 DocumentMarks::PDFPlusBearerBar::Clone
+  references to (18012ff20):
+    <- 1803b8cb4 [DATA] in (data)
+    <- 18049875c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1803229b8 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18012ff20:
+    -> 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    -> 1802d6b50 FUN_1802d6b50
+
+=== ADDR 18012ff70
+  function: 18012ff70 DocumentMarks::PDFPlusBearerBar::CollectGrids
+  references to (18012ff70):
+    <- 1803b8d18 [DATA] in (data)
+    <- 180498768 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1801301be [UNCONDITIONAL_CALL] in 1801300a0 DocumentMarks::PDFPlusBearerBar::ContentChangedSelf
+    <- 180132329 [UNCONDITIONAL_CALL] in 1801322d0 FUN_1801322d0
+  callers (functions):
+    * (data)
+    * 1801300a0 DocumentMarks::PDFPlusBearerBar::ContentChangedSelf
+    * 1801322d0 FUN_1801322d0
+  callees of 18012ff70:
+    -> 1800188b0 FUN_1800188b0
+    -> EXTERNAL:000001c7 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::ConstVisitorBase
+    -> 1802d6cb0 __security_check_cookie
+    -> EXTERNAL:000001c6 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+    -> 180131eb0 FUN_180131eb0
+
+=== ADDR 1801300a0
+  function: 1801300a0 DocumentMarks::PDFPlusBearerBar::ContentChangedSelf
+  references to (1801300a0):
+    <- 1803b8d5c [DATA] in (data)
+    <- 180498774 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1803229e8 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 1801300a0:
+    -> 18009da20 FUN_18009da20
+    -> 180032cc0 FUN_180032cc0
+    -> 180132660 FUN_180132660
+    -> 18008d310 FUN_18008d310
+    -> 1802d6cb0 __security_check_cookie
+    -> 180019f60 FUN_180019f60
+    -> EXTERNAL:00000228 DOCUMENT.DLL::ArtDoc::Document::GetChangeTrackerToConnectOn
+    -> 180119ee0 FUN_180119ee0
+    -> 180029bc0 FUN_180029bc0
+    -> 18002b2e0 FUN_18002b2e0
+    -> 18002ce80 FUN_18002ce80
+    -> 18002c1e0 FUN_18002c1e0
+    -> 180132560 FUN_180132560
+    -> 1801325e0 FUN_1801325e0
+    -> 18002e680 FUN_18002e680
+    -> 18002dbc0 FUN_18002dbc0
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> EXTERNAL:000002fb DOCUMENT.DLL::ArtDoc::Document::GetChangeCollector
+    -> 180070b50 DocumentMarks::DynamicMark::ContentChangedSelf
+    -> 180032b30 DocumentMarks::GetChangeTracker
+    -> 18012ff70 DocumentMarks::PDFPlusBearerBar::CollectGrids
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 1801324e0 FUN_1801324e0
+    -> EXTERNAL:0000019e DOCUMENT.DLL::ArtDoc::Content::GetDocument
+
+=== ADDR 180130cc0
+  function: 180130cc0 DocumentMarks::PDFPlusBearerBar::GetDirection
+  references to (180130cc0):
+    <- 1803b9140 [DATA] in (data)
+    <- 1803b92ec [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180189099 [UNCONDITIONAL_CALL] in 180188f40 FUN_180188f40
+    <- 18018ff07 [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 1801904e0 [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 180193cf6 [UNCONDITIONAL_CALL] in 180193cd0 FUN_180193cd0
+    <- 180193f1e [UNCONDITIONAL_CALL] in 180193ee0 FUN_180193ee0
+    <- 1800bef34 [DATA] in 1800bef00 DocumentMarks::SetRepeatForGridMarkRepeatFor
+    <- 1800bef3b [DATA] in 1800bef00 DocumentMarks::SetRepeatForGridMarkRepeatFor
+  callers (functions):
+    * (data)
+    * 180188f40 FUN_180188f40
+    * 18018f990 FUN_18018f990
+    * 1801900d0 FUN_1801900d0
+    * 180193cd0 FUN_180193cd0
+    * 180193ee0 FUN_180193ee0
+    * 1800bef00 DocumentMarks::SetRepeatForGridMarkRepeatFor
+  callees of 180130cc0:
+    (none)
+
+=== ADDR 180130cd0
+  function: 180130cd0 DocumentMarks::PDFPlusBearerBar::GetNecessaryReferenceObjects
+  references to (180130cd0):
+    <- 1803b9224 [DATA] in (data)
+    <- 18049878c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180048374 [UNCONDITIONAL_CALL] in 180048360 FUN_180048360
+  callers (functions):
+    * (data)
+    * 180048360 FUN_180048360
+  callees of 180130cd0:
+    -> 18003c5a0 FUN_18003c5a0
+
+=== ADDR 180131ac0
+  function: 180131ac0 DocumentMarks::PDFPlusBearerBar::GetReferenceObject
+  references to (180131ac0):
+    <- 1803b92d0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18010daa6 [UNCONDITIONAL_CALL] in 18010d970 FUN_18010d970
+    <- 1800b5fa3 [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 1800b5fd1 [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 180108908 [UNCONDITIONAL_CALL] in 1801088f0 FUN_1801088f0
+    <- 18018faf8 [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 180190175 [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 1802794dc [UNCONDITIONAL_CALL] in 1802794d0 FUN_1802794d0
+  callers (functions):
+    * (data)
+    * 18010d970 FUN_18010d970
+    * 1800b5560 FUN_1800b5560
+    * 1801088f0 FUN_1801088f0
+    * 18018f990 FUN_18018f990
+    * 1801900d0 FUN_1801900d0
+    * 1802794d0 FUN_1802794d0
+  callees of 180131ac0:
+    (none)
+
+=== ADDR 180131ad0
+  function: 180131ad0 DocumentMarks::PDFPlusBearerBar::GetSizeReference
+  references to (180131ad0):
+    <- 1803b9334 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1800b60b8 [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 1800b60ce [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 18018fc9e [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 18018fd8f [UNCONDITIONAL_CALL] in 18018f990 FUN_18018f990
+    <- 180190165 [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 1801903fa [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 1800aa554 [DATA] in 1800aa520 DocumentMarks::SetBearerBarSizeReference
+    <- 1800aa55b [DATA] in 1800aa520 DocumentMarks::SetBearerBarSizeReference
+  callers (functions):
+    * (data)
+    * 1800b5560 FUN_1800b5560
+    * 18018f990 FUN_18018f990
+    * 1801900d0 FUN_1801900d0
+    * 1800aa520 DocumentMarks::SetBearerBarSizeReference
+  callees of 180131ad0:
+    (none)
+
+=== ADDR 180131ae0
+  function: 180131ae0 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+  references to (180131ae0):
+    <- 1803b9810 [DATA] in (data)
+    <- 1804987c8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1800b601d [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 1800b7639 [UNCONDITIONAL_CALL] in 1800b7190 FUN_1800b7190
+    <- 1800b9173 [UNCONDITIONAL_CALL] in 1800b8cc0 FUN_1800b8cc0
+    <- 18010deb9 [UNCONDITIONAL_CALL] in 18010dcf0 FUN_18010dcf0
+    <- 18010ded1 [UNCONDITIONAL_CALL] in 18010dcf0 FUN_18010dcf0
+    <- 180132957 [UNCONDITIONAL_CALL] in 1801326e0 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+    <- 180179ff6 [UNCONDITIONAL_CALL] in 180179da0 FUN_180179da0
+    <- 18017a174 [UNCONDITIONAL_CALL] in 180179da0 FUN_180179da0
+    <- 1801868d6 [UNCONDITIONAL_CALL] in 180186870 FUN_180186870
+  callers (functions):
+    * (data)
+    * 1800b5560 FUN_1800b5560
+    * 1800b7190 FUN_1800b7190
+    * 1800b8cc0 FUN_1800b8cc0
+    * 18010dcf0 FUN_18010dcf0
+    * 1801326e0 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+    * 180179da0 FUN_180179da0
+    * 180186870 FUN_180186870
+  callees of 180131ae0:
+    -> 1800b2740 FUN_1800b2740
+    -> 180013c20 FUN_180013c20
+
+=== ADDR 180131c30
+  function: 180131c30 DocumentMarks::PDFPlusBearerBar::SetSizeReference
+  references to (180131c30):
+    <- 1803b98a8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1800b769e [UNCONDITIONAL_CALL] in 1800b7190 FUN_1800b7190
+    <- 1800b91d6 [UNCONDITIONAL_CALL] in 1800b8cc0 FUN_1800b8cc0
+    <- 180170d60 [UNCONDITIONAL_CALL] in 180170c20 FUN_180170c20
+    <- 1800aa57e [DATA] in 1800aa520 DocumentMarks::SetBearerBarSizeReference
+    <- 1800aa585 [DATA] in 1800aa520 DocumentMarks::SetBearerBarSizeReference
+  callers (functions):
+    * (data)
+    * 1800b7190 FUN_1800b7190
+    * 1800b8cc0 FUN_1800b8cc0
+    * 180170c20 FUN_180170c20
+    * 1800aa520 DocumentMarks::SetBearerBarSizeReference
+  callees of 180131c30:
+    (none)
+
+=== ADDR 180131c40
+  function: 180131c40 DocumentMarks::PDFPlusBearerBar::UpdateDirection
+  references to (180131c40):
+    <- 1803b9a04 [DATA] in (data)
+    <- 1804987d4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180132aba [UNCONDITIONAL_CALL] in 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callers (functions):
+    * (data)
+    * 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callees of 180131c40:
+    -> EXTERNAL:000004b7 YAGL.DLL::YAGL::ToVertical
+
+=== ADDR 180131cb0
+  function: 180131cb0 DocumentMarks::PDFPlusBearerBar::UpdateMarkErrors
+  references to (180131cb0):
+    <- 1803b9a20 [DATA] in (data)
+    <- 1804987e0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a60 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180131cb0:
+    -> 180108070 FUN_180108070
+    -> 180010320 FUN_180010320
+    -> 180130a20 FUN_180130a20
+    -> 180105b40 FUN_180105b40
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+
+=== ADDR 180131dc0
+  function: 180131dc0 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+  references to (180131dc0):
+    <- 1803b9a68 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1800b60c6 [UNCONDITIONAL_CALL] in 1800b5560 FUN_1800b5560
+    <- 180132aca [UNCONDITIONAL_CALL] in 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callers (functions):
+    * (data)
+    * 1800b5560 FUN_1800b5560
+    * 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callees of 180131dc0:
+    (none)
+
+=== ADDR 180131e30
+  function: 180131e30 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+  references to (180131e30):
+    <- 1803b9a70 [DATA] in (data)
+    <- 1804987ec [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180132ac2 [UNCONDITIONAL_CALL] in 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callers (functions):
+    * (data)
+    * 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  callees of 180131e30:
+    -> EXTERNAL:000004b6 YAGL.DLL::YAGL::ToHorizontal
+    -> 18010b790 DocumentMarks::MarkPosition::setAnchors
+    -> EXTERNAL:000004b7 YAGL.DLL::YAGL::ToVertical
+
+=== ADDR 180131fe0
+  function: 180131fe0 DocumentMarks::PDFPlusBearerBar::getMarkType
+  references to (180131fe0):
+    <- 1803b9db8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a10 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180131fe0:
+    (none)
+
+=== ADDR 180131ff0
+  function: 180131ff0 DocumentMarks::PDFPlusBearerBar::getPositionRefBBox
+  references to (180131ff0):
+    <- 1803b9e54 [DATA] in (data)
+    <- 180498804 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322ab0 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180131ff0:
+    -> EXTERNAL:00000279 DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+    -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+    -> EXTERNAL:00000229 DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+    -> 18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+    -> EXTERNAL:00000306 DOCUMENT.DLL::ArtDoc::GetTopLevelTargetContent
+    -> EXTERNAL:0000023c DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+    -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 180096b20 DocumentMarks::DynamicObject::isNotLinkedYet
+
+=== ADDR 180132190
+  function: 180132190 DocumentMarks::PDFPlusBearerBar::getPositionRefObject
+  references to (180132190):
+    <- 1803b9e64 [DATA] in (data)
+    <- 180498810 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322aa8 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180132190:
+    -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+
+=== ADDR 1801321d0
+  function: 1801321d0 DocumentMarks::PDFPlusBearerBar::getRefBoxes
+  references to (1801321d0):
+    <- 1803b9ea0 [DATA] in (data)
+    <- 18049881c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a78 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 1801321d0:
+    -> 18012f730 FUN_18012f730
+
+=== ADDR 180132220
+  function: 180132220 DocumentMarks::PDFPlusBearerBar::getRefObjects
+  references to (180132220):
+    <- 1803b9f0c [DATA] in (data)
+    <- 180498828 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a80 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180132220:
+    -> 18003c5a0 FUN_18003c5a0
+    -> 18003ca10 FUN_18003ca10
+
+=== ADDR 1801322b0
+  function: 1801322b0 DocumentMarks::PDFPlusBearerBar::hasPositionRef
+  references to (1801322b0):
+    <- 1803b9fb0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322aa0 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 1801322b0:
+    (none)
+
+=== ADDR 1801326e0
+  function: 1801326e0 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+  references to (1801326e0):
+    <- 1803ba0a8 [DATA] in (data)
+    <- 180498894 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a30 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 1801326e0:
+    -> 1802d7d72 VCRUNTIME140.DLL::memcmp
+    -> 1802d6cb0 __security_check_cookie
+    -> 180131ae0 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+    -> EXTERNAL:00000299 DOCUMENT.DLL::ArtDoc::Properties::Erase
+    -> EXTERNAL:0000025f DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+    -> 1802746e0 FUN_1802746e0
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> EXTERNAL:00000194 DOCUMENT.DLL::ArtDoc::ContentObject::GetID
+    -> 180016510 FUN_180016510
+    -> 18004e5d0 FUN_18004e5d0
+    -> EXTERNAL:000003b5 DOCUMENT.DLL::ArtDoc::CloneStrategy::GetOriginalObject
+    -> EXTERNAL:00000279 DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+    -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+    -> 1802d7d48 VCRUNTIME140.DLL::__std_type_info_compare
+    -> 180025a80 FUN_180025a80
+    -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 18012f6b0 FUN_18012f6b0
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 1800135b0 FUN_1800135b0
+    -> 180013c20 FUN_180013c20
+    -> EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 1800764a0 DocumentMarks::DynamicMark::postProcessClonedMark
+
+=== ADDR 180132a70
+  function: 180132a70 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  references to (180132a70):
+    <- 1803ba138 [DATA] in (data)
+    <- 1804988a0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322a98 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180132a70:
+    -> 1800188b0 FUN_1800188b0
+    -> 180072e90 DocumentMarks::DynamicMark::GetSourceContent
+    -> 18006fd00 DocumentMarks::DynamicMark::ApplyPDFPlusColor
+    -> EXTERNAL:00000197 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::~ActionGroupCreator
+    -> 1802d6b50 FUN_1802d6b50
+    -> 180130e10 FUN_180130e10
+    -> EXTERNAL:00000279 DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+    -> 18012d9d0 DocumentMarks::GetPDFPlusBoundingBox
+    -> 180131e30 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+    -> EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> EXTERNAL:000000db DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectOnTop
+    -> 180040520 FUN_180040520
+    -> EXTERNAL:00000240 DOCUMENT.DLL::ArtPaint::FormPaint::GetContent
+    -> 1802d6cb0 __security_check_cookie
+    -> 180041420 FUN_180041420
+    -> 180131c40 DocumentMarks::PDFPlusBearerBar::UpdateDirection
+    -> EXTERNAL:00000267 DOCUMENT.DLL::ArtDoc::Group::Group
+    -> EXTERNAL:00000263 DOCUMENT.DLL::ArtDoc::Transformable::SetTransformation
+    -> EXTERNAL:00000196 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::ActionGroupCreator
+    -> EXTERNAL:000000d1 DOCUMENTEDIT.DLL::DocumentEdit::Expander::Expander
+    -> EXTERNAL:000000dc DOCUMENTEDIT.DLL::DocumentEdit::Expander::~Expander
+    -> EXTERNAL:000000de DOCUMENTEDIT.DLL::DocumentEdit::Delete
+    -> EXTERNAL:00000229 DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+    -> 18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+    -> 180084f50 FUN_180084f50
+    -> EXTERNAL:0000023c DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+    -> 180131dc0 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+    -> EXTERNAL:000004b6 YAGL.DLL::YAGL::ToHorizontal
+    -> EXTERNAL:000004b7 YAGL.DLL::YAGL::ToVertical
+    -> EXTERNAL:0000019e DOCUMENT.DLL::ArtDoc::Content::GetDocument
+
+=== ADDR 1800a26c0
+  function: 1800a26c0 DocumentMarks::PDFPlusBarcodeMark::GetCodeFormula
+  references to (1800a26c0):
+    <- 1803b9100 [DATA] in (data)
+    <- 1803b918c [DATA] in (data)
+    <- 1803b9394 [DATA] in (data)
+    <- 1803b9f8c [DATA] in (data)
+    <- 1803b9f90 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180065ef4 [UNCONDITIONAL_CALL] in 180065c80 FUN_180065c80
+    <- 180065f75 [UNCONDITIONAL_CALL] in 180065c80 FUN_180065c80
+    <- 1800c01fb [UNCONDITIONAL_CALL] in 1800c01b0 FUN_1800c01b0
+    <- 1800c186b [UNCONDITIONAL_CALL] in 1800c1820 FUN_1800c1820
+    <- 18011c0c0 [UNCONDITIONAL_CALL] in 18011c0b0 FUN_18011c0b0
+    <- 18011c694 [UNCONDITIONAL_CALL] in 18011c610 FUN_18011c610
+    <- 18011c71e [UNCONDITIONAL_CALL] in 18011c610 FUN_18011c610
+    <- 1801707d9 [UNCONDITIONAL_CALL] in 1801707a0 FUN_1801707a0
+    <- 180189a34 [UNCONDITIONAL_CALL] in 1801899d0 FUN_1801899d0
+    <- 180189af0 [UNCONDITIONAL_CALL] in 1801899d0 FUN_1801899d0
+    <- 18018a1e6 [UNCONDITIONAL_CALL] in 18018a1e0 FUN_18018a1e0
+    <- 18018a2e6 [UNCONDITIONAL_CALL] in 18018a2e0 FUN_18018a2e0
+    <- 18018a4e6 [UNCONDITIONAL_CALL] in 18018a4e0 FUN_18018a4e0
+    <- 18018a6a6 [UNCONDITIONAL_CALL] in 18018a6a0 FUN_18018a6a0
+    <- 18018c360 [UNCONDITIONAL_CALL] in 18018c200 FUN_18018c200
+    <- 18018c4a6 [UNCONDITIONAL_CALL] in 18018c200 FUN_18018c200
+    <- 18019046c [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 180190483 [UNCONDITIONAL_CALL] in 1801900d0 FUN_1801900d0
+    <- 18018e22d [UNCONDITIONAL_CALL] in 18018e150 FUN_18018e150
+    <- 18018e38c [UNCONDITIONAL_CALL] in 18018e150 FUN_18018e150
+    <- 18018ed96 [UNCONDITIONAL_CALL] in 18018ecd0 FUN_18018ecd0
+    <- 18018f206 [UNCONDITIONAL_CALL] in 18018f140 FUN_18018f140
+    <- 18018f52e [UNCONDITIONAL_CALL] in 18018f460 FUN_18018f460
+    <- 1801e7096 [UNCONDITIONAL_CALL] in 1801e7040 FUN_1801e7040
+    <- 18025ebde [UNCONDITIONAL_CALL] in 18025eb70 FUN_18025eb70
+    <- 18025eebd [UNCONDITIONAL_CALL] in 18025ee30 DocumentMarks::UniversalTextAction::UniversalTextAction
+    <- 18025f332 [UNCONDITIONAL_CALL] in 18025f310 DocumentMarks::UniversalTextAction::DoActionSelf
+    <- 18025fb95 [UNCONDITIONAL_CALL] in 18025f6a0 DocumentMarks::SetUniversalTextProperty
+    <- 18026014c [UNCONDITIONAL_CALL] in 18025ff50 DocumentMarks::SetUniversalTextProperty
+    <- 1802797e9 [UNCONDITIONAL_CALL] in 180279750 FUN_180279750
+    <- 18018c475 [UNCONDITIONAL_CALL] in 18018c200 FUN_18018c200
+    <- 1800aa291 [DATA] in 1800aa260 DocumentMarks::SetBearerBarExtend
+    <- 1800aa298 [DATA] in 1800aa260 DocumentMarks::SetBearerBarExtend
+    <- 1800a90f7 [DATA] in 1800a90d0 DocumentMarks::SetBarcodeMarkCode
+    <- 1800a90fe [DATA] in 1800a90d0 DocumentMarks::SetBarcodeMarkCode
+  callers (functions):
+    * (data)
+    * 180065c80 FUN_180065c80
+    * 1800c01b0 FUN_1800c01b0
+    * 1800c1820 FUN_1800c1820
+    * 18011c0b0 FUN_18011c0b0
+    * 18011c610 FUN_18011c610
+    * 1801707a0 FUN_1801707a0
+    * 1801899d0 FUN_1801899d0
+    * 18018a1e0 FUN_18018a1e0
+    * 18018a2e0 FUN_18018a2e0
+    * 18018a4e0 FUN_18018a4e0
+    * 18018a6a0 FUN_18018a6a0
+    * 18018c200 FUN_18018c200
+    * 1801900d0 FUN_1801900d0
+    * 18018e150 FUN_18018e150
+    * 18018ecd0 FUN_18018ecd0
+    * 18018f140 FUN_18018f140
+    * 18018f460 FUN_18018f460
+    * 1801e7040 FUN_1801e7040
+    * 18025eb70 FUN_18025eb70
+    * 18025ee30 DocumentMarks::UniversalTextAction::UniversalTextAction
+    * 18025f310 DocumentMarks::UniversalTextAction::DoActionSelf
+    * 18025f6a0 DocumentMarks::SetUniversalTextProperty
+    * 18025ff50 DocumentMarks::SetUniversalTextProperty
+    * 180279750 FUN_180279750
+    * 1800aa260 DocumentMarks::SetBearerBarExtend
+    * 1800a90d0 DocumentMarks::SetBarcodeMarkCode
+  callees of 1800a26c0:
+    (none)
+
+=== ADDR 1800aa260
+  function: 1800aa260 DocumentMarks::SetBearerBarExtend
+  references to (1800aa260):
+    <- 1803b9674 [DATA] in (data)
+    <- 180493a1c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 1800aa260:
+    -> 1802d6b50 FUN_1802d6b50
+    -> 1800188c0 FUN_1800188c0
+    -> 1802d6cb0 __security_check_cookie
+    -> 1800a9e10 FUN_1800a9e10
+    -> EXTERNAL:00000298 DOCUMENT.DLL::ArtDoc::Action::GetActionList
+    -> EXTERNAL:00000297 DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+
+=== ADDR 1800aa3c0
+  function: 1800aa3c0 DocumentMarks::SetBearerBarOffset
+  references to (1800aa3c0):
+    <- 1803b9678 [DATA] in (data)
+    <- 180493a28 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 1800aa3c0:
+    -> 1802d6b50 FUN_1802d6b50
+    -> 1800188c0 FUN_1800188c0
+    -> 1802d6cb0 __security_check_cookie
+    -> 1800a9e10 FUN_1800a9e10
+    -> EXTERNAL:00000298 DOCUMENT.DLL::ArtDoc::Action::GetActionList
+    -> EXTERNAL:00000297 DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+
+=== ADDR 1800aa520
+  function: 1800aa520 DocumentMarks::SetBearerBarSizeReference
+  references to (1800aa520):
+    <- 1803b967c [DATA] in (data)
+    <- 180493a34 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+  callers (functions):
+    * (data)
+  callees of 1800aa520:
+    -> 1802d6b50 FUN_1802d6b50
+    -> 1800188c0 FUN_1800188c0
+    -> 1802d6cb0 __security_check_cookie
+    -> 1800a9fd0 FUN_1800a9fd0
+    -> EXTERNAL:00000298 DOCUMENT.DLL::ArtDoc::Action::GetActionList
+    -> EXTERNAL:00000297 DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+
+=== ADDR 180127bf0
+  function: 180127bf0 DocumentMarks::PDFPlusBarcodeMark::GetBoundingBoxSelf
+  references to (180127bf0):
+    <- 1803b9074 [DATA] in (data)
+    <- 1803b9078 [DATA] in (data)
+    <- 1803b907c [DATA] in (data)
+    <- 1803b9080 [DATA] in (data)
+    <- 1803b9084 [DATA] in (data)
+    <- 1803b9088 [DATA] in (data)
+    <- 1803b908c [DATA] in (data)
+    <- 1803b9090 [DATA] in (data)
+    <- 1803b9094 [DATA] in (data)
+    <- 1803b9098 [DATA] in (data)
+    <- 1803b909c [DATA] in (data)
+    <- 1803b90a0 [DATA] in (data)
+    <- 1803b90a4 [DATA] in (data)
+    <- 1803b90a8 [DATA] in (data)
+    <- 18049836c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1803221b8 [DATA] in (data)
+    <- 1803229e0 [DATA] in (data)
+    <- 180322ce0 [DATA] in (data)
+    <- 1803231e0 [DATA] in (data)
+    <- 180323538 [DATA] in (data)
+    <- 180323bc8 [DATA] in (data)
+    <- 180325928 [DATA] in (data)
+    <- 180329190 [DATA] in (data)
+    <- 1803296b8 [DATA] in (data)
+    <- 180329908 [DATA] in (data)
+    <- 18032a7d0 [DATA] in (data)
+    <- 18032b458 [DATA] in (data)
+    <- 18032bd10 [DATA] in (data)
+    <- 18032c930 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 180127bf0:
+    -> 180094530 DocumentMarks::DynamicObject::GetPDFPlusBoundingBox
+    -> 18004c280 FUN_18004c280
+    -> EXTERNAL:00000201 DOCUMENT.DLL::ArtDoc::Group::GetBoundingBoxSelf
+
+=== ADDR 1801288b0
+  function: 1801288b0 DocumentMarks::PDFPlusBarcodeMark::SetTargetSeparationsImp
+  references to (1801288b0):
+    <- 1803b98e4 [DATA] in (data)
+    <- 1803b98e8 [DATA] in (data)
+    <- 1803b98f0 [DATA] in (data)
+    <- 1803b98f4 [DATA] in (data)
+    <- 180498420 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322298 [DATA] in (data)
+    <- 180322ac0 [DATA] in (data)
+    <- 180325a08 [DATA] in (data)
+    <- 18032a8b0 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 1801288b0:
+    -> 1801263f0 FUN_1801263f0
+    -> 180022e80 FUN_180022e80
+    -> 180094700 DocumentMarks::DynamicObject::GetTargetSeparations
+
+=== ADDR 18012ce60
+  function: 18012ce60 DocumentMarks::PDFPlusBarcodeMark::setColorTypeImp
+  references to (18012ce60):
+    <- 1803ba1d8 [DATA] in (data)
+    <- 1803ba1dc [DATA] in (data)
+    <- 1803ba1e0 [DATA] in (data)
+    <- 18049857c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180322290 [DATA] in (data)
+    <- 180322ab8 [DATA] in (data)
+    <- 1803232b8 [DATA] in (data)
+  callers (functions):
+    * (data)
+  callees of 18012ce60:
+    -> 180095cd0 DocumentMarks::DynamicObject::getColorType
+    -> 180098840 DocumentMarks::DynamicObject::setColorType
+
+=== ADDR 180305370
+  function: (none)
+  references to (180305370):
+    <- 180111724 [READ] in 180111410 FUN_180111410
+    <- 18011170f [PARAM] in 180111410 FUN_180111410
+    <- 180305360 [DATA] in (data)
+    <- 18031f360 [DATA] in (data)
+  callers (functions):
+    * 180111410 FUN_180111410
+    * (data)
+
+=== ADDR 180305428
+  function: (none)
+  references to (180305428):
+    <- 18001f9cb [DATA] in 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 18001f9d2 [DATA] in 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+  callers (functions):
+    * 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+
+=== ADDR 180305438
+  function: (none)
+  references to (180305438):
+    <- 18002022b [DATA] in 18001fdb0 DocumentMarks::BearerBar::regenerateMarkImp
+  callers (functions):
+    * 18001fdb0 DocumentMarks::BearerBar::regenerateMarkImp
+
+=== ADDR 180305470
+  function: (none)
+  references to (180305470):
+    <- 18001f285 [DATA] in 18001f160 DocumentMarks::BearerBar::DumpInfo
+  callers (functions):
+    * 18001f160 DocumentMarks::BearerBar::DumpInfo
+
+=== ADDR 180327930
+  function: (none)
+  references to (180327930):
+    <- 18017a30a [DATA] in 180179da0 FUN_180179da0
+    <- 18017a311 [DATA] in 180179da0 FUN_180179da0
+  callers (functions):
+    * 180179da0 FUN_180179da0
+
+=== ADDR 180322b68
+  function: (none)
+  references to (180322b68):
+    <- 180322b58 [DATA] in (data)
+  callers (functions):
+    * (data)
+
+=== ADDR 180326a30
+  function: (none)
+  references to (180326a30):
+    <- 1803263e8 [DATA] in (data)
+  callers (functions):
+    * (data)
+
+=== ADDR 180322980
+  function: (none)
+  references to (180322980):
+    <- 1801328da [PARAM] in 1801326e0 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+    <- 180322938 [DATA] in (data)
+  callers (functions):
+    * 1801326e0 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+    * (data)
+
+=== ADDR 18033d058
+  function: (none)
+  references to (18033d058):
+    <- 18001f8d8 [READ] in 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 18001f8b5 [PARAM] in 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 1800209f7 [READ] in 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+    <- 1800209d4 [PARAM] in 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+    <- 180418998 [DATA] in (data)
+  callers (functions):
+    * 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    * 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+    * (data)
+
+=== ADDR 180418998
+  function: (none)
+  references to (180418998):
+    <- 18001f8b5 [READ] in 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 1800209d4 [READ] in 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+  callers (functions):
+    * 18001f870 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    * 180020950 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+
+=== ADDR 18031f360
+  function: (none)
+  references to (18031f360):
+    <- 18011441b [DATA] in 180113be0 FUN_180113be0
+  callers (functions):
+    * 180113be0 FUN_180113be0
+
+=== ADDR 180305178
+  function: (none)
+  references to (180305178):
+    <- 1803b893c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18001ea6e [DATA] in 18001ea10 FUN_18001ea10
+    <- 18001ea75 [DATA] in 18001ea10 FUN_18001ea10
+    <- 18001e365 [DATA] in 18001e350 DocumentMarks::BearerBar::BearerBar
+    <- 18001e36c [DATA] in 18001e350 DocumentMarks::BearerBar::BearerBar
+    <- 18001e3d4 [DATA] in 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    <- 18001e3db [DATA] in 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    <- 18001e790 [DATA] in 18001e790 DocumentMarks::BearerBar::~BearerBar
+    <- 18001e797 [DATA] in 18001e790 DocumentMarks::BearerBar::~BearerBar
+  callers (functions):
+    * (data)
+    * 18001ea10 FUN_18001ea10
+    * 18001e350 DocumentMarks::BearerBar::BearerBar
+    * 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    * 18001e790 DocumentMarks::BearerBar::~BearerBar
+
+=== ADDR 1803052f8
+  function: (none)
+  references to (1803052f8):
+    <- 1803b8940 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18001ea78 [DATA] in 18001ea10 FUN_18001ea10
+    <- 18001ea7f [DATA] in 18001ea10 FUN_18001ea10
+    <- 18001e36f [DATA] in 18001e350 DocumentMarks::BearerBar::BearerBar
+    <- 18001e376 [DATA] in 18001e350 DocumentMarks::BearerBar::BearerBar
+    <- 18001e3de [DATA] in 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    <- 18001e3e5 [DATA] in 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    <- 18001e79a [DATA] in 18001e790 DocumentMarks::BearerBar::~BearerBar
+    <- 18001e7a1 [DATA] in 18001e790 DocumentMarks::BearerBar::~BearerBar
+  callers (functions):
+    * (data)
+    * 18001ea10 FUN_18001ea10
+    * 18001e350 DocumentMarks::BearerBar::BearerBar
+    * 18001e3c0 DocumentMarks::BearerBar::BearerBar
+    * 18001e790 DocumentMarks::BearerBar::~BearerBar
+
+=== ADDR 1803229b0
+  function: (none)
+  references to (1803229b0):
+    <- 1803b89c0 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18012f8dd [DATA] in 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012f8e4 [DATA] in 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012fac8 [DATA] in 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012facf [DATA] in 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012fd0d [DATA] in 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+    <- 18012fd14 [DATA] in 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+  callers (functions):
+    * (data)
+    * 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    * 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    * 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+
+=== ADDR 180322b30
+  function: (none)
+  references to (180322b30):
+    <- 1803b89c4 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18012f8e7 [DATA] in 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012f8ee [DATA] in 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012fad2 [DATA] in 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012fad9 [DATA] in 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    <- 18012fd17 [DATA] in 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+    <- 18012fd1e [DATA] in 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+  callers (functions):
+    * (data)
+    * 18012f8c0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    * 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    * 18012fcf0 DocumentMarks::PDFPlusBearerBar::~PDFPlusBearerBar
+# DumpXrefs run: DocumentMarks.dll
+
+=== ADDR 18016f250
+  function: 18016f250 FUN_18016f250
+  references to (18016f250):
+    <- 18049a8f8 [DATA] in (data)
+    <- 180175de6 [UNCONDITIONAL_CALL] in 180172550 FUN_180172550
+  callers (functions):
+    * (data)
+    * 180172550 FUN_180172550
+  callees of 18016f250:
+    -> 18012faa0 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+    -> 1802d6b50 FUN_1802d6b50
+
+=== ADDR 180179da0
+  function: 180179da0 FUN_180179da0
+  references to (180179da0):
+    <- 18049ac70 [DATA] in (data)
+    <- 180175ed8 [UNCONDITIONAL_CALL] in 180172550 FUN_180172550
+  callers (functions):
+    * (data)
+    * 180172550 FUN_180172550
+  callees of 180179da0:
+    -> EXTERNAL:0000040b PDFACCESSLAYER.DLL::GADict::GetName
+    -> EXTERNAL:000004b6 YAGL.DLL::YAGL::ToHorizontal
+    -> 180020700 DocumentMarks::PDFPlusBearerBar::SetOffset
+    -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> 180184b50 FUN_180184b50
+    -> EXTERNAL:00000417 PDFACCESSLAYER.DLL::GAName::operator==
+    -> EXTERNAL:00000431 PDFACCESSLAYER.DLL::GAArray::GetNumber
+    -> EXTERNAL:00000408 PDFACCESSLAYER.DLL::GADict::Has
+    -> EXTERNAL:00000427 PDFACCESSLAYER.DLL::GAObject::~GAObject
+    -> EXTERNAL:0000040f PDFACCESSLAYER.DLL::GADict::~GADict
+    -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAArray::~GAArray
+    -> EXTERNAL:00000487 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+    -> 1801852b0 FUN_1801852b0
+    -> 18010b790 DocumentMarks::MarkPosition::setAnchors
+    -> EXTERNAL:0000025f DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+    -> EXTERNAL:0000041c PDFACCESSLAYER.DLL::GANumber::~GANumber
+    -> EXTERNAL:00000131 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+    -> 180131ae0 DocumentMarks::PDFPlusBearerBar::SetReferenceObject
+    -> 1801861f0 FUN_1801861f0
+    -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Get
+    -> EXTERNAL:00000418 PDFACCESSLAYER.DLL::GAName::~GAName
+    -> EXTERNAL:0000040d PDFACCESSLAYER.DLL::GADict::GetArray
+    -> EXTERNAL:00000445 PDFACCESSLAYER.DLL::GANumber::Get
+    -> EXTERNAL:0000040e PDFACCESSLAYER.DLL::GADict::GetDict
+    -> 1802d7d4e VCRUNTIME140.DLL::_CxxThrowException
+    -> 18004e5d0 FUN_18004e5d0
+    -> EXTERNAL:000004b7 YAGL.DLL::YAGL::ToVertical
+    -> EXTERNAL:00000437 PDFACCESSLAYER.DLL::GADict::GADict
+    -> EXTERNAL:00000425 PDFACCESSLAYER.DLL::GAArray::GetName
+    -> EXTERNAL:0000042b PDFACCESSLAYER.DLL::GAObject::IsName
+    -> 180013c20 FUN_180013c20
+    -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 1802d6cb0 __security_check_cookie

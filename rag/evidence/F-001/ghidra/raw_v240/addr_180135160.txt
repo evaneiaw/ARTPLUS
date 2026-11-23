@@ -1,0 +1,148 @@
+requested=0x180135160
+resolvedAddress=180135160
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180135160 SetOffset
+status=OK
+entry=180135160
+name=SetOffset
+qualifiedName=DocumentMarks::PDFPlusCutMark::SetOffset
+namespace=DocumentMarks::PDFPlusCutMark
+signature=void SetOffset(PDFPlusCutMark * this, variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_> * param_1)
+returnType=void
+parameterCount=2
+bodyMin=180135160
+bodyMax=18013522c
+bodySize=205
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ab874 refType=DATA fromFunction=
+180486840 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180172375 refType=UNCONDITIONAL_CALL fromFunction=180172100 FUN_180172100
+180172450 refType=UNCONDITIONAL_CALL fromFunction=180172100 FUN_180172100
+1801724d5 refType=UNCONDITIONAL_CALL fromFunction=180172100 FUN_180172100
+1800aa206 refType=DATA fromFunction=1800aa1b0 SetCutMarkOffset
+1800aa20d refType=DATA fromFunction=1800aa1b0 SetCutMarkOffset
+1800aa007 refType=DATA fromFunction=1800a9fb0 SetCutMarkOffset
+1800aa00e refType=DATA fromFunction=1800a9fb0 SetCutMarkOffset
+
+[CALLERS]
+180172100 FUN_180172100
+
+[CALLEES]
+18006c1a0 FUN_18006c1a0
+180017070 FUN_180017070
+18000f510 FUN_18000f510
+1802cbfd0 __security_check_cookie
+
+[DIRECT_CALL_TARGETS]
+18013518c -> 180135209 DocumentMarks::PDFPlusCutMark::SetOffset
+180135192 -> 1801351e3 DocumentMarks::PDFPlusCutMark::SetOffset
+180135198 -> 1801351ba DocumentMarks::PDFPlusCutMark::SetOffset
+18013519d -> 180135215 DocumentMarks::PDFPlusCutMark::SetOffset
+1801351a8 -> 1801351ad DocumentMarks::PDFPlusCutMark::SetOffset
+1801351b3 -> 180017070 FUN_180017070
+1801351b8 -> 180135215 DocumentMarks::PDFPlusCutMark::SetOffset
+1801351bf -> 18000f510 FUN_18000f510
+1801351c7 -> 18006c1a0 FUN_18006c1a0
+1801351e1 -> 180135215 DocumentMarks::PDFPlusCutMark::SetOffset
+1801351e7 -> 1801351f1 DocumentMarks::PDFPlusCutMark::SetOffset
+1801351ef -> 180135215 DocumentMarks::PDFPlusCutMark::SetOffset
+1801351f4 -> 18006c1a0 FUN_18006c1a0
+180135207 -> 180135215 DocumentMarks::PDFPlusCutMark::SetOffset
+18013520c -> 18006c1a0 FUN_18006c1a0
+18013521d -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180135160 -> Stack[0x18] block=? sym=
+18013516a -> 180409ec0 block=.data sym=DAT_180409ec0
+180135174 -> Stack[-0x18] block=? sym=
+1801351ba -> Stack[-0x38] block=? sym=
+1801351cc -> Stack[-0x38] block=? sym=
+1801351d1 -> Stack[-0x28] block=? sym=
+180135215 -> Stack[-0x18] block=? sym=
+180135222 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::PDFPlusCutMark::SetOffset(class std::variant<class
+   YAGL::CoordinateBase<struct YAGL::MilliPointCoordinateSystem>,class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > > const & __ptr64) __ptr64 */
+
+void __thiscall
+DocumentMarks::PDFPlusCutMark::SetOffset
+          (PDFPlusCutMark *this,
+          variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+          *param_1)
+
+{
+  variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+  *pvVar1;
+  PDFPlusCutMark *pPVar2;
+  undefined8 uVar3;
+  undefined1 auStack_58 [32];
+  undefined8 local_38;
+  undefined8 uStack_30;
+  undefined8 local_28;
+  undefined8 uStack_20;
+  ulonglong local_18;
+  
+                    /* 0x135160  1544
+                       ?SetOffset@PDFPlusCutMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+                        */
+  local_18 = DAT_180409ec0 ^ (ulonglong)auStack_58;
+  pPVar2 = this + 0x750;
+  if (param_1[0x20] ==
+      (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+       )0xff) {
+    FUN_18006c1a0(pPVar2);
+    this[0x770] = (PDFPlusCutMark)0xff;
+  }
+  else if (param_1[0x20] ==
+           (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+            )0x0) {
+    if (this[0x770] == (PDFPlusCutMark)0x0) {
+      uVar3 = *(undefined8 *)(param_1 + 8);
+      *(undefined8 *)pPVar2 = *(undefined8 *)param_1;
+      *(undefined8 *)(this + 0x758) = uVar3;
+    }
+    else {
+      FUN_18006c1a0(pPVar2);
+      this[0x770] = (PDFPlusCutMark)0xff;
+      uVar3 = *(undefined8 *)(param_1 + 8);
+      *(undefined8 *)pPVar2 = *(undefined8 *)param_1;
+      *(undefined8 *)(this + 0x758) = uVar3;
+      this[0x770] = (PDFPlusCutMark)0x0;
+    }
+  }
+  else if (this[0x770] == (PDFPlusCutMark)0x1) {
+    if (pPVar2 != (PDFPlusCutMark *)param_1) {
+      pvVar1 = param_1 + 0x10;
+      if (0xf < *(ulonglong *)(param_1 + 0x18)) {
+        param_1 = *(variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                    **)param_1;
+      }
+      FUN_180017070(pPVar2,param_1,*(undefined8 *)pvVar1);
+    }
+  }
+  else {
+    FUN_18000f510(&local_38);
+    FUN_18006c1a0(pPVar2);
+    *(undefined8 *)pPVar2 = local_38;
+    *(undefined8 *)(this + 0x758) = uStack_30;
+    *(undefined8 *)(this + 0x760) = local_28;
+    *(undefined8 *)(this + 0x768) = uStack_20;
+    this[0x770] = (PDFPlusCutMark)0x1;
+  }
+  return;
+}
+
+

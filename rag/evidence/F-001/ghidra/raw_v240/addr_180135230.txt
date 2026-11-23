@@ -1,0 +1,76 @@
+requested=0x180135230
+resolvedAddress=180135230
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180135230 SetReferenceObject
+status=OK
+entry=180135230
+name=SetReferenceObject
+qualifiedName=DocumentMarks::PDFPlusCutMark::SetReferenceObject
+namespace=DocumentMarks::PDFPlusCutMark
+signature=void SetReferenceObject(PDFPlusCutMark * this, variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> * param_1)
+returnType=void
+parameterCount=2
+bodyMin=180135230
+bodyMax=180135259
+bodySize=42
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ab8d4 refType=DATA fromFunction=
+18048684c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1800b0a41 refType=UNCONDITIONAL_CALL fromFunction=1800b0210 FUN_1800b0210
+1800b2301 refType=UNCONDITIONAL_CALL fromFunction=1800b1f70 FUN_1800b1f70
+1800b3e51 refType=UNCONDITIONAL_CALL fromFunction=1800b3af0 FUN_1800b3af0
+18010ab73 refType=UNCONDITIONAL_CALL fromFunction=18010aa60 FUN_18010aa60
+18010ab8b refType=UNCONDITIONAL_CALL fromFunction=18010aa60 FUN_18010aa60
+18017226c refType=UNCONDITIONAL_CALL fromFunction=180172100 FUN_180172100
+18017c2e6 refType=UNCONDITIONAL_CALL fromFunction=18017c280 FUN_18017c280
+
+[CALLERS]
+180172100 FUN_180172100
+1800b3af0 FUN_1800b3af0
+18010aa60 FUN_18010aa60
+18017c280 FUN_18017c280
+1800b0210 FUN_1800b0210
+1800b1f70 FUN_1800b1f70
+
+[CALLEES]
+18012c200 FUN_18012c200
+
+[DIRECT_CALL_TARGETS]
+180135250 -> 18012c200 FUN_18012c200
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180135243 -> Stack[0x8] block=? sym=
+18013524b -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* public: void __cdecl DocumentMarks::PDFPlusCutMark::SetReferenceObject(class std::variant<enum
+   ArtDoc::PageBox,unsigned __int64,struct DocumentMarks::ProcessingStepLayer> const & __ptr64)
+   __ptr64 */
+
+void __thiscall
+DocumentMarks::PDFPlusCutMark::SetReferenceObject
+          (PDFPlusCutMark *this,
+          variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *param_1)
+
+{
+  PDFPlusCutMark *local_res8 [4];
+  
+                    /* 0x135230  1568
+                       ?SetReferenceObject@PDFPlusCutMark@DocumentMarks@@QEAAXAEBV?$variant@W4PageBox@ArtDoc@@_KUProcessingStepLayer@DocumentMarks@@@std@@@Z
+                        */
+  local_res8[0] = this + 0x7c0;
+  FUN_18012c200((longlong)(char)param_1[0x78] + 1,local_res8,param_1);
+  return;
+}
+
+

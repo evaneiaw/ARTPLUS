@@ -1,0 +1,2561 @@
+program=DocumentMarks.dll exec=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/DocumentMarks.dll
+md5=4d2f2060555b206bd9f374ca69f8a234 imageBase=180000000 ghidra=12.2
+
+===== DECOMPILED (v240) =====
+
+#### 1800147f0 ApplyMarkSet ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* void __cdecl DocumentMarks::ApplyMarkSet(class ArtDoc::Document & __ptr64,class
+   boost::filesystem::path const & __ptr64,bool,class std::set<unsigned __int64,struct
+   std::less<unsigned __int64>,class std::allocator<unsigned __int64> > * __ptr64) */
+
+void __cdecl
+DocumentMarks::ApplyMarkSet
+          (Document *param_1,path *param_2,bool param_3,
+          set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>
+          *param_4)
+
+{
+  Page *this;
+  Page *pPVar1;
+  ChangeTracker *pCVar2;
+  PageContent *pPVar3;
+  undefined8 *puVar4;
+  undefined1 auStackY_f8 [32];
+  undefined8 *local_b8;
+  undefined8 *local_b0;
+  Document *local_a8;
+  ActionGroupCreator local_a0 [24];
+  undefined **local_88;
+  PageContent *local_80;
+  undefined ***local_50;
+  ulonglong local_48;
+  
+                    /* 0x147f0  835
+                       ?ApplyMarkSet@DocumentMarks@@YAXAEAVDocument@ArtDoc@@AEBVpath@filesystem@boost@@_NPEAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@Z
+                        */
+  local_48 = DAT_180409ec0 ^ (ulonglong)auStackY_f8;
+  FUN_180014c80(&local_a8);
+  if (local_a8 == (Document *)0x0) {
+    if (!param_3) goto LAB_1800149b5;
+    ArtDoc::ActionGroupCreator::ActionGroupCreator(local_a0,param_1,false,false);
+    ArtDoc::Document::GetPagesBegin(param_1);
+    ArtDoc::Document::GetPagesEnd(param_1);
+    for (; local_b8 != local_b0; local_b8 = local_b8 + 1) {
+      DeleteMarks((Page *)*local_b8);
+    }
+  }
+  else {
+    ArtDoc::ActionGroupCreator::ActionGroupCreator(local_a0,param_1,false,false);
+    ArtDoc::Document::GetPagesBegin(param_1);
+    ArtDoc::Document::GetPagesEnd(param_1);
+    for (; local_b8 != local_b0; local_b8 = local_b8 + 1) {
+      this = (Page *)*local_b8;
+      pCVar2 = GetChangeTracker(param_1);
+      pPVar3 = ArtDoc::Page::GetContent(this);
+      FUN_180013be0(*(undefined8 *)(pCVar2 + 0x110),pPVar3);
+      puVar4 = (undefined8 *)ArtDoc::Document::GetPagesBegin(local_a8);
+      pPVar1 = *(Page **)*puVar4;
+      if (param_3) {
+        DeleteMarks(this);
+      }
+      CopyMarksToPage(pPVar1,this,true,
+                      (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                       *)0x0,(set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                              *)0x0,param_4,true);
+      pPVar3 = ArtDoc::Page::GetContent(this);
+      pCVar2 = GetChangeTracker(param_1);
+      local_88 = std::
+                 _Func_impl_no_alloc<`void___cdecl_DocumentMarks::ApplyMarkSet(ArtDoc::Document&___ptr64,boost::filesystem::path_const&___ptr64,bool,std::set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>*___ptr64)'::`9'::<lambda_1>,void>
+                 ::vftable;
+      local_50 = &local_88;
+      local_80 = pPVar3;
+      FUN_1800138d0(*(undefined8 *)(pCVar2 + 0x30),&local_88);
+      if (local_50 != (undefined ***)0x0) {
+        (*(code *)(*local_50)[4])
+                  (local_50,CONCAT71((int7)((ulonglong)&local_88 >> 8),local_50 != &local_88));
+      }
+    }
+  }
+  ArtDoc::ActionGroupCreator::~ActionGroupCreator(local_a0);
+LAB_1800149b5:
+  if (local_a8 != (Document *)0x0) {
+    ArtDoc::Document::~Document(local_a8);
+    free(local_a8);
+  }
+  return;
+}
+
+
+
+#### 180014a00 ApplyMarkSetToPage ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* void __cdecl DocumentMarks::ApplyMarkSetToPage(class ArtDoc::Page & __ptr64,class
+   boost::filesystem::path const & __ptr64,bool,class std::set<unsigned __int64,struct
+   std::less<unsigned __int64>,class std::allocator<unsigned __int64> > * __ptr64) */
+
+void __cdecl
+DocumentMarks::ApplyMarkSetToPage
+          (Page *param_1,path *param_2,bool param_3,
+          set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>
+          *param_4)
+
+{
+  Page *pPVar1;
+  PageContent *pPVar2;
+  Document *pDVar3;
+  ChangeTracker *pCVar4;
+  undefined8 *puVar5;
+  PageContent *this;
+  undefined1 auStackY_d8 [32];
+  Document *local_98 [2];
+  ActionGroupCreator local_88 [16];
+  undefined **local_78;
+  PageContent *local_70;
+  undefined ***local_40;
+  ulonglong local_38;
+  
+                    /* 0x14a00  836
+                       ?ApplyMarkSetToPage@DocumentMarks@@YAXAEAVPage@ArtDoc@@AEBVpath@filesystem@boost@@_NPEAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@std@@@Z
+                        */
+  local_38 = DAT_180409ec0 ^ (ulonglong)auStackY_d8;
+  pPVar2 = ArtDoc::Page::GetContent(param_1);
+  ArtDoc::Content::GetDocument((Content *)pPVar2);
+  FUN_180014c80(local_98,param_2);
+  if (local_98[0] == (Document *)0x0) {
+    if (param_3) {
+      DeleteMarks(param_1);
+    }
+  }
+  else {
+    pPVar2 = ArtDoc::Page::GetContent(param_1);
+    pDVar3 = ArtDoc::Content::GetDocument((Content *)pPVar2);
+    pCVar4 = GetChangeTracker(pDVar3);
+    pPVar2 = ArtDoc::Page::GetContent(param_1);
+    FUN_180013be0(*(undefined8 *)(pCVar4 + 0x110),pPVar2);
+    pPVar2 = ArtDoc::Page::GetContent(param_1);
+    pDVar3 = ArtDoc::Content::GetDocument((Content *)pPVar2);
+    ArtDoc::ActionGroupCreator::ActionGroupCreator(local_88,pDVar3,false,false);
+    puVar5 = (undefined8 *)ArtDoc::Document::GetPagesBegin(local_98[0]);
+    pPVar1 = *(Page **)*puVar5;
+    if (param_3) {
+      DeleteMarks(param_1);
+    }
+    CopyMarksToPage(pPVar1,param_1,true,
+                    (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                     *)0x0,(set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                            *)0x0,param_4,true);
+    pPVar2 = ArtDoc::Page::GetContent(param_1);
+    this = ArtDoc::Page::GetContent(param_1);
+    pDVar3 = ArtDoc::Content::GetDocument((Content *)this);
+    pCVar4 = GetChangeTracker(pDVar3);
+    local_78 = std::
+               _Func_impl_no_alloc<`void___cdecl_DocumentMarks::ApplyMarkSetToPage(ArtDoc::Page&___ptr64,boost::filesystem::path_const&___ptr64,bool,std::set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>*___ptr64)'::`5'::<lambda_1>,void>
+               ::vftable;
+    local_40 = &local_78;
+    local_70 = pPVar2;
+    FUN_1800138d0(*(undefined8 *)(pCVar4 + 0x30),&local_78);
+    if (local_40 != (undefined ***)0x0) {
+      (*(code *)(*local_40)[4])
+                (local_40,CONCAT71((int7)((ulonglong)&local_78 >> 8),local_40 != &local_78));
+    }
+    ArtDoc::ActionGroupCreator::~ActionGroupCreator(local_88);
+  }
+  if (local_98[0] != (Document *)0x0) {
+    ArtDoc::Document::~Document(local_98[0]);
+    free(local_98[0]);
+  }
+  return;
+}
+
+
+
+#### 1800426f0 CopyMarksToPage ####
+
+/* bool __cdecl DocumentMarks::CopyMarksToPage(class ArtDoc::Page const & __ptr64,class ArtDoc::Page
+   & __ptr64,bool,class std::set<class std::basic_string<char,struct std::char_traits<char>,class
+   std::allocator<char> >,struct std::less<class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > >,class std::allocator<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > *
+   __ptr64,class std::set<class std::basic_string<char,struct std::char_traits<char>,class
+   std::allocator<char> >,struct std::less<class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > >,class std::allocator<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > *
+   __ptr64,class std::set<unsigned __int64,struct std::less<unsigned __int64>,class
+   std::allocator<unsigned __int64> > * __ptr64,bool) */
+
+bool __cdecl
+DocumentMarks::CopyMarksToPage
+          (Page *param_1,Page *param_2,bool param_3,
+          set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+          *param_4,set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                   *param_5,
+          set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>
+          *param_6,bool param_7)
+
+{
+  char cVar1;
+  longlong *plVar2;
+  CloneStrategy *this;
+  longlong *plVar3;
+  bool bVar4;
+  uint uVar5;
+  PageContent *pPVar6;
+  PageContent *pPVar7;
+  Document *pDVar8;
+  ActionGroupCreator *pAVar9;
+  Module *pMVar10;
+  MarksModule *this_00;
+  ContentObject *pCVar11;
+  ContentObject *pCVar12;
+  DynamicObjectController *this_01;
+  byte bVar13;
+  undefined1 uVar14;
+  longlong *plVar15;
+  longlong **pplVar16;
+  void *local_c8;
+  longlong local_c0;
+  longlong *local_b8;
+  undefined8 uStack_b0;
+  void *local_a8;
+  longlong local_a0;
+  ActionGroupCreator *local_98;
+  ActionGroupCreator *local_90;
+  undefined **local_88;
+  undefined **local_80;
+  void *local_50 [2];
+  CloneStrategy *local_40;
+  
+                    /* 0x426f0  927
+                       ?CopyMarksToPage@DocumentMarks@@YA_NAEBVPage@ArtDoc@@AEAV23@_NPEAV?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@3PEAV?$set@_KU?$less@_K@std@@V?$allocator@_K@2@@5@2@Z
+                        */
+  pPVar6 = ArtDoc::Page::GetContent(param_1);
+  local_b8 = (longlong *)0x0;
+  uStack_b0 = 0;
+  local_b8 = (longlong *)FUN_1802cbe68(0x30);
+  *local_b8 = (longlong)local_b8;
+  local_b8[1] = (longlong)local_b8;
+  local_b8[2] = (longlong)local_b8;
+  *(undefined2 *)(local_b8 + 3) = 0x101;
+  FUN_180044310(&local_a8,pPVar6);
+  pplVar16 = &local_b8;
+  FUN_180044820(&local_c8,pPVar6,&local_a8,param_2,pplVar16,param_4,param_5);
+  if (local_c0 != 0) {
+    pPVar6 = ArtDoc::Page::GetContent(param_2);
+    FUN_1800461a0(param_1,&local_c8);
+    pAVar9 = (ActionGroupCreator *)0x0;
+    local_98 = (ActionGroupCreator *)0x0;
+    pPVar7 = ArtDoc::Page::GetContent(param_1);
+    pDVar8 = ArtDoc::Content::GetDocument((Content *)pPVar7);
+    bVar4 = ArtDoc::Document::GetInfoFlag(pDVar8,2);
+    if (!bVar4) {
+      pAVar9 = (ActionGroupCreator *)FUN_1802cbe68(0x10);
+      local_90 = pAVar9;
+      if (pAVar9 == (ActionGroupCreator *)0x0) {
+        pAVar9 = (ActionGroupCreator *)0x0;
+      }
+      else {
+        pPVar7 = ArtDoc::Page::GetContent(param_2);
+        pDVar8 = ArtDoc::Content::GetDocument((Content *)pPVar7);
+        pAVar9 = (ActionGroupCreator *)
+                 ArtDoc::ActionGroupCreator::ActionGroupCreator(pAVar9,pDVar8,false,false);
+      }
+      local_98 = pAVar9;
+    }
+    bVar13 = 0;
+    pMVar10 = ArtDoc::FindModule(0x4d61726b);
+    this_00 = (MarksModule *)
+              __RTDynamicCast(pMVar10,0,&ArtDoc::Module::RTTI_Type_Descriptor,
+                              &MarksModule::RTTI_Type_Descriptor,
+                              (ulonglong)pplVar16 & 0xffffffff00000000);
+    if (this_00 != (MarksModule *)0x0) {
+      uVar5 = MarksModule::GetFeatures(this_00);
+      bVar13 = (byte)(uVar5 >> 0xb) & 1;
+    }
+    if ((!param_3) || (bVar13 != 0)) {
+      uVar14 = 0;
+    }
+    else {
+      uVar14 = 1;
+      FUN_180042c00(param_1,param_2);
+    }
+    FUN_18003df00(&local_88,param_1,&local_c8,param_2,param_7,uVar14,param_6);
+    pPVar7 = ArtDoc::Page::GetContent(param_1);
+    ArtDoc::PageContent::Accept(pPVar7,(ConstVisitorBase *)&local_88);
+    this = local_40;
+    plVar15 = (longlong *)*local_b8;
+    cVar1 = *(char *)((longlong)plVar15 + 0x19);
+    while (cVar1 == '\0') {
+      pCVar11 = ArtDoc::Content::GetObjectWithID((Content *)pPVar7,plVar15[4]);
+      pCVar12 = ArtDoc::Content::GetObjectWithID((Content *)pPVar6,plVar15[5]);
+      ArtDoc::CloneStrategy::AddClone(this,pCVar11,pCVar12);
+      plVar2 = (longlong *)plVar15[2];
+      if (*(char *)((longlong)plVar2 + 0x19) == '\0') {
+        cVar1 = *(char *)(*plVar2 + 0x19);
+        plVar15 = plVar2;
+        plVar2 = (longlong *)*plVar2;
+        while (cVar1 == '\0') {
+          cVar1 = *(char *)(*plVar2 + 0x19);
+          plVar15 = plVar2;
+          plVar2 = (longlong *)*plVar2;
+        }
+      }
+      else {
+        cVar1 = *(char *)(plVar15[1] + 0x19);
+        plVar3 = (longlong *)plVar15[1];
+        plVar2 = plVar15;
+        while ((plVar15 = plVar3, cVar1 == '\0' && (plVar2 == (longlong *)plVar15[2]))) {
+          cVar1 = *(char *)(plVar15[1] + 0x19);
+          plVar3 = (longlong *)plVar15[1];
+          plVar2 = plVar15;
+        }
+      }
+      cVar1 = *(char *)((longlong)plVar15 + 0x19);
+    }
+    ArtDoc::CloneStrategy::RelinkDynamicObjects(this,true);
+    pDVar8 = ArtDoc::Content::GetDocument((Content *)pPVar6);
+    this_01 = ArtDoc::Document::GetDynamicObjects(pDVar8);
+    ArtDoc::DynamicObjectController::InksChanged(this_01);
+    local_88 = _anon_65B91BCC::MarksCloner::vftable;
+    local_80 = _anon_65B91BCC::MarksCloner::vftable;
+    if (local_40 != (CloneStrategy *)0x0) {
+      ArtDoc::CloneStrategy::~CloneStrategy(local_40);
+      free(local_40);
+    }
+    plVar15 = *(longlong **)((longlong)local_50[0] + 8);
+    if (*(char *)((longlong)*(longlong **)((longlong)local_50[0] + 8) + 0x19) == '\0') {
+      do {
+        FUN_18003c1c0(local_50,local_50,plVar15[2]);
+        plVar2 = (longlong *)*plVar15;
+        free(plVar15);
+        plVar15 = plVar2;
+      } while (*(char *)((longlong)plVar2 + 0x19) == '\0');
+    }
+    free(local_50[0]);
+    local_80 = ArtDoc::ConstVisitor<DocumentMarks::DynamicMark>::_vftable_;
+    ArtDoc::ConstVisitorBase::~ConstVisitorBase((ConstVisitorBase *)&local_88);
+    if (pAVar9 != (ActionGroupCreator *)0x0) {
+      ArtDoc::ActionGroupCreator::~ActionGroupCreator(pAVar9);
+      free(pAVar9);
+    }
+  }
+  plVar15 = *(longlong **)((longlong)local_c8 + 8);
+  if (*(char *)((longlong)*(longlong **)((longlong)local_c8 + 8) + 0x19) == '\0') {
+    do {
+      FUN_18003bf60(&local_c8,&local_c8,plVar15[2]);
+      plVar2 = (longlong *)*plVar15;
+      free(plVar15);
+      plVar15 = plVar2;
+    } while (*(char *)((longlong)plVar2 + 0x19) == '\0');
+  }
+  free(local_c8);
+  plVar15 = *(longlong **)((longlong)local_a8 + 8);
+  if (*(char *)((longlong)plVar15 + 0x19) == '\0') {
+    do {
+      FUN_18003bf60(&local_a8,&local_a8,plVar15[2]);
+      plVar2 = (longlong *)*plVar15;
+      free(plVar15);
+      plVar15 = plVar2;
+    } while (*(char *)((longlong)plVar2 + 0x19) == '\0');
+  }
+  free(local_a8);
+  cVar1 = *(char *)(local_b8[1] + 0x19);
+  plVar15 = (longlong *)local_b8[1];
+  while (cVar1 == '\0') {
+    FUN_18003c1c0(&local_b8,&local_b8,plVar15[2]);
+    plVar2 = (longlong *)*plVar15;
+    free(plVar15);
+    plVar15 = plVar2;
+    cVar1 = *(char *)((longlong)plVar2 + 0x19);
+  }
+  free(local_b8);
+  return local_c0 == local_a0;
+}
+
+
+
+#### 180045c70 MakeFormsFromMarks ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* bool __cdecl DocumentMarks::MakeFormsFromMarks(class ArtDoc::Page & __ptr64,bool) */
+
+bool __cdecl DocumentMarks::MakeFormsFromMarks(Page *param_1,bool param_2)
+
+{
+  int *piVar1;
+  char cVar2;
+  code *pcVar3;
+  ContentObject *this;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  undefined1 uVar6;
+  PageContent *pPVar7;
+  Document *pDVar8;
+  ActionList *this_00;
+  Group *pGVar9;
+  undefined8 uVar10;
+  TransformationBase<YAGL::MilliPointCoordinateSystem> *pTVar11;
+  shared_ptr<ArtBlend::Transparency_const_> *psVar12;
+  ContentObject *pCVar13;
+  longlong lVar14;
+  Content *pCVar15;
+  Path *this_01;
+  Properties *pPVar16;
+  undefined8 *puVar17;
+  undefined **ppuVar18;
+  undefined8 *puVar19;
+  undefined1 *puVar20;
+  undefined8 *puVar21;
+  undefined1 auStack_1e8 [32];
+  undefined1 local_1c8;
+  undefined1 local_1c7 [7];
+  undefined8 *local_1c0;
+  undefined8 *puStack_1b8;
+  undefined8 *local_1b0;
+  ContentObject *local_1a8;
+  undefined1 uStack_1a0;
+  undefined7 uStack_19f;
+  DynamicObjectController *local_198;
+  undefined8 *local_190;
+  undefined8 *puStack_188;
+  longlong local_180;
+  undefined8 local_178;
+  undefined8 uStack_170;
+  undefined **local_168;
+  ContentObject *local_160;
+  undefined8 uStack_158;
+  undefined ***local_130;
+  Group *local_128;
+  undefined1 local_118 [80];
+  undefined **local_c8;
+  undefined **local_c0;
+  undefined **local_b8 [7];
+  undefined ***local_80;
+  undefined **local_78;
+  ContentObject *local_70;
+  undefined ***local_40;
+  ulonglong local_38;
+  
+                    /* 0x45c70  1374  ?MakeFormsFromMarks@DocumentMarks@@YA_NAEAVPage@ArtDoc@@_N@Z
+                        */
+  local_38 = DAT_180409ec0 ^ (ulonglong)auStack_1e8;
+  local_190 = (undefined8 *)0x0;
+  puStack_188 = (undefined8 *)0x0;
+  local_180 = 0;
+  local_1a8 = (ContentObject *)&local_190;
+  local_168 = std::
+              _Func_impl_no_alloc<`bool___cdecl_DocumentMarks::MakeFormsFromMarks(ArtDoc::Page&___ptr64,bool)'::`2'::<lambda_1>,bool,DocumentMarks::DynamicMark&___ptr64>
+              ::vftable;
+  uStack_158 = CONCAT71(uStack_19f,param_2);
+  local_130 = &local_168;
+  uStack_1a0 = param_2;
+  local_160 = local_1a8;
+  ArtDoc::VisitorBase::VisitorBase((VisitorBase *)&local_c8);
+  local_c8 = ArtDoc::SimpleVisitor<DocumentMarks::DynamicMark>::vftable;
+  local_c0 = ArtDoc::SimpleVisitor<DocumentMarks::DynamicMark>::vftable;
+  local_80 = (undefined ***)0x0;
+  if (local_130 != (undefined ***)0x0) {
+    if (local_130 == &local_168) {
+      local_80 = (undefined ***)(*(code *)(*local_130)[1])(local_130,local_b8);
+      if (local_130 == (undefined ***)0x0) goto LAB_180045d4d;
+      (*(code *)(*local_130)[4])
+                (local_130,CONCAT71((int7)((ulonglong)&local_168 >> 8),local_130 != &local_168));
+    }
+    else {
+      local_80 = local_130;
+    }
+    local_130 = (undefined ***)0x0;
+  }
+LAB_180045d4d:
+  ArtDoc::Page::Accept(param_1,(VisitorBase *)&local_c8);
+  puVar19 = puStack_188;
+  for (puVar17 = local_190; puVar17 != puVar19; puVar17 = puVar17 + 1) {
+    DynamicObject::makeStatic((DynamicObject *)*puVar17);
+  }
+  pPVar7 = ArtDoc::Page::GetContent(param_1);
+  pDVar8 = ArtDoc::Content::GetDocument((Content *)pPVar7);
+  this_00 = ArtDoc::Document::GetActionList(pDVar8);
+  ArtDoc::ActionList::Clear(this_00);
+  local_1c0 = (undefined8 *)0x0;
+  puStack_1b8 = (undefined8 *)0x0;
+  local_1b0 = (undefined8 *)0x0;
+  pPVar7 = ArtDoc::Page::GetContent(param_1);
+  pDVar8 = ArtDoc::Content::GetDocument((Content *)pPVar7);
+  local_198 = ArtDoc::Document::GetDynamicObjects(pDVar8);
+  puVar5 = puStack_188;
+  puVar17 = local_1c0;
+  puVar19 = puStack_1b8;
+  for (puVar21 = local_190; puVar4 = puVar17, local_1c0 = puVar17, puStack_1b8 = puVar19,
+      puVar21 != puVar5; puVar21 = puVar21 + 1) {
+    pCVar13 = (ContentObject *)*puVar21;
+    ArtDoc::DynamicObjectController::ObjectWillBeDeleted(local_198,pCVar13);
+    uVar6 = FUN_18010ffa0(pCVar13);
+    pGVar9 = (Group *)FUN_1802cbe68(0x370);
+    local_128 = pGVar9;
+    if (pGVar9 == (Group *)0x0) {
+      pGVar9 = (Group *)0x0;
+    }
+    else {
+      ArtDoc::Group::Group(pGVar9,0x1ff);
+      *(undefined ***)pGVar9 = ArtDoc::Group::vftable;
+      *(undefined ***)(pGVar9 + 0x20) = ArtDoc::Group::vftable;
+    }
+    ArtDoc::ContentObject::InsertBefore((ContentObject *)pGVar9,pCVar13);
+    pcVar3 = *(code **)(*(longlong *)pGVar9 + 0x10);
+    uVar10 = (**(code **)(*(longlong *)pCVar13 + 0x18))(pCVar13);
+    (*pcVar3)(pGVar9,uVar10);
+    pTVar11 = ArtDoc::Transformable::GetTransformation((Transformable *)pCVar13);
+    ArtDoc::Transformable::SetTransformation((Transformable *)pGVar9,pTVar11,7);
+    psVar12 = ArtDoc::Blendable::GetTransparency((Blendable *)pCVar13);
+    if (*(longlong *)(psVar12 + 8) != 0) {
+      LOCK();
+      piVar1 = (int *)(*(longlong *)(psVar12 + 8) + 8);
+      *piVar1 = *piVar1 + 1;
+      UNLOCK();
+      puVar19 = puStack_1b8;
+    }
+    local_178 = *(undefined8 *)psVar12;
+    uStack_170 = *(undefined8 *)(psVar12 + 8);
+    ArtDoc::Blendable::SetTransparency((Blendable *)pGVar9,&local_178);
+    this = *(ContentObject **)(pCVar13 + 0x360);
+    while (this != (ContentObject *)0x0) {
+      ArtDoc::ContentObject::ExtractFromParent(this);
+      ArtDoc::Group::AddOnTop(pGVar9,this);
+      this = *(ContentObject **)(pCVar13 + 0x360);
+    }
+    pCVar13 = ArtDoc::ContentObject::ExtractFromParent(pCVar13);
+    if (pCVar13 != (ContentObject *)0x0) {
+      (*(code *)**(undefined8 **)pCVar13)(pCVar13,1);
+    }
+    local_1a8 = (ContentObject *)pGVar9;
+    uStack_1a0 = uVar6;
+    if (puVar19 == local_1b0) {
+      FUN_18003b9e0(&local_1c0,puVar19,&local_1a8);
+    }
+    else {
+      *puVar19 = pGVar9;
+      puVar19[1] = CONCAT71(uStack_19f,uVar6);
+      puStack_1b8 = puVar19 + 2;
+    }
+    puVar17 = local_1c0;
+    puVar19 = puStack_1b8;
+  }
+  for (; puVar4 != puVar19; puVar4 = puVar4 + 2) {
+    pCVar13 = (ContentObject *)*puVar4;
+    cVar2 = *(char *)(puVar4 + 1);
+    lVar14 = ArtDoc::ContentObject::GetBoundingBox(pCVar13,(BoxKind)local_118);
+    if (*(char *)(lVar14 + 0x48) == '\0') {
+      local_78 = std::
+                 _Func_impl_no_alloc<`bool___cdecl_DocumentMarks::MakeFormsFromMarks(ArtDoc::Page&___ptr64,bool)'::`14'::<lambda_2>,bool,ArtDoc::ContentObject_const&___ptr64>
+                 ::vftable;
+      local_40 = &local_78;
+      local_70 = pCVar13;
+      pCVar15 = ArtDoc::ContentObject::GetContent(pCVar13);
+      this_01 = DocumentEdit::MakeForm
+                          (pCVar15,(function<bool___cdecl(ArtDoc::ContentObject_const&___ptr64)> *)
+                                   &local_78);
+      if (local_40 != (undefined ***)0x0) {
+        (*(code *)(*local_40)[4])
+                  (local_40,CONCAT71((int7)((ulonglong)*local_40 >> 8),local_40 != &local_78));
+        local_40 = (undefined ***)0x0;
+      }
+      if (this_01 != (Path *)0x0) {
+        pPVar16 = ArtDoc::ContentObject::GetProperties((ContentObject *)this_01);
+        if (cVar2 == '\0') {
+          local_1c7[0] = 1;
+          puVar20 = local_1c7;
+          ppuVar18 = &PTR_s_DocumentMarks_MarkAsForm_1802fb918;
+        }
+        else {
+          local_1c8 = 1;
+          puVar20 = &local_1c8;
+          ppuVar18 = &PTR_s_DocumentMarks_WUPAsForm_1802fb928;
+        }
+        FUN_18003ae20(pPVar16,ppuVar18,puVar20);
+      }
+    }
+    else {
+      ArtDoc::ContentObject::ExtractFromParent(pCVar13);
+      if (pCVar13 != (ContentObject *)0x0) {
+        (*(code *)**(undefined8 **)pCVar13)(pCVar13,1);
+      }
+    }
+  }
+  if (puVar17 != (undefined8 *)0x0) {
+    puVar19 = puVar17;
+    if ((0xfff < ((longlong)local_1b0 - (longlong)puVar17 & 0xfffffffffffffff0U)) &&
+       (puVar19 = (undefined8 *)puVar17[-1],
+       0x1f < (ulonglong)((longlong)puVar17 + (-8 - (longlong)puVar19)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(puVar19);
+  }
+  if (local_80 != (undefined ***)0x0) {
+    (*(code *)(*local_80)[4])
+              (local_80,CONCAT71((int7)((ulonglong)local_b8 >> 8),local_80 != local_b8));
+    local_80 = (undefined ***)0x0;
+  }
+  local_c0 = ArtDoc::Visitor<DocumentMarks::DynamicMark>::_vftable_;
+  ArtDoc::VisitorBase::~VisitorBase((VisitorBase *)&local_c8);
+  if (local_190 != (undefined8 *)0x0) {
+    puVar17 = local_190;
+    if ((0xfff < (local_180 - (longlong)local_190 & 0xfffffffffffffff8U)) &&
+       (puVar17 = (undefined8 *)local_190[-1],
+       0x1f < (ulonglong)((longlong)local_190 + (-8 - (longlong)puVar17)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(puVar17);
+  }
+  return true;
+}
+
+
+
+#### 1802436a0 TaskMarkSets ####
+
+/* public: __cdecl DocumentMarks::TaskMarkSets::TaskMarkSets(class DocumentMarks::TaskReporter &
+   __ptr64) __ptr64 */
+
+TaskMarkSets * __thiscall
+DocumentMarks::TaskMarkSets::TaskMarkSets(TaskMarkSets *this,TaskReporter *param_1)
+
+{
+  undefined8 local_18;
+  
+                    /* 0x2436a0  268  ??0TaskMarkSets@DocumentMarks@@QEAA@AEAVTaskReporter@1@@Z */
+  *(undefined ***)this = _vftable_;
+  *(undefined8 *)(this + 8) = 0;
+  *(undefined8 *)(this + 0x10) = 0;
+  *(undefined8 *)(this + 0x18) = 0;
+  *(undefined8 *)(this + 0x20) = 0;
+  *(undefined8 *)(this + 0x28) = 0;
+  *(undefined8 *)(this + 0x30) = 0;
+  *(undefined8 *)(this + 0x38) = 0;
+  *(undefined8 *)(this + 0x40) = 0;
+  *(undefined8 *)(this + 0x48) = 0;
+  *(undefined8 *)(this + 0x50) = 0;
+  *(undefined8 *)(this + 0x58) = 0;
+  *(undefined8 *)(this + 0x60) = 0;
+  *(undefined8 *)(this + 0x68) = 0;
+  *(undefined8 *)(this + 0x70) = 0;
+  *(undefined8 *)(this + 0x78) = 0;
+  *(undefined8 *)(this + 0x80) = 0;
+  *(undefined8 *)(this + 0x88) = 0;
+  *(undefined8 *)(this + 0x90) = 0;
+  *(undefined8 *)(this + 0x98) = 0;
+  *(undefined8 *)(this + 0xa0) = 0;
+  *(undefined8 *)(this + 0xa8) = 0;
+  *(undefined8 *)(this + 0xb0) = 0;
+  *(undefined8 *)(this + 0xc0) = local_18;
+  *(undefined8 *)(this + 200) = 0;
+  *(undefined8 *)(this + 0xe0) = local_18;
+  *(undefined8 *)(this + 0xe8) = 0;
+  *(undefined8 *)(this + 0xd0) = local_18;
+  *(undefined8 *)(this + 0xd8) = 0;
+  *(undefined8 *)(this + 0xf0) = local_18;
+  *(undefined8 *)(this + 0xf8) = 0;
+  this[0x100] = (TaskMarkSets)0x1;
+  *(undefined8 *)(this + 0x110) = local_18;
+  *(undefined8 *)(this + 0x118) = 0;
+  *(undefined8 *)(this + 0x130) = local_18;
+  *(undefined8 *)(this + 0x138) = 0;
+  *(undefined8 *)(this + 0x120) = local_18;
+  *(undefined8 *)(this + 0x128) = 0;
+  *(undefined8 *)(this + 0x140) = local_18;
+  *(undefined8 *)(this + 0x148) = 0;
+  this[0x150] = (TaskMarkSets)0x1;
+  *(undefined8 *)(this + 0x160) = local_18;
+  *(undefined8 *)(this + 0x168) = 0;
+  *(undefined8 *)(this + 0x180) = local_18;
+  *(undefined8 *)(this + 0x188) = 0;
+  *(undefined8 *)(this + 0x170) = local_18;
+  *(undefined8 *)(this + 0x178) = 0;
+  *(undefined8 *)(this + 400) = local_18;
+  *(undefined8 *)(this + 0x198) = 0;
+  this[0x1a0] = (TaskMarkSets)0x1;
+  *(undefined8 *)(this + 0x1b0) = local_18;
+  *(undefined8 *)(this + 0x1b8) = 0;
+  *(undefined8 *)(this + 0x1d0) = local_18;
+  *(undefined8 *)(this + 0x1d8) = 0;
+  *(undefined8 *)(this + 0x1c0) = local_18;
+  *(undefined8 *)(this + 0x1c8) = 0;
+  *(undefined8 *)(this + 0x1e0) = local_18;
+  *(undefined8 *)(this + 0x1e8) = 0;
+  this[0x1f0] = (TaskMarkSets)0x1;
+  *(undefined8 *)(this + 0x200) = 0;
+  *(undefined8 *)(this + 0x208) = 0;
+  *(undefined8 *)(this + 0x210) = 0;
+  *(undefined8 *)(this + 0x218) = 0;
+  *(TaskReporter **)(this + 0x1f8) = param_1;
+  *(undefined4 *)(this + 0x220) = 2;
+  return this;
+}
+
+
+
+#### 180243ec0 ApplyMarksFromSet ####
+
+/* public: bool __cdecl DocumentMarks::TaskMarkSets::ApplyMarksFromSet(class std::vector<class
+   std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class ArtDoc::Document> >,class
+   std::allocator<class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > > > const & __ptr64,class ArtDoc::Page & __ptr64,bool) __ptr64 */
+
+bool __thiscall
+DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+          (TaskMarkSets *this,
+          vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+          *param_1,Page *param_2,bool param_3)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  bool bVar3;
+  undefined8 *puVar4;
+  
+                    /* 0x243ec0  837
+                       ?ApplyMarksFromSet@TaskMarkSets@DocumentMarks@@QEAA_NAEBV?$vector@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@V?$allocator@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@@2@@std@@AEAVPage@ArtDoc@@_N@Z
+                        */
+  puVar4 = *(undefined8 **)param_1;
+  puVar1 = *(undefined8 **)(param_1 + 8);
+  if (puVar4 == puVar1) {
+    bVar3 = false;
+  }
+  else {
+    do {
+      puVar2 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar4);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar2,param_2,param_3);
+      puVar4 = puVar4 + 1;
+    } while (puVar4 != puVar1);
+    bVar3 = true;
+  }
+  return bVar3;
+}
+
+
+
+#### 180243f40 ApplyRelevantMarkSets ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(class ArtDoc::Page &
+   __ptr64,int,bool,bool,bool,bool) __ptr64 */
+
+void __thiscall
+DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+          (TaskMarkSets *this,Page *param_1,int param_2,bool param_3,bool param_4,bool param_5,
+          bool param_6)
+
+{
+  TaskMarkSets *pTVar1;
+  Content *this_00;
+  bool bVar2;
+  char cVar3;
+  InkType IVar4;
+  Document *pDVar5;
+  DynamicMarksController *this_01;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar6;
+  undefined8 *puVar7;
+  PageContent *pPVar8;
+  vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *pvVar9;
+  Entry **ppEVar10;
+  undefined8 uVar11;
+  Separations *pSVar12;
+  ChangeTracker *pCVar13;
+  DynamicObjectController *this_02;
+  bool bVar14;
+  void *_Memory;
+  longlong lVar15;
+  undefined8 *puVar16;
+  undefined8 *puVar17;
+  longlong *plVar18;
+  Entry *pEVar19;
+  Entry *pEVar20;
+  longlong *plVar21;
+  undefined1 auStack_2e8 [32];
+  char local_2c8;
+  char local_2c7;
+  char local_2c6;
+  char local_2c5;
+  char local_2c4;
+  TaskMarkSets *local_2c0;
+  Entry *local_2b8;
+  Entry *local_2b0;
+  Entry *local_2a8;
+  void *local_2a0;
+  longlong *plStack_298;
+  longlong *local_290;
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  local_288 [24];
+  Content *local_270;
+  TaskMarkSets *local_268;
+  undefined1 local_260 [24];
+  InkCollector local_248 [8];
+  undefined **local_240;
+  undefined **local_238;
+  undefined1 local_210 [24];
+  undefined1 local_1f8 [240];
+  undefined1 local_108 [16];
+  longlong local_f8;
+  longlong local_f0;
+  undefined **local_d8;
+  Content *local_d0;
+  undefined ***local_a0;
+  Page local_98 [16];
+  longlong local_88;
+  longlong local_80;
+  ulonglong local_48;
+  
+                    /* 0x243f40  840
+                       ?ApplyRelevantMarkSets@TaskMarkSets@DocumentMarks@@QEAAXAEAVPage@ArtDoc@@H_N111@Z
+                        */
+  local_48 = DAT_180409ec0 ^ (ulonglong)auStack_2e8;
+  local_2c8 = '\0';
+  local_2c7 = '\0';
+  local_2c6 = '\0';
+  local_2c5 = '\0';
+  local_2c4 = param_3;
+  local_270 = (Content *)ArtDoc::Page::GetContent(param_1);
+  pDVar5 = ArtDoc::Content::GetDocument(local_270);
+  this_01 = GetDynamicMarksController(pDVar5);
+  DynamicMarksController::EnableUpdates(this_01,false);
+  local_268 = this + 0x10;
+  pEVar20 = *(Entry **)(this + 0x18);
+  for (pEVar19 = *(Entry **)local_268; pEVar19 != pEVar20; pEVar19 = pEVar19 + 0xf0) {
+    IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19);
+    if ((IVar4 == 2) || (IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19), IVar4 == 3)) {
+      IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19);
+      pbVar6 = ArtDoc::Separation::Entry::GetName(pEVar19);
+      AddNormalizedInkHint(pbVar6,IVar4);
+    }
+  }
+  puVar16 = *(undefined8 **)(this + 0x28);
+  puVar17 = *(undefined8 **)(this + 0x30);
+  if (puVar16 == puVar17) {
+    bVar2 = false;
+  }
+  else {
+    do {
+      puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+      puVar16 = puVar16 + 1;
+    } while (puVar16 != puVar17);
+    bVar2 = true;
+  }
+  bVar14 = true;
+  if (!bVar2) {
+    bVar14 = param_4;
+  }
+  if ((param_2 & 1U) == 0) {
+    puVar16 = *(undefined8 **)(this + 0x40);
+    puVar17 = *(undefined8 **)(this + 0x48);
+    if (puVar16 != puVar17) {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c7 = '\x01';
+      goto LAB_180244111;
+    }
+  }
+  else {
+    puVar16 = *(undefined8 **)(this + 0x58);
+    puVar17 = *(undefined8 **)(this + 0x60);
+    if (puVar16 == puVar17) {
+      local_2c8 = '\0';
+    }
+    else {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c8 = '\x01';
+LAB_180244111:
+      bVar14 = true;
+    }
+  }
+  if (param_2 == 1) {
+    puVar16 = *(undefined8 **)(this + 0x70);
+    puVar17 = *(undefined8 **)(this + 0x78);
+    if (puVar16 != puVar17) {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c6 = '\x01';
+      bVar14 = true;
+    }
+  }
+  if (local_2c4 == '\0') {
+LAB_1802441d3:
+    if (bVar14 == false) goto LAB_1802449de;
+  }
+  else {
+    puVar16 = *(undefined8 **)(this + 0x88);
+    puVar17 = *(undefined8 **)(this + 0x90);
+    if (puVar16 == puVar17) goto LAB_1802441d3;
+    do {
+      puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+      puVar16 = puVar16 + 1;
+    } while (puVar16 != puVar17);
+    local_2c5 = '\x01';
+  }
+  pPVar8 = ArtDoc::Page::GetContent(param_1);
+  DetectNormalizedInkTypes((Content *)pPVar8,true,true);
+  InkCollector::InkCollector
+            (local_248,param_1,false,
+             (set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_> *)
+             0x0);
+  ArtDoc::PageContent::Accept((PageContent *)local_270,(ConstVisitorBase *)local_248);
+  pDVar5 = ArtDoc::Content::GetDocument(local_270);
+  pvVar9 = ArtDoc::Document::GetSeparationInfo(pDVar5);
+  FUN_180035ab0(&local_2b8,pvVar9);
+  pEVar19 = local_2b0;
+  for (pEVar20 = local_2b8; pEVar20 != pEVar19; pEVar20 = pEVar20 + 0xf0) {
+    IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20);
+    if ((IVar4 == 2) || (IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20), IVar4 == 3)) {
+      IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20);
+      pbVar6 = ArtDoc::Separation::Entry::GetName(pEVar20);
+      AddNormalizedInkHint(pbVar6,IVar4);
+    }
+  }
+  local_2a0 = (void *)0x0;
+  plStack_298 = (longlong *)0x0;
+  local_290 = (longlong *)0x0;
+  if (bVar2) {
+    local_2c0 = this + 0x28;
+    FUN_18001be10(&local_2a0,0,&local_2c0);
+    puVar16 = *(undefined8 **)(this + 0x30);
+    for (puVar17 = *(undefined8 **)(this + 0x28); puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  plVar18 = plStack_298;
+  plVar21 = local_290;
+  if (local_2c7 != '\0') {
+    pTVar1 = this + 0x40;
+    local_2c0 = pTVar1;
+    if (plStack_298 == local_290) {
+      FUN_18001be10(&local_2a0,plStack_298,&local_2c0);
+    }
+    else {
+      *plStack_298 = (longlong)pTVar1;
+      plStack_298 = plStack_298 + 1;
+    }
+    plVar21 = local_290;
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x48);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c8 != '\0') {
+    pTVar1 = this + 0x58;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+      plVar21 = local_290;
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x60);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c6 != '\0') {
+    pTVar1 = this + 0x70;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+      plVar21 = local_290;
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x78);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c5 != '\0') {
+    pTVar1 = this + 0x88;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    puVar16 = *(undefined8 **)(this + 0x90);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  pEVar20 = *(Entry **)(this + 0x18);
+  this_00 = local_270;
+  for (pEVar19 = *(Entry **)(this + 0x10); local_270 = this_00, pEVar19 != pEVar20;
+      pEVar19 = pEVar19 + 0xf0) {
+    ArtDoc::Separation::FindOrAdd
+              ((vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *)
+               &local_2b8,pEVar19);
+    this_00 = local_270;
+  }
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  uVar11 = FUN_180035ab0(local_288,&local_2b8);
+  ArtDoc::Document::SetSeparationInfo(pDVar5,uVar11);
+  pSVar12 = ArtDoc::Content::GetSeparations(this_00);
+  ArtDoc::Separations::GetList(pSVar12,SUB81(local_98,0));
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  pCVar13 = GetChangeTracker(pDVar5);
+  local_d8 = std::
+             _Func_impl_no_alloc<`public:_void___cdecl_DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(ArtDoc::Page&___ptr64,int,bool,bool,bool,bool)___ptr64'::`37'::<lambda_1>,void>
+             ::vftable;
+  local_a0 = &local_d8;
+  local_d0 = this_00;
+  FUN_1800138d0(*(undefined8 *)(pCVar13 + 0x30),&local_d8);
+  if (local_a0 != (undefined ***)0x0) {
+    (*(code *)(*local_a0)[4])
+              (local_a0,CONCAT71((int7)((ulonglong)&local_d8 >> 8),local_a0 != &local_d8));
+  }
+  UpdateMarksOnPage(param_1);
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  pvVar9 = ArtDoc::Document::GetSeparationInfo(pDVar5);
+  FUN_180035ab0(local_260,pvVar9);
+  pSVar12 = ArtDoc::Content::GetSeparations(this_00);
+  ArtDoc::Separations::GetList(pSVar12,SUB81(local_108,0));
+  cVar3 = FUN_180243bc0(local_108,&local_2a0,local_268,&local_2b8);
+  lVar15 = (local_80 - local_88) / 6 + (local_80 - local_88 >> 0x3f);
+  if (((ulonglong)((lVar15 >> 3) - (lVar15 >> 0x3f)) < (ulonglong)((local_f0 - local_f8) / 0x30)) ||
+     (cVar3 != '\0')) {
+    ppEVar10 = (Entry **)
+               MergeSeparationInfo(local_288,
+                                   (vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+                                    *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+    pDVar5 = ArtDoc::Content::GetDocument(this_00);
+    uVar11 = FUN_180035ab0(local_288,&local_2b8);
+    ArtDoc::Document::SetSeparationInfo(pDVar5,uVar11);
+    pDVar5 = ArtDoc::Content::GetDocument(this_00);
+    this_02 = ArtDoc::Document::GetDynamicObjects(pDVar5);
+    ArtDoc::DynamicObjectController::SetAllNeedUpdate(this_02,param_1);
+    UpdateMarksOnPage(param_1);
+  }
+  FUN_18003f2b0(local_108);
+  FUN_18003a010(local_260);
+  FUN_18003f2b0(local_98);
+  if (local_2a0 != (void *)0x0) {
+    _Memory = local_2a0;
+    if ((0xfff < (ulonglong)(((longlong)local_290 - (longlong)local_2a0 >> 3) * 8)) &&
+       (_Memory = *(void **)((longlong)local_2a0 + -8),
+       0x1f < (ulonglong)((longlong)local_2a0 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  FUN_18003a010(&local_2b8);
+  FUN_18001c310(local_1f8);
+  FUN_180023a60(local_210);
+  local_238 = ArtDoc::ConstVisitor<DocumentMarks::SNRGrid>::_vftable_;
+  local_240 = ArtDoc::ConstVisitor<DocumentMarks::DynamicObject>::_vftable_;
+  ArtDoc::ConstVisitorBase::~ConstVisitorBase((ConstVisitorBase *)local_248);
+LAB_1802449de:
+  if (param_5) {
+    GetDynamicMarksBox(local_98);
+    AdjustPageBoxes(param_1,(RectangleBase<YAGL::MilliPointCoordinateSystem> *)local_98);
+  }
+  if (param_6) {
+    MakeFormsFromMarks(param_1,false);
+  }
+  MoveExpandedMarks(param_1,!param_6);
+  return;
+}
+
+
+
+#### 180244a50 ApplyRelevantMarkSetsWithReuse ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::TaskMarkSets::ApplyRelevantMarkSetsWithReuse(class
+   ArtDoc::Page & __ptr64,class ArtDoc::CloneStrategy & __ptr64,int,bool,bool,class
+   YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> * __ptr64) __ptr64 */
+
+void __thiscall
+DocumentMarks::TaskMarkSets::ApplyRelevantMarkSetsWithReuse
+          (TaskMarkSets *this,Page *param_1,CloneStrategy *param_2,int param_3,bool param_4,
+          bool param_5,RectangleBase<YAGL::MilliPointCoordinateSystem> *param_6)
+
+{
+  bool bVar1;
+  longlong *plVar2;
+  Content *this_00;
+  PageContent *pPVar3;
+  PageContent *this_01;
+  Document *pDVar4;
+  ChangeTracker *pCVar5;
+  undefined8 uVar6;
+  Layer *pLVar7;
+  Page *pPVar8;
+  undefined1 auStack_108 [48];
+  Page local_d8 [80];
+  undefined **local_88;
+  PageContent *local_80;
+  undefined ***local_50;
+  ulonglong local_48;
+  
+                    /* 0x244a50  841
+                       ?ApplyRelevantMarkSetsWithReuse@TaskMarkSets@DocumentMarks@@QEAAXAEAVPage@ArtDoc@@AEAVCloneStrategy@4@H_N2PEAV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+                        */
+  local_48 = DAT_180409ec0 ^ (ulonglong)auStack_108;
+  bVar1 = false;
+  if (param_3 == 1) {
+    plVar2 = (longlong *)ArtDoc::Document::GetPagesBegin(*(Document **)(this + 8));
+    CopyMarksAsFormsToPage(*(Page **)(*plVar2 + 0x10),param_1,param_2);
+    goto LAB_180244b7c;
+  }
+  plVar2 = (longlong *)ArtDoc::Document::GetPagesBegin(*(Document **)(this + 8));
+  if (param_4) {
+    CopyMarksAsFormsToPage(*(Page **)(*plVar2 + 0x18),param_1,param_2);
+    goto LAB_180244b7c;
+  }
+  if ((param_3 & 1U) == 0) {
+    if (*(longlong *)(this + 0x200) == 0) {
+      if (*(longlong *)(this + 0x208) == 0) {
+        pPVar8 = *(Page **)*plVar2;
+        goto LAB_180244b6e;
+      }
+    }
+    else {
+      pPVar3 = ArtDoc::Page::GetContent(param_1);
+      pLVar7 = ArtDoc::Layer::Clone(*(Layer **)(this + 0x200),param_2);
+      ArtDoc::Content::AddOnTop((Content *)pPVar3,(ContentObject *)pLVar7);
+      if (*(longlong *)(this + 0x208) == 0) {
+        return;
+      }
+    }
+    this_00 = (Content *)ArtDoc::Page::GetContent(param_1);
+    pLVar7 = *(Layer **)(this + 0x208);
+  }
+  else {
+    if (*(longlong *)(this + 0x210) == 0) {
+      if (*(longlong *)(this + 0x218) == 0) {
+        pPVar8 = *(Page **)(*plVar2 + 8);
+LAB_180244b6e:
+        CopyMarksAsFormsToPage(pPVar8,param_1,param_2);
+        bVar1 = true;
+LAB_180244b7c:
+        if (param_6 != (RectangleBase<YAGL::MilliPointCoordinateSystem> *)0x0) {
+          AdjustPageBoxes(param_1,param_6);
+        }
+        if (param_5) {
+          pPVar3 = ArtDoc::Page::GetContent(param_1);
+          this_01 = ArtDoc::Page::GetContent(param_1);
+          pDVar4 = ArtDoc::Content::GetDocument((Content *)this_01);
+          pCVar5 = GetChangeTracker(pDVar4);
+          local_88 = std::
+                     _Func_impl_no_alloc<`public:_void___cdecl_DocumentMarks::TaskMarkSets::ApplyRelevantMarkSetsWithReuse(ArtDoc::Page&___ptr64,ArtDoc::CloneStrategy&___ptr64,int,bool,bool,YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>*___ptr64)___ptr64'::`39'::<lambda_1>,void>
+                     ::vftable;
+          local_50 = &local_88;
+          local_80 = pPVar3;
+          FUN_1800138d0(*(undefined8 *)(pCVar5 + 0x30),&local_88);
+          if (local_50 != (undefined ***)0x0) {
+            (*(code *)(*local_50)[4])
+                      (local_50,CONCAT71((int7)((ulonglong)&local_88 >> 8),local_50 != &local_88));
+          }
+          UpdateMarksOnPage(param_1);
+          GetDynamicMarksBox(local_d8);
+          AdjustPageBoxes(param_1,(RectangleBase<YAGL::MilliPointCoordinateSystem> *)local_d8);
+          MakeFormsFromMarks(param_1,false);
+        }
+        MoveExpandedMarks(param_1,false);
+        if (((bVar1) && (!param_5)) &&
+           (param_6 == (RectangleBase<YAGL::MilliPointCoordinateSystem> *)0x0)) {
+          uVar6 = FUN_180044500(param_1,0);
+          if ((param_3 & 1U) == 0) {
+            *(undefined8 *)(this + 0x200) = uVar6;
+            uVar6 = FUN_180044570(param_1,0);
+            *(undefined8 *)(this + 0x208) = uVar6;
+          }
+          else {
+            *(undefined8 *)(this + 0x210) = uVar6;
+            uVar6 = FUN_180044570(param_1,0);
+            *(undefined8 *)(this + 0x218) = uVar6;
+          }
+        }
+        return;
+      }
+    }
+    else {
+      pPVar3 = ArtDoc::Page::GetContent(param_1);
+      pLVar7 = ArtDoc::Layer::Clone(*(Layer **)(this + 0x210),param_2);
+      ArtDoc::Content::AddOnTop((Content *)pPVar3,(ContentObject *)pLVar7);
+      if (*(longlong *)(this + 0x218) == 0) {
+        return;
+      }
+    }
+    this_00 = (Content *)ArtDoc::Page::GetContent(param_1);
+    pLVar7 = *(Layer **)(this + 0x218);
+  }
+  pLVar7 = ArtDoc::Layer::Clone(pLVar7,param_2);
+  ArtDoc::Content::AddOnTop(this_00,(ContentObject *)pLVar7);
+  return;
+}
+
+
+
+#### 180245380 CopyMarksToPageWithLog ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog(class ArtDoc::Page &
+   __ptr64,class ArtDoc::Page & __ptr64,bool) __ptr64 */
+
+void __thiscall
+DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+          (TaskMarkSets *this,Page *param_1,Page *param_2,bool param_3)
+
+{
+  undefined2 *puVar1;
+  void *pvVar2;
+  char cVar3;
+  code *pcVar4;
+  undefined1 uVar5;
+  longlong lVar6;
+  longlong *plVar7;
+  bool bVar8;
+  PageContent *pPVar9;
+  Document *pDVar10;
+  __uint64 _Var11;
+  undefined8 ****ppppuVar12;
+  ulonglong uVar13;
+  longlong *plVar14;
+  undefined8 ****ppppuVar15;
+  ulonglong uVar16;
+  char *pcVar17;
+  longlong *plVar18;
+  undefined1 auStackY_158 [32];
+  undefined1 local_118 [8];
+  longlong *local_110;
+  longlong local_108;
+  longlong *local_100;
+  longlong local_f8;
+  Page *local_f0;
+  Page *local_e8;
+  TaskMarkSets *local_e0;
+  undefined8 ****local_d0;
+  undefined8 uStack_c8;
+  longlong local_c0;
+  ulonglong local_b8;
+  undefined8 ****local_b0 [3];
+  ulonglong local_98;
+  undefined8 ****local_90 [3];
+  ulonglong local_78;
+  char local_5c [4];
+  ulonglong local_58;
+  
+                    /* 0x245380  928
+                       ?CopyMarksToPageWithLog@TaskMarkSets@DocumentMarks@@QEAAXAEAVPage@ArtDoc@@0_N@Z
+                        */
+  local_58 = DAT_180409ec0 ^ (ulonglong)auStackY_158;
+  local_100 = (longlong *)0x0;
+  local_f8 = 0;
+  local_f0 = param_1;
+  local_e8 = param_2;
+  local_e0 = this;
+  local_100 = (longlong *)FUN_1802cbe68(0x40);
+  *local_100 = (longlong)local_100;
+  local_100[1] = (longlong)local_100;
+  local_100[2] = (longlong)local_100;
+  *(undefined2 *)(local_100 + 3) = 0x101;
+  local_110 = (longlong *)0x0;
+  local_108 = 0;
+  local_110 = (longlong *)FUN_1802cbe68(0x40);
+  *local_110 = (longlong)local_110;
+  local_110[1] = (longlong)local_110;
+  local_110[2] = (longlong)local_110;
+  *(undefined2 *)(local_110 + 3) = 0x101;
+  bVar8 = CopyMarksToPage(param_1,param_2,param_3,
+                          (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                           *)&local_100,
+                          (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                           *)&local_110,
+                          (set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>
+                           *)0x0,true);
+  if ((!bVar8) && (local_f8 != 0)) {
+    pPVar9 = ArtDoc::Page::GetContent(param_1);
+    pDVar10 = ArtDoc::Content::GetDocument((Content *)pPVar9);
+    ArtDoc::Document::GetFilePath(pDVar10);
+    boost::filesystem::detail::path_algorithms::stem_v3((path *)local_b0);
+    ExtraBoostFilesystem::ToUTF8String((path *)local_90);
+    FUN_180016f40(local_b0);
+    uVar5 = local_118[0];
+    uStack_c8 = 0;
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)0x0;
+    plVar14 = (longlong *)*local_100;
+    if (*(char *)((longlong)plVar14 + 0x19) == '\0') {
+      do {
+        lVar6 = local_c0;
+        plVar18 = plVar14 + 4;
+        if (local_c0 != 0) {
+          if (local_b8 - local_c0 < 2) {
+            FUN_18003c5b0(&local_d0,2,uVar5,&DAT_180328f04);
+          }
+          else {
+            ppppuVar12 = &local_d0;
+            if (0xf < local_b8) {
+              ppppuVar12 = local_d0;
+            }
+            puVar1 = (undefined2 *)((longlong)ppppuVar12 + local_c0);
+            local_c0 = local_c0 + 2;
+            *puVar1 = 0x202c;
+            *(undefined1 *)((longlong)ppppuVar12 + lVar6 + 2) = 0;
+          }
+        }
+        lVar6 = local_c0;
+        uVar16 = plVar14[6];
+        if (0xf < (ulonglong)plVar14[7]) {
+          plVar18 = (longlong *)*plVar18;
+        }
+        if (local_b8 - local_c0 < uVar16) {
+          FUN_18003c5b0(&local_d0,uVar16,uVar5,plVar18);
+        }
+        else {
+          ppppuVar12 = &local_d0;
+          if (0xf < local_b8) {
+            ppppuVar12 = local_d0;
+          }
+          pvVar2 = (void *)((longlong)ppppuVar12 + local_c0);
+          local_c0 = local_c0 + uVar16;
+          memmove(pvVar2,plVar18,uVar16);
+          *(undefined1 *)((longlong)ppppuVar12 + lVar6 + uVar16) = 0;
+        }
+        plVar18 = (longlong *)plVar14[2];
+        if (*(char *)((longlong)plVar18 + 0x19) == '\0') {
+          cVar3 = *(char *)(*plVar18 + 0x19);
+          plVar14 = plVar18;
+          plVar18 = (longlong *)*plVar18;
+          while (cVar3 == '\0') {
+            cVar3 = *(char *)(*plVar18 + 0x19);
+            plVar14 = plVar18;
+            plVar18 = (longlong *)*plVar18;
+          }
+        }
+        else {
+          cVar3 = *(char *)(plVar14[1] + 0x19);
+          plVar7 = (longlong *)plVar14[1];
+          plVar18 = plVar14;
+          while ((plVar14 = plVar7, cVar3 == '\0' && (plVar18 == (longlong *)plVar14[2]))) {
+            cVar3 = *(char *)(plVar14[1] + 0x19);
+            plVar7 = (longlong *)plVar14[1];
+            plVar18 = plVar14;
+          }
+        }
+      } while (*(char *)((longlong)plVar14 + 0x19) == '\0');
+      param_2 = local_e8;
+      this = local_e0;
+    }
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 0x38);
+    ArtDoc::Page::GetPageIndex(param_2);
+    ppppuVar12 = local_90;
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+    }
+    ppppuVar15 = &local_d0;
+    if (0xf < local_b8) {
+      ppppuVar15 = local_d0;
+    }
+    (*pcVar4)(plVar14,
+              "WARNING: Missing Named Objects: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing object were removed from page %lu.\n"
+              ,ppppuVar15,ppppuVar12);
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 8);
+    _Var11 = ArtDoc::Page::GetPageIndex(param_2);
+    pcVar17 = local_5c + 1;
+    uVar16 = _Var11 + 1;
+    do {
+      pcVar17 = pcVar17 + -1;
+      uVar13 = uVar16 / 10;
+      *pcVar17 = (char)uVar16 + (char)uVar13 * -10 + '0';
+      uVar16 = uVar13;
+    } while (uVar13 != 0);
+    FUN_18000cc20(local_b0,pcVar17,local_5c + 1,local_118);
+    ppppuVar12 = local_b0;
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+    }
+    (*pcVar4)(plVar14,1,"DocumentMarks.Warning.MissingNamedObject",ppppuVar12);
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+      if ((0xfff < local_98 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_b0[0][-1],
+         0x1f < (ulonglong)((longlong)local_b0[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    if (0xf < local_b8) {
+      ppppuVar12 = local_d0;
+      if ((0xfff < local_b8 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_d0[-1],
+         0x1f < (ulonglong)((longlong)local_d0 + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)((ulonglong)local_d0 & 0xffffffffffffff00);
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+      if ((0xfff < local_78 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_90[0][-1],
+         0x1f < (ulonglong)((longlong)local_90[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    param_1 = local_f0;
+  }
+  if (local_108 != 0) {
+    pPVar9 = ArtDoc::Page::GetContent(param_1);
+    pDVar10 = ArtDoc::Content::GetDocument((Content *)pPVar9);
+    ArtDoc::Document::GetFilePath(pDVar10);
+    boost::filesystem::detail::path_algorithms::stem_v3((path *)local_90);
+    ExtraBoostFilesystem::ToUTF8String((path *)local_b0);
+    FUN_180016f40(local_90);
+    uStack_c8 = 0;
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)0x0;
+    plVar14 = (longlong *)*local_110;
+    if (*(char *)((longlong)plVar14 + 0x19) == '\0') {
+      do {
+        lVar6 = local_c0;
+        plVar18 = plVar14 + 4;
+        if (local_c0 != 0) {
+          if (local_b8 - local_c0 < 2) {
+            FUN_18003c5b0(&local_d0,2,local_118[0],&DAT_180328f04);
+          }
+          else {
+            ppppuVar12 = &local_d0;
+            if (0xf < local_b8) {
+              ppppuVar12 = local_d0;
+            }
+            puVar1 = (undefined2 *)((longlong)ppppuVar12 + local_c0);
+            local_c0 = local_c0 + 2;
+            *puVar1 = 0x202c;
+            *(undefined1 *)((longlong)ppppuVar12 + lVar6 + 2) = 0;
+          }
+        }
+        lVar6 = local_c0;
+        uVar16 = plVar14[6];
+        if (0xf < (ulonglong)plVar14[7]) {
+          plVar18 = (longlong *)*plVar18;
+        }
+        if (local_b8 - local_c0 < uVar16) {
+          FUN_18003c5b0(&local_d0,uVar16,local_118[0],plVar18);
+        }
+        else {
+          ppppuVar12 = &local_d0;
+          if (0xf < local_b8) {
+            ppppuVar12 = local_d0;
+          }
+          pvVar2 = (void *)((longlong)ppppuVar12 + local_c0);
+          local_c0 = local_c0 + uVar16;
+          memmove(pvVar2,plVar18,uVar16);
+          *(undefined1 *)((longlong)ppppuVar12 + lVar6 + uVar16) = 0;
+        }
+        plVar18 = (longlong *)plVar14[2];
+        if (*(char *)((longlong)plVar18 + 0x19) == '\0') {
+          cVar3 = *(char *)(*plVar18 + 0x19);
+          plVar14 = plVar18;
+          plVar18 = (longlong *)*plVar18;
+          while (cVar3 == '\0') {
+            cVar3 = *(char *)(*plVar18 + 0x19);
+            plVar14 = plVar18;
+            plVar18 = (longlong *)*plVar18;
+          }
+        }
+        else {
+          cVar3 = *(char *)(plVar14[1] + 0x19);
+          plVar7 = (longlong *)plVar14[1];
+          plVar18 = plVar14;
+          while ((plVar14 = plVar7, cVar3 == '\0' && (plVar18 == (longlong *)plVar14[2]))) {
+            cVar3 = *(char *)(plVar14[1] + 0x19);
+            plVar7 = (longlong *)plVar14[1];
+            plVar18 = plVar14;
+          }
+        }
+      } while (*(char *)((longlong)plVar14 + 0x19) == '\0');
+      param_2 = local_e8;
+      this = local_e0;
+    }
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 0x38);
+    ArtDoc::Page::GetPageIndex(param_2);
+    ppppuVar12 = local_b0;
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+    }
+    ppppuVar15 = &local_d0;
+    if (0xf < local_b8) {
+      ppppuVar15 = local_d0;
+    }
+    (*pcVar4)(plVar14,
+              "WARNING: Missing Page Box: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing page box were relinked to available page box on page %lu.\n"
+              ,ppppuVar15,ppppuVar12);
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 8);
+    _Var11 = ArtDoc::Page::GetPageIndex(param_2);
+    pcVar17 = local_5c + 1;
+    uVar16 = _Var11 + 1;
+    do {
+      pcVar17 = pcVar17 + -1;
+      uVar13 = uVar16 / 10;
+      *pcVar17 = (char)uVar16 + (char)uVar13 * -10 + '0';
+      uVar16 = uVar13;
+    } while (uVar13 != 0);
+    FUN_18000cc20(local_90,pcVar17,local_5c + 1,local_118);
+    ppppuVar12 = local_90;
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+    }
+    (*pcVar4)(plVar14,1,"DocumentMarks.Warning.MissingPageBox",ppppuVar12);
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+      if ((0xfff < local_78 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_90[0][-1],
+         0x1f < (ulonglong)((longlong)local_90[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    if (0xf < local_b8) {
+      ppppuVar12 = local_d0;
+      if ((0xfff < local_b8 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_d0[-1],
+         0x1f < (ulonglong)((longlong)local_d0 + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)((ulonglong)local_d0 & 0xffffffffffffff00);
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+      if ((0xfff < local_98 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_b0[0][-1],
+         0x1f < (ulonglong)((longlong)local_b0[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+  }
+  FUN_18005db00(&local_110,&local_110,local_110[1]);
+  free(local_110);
+  FUN_18005db00(&local_100,&local_100,local_100[1]);
+  free(local_100);
+  return;
+}
+
+
+
+#### 180246c70 PrepareMarksCache ####
+
+/* public: bool __cdecl DocumentMarks::TaskMarkSets::PrepareMarksCache(class ArtDoc::Document &
+   __ptr64,bool,class boost::filesystem::path const & __ptr64) __ptr64 */
+
+bool __thiscall
+DocumentMarks::TaskMarkSets::PrepareMarksCache
+          (TaskMarkSets *this,Document *param_1,bool param_2,path *param_3)
+
+{
+  optional<ArtColor::OutputIntent> oVar1;
+  Document *pDVar2;
+  Page *pPVar3;
+  Page *pPVar4;
+  undefined *_Buf1;
+  Entry *pEVar5;
+  bool bVar6;
+  char cVar7;
+  int iVar8;
+  CacheableState CVar9;
+  undefined8 *puVar10;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> *pRVar11;
+  optional<ArtColor::OutputIntent> *poVar12;
+  Properties *pPVar13;
+  TypeDescriptor *pTVar14;
+  undefined8 uVar15;
+  vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *pvVar16;
+  __uint64 _Var17;
+  undefined8 *_Buf2;
+  undefined8 *puVar18;
+  longlong *plVar19;
+  longlong lVar20;
+  Entry *pEVar21;
+  TaskMarkSets *pTVar22;
+  undefined8 *local_res8;
+  Document *local_298 [2];
+  undefined8 *local_288;
+  undefined8 *puStack_280;
+  longlong local_278;
+  Entry *local_268;
+  Entry *pEStack_260;
+  longlong local_258;
+  Page *local_250;
+  Page local_248 [24];
+  undefined1 local_230 [8];
+  vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> local_228 [40];
+  undefined8 local_200;
+  undefined8 uStack_1f8;
+  undefined8 local_1f0;
+  undefined8 uStack_1e8;
+  undefined8 local_1e0;
+  undefined8 uStack_1d8;
+  undefined8 local_1d0;
+  undefined8 uStack_1c8;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> local_1c0;
+  CloneStrategy local_1b8 [144];
+  OutputIntent local_128 [224];
+  undefined1 local_48;
+  
+                    /* 0x246c70  1413
+                       ?PrepareMarksCache@TaskMarkSets@DocumentMarks@@QEAA_NAEAVDocument@ArtDoc@@_NAEBVpath@filesystem@boost@@@Z
+                        */
+  puVar10 = (undefined8 *)ArtDoc::Document::GetPagesBegin(param_1);
+  pRVar11 = ArtDoc::Page::GetPageBox(*(Page **)*puVar10,0);
+  local_200 = *(undefined8 *)(pRVar11 + 8);
+  uStack_1f8 = *(undefined8 *)(pRVar11 + 0x10);
+  local_1f0 = *(undefined8 *)(pRVar11 + 0x18);
+  uStack_1e8 = *(undefined8 *)(pRVar11 + 0x20);
+  local_1e0 = *(undefined8 *)(pRVar11 + 0x28);
+  uStack_1d8 = *(undefined8 *)(pRVar11 + 0x30);
+  local_1d0 = *(undefined8 *)(pRVar11 + 0x38);
+  uStack_1c8 = *(undefined8 *)(pRVar11 + 0x40);
+  local_1c0 = pRVar11[0x48];
+  puVar10 = (undefined8 *)
+            ArtDoc::Document::Create((RectangleBase<YAGL::MilliPointCoordinateSystem> *)local_298);
+  uVar15 = *puVar10;
+  *puVar10 = 0;
+  pDVar2 = *(Document **)(this + 8);
+  *(undefined8 *)(this + 8) = uVar15;
+  if (pDVar2 != (Document *)0x0) {
+    ArtDoc::Document::~Document(pDVar2);
+    free(pDVar2);
+  }
+  if (local_298[0] != (Document *)0x0) {
+    ArtDoc::Document::~Document(local_298[0]);
+    free(local_298[0]);
+  }
+  pDVar2 = *(Document **)(this + 8);
+  bVar6 = ArtDoc::Document::GetInfoFlag(param_1,2);
+  ArtDoc::Document::SetInfoFlag(pDVar2,2,bVar6);
+  ArtDoc::SetFilePathForDocument(param_3,*(Document **)(this + 8));
+  pDVar2 = *(Document **)(this + 8);
+  local_298[0] = (Document *)local_128;
+  poVar12 = ArtDoc::Document::GetOutputIntent(param_1);
+  local_48 = 0;
+  oVar1 = poVar12[0xe0];
+  if (oVar1 != (optional<ArtColor::OutputIntent>)0x0) {
+    ArtColor::OutputIntent::OutputIntent(local_128,(OutputIntent *)poVar12);
+  }
+  local_48 = oVar1 != (optional<ArtColor::OutputIntent>)0x0;
+  ArtDoc::Document::SetOutputIntent(pDVar2,local_128);
+  pPVar13 = ArtDoc::Document::GetProperties(param_1);
+  _Buf1 = PTR_s_DocumentMarks_CustomVariables_1802fd850;
+  puVar18 = *(undefined8 **)pPVar13;
+  puVar10 = puVar18 + *(longlong *)(pPVar13 + 8) * 5;
+  if (puVar18 != puVar10) {
+    do {
+      _Buf2 = puVar18;
+      if (0xf < (ulonglong)puVar18[3]) {
+        _Buf2 = (undefined8 *)*puVar18;
+      }
+    } while (((puVar18[2] != 0x1d) || (iVar8 = memcmp(_Buf1,_Buf2,0x1d), iVar8 != 0)) &&
+            (puVar18 = puVar18 + 5, puVar18 != puVar10));
+    if (puVar18 != puVar10) {
+      plVar19 = puVar18 + 4;
+      if (plVar19 == (longlong *)0x0) {
+LAB_180246e66:
+        lVar20 = 0;
+      }
+      else {
+        if ((longlong *)*plVar19 == (longlong *)0x0) {
+          pTVar14 = &.X::RTTI_Type_Descriptor;
+        }
+        else {
+          pTVar14 = (TypeDescriptor *)(**(code **)(*(longlong *)*plVar19 + 8))();
+        }
+        iVar8 = __std_type_info_compare(&pTVar14->spare,0x18040de28);
+        if (iVar8 != 0) goto LAB_180246e66;
+        lVar20 = *plVar19 + 8;
+      }
+      if (lVar20 != 0) {
+        pPVar13 = ArtDoc::Document::GetProperties(*(Document **)(this + 8));
+        FUN_180242f20(pPVar13,&PTR_s_DocumentMarks_CustomVariables_1802fd850,lVar20);
+      }
+    }
+  }
+  local_268 = (Entry *)0x0;
+  pEStack_260 = (Entry *)0x0;
+  local_258 = 0;
+  GetUsedSeparationsFromDocument
+            (param_1,true,
+             (vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *)
+             &local_268);
+  pDVar2 = *(Document **)(this + 8);
+  uVar15 = FUN_180035ab0(&local_288,&local_268);
+  ArtDoc::Document::SetSeparationInfo(pDVar2,uVar15);
+  ArtDoc::CloneStrategy::CloneStrategy(local_1b8,*(Document **)(this + 8),1);
+  puVar10 = (undefined8 *)ArtDoc::Document::GetPagesBegin(param_1);
+  pPVar3 = *(Page **)*puVar10;
+  local_298[0] = (Document *)pPVar3;
+  ArtDoc::Document::GetPagesBegin(*(Document **)(this + 8));
+  pPVar4 = (Page *)*local_res8;
+  local_250 = pPVar4;
+  ArtDoc::ClonePage(pPVar3,pPVar4,local_1b8);
+  pvVar16 = ArtDoc::Document::GetSeparationInfo(*(Document **)(this + 8));
+  FUN_180035ab0(local_228,pvVar16);
+  CreateObjectWithAllColorsOnPage(pPVar4,local_228);
+  local_288 = (undefined8 *)0x0;
+  puStack_280 = (undefined8 *)0x0;
+  local_278 = 0;
+  PrepareMarksCachePage
+            (this,local_248,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pPVar4,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x28),
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x40),SUB81(&local_288,0),param_2);
+  FUN_18003a010(local_248);
+  puVar18 = puStack_280;
+  puVar10 = local_288;
+  if (local_288 != (undefined8 *)0x0) {
+    for (; puVar10 != puVar18; puVar10 = puVar10 + 1) {
+      pDVar2 = (Document *)*puVar10;
+      if (pDVar2 != (Document *)0x0) {
+        ArtDoc::Document::~Document(pDVar2);
+        free(pDVar2);
+      }
+    }
+    puVar10 = local_288;
+    if ((0xfff < (ulonglong)((local_278 - (longlong)local_288 >> 3) * 8)) &&
+       (puVar10 = (undefined8 *)local_288[-1],
+       0x1f < (ulonglong)((longlong)local_288 + (-8 - (longlong)puVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(puVar10);
+  }
+  pDVar2 = *(Document **)(this + 8);
+  puVar10 = (undefined8 *)ArtDoc::Document::GetPagesEnd(pDVar2);
+  uVar15 = *puVar10;
+  pRVar11 = ArtDoc::Page::GetPageBox(local_250,0);
+  puVar10 = (undefined8 *)ArtDoc::Document::InsertPage(pDVar2,&local_288,pRVar11,uVar15);
+  pPVar3 = *(Page **)*puVar10;
+  ArtDoc::ClonePage((Page *)local_298[0],pPVar3,local_1b8);
+  CreateObjectWithAllColorsOnPage(pPVar3,local_228);
+  local_288 = (undefined8 *)0x0;
+  puStack_280 = (undefined8 *)0x0;
+  local_278 = 0;
+  PrepareMarksCachePage
+            (this,local_248,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pPVar3,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x28),
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x58),SUB81(&local_288,0),param_2);
+  FUN_18003a010(local_248);
+  puVar18 = puStack_280;
+  puVar10 = local_288;
+  if (local_288 != (undefined8 *)0x0) {
+    for (; puVar10 != puVar18; puVar10 = puVar10 + 1) {
+      pDVar2 = (Document *)*puVar10;
+      if (pDVar2 != (Document *)0x0) {
+        ArtDoc::Document::~Document(pDVar2);
+        free(pDVar2);
+      }
+    }
+    puVar10 = local_288;
+    if ((0xfff < (ulonglong)((local_278 - (longlong)local_288 >> 3) * 8)) &&
+       (puVar10 = (undefined8 *)local_288[-1],
+       0x1f < (ulonglong)((longlong)local_288 + (-8 - (longlong)puVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(puVar10);
+  }
+  pTVar22 = this + 0x58;
+  pDVar2 = *(Document **)(this + 8);
+  puVar10 = (undefined8 *)ArtDoc::Document::GetPagesEnd(pDVar2);
+  uVar15 = *puVar10;
+  pRVar11 = ArtDoc::Page::GetPageBox(local_250,0);
+  puVar10 = (undefined8 *)ArtDoc::Document::InsertPage(pDVar2,local_230,pRVar11,uVar15);
+  pPVar3 = *(Page **)*puVar10;
+  ArtDoc::ClonePage((Page *)local_298[0],pPVar3,local_1b8);
+  CreateObjectWithAllColorsOnPage(pPVar3,local_228);
+  PrepareMarksCachePage
+            (this,local_248,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pPVar3,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x28),
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pTVar22,(bool)((char)this + 'p'),param_2);
+  FUN_18003a010(local_248);
+  pDVar2 = *(Document **)(this + 8);
+  puVar10 = (undefined8 *)ArtDoc::Document::GetPagesEnd(pDVar2);
+  uVar15 = *puVar10;
+  pRVar11 = ArtDoc::Page::GetPageBox(local_250,0);
+  puVar10 = (undefined8 *)ArtDoc::Document::InsertPage(pDVar2,local_230,pRVar11,uVar15);
+  pPVar3 = *(Page **)*puVar10;
+  ArtDoc::ClonePage((Page *)local_298[0],pPVar3,local_1b8);
+  CreateObjectWithAllColorsOnPage(pPVar3,local_228);
+  _Var17 = ArtDoc::Document::GetNumberOfPages(param_1);
+  if ((_Var17 & 1) == 0) {
+    pTVar22 = this + 0x40;
+  }
+  PrepareMarksCachePage
+            (this,local_248,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pPVar3,
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)(this + 0x28),
+             (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+              *)pTVar22,(bool)((char)this + -0x78),param_2);
+  FUN_18003a010(local_248);
+  puStack_280 = (undefined8 *)((ulonglong)puStack_280 & 0xffffffffffffff00);
+  cVar7 = (**(code **)(**(longlong **)(this + 0x1f8) + 0x18))
+                    (*(longlong **)(this + 0x1f8),*(undefined8 *)(this + 8),0,&local_288);
+  if (cVar7 == '\0') {
+    (**(code **)(**(longlong **)(this + 0x1f8) + 0x38))
+              (*(longlong **)(this + 0x1f8),"Error occurred at page %lu\n",1);
+    (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+              (*(longlong **)(this + 0x1f8),2,"DynamicMarksTask.ErrorOnPage",&DAT_1802fddec);
+    (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+              (*(longlong **)(this + 0x1f8),2,"DynamicMarksTask.SeeLog");
+    FUN_18003a010(local_228);
+    ArtDoc::CloneStrategy::~CloneStrategy(local_1b8);
+    pEVar5 = pEStack_260;
+    pEVar21 = local_268;
+    if (local_268 == (Entry *)0x0) {
+      return false;
+    }
+    for (; pEVar21 != pEVar5; pEVar21 = pEVar21 + 0xf0) {
+      ArtDoc::Separation::Entry::~Entry(pEVar21);
+    }
+  }
+  else {
+    CVar9 = CanCacheMarks(*(Document **)(this + 8));
+    if (CVar9 == 1) {
+      (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+                (*(longlong **)(this + 0x1f8),1,"DocumentTaskTools.Message.InkCoverageUsed");
+LAB_1802474f5:
+      StoreCurrentPageBoxes(this);
+      MakeFormsFromCachedMarks(this);
+      RemoveStaticContent(this);
+      FUN_18003a010(local_228);
+      ArtDoc::CloneStrategy::~CloneStrategy(local_1b8);
+      pEVar5 = pEStack_260;
+      pEVar21 = local_268;
+      if (local_268 == (Entry *)0x0) {
+        return true;
+      }
+      for (; pEVar21 != pEVar5; pEVar21 = pEVar21 + 0xf0) {
+        ArtDoc::Separation::Entry::~Entry(pEVar21);
+      }
+      lVar20 = SUB168(SEXT816(-0x7777777777777777) * SEXT816(local_258 - (longlong)local_268),8) +
+               (local_258 - (longlong)local_268);
+      pEVar21 = local_268;
+      if (((ulonglong)(((lVar20 >> 7) - (lVar20 >> 0x3f)) * 0xf0) < 0x1000) ||
+         (pEVar21 = *(Entry **)(local_268 + -8),
+         local_268 + (-8 - (longlong)pEVar21) < (Entry *)0x20)) {
+        free(pEVar21);
+        return true;
+      }
+      goto LAB_1802475a7;
+    }
+    if (CVar9 == 2) {
+      (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+                (*(longlong **)(this + 0x1f8),2,"DocumentTaskTools.Message.SheetNumberUsed");
+      (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+                (*(longlong **)(this + 0x1f8),2,"DocumentTaskTools.Message.SheetNumberUsed2");
+      FUN_18003a010(local_228);
+      ArtDoc::CloneStrategy::~CloneStrategy(local_1b8);
+      pEVar5 = pEStack_260;
+      pEVar21 = local_268;
+      if (local_268 == (Entry *)0x0) {
+        return false;
+      }
+      for (; pEVar21 != pEVar5; pEVar21 = pEVar21 + 0xf0) {
+        ArtDoc::Separation::Entry::~Entry(pEVar21);
+      }
+    }
+    else {
+      if (CVar9 != 3) goto LAB_1802474f5;
+      (**(code **)(**(longlong **)(this + 0x1f8) + 8))
+                (*(longlong **)(this + 0x1f8),2,
+                 "DocumentTaskTools.Message.MarkSetContainsPlateIDMark");
+      FUN_18003a010(local_228);
+      ArtDoc::CloneStrategy::~CloneStrategy(local_1b8);
+      pEVar5 = pEStack_260;
+      pEVar21 = local_268;
+      if (local_268 == (Entry *)0x0) {
+        return false;
+      }
+      for (; pEVar21 != pEVar5; pEVar21 = pEVar21 + 0xf0) {
+        ArtDoc::Separation::Entry::~Entry(pEVar21);
+      }
+    }
+  }
+  lVar20 = SUB168(SEXT816(-0x7777777777777777) * SEXT816(local_258 - (longlong)local_268),8) +
+           (local_258 - (longlong)local_268);
+  pEVar21 = local_268;
+  if (((ulonglong)(((lVar20 >> 7) - (lVar20 >> 0x3f)) * 0xf0) < 0x1000) ||
+     (pEVar21 = *(Entry **)(local_268 + -8), local_268 + (-8 - (longlong)pEVar21) < (Entry *)0x20))
+  {
+    free(pEVar21);
+    return false;
+  }
+LAB_1802475a7:
+                    /* WARNING: Subroutine does not return */
+  _invalid_parameter_noinfo_noreturn();
+}
+
+
+
+#### 180248720 PrepareMarksCachePage ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: class std::vector<class ArtDoc::Separation::Entry,class std::allocator<class
+   ArtDoc::Separation::Entry> > __cdecl DocumentMarks::TaskMarkSets::PrepareMarksCachePage(class
+   ArtDoc::Page & __ptr64,class std::vector<class std::unique_ptr<class ArtDoc::Document,struct
+   std::default_delete<class ArtDoc::Document> >,class std::allocator<class std::unique_ptr<class
+   ArtDoc::Document,struct std::default_delete<class ArtDoc::Document> > > > const & __ptr64,class
+   std::vector<class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> >,class std::allocator<class std::unique_ptr<class ArtDoc::Document,struct
+   std::default_delete<class ArtDoc::Document> > > > const & __ptr64,class std::vector<class
+   std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class ArtDoc::Document> >,class
+   std::allocator<class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > > > const & __ptr64,bool,bool) __ptr64 */
+
+Page * __thiscall
+DocumentMarks::TaskMarkSets::PrepareMarksCachePage
+          (TaskMarkSets *this,Page *param_1,
+          vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+          *param_2,vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                   *param_3,
+          vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+          *param_4,bool param_5,bool param_6)
+
+{
+  Entry *pEVar1;
+  undefined8 *puVar2;
+  vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+  *pvVar3;
+  char cVar4;
+  PageContent *pPVar5;
+  Document *this_00;
+  DynamicMarksController *pDVar6;
+  vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *pvVar7;
+  longlong *plVar8;
+  undefined8 uVar9;
+  undefined8 *puVar10;
+  undefined8 *puVar11;
+  Separations *pSVar12;
+  DynamicObjectController *this_01;
+  ActionList *this_02;
+  void *_Memory;
+  longlong lVar13;
+  Entry *pEVar14;
+  undefined8 *puVar15;
+  undefined7 in_stack_00000031;
+  char in_stack_00000040;
+  undefined1 auStack_158 [32];
+  vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+  *local_138;
+  longlong local_130;
+  longlong local_128;
+  longlong local_120;
+  void *local_118;
+  undefined8 *puStack_110;
+  undefined8 *local_108;
+  undefined4 local_100;
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  local_f8 [24];
+  vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+  *local_e0;
+  Document *local_d8;
+  TaskMarkSets *local_d0;
+  Page *local_c8;
+  undefined1 local_c0 [24];
+  undefined1 local_a8 [16];
+  longlong local_98;
+  longlong local_90;
+  undefined1 local_80 [16];
+  longlong local_70;
+  longlong local_68;
+  ulonglong local_58;
+  
+                    /* 0x248720  1415
+                       ?PrepareMarksCachePage@TaskMarkSets@DocumentMarks@@IEAA?AV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@std@@AEAVPage@ArtDoc@@AEBV?$vector@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@V?$allocator@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@@2@@4@11_N2@Z
+                        */
+  local_58 = DAT_180409ec0 ^ (ulonglong)auStack_158;
+  pvVar3 = (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+            *)CONCAT71(in_stack_00000031,param_5);
+  *(undefined8 *)param_1 = 0;
+  *(undefined8 *)(param_1 + 8) = 0;
+  *(undefined8 *)(param_1 + 0x10) = 0;
+  local_100 = 1;
+  local_e0 = param_3;
+  local_c8 = param_1;
+  if (param_6) {
+    DeleteMarks((Page *)param_2);
+    DeleteExpandedMarks((Page *)param_2);
+    RemoveUnusedSeparationsFromPage((Page *)param_2);
+  }
+  if (in_stack_00000040 != '\0') {
+    MoveExpandedMarks((Page *)param_2,false);
+  }
+  pPVar5 = ArtDoc::Page::GetContent((Page *)param_2);
+  this_00 = ArtDoc::Content::GetDocument((Content *)pPVar5);
+  local_d8 = this_00;
+  if ((((*(longlong *)param_3 != *(longlong *)(param_3 + 8)) ||
+       (*(longlong *)param_4 != *(longlong *)(param_4 + 8))) ||
+      (*(longlong *)pvVar3 != *(longlong *)(pvVar3 + 8))) ||
+     (*(longlong *)(this + 0x10) != *(longlong *)(this + 0x18))) {
+    pDVar6 = GetDynamicMarksController(this_00);
+    DynamicMarksController::EnableUpdates(pDVar6,false);
+    pvVar7 = ArtDoc::Document::GetSeparationInfo(this_00);
+    FUN_180035ab0(&local_130,pvVar7);
+    plVar8 = (longlong *)FUN_180246b40(local_f8,&local_130,param_3);
+    if (&local_130 != plVar8) {
+      FUN_18003a010(&local_130);
+      local_130 = *plVar8;
+      local_128 = plVar8[1];
+      local_120 = plVar8[2];
+      *plVar8 = 0;
+      plVar8[1] = 0;
+      plVar8[2] = 0;
+    }
+    FUN_18003a010(local_f8);
+    plVar8 = (longlong *)FUN_180246b40(local_f8,&local_130,param_4);
+    if (&local_130 != plVar8) {
+      FUN_18003a010(&local_130);
+      local_130 = *plVar8;
+      local_128 = plVar8[1];
+      local_120 = plVar8[2];
+      *plVar8 = 0;
+      plVar8[1] = 0;
+      plVar8[2] = 0;
+    }
+    FUN_18003a010(local_f8);
+    plVar8 = (longlong *)FUN_180246b40(local_f8,&local_130,pvVar3);
+    if (&local_130 != plVar8) {
+      FUN_18003a010(&local_130);
+      local_130 = *plVar8;
+      local_128 = plVar8[1];
+      local_120 = plVar8[2];
+      *plVar8 = 0;
+      plVar8[1] = 0;
+      plVar8[2] = 0;
+    }
+    FUN_18003a010(local_f8);
+    local_d0 = this + 0x10;
+    pEVar1 = *(Entry **)(this + 0x18);
+    for (pEVar14 = *(Entry **)local_d0; pEVar14 != pEVar1; pEVar14 = pEVar14 + 0xf0) {
+      ArtDoc::Separation::FindOrAdd
+                ((vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *)
+                 &local_130,pEVar14);
+    }
+    uVar9 = FUN_180035ab0(local_f8,&local_130);
+    ArtDoc::Document::SetSeparationInfo(local_d8,uVar9);
+    local_118 = (void *)0x0;
+    puStack_110 = (undefined8 *)0x0;
+    local_108 = (undefined8 *)0x0;
+    puVar15 = *(undefined8 **)local_e0;
+    puVar2 = *(undefined8 **)(local_e0 + 8);
+    if (puVar15 != puVar2) {
+      do {
+        puVar10 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar15);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar10,(Page *)param_2,false);
+        puVar15 = puVar15 + 1;
+      } while (puVar15 != puVar2);
+      local_138 = local_e0;
+      FUN_18001be10(&local_118,0,&local_138);
+    }
+    puVar15 = *(undefined8 **)param_4;
+    puVar2 = *(undefined8 **)(param_4 + 8);
+    if (puVar15 != puVar2) {
+      do {
+        puVar10 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar15);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar10,(Page *)param_2,false);
+        puVar15 = puVar15 + 1;
+      } while (puVar15 != puVar2);
+      local_138 = param_4;
+      if (puStack_110 == local_108) {
+        FUN_18001be10(&local_118,puStack_110,&local_138);
+      }
+      else {
+        *puStack_110 = param_4;
+        puStack_110 = puStack_110 + 1;
+      }
+    }
+    puVar10 = puStack_110;
+    puVar15 = *(undefined8 **)pvVar3;
+    puVar2 = *(undefined8 **)(pvVar3 + 8);
+    if (puVar15 != puVar2) {
+      do {
+        puVar11 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar15);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar11,(Page *)param_2,false);
+        puVar15 = puVar15 + 1;
+      } while (puVar15 != puVar2);
+      local_138 = pvVar3;
+      if (puVar10 == local_108) {
+        FUN_18001be10(&local_118,puVar10,&local_138);
+      }
+      else {
+        *puVar10 = pvVar3;
+        puStack_110 = puVar10 + 1;
+      }
+    }
+    pPVar5 = ArtDoc::Page::GetContent((Page *)param_2);
+    pSVar12 = ArtDoc::Content::GetSeparations((Content *)pPVar5);
+    ArtDoc::Separations::GetList(pSVar12,SUB81(local_80,0));
+    UpdateMarksOnPage((Page *)param_2);
+    this_00 = local_d8;
+    pvVar7 = ArtDoc::Document::GetSeparationInfo(local_d8);
+    FUN_180035ab0(local_c0,pvVar7);
+    pPVar5 = ArtDoc::Page::GetContent((Page *)param_2);
+    pSVar12 = ArtDoc::Content::GetSeparations((Content *)pPVar5);
+    ArtDoc::Separations::GetList(pSVar12,SUB81(local_a8,0));
+    cVar4 = FUN_180243bc0(local_a8,&local_118,local_d0,&local_130);
+    lVar13 = (local_68 - local_70) / 6 + (local_68 - local_70 >> 0x3f);
+    if (((ulonglong)((lVar13 >> 3) - (lVar13 >> 0x3f)) < (ulonglong)((local_90 - local_98) / 0x30))
+       || (cVar4 != '\0')) {
+      plVar8 = (longlong *)
+               MergeSeparationInfo(local_f8,(vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+                                             *)&local_130);
+      if (&local_130 != plVar8) {
+        FUN_18003a010(&local_130);
+        local_130 = *plVar8;
+        local_128 = plVar8[1];
+        local_120 = plVar8[2];
+        *plVar8 = 0;
+        plVar8[1] = 0;
+        plVar8[2] = 0;
+      }
+      FUN_18003a010(local_f8);
+      uVar9 = FUN_180035ab0(local_f8,&local_130);
+      ArtDoc::Document::SetSeparationInfo(this_00,uVar9);
+      this_01 = ArtDoc::Document::GetDynamicObjects(this_00);
+      ArtDoc::DynamicObjectController::SetAllNeedUpdate(this_01,(Page *)param_2);
+      UpdateMarksOnPage((Page *)param_2);
+    }
+    if (param_1 != (Page *)&local_130) {
+      lVar13 = SUB168(SEXT816(-0x7777777777777777) * SEXT816(local_128 - local_130),8) +
+               (local_128 - local_130);
+      FUN_1800e6940(param_1,local_130,(lVar13 >> 7) - (lVar13 >> 0x3f));
+    }
+    pDVar6 = GetDynamicMarksController(this_00);
+    DynamicMarksController::EnableUpdates(pDVar6,false);
+    FUN_18003f2b0(local_a8);
+    FUN_18003a010(local_c0);
+    FUN_18003f2b0(local_80);
+    if (local_118 != (void *)0x0) {
+      _Memory = local_118;
+      if ((0xfff < (ulonglong)(((longlong)local_108 - (longlong)local_118 >> 3) * 8)) &&
+         (_Memory = *(void **)((longlong)local_118 + -8),
+         0x1f < (ulonglong)((longlong)local_118 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    FUN_18003a010(&local_130);
+  }
+  this_02 = ArtDoc::Document::GetActionList(this_00);
+  ArtDoc::ActionList::Clear(this_02);
+  return param_1;
+}
+
+
+
+#### 180248d30 ReadMarkSetFile ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* protected: class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > __cdecl DocumentMarks::TaskMarkSets::ReadMarkSetFile(class
+   boost::filesystem::path const & __ptr64,bool & __ptr64) __ptr64 */
+
+path * __thiscall
+DocumentMarks::TaskMarkSets::ReadMarkSetFile(TaskMarkSets *this,path *param_1,bool *param_2)
+
+{
+  longlong *plVar1;
+  code *pcVar2;
+  void *pvVar3;
+  Document *pDVar4;
+  byte bVar5;
+  bool bVar6;
+  uint *puVar7;
+  undefined8 *puVar8;
+  void *pvVar9;
+  undefined8 ****ppppuVar10;
+  path *ppVar11;
+  byte *in_R9;
+  undefined1 auStack_238 [32];
+  Document *local_218;
+  TaskMarkSets *local_210;
+  bool *local_208;
+  path *local_200;
+  path local_1e8;
+  undefined7 uStack_1e7;
+  undefined8 local_1d8;
+  ulonglong uStack_1d0;
+  undefined8 ****local_1c8;
+  ulonglong uStack_1c0;
+  undefined8 local_1b8;
+  ulonglong uStack_1b0;
+  path local_1a8 [32];
+  path local_188 [208];
+  ReadOptions local_b8 [120];
+  ulonglong local_40;
+  
+                    /* 0x248d30  1420
+                       ?ReadMarkSetFile@TaskMarkSets@DocumentMarks@@IEAA?AV?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@AEBVpath@filesystem@boost@@AEA_N@Z
+                        */
+  local_40 = DAT_180409ec0 ^ (ulonglong)auStack_238;
+  *in_R9 = 0;
+  local_210 = this;
+  local_208 = param_2;
+  local_200 = param_1;
+  puVar7 = (uint *)boost::filesystem::detail::status((path *)&local_218,(error_code *)param_2);
+  if (*puVar7 < 2) {
+    plVar1 = *(longlong **)(this + 0x1f8);
+    pcVar2 = *(code **)(*plVar1 + 8);
+    boost::filesystem::detail::path_algorithms::filename_v3(local_1a8);
+    ExtraBoostFilesystem::ToFileURI(local_188);
+    ExtraBoostFilesystem::GetDisplayPath((uri *)&local_1c8);
+    FUN_1800d4b20(local_188);
+    ppppuVar10 = &local_1c8;
+    if (0xf < uStack_1b0) {
+      ppppuVar10 = local_1c8;
+    }
+    (*pcVar2)(plVar1,2,"NDLTaskMessages.DocumentMarks.MarkSetFileDoesNotExist",ppppuVar10);
+    if (0xf < uStack_1b0) {
+      ppppuVar10 = local_1c8;
+      if ((0xfff < uStack_1b0 + 1) &&
+         (ppppuVar10 = (undefined8 ****)local_1c8[-1],
+         0x1f < (ulonglong)((longlong)local_1c8 + (-8 - (longlong)ppppuVar10)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar10);
+    }
+    local_1b8 = _DAT_1802f9a10;
+    uStack_1b0 = _UNK_1802f9a18;
+    local_1c8 = (undefined8 ****)((ulonglong)local_1c8 & 0xffffffffffffff00);
+    FUN_180016f40(local_1a8);
+    plVar1 = *(longlong **)(this + 0x1f8);
+    pcVar2 = *(code **)(*plVar1 + 0x38);
+    ExtraBoostFilesystem::ToFileURI(local_188);
+    ExtraBoostFilesystem::GetDisplayPath((uri *)&local_1e8);
+    FUN_1800d4b20(local_188);
+    ppVar11 = &local_1e8;
+    if (0xf < uStack_1d0) {
+      ppVar11 = (path *)CONCAT71(uStack_1e7,local_1e8);
+    }
+    (*pcVar2)(plVar1,"Markset file \'%s\' does not exist!\n",ppVar11);
+    if (uStack_1d0 < 0x10) goto LAB_18024904b;
+    pDVar4 = (Document *)CONCAT71(uStack_1e7,local_1e8);
+    local_218 = pDVar4;
+    if ((0xfff < uStack_1d0 + 1) &&
+       (local_218 = *(Document **)(pDVar4 + -8),
+       (Document *)0x1f < pDVar4 + (-8 - (longlong)local_218))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+  }
+  else {
+    ArtDoc::ReadOptions::ReadOptions(local_b8);
+    ArtDoc::Document::Create((path *)&local_218,(ReadOptions *)param_2);
+    ArtDoc::ReadOptions::~ReadOptions(local_b8);
+    ForceDocumentLoad(local_218);
+    uStack_1c0 = uStack_1c0 & 0xffffffffffffff00;
+    bVar5 = (**(code **)(**(longlong **)(this + 0x1f8) + 0x18))
+                      (*(longlong **)(this + 0x1f8),local_218,1,&local_1c8);
+    *in_R9 = bVar5;
+    bVar6 = ContainsInputFileMark
+                      ((unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_> *)
+                       &local_218);
+    *in_R9 = *in_R9 & !bVar6;
+    if (*in_R9 != 0) {
+      *(Document **)param_1 = local_218;
+      return param_1;
+    }
+    plVar1 = *(longlong **)(this + 0x1f8);
+    pcVar2 = *(code **)(*plVar1 + 8);
+    boost::filesystem::detail::path_algorithms::filename_v3(local_1a8);
+    puVar8 = (undefined8 *)ExtraBoostFilesystem::ToUTF8String(&local_1e8);
+    if (0xf < (ulonglong)puVar8[3]) {
+      puVar8 = (undefined8 *)*puVar8;
+    }
+    (*pcVar2)(plVar1,2,"NDLTaskMessages.DocumentMarks.MarkSetFileError",puVar8);
+    if (0xf < uStack_1d0) {
+      pvVar3 = (void *)CONCAT71(uStack_1e7,local_1e8);
+      pvVar9 = pvVar3;
+      if ((0xfff < uStack_1d0 + 1) &&
+         (pvVar9 = *(void **)((longlong)pvVar3 + -8),
+         0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)pvVar9)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar9);
+    }
+    local_1d8 = _DAT_1802f9a10;
+    uStack_1d0 = _UNK_1802f9a18;
+    local_1e8 = (path)0x0;
+    FUN_180016f40(local_1a8);
+    plVar1 = *(longlong **)(this + 0x1f8);
+    pcVar2 = *(code **)(*plVar1 + 0x38);
+    ExtraBoostFilesystem::ToFileURI(local_188);
+    ExtraBoostFilesystem::GetDisplayPath((uri *)&local_1e8);
+    FUN_1800d4b20(local_188);
+    ppVar11 = &local_1e8;
+    if (0xf < uStack_1d0) {
+      ppVar11 = (path *)CONCAT71(uStack_1e7,local_1e8);
+    }
+    (*pcVar2)(plVar1,"Markset file \'%s\' error!\n",ppVar11);
+    if (0xf < uStack_1d0) {
+      pvVar3 = (void *)CONCAT71(uStack_1e7,local_1e8);
+      pvVar9 = pvVar3;
+      if ((0xfff < uStack_1d0 + 1) &&
+         (pvVar9 = *(void **)((longlong)pvVar3 + -8),
+         0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)pvVar9)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar9);
+    }
+    if (bVar6) {
+      plVar1 = *(longlong **)(this + 0x1f8);
+      pcVar2 = *(code **)(*plVar1 + 8);
+      boost::filesystem::detail::path_algorithms::filename_v3(local_1a8);
+      puVar8 = (undefined8 *)ExtraBoostFilesystem::ToUTF8String(&local_1e8);
+      if (0xf < (ulonglong)puVar8[3]) {
+        puVar8 = (undefined8 *)*puVar8;
+      }
+      (*pcVar2)(plVar1,2,"NDLTaskMessages.DocumentMarks.MarkSetContainsInputFileMark",puVar8);
+      if (0xf < uStack_1d0) {
+        pvVar3 = (void *)CONCAT71(uStack_1e7,local_1e8);
+        pvVar9 = pvVar3;
+        if ((0xfff < uStack_1d0 + 1) &&
+           (pvVar9 = *(void **)((longlong)pvVar3 + -8),
+           0x1f < (ulonglong)((longlong)pvVar3 + (-8 - (longlong)pvVar9)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar9);
+      }
+      local_1d8 = _DAT_1802f9a10;
+      uStack_1d0 = _UNK_1802f9a18;
+      local_1e8 = (path)0x0;
+      FUN_180016f40(local_1a8);
+    }
+    if (local_218 == (Document *)0x0) goto LAB_18024904b;
+    ArtDoc::Document::~Document(local_218);
+  }
+  free(local_218);
+LAB_18024904b:
+  *(undefined8 *)param_1 = 0;
+  return param_1;
+}
+
+
+
+#### 180249210 RecreateLoadedMarks ####
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: void __cdecl DocumentMarks::TaskMarkSets::RecreateLoadedMarks(void) __ptr64 */
+
+void __thiscall DocumentMarks::TaskMarkSets::RecreateLoadedMarks(TaskMarkSets *this)
+
+{
+  longlong *plVar1;
+  PageContent *pPVar2;
+  Path *pPVar3;
+  undefined8 *puVar4;
+  int iVar5;
+  undefined1 auStack_a8 [32];
+  undefined8 *local_88;
+  undefined **local_78;
+  undefined1 local_70;
+  undefined ***local_40;
+  ulonglong local_38;
+  
+                    /* 0x249210  1423  ?RecreateLoadedMarks@TaskMarkSets@DocumentMarks@@IEAAXXZ */
+  local_38 = DAT_180409ec0 ^ (ulonglong)auStack_a8;
+  ArtDoc::Document::GetPagesBegin(*(Document **)(this + 8));
+  plVar1 = (longlong *)ArtDoc::Document::GetPagesEnd(*(Document **)(this + 8));
+  if (local_88 != (undefined8 *)*plVar1) {
+    do {
+      pPVar2 = ArtDoc::Page::GetContent((Page *)*local_88);
+      iVar5 = 0;
+      do {
+        local_78 = std::
+                   _Func_impl_no_alloc<`protected:_void___cdecl_DocumentMarks::TaskMarkSets::RecreateLoadedMarks(void)___ptr64'::`6'::<lambda_1>,bool,ArtDoc::ContentObject_const&___ptr64>
+                   ::vftable;
+        local_40 = &local_78;
+        local_70 = iVar5 != 0;
+        pPVar3 = DocumentEdit::MakeForm
+                           ((Content *)pPVar2,
+                            (function<bool___cdecl(ArtDoc::ContentObject_const&___ptr64)> *)
+                            &local_78);
+        if (local_40 != (undefined ***)0x0) {
+          (*(code *)(*local_40)[4])(local_40,local_40 != &local_78);
+          local_40 = (undefined ***)0x0;
+        }
+        if (pPVar3 != (Path *)0x0) {
+          FUN_180046160(pPVar3,iVar5 != 0);
+        }
+        iVar5 = iVar5 + 1;
+      } while (iVar5 < 2);
+      local_88 = local_88 + 1;
+      puVar4 = (undefined8 *)ArtDoc::Document::GetPagesEnd(*(Document **)(this + 8));
+    } while (local_88 != (undefined8 *)*puVar4);
+  }
+  RemoveStaticContent(this);
+  return;
+}
+
+

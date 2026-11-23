@@ -1,0 +1,295 @@
+requested=0x18017c370
+resolvedAddress=18017c370
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18017c370 FUN_18017c370
+status=OK
+entry=18017c370
+name=FUN_18017c370
+qualifiedName=FUN_18017c370
+namespace=Global
+signature=undefined FUN_18017c370()
+returnType=undefined
+parameterCount=0
+bodyMin=18017c370
+bodyMax=18017c634
+bodySize=707
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180488814 refType=DATA fromFunction=
+18031b400 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+180096160 DocumentMarks::DynamicObject::makeDynamic
+1801387b0 DocumentMarks::PDFPlusDimensionsMark::SetReferenceObject
+180097990 DocumentMarks::DynamicObject::setMarkDirty
+EXTERNAL:0000027c DOCUMENT.DLL::ArtDoc::Properties::Erase
+EXTERNAL:000001a5 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::ConstVisitorBase
+1800ab180 DocumentMarks::PDFPlusDimensionsMark::Accept
+EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+180138660 DocumentMarks::PDFPlusDimensionsMark::SetDimensionalReference
+180138750 DocumentMarks::PDFPlusDimensionsMark::SetHalftoneSet
+18004e200 FUN_18004e200
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18017a5c0 FUN_18017a5c0
+180011420 FUN_180011420
+180095bb0 DocumentMarks::DynamicObject::linkMarkProperties
+EXTERNAL:000002c8 DOCUMENT.DLL::ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::~ConstVisitor<DocumentIO::ImageImpersonator>
+EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:000002c9 DOCUMENT.DLL::ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::ConstVisitor<DocumentIO::ImageImpersonator>
+
+[DIRECT_CALL_TARGETS]
+18017c390 -> 180096160 DocumentMarks::DynamicObject::makeDynamic
+18017c398 -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18017c3a8 -> 18004e200 FUN_18004e200
+18017c3b0 -> 18017c520 FUN_18017c370
+18017c3ca -> 18017c520 FUN_18017c370
+18017c3df -> 1801387b0 DocumentMarks::PDFPlusDimensionsMark::SetReferenceObject
+18017c3ee -> 18017c417 FUN_18017c370
+18017c3f4 -> 18017c417 FUN_18017c370
+18017c3fa -> 18017c417 FUN_18017c370
+18017c400 -> 180011420 FUN_180011420
+18017c409 -> 180011420 FUN_180011420
+18017c412 -> 180011420 FUN_180011420
+18017c41a -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18017c42a -> 18004e200 FUN_18004e200
+18017c432 -> 18017c4ad FUN_18017c370
+18017c440 -> 180138660 DocumentMarks::PDFPlusDimensionsMark::SetDimensionalReference
+18017c450 -> 18017c520 FUN_18017c370
+18017c45a -> 18017c520 FUN_18017c370
+18017c464 -> 18017c520 FUN_18017c370
+18017c473 -> 18017c520 FUN_18017c370
+18017c48b -> 18017c51b FUN_18017c370
+18017c4a4 -> 18017c51b FUN_18017c370
+18017c4a6 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18017c4b8 -> 18017a5c0 FUN_18017a5c0
+18017c4c4 -> 180138660 DocumentMarks::PDFPlusDimensionsMark::SetDimensionalReference
+18017c4d3 -> 18017c520 FUN_18017c370
+18017c4d9 -> 18017c520 FUN_18017c370
+18017c4df -> 18017c520 FUN_18017c370
+18017c4e9 -> 18017c520 FUN_18017c370
+18017c4fd -> 18017c51b FUN_18017c370
+18017c512 -> 18017c51b FUN_18017c370
+18017c514 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18017c51b -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18017c523 -> 180095bb0 DocumentMarks::DynamicObject::linkMarkProperties
+18017c52b -> 180097990 DocumentMarks::DynamicObject::setMarkDirty
+18017c533 -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18017c543 -> EXTERNAL:0000027c DOCUMENT.DLL::ArtDoc::Properties::Erase
+18017c54c -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18017c55c -> EXTERNAL:0000027c DOCUMENT.DLL::ArtDoc::Properties::Erase
+18017c567 -> EXTERNAL:000001a5 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::ConstVisitorBase
+18017c572 -> EXTERNAL:000002c9 DOCUMENT.DLL::ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::ConstVisitor<DocumentIO::ImageImpersonator>
+18017c5a2 -> 1800ab180 DocumentMarks::PDFPlusDimensionsMark::Accept
+18017c5cc -> 180138750 DocumentMarks::PDFPlusDimensionsMark::SetHalftoneSet
+18017c5da -> 18017c608 FUN_18017c370
+18017c5eb -> 18017c608 FUN_18017c370
+18017c5fd -> 18017c608 FUN_18017c370
+18017c60d -> EXTERNAL:000002c8 DOCUMENT.DLL::ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::~ConstVisitor<DocumentIO::ImageImpersonator>
+18017c618 -> EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18017c370 -> Stack[0x8] block=? sym=
+18017c375 -> Stack[0x10] block=? sym=
+18017c37b -> Stack[-0x28] block=? sym=
+18017c398 -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18017c39e -> 180319978 block=.rdata sym=PTR_s_DocumentMarks_DimensionsMark_Ref_180319978
+18017c3d0 -> Stack[-0x88] block=? sym=
+18017c3d4 -> Stack[-0x10] block=? sym=
+18017c3d8 -> Stack[-0x88] block=? sym=
+18017c3e5 -> Stack[-0x10] block=? sym=
+18017c3fc -> Stack[-0x38] block=? sym=
+18017c405 -> Stack[-0x60] block=? sym=
+18017c40e -> Stack[-0x88] block=? sym=
+18017c41a -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18017c420 -> 180319988 block=.rdata sym=PTR_s_DocumentMarks_DimensionsMark_Ref_180319988
+18017c434 -> Stack[-0xb8] block=? sym=
+18017c438 -> Stack[-0xd8] block=? sym=
+18017c446 -> Stack[-0xb8] block=? sym=
+18017c46a -> Stack[-0xc0] block=? sym=
+18017c47c -> Stack[-0xd8] block=? sym=
+18017c4a6 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18017c4b3 -> Stack[-0xb0] block=? sym=
+18017c4ca -> Stack[-0x90] block=? sym=
+18017c4e1 -> Stack[-0x98] block=? sym=
+18017c4ee -> Stack[-0xb0] block=? sym=
+18017c514 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18017c533 -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18017c539 -> 180319978 block=.rdata sym=PTR_s_DocumentMarks_DimensionsMark_Ref_180319978
+18017c543 -> 1802f1fb8 block=.rdata sym=PTR_Erase_1802f1fb8
+18017c54c -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+18017c552 -> 180319988 block=.rdata sym=PTR_s_DocumentMarks_DimensionsMark_Ref_180319988
+18017c55c -> 1802f1fb8 block=.rdata sym=PTR_Erase_1802f1fb8
+18017c562 -> Stack[-0x108] block=? sym=
+18017c567 -> 1802f1900 block=.rdata sym=PTR_ConstVisitorBase_1802f1900
+18017c56d -> Stack[-0x100] block=? sym=
+18017c572 -> 1802f2220 block=.rdata sym=PTR_ConstVisitor<DocumentIO::ImageImpersonator>_1802f2220
+18017c578 -> 18031afe0 block=.rdata sym=_anon_70E1759D::ContentHalftoneGetter::vftable
+18017c57f -> 18031afe0 block=.rdata sym=_anon_70E1759D::ContentHalftoneGetter::vftable
+18017c57f -> Stack[-0x108] block=? sym=
+18017c584 -> 18031b120 block=.rdata sym=_anon_70E1759D::ContentHalftoneGetter::vftable
+18017c58b -> 18031b120 block=.rdata sym=_anon_70E1759D::ContentHalftoneGetter::vftable
+18017c58b -> Stack[-0x100] block=? sym=
+18017c593 -> Stack[-0xf8] block=? sym=
+18017c59d -> Stack[-0x108] block=? sym=
+18017c5a7 -> Stack[-0xf8] block=? sym=
+18017c5ac -> Stack[-0xe8] block=? sym=
+18017c5b1 -> Stack[-0xf0] block=? sym=
+18017c5b6 -> Stack[-0xe0] block=? sym=
+18017c5be -> Stack[-0xf8] block=? sym=
+18017c5c4 -> Stack[-0xe8] block=? sym=
+18017c5d2 -> Stack[-0xf0] block=? sym=
+18017c608 -> Stack[-0x100] block=? sym=
+18017c60d -> 1802f2218 block=.rdata sym=PTR_~ConstVisitor<DocumentIO::ImageImpersonator>_1802f2218
+18017c613 -> Stack[-0x108] block=? sym=
+18017c618 -> 1802f18f8 block=.rdata sym=PTR_~ConstVisitorBase_1802f18f8
+18017c620 -> Stack[-0x8] block=? sym=
+18017c628 -> Stack[0x8] block=? sym=
+18017c62c -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+ulonglong FUN_18017c370(longlong param_1,DynamicObject *param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong *plVar4;
+  Properties *pPVar5;
+  longlong lVar6;
+  variant<DocumentMarks::PDFPlusDimensionsMark::AttachedObject,ArtDoc::PageBox,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+  *pvVar7;
+  ulonglong extraout_RAX;
+  void *_Memory;
+  undefined **local_108;
+  undefined **local_100;
+  undefined8 local_f8;
+  longlong *plStack_f0;
+  undefined8 local_e8;
+  undefined8 local_e0;
+  void *local_d8 [3];
+  ulonglong local_c0;
+  char local_b8;
+  void *local_b0 [3];
+  ulonglong local_98;
+  char local_90;
+  longlong local_88 [5];
+  undefined1 local_60 [40];
+  undefined1 local_38 [40];
+  char local_10;
+  
+  DocumentMarks::DynamicObject::makeDynamic(param_2);
+  pPVar5 = ArtDoc::ContentObject::GetProperties((ContentObject *)param_2);
+  lVar6 = FUN_18004e200(pPVar5,&PTR_s_DocumentMarks_DimensionsMark_Ref_180319978);
+  if (lVar6 != 0) {
+    lVar6 = (**(code **)(**(longlong **)(param_1 + 0x38) + 8))(*(longlong **)(param_1 + 0x38),lVar6)
+    ;
+    if (lVar6 != 0) {
+      local_10 = '\x01';
+      local_88[0] = lVar6;
+      DocumentMarks::PDFPlusDimensionsMark::SetReferenceObject
+                ((PDFPlusDimensionsMark *)param_2,
+                 (variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *)
+                 local_88);
+      if (((local_10 != -1) && (local_10 != '\0')) && (local_10 != '\x01')) {
+        FUN_180011420(local_38);
+        FUN_180011420(local_60);
+        FUN_180011420(local_88);
+      }
+      pPVar5 = ArtDoc::ContentObject::GetProperties((ContentObject *)param_2);
+      lVar6 = FUN_18004e200(pPVar5,&PTR_s_DocumentMarks_DimensionsMark_Ref_180319988);
+      if (lVar6 == 0) {
+        local_b8 = '\0';
+        DocumentMarks::PDFPlusDimensionsMark::SetDimensionalReference
+                  ((PDFPlusDimensionsMark *)param_2,
+                   (variant<DocumentMarks::PDFPlusDimensionsMark::AttachedObject,ArtDoc::PageBox,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                    *)local_d8);
+        if ((((local_b8 == -1) || (local_b8 == '\0')) || (local_b8 == '\x01')) || (local_c0 < 0x10))
+        goto LAB_18017c520;
+        _Memory = local_d8[0];
+        if ((0xfff < local_c0 + 1) &&
+           (_Memory = *(void **)((longlong)local_d8[0] + -8),
+           0x1f < (ulonglong)((longlong)local_d8[0] + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+      }
+      else {
+        pvVar7 = (variant<DocumentMarks::PDFPlusDimensionsMark::AttachedObject,ArtDoc::PageBox,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                  *)FUN_18017a5c0(local_b0,lVar6,param_2);
+        DocumentMarks::PDFPlusDimensionsMark::SetDimensionalReference
+                  ((PDFPlusDimensionsMark *)param_2,pvVar7);
+        if (((local_90 == -1) || (local_90 == '\0')) || ((local_90 == '\x01' || (local_98 < 0x10))))
+        goto LAB_18017c520;
+        _Memory = local_b0[0];
+        if ((0xfff < local_98 + 1) &&
+           (_Memory = *(void **)((longlong)local_b0[0] + -8),
+           0x1f < (ulonglong)((longlong)local_b0[0] + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+      }
+      free(_Memory);
+    }
+  }
+LAB_18017c520:
+  DocumentMarks::DynamicObject::linkMarkProperties(param_2);
+  DocumentMarks::DynamicObject::setMarkDirty(param_2);
+  pPVar5 = ArtDoc::ContentObject::GetProperties((ContentObject *)param_2);
+  ArtDoc::Properties::Erase
+            (pPVar5,(basic_string_view<char,std::char_traits<char>_> *)
+                    &PTR_s_DocumentMarks_DimensionsMark_Ref_180319978);
+  pPVar5 = ArtDoc::ContentObject::GetProperties((ContentObject *)param_2);
+  ArtDoc::Properties::Erase
+            (pPVar5,(basic_string_view<char,std::char_traits<char>_> *)
+                    &PTR_s_DocumentMarks_DimensionsMark_Ref_180319988);
+  ArtDoc::ConstVisitorBase::ConstVisitorBase((ConstVisitorBase *)&local_108);
+  ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::ConstVisitor<DocumentIO::ImageImpersonator>
+            ((ConstVisitor<DocumentIO::ImageImpersonator> *)&local_100);
+  local_108 = _anon_70E1759D::ContentHalftoneGetter::vftable;
+  local_100 = _anon_70E1759D::ContentHalftoneGetter::vftable;
+  local_f8 = 0;
+  plStack_f0 = (longlong *)0x0;
+  DocumentMarks::PDFPlusDimensionsMark::Accept
+            ((PDFPlusDimensionsMark *)(param_2 + 0x20),(ConstVisitorBase *)&local_108);
+  local_e8 = local_f8;
+  local_e0 = plStack_f0;
+  local_f8 = 0;
+  plStack_f0 = (longlong *)0x0;
+  DocumentMarks::PDFPlusDimensionsMark::SetHalftoneSet((PDFPlusDimensionsMark *)param_2,&local_e8);
+  plVar4 = plStack_f0;
+  if (plStack_f0 != (longlong *)0x0) {
+    LOCK();
+    plVar1 = plStack_f0 + 1;
+    lVar6 = *plVar1;
+    *(int *)plVar1 = (int)*plVar1 + -1;
+    UNLOCK();
+    if ((int)lVar6 == 1) {
+      (**(code **)*plStack_f0)(plStack_f0);
+      LOCK();
+      piVar2 = (int *)((longlong)plVar4 + 0xc);
+      iVar3 = *piVar2;
+      *piVar2 = *piVar2 + -1;
+      UNLOCK();
+      if (iVar3 == 1) {
+        (**(code **)(*plVar4 + 8))(plVar4);
+      }
+    }
+  }
+  ArtDoc::ConstVisitor<DocumentIO::ImageImpersonator>::~ConstVisitor<DocumentIO::ImageImpersonator>
+            ((ConstVisitor<DocumentIO::ImageImpersonator> *)&local_100);
+  ArtDoc::ConstVisitorBase::~ConstVisitorBase((ConstVisitorBase *)&local_108);
+  return extraout_RAX & 0xffffffffffffff00;
+}
+
+

@@ -1,0 +1,16 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## VT 1802eab68 count=6
+   [0] slot=1802eab68 -> 0x1800a2a70 fn=1800a2a70 FUN_1800a2a70 containing=1800a2a70 FUN_1800a2a70 sym=FUN_1800a2a70
+   [1] slot=1802eab70 -> 0x1800a2e40 fn=1800a2e40 FUN_1800a2e40 containing=1800a2e40 FUN_1800a2e40 sym=FUN_1800a2e40
+   [2] slot=1802eab78 -> 0x180017220 fn=180017220 _guard_check_icall containing=180017220 _guard_check_icall sym=_guard_check_icall
+   [3] slot=1802eab80 -> 0x6f44207472617453 fn=- containing=- sym=-
+   [4] slot=1802eab88 -> 0x614c746e656d7563 fn=- containing=- sym=-
+   [5] slot=1802eab90 -> 0x372f302820726579 fn=- containing=- sym=-
+
+## VT 1802ea970 count=5
+   [0] slot=1802ea970 -> 0x1800a2900 fn=1800a2900 FUN_1800a2900 containing=1800a2900 FUN_1800a2900 sym=FUN_1800a2900
+   [1] slot=1802ea978 -> 0x1802afb90 fn=1802afb90 VCRUNTIME140.DLL::_purecall containing=1802afb90 VCRUNTIME140.DLL::_purecall sym=VCRUNTIME140.DLL::_purecall
+   [2] slot=1802ea980 -> 0x180017220 fn=180017220 _guard_check_icall containing=180017220 _guard_check_icall sym=_guard_check_icall
+   [3] slot=1802ea988 -> 0x18031c988 fn=- containing=- sym=ArtDoc::Visitor<DocumentIO::ImageImpersonator>::RTTI_Complete_Object_Locator
+   [4] slot=1802ea990 -> 0x180078b20 fn=180078b20 ArtPaint::Function::IsValid containing=180078b20 ArtPaint::Function::IsValid sym=ArtPaint::Function::IsValid

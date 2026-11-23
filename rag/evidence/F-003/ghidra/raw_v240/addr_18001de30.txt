@@ -1,0 +1,540 @@
+requested=0x18001de30
+resolvedAddress=18001de30
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001de30 regenerateMarkImp
+status=OK
+entry=18001de30
+name=regenerateMarkImp
+qualifiedName=DocumentMarks::BearerBar::regenerateMarkImp
+namespace=DocumentMarks::BearerBar
+signature=void regenerateMarkImp(BearerBar * this)
+returnType=void
+parameterCount=1
+bodyMin=18001de30
+bodyMax=18001e417
+bodySize=1511
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ac1c0 refType=DATA fromFunction=
+18047b404 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1802fa030 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1800f42c0 FUN_1800f42c0
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001cc60 FUN_18001cc60
+EXTERNAL:000001e4 DOCUMENT.DLL::ArtDoc::Fillable::IsFilled
+1801160f0 DocumentMarks::GetMarksDebugLevel
+1802cbe68 FUN_1802cbe68
+1800943e0 DocumentMarks::DynamicObject::applyColor
+180019300 FUN_180019300
+EXTERNAL:000001eb DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Get
+1800f46a0 FUN_1800f46a0
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+1800954f0 DocumentMarks::DynamicObject::getPositionRefBBox
+18001be10 FUN_18001be10
+EXTERNAL:000001e6 DOCUMENT.DLL::ArtDoc::Fillable::GetFillPaint
+EXTERNAL:0000008d DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+EXTERNAL:000001e7 DOCUMENT.DLL::ArtDoc::Path::Path
+EXTERNAL:000001e5 DOCUMENT.DLL::ArtDoc::Fillable::SetFillPaint
+EXTERNAL:000001ea DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::~Factory
+EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+EXTERNAL:0000008e DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+EXTERNAL:000001e9 DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Factory
+
+[DIRECT_CALL_TARGETS]
+18001de65 -> 1801160f0 DocumentMarks::GetMarksDebugLevel
+18001de7a -> 18001e3ec DocumentMarks::BearerBar::regenerateMarkImp
+18001dea7 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18001deaf -> 18001df27 DocumentMarks::BearerBar::regenerateMarkImp
+18001dec0 -> 18001deda DocumentMarks::BearerBar::regenerateMarkImp
+18001dec5 -> 18001deda DocumentMarks::BearerBar::regenerateMarkImp
+18001ded8 -> 18001dec2 DocumentMarks::BearerBar::regenerateMarkImp
+18001dee2 -> 18001df2c DocumentMarks::BearerBar::regenerateMarkImp
+18001deee -> 18001defe DocumentMarks::BearerBar::regenerateMarkImp
+18001defc -> 18001df1c DocumentMarks::BearerBar::regenerateMarkImp
+18001df0d -> 18001be10 FUN_18001be10
+18001df23 -> 18001dee4 DocumentMarks::BearerBar::regenerateMarkImp
+18001df25 -> 18001df2c DocumentMarks::BearerBar::regenerateMarkImp
+18001df48 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18001df57 -> 1800954f0 DocumentMarks::DynamicObject::getPositionRefBBox
+18001df7a -> 18001e1bd DocumentMarks::BearerBar::regenerateMarkImp
+18001dfaa -> 18001cc60 FUN_18001cc60
+18001dfb5 -> 1802cbe68 FUN_1802cbe68
+18001dfc7 -> 18001e000 DocumentMarks::BearerBar::regenerateMarkImp
+18001dfd9 -> 18001dfdf DocumentMarks::BearerBar::regenerateMarkImp
+18001dff1 -> EXTERNAL:000001e7 DOCUMENT.DLL::ArtDoc::Path::Path
+18001dffe -> 18001e002 DocumentMarks::BearerBar::regenerateMarkImp
+18001e005 -> EXTERNAL:000001e4 DOCUMENT.DLL::ArtDoc::Fillable::IsFilled
+18001e00d -> 18001e052 DocumentMarks::BearerBar::regenerateMarkImp
+18001e012 -> EXTERNAL:000001e6 DOCUMENT.DLL::ArtDoc::Fillable::GetFillPaint
+18001e028 -> 18001e02e DocumentMarks::BearerBar::regenerateMarkImp
+18001e047 -> EXTERNAL:000001e5 DOCUMENT.DLL::ArtDoc::Fillable::SetFillPaint
+18001e04d -> 18001e15f DocumentMarks::BearerBar::regenerateMarkImp
+18001e08c -> EXTERNAL:000001e9 DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Factory
+18001e09a -> EXTERNAL:000001eb DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Get
+18001e0d2 -> EXTERNAL:000001e5 DOCUMENT.DLL::ArtDoc::Fillable::SetFillPaint
+18001e0e0 -> 18001e112 DocumentMarks::BearerBar::regenerateMarkImp
+18001e0ef -> 18001e112 DocumentMarks::BearerBar::regenerateMarkImp
+18001e106 -> 18001e112 DocumentMarks::BearerBar::regenerateMarkImp
+18001e119 -> EXTERNAL:000001ea DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::~Factory
+18001e127 -> 18001e158 DocumentMarks::BearerBar::regenerateMarkImp
+18001e136 -> 18001e158 DocumentMarks::BearerBar::regenerateMarkImp
+18001e14d -> 18001e158 DocumentMarks::BearerBar::regenerateMarkImp
+18001e165 -> 1800f42c0 FUN_1800f42c0
+18001e170 -> 1800f46a0 FUN_1800f46a0
+18001e17e -> EXTERNAL:0000008e DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+18001e18c -> 18001e1bd DocumentMarks::BearerBar::regenerateMarkImp
+18001e19b -> 18001e1bd DocumentMarks::BearerBar::regenerateMarkImp
+18001e1b2 -> 18001e1bd DocumentMarks::BearerBar::regenerateMarkImp
+18001e1c2 -> 18001df70 DocumentMarks::BearerBar::regenerateMarkImp
+18001e1d9 -> 18001e235 DocumentMarks::BearerBar::regenerateMarkImp
+18001e1e7 -> EXTERNAL:0000008d DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+18001e1f4 -> 18001e225 DocumentMarks::BearerBar::regenerateMarkImp
+18001e203 -> 18001e225 DocumentMarks::BearerBar::regenerateMarkImp
+18001e21a -> 18001e225 DocumentMarks::BearerBar::regenerateMarkImp
+18001e22e -> 18001e1e0 DocumentMarks::BearerBar::regenerateMarkImp
+18001e23b -> 1800943e0 DocumentMarks::DynamicObject::applyColor
+18001e244 -> 18001e3ab DocumentMarks::BearerBar::regenerateMarkImp
+18001e2b6 -> 180019300 FUN_180019300
+18001e2c9 -> 180019300 FUN_180019300
+18001e2d0 -> 18001e2de DocumentMarks::BearerBar::regenerateMarkImp
+18001e2d9 -> 18001e393 DocumentMarks::BearerBar::regenerateMarkImp
+18001e2e8 -> 180019300 FUN_180019300
+18001e2f4 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e304 -> 180019300 FUN_180019300
+18001e314 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e324 -> 180019300 FUN_180019300
+18001e334 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e344 -> 180019300 FUN_180019300
+18001e350 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e360 -> 180019300 FUN_180019300
+18001e36b -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e37b -> 180019300 FUN_180019300
+18001e386 -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18001e396 -> 180019300 FUN_180019300
+18001e3a5 -> 180019300 FUN_180019300
+18001e3ae -> 18001e3ec DocumentMarks::BearerBar::regenerateMarkImp
+18001e3c6 -> 18001e3e4 DocumentMarks::BearerBar::regenerateMarkImp
+18001e3db -> 18001e3e4 DocumentMarks::BearerBar::regenerateMarkImp
+18001e3dd -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001e3e7 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+
+[STRINGS_REFERENCED]
+1802fa208 " Bearer Bar update\n"
+1802fa220 "   Reference object Bbox mm:"
+1802fa298 "[ <initial/default state> ]"
+1802fa2b8 ", H: "
+1802fa2c0 " (W: "
+1802fa2c8 ", B: "
+1802fa2d0 ", R: "
+1802fa2d8 ", T: "
+1802fa2e0 "[ L: "
+
+[DATA_XREFS_FROM_BODY]
+18001de3f -> Stack[-0x248] block=? sym=
+18001de4d -> Stack[-0x58] block=? sym=
+18001de51 -> Stack[-0x68] block=? sym=
+18001de55 -> Stack[-0x78] block=? sym=
+18001de5a -> Stack[-0x88] block=? sym=
+18001de6a -> Stack[0x8] block=? sym=
+18001de83 -> Stack[-0x318] block=? sym=
+18001de8b -> Stack[-0x308] block=? sym=
+18001de90 -> Stack[-0x328] block=? sym=
+18001de94 -> 18040a8c8 block=.data sym=ArtDoc::Group::RTTI_Type_Descriptor
+18001de9b -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18001deda -> Stack[-0x310] block=? sym=
+18001dee4 -> Stack[0x10] block=? sym=
+18001def7 -> Stack[-0x310] block=? sym=
+18001defe -> Stack[0x10] block=? sym=
+18001df08 -> Stack[-0x318] block=? sym=
+18001df12 -> Stack[-0x308] block=? sym=
+18001df17 -> Stack[-0x310] block=? sym=
+18001df27 -> Stack[-0x310] block=? sym=
+18001df2c -> Stack[-0x328] block=? sym=
+18001df34 -> 18040abb8 block=.data sym=ArtDoc::Path::RTTI_Type_Descriptor
+18001df3b -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18001df50 -> Stack[-0x288] block=? sym=
+18001df5e -> 1802fa168 block=.rdata sym=ArtDoc::Path::vftable
+18001df65 -> 1802fa1d0 block=.rdata sym=ArtDoc::Path::vftable
+18001df95 -> Stack[-0x320] block=? sym=
+18001df9a -> Stack[-0x328] block=? sym=
+18001dfa2 -> Stack[-0x288] block=? sym=
+18001dfa6 -> Stack[-0x2b8] block=? sym=
+18001dfbd -> Stack[0x18] block=? sym=
+18001dfcc -> Stack[-0x2d8] block=? sym=
+18001dfd2 -> Stack[-0x2b0] block=? sym=
+18001dfdf -> Stack[-0x2b8] block=? sym=
+18001dfe3 -> Stack[-0x2d8] block=? sym=
+18001dfe9 -> Stack[-0x2d8] block=? sym=
+18001dff1 -> 1802f1b10 block=.rdata sym=PTR_Path_1802f1b10
+18001dff7 -> 1802fa168 block=.rdata sym=ArtDoc::Path::vftable
+18001dffa -> 1802fa1d0 block=.rdata sym=ArtDoc::Path::vftable
+18001e005 -> 1802f1af8 block=.rdata sym=PTR_IsFilled_1802f1af8
+18001e012 -> 1802f1b08 block=.rdata sym=PTR_GetFillPaint_1802f1b08
+18001e01b -> Stack[-0x300] block=? sym=
+18001e031 -> Stack[-0x300] block=? sym=
+18001e03a -> Stack[-0x2f8] block=? sym=
+18001e03f -> Stack[-0x300] block=? sym=
+18001e047 -> 1802f1b00 block=.rdata sym=PTR_SetFillPaint_1802f1b00
+18001e058 -> Stack[-0x2c8] block=? sym=
+18001e05d -> Stack[-0x218] block=? sym=
+18001e062 -> Stack[-0x208] block=? sym=
+18001e06a -> Stack[-0x170] block=? sym=
+18001e071 -> Stack[-0x168] block=? sym=
+18001e07a -> Stack[-0x2c8] block=? sym=
+18001e081 -> Stack[-0x220] block=? sym=
+18001e085 -> Stack[-0x160] block=? sym=
+18001e08c -> 1802f1b20 block=.rdata sym=PTR_Factory_1802f1b20
+18001e093 -> Stack[-0x2a8] block=? sym=
+18001e09a -> 1802f1b30 block=.rdata sym=PTR_Get_1802f1b30
+18001e0a4 -> Stack[-0x2f0] block=? sym=
+18001e0ad -> Stack[-0x2f0] block=? sym=
+18001e0b6 -> Stack[-0x2e8] block=? sym=
+18001e0ca -> Stack[-0x2f0] block=? sym=
+18001e0d2 -> 1802f1b00 block=.rdata sym=PTR_SetFillPaint_1802f1b00
+18001e0d9 -> Stack[-0x2a0] block=? sym=
+18001e112 -> Stack[-0x160] block=? sym=
+18001e119 -> 1802f1b28 block=.rdata sym=PTR_~Factory_1802f1b28
+18001e120 -> Stack[-0x2c0] block=? sym=
+18001e158 -> 1802fa168 block=.rdata sym=ArtDoc::Path::vftable
+18001e17e -> 1802f2b70 block=.rdata sym=PTR_InsertNewObjectAfter_1802f2b70
+18001e185 -> Stack[-0x2b0] block=? sym=
+18001e1c8 -> Stack[-0x318] block=? sym=
+18001e1cd -> Stack[-0x310] block=? sym=
+18001e1d2 -> Stack[0x8] block=? sym=
+18001e1e3 -> Stack[-0x298] block=? sym=
+18001e1e7 -> 1802f2b68 block=.rdata sym=PTR_ExtractObjectFromParent_1802f2b68
+18001e1ed -> Stack[-0x290] block=? sym=
+18001e229 -> Stack[-0x310] block=? sym=
+18001e230 -> Stack[-0x318] block=? sym=
+18001e24a -> Stack[-0x278] block=? sym=
+18001e253 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18001e260 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18001e26d -> Stack[-0x268] block=? sym=
+18001e280 -> Stack[-0x240] block=? sym=
+18001e284 -> Stack[-0x258] block=? sym=
+18001e296 -> Stack[-0x248] block=? sym=
+18001e2a8 -> 1802fa208 block=.rdata sym=s_Bearer_Bar_update_1802fa208
+18001e2af -> 1802f3390 block=.rdata sym=PTR_cout_1802f3390
+18001e2bb -> 1802fa220 block=.rdata sym=s_Reference_object_Bbox_mm:_1802fa220
+18001e2c2 -> 1802f3390 block=.rdata sym=PTR_cout_1802f3390
+18001e2d2 -> 1802fa298 block=.rdata sym=s_[_<initial/default_state>_]_1802fa298
+18001e2de -> 1802fa2e0 block=.rdata sym=s_[_L:_1802fa2e0
+18001e2f4 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e2fa -> 1802fa2d8 block=.rdata sym=s_,_T:_1802fa2d8
+18001e314 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e31a -> 1802fa2d0 block=.rdata sym=s_,_R:_1802fa2d0
+18001e334 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e33a -> 1802fa2c8 block=.rdata sym=s_,_B:_1802fa2c8
+18001e350 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e356 -> 1802fa2c0 block=.rdata sym=s_(W:_1802fa2c0
+18001e36b -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e371 -> 1802fa2b8 block=.rdata sym=s_,_H:_1802fa2b8
+18001e386 -> 1802f3348 block=.rdata sym=PTR_operator<<_1802f3348
+18001e38c -> 1802fa2b4 block=.rdata sym=DAT_1802fa2b4
+18001e39e -> 1802fa21c block=.rdata sym=DAT_1802fa21c
+18001e3b0 -> Stack[-0x308] block=? sym=
+18001e3dd -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001e3ec -> Stack[-0x40] block=? sym=
+18001e3f4 -> Stack[-0x58] block=? sym=
+18001e3f9 -> Stack[-0x68] block=? sym=
+18001e3fe -> Stack[-0x78] block=? sym=
+18001e403 -> Stack[-0x88] block=? sym=
+
+[DECOMPILE]
+
+/* protected: virtual void __cdecl DocumentMarks::BearerBar::regenerateMarkImp(void) __ptr64 */
+
+void __thiscall DocumentMarks::BearerBar::regenerateMarkImp(BearerBar *this)
+
+{
+  int *piVar1;
+  longlong *plVar2;
+  int iVar3;
+  ContentObject *pCVar4;
+  double dVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  bool bVar9;
+  int iVar10;
+  longlong lVar11;
+  Fillable *this_00;
+  Path *pPVar12;
+  shared_ptr<ArtPaint::Paint_const_> *psVar13;
+  Factory *this_01;
+  undefined8 *puVar14;
+  basic_ostream<char,struct_std::char_traits<char>_> *pbVar15;
+  basic_ostream<char,std::char_traits<char>_> *pbVar16;
+  undefined8 uVar17;
+  char *pcVar18;
+  uint uVar19;
+  longlong *plVar20;
+  longlong *plVar21;
+  longlong local_res10;
+  Path *local_res18;
+  undefined8 in_stack_fffffffffffffcd8;
+  ulonglong uVar22;
+  longlong *local_318;
+  longlong *plStack_310;
+  longlong *local_308;
+  undefined8 local_300;
+  undefined8 uStack_2f8;
+  undefined8 local_2f0;
+  undefined8 uStack_2e8;
+  undefined1 local_2d8 [16];
+  undefined8 local_2c8;
+  longlong *plStack_2c0;
+  undefined1 local_2b8 [8];
+  undefined4 uStack_2b0;
+  undefined4 uStack_2ac;
+  longlong *local_2a0;
+  ContentObject local_298 [8];
+  longlong *local_290;
+  undefined1 local_288 [16];
+  double local_278;
+  double local_268;
+  double local_258;
+  double local_248;
+  char local_240;
+  undefined1 local_220 [8];
+  undefined8 local_218;
+  undefined8 uStack_210;
+  undefined8 local_208;
+  undefined1 local_170;
+  undefined2 local_168;
+  Factory local_160 [288];
+  
+                    /* 0x1de30  2139  ?regenerateMarkImp@BearerBar@DocumentMarks@@MEAAXXZ */
+  uVar19 = (uint)((ulonglong)in_stack_fffffffffffffcd8 >> 0x20);
+  iVar10 = GetMarksDebugLevel();
+  pCVar4 = *(ContentObject **)(this + 0x360);
+  if (pCVar4 != (ContentObject *)0x0) {
+    local_318 = (longlong *)0x0;
+    plStack_310 = (longlong *)0x0;
+    plVar20 = (longlong *)0x0;
+    local_308 = (longlong *)0x0;
+    uVar22 = (ulonglong)uVar19 << 0x20;
+    lVar11 = __RTDynamicCast(pCVar4,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                             &ArtDoc::Group::RTTI_Type_Descriptor,uVar22);
+    if (lVar11 != 0) {
+      lVar11 = *(longlong *)(lVar11 + 0x360);
+      for (plStack_310 = (longlong *)0x0; (lVar11 != 0 && (plStack_310 != (longlong *)0x0));
+          plStack_310 = plStack_310 + 1) {
+        *plStack_310 = lVar11;
+        lVar11 = *(longlong *)(lVar11 + 8);
+      }
+      for (; lVar11 != 0; lVar11 = *(longlong *)(lVar11 + 8)) {
+        local_res10 = lVar11;
+        if (plStack_310 == plVar20) {
+          FUN_18001be10(&local_318,plStack_310,&local_res10);
+          plVar20 = local_308;
+        }
+        else {
+          *plStack_310 = lVar11;
+          plStack_310 = plStack_310 + 1;
+        }
+      }
+    }
+    this_00 = (Fillable *)
+              __RTDynamicCast(plStack_310[-1],0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                              &ArtDoc::Path::RTTI_Type_Descriptor,uVar22 & 0xffffffff00000000);
+    DynamicObject::getPositionRefBBox((DynamicObject *)this);
+    uVar19 = 0;
+    do {
+      if ((*(uint *)(this + 0x780) >> (uVar19 & 0x1f) & 1) != 0) {
+        FUN_18001cc60(local_2b8,local_288,uVar19,this + 0x750,this + 0x760,this + 0x770);
+        pPVar12 = (Path *)FUN_1802cbe68(0x488);
+        local_res18 = pPVar12;
+        if (pPVar12 == (Path *)0x0) {
+          pPVar12 = (Path *)0x0;
+        }
+        else {
+          if (CONCAT44(uStack_2ac,uStack_2b0) != 0) {
+            LOCK();
+            piVar1 = (int *)(CONCAT44(uStack_2ac,uStack_2b0) + 8);
+            *piVar1 = *piVar1 + 1;
+            UNLOCK();
+          }
+          ArtDoc::Path::Path(pPVar12,local_2d8);
+          *(undefined ***)pPVar12 = ArtDoc::Path::vftable;
+          *(undefined ***)(pPVar12 + 0x20) = ArtDoc::Path::vftable;
+        }
+        bVar9 = ArtDoc::Fillable::IsFilled(this_00);
+        if (bVar9) {
+          psVar13 = ArtDoc::Fillable::GetFillPaint(this_00);
+          if (*(longlong *)(psVar13 + 8) != 0) {
+            LOCK();
+            piVar1 = (int *)(*(longlong *)(psVar13 + 8) + 8);
+            *piVar1 = *piVar1 + 1;
+            UNLOCK();
+          }
+          local_300 = *(undefined8 *)psVar13;
+          uStack_2f8 = *(undefined8 *)(psVar13 + 8);
+          ArtDoc::Fillable::SetFillPaint((Fillable *)pPVar12,&local_300);
+        }
+        else {
+          local_2c8 = 0;
+          plStack_2c0 = (longlong *)0x0;
+          local_218 = 0;
+          uStack_210 = 0;
+          local_208 = 0;
+          local_170 = 0;
+          local_168 = 0x200;
+          this_01 = (Factory *)
+                    ArtPaint::FlatPaint::Factory::Factory(local_160,local_220,0,&local_2c8);
+          puVar14 = (undefined8 *)ArtPaint::FlatPaint::Factory::Get(this_01);
+          local_2f0 = *puVar14;
+          uStack_2e8 = puVar14[1];
+          *puVar14 = 0;
+          puVar14[1] = 0;
+          ArtDoc::Fillable::SetFillPaint((Fillable *)pPVar12,&local_2f0);
+          plVar20 = local_2a0;
+          if (local_2a0 != (longlong *)0x0) {
+            LOCK();
+            plVar21 = local_2a0 + 1;
+            lVar11 = *plVar21;
+            *(int *)plVar21 = (int)*plVar21 + -1;
+            UNLOCK();
+            if ((int)lVar11 == 1) {
+              (**(code **)*local_2a0)(local_2a0);
+              LOCK();
+              piVar1 = (int *)((longlong)plVar20 + 0xc);
+              iVar3 = *piVar1;
+              *piVar1 = *piVar1 + -1;
+              UNLOCK();
+              if (iVar3 == 1) {
+                (**(code **)(*plVar20 + 8))(plVar20);
+              }
+            }
+          }
+          ArtPaint::FlatPaint::Factory::~Factory(local_160);
+          plVar20 = plStack_2c0;
+          if (plStack_2c0 != (longlong *)0x0) {
+            LOCK();
+            plVar21 = plStack_2c0 + 1;
+            lVar11 = *plVar21;
+            *(int *)plVar21 = (int)*plVar21 + -1;
+            UNLOCK();
+            if ((int)lVar11 == 1) {
+              (**(code **)*plStack_2c0)(plStack_2c0);
+              LOCK();
+              piVar1 = (int *)((longlong)plVar20 + 0xc);
+              iVar3 = *piVar1;
+              *piVar1 = *piVar1 + -1;
+              UNLOCK();
+              if (iVar3 == 1) {
+                (**(code **)(*plVar20 + 8))(plVar20);
+              }
+            }
+          }
+        }
+        FUN_1800f42c0(this_00,pPVar12);
+        FUN_1800f46a0(this_00,pPVar12);
+        DocumentEdit::InsertNewObjectAfter((ContentObject *)pPVar12,(ContentObject *)this_00,true);
+        plVar20 = (longlong *)CONCAT44(uStack_2ac,uStack_2b0);
+        if (plVar20 != (longlong *)0x0) {
+          LOCK();
+          plVar21 = plVar20 + 1;
+          lVar11 = *plVar21;
+          *(int *)plVar21 = (int)*plVar21 + -1;
+          UNLOCK();
+          if ((int)lVar11 == 1) {
+            (**(code **)*plVar20)(plVar20);
+            LOCK();
+            piVar1 = (int *)((longlong)plVar20 + 0xc);
+            iVar3 = *piVar1;
+            *piVar1 = *piVar1 + -1;
+            UNLOCK();
+            if (iVar3 == 1) {
+              (**(code **)(*plVar20 + 8))(plVar20);
+            }
+          }
+        }
+      }
+      uVar19 = uVar19 + 1;
+    } while ((int)uVar19 < 4);
+    plVar20 = local_318;
+    if (local_318 != plStack_310) {
+      do {
+        DocumentEdit::ExtractObjectFromParent(local_298);
+        plVar21 = local_290;
+        if (local_290 != (longlong *)0x0) {
+          LOCK();
+          plVar2 = local_290 + 1;
+          lVar11 = *plVar2;
+          *(int *)plVar2 = (int)*plVar2 + -1;
+          UNLOCK();
+          if ((int)lVar11 == 1) {
+            (**(code **)*local_290)(local_290);
+            LOCK();
+            piVar1 = (int *)((longlong)plVar21 + 0xc);
+            iVar3 = *piVar1;
+            *piVar1 = *piVar1 + -1;
+            UNLOCK();
+            if (iVar3 == 1) {
+              (**(code **)(*plVar21 + 8))(plVar21);
+            }
+          }
+        }
+        plVar20 = plVar20 + 1;
+      } while (plVar20 != plStack_310);
+    }
+    plVar20 = local_318;
+    DynamicObject::applyColor((DynamicObject *)this,pCVar4);
+    if (2 < iVar10) {
+      dVar7 = (local_278 * DAT_1802fa2e8) / DAT_1802fa2f0;
+      dVar8 = (local_268 * DAT_1802fa2e8) / DAT_1802fa2f0;
+      dVar5 = ((local_278 + local_258) * DAT_1802fa2e8) / DAT_1802fa2f0 - dVar7;
+      dVar6 = ((local_268 + local_248) * DAT_1802fa2e8) / DAT_1802fa2f0 - dVar8;
+      FUN_180019300(cout_exref," Bearer Bar update\n");
+      pbVar15 = (basic_ostream<char,struct_std::char_traits<char>_> *)
+                FUN_180019300(cout_exref,"   Reference object Bbox mm:");
+      if (local_240 == '\0') {
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15,"[ L: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar16,dVar7);
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15,", T: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                            (pbVar16,dVar8 + dVar6);
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15,", R: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                            (pbVar16,dVar5 + dVar7);
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15,", B: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar16,dVar8);
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15," (W: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar16,dVar5);
+        pbVar16 = (basic_ostream<char,std::char_traits<char>_> *)FUN_180019300(pbVar15,", H: ");
+        pbVar15 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar16,dVar6);
+        pcVar18 = ") ]";
+      }
+      else {
+        pcVar18 = "[ <initial/default state> ]";
+      }
+      uVar17 = FUN_180019300(pbVar15,pcVar18);
+      FUN_180019300(uVar17,&DAT_1802fa21c);
+    }
+    if (plVar20 != (longlong *)0x0) {
+      plVar21 = plVar20;
+      if ((0xfff < ((longlong)local_308 - (longlong)plVar20 & 0xfffffffffffffff8U)) &&
+         (plVar21 = (longlong *)plVar20[-1],
+         0x1f < (ulonglong)((longlong)plVar20 + (-8 - (longlong)plVar21)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(plVar21);
+    }
+  }
+  return;
+}
+
+

@@ -1,0 +1,59 @@
+requested=0x180135660
+resolvedAddress=180135660
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180135660 getMarkType
+status=OK
+entry=180135660
+name=getMarkType
+qualifiedName=DocumentMarks::PDFPlusCutMark::getMarkType
+namespace=DocumentMarks::PDFPlusCutMark
+signature=basic_string_view<char,std::char_traits<char>_> getMarkType(PDFPlusCutMark * this)
+returnType=basic_string_view<char,std::char_traits<char>_>
+parameterCount=1
+bodyMin=180135660
+bodyMax=18013566d
+bodySize=14
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abe6c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316b10 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180135660 -> 180316c58 block=.rdata sym=PTR_s_DynamicObject_PDFPlusCutMark_180316c58
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual class std::basic_string_view<char,struct std::char_traits<char> > __cdecl
+   DocumentMarks::PDFPlusCutMark::getMarkType(void)const __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::getMarkType(PDFPlusCutMark *this)
+
+{
+  undefined8 uVar1;
+  undefined8 *in_RDX;
+  
+                    /* 0x135660  1926
+                       ?getMarkType@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+                        */
+  uVar1 = _UNK_180316c60;
+  *in_RDX = PTR_s_DynamicObject_PDFPlusCutMark_180316c58;
+  in_RDX[1] = uVar1;
+  return;
+}
+
+

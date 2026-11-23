@@ -1,0 +1,7442 @@
+[
+  {
+    "name": "??0?$GReceiver@VGADoc@@@@QEAA@AEBV0@@Z",
+    "address": "0x57d0",
+    "ordinal": 1
+  },
+  {
+    "name": "??0?$GReceiver@VGADoc@@@@QEAA@XZ",
+    "address": "0x5870",
+    "ordinal": 2
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDeletePagesMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x136c0",
+    "ordinal": 3
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDeletePagesMessage@@@@QEAA@XZ",
+    "address": "0x136f0",
+    "ordinal": 4
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDidChangePagesMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x13c50",
+    "ordinal": 5
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDidChangePagesMessage@@@@QEAA@XZ",
+    "address": "0x13c80",
+    "ordinal": 6
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDidSaveMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x29fe0",
+    "ordinal": 7
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDidSaveMessage@@@@QEAA@XZ",
+    "address": "0x2a010",
+    "ordinal": 8
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDigSignatureMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x22770",
+    "ordinal": 9
+  },
+  {
+    "name": "??0?$GReceiver@VGADocDigSignatureMessage@@@@QEAA@XZ",
+    "address": "0x227a0",
+    "ordinal": 10
+  },
+  {
+    "name": "??0?$GReceiver@VGADocInsertPagesMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x193b0",
+    "ordinal": 11
+  },
+  {
+    "name": "??0?$GReceiver@VGADocInsertPagesMessage@@@@QEAA@XZ",
+    "address": "0x193e0",
+    "ordinal": 12
+  },
+  {
+    "name": "??0?$GReceiver@VGADocMovePagesMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x199e0",
+    "ordinal": 13
+  },
+  {
+    "name": "??0?$GReceiver@VGADocMovePagesMessage@@@@QEAA@XZ",
+    "address": "0x19a10",
+    "ordinal": 14
+  },
+  {
+    "name": "??0?$GReceiver@VGADocReplacePagesMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x19eb0",
+    "ordinal": 15
+  },
+  {
+    "name": "??0?$GReceiver@VGADocReplacePagesMessage@@@@QEAA@XZ",
+    "address": "0x19ee0",
+    "ordinal": 16
+  },
+  {
+    "name": "??0?$GReceiver@VGADocWillSaveMessage@@@@QEAA@AEBV0@@Z",
+    "address": "0x227c0",
+    "ordinal": 17
+  },
+  {
+    "name": "??0?$GReceiver@VGADocWillSaveMessage@@@@QEAA@XZ",
+    "address": "0x227f0",
+    "ordinal": 18
+  },
+  {
+    "name": "??0GAASCII85Filter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 19
+  },
+  {
+    "name": "??0GAASCII85Filter@@QEAA@XZ",
+    "address": "0x4340",
+    "ordinal": 20
+  },
+  {
+    "name": "??0GAASCIIHexFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 21
+  },
+  {
+    "name": "??0GAASCIIHexFilter@@QEAA@XZ",
+    "address": "0x4900",
+    "ordinal": 22
+  },
+  {
+    "name": "??0GAArray@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 23
+  },
+  {
+    "name": "??0GAArray@@QEAA@AEBVGADoc@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x5920",
+    "ordinal": 24
+  },
+  {
+    "name": "??0GAArray@@QEAA@PEAVGAArrayImp@@@Z",
+    "address": "0x5970",
+    "ordinal": 25
+  },
+  {
+    "name": "??0GAArray@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 26
+  },
+  {
+    "name": "??0GAArrayIterator@@QEAA@AEBVGAArray@@_N@Z",
+    "address": "0x91a0",
+    "ordinal": 27
+  },
+  {
+    "name": "??0GABool@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 28
+  },
+  {
+    "name": "??0GABool@@QEAA@AEBVGADoc@@_NW4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x9360",
+    "ordinal": 29
+  },
+  {
+    "name": "??0GABool@@QEAA@PEAVGABoolImp@@@Z",
+    "address": "0x93c0",
+    "ordinal": 30
+  },
+  {
+    "name": "??0GABool@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 31
+  },
+  {
+    "name": "??0GACCITTFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 32
+  },
+  {
+    "name": "??0GACCITTFilter@@QEAA@AEBVGADict@@@Z",
+    "address": "0x9500",
+    "ordinal": 33
+  },
+  {
+    "name": "??0GACCITTFilter@@QEAA@J_N0JJ00J@Z",
+    "address": "0x9550",
+    "ordinal": 34
+  },
+  {
+    "name": "??0GACachedObject@@QEAA@AEBVGADoc@@@Z",
+    "address": "0xa510",
+    "ordinal": 35
+  },
+  {
+    "name": "??0GACachingHashingStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0xa820",
+    "ordinal": 36
+  },
+  {
+    "name": "??0GACachingHashingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xa870",
+    "ordinal": 37
+  },
+  {
+    "name": "??0GACachingHashingStrategy@@QEAA@J@Z",
+    "address": "0xa900",
+    "ordinal": 38
+  },
+  {
+    "name": "??0GACloneKeepStrategy@@QEAA@XZ",
+    "address": "0xb3f0",
+    "ordinal": 39
+  },
+  {
+    "name": "??0GACloneStrategy@@QEAA@XZ",
+    "address": "0xc110",
+    "ordinal": 40
+  },
+  {
+    "name": "??0GADBGPartialEquivStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0xcd00",
+    "ordinal": 41
+  },
+  {
+    "name": "??0GADBGPartialEquivStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xcd70",
+    "ordinal": 42
+  },
+  {
+    "name": "??0GADBGPartialEquivStrategy@@QEAA@_N@Z",
+    "address": "0xce40",
+    "ordinal": 43
+  },
+  {
+    "name": "??0GADCTFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 44
+  },
+  {
+    "name": "??0GADCTFilter@@QEAA@W4ColorTransform@GDCTEnums@@JJJJ@Z",
+    "address": "0xe950",
+    "ordinal": 45
+  },
+  {
+    "name": "??0GADeepCloneReplaceStrategy@@QEAA@AEAV?$GDict@VGAObject@@V1@@@@Z",
+    "address": "0xf090",
+    "ordinal": 46
+  },
+  {
+    "name": "??0GADeepCloneStrategy@@QEAA@XZ",
+    "address": "0xf550",
+    "ordinal": 47
+  },
+  {
+    "name": "??0GADeepProcessingStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0xf580",
+    "ordinal": 48
+  },
+  {
+    "name": "??0GADeepProcessingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xf580",
+    "ordinal": 49
+  },
+  {
+    "name": "??0GADeepProcessingStrategy@@QEAA@XZ",
+    "address": "0xf5b0",
+    "ordinal": 50
+  },
+  {
+    "name": "??0GADefaultEquivStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0xce80",
+    "ordinal": 51
+  },
+  {
+    "name": "??0GADefaultEquivStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xcf60",
+    "ordinal": 52
+  },
+  {
+    "name": "??0GADefaultEquivStrategy@@QEAA@XZ",
+    "address": "0xf6e0",
+    "ordinal": 53
+  },
+  {
+    "name": "??0GADefaultExHandler@@QEAA@$$QEAV0@@Z",
+    "address": "0x113c0",
+    "ordinal": 54
+  },
+  {
+    "name": "??0GADefaultExHandler@@QEAA@AEBV0@@Z",
+    "address": "0x113c0",
+    "ordinal": 55
+  },
+  {
+    "name": "??0GADefaultExHandler@@QEAA@XZ",
+    "address": "0x113f0",
+    "ordinal": 56
+  },
+  {
+    "name": "??0GADelayedVisitInfo@@QEAA@$$QEAV0@@Z",
+    "address": "0x59a0",
+    "ordinal": 57
+  },
+  {
+    "name": "??0GADelayedVisitInfo@@QEAA@AEBV0@@Z",
+    "address": "0x59a0",
+    "ordinal": 58
+  },
+  {
+    "name": "??0GADelayedVisitInfo@@QEAA@AEBVGAObject@@W4Action@0@@Z",
+    "address": "0x59f0",
+    "ordinal": 59
+  },
+  {
+    "name": "??0GADict@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 60
+  },
+  {
+    "name": "??0GADict@@QEAA@AEBVGADoc@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x115e0",
+    "ordinal": 61
+  },
+  {
+    "name": "??0GADict@@QEAA@PEAVGADictImp@@@Z",
+    "address": "0x11630",
+    "ordinal": 62
+  },
+  {
+    "name": "??0GADict@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 63
+  },
+  {
+    "name": "??0GADictIterator@@QEAA@AEBVGADict@@@Z",
+    "address": "0x12410",
+    "ordinal": 64
+  },
+  {
+    "name": "??0GADoc@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 65
+  },
+  {
+    "name": "??0GADoc@@QEAA@AEBVGPathName@@@Z",
+    "address": "0x124f0",
+    "ordinal": 66
+  },
+  {
+    "name": "??0GADoc@@QEAA@AEBVGPathName@@AEBVGBuffer@@_N@Z",
+    "address": "0x12550",
+    "ordinal": 67
+  },
+  {
+    "name": "??0GADoc@@QEAA@PEAVGADocImp@@@Z",
+    "address": "0x5a30",
+    "ordinal": 68
+  },
+  {
+    "name": "??0GADoc@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 69
+  },
+  {
+    "name": "??0GADocDeletePagesMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x13710",
+    "ordinal": 70
+  },
+  {
+    "name": "??0GADocDeletePagesMessage@@QEAA@AEBV0@@Z",
+    "address": "0x13710",
+    "ordinal": 71
+  },
+  {
+    "name": "??0GADocDeletePagesMessage@@QEAA@AEBVGADoc@@JJJ@Z",
+    "address": "0x13760",
+    "ordinal": 72
+  },
+  {
+    "name": "??0GADocDidChangePagesMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x13ca0",
+    "ordinal": 73
+  },
+  {
+    "name": "??0GADocDidChangePagesMessage@@QEAA@AEBV0@@Z",
+    "address": "0x13ca0",
+    "ordinal": 74
+  },
+  {
+    "name": "??0GADocDidChangePagesMessage@@QEAA@AEBVGADoc@@JJJW4Change@0@@Z",
+    "address": "0x13cf0",
+    "ordinal": 75
+  },
+  {
+    "name": "??0GADocDidSaveMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x2a030",
+    "ordinal": 76
+  },
+  {
+    "name": "??0GADocDidSaveMessage@@QEAA@AEBV0@@Z",
+    "address": "0x2a030",
+    "ordinal": 77
+  },
+  {
+    "name": "??0GADocDidSaveMessage@@QEAA@AEBVGADoc@@J_N@Z",
+    "address": "0x2a070",
+    "ordinal": 78
+  },
+  {
+    "name": "??0GADocDigSignatureMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x22810",
+    "ordinal": 79
+  },
+  {
+    "name": "??0GADocDigSignatureMessage@@QEAA@AEBV0@@Z",
+    "address": "0x22810",
+    "ordinal": 80
+  },
+  {
+    "name": "??0GADocDigSignatureMessage@@QEAA@AEBVGADoc@@AEBVGAObject@@1@Z",
+    "address": "0x22870",
+    "ordinal": 81
+  },
+  {
+    "name": "??0GADocEncryptionParams@@QEAA@W4EncryptionType@0@W4ChangePermissions@0@W4PrintPermissions@0@W4GeneralPermissions@0@W4EncryptMetadata@0@@Z",
+    "address": "0x141e0",
+    "ordinal": 82
+  },
+  {
+    "name": "??0GADocFactory@@IEAA@XZ",
+    "address": "0x142a0",
+    "ordinal": 83
+  },
+  {
+    "name": "??0GADocImp@@IEAA@XZ",
+    "address": "0x5a70",
+    "ordinal": 84
+  },
+  {
+    "name": "??0GADocInsertPagesMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x19400",
+    "ordinal": 85
+  },
+  {
+    "name": "??0GADocInsertPagesMessage@@QEAA@AEBV0@@Z",
+    "address": "0x19400",
+    "ordinal": 86
+  },
+  {
+    "name": "??0GADocInsertPagesMessage@@QEAA@AEBVGADoc@@J0JJJJ@Z",
+    "address": "0x19460",
+    "ordinal": 87
+  },
+  {
+    "name": "??0GADocMovePagesMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x13710",
+    "ordinal": 88
+  },
+  {
+    "name": "??0GADocMovePagesMessage@@QEAA@AEBV0@@Z",
+    "address": "0x13710",
+    "ordinal": 89
+  },
+  {
+    "name": "??0GADocMovePagesMessage@@QEAA@AEBVGADoc@@JJJ@Z",
+    "address": "0x13760",
+    "ordinal": 90
+  },
+  {
+    "name": "??0GADocParams@@QEAA@XZ",
+    "address": "0x19e70",
+    "ordinal": 91
+  },
+  {
+    "name": "??0GADocReplacePagesMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x19f00",
+    "ordinal": 92
+  },
+  {
+    "name": "??0GADocReplacePagesMessage@@QEAA@AEBV0@@Z",
+    "address": "0x19f00",
+    "ordinal": 93
+  },
+  {
+    "name": "??0GADocReplacePagesMessage@@QEAA@AEBVGADoc@@JJ0JJJ@Z",
+    "address": "0x19f60",
+    "ordinal": 94
+  },
+  {
+    "name": "??0GADocSaveParams@@QEAA@AEBV0@@Z",
+    "address": "0x1a4a0",
+    "ordinal": 95
+  },
+  {
+    "name": "??0GADocSaveParams@@QEAA@J@Z",
+    "address": "0x1a590",
+    "ordinal": 96
+  },
+  {
+    "name": "??0GADocSaveParams@@QEAA@JAEBVGPathName@@JJ@Z",
+    "address": "0x1a5e0",
+    "ordinal": 97
+  },
+  {
+    "name": "??0GADocWillSaveMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x228d0",
+    "ordinal": 98
+  },
+  {
+    "name": "??0GADocWillSaveMessage@@QEAA@AEBV0@@Z",
+    "address": "0x228d0",
+    "ordinal": 99
+  },
+  {
+    "name": "??0GADocWillSaveMessage@@QEAA@AEBVGADoc@@PEAVGADocSaveParams@@@Z",
+    "address": "0x22910",
+    "ordinal": 100
+  },
+  {
+    "name": "??0GAEncryption@@QEAA@$$QEAV0@@Z",
+    "address": "0x1bc00",
+    "ordinal": 101
+  },
+  {
+    "name": "??0GAEncryption@@QEAA@AEBV0@@Z",
+    "address": "0x1bd20",
+    "ordinal": 102
+  },
+  {
+    "name": "??0GAEncryption@@QEAA@AEBVGBuffer@@0000J00_N0@Z",
+    "address": "0x1be50",
+    "ordinal": 103
+  },
+  {
+    "name": "??0GAEncryption@@QEAA@AEBVGBuffer@@000AEBVGADocEncryptionParams@@@Z",
+    "address": "0x1c170",
+    "ordinal": 104
+  },
+  {
+    "name": "??0GAEncryption@@QEAA@AEBVGBuffer@@000JJJJ_NW4SupportedCF@0@20@Z",
+    "address": "0x1c260",
+    "ordinal": 105
+  },
+  {
+    "name": "??0GAEquivalenceStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xd050",
+    "ordinal": 106
+  },
+  {
+    "name": "??0GAEquivalenceStrategy@@QEAA@XZ",
+    "address": "0xd050",
+    "ordinal": 107
+  },
+  {
+    "name": "??0GAExLowLevel@@QEAA@$$QEAV0@@Z",
+    "address": "0x14300",
+    "ordinal": 108
+  },
+  {
+    "name": "??0GAExLowLevel@@QEAA@AEBV0@@Z",
+    "address": "0x14300",
+    "ordinal": 109
+  },
+  {
+    "name": "??0GAExLowLevel@@QEAA@J@Z",
+    "address": "0x225e0",
+    "ordinal": 110
+  },
+  {
+    "name": "??0GAExWrongObjectType@@QEAA@$$QEAV0@@Z",
+    "address": "0x5b30",
+    "ordinal": 111
+  },
+  {
+    "name": "??0GAExWrongObjectType@@QEAA@AEBV0@@Z",
+    "address": "0x5b30",
+    "ordinal": 112
+  },
+  {
+    "name": "??0GAExWrongObjectType@@QEAA@XZ",
+    "address": "0x22640",
+    "ordinal": 113
+  },
+  {
+    "name": "??0GAException@@QEAA@$$QEAV0@@Z",
+    "address": "0x5b60",
+    "ordinal": 114
+  },
+  {
+    "name": "??0GAException@@QEAA@AEBV0@@Z",
+    "address": "0x5b60",
+    "ordinal": 115
+  },
+  {
+    "name": "??0GAException@@QEAA@J@Z",
+    "address": "0x22670",
+    "ordinal": 116
+  },
+  {
+    "name": "??0GAException@@QEAA@XZ",
+    "address": "0x226a0",
+    "ordinal": 117
+  },
+  {
+    "name": "??0GAExceptionHandler@@QEAA@AEBV0@@Z",
+    "address": "0x11420",
+    "ordinal": 118
+  },
+  {
+    "name": "??0GAExceptionHandler@@QEAA@XZ",
+    "address": "0x11420",
+    "ordinal": 119
+  },
+  {
+    "name": "??0GAFilter@@IEAA@PEAVGAFilterImp@@@Z",
+    "address": "0x23300",
+    "ordinal": 120
+  },
+  {
+    "name": "??0GAFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 121
+  },
+  {
+    "name": "??0GAFilter@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 122
+  },
+  {
+    "name": "??0GAFilterRules@@QEAA@J@Z",
+    "address": "0x14330",
+    "ordinal": 123
+  },
+  {
+    "name": "??0GAFilterRules@@QEAA@XZ",
+    "address": "0x14350",
+    "ordinal": 124
+  },
+  {
+    "name": "??0GAFlateFilter@@AEAA@PEAVGAFlateFilterImp@@@Z",
+    "address": "0x23500",
+    "ordinal": 125
+  },
+  {
+    "name": "??0GAFlateFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 126
+  },
+  {
+    "name": "??0GAFlateFilter@@QEAA@AEBVGADict@@@Z",
+    "address": "0x23520",
+    "ordinal": 127
+  },
+  {
+    "name": "??0GAFlateFilter@@QEAA@JJJJ@Z",
+    "address": "0x23570",
+    "ordinal": 128
+  },
+  {
+    "name": "??0GAFuzzyEquivStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0x24050",
+    "ordinal": 129
+  },
+  {
+    "name": "??0GAFuzzyEquivStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x24120",
+    "ordinal": 130
+  },
+  {
+    "name": "??0GAFuzzyEquivStrategy@@QEAA@_NNJ000N@Z",
+    "address": "0x241b0",
+    "ordinal": 131
+  },
+  {
+    "name": "??0GAHashingNextLevel@@QEAA@AEAVGAHashingStrategy@@@Z",
+    "address": "0x5b90",
+    "ordinal": 132
+  },
+  {
+    "name": "??0GAHashingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x5ba0",
+    "ordinal": 133
+  },
+  {
+    "name": "??0GAHashingStrategy@@QEAA@J@Z",
+    "address": "0x5bc0",
+    "ordinal": 134
+  },
+  {
+    "name": "??0GAInlineGenerator@@QEAA@AEAVGBuffer@@@Z",
+    "address": "0x71970",
+    "ordinal": 135
+  },
+  {
+    "name": "??0GAInlineGenerator@@QEAA@AEBV0@@Z",
+    "address": "0x719b0",
+    "ordinal": 136
+  },
+  {
+    "name": "??0GAJBIG2Filter@@AEAA@PEAVGAJBIG2FilterImp@@@Z",
+    "address": "0x23500",
+    "ordinal": 137
+  },
+  {
+    "name": "??0GAJBIG2Filter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 138
+  },
+  {
+    "name": "??0GAJBIG2Filter@@QEAA@AEBVGADict@@@Z",
+    "address": "0x258d0",
+    "ordinal": 139
+  },
+  {
+    "name": "??0GAJBIG2Filter@@QEAA@XZ",
+    "address": "0x25920",
+    "ordinal": 140
+  },
+  {
+    "name": "??0GAJPXDecodeStream@@QEAA@$$QEAV0@@Z",
+    "address": "0x260a0",
+    "ordinal": 141
+  },
+  {
+    "name": "??0GAJPXDecodeStream@@QEAA@AEBV0@@Z",
+    "address": "0x260d0",
+    "ordinal": 142
+  },
+  {
+    "name": "??0GAJPXDecodeStream@@QEAA@XZ",
+    "address": "0x26100",
+    "ordinal": 143
+  },
+  {
+    "name": "??0GAJPXFilter@@AEAA@PEAVGAJPXFilterImp@@@Z",
+    "address": "0x23500",
+    "ordinal": 144
+  },
+  {
+    "name": "??0GAJPXFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 145
+  },
+  {
+    "name": "??0GAJPXFilter@@QEAA@AEBV?$GSizeBase@J@@JJN_N@Z",
+    "address": "0x25e70",
+    "ordinal": 146
+  },
+  {
+    "name": "??0GAJPXFilter@@QEAA@XZ",
+    "address": "0x25f00",
+    "ordinal": 147
+  },
+  {
+    "name": "??0GALZWFilter@@AEAA@PEAVGALZWFilterImp@@@Z",
+    "address": "0x23500",
+    "ordinal": 148
+  },
+  {
+    "name": "??0GALZWFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 149
+  },
+  {
+    "name": "??0GALZWFilter@@QEAA@AEBVGADict@@@Z",
+    "address": "0x26b20",
+    "ordinal": 150
+  },
+  {
+    "name": "??0GALZWFilter@@QEAA@JJJJJ@Z",
+    "address": "0x26b70",
+    "ordinal": 151
+  },
+  {
+    "name": "??0GAName@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 152
+  },
+  {
+    "name": "??0GAName@@QEAA@AEBVGADoc@@AEBVGBuffer@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x27550",
+    "ordinal": 153
+  },
+  {
+    "name": "??0GAName@@QEAA@PEAVGANameImp@@@Z",
+    "address": "0x275b0",
+    "ordinal": 154
+  },
+  {
+    "name": "??0GAName@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 155
+  },
+  {
+    "name": "??0GANativeParser@@QEAA@XZ",
+    "address": "0x36d60",
+    "ordinal": 156
+  },
+  {
+    "name": "??0GANull@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 157
+  },
+  {
+    "name": "??0GANull@@QEAA@PEAVGANullImp@@@Z",
+    "address": "0x27ab0",
+    "ordinal": 158
+  },
+  {
+    "name": "??0GANull@@QEAA@XZ",
+    "address": "0x27ae0",
+    "ordinal": 159
+  },
+  {
+    "name": "??0GANumber@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 160
+  },
+  {
+    "name": "??0GANumber@@QEAA@AEBVGADoc@@NW4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x27c70",
+    "ordinal": 161
+  },
+  {
+    "name": "??0GANumber@@QEAA@PEAVGANumberImp@@@Z",
+    "address": "0x27cd0",
+    "ordinal": 162
+  },
+  {
+    "name": "??0GANumber@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 163
+  },
+  {
+    "name": "??0GANumberTree@@QEAA@AEBVGADict@@@Z",
+    "address": "0x27f20",
+    "ordinal": 164
+  },
+  {
+    "name": "??0GAOCContextDidChangeMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x4390",
+    "ordinal": 165
+  },
+  {
+    "name": "??0GAOCContextDidChangeMessage@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 166
+  },
+  {
+    "name": "??0GAOCContextDidChangeMessage@@QEAA@VGADoc@@@Z",
+    "address": "0x330b0",
+    "ordinal": 167
+  },
+  {
+    "name": "??0GAOCDidChangeMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x330f0",
+    "ordinal": 168
+  },
+  {
+    "name": "??0GAOCDidChangeMessage@@QEAA@AEBV0@@Z",
+    "address": "0x330f0",
+    "ordinal": 169
+  },
+  {
+    "name": "??0GAOCDidChangeMessage@@QEAA@VGADoc@@@Z",
+    "address": "0x33140",
+    "ordinal": 170
+  },
+  {
+    "name": "??0GAOCWillChangeMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x330f0",
+    "ordinal": 171
+  },
+  {
+    "name": "??0GAOCWillChangeMessage@@QEAA@AEBV0@@Z",
+    "address": "0x330f0",
+    "ordinal": 172
+  },
+  {
+    "name": "??0GAOCWillChangeMessage@@QEAA@VGADoc@@@Z",
+    "address": "0x33140",
+    "ordinal": 173
+  },
+  {
+    "name": "??0GAObject@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 174
+  },
+  {
+    "name": "??0GAObject@@QEAA@PEAVGAObjectImp@@@Z",
+    "address": "0x43c0",
+    "ordinal": 175
+  },
+  {
+    "name": "??0GAObject@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 176
+  },
+  {
+    "name": "??0GAObjectCache@@QEAA@AEBV0@@Z",
+    "address": "0x29df0",
+    "ordinal": 177
+  },
+  {
+    "name": "??0GAObjectCache@@QEAA@AEBVGADoc@@@Z",
+    "address": "0x29e40",
+    "ordinal": 178
+  },
+  {
+    "name": "??0GAObjectFactory@@IEAA@PEAVGADocImp@@@Z",
+    "address": "0x2b470",
+    "ordinal": 179
+  },
+  {
+    "name": "??0GAObjectFormatChecker@@QEAA@$$QEAV0@@Z",
+    "address": "0x2bdb0",
+    "ordinal": 180
+  },
+  {
+    "name": "??0GAObjectFormatChecker@@QEAA@AEBV0@@Z",
+    "address": "0x2be70",
+    "ordinal": 181
+  },
+  {
+    "name": "??0GAObjectFormatChecker@@QEAA@AEBVGAPDFFile@@_J@Z",
+    "address": "0x2bfe0",
+    "ordinal": 182
+  },
+  {
+    "name": "??0GAObjectID@@QEAA@KG@Z",
+    "address": "0x5be0",
+    "ordinal": 183
+  },
+  {
+    "name": "??0GAObjectID@@QEAA@XZ",
+    "address": "0x5c00",
+    "ordinal": 184
+  },
+  {
+    "name": "??0GAObjectImp@@IEAA@XZ",
+    "address": "0x43e0",
+    "ordinal": 185
+  },
+  {
+    "name": "??0GAObjectPair@@QEAA@AEBV0@@Z",
+    "address": "0xd060",
+    "ordinal": 186
+  },
+  {
+    "name": "??0GAObjectPair@@QEAA@AEBVGAObject@@0@Z",
+    "address": "0xd0b0",
+    "ordinal": 187
+  },
+  {
+    "name": "??0GAObjectProxy@@QEAA@AEBV0@@Z",
+    "address": "0x2f000",
+    "ordinal": 188
+  },
+  {
+    "name": "??0GAObjectProxy@@QEAA@AEBVGAObject@@@Z",
+    "address": "0x2f080",
+    "ordinal": 189
+  },
+  {
+    "name": "??0GAObjectProxy@@QEAA@XZ",
+    "address": "0x5c10",
+    "ordinal": 190
+  },
+  {
+    "name": "??0GAPDFDiffStrategy@@QEAA@PEAVGAFuzzyEquivStrategy@@@Z",
+    "address": "0x37480",
+    "ordinal": 191
+  },
+  {
+    "name": "??0GAPDFFile@@IEAA@XZ",
+    "address": "0x3cb00",
+    "ordinal": 192
+  },
+  {
+    "name": "??0GAPDFFile@@QEAA@AEBV0@@Z",
+    "address": "0x2c170",
+    "ordinal": 193
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@AEBV0@@Z",
+    "address": "0x3d060",
+    "ordinal": 194
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@AEBVGAPDFPathExpression@@@Z",
+    "address": "0x3d110",
+    "ordinal": 195
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@AEBVGName@@@Z",
+    "address": "0x3d180",
+    "ordinal": 196
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@J@Z",
+    "address": "0x3d1b0",
+    "ordinal": 197
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@PEBD@Z",
+    "address": "0x3d1d0",
+    "ordinal": 198
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@V?$GAutoPtr@VGAPDFPathExpression@@UGDeletePtr@@@@@Z",
+    "address": "0x3d210",
+    "ordinal": 199
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@V?$GBitMaskType@W4GAObjectTypes@@X@@@Z",
+    "address": "0x3d280",
+    "ordinal": 200
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@W4ComponentType@0@@Z",
+    "address": "0x3d2a0",
+    "ordinal": 201
+  },
+  {
+    "name": "??0GAPDFPathComponent@@QEAA@XZ",
+    "address": "0x3d2c0",
+    "ordinal": 202
+  },
+  {
+    "name": "??0GAPDFPathExpression@@QEAA@AEBV0@@Z",
+    "address": "0x16fe0",
+    "ordinal": 203
+  },
+  {
+    "name": "??0GAPDFPathExpression@@QEAA@V?$initializer_list@VGAPDFPathComponent@@@std@@@Z",
+    "address": "0x3d640",
+    "ordinal": 204
+  },
+  {
+    "name": "??0GAPDFPathExpression@@QEAA@XZ",
+    "address": "0x3d760",
+    "ordinal": 205
+  },
+  {
+    "name": "??0GAPageAddAnnotMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x33200",
+    "ordinal": 206
+  },
+  {
+    "name": "??0GAPageAddAnnotMessage@@QEAA@AEBV0@@Z",
+    "address": "0x33200",
+    "ordinal": 207
+  },
+  {
+    "name": "??0GAPageAddAnnotMessage@@QEAA@AEBVGADict@@0J@Z",
+    "address": "0x33240",
+    "ordinal": 208
+  },
+  {
+    "name": "??0GAPageRemoveAnnotMessage@@QEAA@$$QEAV0@@Z",
+    "address": "0x33290",
+    "ordinal": 209
+  },
+  {
+    "name": "??0GAPageRemoveAnnotMessage@@QEAA@AEBV0@@Z",
+    "address": "0x33290",
+    "ordinal": 210
+  },
+  {
+    "name": "??0GAPageRemoveAnnotMessage@@QEAA@AEBVGADict@@JJ@Z",
+    "address": "0x332c0",
+    "ordinal": 211
+  },
+  {
+    "name": "??0GAPartialCloneStrategy@@QEAA@XZ",
+    "address": "0x33350",
+    "ordinal": 212
+  },
+  {
+    "name": "??0GAPartialEquivalenceStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0xd180",
+    "ordinal": 213
+  },
+  {
+    "name": "??0GAPartialEquivalenceStrategy@@QEAA@AEBV0@@Z",
+    "address": "0xd210",
+    "ordinal": 214
+  },
+  {
+    "name": "??0GAPartialEquivalenceStrategy@@QEAA@_N@Z",
+    "address": "0xd2a0",
+    "ordinal": 215
+  },
+  {
+    "name": "??0GAPartialMatchStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0x33f80",
+    "ordinal": 216
+  },
+  {
+    "name": "??0GAPartialMatchStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x33f80",
+    "ordinal": 217
+  },
+  {
+    "name": "??0GAPartialMatchStrategy@@QEAA@XZ",
+    "address": "0x33f80",
+    "ordinal": 218
+  },
+  {
+    "name": "??0GAPartialProcessingStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0x34790",
+    "ordinal": 219
+  },
+  {
+    "name": "??0GAPartialProcessingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x34790",
+    "ordinal": 220
+  },
+  {
+    "name": "??0GAPartialProcessingStrategy@@QEAA@_N0@Z",
+    "address": "0x347f0",
+    "ordinal": 221
+  },
+  {
+    "name": "??0GAPathExpressionProcessingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x34c60",
+    "ordinal": 222
+  },
+  {
+    "name": "??0GAPathExpressionProcessingStrategy@@QEAA@AEBVGAPDFPathExpression@@@Z",
+    "address": "0x34d90",
+    "ordinal": 223
+  },
+  {
+    "name": "??0GAProcessingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x5c30",
+    "ordinal": 224
+  },
+  {
+    "name": "??0GAProcessingStrategy@@QEAA@XZ",
+    "address": "0x63a70",
+    "ordinal": 225
+  },
+  {
+    "name": "??0GARunLengthFilter@@AEAA@PEAVGARunLengthFilterImp@@@Z",
+    "address": "0x23500",
+    "ordinal": 226
+  },
+  {
+    "name": "??0GARunLengthFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 227
+  },
+  {
+    "name": "??0GARunLengthFilter@@QEAA@XZ",
+    "address": "0x64a60",
+    "ordinal": 228
+  },
+  {
+    "name": "??0GAShallowCloneReplaceStrategy@@QEAA@AEAV?$GDict@VGAObjectProxy@@V1@@@@Z",
+    "address": "0x64c30",
+    "ordinal": 229
+  },
+  {
+    "name": "??0GAShallowCloneStrategy@@QEAA@XZ",
+    "address": "0xf0d0",
+    "ordinal": 230
+  },
+  {
+    "name": "??0GAShallowProcessingStrategy@@QEAA@$$QEAV0@@Z",
+    "address": "0x65360",
+    "ordinal": 231
+  },
+  {
+    "name": "??0GAShallowProcessingStrategy@@QEAA@AEBV0@@Z",
+    "address": "0x65360",
+    "ordinal": 232
+  },
+  {
+    "name": "??0GAShallowProcessingStrategy@@QEAA@XZ",
+    "address": "0x65390",
+    "ordinal": 233
+  },
+  {
+    "name": "??0GASimpleException@@QEAA@$$QEAV0@@Z",
+    "address": "0x17090",
+    "ordinal": 234
+  },
+  {
+    "name": "??0GASimpleException@@QEAA@AEBV0@@Z",
+    "address": "0x17090",
+    "ordinal": 235
+  },
+  {
+    "name": "??0GASimpleException@@QEAA@J@Z",
+    "address": "0x653c0",
+    "ordinal": 236
+  },
+  {
+    "name": "??0GAStream@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 237
+  },
+  {
+    "name": "??0GAStream@@QEAA@AEBVGADoc@@AEAVGADict@@AEAVGInStream@@AEBV?$GTable@VGAFilter@@@@_N@Z",
+    "address": "0x653f0",
+    "ordinal": 238
+  },
+  {
+    "name": "??0GAStream@@QEAA@AEBVGADoc@@AEAVGADict@@AEBVGBuffer@@AEBV?$GTable@VGAFilter@@@@_N@Z",
+    "address": "0x65460",
+    "ordinal": 239
+  },
+  {
+    "name": "??0GAStream@@QEAA@AEBVGADoc@@AEAVGADict@@AEBVGPathName@@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x65500",
+    "ordinal": 240
+  },
+  {
+    "name": "??0GAStream@@QEAA@PEAVGAStreamImp@@@Z",
+    "address": "0x275b0",
+    "ordinal": 241
+  },
+  {
+    "name": "??0GAStream@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 242
+  },
+  {
+    "name": "??0GAString@@QEAA@AEBV0@@Z",
+    "address": "0x4390",
+    "ordinal": 243
+  },
+  {
+    "name": "??0GAString@@QEAA@AEBVGADoc@@AEBVGBuffer@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x659a0",
+    "ordinal": 244
+  },
+  {
+    "name": "??0GAString@@QEAA@AEBVGADoc@@AEBVGString@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x65a00",
+    "ordinal": 245
+  },
+  {
+    "name": "??0GAString@@QEAA@PEAVGAStringImp@@@Z",
+    "address": "0x65a60",
+    "ordinal": 246
+  },
+  {
+    "name": "??0GAString@@QEAA@XZ",
+    "address": "0x4380",
+    "ordinal": 247
+  },
+  {
+    "name": "??0GAUndoArrayInsert@@QEAA@AEBVGAArray@@JAEBVGAObject@@@Z",
+    "address": "0x65f10",
+    "ordinal": 248
+  },
+  {
+    "name": "??0GAUndoArrayPut@@QEAA@AEBVGAArray@@JAEBVGAObject@@1@Z",
+    "address": "0x66070",
+    "ordinal": 249
+  },
+  {
+    "name": "??0GAUndoArrayRemove@@QEAA@AEBVGAArray@@JAEBVGAObject@@@Z",
+    "address": "0x661e0",
+    "ordinal": 250
+  },
+  {
+    "name": "??0GAUndoDictPut@@QEAA@AEBVGADict@@AEBVGName@@AEBVGAObject@@2_N@Z",
+    "address": "0x66260",
+    "ordinal": 251
+  },
+  {
+    "name": "??0GAUndoDictRemove@@QEAA@AEBVGADict@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x66400",
+    "ordinal": 252
+  },
+  {
+    "name": "??0GAUndoInfo@@IEAA@XZ",
+    "address": "0x5cc0",
+    "ordinal": 253
+  },
+  {
+    "name": "??0GAUndoLock@@QEAA@AEBVGADoc@@@Z",
+    "address": "0x66490",
+    "ordinal": 254
+  },
+  {
+    "name": "??0GAUndoManager@@QEAA@PEAVGADocImp@@@Z",
+    "address": "0x664c0",
+    "ordinal": 255
+  },
+  {
+    "name": "??0GAUndoObjectCreate@@QEAA@AEBVGAObject@@@Z",
+    "address": "0x67d70",
+    "ordinal": 256
+  },
+  {
+    "name": "??0GAUndoStringHex@@QEAA@AEBVGAString@@_N@Z",
+    "address": "0x683b0",
+    "ordinal": 257
+  },
+  {
+    "name": "??0GAUnknownFilter@@QEAA@AEBV0@@Z",
+    "address": "0x4320",
+    "ordinal": 258
+  },
+  {
+    "name": "??0GAUnknownFilter@@QEAA@XZ",
+    "address": "0x68410",
+    "ordinal": 259
+  },
+  {
+    "name": "??0GAVFindMatchingObjects@@QEAA@$$QEAV0@@Z",
+    "address": "0x68500",
+    "ordinal": 260
+  },
+  {
+    "name": "??0GAVFindMatchingObjects@@QEAA@AEBV0@@Z",
+    "address": "0x68570",
+    "ordinal": 261
+  },
+  {
+    "name": "??0GAVFindMatchingObjects@@QEAA@AEBVGAObject@@@Z",
+    "address": "0x68630",
+    "ordinal": 262
+  },
+  {
+    "name": "??0GAVFindMatchingObjects@@QEAA@XZ",
+    "address": "0x68680",
+    "ordinal": 263
+  },
+  {
+    "name": "??0GAVFindPathToObject@@QEAA@AEBV0@@Z",
+    "address": "0x68990",
+    "ordinal": 264
+  },
+  {
+    "name": "??0GAVFindPathToObject@@QEAA@AEBVGAObject@@@Z",
+    "address": "0x68a60",
+    "ordinal": 265
+  },
+  {
+    "name": "??0GAVFindPathToObjects@@QEAA@AEAV?$GDict@VGAObject@@VGBuffer@@@@@Z",
+    "address": "0x69150",
+    "ordinal": 266
+  },
+  {
+    "name": "??0GAVFindPathToObjects@@QEAA@AEBV0@@Z",
+    "address": "0x691a0",
+    "ordinal": 267
+  },
+  {
+    "name": "??0GAVFixObjectCompressionForOldAcrobats@@QEAA@$$QEAV0@@Z",
+    "address": "0x6f210",
+    "ordinal": 268
+  },
+  {
+    "name": "??0GAVFixObjectCompressionForOldAcrobats@@QEAA@AEBV0@@Z",
+    "address": "0x6f280",
+    "ordinal": 269
+  },
+  {
+    "name": "??0GAVFixObjectCompressionForOldAcrobats@@QEAA@W4ObjectsToFix@0@_NW4TrailerDictFilter@0@@Z",
+    "address": "0x6f340",
+    "ordinal": 270
+  },
+  {
+    "name": "??0GAVGetPDFPathExpressions@@QEAA@$$QEAV0@@Z",
+    "address": "0x42300",
+    "ordinal": 271
+  },
+  {
+    "name": "??0GAVGetPDFPathExpressions@@QEAA@AEAV?$GDict@VGAObject@@VGAPDFPathExpression@@@@@Z",
+    "address": "0x6fba0",
+    "ordinal": 272
+  },
+  {
+    "name": "??0GAVGetPDFPathExpressions@@QEAA@AEBV0@@Z",
+    "address": "0x42300",
+    "ordinal": 273
+  },
+  {
+    "name": "??0GAVisitor@@QEAA@AEBV0@@Z",
+    "address": "0x6a120",
+    "ordinal": 274
+  },
+  {
+    "name": "??0GAVisitor@@QEAA@XZ",
+    "address": "0x6a120",
+    "ordinal": 275
+  },
+  {
+    "name": "??0GAVisitorBlock@@QEAA@AEBV?$GTable@PEAVGAVisitor@@@@@Z",
+    "address": "0x6a220",
+    "ordinal": 276
+  },
+  {
+    "name": "??0GAXRef@@QEAA@AEBV0@@Z",
+    "address": "0x6b1e0",
+    "ordinal": 277
+  },
+  {
+    "name": "??0GAXRef@@QEAA@XZ",
+    "address": "0x6b1e0",
+    "ordinal": 278
+  },
+  {
+    "name": "??0GAXRefEntry@@QEAA@G_J_N11@Z",
+    "address": "0x6b1f0",
+    "ordinal": 279
+  },
+  {
+    "name": "??0GAXRefEntry@@QEAA@XZ",
+    "address": "0x6b240",
+    "ordinal": 280
+  },
+  {
+    "name": "??0GAXRefOriginal@@QEAA@AEAVGAPDFFile@@_J@Z",
+    "address": "0x6b260",
+    "ordinal": 281
+  },
+  {
+    "name": "??0GAXRefOriginal@@QEAA@AEBV0@@Z",
+    "address": "0x6b5c0",
+    "ordinal": 282
+  },
+  {
+    "name": "??0ObjectFormatWarning@GAObjectFormatChecker@@QEAA@$$QEAV01@@Z",
+    "address": "0x2c190",
+    "ordinal": 283
+  },
+  {
+    "name": "??0ObjectFormatWarning@GAObjectFormatChecker@@QEAA@AEBV01@@Z",
+    "address": "0x2c1c0",
+    "ordinal": 284
+  },
+  {
+    "name": "??0ObjectFormatWarning@GAObjectFormatChecker@@QEAA@W4WarningType@01@AEBV?$GTable@VGBuffer@@@@@Z",
+    "address": "0x2c1f0",
+    "ordinal": 285
+  },
+  {
+    "name": "??1?$GReceiver@VGADoc@@@@UEAA@XZ",
+    "address": "0x5d60",
+    "ordinal": 286
+  },
+  {
+    "name": "??1?$GReceiver@VGADocDeletePagesMessage@@@@UEAA@XZ",
+    "address": "0x137b0",
+    "ordinal": 287
+  },
+  {
+    "name": "??1?$GReceiver@VGADocDidChangePagesMessage@@@@UEAA@XZ",
+    "address": "0x13d40",
+    "ordinal": 288
+  },
+  {
+    "name": "??1?$GReceiver@VGADocDidSaveMessage@@@@UEAA@XZ",
+    "address": "0x2a5e0",
+    "ordinal": 289
+  },
+  {
+    "name": "??1?$GReceiver@VGADocDigSignatureMessage@@@@UEAA@XZ",
+    "address": "0x22950",
+    "ordinal": 290
+  },
+  {
+    "name": "??1?$GReceiver@VGADocInsertPagesMessage@@@@UEAA@XZ",
+    "address": "0x194d0",
+    "ordinal": 291
+  },
+  {
+    "name": "??1?$GReceiver@VGADocMovePagesMessage@@@@UEAA@XZ",
+    "address": "0x19a30",
+    "ordinal": 292
+  },
+  {
+    "name": "??1?$GReceiver@VGADocReplacePagesMessage@@@@UEAA@XZ",
+    "address": "0x19fd0",
+    "ordinal": 293
+  },
+  {
+    "name": "??1?$GReceiver@VGADocWillSaveMessage@@@@UEAA@XZ",
+    "address": "0x22ad0",
+    "ordinal": 294
+  },
+  {
+    "name": "??1GAASCII85Filter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 295
+  },
+  {
+    "name": "??1GAASCIIHexFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 296
+  },
+  {
+    "name": "??1GAArray@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 297
+  },
+  {
+    "name": "??1GAArrayIterator@@UEAA@XZ",
+    "address": "0x9230",
+    "ordinal": 298
+  },
+  {
+    "name": "??1GABool@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 299
+  },
+  {
+    "name": "??1GACCITTFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 300
+  },
+  {
+    "name": "??1GACachedObject@@UEAA@XZ",
+    "address": "0xa560",
+    "ordinal": 301
+  },
+  {
+    "name": "??1GACachingHashingStrategy@@UEAA@XZ",
+    "address": "0xa9c0",
+    "ordinal": 302
+  },
+  {
+    "name": "??1GACloneKeepStrategy@@UEAA@XZ",
+    "address": "0xb600",
+    "ordinal": 303
+  },
+  {
+    "name": "??1GACloneStrategy@@UEAA@XZ",
+    "address": "0xc240",
+    "ordinal": 304
+  },
+  {
+    "name": "??1GADBGPartialEquivStrategy@@UEAA@XZ",
+    "address": "0xd3c0",
+    "ordinal": 305
+  },
+  {
+    "name": "??1GADCTFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 306
+  },
+  {
+    "name": "??1GADeepCloneReplaceStrategy@@UEAA@XZ",
+    "address": "0xf100",
+    "ordinal": 307
+  },
+  {
+    "name": "??1GADeepCloneStrategy@@UEAA@XZ",
+    "address": "0xf100",
+    "ordinal": 308
+  },
+  {
+    "name": "??1GADeepProcessingStrategy@@UEAA@XZ",
+    "address": "0xf5e0",
+    "ordinal": 309
+  },
+  {
+    "name": "??1GADefaultEquivStrategy@@UEAA@XZ",
+    "address": "0xd450",
+    "ordinal": 310
+  },
+  {
+    "name": "??1GADefaultExHandler@@UEAA@XZ",
+    "address": "0x11430",
+    "ordinal": 311
+  },
+  {
+    "name": "??1GADelayedVisitInfo@@QEAA@XZ",
+    "address": "0x6110",
+    "ordinal": 312
+  },
+  {
+    "name": "??1GADict@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 313
+  },
+  {
+    "name": "??1GADictIterator@@QEAA@XZ",
+    "address": "0x12480",
+    "ordinal": 314
+  },
+  {
+    "name": "??1GADoc@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 315
+  },
+  {
+    "name": "??1GADocDeletePagesMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 316
+  },
+  {
+    "name": "??1GADocDidChangePagesMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 317
+  },
+  {
+    "name": "??1GADocDidSaveMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 318
+  },
+  {
+    "name": "??1GADocDigSignatureMessage@@QEAA@XZ",
+    "address": "0x22c50",
+    "ordinal": 319
+  },
+  {
+    "name": "??1GADocFactory@@UEAA@XZ",
+    "address": "0x143d0",
+    "ordinal": 320
+  },
+  {
+    "name": "??1GADocImp@@UEAA@XZ",
+    "address": "0x17280",
+    "ordinal": 321
+  },
+  {
+    "name": "??1GADocInsertPagesMessage@@QEAA@XZ",
+    "address": "0x19650",
+    "ordinal": 322
+  },
+  {
+    "name": "??1GADocMovePagesMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 323
+  },
+  {
+    "name": "??1GADocReplacePagesMessage@@QEAA@XZ",
+    "address": "0x19650",
+    "ordinal": 324
+  },
+  {
+    "name": "??1GADocSaveParams@@QEAA@XZ",
+    "address": "0x1a640",
+    "ordinal": 325
+  },
+  {
+    "name": "??1GADocWillSaveMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 326
+  },
+  {
+    "name": "??1GAEncryption@@QEAA@XZ",
+    "address": "0x1c680",
+    "ordinal": 327
+  },
+  {
+    "name": "??1GAEquivalenceStrategy@@UEAA@XZ",
+    "address": "0xd4e0",
+    "ordinal": 328
+  },
+  {
+    "name": "??1GAExLowLevel@@UEAA@XZ",
+    "address": "0x6190",
+    "ordinal": 329
+  },
+  {
+    "name": "??1GAExWrongObjectType@@UEAA@XZ",
+    "address": "0x6190",
+    "ordinal": 330
+  },
+  {
+    "name": "??1GAException@@UEAA@XZ",
+    "address": "0x6190",
+    "ordinal": 331
+  },
+  {
+    "name": "??1GAExceptionHandler@@UEAA@XZ",
+    "address": "0x22610",
+    "ordinal": 332
+  },
+  {
+    "name": "??1GAFilter@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 333
+  },
+  {
+    "name": "??1GAFlateFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 334
+  },
+  {
+    "name": "??1GAFuzzyEquivStrategy@@UEAA@XZ",
+    "address": "0x243c0",
+    "ordinal": 335
+  },
+  {
+    "name": "??1GAHashingNextLevel@@QEAA@XZ",
+    "address": "0x61a0",
+    "ordinal": 336
+  },
+  {
+    "name": "??1GAHashingStrategy@@UEAA@XZ",
+    "address": "0x61b0",
+    "ordinal": 337
+  },
+  {
+    "name": "??1GAInlineGenerator@@UEAA@XZ",
+    "address": "0x719f0",
+    "ordinal": 338
+  },
+  {
+    "name": "??1GAJBIG2Filter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 339
+  },
+  {
+    "name": "??1GAJPXDecodeStream@@UEAA@XZ",
+    "address": "0x26210",
+    "ordinal": 340
+  },
+  {
+    "name": "??1GAJPXFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 341
+  },
+  {
+    "name": "??1GALZWFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 342
+  },
+  {
+    "name": "??1GAName@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 343
+  },
+  {
+    "name": "??1GANull@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 344
+  },
+  {
+    "name": "??1GANumber@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 345
+  },
+  {
+    "name": "??1GANumberTree@@UEAA@XZ",
+    "address": "0x27fe0",
+    "ordinal": 346
+  },
+  {
+    "name": "??1GAOCContextDidChangeMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 347
+  },
+  {
+    "name": "??1GAOCDidChangeMessage@@QEAA@XZ",
+    "address": "0xd4f0",
+    "ordinal": 348
+  },
+  {
+    "name": "??1GAOCWillChangeMessage@@QEAA@XZ",
+    "address": "0xd4f0",
+    "ordinal": 349
+  },
+  {
+    "name": "??1GAObject@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 350
+  },
+  {
+    "name": "??1GAObjectCache@@UEAA@XZ",
+    "address": "0x29eb0",
+    "ordinal": 351
+  },
+  {
+    "name": "??1GAObjectFactory@@UEAA@XZ",
+    "address": "0x2b510",
+    "ordinal": 352
+  },
+  {
+    "name": "??1GAObjectFormatChecker@@QEAA@XZ",
+    "address": "0x2c450",
+    "ordinal": 353
+  },
+  {
+    "name": "??1GAObjectImp@@UEAA@XZ",
+    "address": "0x4430",
+    "ordinal": 354
+  },
+  {
+    "name": "??1GAObjectPair@@QEAA@XZ",
+    "address": "0xd4f0",
+    "ordinal": 355
+  },
+  {
+    "name": "??1GAObjectProxy@@QEAA@XZ",
+    "address": "0x2f160",
+    "ordinal": 356
+  },
+  {
+    "name": "??1GAPDFDiffStrategy@@QEAA@XZ",
+    "address": "0x377e0",
+    "ordinal": 357
+  },
+  {
+    "name": "??1GAPDFFile@@UEAA@XZ",
+    "address": "0x2c520",
+    "ordinal": 358
+  },
+  {
+    "name": "??1GAPDFPathComponent@@QEAA@XZ",
+    "address": "0x3d380",
+    "ordinal": 359
+  },
+  {
+    "name": "??1GAPDFPathExpression@@QEAA@XZ",
+    "address": "0x3d780",
+    "ordinal": 360
+  },
+  {
+    "name": "??1GAPageAddAnnotMessage@@QEAA@XZ",
+    "address": "0xd4f0",
+    "ordinal": 361
+  },
+  {
+    "name": "??1GAPageRemoveAnnotMessage@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 362
+  },
+  {
+    "name": "??1GAPartialCloneStrategy@@UEAA@XZ",
+    "address": "0x334d0",
+    "ordinal": 363
+  },
+  {
+    "name": "??1GAPartialEquivalenceStrategy@@UEAA@XZ",
+    "address": "0xd530",
+    "ordinal": 364
+  },
+  {
+    "name": "??1GAPartialMatchStrategy@@UEAA@XZ",
+    "address": "0xd4e0",
+    "ordinal": 365
+  },
+  {
+    "name": "??1GAPartialProcessingStrategy@@UEAA@XZ",
+    "address": "0x34900",
+    "ordinal": 366
+  },
+  {
+    "name": "??1GAPathExpressionProcessingStrategy@@UEAA@XZ",
+    "address": "0x34f90",
+    "ordinal": 367
+  },
+  {
+    "name": "??1GAProcessingStrategy@@UEAA@XZ",
+    "address": "0x63b00",
+    "ordinal": 368
+  },
+  {
+    "name": "??1GARunLengthFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 369
+  },
+  {
+    "name": "??1GAScratchDoc@@AEAA@XZ",
+    "address": "0x6250",
+    "ordinal": 370
+  },
+  {
+    "name": "??1GAShallowCloneReplaceStrategy@@UEAA@XZ",
+    "address": "0x64ce0",
+    "ordinal": 371
+  },
+  {
+    "name": "??1GAShallowCloneStrategy@@UEAA@XZ",
+    "address": "0xf100",
+    "ordinal": 372
+  },
+  {
+    "name": "??1GAShallowProcessingStrategy@@UEAA@XZ",
+    "address": "0xf5e0",
+    "ordinal": 373
+  },
+  {
+    "name": "??1GASimpleException@@UEAA@XZ",
+    "address": "0x6190",
+    "ordinal": 374
+  },
+  {
+    "name": "??1GAStream@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 375
+  },
+  {
+    "name": "??1GAString@@QEAA@XZ",
+    "address": "0x4420",
+    "ordinal": 376
+  },
+  {
+    "name": "??1GAUndoArrayInsert@@UEAA@XZ",
+    "address": "0x61c0",
+    "ordinal": 377
+  },
+  {
+    "name": "??1GAUndoArrayPut@@UEAA@XZ",
+    "address": "0x6200",
+    "ordinal": 378
+  },
+  {
+    "name": "??1GAUndoArrayRemove@@UEAA@XZ",
+    "address": "0x61c0",
+    "ordinal": 379
+  },
+  {
+    "name": "??1GAUndoDictPut@@UEAA@XZ",
+    "address": "0x6200",
+    "ordinal": 380
+  },
+  {
+    "name": "??1GAUndoDictRemove@@UEAA@XZ",
+    "address": "0x61c0",
+    "ordinal": 381
+  },
+  {
+    "name": "??1GAUndoInfo@@UEAA@XZ",
+    "address": "0x6250",
+    "ordinal": 382
+  },
+  {
+    "name": "??1GAUndoLock@@QEAA@XZ",
+    "address": "0x5ee0",
+    "ordinal": 383
+  },
+  {
+    "name": "??1GAUndoManager@@QEAA@XZ",
+    "address": "0x66530",
+    "ordinal": 384
+  },
+  {
+    "name": "??1GAUndoObjectCreate@@UEAA@XZ",
+    "address": "0x65a90",
+    "ordinal": 385
+  },
+  {
+    "name": "??1GAUndoStringHex@@UEAA@XZ",
+    "address": "0x65a90",
+    "ordinal": 386
+  },
+  {
+    "name": "??1GAUnknownFilter@@QEAA@XZ",
+    "address": "0x4410",
+    "ordinal": 387
+  },
+  {
+    "name": "??1GAVFindMatchingObjects@@UEAA@XZ",
+    "address": "0x686e0",
+    "ordinal": 388
+  },
+  {
+    "name": "??1GAVFindPathToObject@@UEAA@XZ",
+    "address": "0x68ad0",
+    "ordinal": 389
+  },
+  {
+    "name": "??1GAVFindPathToObjects@@UEAA@XZ",
+    "address": "0x692b0",
+    "ordinal": 390
+  },
+  {
+    "name": "??1GAVFixObjectCompressionForOldAcrobats@@UEAA@XZ",
+    "address": "0x6f3b0",
+    "ordinal": 391
+  },
+  {
+    "name": "??1GAVGetPDFPathExpressions@@UEAA@XZ",
+    "address": "0x43490",
+    "ordinal": 392
+  },
+  {
+    "name": "??1GAVisitor@@UEAA@XZ",
+    "address": "0x6a130",
+    "ordinal": 393
+  },
+  {
+    "name": "??1GAVisitorBlock@@UEAA@XZ",
+    "address": "0x6a2b0",
+    "ordinal": 394
+  },
+  {
+    "name": "??1GAXRef@@UEAA@XZ",
+    "address": "0x6b910",
+    "ordinal": 395
+  },
+  {
+    "name": "??1GAXRefOriginal@@UEAA@XZ",
+    "address": "0x6b920",
+    "ordinal": 396
+  },
+  {
+    "name": "??1ObjectFormatWarning@GAObjectFormatChecker@@QEAA@XZ",
+    "address": "0x2c530",
+    "ordinal": 397
+  },
+  {
+    "name": "??4?$GDictKeyTraits@V?$GPair@VGAObject@@V1@@@@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 398
+  },
+  {
+    "name": "??4?$GDictKeyTraits@V?$GPair@VGAObject@@V1@@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 399
+  },
+  {
+    "name": "??4?$GReceiver@VGADoc@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 400
+  },
+  {
+    "name": "??4?$GReceiver@VGADocDeletePagesMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 401
+  },
+  {
+    "name": "??4?$GReceiver@VGADocDidChangePagesMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 402
+  },
+  {
+    "name": "??4?$GReceiver@VGADocDidSaveMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 403
+  },
+  {
+    "name": "??4?$GReceiver@VGADocDigSignatureMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 404
+  },
+  {
+    "name": "??4?$GReceiver@VGADocInsertPagesMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 405
+  },
+  {
+    "name": "??4?$GReceiver@VGADocMovePagesMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 406
+  },
+  {
+    "name": "??4?$GReceiver@VGADocReplacePagesMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 407
+  },
+  {
+    "name": "??4?$GReceiver@VGADocWillSaveMessage@@@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6260",
+    "ordinal": 408
+  },
+  {
+    "name": "??4GAASCII85Filter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 409
+  },
+  {
+    "name": "??4GAASCIIHexFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 410
+  },
+  {
+    "name": "??4GAArray@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 411
+  },
+  {
+    "name": "??4GABool@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 412
+  },
+  {
+    "name": "??4GACCITTFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 413
+  },
+  {
+    "name": "??4GACachingHashingStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xaa10",
+    "ordinal": 414
+  },
+  {
+    "name": "??4GACachingHashingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xaab0",
+    "ordinal": 415
+  },
+  {
+    "name": "??4GADBGPartialEquivStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xd690",
+    "ordinal": 416
+  },
+  {
+    "name": "??4GADBGPartialEquivStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xd710",
+    "ordinal": 417
+  },
+  {
+    "name": "??4GADCTFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 418
+  },
+  {
+    "name": "??4GADeepProcessingStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xf5f0",
+    "ordinal": 419
+  },
+  {
+    "name": "??4GADeepProcessingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xf5f0",
+    "ordinal": 420
+  },
+  {
+    "name": "??4GADefaultEquivStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xd780",
+    "ordinal": 421
+  },
+  {
+    "name": "??4GADefaultEquivStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xd870",
+    "ordinal": 422
+  },
+  {
+    "name": "??4GADefaultExHandler@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x11460",
+    "ordinal": 423
+  },
+  {
+    "name": "??4GADefaultExHandler@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x11460",
+    "ordinal": 424
+  },
+  {
+    "name": "??4GADelayedVisitInfo@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x62c0",
+    "ordinal": 425
+  },
+  {
+    "name": "??4GADelayedVisitInfo@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x62c0",
+    "ordinal": 426
+  },
+  {
+    "name": "??4GADict@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 427
+  },
+  {
+    "name": "??4GADoc@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 428
+  },
+  {
+    "name": "??4GADocDeletePagesMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x13930",
+    "ordinal": 429
+  },
+  {
+    "name": "??4GADocDeletePagesMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x13930",
+    "ordinal": 430
+  },
+  {
+    "name": "??4GADocDidChangePagesMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x13ec0",
+    "ordinal": 431
+  },
+  {
+    "name": "??4GADocDidChangePagesMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x13ec0",
+    "ordinal": 432
+  },
+  {
+    "name": "??4GADocDidSaveMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x2a760",
+    "ordinal": 433
+  },
+  {
+    "name": "??4GADocDidSaveMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x2a760",
+    "ordinal": 434
+  },
+  {
+    "name": "??4GADocDigSignatureMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x22ca0",
+    "ordinal": 435
+  },
+  {
+    "name": "??4GADocDigSignatureMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x22ca0",
+    "ordinal": 436
+  },
+  {
+    "name": "??4GADocEncryptionParams@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x6360",
+    "ordinal": 437
+  },
+  {
+    "name": "??4GADocEncryptionParams@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6380",
+    "ordinal": 438
+  },
+  {
+    "name": "??4GADocInsertPagesMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x19690",
+    "ordinal": 439
+  },
+  {
+    "name": "??4GADocInsertPagesMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x19690",
+    "ordinal": 440
+  },
+  {
+    "name": "??4GADocMovePagesMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x13930",
+    "ordinal": 441
+  },
+  {
+    "name": "??4GADocMovePagesMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x13930",
+    "ordinal": 442
+  },
+  {
+    "name": "??4GADocParams@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x6390",
+    "ordinal": 443
+  },
+  {
+    "name": "??4GADocParams@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63c0",
+    "ordinal": 444
+  },
+  {
+    "name": "??4GADocReplacePagesMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x1a150",
+    "ordinal": 445
+  },
+  {
+    "name": "??4GADocReplacePagesMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x1a150",
+    "ordinal": 446
+  },
+  {
+    "name": "??4GADocSaveParams@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x1a6b0",
+    "ordinal": 447
+  },
+  {
+    "name": "??4GADocWillSaveMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x22d30",
+    "ordinal": 448
+  },
+  {
+    "name": "??4GADocWillSaveMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x22d30",
+    "ordinal": 449
+  },
+  {
+    "name": "??4GAEncryption@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x1c710",
+    "ordinal": 450
+  },
+  {
+    "name": "??4GAEncryption@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x1c830",
+    "ordinal": 451
+  },
+  {
+    "name": "??4GAEquivalenceStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 452
+  },
+  {
+    "name": "??4GAExLowLevel@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 453
+  },
+  {
+    "name": "??4GAExLowLevel@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 454
+  },
+  {
+    "name": "??4GAExWrongObjectType@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 455
+  },
+  {
+    "name": "??4GAExWrongObjectType@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 456
+  },
+  {
+    "name": "??4GAException@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 457
+  },
+  {
+    "name": "??4GAException@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 458
+  },
+  {
+    "name": "??4GAExceptionHandler@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 459
+  },
+  {
+    "name": "??4GAFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 460
+  },
+  {
+    "name": "??4GAFilterRules@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x143f0",
+    "ordinal": 461
+  },
+  {
+    "name": "??4GAFilterRules@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x14410",
+    "ordinal": 462
+  },
+  {
+    "name": "??4GAFlateFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 463
+  },
+  {
+    "name": "??4GAHashingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6400",
+    "ordinal": 464
+  },
+  {
+    "name": "??4GAImplementationLimits@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 465
+  },
+  {
+    "name": "??4GAImplementationLimits@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 466
+  },
+  {
+    "name": "??4GAJBIG2Filter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 467
+  },
+  {
+    "name": "??4GAJPXDecodeStream@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x26220",
+    "ordinal": 468
+  },
+  {
+    "name": "??4GAJPXDecodeStream@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x26240",
+    "ordinal": 469
+  },
+  {
+    "name": "??4GAJPXFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 470
+  },
+  {
+    "name": "??4GALZWFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 471
+  },
+  {
+    "name": "??4GAName@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 472
+  },
+  {
+    "name": "??4GANativeParser@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x36d70",
+    "ordinal": 473
+  },
+  {
+    "name": "??4GANativeParser@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63c0",
+    "ordinal": 474
+  },
+  {
+    "name": "??4GANull@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 475
+  },
+  {
+    "name": "??4GANumber@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 476
+  },
+  {
+    "name": "??4GAOCContextDidChangeMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x4460",
+    "ordinal": 477
+  },
+  {
+    "name": "??4GAOCContextDidChangeMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 478
+  },
+  {
+    "name": "??4GAOCDidChangeMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x33190",
+    "ordinal": 479
+  },
+  {
+    "name": "??4GAOCDidChangeMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x33190",
+    "ordinal": 480
+  },
+  {
+    "name": "??4GAOCWillChangeMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x33190",
+    "ordinal": 481
+  },
+  {
+    "name": "??4GAOCWillChangeMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x33190",
+    "ordinal": 482
+  },
+  {
+    "name": "??4GAObject@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 483
+  },
+  {
+    "name": "??4GAObjectCache@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xa5b0",
+    "ordinal": 484
+  },
+  {
+    "name": "??4GAObjectID@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x6410",
+    "ordinal": 485
+  },
+  {
+    "name": "??4GAObjectID@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6460",
+    "ordinal": 486
+  },
+  {
+    "name": "??4GAObjectPair@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xd980",
+    "ordinal": 487
+  },
+  {
+    "name": "??4GAObjectProxy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x2f1b0",
+    "ordinal": 488
+  },
+  {
+    "name": "??4GAObjectSupport@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 489
+  },
+  {
+    "name": "??4GAObjectSupport@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 490
+  },
+  {
+    "name": "??4GAPDFAccessLayer@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 491
+  },
+  {
+    "name": "??4GAPDFAccessLayer@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 492
+  },
+  {
+    "name": "??4GAPDFFile@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6400",
+    "ordinal": 493
+  },
+  {
+    "name": "??4GAPDFPathComponent@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x3d3c0",
+    "ordinal": 494
+  },
+  {
+    "name": "??4GAPDFPathExpression@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x172f0",
+    "ordinal": 495
+  },
+  {
+    "name": "??4GAPageAddAnnotMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x33190",
+    "ordinal": 496
+  },
+  {
+    "name": "??4GAPageAddAnnotMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x33190",
+    "ordinal": 497
+  },
+  {
+    "name": "??4GAPageRemoveAnnotMessage@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x33300",
+    "ordinal": 498
+  },
+  {
+    "name": "??4GAPageRemoveAnnotMessage@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x33300",
+    "ordinal": 499
+  },
+  {
+    "name": "??4GAPartialEquivalenceStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xd9f0",
+    "ordinal": 500
+  },
+  {
+    "name": "??4GAPartialEquivalenceStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xda30",
+    "ordinal": 501
+  },
+  {
+    "name": "??4GAPartialMatchStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 502
+  },
+  {
+    "name": "??4GAPartialMatchStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 503
+  },
+  {
+    "name": "??4GAPathExpressionProcessingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x35060",
+    "ordinal": 504
+  },
+  {
+    "name": "??4GAPersistentObject@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 505
+  },
+  {
+    "name": "??4GAPersistentObject@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 506
+  },
+  {
+    "name": "??4GAProcessingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6470",
+    "ordinal": 507
+  },
+  {
+    "name": "??4GARunLengthFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 508
+  },
+  {
+    "name": "??4GAScratchDoc@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 509
+  },
+  {
+    "name": "??4GAShallowProcessingStrategy@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0xf5f0",
+    "ordinal": 510
+  },
+  {
+    "name": "??4GAShallowProcessingStrategy@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0xf5f0",
+    "ordinal": 511
+  },
+  {
+    "name": "??4GASignals@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 512
+  },
+  {
+    "name": "??4GASignals@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 513
+  },
+  {
+    "name": "??4GASimpleException@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 514
+  },
+  {
+    "name": "??4GASimpleException@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x63e0",
+    "ordinal": 515
+  },
+  {
+    "name": "??4GAStream@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 516
+  },
+  {
+    "name": "??4GAString@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4460",
+    "ordinal": 517
+  },
+  {
+    "name": "??4GAUnknownFilter@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x4440",
+    "ordinal": 518
+  },
+  {
+    "name": "??4GAVFindMatchingObjects@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x68760",
+    "ordinal": 519
+  },
+  {
+    "name": "??4GAVFindMatchingObjects@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x687f0",
+    "ordinal": 520
+  },
+  {
+    "name": "??4GAVFindPathToObject@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x68b60",
+    "ordinal": 521
+  },
+  {
+    "name": "??4GAVFixObjectCompressionForOldAcrobats@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x6f3d0",
+    "ordinal": 522
+  },
+  {
+    "name": "??4GAVFixObjectCompressionForOldAcrobats@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6f450",
+    "ordinal": 523
+  },
+  {
+    "name": "??4GAVisitor@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 524
+  },
+  {
+    "name": "??4GAXRef@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x44a0",
+    "ordinal": 525
+  },
+  {
+    "name": "??4GAXRefEntry@@QEAAAEAV0@$$QEAV0@@Z",
+    "address": "0x6b9b0",
+    "ordinal": 526
+  },
+  {
+    "name": "??4GAXRefEntry@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x14410",
+    "ordinal": 527
+  },
+  {
+    "name": "??4GAXRefOriginal@@QEAAAEAV0@AEBV0@@Z",
+    "address": "0x6ba20",
+    "ordinal": 528
+  },
+  {
+    "name": "??4ObjectFormatWarning@GAObjectFormatChecker@@QEAAAEAV01@$$QEAV01@@Z",
+    "address": "0x2c590",
+    "ordinal": 529
+  },
+  {
+    "name": "??4ObjectFormatWarning@GAObjectFormatChecker@@QEAAAEAV01@AEBV01@@Z",
+    "address": "0x2c600",
+    "ordinal": 530
+  },
+  {
+    "name": "??8GAName@@QEBA_NAEBVGBuffer@@@Z",
+    "address": "0x275e0",
+    "ordinal": 531
+  },
+  {
+    "name": "??8GAName@@QEBA_NPEBD@Z",
+    "address": "0x27610",
+    "ordinal": 532
+  },
+  {
+    "name": "??8GAObjectPair@@QEBA_NAEBV0@@Z",
+    "address": "0xda70",
+    "ordinal": 533
+  },
+  {
+    "name": "??8GAPDFPathComponent@@QEBA_NAEBV0@@Z",
+    "address": "0x3d4b0",
+    "ordinal": 534
+  },
+  {
+    "name": "??8GAPDFPathExpression@@QEBA_NAEBV0@@Z",
+    "address": "0x173b0",
+    "ordinal": 535
+  },
+  {
+    "name": "??BGAHashingNextLevel@@QEBA_NXZ",
+    "address": "0x6510",
+    "ordinal": 536
+  },
+  {
+    "name": "??BGAObjectProxy@@QEBA?BVGAObject@@XZ",
+    "address": "0x2f260",
+    "ordinal": 537
+  },
+  {
+    "name": "??_7?$GReceiver@VGADoc@@@@6B@",
+    "address": "0x235470",
+    "ordinal": 538
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocDeletePagesMessage@@@@6B@",
+    "address": "0x235c98",
+    "ordinal": 539
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocDidChangePagesMessage@@@@6B@",
+    "address": "0x235cd8",
+    "ordinal": 540
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocDidSaveMessage@@@@6B@",
+    "address": "0x237248",
+    "ordinal": 541
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocDigSignatureMessage@@@@6B@",
+    "address": "0x236c38",
+    "ordinal": 542
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocInsertPagesMessage@@@@6B@",
+    "address": "0x236040",
+    "ordinal": 543
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocMovePagesMessage@@@@6B@",
+    "address": "0x236080",
+    "ordinal": 544
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocReplacePagesMessage@@@@6B@",
+    "address": "0x2360c0",
+    "ordinal": 545
+  },
+  {
+    "name": "??_7?$GReceiver@VGADocWillSaveMessage@@@@6B@",
+    "address": "0x236c60",
+    "ordinal": 546
+  },
+  {
+    "name": "??_7GAArrayIterator@@6B@",
+    "address": "0x235550",
+    "ordinal": 547
+  },
+  {
+    "name": "??_7GACachedObject@@6BGAObjectCache@@@",
+    "address": "0x235670",
+    "ordinal": 548
+  },
+  {
+    "name": "??_7GACachedObject@@6BGRefCount@@@",
+    "address": "0x235690",
+    "ordinal": 549
+  },
+  {
+    "name": "??_7GACachingHashingStrategy@@6B@",
+    "address": "0x2356a0",
+    "ordinal": 550
+  },
+  {
+    "name": "??_7GACloneKeepStrategy@@6B@",
+    "address": "0x2356b8",
+    "ordinal": 551
+  },
+  {
+    "name": "??_7GACloneStrategy@@6B@",
+    "address": "0x235708",
+    "ordinal": 552
+  },
+  {
+    "name": "??_7GADBGPartialEquivStrategy@@6B@",
+    "address": "0x235900",
+    "ordinal": 553
+  },
+  {
+    "name": "??_7GADeepCloneReplaceStrategy@@6B@",
+    "address": "0x235aa0",
+    "ordinal": 554
+  },
+  {
+    "name": "??_7GADeepCloneStrategy@@6B@",
+    "address": "0x235b40",
+    "ordinal": 555
+  },
+  {
+    "name": "??_7GADeepProcessingStrategy@@6B@",
+    "address": "0x235b90",
+    "ordinal": 556
+  },
+  {
+    "name": "??_7GADefaultEquivStrategy@@6B@",
+    "address": "0x2357b0",
+    "ordinal": 557
+  },
+  {
+    "name": "??_7GADefaultExHandler@@6BGAExceptionHandler@@@",
+    "address": "0x235c48",
+    "ordinal": 558
+  },
+  {
+    "name": "??_7GADefaultExHandler@@6BGExceptionHandler@@@",
+    "address": "0x235c18",
+    "ordinal": 559
+  },
+  {
+    "name": "??_7GADocFactory@@6B@",
+    "address": "0x235e60",
+    "ordinal": 560
+  },
+  {
+    "name": "??_7GADocImp@@6B@",
+    "address": "0x2352e0",
+    "ordinal": 561
+  },
+  {
+    "name": "??_7GAEquivalenceStrategy@@6B@",
+    "address": "0x235758",
+    "ordinal": 562
+  },
+  {
+    "name": "??_7GAExLowLevel@@6B@",
+    "address": "0x235f48",
+    "ordinal": 563
+  },
+  {
+    "name": "??_7GAExWrongObjectType@@6B@",
+    "address": "0x2354c0",
+    "ordinal": 564
+  },
+  {
+    "name": "??_7GAException@@6B@",
+    "address": "0x235498",
+    "ordinal": 565
+  },
+  {
+    "name": "??_7GAExceptionHandler@@6B@",
+    "address": "0x235be0",
+    "ordinal": 566
+  },
+  {
+    "name": "??_7GAFuzzyEquivStrategy@@6B@",
+    "address": "0x236dd8",
+    "ordinal": 567
+  },
+  {
+    "name": "??_7GAHashingStrategy@@6B@",
+    "address": "0x2354e8",
+    "ordinal": 568
+  },
+  {
+    "name": "??_7GAInlineGenerator@@6B@",
+    "address": "0x23bab8",
+    "ordinal": 569
+  },
+  {
+    "name": "??_7GAJPXDecodeStream@@6B@",
+    "address": "0x237058",
+    "ordinal": 570
+  },
+  {
+    "name": "??_7GANumberTree@@6B@",
+    "address": "0x237220",
+    "ordinal": 571
+  },
+  {
+    "name": "??_7GAObjectCache@@6B@",
+    "address": "0x237230",
+    "ordinal": 572
+  },
+  {
+    "name": "??_7GAObjectFactory@@6B@",
+    "address": "0x2372e8",
+    "ordinal": 573
+  },
+  {
+    "name": "??_7GAObjectImp@@6B@",
+    "address": "0x2350a8",
+    "ordinal": 574
+  },
+  {
+    "name": "??_7GAPDFFile@@6B@",
+    "address": "0x2373d8",
+    "ordinal": 575
+  },
+  {
+    "name": "??_7GAPartialCloneStrategy@@6B@",
+    "address": "0x2374f0",
+    "ordinal": 576
+  },
+  {
+    "name": "??_7GAPartialEquivalenceStrategy@@6B@",
+    "address": "0x235850",
+    "ordinal": 577
+  },
+  {
+    "name": "??_7GAPartialMatchStrategy@@6B@",
+    "address": "0x237550",
+    "ordinal": 578
+  },
+  {
+    "name": "??_7GAPartialProcessingStrategy@@6B@",
+    "address": "0x2375b0",
+    "ordinal": 579
+  },
+  {
+    "name": "??_7GAPathExpressionProcessingStrategy@@6B@",
+    "address": "0x237608",
+    "ordinal": 580
+  },
+  {
+    "name": "??_7GAProcessingStrategy@@6B@",
+    "address": "0x235500",
+    "ordinal": 581
+  },
+  {
+    "name": "??_7GAShallowCloneReplaceStrategy@@6B@",
+    "address": "0x23adf0",
+    "ordinal": 582
+  },
+  {
+    "name": "??_7GAShallowCloneStrategy@@6B@",
+    "address": "0x235af0",
+    "ordinal": 583
+  },
+  {
+    "name": "??_7GAShallowProcessingStrategy@@6B@",
+    "address": "0x23ae40",
+    "ordinal": 584
+  },
+  {
+    "name": "??_7GASimpleException@@6B@",
+    "address": "0x235fe8",
+    "ordinal": 585
+  },
+  {
+    "name": "??_7GAUndoArrayInsert@@6B@",
+    "address": "0x23aea8",
+    "ordinal": 586
+  },
+  {
+    "name": "??_7GAUndoArrayPut@@6B@",
+    "address": "0x23aec8",
+    "ordinal": 587
+  },
+  {
+    "name": "??_7GAUndoArrayRemove@@6B@",
+    "address": "0x23aee8",
+    "ordinal": 588
+  },
+  {
+    "name": "??_7GAUndoDictPut@@6B@",
+    "address": "0x23af08",
+    "ordinal": 589
+  },
+  {
+    "name": "??_7GAUndoDictRemove@@6B@",
+    "address": "0x23af28",
+    "ordinal": 590
+  },
+  {
+    "name": "??_7GAUndoInfo@@6B@",
+    "address": "0x2352c0",
+    "ordinal": 591
+  },
+  {
+    "name": "??_7GAUndoObjectCreate@@6B@",
+    "address": "0x23af90",
+    "ordinal": 592
+  },
+  {
+    "name": "??_7GAUndoStringHex@@6B@",
+    "address": "0x23afd0",
+    "ordinal": 593
+  },
+  {
+    "name": "??_7GAVFindMatchingObjects@@6B@",
+    "address": "0x23b088",
+    "ordinal": 594
+  },
+  {
+    "name": "??_7GAVFindPathToObject@@6B@",
+    "address": "0x23b118",
+    "ordinal": 595
+  },
+  {
+    "name": "??_7GAVFindPathToObjects@@6B@",
+    "address": "0x23b1d8",
+    "ordinal": 596
+  },
+  {
+    "name": "??_7GAVFixObjectCompressionForOldAcrobats@@6B@",
+    "address": "0x23b580",
+    "ordinal": 597
+  },
+  {
+    "name": "??_7GAVGetPDFPathExpressions@@6B@",
+    "address": "0x238550",
+    "ordinal": 598
+  },
+  {
+    "name": "??_7GAVisitor@@6B@",
+    "address": "0x23b268",
+    "ordinal": 599
+  },
+  {
+    "name": "??_7GAVisitorBlock@@6B@",
+    "address": "0x23b2f8",
+    "ordinal": 600
+  },
+  {
+    "name": "??_7GAXRef@@6B@",
+    "address": "0x23b388",
+    "ordinal": 601
+  },
+  {
+    "name": "??_7GAXRefOriginal@@6B@",
+    "address": "0x23b458",
+    "ordinal": 602
+  },
+  {
+    "name": "??_FGACCITTFilter@@QEAAXXZ",
+    "address": "0x9600",
+    "ordinal": 603
+  },
+  {
+    "name": "??_FGADBGPartialEquivStrategy@@QEAAXXZ",
+    "address": "0xdcd0",
+    "ordinal": 604
+  },
+  {
+    "name": "??_FGADocEncryptionParams@@QEAAXXZ",
+    "address": "0x6890",
+    "ordinal": 605
+  },
+  {
+    "name": "??_FGAFlateFilter@@QEAAXXZ",
+    "address": "0x144c0",
+    "ordinal": 606
+  },
+  {
+    "name": "??_FGAFuzzyEquivStrategy@@QEAAXXZ",
+    "address": "0x24460",
+    "ordinal": 607
+  },
+  {
+    "name": "??_FGALZWFilter@@QEAAXXZ",
+    "address": "0x144f0",
+    "ordinal": 608
+  },
+  {
+    "name": "??_FGAPDFDiffStrategy@@QEAAXXZ",
+    "address": "0x378f0",
+    "ordinal": 609
+  },
+  {
+    "name": "??_FGAPartialEquivalenceStrategy@@QEAAXXZ",
+    "address": "0xdd10",
+    "ordinal": 610
+  },
+  {
+    "name": "??_FGAPartialProcessingStrategy@@QEAAXXZ",
+    "address": "0x349d0",
+    "ordinal": 611
+  },
+  {
+    "name": "?AESDecryptBuffer@GAEncryption@@AEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x1cc20",
+    "ordinal": 612
+  },
+  {
+    "name": "?AESEncryptBuffer@GAEncryption@@AEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x1cc90",
+    "ordinal": 613
+  },
+  {
+    "name": "?AESV3DecryptBuffer@GAEncryption@@AEBAXAEAVGBuffer@@@Z",
+    "address": "0x1cd00",
+    "ordinal": 614
+  },
+  {
+    "name": "?AESV3EncryptBuffer@GAEncryption@@AEBAXAEAVGBuffer@@@Z",
+    "address": "0x1cd30",
+    "ordinal": 615
+  },
+  {
+    "name": "?Accept@GAObject@@QEAAXAEAVGAVisitor@@AEAVGAProcessingStrategy@@@Z",
+    "address": "0x299d0",
+    "ordinal": 616
+  },
+  {
+    "name": "?Add@GAArray@@QEAAXAEBVGAObject@@@Z",
+    "address": "0x6910",
+    "ordinal": 617
+  },
+  {
+    "name": "?AddCheckpoint@GAUndoManager@@QEAAKXZ",
+    "address": "0x66750",
+    "ordinal": 618
+  },
+  {
+    "name": "?AddCloneKey@GACloneKeepStrategy@@QEAAXAEBVGName@@@Z",
+    "address": "0xb6f0",
+    "ordinal": 619
+  },
+  {
+    "name": "?AddCloneObject@GACloneKeepStrategy@@QEAAXAEBVGAObject@@@Z",
+    "address": "0xb700",
+    "ordinal": 620
+  },
+  {
+    "name": "?AddFilter@GADocFactory@@AEBAXAEAV?$GTable@VGAFilter@@@@AEBVGBuffer@@AEBVGADict@@2@Z",
+    "address": "0x14520",
+    "ordinal": 621
+  },
+  {
+    "name": "?AddFollowKey@GAPartialProcessingStrategy@@UEAAXAEBVGName@@@Z",
+    "address": "0x349e0",
+    "ordinal": 622
+  },
+  {
+    "name": "?AddNoFollowKey@GAPartialEquivalenceStrategy@@UEAAXAEBVGName@@@Z",
+    "address": "0xe060",
+    "ordinal": 623
+  },
+  {
+    "name": "?AddNoFollowKey@GAPartialProcessingStrategy@@UEAAXAEBVGName@@@Z",
+    "address": "0x349e0",
+    "ordinal": 624
+  },
+  {
+    "name": "?AddNoFollowObject@GAPartialEquivalenceStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0xe070",
+    "ordinal": 625
+  },
+  {
+    "name": "?AddNoFollowObject@GAPartialProcessingStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0x349f0",
+    "ordinal": 626
+  },
+  {
+    "name": "?AddSkipKey@GAPartialCloneStrategy@@UEAAXAEBVGName@@@Z",
+    "address": "0x335a0",
+    "ordinal": 627
+  },
+  {
+    "name": "?AddSkipObject@GAPartialCloneStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0x335c0",
+    "ordinal": 628
+  },
+  {
+    "name": "?AddUndoInfo@GAUndoManager@@QEAAXPEAVGAUndoInfo@@@Z",
+    "address": "0x669e0",
+    "ordinal": 629
+  },
+  {
+    "name": "?AddUpdateSize@GAXRefOriginal@@QEAAX_J@Z",
+    "address": "0x6c210",
+    "ordinal": 630
+  },
+  {
+    "name": "?AddWarning@GAObjectFormatChecker@@AEAAXW4WarningType@ObjectFormatWarning@1@@Z",
+    "address": "0x2c6e0",
+    "ordinal": 631
+  },
+  {
+    "name": "?AddXRefStreamID@GAXRefOriginal@@QEAAXAEBVGAObjectID@@@Z",
+    "address": "0x6c2c0",
+    "ordinal": 632
+  },
+  {
+    "name": "?Append@GAPDFPathExpression@@QEAAXAEBVGAPDFPathComponent@@@Z",
+    "address": "0x3d7f0",
+    "ordinal": 633
+  },
+  {
+    "name": "?ApplySASLPrep@GAEncryption@@AEAA_NAEBVGBuffer@@AEAV2@_N@Z",
+    "address": "0x1cd60",
+    "ordinal": 634
+  },
+  {
+    "name": "?ArrayToMatrix@GAObjectSupport@@SAXAEBVGAArray@@AEAV?$GMatrixBase@N@@@Z",
+    "address": "0x2f460",
+    "ordinal": 635
+  },
+  {
+    "name": "?ArrayToPointPair@GAObjectSupport@@SAXAEBVGAArray@@AEAV?$GPointBase@N@@1@Z",
+    "address": "0x2f620",
+    "ordinal": 636
+  },
+  {
+    "name": "?ArrayToRect@GAObjectSupport@@SAXAEBVGAArray@@AEAV?$GRectBase@N@@@Z",
+    "address": "0x2f6a0",
+    "ordinal": 637
+  },
+  {
+    "name": "?AuthOwnerPwdAESV3@GAEncryption@@CA_NAEBVGBuffer@@00@Z",
+    "address": "0x1ce80",
+    "ordinal": 638
+  },
+  {
+    "name": "?AuthUserPwdAESV3@GAEncryption@@CA_NAEBVGBuffer@@0@Z",
+    "address": "0x1cf80",
+    "ordinal": 639
+  },
+  {
+    "name": "?Authorize@GADoc@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x125c0",
+    "ordinal": 640
+  },
+  {
+    "name": "?BufferToExpression@GAPDFPathSupport@@YAXAEBVGBuffer@@AEAVGAPDFPathExpression@@@Z",
+    "address": "0x44690",
+    "ordinal": 641
+  },
+  {
+    "name": "?CachingModeChanged@GACachedObject@@MEAAXXZ",
+    "address": "0xa6d0",
+    "ordinal": 642
+  },
+  {
+    "name": "?CanVisit@GAVFixObjectCompressionForOldAcrobats@@AEBA_NXZ",
+    "address": "0x6f570",
+    "ordinal": 643
+  },
+  {
+    "name": "?Cast@GAArray@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x6d20",
+    "ordinal": 644
+  },
+  {
+    "name": "?Cast@GABool@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x93f0",
+    "ordinal": 645
+  },
+  {
+    "name": "?Cast@GADict@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x11680",
+    "ordinal": 646
+  },
+  {
+    "name": "?Cast@GADoc@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x125f0",
+    "ordinal": 647
+  },
+  {
+    "name": "?Cast@GAName@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x27670",
+    "ordinal": 648
+  },
+  {
+    "name": "?Cast@GANull@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x27b10",
+    "ordinal": 649
+  },
+  {
+    "name": "?Cast@GANumber@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x27d00",
+    "ordinal": 650
+  },
+  {
+    "name": "?Cast@GAStream@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x65570",
+    "ordinal": 651
+  },
+  {
+    "name": "?Cast@GAString@@SA?AV1@AEBVGAObject@@@Z",
+    "address": "0x65ab0",
+    "ordinal": 652
+  },
+  {
+    "name": "?CheckChangedParams@GAEncryption@@QEBA_NAEBVGBuffer@@00000J0JJJ_NW4SupportedCF@1@2@Z",
+    "address": "0x1d060",
+    "ordinal": 653
+  },
+  {
+    "name": "?CheckChangedParams@GAEncryption@@QEBA_NAEBVGBuffer@@000JJJJ_NW4SupportedCF@1@2@Z",
+    "address": "0x1d1a0",
+    "ordinal": 654
+  },
+  {
+    "name": "?CheckEOL@GAObjectFormatChecker@@AEAA_NAEBVGBuffer@@@Z",
+    "address": "0x2c800",
+    "ordinal": 655
+  },
+  {
+    "name": "?CheckEOLBeforObjectNumber@GAObjectFormatChecker@@AEAAXXZ",
+    "address": "0x2c8a0",
+    "ordinal": 656
+  },
+  {
+    "name": "?CheckIfSupported@GAEncryption@@AEAAXAEBVGBuffer@@JJ@Z",
+    "address": "0x1d290",
+    "ordinal": 657
+  },
+  {
+    "name": "?CheckNewEncryptionAESv3@GAEncryption@@AEAA_NPEBVGADocEncryptionParams@@@Z",
+    "address": "0x1d3a0",
+    "ordinal": 658
+  },
+  {
+    "name": "?Clear@GAUndoManager@@QEAAXXZ",
+    "address": "0x66a60",
+    "ordinal": 659
+  },
+  {
+    "name": "?ClearCachesFor@GAPDFPathSupport@@YAXPEBVGAPDFPathExpression@@@Z",
+    "address": "0x447e0",
+    "ordinal": 660
+  },
+  {
+    "name": "?Clone@GAObject@@QEAAXAEAVGACloneStrategy@@AEBVGADoc@@@Z",
+    "address": "0x299f0",
+    "ordinal": 661
+  },
+  {
+    "name": "?Clone@GAObject@@QEAAXW4GAPersistenceType@GAPersistentObject@@AEBVGADoc@@@Z",
+    "address": "0x29a20",
+    "ordinal": 662
+  },
+  {
+    "name": "?CloneContentsTo@GAObjectSupport@@SAXAEBVGAArray@@AEAV2@AEAVGACloneStrategy@@@Z",
+    "address": "0x2f730",
+    "ordinal": 663
+  },
+  {
+    "name": "?CloneContentsTo@GAObjectSupport@@SAXAEBVGADict@@AEAV2@AEAVGACloneStrategy@@@Z",
+    "address": "0x2f970",
+    "ordinal": 664
+  },
+  {
+    "name": "?CloneModDateInfoFrom@GADoc@@QEAAXAEBV1@AEAVGACloneStrategy@@@Z",
+    "address": "0x12650",
+    "ordinal": 665
+  },
+  {
+    "name": "?CloneModDateInfoFrom@GADocImp@@QEAAXAEBVGADoc@@AEAVGACloneStrategy@@@Z",
+    "address": "0x176e0",
+    "ordinal": 666
+  },
+  {
+    "name": "?Close@GADoc@@QEAAXXZ",
+    "address": "0x12690",
+    "ordinal": 667
+  },
+  {
+    "name": "?Close@GAUndoManager@@QEAAXXZ",
+    "address": "0x66b40",
+    "ordinal": 668
+  },
+  {
+    "name": "?CollectInlineGarbage@GAObjectFactory@@IEAAXXZ",
+    "address": "0x2b610",
+    "ordinal": 669
+  },
+  {
+    "name": "?Comparing@GADefaultEquivStrategy@@IEAAXAEBVGAObject@@0@Z",
+    "address": "0xf880",
+    "ordinal": 670
+  },
+  {
+    "name": "?ComputeHashAESV3@GAEncryption@@CAXAEBVGBuffer@@00_NAEAV2@@Z",
+    "address": "0x1d410",
+    "ordinal": 671
+  },
+  {
+    "name": "?ComputeOandOEAESV3@GAEncryption@@CAXAEBVGBuffer@@00AEAV2@1@Z",
+    "address": "0x1d7b0",
+    "ordinal": 672
+  },
+  {
+    "name": "?ComputePermsAESV3@GAEncryption@@CAXJ_NAEBVGBuffer@@AEAV2@@Z",
+    "address": "0x1d960",
+    "ordinal": 673
+  },
+  {
+    "name": "?ComputeUandUEAESV3@GAEncryption@@CAXAEBVGBuffer@@0AEAV2@1@Z",
+    "address": "0x1db00",
+    "ordinal": 674
+  },
+  {
+    "name": "?ContentsAreEquivalent@GAEquivalenceStrategySupport@@YA_NAEAVGInStream@@0_NN1@Z",
+    "address": "0x21aa0",
+    "ordinal": 675
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GAArray@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x6d80",
+    "ordinal": 676
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GABool@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x9450",
+    "ordinal": 677
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GADict@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x116e0",
+    "ordinal": 678
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GAName@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x276d0",
+    "ordinal": 679
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GANull@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x27b70",
+    "ordinal": 680
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GANumber@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x27d60",
+    "ordinal": 681
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GAObject@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x4560",
+    "ordinal": 682
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GAStream@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x655d0",
+    "ordinal": 683
+  },
+  {
+    "name": "?ConvertDepthFirstAcceptToStack@GAString@@QEBAXAEAV?$GTable@VGADelayedVisitInfo@@@@@Z",
+    "address": "0x65b10",
+    "ordinal": 684
+  },
+  {
+    "name": "?CreateDecodedStream@GAFilter@@QEBAPEAVGInStream@@AEAV2@@Z",
+    "address": "0x124c0",
+    "ordinal": 685
+  },
+  {
+    "name": "?CreateDecodedStream@GAFilter@@QEBAPEAVGInStream@@PEAV2@@Z",
+    "address": "0x45b0",
+    "ordinal": 686
+  },
+  {
+    "name": "?CreateEncodedStream@GAFilter@@QEBAPEAVGInStream@@AEAV2@@Z",
+    "address": "0x124d0",
+    "ordinal": 687
+  },
+  {
+    "name": "?CreateEncodedStream@GAFilter@@QEBAPEAVGInStream@@PEAV2@@Z",
+    "address": "0x124e0",
+    "ordinal": 688
+  },
+  {
+    "name": "?CreateFilters@GADocFactory@@UEAAXAEBVGADict@@AEAV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x14e80",
+    "ordinal": 689
+  },
+  {
+    "name": "?CreateInfoDict@GADoc@@QEAA?AVGADict@@XZ",
+    "address": "0x126b0",
+    "ordinal": 690
+  },
+  {
+    "name": "?CreateInlineArrayImp@GAObjectFactory@@UEAAPEAVGAArrayImp@@XZ",
+    "address": "0x2b7c0",
+    "ordinal": 691
+  },
+  {
+    "name": "?CreateInlineArrayIteratorImp@GAObjectFactory@@UEAAPEAVGAArrayIteratorImp@@AEBVGAArray@@_N@Z",
+    "address": "0x2b860",
+    "ordinal": 692
+  },
+  {
+    "name": "?CreateInlineBoolImp@GAObjectFactory@@UEAAPEAVGABoolImp@@_N@Z",
+    "address": "0x2b8b0",
+    "ordinal": 693
+  },
+  {
+    "name": "?CreateInlineDictImp@GAObjectFactory@@UEAAPEAVGADictImp@@XZ",
+    "address": "0x2b960",
+    "ordinal": 694
+  },
+  {
+    "name": "?CreateInlineDictIteratorImp@GAObjectFactory@@UEAAPEAVGADictIteratorImp@@AEBVGADict@@@Z",
+    "address": "0x2ba00",
+    "ordinal": 695
+  },
+  {
+    "name": "?CreateInlineNameImp@GAObjectFactory@@UEAAPEAVGANameImp@@AEBVGBuffer@@@Z",
+    "address": "0x2ba40",
+    "ordinal": 696
+  },
+  {
+    "name": "?CreateInlineNumberImp@GAObjectFactory@@UEAAPEAVGANumberImp@@N@Z",
+    "address": "0x2baf0",
+    "ordinal": 697
+  },
+  {
+    "name": "?CreateInlineStringImp@GAObjectFactory@@UEAAPEAVGAStringImp@@AEBVGBuffer@@@Z",
+    "address": "0x2bba0",
+    "ordinal": 698
+  },
+  {
+    "name": "?CreateModifiedClone@GAObjectSupport@@SA?AVGAObject@@AEBV2@AEAV?$GDict@VGAObjectProxy@@V1@@@@Z",
+    "address": "0x2fbd0",
+    "ordinal": 699
+  },
+  {
+    "name": "?CreateNewObjectNumber@GAXRefOriginal@@UEAA?AVGAObjectID@@XZ",
+    "address": "0x6c4f0",
+    "ordinal": 700
+  },
+  {
+    "name": "?CreateObjectReadStream@GAXRefOriginal@@UEAAPEAVGInStream@@AEBVGAObjectID@@AEA_N@Z",
+    "address": "0x6c540",
+    "ordinal": 701
+  },
+  {
+    "name": "?CreateObjectWriteStream@GAXRefOriginal@@UEAAPEAVGOutStream@@AEBVGAObjectID@@@Z",
+    "address": "0x6c5b0",
+    "ordinal": 702
+  },
+  {
+    "name": "?CreateStream@GAStream@@QEBAPEAVGInStream@@_N@Z",
+    "address": "0x65710",
+    "ordinal": 703
+  },
+  {
+    "name": "?CreateStreamData@GANativeParser@@AEBAPEAVGPartialInStream@@J@Z",
+    "address": "0x950a0",
+    "ordinal": 704
+  },
+  {
+    "name": "?CreateStringImp@GAObjectFactory@@QEAAPEAVGAStringImp@@AEBVGString@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x2bc50",
+    "ordinal": 705
+  },
+  {
+    "name": "?CreateTokenizer@GAObjectFormatChecker@@AEAAXXZ",
+    "address": "0x2c9a0",
+    "ordinal": 706
+  },
+  {
+    "name": "?CreateTrailerReadStream@GAXRefOriginal@@UEAAPEAVGInStream@@XZ",
+    "address": "0x6c5e0",
+    "ordinal": 707
+  },
+  {
+    "name": "?DecryptBuffer@GAEncryption@@QEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x1dc80",
+    "ordinal": 708
+  },
+  {
+    "name": "?DecryptData@GADoc@@QEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x126e0",
+    "ordinal": 709
+  },
+  {
+    "name": "?DecryptKeyAESV3@GAEncryption@@CAXAEBVGBuffer@@0AEAV2@@Z",
+    "address": "0x1ddb0",
+    "ordinal": 710
+  },
+  {
+    "name": "?DecryptPermsAESV3@GAEncryption@@CAXAEBVGBuffer@@0AEAV2@@Z",
+    "address": "0x1dea0",
+    "ordinal": 711
+  },
+  {
+    "name": "?DelayedUpdateLastModified@GADoc@@QEAAXAEBVGADict@@AEBVGName@@@Z",
+    "address": "0x12730",
+    "ordinal": 712
+  },
+  {
+    "name": "?DelayedUpdateLastModified@GADocImp@@QEAAXAEBVGADict@@AEBVGName@@@Z",
+    "address": "0x17c40",
+    "ordinal": 713
+  },
+  {
+    "name": "?DeleteObject@GAXRefOriginal@@UEAA_NAEBVGAObjectID@@@Z",
+    "address": "0x6c630",
+    "ordinal": 714
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGAArray@@0@Z",
+    "address": "0x37b00",
+    "ordinal": 715
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGABool@@0@Z",
+    "address": "0x37eb0",
+    "ordinal": 716
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGADict@@0@Z",
+    "address": "0x38010",
+    "ordinal": 717
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGAName@@0@Z",
+    "address": "0x39400",
+    "ordinal": 718
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGANumber@@0@Z",
+    "address": "0x39700",
+    "ordinal": 719
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGAObject@@0@Z",
+    "address": "0x39a40",
+    "ordinal": 720
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGAStream@@0@Z",
+    "address": "0x3a110",
+    "ordinal": 721
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@AEAA_NAEBVGAString@@0@Z",
+    "address": "0x3aed0",
+    "ordinal": 722
+  },
+  {
+    "name": "?Diff@GAPDFDiffStrategy@@QEAA_NAEBVGADoc@@0@Z",
+    "address": "0x3b1d0",
+    "ordinal": 723
+  },
+  {
+    "name": "?EncryptBuffer@GAEncryption@@QEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x1df40",
+    "ordinal": 724
+  },
+  {
+    "name": "?EncryptData@GADoc@@QEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x12770",
+    "ordinal": 725
+  },
+  {
+    "name": "?EncryptK1AESV3@GAEncryption@@CAXAEBVGBuffer@@00AEAV2@@Z",
+    "address": "0x1e070",
+    "ordinal": 726
+  },
+  {
+    "name": "?EncryptKeyAESV3@GAEncryption@@CAXAEBVGBuffer@@0AEAV2@@Z",
+    "address": "0x1e170",
+    "ordinal": 727
+  },
+  {
+    "name": "?EncryptPermsAESV3@GAEncryption@@CAXAEBVGBuffer@@0AEAV2@@Z",
+    "address": "0x1e2b0",
+    "ordinal": 728
+  },
+  {
+    "name": "?EndFollowArrayIndex@GADBGPartialEquivStrategy@@UEAAXXZ",
+    "address": "0xe310",
+    "ordinal": 729
+  },
+  {
+    "name": "?EndFollowArrayIndex@GADefaultEquivStrategy@@MEAAXXZ",
+    "address": "0x6250",
+    "ordinal": 730
+  },
+  {
+    "name": "?EndFollowDictKey@GADBGPartialEquivStrategy@@UEAAXXZ",
+    "address": "0xe310",
+    "ordinal": 731
+  },
+  {
+    "name": "?EndFollowDictKey@GADefaultEquivStrategy@@MEAAXXZ",
+    "address": "0x6250",
+    "ordinal": 732
+  },
+  {
+    "name": "?EndVisit@GAInlineGenerator@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x71aa0",
+    "ordinal": 733
+  },
+  {
+    "name": "?EndVisit@GAInlineGenerator@@UEAAXAEAVGADict@@@Z",
+    "address": "0x71ac0",
+    "ordinal": 734
+  },
+  {
+    "name": "?EndVisit@GAVFindPathToObject@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x68c80",
+    "ordinal": 735
+  },
+  {
+    "name": "?EndVisit@GAVFindPathToObject@@EEAAXAEAVGADict@@@Z",
+    "address": "0x68c80",
+    "ordinal": 736
+  },
+  {
+    "name": "?EndVisit@GAVFindPathToObjects@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x69720",
+    "ordinal": 737
+  },
+  {
+    "name": "?EndVisit@GAVFindPathToObjects@@EEAAXAEAVGADict@@@Z",
+    "address": "0x69720",
+    "ordinal": 738
+  },
+  {
+    "name": "?EndVisit@GAVFixObjectCompressionForOldAcrobats@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6f5d0",
+    "ordinal": 739
+  },
+  {
+    "name": "?EndVisit@GAVGetPDFPathExpressions@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x6fbf0",
+    "ordinal": 740
+  },
+  {
+    "name": "?EndVisit@GAVGetPDFPathExpressions@@EEAAXAEAVGADict@@@Z",
+    "address": "0x6fbf0",
+    "ordinal": 741
+  },
+  {
+    "name": "?EndVisit@GAVisitor@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x6250",
+    "ordinal": 742
+  },
+  {
+    "name": "?EndVisit@GAVisitor@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6250",
+    "ordinal": 743
+  },
+  {
+    "name": "?EndVisit@GAVisitor@@UEAAXAEAVGADoc@@@Z",
+    "address": "0x6250",
+    "ordinal": 744
+  },
+  {
+    "name": "?EndVisit@GAVisitor@@UEAAXAEAVGAStream@@@Z",
+    "address": "0x6250",
+    "ordinal": 745
+  },
+  {
+    "name": "?EndVisit@GAVisitorBlock@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x6a370",
+    "ordinal": 746
+  },
+  {
+    "name": "?EndVisit@GAVisitorBlock@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6a3e0",
+    "ordinal": 747
+  },
+  {
+    "name": "?EndVisit@GAVisitorBlock@@UEAAXAEAVGADoc@@@Z",
+    "address": "0x6a450",
+    "ordinal": 748
+  },
+  {
+    "name": "?EndVisit@GAVisitorBlock@@UEAAXAEAVGAStream@@@Z",
+    "address": "0x6a4c0",
+    "ordinal": 749
+  },
+  {
+    "name": "?EnsureArrayInDictionary@GAObjectSupport@@SA?AVGAArray@@AEAVGADict@@AEBVGName@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x2fc30",
+    "ordinal": 750
+  },
+  {
+    "name": "?EnsureDictionaryInDictionary@GAObjectSupport@@SA?AVGADict@@AEAV2@AEBVGName@@W4GAPersistenceType@GAPersistentObject@@@Z",
+    "address": "0x2fd90",
+    "ordinal": 751
+  },
+  {
+    "name": "?EnsureInfoDictHasModDate@GADocImp@@AEAA_NXZ",
+    "address": "0x17c50",
+    "ordinal": 752
+  },
+  {
+    "name": "?ExpressionToBuffer@GAPDFPathSupport@@YAXAEBVGAPDFPathExpression@@AEAVGBuffer@@@Z",
+    "address": "0x45d60",
+    "ordinal": 753
+  },
+  {
+    "name": "?ExtractCryptFilters@GAEncryption@@SAXAEBVGADict@@AEAW4SupportedCF@1@1@Z",
+    "address": "0x1e340",
+    "ordinal": 754
+  },
+  {
+    "name": "?ExtractKeyLength@GAEncryption@@SAJAEBVGADict@@J@Z",
+    "address": "0x1e820",
+    "ordinal": 755
+  },
+  {
+    "name": "?FileSpecToPathName@GAObjectSupport@@SA_NAEBVGAObject@@AEBVGPathName@@AEAV3@@Z",
+    "address": "0x2fef0",
+    "ordinal": 756
+  },
+  {
+    "name": "?FillBuffer@GANativeParser@@AEAAJPEADJ@Z",
+    "address": "0x95120",
+    "ordinal": 757
+  },
+  {
+    "name": "?Finalize@GAPDFAccessLayer@@SAXXZ",
+    "address": "0x36dd0",
+    "ordinal": 758
+  },
+  {
+    "name": "?Finalize@GAScratchDoc@@SAXXZ",
+    "address": "0x64ba0",
+    "ordinal": 759
+  },
+  {
+    "name": "?FinalizeSingletons@GAPDFAccessLayer@@CAXXZ",
+    "address": "0x36e50",
+    "ordinal": 760
+  },
+  {
+    "name": "?FindEquivalentKeysInDict@GAPDFDiffStrategy@@AEAA?AV?$set@VGName@@U?$less@VGName@@@std@@V?$allocator@VGName@@@3@@std@@AEBVGADict@@AEBVGAObject@@AEBV23@@Z",
+    "address": "0x3b380",
+    "ordinal": 761
+  },
+  {
+    "name": "?FollowArrayIndex@GADBGPartialEquivStrategy@@UEAAXJ@Z",
+    "address": "0xe3b0",
+    "ordinal": 762
+  },
+  {
+    "name": "?FollowArrayIndex@GADefaultEquivStrategy@@MEAAXJ@Z",
+    "address": "0x6250",
+    "ordinal": 763
+  },
+  {
+    "name": "?FollowDictKey@GADBGPartialEquivStrategy@@UEAAXAEBVGName@@@Z",
+    "address": "0xe530",
+    "ordinal": 764
+  },
+  {
+    "name": "?FollowDictKey@GADefaultEquivStrategy@@MEAAXAEBVGName@@@Z",
+    "address": "0x6250",
+    "ordinal": 765
+  },
+  {
+    "name": "?GStringFromName@GAObjectSupport@@SAXAEBVGBuffer@@AEAVGString@@@Z",
+    "address": "0x301a0",
+    "ordinal": 766
+  },
+  {
+    "name": "?GenerateFileEncryptionKeyAESV3@GAEncryption@@CAXAEAVGBuffer@@@Z",
+    "address": "0x1ea10",
+    "ordinal": 767
+  },
+  {
+    "name": "?GenerateVisitPath@GAPDFDiffStrategy@@AEBA?AVGBuffer@@XZ",
+    "address": "0x3b5d0",
+    "ordinal": 768
+  },
+  {
+    "name": "?Get@GAArray@@QEBA?AVGAObject@@J@Z",
+    "address": "0x72f0",
+    "ordinal": 769
+  },
+  {
+    "name": "?Get@GABool@@QEBA_NXZ",
+    "address": "0x94b0",
+    "ordinal": 770
+  },
+  {
+    "name": "?Get@GADict@@QEBA?AVGAObject@@AEBVGName@@@Z",
+    "address": "0x117f0",
+    "ordinal": 771
+  },
+  {
+    "name": "?Get@GAName@@QEBAXAEAVGBuffer@@@Z",
+    "address": "0x27730",
+    "ordinal": 772
+  },
+  {
+    "name": "?Get@GANumber@@QEBANXZ",
+    "address": "0x27dc0",
+    "ordinal": 773
+  },
+  {
+    "name": "?Get@GANumberTree@@QEBA_NJAEAVGAObject@@@Z",
+    "address": "0x288e0",
+    "ordinal": 774
+  },
+  {
+    "name": "?Get@GAStream@@QEBAXAEAVGBuffer@@@Z",
+    "address": "0x65740",
+    "ordinal": 775
+  },
+  {
+    "name": "?Get@GAString@@QEBAXAEAVGBuffer@@@Z",
+    "address": "0x65b70",
+    "ordinal": 776
+  },
+  {
+    "name": "?Get@GAString@@QEBAXAEAVGString@@@Z",
+    "address": "0x65ba0",
+    "ordinal": 777
+  },
+  {
+    "name": "?GetAESDecryptStream@GAEncryption@@AEBAPEAVGInStream@@PEAV2@JJ@Z",
+    "address": "0x1ece0",
+    "ordinal": 778
+  },
+  {
+    "name": "?GetAESEncryptStream@GAEncryption@@AEBAPEAVGInStream@@PEAV2@JJ@Z",
+    "address": "0x1ede0",
+    "ordinal": 779
+  },
+  {
+    "name": "?GetAESV3DecryptStream@GAEncryption@@AEBAPEAVGInStream@@PEAV2@@Z",
+    "address": "0x1eed0",
+    "ordinal": 780
+  },
+  {
+    "name": "?GetAESV3EncryptStream@GAEncryption@@AEBAPEAVGInStream@@PEAV2@@Z",
+    "address": "0x1ef90",
+    "ordinal": 781
+  },
+  {
+    "name": "?GetAction@GADelayedVisitInfo@@QEBA?AW4Action@1@XZ",
+    "address": "0x7330",
+    "ordinal": 782
+  },
+  {
+    "name": "?GetAlign@GACCITTFilter@@QEBA_NXZ",
+    "address": "0x9660",
+    "ordinal": 783
+  },
+  {
+    "name": "?GetAllObjectStreamIDs@GAXRefOriginal@@UEBAXAEAV?$GTable@VGAObjectID@@@@@Z",
+    "address": "0x6c880",
+    "ordinal": 784
+  },
+  {
+    "name": "?GetAllXRefStreamIDs@GAXRefOriginal@@UEBAXAEAV?$GTable@VGAObjectID@@@@@Z",
+    "address": "0x6c960",
+    "ordinal": 785
+  },
+  {
+    "name": "?GetArray@GAArray@@QEBA?AV1@J@Z",
+    "address": "0x7340",
+    "ordinal": 786
+  },
+  {
+    "name": "?GetArray@GADict@@QEBA?AVGAArray@@AEBVGName@@@Z",
+    "address": "0x11830",
+    "ordinal": 787
+  },
+  {
+    "name": "?GetArrayImp@GAObjectImp@@UEAAPEAVGAArrayImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 788
+  },
+  {
+    "name": "?GetBitsPerComponent@GAFlateFilter@@QEBAJXZ",
+    "address": "0x235f0",
+    "ordinal": 789
+  },
+  {
+    "name": "?GetBitsPerComponent@GALZWFilter@@QEBAJXZ",
+    "address": "0x26bf0",
+    "ordinal": 790
+  },
+  {
+    "name": "?GetBlackIs1@GACCITTFilter@@QEBA_NXZ",
+    "address": "0x9680",
+    "ordinal": 791
+  },
+  {
+    "name": "?GetBool@GAArray@@QEBA?AVGABool@@J@Z",
+    "address": "0x73e0",
+    "ordinal": 792
+  },
+  {
+    "name": "?GetBool@GADict@@QEBA?AVGABool@@AEBVGName@@@Z",
+    "address": "0x118a0",
+    "ordinal": 793
+  },
+  {
+    "name": "?GetBoolFromDict@GAObjectSupport@@SA_NAEBVGADict@@AEBVGName@@AEA_N@Z",
+    "address": "0x303b0",
+    "ordinal": 794
+  },
+  {
+    "name": "?GetBoolImp@GAObjectImp@@UEAAPEAVGABoolImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 795
+  },
+  {
+    "name": "?GetBufferFromDict@GAObjectSupport@@SA_NAEBVGADict@@AEBVGName@@AEAVGBuffer@@@Z",
+    "address": "0x30430",
+    "ordinal": 796
+  },
+  {
+    "name": "?GetBufferFromGAStreamInDict@GAObjectSupport@@SA_NAEBVGADict@@AEBVGName@@AEAVGBuffer@@@Z",
+    "address": "0x304d0",
+    "ordinal": 797
+  },
+  {
+    "name": "?GetByteOffset@GADoc@@QEBA_JAEBVGAObject@@@Z",
+    "address": "0x127c0",
+    "ordinal": 798
+  },
+  {
+    "name": "?GetByteOffset@GADoc@@QEBA_JKG@Z",
+    "address": "0x12840",
+    "ordinal": 799
+  },
+  {
+    "name": "?GetByteOffset@GADoc@@QEBA_JKGJ@Z",
+    "address": "0x12880",
+    "ordinal": 800
+  },
+  {
+    "name": "?GetByteOffset@GAXRefEntry@@QEBA_JXZ",
+    "address": "0x6c9b0",
+    "ordinal": 801
+  },
+  {
+    "name": "?GetByteOffset@GAXRefOriginal@@UEBA_JAEBVGAObjectID@@@Z",
+    "address": "0x6c9c0",
+    "ordinal": 802
+  },
+  {
+    "name": "?GetCachingMode@GAObjectCache@@IEBA_NXZ",
+    "address": "0x29fb0",
+    "ordinal": 803
+  },
+  {
+    "name": "?GetCatalog@GADoc@@QEBA?AVGADict@@XZ",
+    "address": "0x128d0",
+    "ordinal": 804
+  },
+  {
+    "name": "?GetCatalogVersion@GADoc@@QEBA_NAEAJ0@Z",
+    "address": "0x12900",
+    "ordinal": 805
+  },
+  {
+    "name": "?GetCatalogVersion@GADocImp@@QEBA_NAEAJ0@Z",
+    "address": "0x17df0",
+    "ordinal": 806
+  },
+  {
+    "name": "?GetChangePermissions@GADocEncryptionParams@@QEBA?AW4ChangePermissions@1@XZ",
+    "address": "0x14200",
+    "ordinal": 807
+  },
+  {
+    "name": "?GetClassicXRefSectionStartSeparators@GAXRefOriginal@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x6ca20",
+    "ordinal": 808
+  },
+  {
+    "name": "?GetClassicXRefSubSectionSeparatorsOK@GAXRefOriginal@@QEBA_NXZ",
+    "address": "0x6ca30",
+    "ordinal": 809
+  },
+  {
+    "name": "?GetClone@GACloneStrategy@@UEAA_NAEBVGAObject@@AEAV2@@Z",
+    "address": "0xc300",
+    "ordinal": 810
+  },
+  {
+    "name": "?GetClone@GAShallowCloneReplaceStrategy@@UEAA_NAEBVGAObject@@AEAV2@@Z",
+    "address": "0x64da0",
+    "ordinal": 811
+  },
+  {
+    "name": "?GetCloneAction@GACloneKeepStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0xba30",
+    "ordinal": 812
+  },
+  {
+    "name": "?GetCloneAction@GACloneKeepStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0xbb30",
+    "ordinal": 813
+  },
+  {
+    "name": "?GetCloneAction@GADeepCloneReplaceStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0xf330",
+    "ordinal": 814
+  },
+  {
+    "name": "?GetCloneAction@GADeepCloneReplaceStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0xf350",
+    "ordinal": 815
+  },
+  {
+    "name": "?GetCloneAction@GADeepCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0x4570",
+    "ordinal": 816
+  },
+  {
+    "name": "?GetCloneAction@GADeepCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x4570",
+    "ordinal": 817
+  },
+  {
+    "name": "?GetCloneAction@GAPartialCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0x335e0",
+    "ordinal": 818
+  },
+  {
+    "name": "?GetCloneAction@GAPartialCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x336f0",
+    "ordinal": 819
+  },
+  {
+    "name": "?GetCloneAction@GAShallowCloneReplaceStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0x64ed0",
+    "ordinal": 820
+  },
+  {
+    "name": "?GetCloneAction@GAShallowCloneReplaceStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x64f70",
+    "ordinal": 821
+  },
+  {
+    "name": "?GetCloneAction@GAShallowCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGAObject@@@Z",
+    "address": "0x48e0",
+    "ordinal": 822
+  },
+  {
+    "name": "?GetCloneAction@GAShallowCloneStrategy@@UEAA?AW4CloneAction@GACloneStrategy@@AEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x48e0",
+    "ordinal": 823
+  },
+  {
+    "name": "?GetColorTransform@GADCTFilter@@QEBA?AW4ColorTransform@GDCTEnums@@_N@Z",
+    "address": "0xe9d0",
+    "ordinal": 824
+  },
+  {
+    "name": "?GetCompareResult@GADefaultEquivStrategy@@IEBA_NAEBVGAObject@@0AEA_N@Z",
+    "address": "0xf940",
+    "ordinal": 825
+  },
+  {
+    "name": "?GetComponents@GAPDFPathExpression@@QEAAAEAV?$GTable@VGAPDFPathComponent@@@@XZ",
+    "address": "0x44a0",
+    "ordinal": 826
+  },
+  {
+    "name": "?GetComponents@GAPDFPathExpression@@QEBAAEBV?$GTable@VGAPDFPathComponent@@@@XZ",
+    "address": "0x44a0",
+    "ordinal": 827
+  },
+  {
+    "name": "?GetCompressedObject@GAXRefEntry@@QEBA_NXZ",
+    "address": "0x6ca40",
+    "ordinal": 828
+  },
+  {
+    "name": "?GetCompressedXRef@GAXRefEntry@@QEBA_NXZ",
+    "address": "0x6ca50",
+    "ordinal": 829
+  },
+  {
+    "name": "?GetConcatenatedLocation@ObjectFormatWarning@GAObjectFormatChecker@@QEBA?AVGBuffer@@XZ",
+    "address": "0x2d6a0",
+    "ordinal": 830
+  },
+  {
+    "name": "?GetCreationDate@GADoc@@QEBA_NAEAVGDateTime@@@Z",
+    "address": "0x12940",
+    "ordinal": 831
+  },
+  {
+    "name": "?GetCurrentIndex@GAArrayIterator@@QEBAJXZ",
+    "address": "0x9340",
+    "ordinal": 832
+  },
+  {
+    "name": "?GetCurrentPathDescription@GAVFindPathToObjects@@AEBA?AVGBuffer@@XZ",
+    "address": "0x69850",
+    "ordinal": 833
+  },
+  {
+    "name": "?GetDecodeParams@GAFilter@@QEBAXAEAVGADict@@@Z",
+    "address": "0x4650",
+    "ordinal": 834
+  },
+  {
+    "name": "?GetDecodedDataLength@GAObjectSupport@@SA_JAEBV?$GSizeBase@J@@JJ@Z",
+    "address": "0x30570",
+    "ordinal": 835
+  },
+  {
+    "name": "?GetDecodedStream@GADocFactory@@QEAAPEAVGInStream@@AEAV2@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x15470",
+    "ordinal": 836
+  },
+  {
+    "name": "?GetDecodedStream@GADocFactory@@QEAAPEAVGInStream@@PEAV2@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x154e0",
+    "ordinal": 837
+  },
+  {
+    "name": "?GetDecryptStream@GAEncryption@@QEBAPEAVGInStream@@PEAV2@JJ@Z",
+    "address": "0x1f050",
+    "ordinal": 838
+  },
+  {
+    "name": "?GetDict@GAArray@@QEBA?AVGADict@@J@Z",
+    "address": "0x7450",
+    "ordinal": 839
+  },
+  {
+    "name": "?GetDict@GADict@@QEBA?AV1@AEBVGName@@@Z",
+    "address": "0x11910",
+    "ordinal": 840
+  },
+  {
+    "name": "?GetDict@GAStream@@QEBA?AVGADict@@XZ",
+    "address": "0x65770",
+    "ordinal": 841
+  },
+  {
+    "name": "?GetDictImp@GAObjectImp@@UEAAPEAVGADictImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 842
+  },
+  {
+    "name": "?GetDoc@GAObject@@QEBA?AVGADoc@@XZ",
+    "address": "0x29b90",
+    "ordinal": 843
+  },
+  {
+    "name": "?GetDoc@GAObjectCache@@QEBAAEBVGADoc@@XZ",
+    "address": "0x29fc0",
+    "ordinal": 844
+  },
+  {
+    "name": "?GetDoc@GAObjectProxy@@QEBA?BVGADoc@@XZ",
+    "address": "0x74c0",
+    "ordinal": 845
+  },
+  {
+    "name": "?GetDocImp@GAObjectImp@@UEAAPEAVGADocImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 846
+  },
+  {
+    "name": "?GetDocParams@GADoc@@QEAAAEAVGADocParams@@XZ",
+    "address": "0x12a60",
+    "ordinal": 847
+  },
+  {
+    "name": "?GetDocParams@GADoc@@QEBAAEBVGADocParams@@XZ",
+    "address": "0x12a60",
+    "ordinal": 848
+  },
+  {
+    "name": "?GetDocParams@GADocImp@@QEAAAEAVGADocParams@@XZ",
+    "address": "0x17f50",
+    "ordinal": 849
+  },
+  {
+    "name": "?GetDocumentType@GADocSupport@@YA?AW4DocumentType@1@AEBVGADoc@@@Z",
+    "address": "0x1a9f0",
+    "ordinal": 850
+  },
+  {
+    "name": "?GetEarlyChange@GALZWFilter@@QEBAJXZ",
+    "address": "0x26c10",
+    "ordinal": 851
+  },
+  {
+    "name": "?GetEncodeParams@GAFilter@@QEBAXAEAVGADict@@@Z",
+    "address": "0x46e0",
+    "ordinal": 852
+  },
+  {
+    "name": "?GetEncodedStream@GADocFactory@@QEAAPEAVGInStream@@AEAV2@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x15540",
+    "ordinal": 853
+  },
+  {
+    "name": "?GetEncodedStream@GADocFactory@@QEAAPEAVGInStream@@PEAV2@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x155b0",
+    "ordinal": 854
+  },
+  {
+    "name": "?GetEncryptMetadata@GADocEncryptionParams@@QEBA?AW4EncryptMetadata@1@XZ",
+    "address": "0x9f70",
+    "ordinal": 855
+  },
+  {
+    "name": "?GetEncryptMetadata@GAEncryption@@QEBA_NXZ",
+    "address": "0x1f0e0",
+    "ordinal": 856
+  },
+  {
+    "name": "?GetEncryptStream@GAEncryption@@QEBAPEAVGInStream@@PEAV2@JJ@Z",
+    "address": "0x1f0f0",
+    "ordinal": 857
+  },
+  {
+    "name": "?GetEncryptionType@GADoc@@QEBAJXZ",
+    "address": "0x12a80",
+    "ordinal": 858
+  },
+  {
+    "name": "?GetEncryptionType@GADocEncryptionParams@@QEBA?AW4EncryptionType@1@XZ",
+    "address": "0x7330",
+    "ordinal": 859
+  },
+  {
+    "name": "?GetEncryptionValues@GAEncryption@@SAXAEBVGADict@@AEAVGBuffer@@11AEAJ222AEA_NAEAW4SupportedCF@1@4111@Z",
+    "address": "0x1f180",
+    "ordinal": 860
+  },
+  {
+    "name": "?GetEndOfBlockRequired@GACCITTFilter@@QEBA_NXZ",
+    "address": "0x96a0",
+    "ordinal": 861
+  },
+  {
+    "name": "?GetEndOfLineRequired@GACCITTFilter@@QEBA_NXZ",
+    "address": "0x96c0",
+    "ordinal": 862
+  },
+  {
+    "name": "?GetEscapedName@GAObjectSupport@@SAXAEBVGBuffer@@AEAV2@@Z",
+    "address": "0x305b0",
+    "ordinal": 863
+  },
+  {
+    "name": "?GetExtraTrailerDict@GAXRefOriginal@@UEAAAEAVGADict@@XZ",
+    "address": "0x77c0",
+    "ordinal": 864
+  },
+  {
+    "name": "?GetFile@GADoc@@QEAAAEAVGAPDFFile@@XZ",
+    "address": "0x12ab0",
+    "ordinal": 865
+  },
+  {
+    "name": "?GetFile@GAXRefOriginal@@QEAAAEAVGAPDFFile@@XZ",
+    "address": "0x6c9b0",
+    "ordinal": 866
+  },
+  {
+    "name": "?GetFileTypePtr@GADoc@@QEBAPEBVGFileType@@XZ",
+    "address": "0x12ad0",
+    "ordinal": 867
+  },
+  {
+    "name": "?GetFileUpdateSizes@GADoc@@QEBAXAEAV?$GTable@_J@@@Z",
+    "address": "0x12b00",
+    "ordinal": 868
+  },
+  {
+    "name": "?GetFileUpdateSizes@GAXRefOriginal@@UEBAAEBV?$GTable@_J@@XZ",
+    "address": "0x6cdd0",
+    "ordinal": 869
+  },
+  {
+    "name": "?GetFilter@GAEncryption@@QEBAXAEAVGBuffer@@@Z",
+    "address": "0x1f7c0",
+    "ordinal": 870
+  },
+  {
+    "name": "?GetFilters@GAStream@@QEBAXAEAV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x657a0",
+    "ordinal": 871
+  },
+  {
+    "name": "?GetFirstObject@GAXRefOriginal@@UEBA?AVGAObjectID@@XZ",
+    "address": "0x6cde0",
+    "ordinal": 872
+  },
+  {
+    "name": "?GetFreeObjectNrs@GAXRefOriginal@@UEBAXAEAV?$GTable@VGAObjectID@@@@@Z",
+    "address": "0x6cea0",
+    "ordinal": 873
+  },
+  {
+    "name": "?GetGeneralPermissions@GADocEncryptionParams@@QEBA?AW4GeneralPermissions@1@XZ",
+    "address": "0x14210",
+    "ordinal": 874
+  },
+  {
+    "name": "?GetGeneration@GAObject@@QEBAGXZ",
+    "address": "0x29bb0",
+    "ordinal": 875
+  },
+  {
+    "name": "?GetGenerationNumber@GAObjectID@@QEBAGXZ",
+    "address": "0x74f0",
+    "ordinal": 876
+  },
+  {
+    "name": "?GetGenerationNumber@GAXRefEntry@@QEBAGXZ",
+    "address": "0x6d010",
+    "ordinal": 877
+  },
+  {
+    "name": "?GetHash@?$GDictKeyTraits@V?$GPair@VGAObject@@V1@@@@@SAKAEBV?$GPair@VGAObject@@V1@@@@Z",
+    "address": "0xe540",
+    "ordinal": 878
+  },
+  {
+    "name": "?GetHash@GAArray@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x7500",
+    "ordinal": 879
+  },
+  {
+    "name": "?GetHash@GABool@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x94d0",
+    "ordinal": 880
+  },
+  {
+    "name": "?GetHash@GACachingHashingStrategy@@UEAAKAEBVGAObject@@@Z",
+    "address": "0xaeb0",
+    "ordinal": 881
+  },
+  {
+    "name": "?GetHash@GADict@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x119b0",
+    "ordinal": 882
+  },
+  {
+    "name": "?GetHash@GADoc@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x4570",
+    "ordinal": 883
+  },
+  {
+    "name": "?GetHash@GAName@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x27760",
+    "ordinal": 884
+  },
+  {
+    "name": "?GetHash@GANull@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x27bd0",
+    "ordinal": 885
+  },
+  {
+    "name": "?GetHash@GANumber@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x27de0",
+    "ordinal": 886
+  },
+  {
+    "name": "?GetHash@GAObject@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x4580",
+    "ordinal": 887
+  },
+  {
+    "name": "?GetHash@GAObjectPair@@QEBAKXZ",
+    "address": "0xe540",
+    "ordinal": 888
+  },
+  {
+    "name": "?GetHash@GAObjectProxy@@QEBAKXZ",
+    "address": "0x75e0",
+    "ordinal": 889
+  },
+  {
+    "name": "?GetHash@GAStream@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x657d0",
+    "ordinal": 890
+  },
+  {
+    "name": "?GetHash@GAString@@QEBAKAEAVGAHashingStrategy@@@Z",
+    "address": "0x65bd0",
+    "ordinal": 891
+  },
+  {
+    "name": "?GetHeaderVersion@GADoc@@QEBAXAEAJ0@Z",
+    "address": "0x12b40",
+    "ordinal": 892
+  },
+  {
+    "name": "?GetHex@GAString@@QEBA_NXZ",
+    "address": "0x65c50",
+    "ordinal": 893
+  },
+  {
+    "name": "?GetHighestGenerationNumberForID@GAXRefOriginal@@UEBAGK@Z",
+    "address": "0x6d020",
+    "ordinal": 894
+  },
+  {
+    "name": "?GetID@GAObject@@QEBAKXZ",
+    "address": "0x29bc0",
+    "ordinal": 895
+  },
+  {
+    "name": "?GetID@GAObjectProxy@@QEBA?AVGAObjectID@@XZ",
+    "address": "0x7610",
+    "ordinal": 896
+  },
+  {
+    "name": "?GetImp@GAFilter@@QEBAPEAVGAFilterImp@@XZ",
+    "address": "0x4590",
+    "ordinal": 897
+  },
+  {
+    "name": "?GetImp@GAObject@@QEBAPEAVGAObjectImp@@XZ",
+    "address": "0x4590",
+    "ordinal": 898
+  },
+  {
+    "name": "?GetInUse@GAXRefEntry@@QEBA_NXZ",
+    "address": "0x6d050",
+    "ordinal": 899
+  },
+  {
+    "name": "?GetInUseObjectNrs@GAXRefOriginal@@UEBAXAEAV?$GTable@VGAObjectID@@@@@Z",
+    "address": "0x6d060",
+    "ordinal": 900
+  },
+  {
+    "name": "?GetIndex@GAPDFPathComponent@@QEBAJXZ",
+    "address": "0x3d520",
+    "ordinal": 901
+  },
+  {
+    "name": "?GetIndexInObjectStream@GAXRefEntry@@QEBAKXZ",
+    "address": "0x6d010",
+    "ordinal": 902
+  },
+  {
+    "name": "?GetInfoDict@GADoc@@QEBA?AVGAObject@@XZ",
+    "address": "0x12b80",
+    "ordinal": 903
+  },
+  {
+    "name": "?GetInstance@GADocFactory@@SAPEAV1@XZ",
+    "address": "0x15610",
+    "ordinal": 904
+  },
+  {
+    "name": "?GetInstance@GANativeParser@@SAPEAV1@XZ",
+    "address": "0x951f0",
+    "ordinal": 905
+  },
+  {
+    "name": "?GetInstance@GAScratchDoc@@SA?AVGADoc@@XZ",
+    "address": "0x64bd0",
+    "ordinal": 906
+  },
+  {
+    "name": "?GetInt64@GANumber@@QEBA_JXZ",
+    "address": "0x27e30",
+    "ordinal": 907
+  },
+  {
+    "name": "?GetInt@GANumber@@QEBAJXZ",
+    "address": "0x27e50",
+    "ordinal": 908
+  },
+  {
+    "name": "?GetJpeg2000Quality@GAFilterRules@@QEBAXAEA_NAEAN@Z",
+    "address": "0x15620",
+    "ordinal": 909
+  },
+  {
+    "name": "?GetJpegQuality@GAFilterRules@@QEBAJXZ",
+    "address": "0x7330",
+    "ordinal": 910
+  },
+  {
+    "name": "?GetKey@GAPDFPathComponent@@QEBA?AVGName@@XZ",
+    "address": "0x3d540",
+    "ordinal": 911
+  },
+  {
+    "name": "?GetKnownNumbers@GANumberTree@@QEBAXAEAV?$GTable@J@@@Z",
+    "address": "0x28960",
+    "ordinal": 912
+  },
+  {
+    "name": "?GetLastCompared@GADefaultEquivStrategy@@QEBAXAEAVGAObject@@0@Z",
+    "address": "0xfd50",
+    "ordinal": 913
+  },
+  {
+    "name": "?GetLength@GAArray@@QEBAJXZ",
+    "address": "0x76a0",
+    "ordinal": 914
+  },
+  {
+    "name": "?GetLength@GADict@@QEBAJXZ",
+    "address": "0x11a90",
+    "ordinal": 915
+  },
+  {
+    "name": "?GetLength@GAEncryption@@QEBAJXZ",
+    "address": "0x19e90",
+    "ordinal": 916
+  },
+  {
+    "name": "?GetLocalizedString@GAFilterTypes@@YAAEBVGString@@J@Z",
+    "address": "0x23370",
+    "ordinal": 917
+  },
+  {
+    "name": "?GetLocationStack@ObjectFormatWarning@GAObjectFormatChecker@@QEBAAEBV?$GTable@VGBuffer@@@@XZ",
+    "address": "0xc820",
+    "ordinal": 918
+  },
+  {
+    "name": "?GetMatchingObjects@GAVFindMatchingObjects@@QEBAAEBV?$GTable@VGAObject@@@@XZ",
+    "address": "0x29fc0",
+    "ordinal": 919
+  },
+  {
+    "name": "?GetMaxNativeGarbageInterval@GAPDFAccessLayer@@SAJXZ",
+    "address": "0x36e80",
+    "ordinal": 920
+  },
+  {
+    "name": "?GetMaxNativeOrphansInterval@GAPDFAccessLayer@@SAJXZ",
+    "address": "0x36e90",
+    "ordinal": 921
+  },
+  {
+    "name": "?GetMethod@GACCITTFilter@@QEBAJXZ",
+    "address": "0x96e0",
+    "ordinal": 922
+  },
+  {
+    "name": "?GetModDate@GADoc@@QEBA_NAEAVGDateTime@@@Z",
+    "address": "0x12bb0",
+    "ordinal": 923
+  },
+  {
+    "name": "?GetName@GAArray@@QEBA?AVGAName@@J@Z",
+    "address": "0x76c0",
+    "ordinal": 924
+  },
+  {
+    "name": "?GetName@GADict@@QEBA?AVGAName@@AEBVGName@@@Z",
+    "address": "0x11ab0",
+    "ordinal": 925
+  },
+  {
+    "name": "?GetNameImp@GAObjectImp@@UEAAPEAVGANameImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 926
+  },
+  {
+    "name": "?GetNewCompression@GADoc@@QEBA?AW4DocCompression@GADocSaveParams@@XZ",
+    "address": "0x12cd0",
+    "ordinal": 927
+  },
+  {
+    "name": "?GetNewCompression@GADocSaveParams@@QEBA?AW4DocCompression@1@XZ",
+    "address": "0x1a780",
+    "ordinal": 928
+  },
+  {
+    "name": "?GetNewEncryptionParams@GADoc@@QEBAPEBVGADocEncryptionParams@@XZ",
+    "address": "0x12d00",
+    "ordinal": 929
+  },
+  {
+    "name": "?GetNewEncryptionParams@GADocSaveParams@@QEBAPEBVGADocEncryptionParams@@XZ",
+    "address": "0x1a790",
+    "ordinal": 930
+  },
+  {
+    "name": "?GetNewOwnerPassword@GADoc@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x12d30",
+    "ordinal": 931
+  },
+  {
+    "name": "?GetNewOwnerPassword@GADocSaveParams@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x7730",
+    "ordinal": 932
+  },
+  {
+    "name": "?GetNewUserPassword@GADoc@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x12d60",
+    "ordinal": 933
+  },
+  {
+    "name": "?GetNewUserPassword@GADocSaveParams@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x7740",
+    "ordinal": 934
+  },
+  {
+    "name": "?GetNextToken@GAObjectFormatChecker@@AEAAJAEAVGBuffer@@@Z",
+    "address": "0x2d8c0",
+    "ordinal": 935
+  },
+  {
+    "name": "?GetNextTokenNoCommentOrWhitespace@GAObjectFormatChecker@@AEAAJAEAVGBuffer@@AEAE@Z",
+    "address": "0x2d9b0",
+    "ordinal": 936
+  },
+  {
+    "name": "?GetNonTextStringPaths@GAPDFPathSupport@@YAAEBV?$GTable@V?$GPair@VGAPDFPathExpression@@V?$function@$$A6A_NAEBVGADoc@@AEBVGAPDFPathExpression@@@Z@std@@@@@@XZ",
+    "address": "0x46210",
+    "ordinal": 937
+  },
+  {
+    "name": "?GetNrColumns@GACCITTFilter@@QEBAJXZ",
+    "address": "0x9700",
+    "ordinal": 938
+  },
+  {
+    "name": "?GetNrColumns@GAFlateFilter@@QEBAJXZ",
+    "address": "0x23610",
+    "ordinal": 939
+  },
+  {
+    "name": "?GetNrColumns@GALZWFilter@@QEBAJXZ",
+    "address": "0x26c30",
+    "ordinal": 940
+  },
+  {
+    "name": "?GetNrComponents@GAFlateFilter@@QEBAJXZ",
+    "address": "0x23630",
+    "ordinal": 941
+  },
+  {
+    "name": "?GetNrComponents@GALZWFilter@@QEBAJXZ",
+    "address": "0x26c50",
+    "ordinal": 942
+  },
+  {
+    "name": "?GetNrErrors@GACCITTFilter@@QEBAJXZ",
+    "address": "0x9720",
+    "ordinal": 943
+  },
+  {
+    "name": "?GetNrRows@GACCITTFilter@@QEBAJXZ",
+    "address": "0x9740",
+    "ordinal": 944
+  },
+  {
+    "name": "?GetNullImp@GAObjectImp@@UEAAPEAVGANullImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 945
+  },
+  {
+    "name": "?GetNumComponents@GAObjectSupport@@SAJAEBVGAObject@@@Z",
+    "address": "0x30c30",
+    "ordinal": 946
+  },
+  {
+    "name": "?GetNumObjectsParsed@GANativeParser@@QEBAJXZ",
+    "address": "0x14200",
+    "ordinal": 947
+  },
+  {
+    "name": "?GetNumParents@GAObject@@QEBAJXZ",
+    "address": "0x29bd0",
+    "ordinal": 948
+  },
+  {
+    "name": "?GetNumber@GAArray@@QEBA?AVGANumber@@J@Z",
+    "address": "0x7750",
+    "ordinal": 949
+  },
+  {
+    "name": "?GetNumber@GADict@@QEBA?AVGANumber@@AEBVGName@@@Z",
+    "address": "0x11b20",
+    "ordinal": 950
+  },
+  {
+    "name": "?GetNumberImp@GAObjectImp@@UEAAPEAVGANumberImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 951
+  },
+  {
+    "name": "?GetO@GAEncryption@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x1f7d0",
+    "ordinal": 952
+  },
+  {
+    "name": "?GetOE@GAEncryption@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x1f7e0",
+    "ordinal": 953
+  },
+  {
+    "name": "?GetObject@GACachedObject@@QEAA?AVGAObject@@XZ",
+    "address": "0xa700",
+    "ordinal": 954
+  },
+  {
+    "name": "?GetObject@GADelayedVisitInfo@@QEAAAEAVGAObject@@XZ",
+    "address": "0x77c0",
+    "ordinal": 955
+  },
+  {
+    "name": "?GetObjectAtPath@GAPDFPathSupport@@YA?AVGAObject@@AEBVGADoc@@AEBVGAPDFPathExpression@@@Z",
+    "address": "0x47300",
+    "ordinal": 956
+  },
+  {
+    "name": "?GetObjectFactory@GADoc@@QEBAAEAVGAObjectFactory@@XZ",
+    "address": "0x12d90",
+    "ordinal": 957
+  },
+  {
+    "name": "?GetObjectForID@GADoc@@QEBA?AVGAObject@@K@Z",
+    "address": "0x12dc0",
+    "ordinal": 958
+  },
+  {
+    "name": "?GetObjectIndex@GAXRefOriginal@@AEBAJAEBVGAObjectID@@@Z",
+    "address": "0x6d510",
+    "ordinal": 959
+  },
+  {
+    "name": "?GetObjectNumber@GAObjectID@@QEBAKXZ",
+    "address": "0x77d0",
+    "ordinal": 960
+  },
+  {
+    "name": "?GetObjectStreamID@GAXRefEntry@@QEBAKXZ",
+    "address": "0x14200",
+    "ordinal": 961
+  },
+  {
+    "name": "?GetObjectStreamID@GAXRefOriginal@@UEBA?AVGAObjectID@@AEBV2@@Z",
+    "address": "0x6d560",
+    "ordinal": 962
+  },
+  {
+    "name": "?GetObjectTypes@GAPDFPathComponent@@QEBA?AV?$GBitMaskType@W4GAObjectTypes@@X@@XZ",
+    "address": "0x3d560",
+    "ordinal": 963
+  },
+  {
+    "name": "?GetOriginalVersion@GADoc@@QEBAXAEAJ0@Z",
+    "address": "0x12e00",
+    "ordinal": 964
+  },
+  {
+    "name": "?GetOriginalVersion@GADocImp@@QEBAXAEAJ0@Z",
+    "address": "0x18330",
+    "ordinal": 965
+  },
+  {
+    "name": "?GetOriginalXRef@GAXRefOriginal@@UEAAPEAV1@XZ",
+    "address": "0x44a0",
+    "ordinal": 966
+  },
+  {
+    "name": "?GetOwnerPassword@GAEncryption@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x1f7f0",
+    "ordinal": 967
+  },
+  {
+    "name": "?GetPDFFilterType@GAFilter@@QEBA?AW4FilterType@GAFilterTypes@@XZ",
+    "address": "0x46d0",
+    "ordinal": 968
+  },
+  {
+    "name": "?GetPDFHeaderOffset@GAPDFFile@@QEBA_JXZ",
+    "address": "0x3cb20",
+    "ordinal": 969
+  },
+  {
+    "name": "?GetPatchStream@GAXRefOriginal@@UEAAPEAVGOutStream@@AEBVGAObjectID@@AEBVGBuffer@@@Z",
+    "address": "0x6c5b0",
+    "ordinal": 970
+  },
+  {
+    "name": "?GetPathName@GADoc@@QEBAAEBVGPathName@@XZ",
+    "address": "0x12e40",
+    "ordinal": 971
+  },
+  {
+    "name": "?GetPathName@GADocSaveParams@@QEBAAEBVGPathName@@XZ",
+    "address": "0x44a0",
+    "ordinal": 972
+  },
+  {
+    "name": "?GetPathName@GAXRefOriginal@@UEBAAEBVGPathName@@XZ",
+    "address": "0x6d5e0",
+    "ordinal": 973
+  },
+  {
+    "name": "?GetPathToConflictingObjects@GADBGPartialEquivStrategy@@UEAA?AVGBuffer@@XZ",
+    "address": "0xe560",
+    "ordinal": 974
+  },
+  {
+    "name": "?GetPathToConflictingObjects@GADefaultEquivStrategy@@UEAA?AVGBuffer@@XZ",
+    "address": "0xe620",
+    "ordinal": 975
+  },
+  {
+    "name": "?GetPathToObject@GAPDFPathSupport@@YA_NAEBVGAObject@@AEAVGAPDFPathExpression@@@Z",
+    "address": "0x476c0",
+    "ordinal": 976
+  },
+  {
+    "name": "?GetPathToObject@GAVFindPathToObject@@QEBAAEBV?$GTable@VGAObject@@@@XZ",
+    "address": "0xc820",
+    "ordinal": 977
+  },
+  {
+    "name": "?GetPathToObjectDescription@GAVFindPathToObject@@QEBA?AVGBuffer@@XZ",
+    "address": "0x68c90",
+    "ordinal": 978
+  },
+  {
+    "name": "?GetPathToObjects@GAPDFPathSupport@@YAXAEBVGADoc@@AEAV?$GDict@VGAObject@@VGAPDFPathExpression@@@@@Z",
+    "address": "0x479a0",
+    "ordinal": 979
+  },
+  {
+    "name": "?GetPermissions@GADoc@@QEBAJXZ",
+    "address": "0x12e60",
+    "ordinal": 980
+  },
+  {
+    "name": "?GetPermissions@GADocImp@@QEBAJXZ",
+    "address": "0x18340",
+    "ordinal": 981
+  },
+  {
+    "name": "?GetPermissions@GAEncryption@@QEBAJXZ",
+    "address": "0x1f800",
+    "ordinal": 982
+  },
+  {
+    "name": "?GetPerms@GAEncryption@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x1f810",
+    "ordinal": 983
+  },
+  {
+    "name": "?GetPersistenceType@GAObject@@QEBA?AW4GAPersistenceType@GAPersistentObject@@XZ",
+    "address": "0x45a0",
+    "ordinal": 984
+  },
+  {
+    "name": "?GetPredictor@GAFlateFilter@@QEBAJXZ",
+    "address": "0x23650",
+    "ordinal": 985
+  },
+  {
+    "name": "?GetPredictor@GALZWFilter@@QEBAJXZ",
+    "address": "0x26c70",
+    "ordinal": 986
+  },
+  {
+    "name": "?GetPrintPermissions@GADocEncryptionParams@@QEBA?AW4PrintPermissions@1@XZ",
+    "address": "0x14220",
+    "ordinal": 987
+  },
+  {
+    "name": "?GetQuality@GADCTFilter@@QEBAJXZ",
+    "address": "0xea00",
+    "ordinal": 988
+  },
+  {
+    "name": "?GetQuality@GAJPXFilter@@QEBANXZ",
+    "address": "0x25f70",
+    "ordinal": 989
+  },
+  {
+    "name": "?GetRC4EnDecryptStream@GAEncryption@@AEBAPEAVGInStream@@PEAV2@JJ@Z",
+    "address": "0x1f820",
+    "ordinal": 990
+  },
+  {
+    "name": "?GetRegisteredClones@GACloneStrategy@@UEAAAEBV?$GDict@VGAObjectProxy@@V1@@@XZ",
+    "address": "0xc820",
+    "ordinal": 991
+  },
+  {
+    "name": "?GetRemoveSecurity@GADoc@@QEBA_NXZ",
+    "address": "0x12e80",
+    "ordinal": 992
+  },
+  {
+    "name": "?GetRemoveSecurity@GADocSaveParams@@QEBA_NXZ",
+    "address": "0x1a7a0",
+    "ordinal": 993
+  },
+  {
+    "name": "?GetReplacement@GACloneKeepStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 994
+  },
+  {
+    "name": "?GetReplacement@GACloneKeepStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 995
+  },
+  {
+    "name": "?GetReplacement@GADeepCloneReplaceStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0xf370",
+    "ordinal": 996
+  },
+  {
+    "name": "?GetReplacement@GADeepCloneReplaceStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0xf460",
+    "ordinal": 997
+  },
+  {
+    "name": "?GetReplacement@GADeepCloneStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 998
+  },
+  {
+    "name": "?GetReplacement@GADeepCloneStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 999
+  },
+  {
+    "name": "?GetReplacement@GAPartialCloneStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 1000
+  },
+  {
+    "name": "?GetReplacement@GAPartialCloneStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 1001
+  },
+  {
+    "name": "?GetReplacement@GAShallowCloneReplaceStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0x65010",
+    "ordinal": 1002
+  },
+  {
+    "name": "?GetReplacement@GAShallowCloneReplaceStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0x650e0",
+    "ordinal": 1003
+  },
+  {
+    "name": "?GetReplacement@GAShallowCloneStrategy@@UEAA?AVGAObject@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 1004
+  },
+  {
+    "name": "?GetReplacement@GAShallowCloneStrategy@@UEAA?AVGAObject@@AEBVGName@@AEBV2@@Z",
+    "address": "0xc040",
+    "ordinal": 1005
+  },
+  {
+    "name": "?GetReport@GAPDFDiffStrategy@@QEBAAEBVGString@@XZ",
+    "address": "0x1f8f0",
+    "ordinal": 1006
+  },
+  {
+    "name": "?GetRevision@GAEncryption@@QEBAJXZ",
+    "address": "0x1f8b0",
+    "ordinal": 1007
+  },
+  {
+    "name": "?GetSecurityHandlerName@GADoc@@QEBAXAEAVGBuffer@@@Z",
+    "address": "0x12eb0",
+    "ordinal": 1008
+  },
+  {
+    "name": "?GetStartXRefOffset@GAPDFFile@@IEBA_J_J@Z",
+    "address": "0x3cda0",
+    "ordinal": 1009
+  },
+  {
+    "name": "?GetStmF@GAEncryption@@QEBA?AW4SupportedCF@1@XZ",
+    "address": "0x1f8c0",
+    "ordinal": 1010
+  },
+  {
+    "name": "?GetStrF@GAEncryption@@QEBA?AW4SupportedCF@1@XZ",
+    "address": "0x1f8d0",
+    "ordinal": 1011
+  },
+  {
+    "name": "?GetStream@GAArray@@QEBA?AVGAStream@@J@Z",
+    "address": "0x7860",
+    "ordinal": 1012
+  },
+  {
+    "name": "?GetStream@GADict@@QEBA?AVGAStream@@AEBVGName@@@Z",
+    "address": "0x11b90",
+    "ordinal": 1013
+  },
+  {
+    "name": "?GetStreamFromGAStreamInDict@GAObjectSupport@@SA_NAEBVGADict@@AEBVGName@@AEAV?$GAutoPtr@VGInStream@@UGDeletePtr@@@@@Z",
+    "address": "0x311d0",
+    "ordinal": 1014
+  },
+  {
+    "name": "?GetStreamImp@GAObjectImp@@UEAAPEAVGAStreamImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 1015
+  },
+  {
+    "name": "?GetString@GAArray@@QEBA?AVGAString@@J@Z",
+    "address": "0x78d0",
+    "ordinal": 1016
+  },
+  {
+    "name": "?GetString@GADict@@QEBA?AVGAString@@AEBVGName@@@Z",
+    "address": "0x11c00",
+    "ordinal": 1017
+  },
+  {
+    "name": "?GetStringEncoding@GADocParams@@QEBA?AW4StringEncoding@1@XZ",
+    "address": "0x7330",
+    "ordinal": 1018
+  },
+  {
+    "name": "?GetStringFromDict@GAObjectSupport@@SA_NAEBVGADict@@AEBVGName@@AEAVGString@@@Z",
+    "address": "0x312b0",
+    "ordinal": 1019
+  },
+  {
+    "name": "?GetStringImp@GAObjectImp@@UEAAPEAVGAStringImp@@XZ",
+    "address": "0x4570",
+    "ordinal": 1020
+  },
+  {
+    "name": "?GetSubExpression@GAPDFPathComponent@@QEAAAEAVGAPDFPathExpression@@XZ",
+    "address": "0x3d580",
+    "ordinal": 1021
+  },
+  {
+    "name": "?GetSubExpression@GAPDFPathComponent@@QEBAAEBVGAPDFPathExpression@@XZ",
+    "address": "0x3d580",
+    "ordinal": 1022
+  },
+  {
+    "name": "?GetTextStreamPaths@GAPDFPathSupport@@YAAEBV?$GTable@V?$GPair@VGAPDFPathExpression@@V?$function@$$A6A_NAEBVGADoc@@AEBVGAPDFPathExpression@@@Z@std@@@@@@XZ",
+    "address": "0x47a40",
+    "ordinal": 1023
+  },
+  {
+    "name": "?GetTextStringPaths@GAPDFPathSupport@@YAAEBV?$GTable@V?$GPair@VGAPDFPathExpression@@V?$function@$$A6A_NAEBVGADoc@@AEBVGAPDFPathExpression@@@Z@std@@@@@@XZ",
+    "address": "0x47ee0",
+    "ordinal": 1024
+  },
+  {
+    "name": "?GetTotalNrObjects@GAXRefOriginal@@UEBAJXZ",
+    "address": "0x6d5f0",
+    "ordinal": 1025
+  },
+  {
+    "name": "?GetTotalNrOldObjects@GAXRefOriginal@@UEBAJXZ",
+    "address": "0x6d600",
+    "ordinal": 1026
+  },
+  {
+    "name": "?GetTrailerDict@GAXRefOriginal@@UEAAAEAVGADict@@XZ",
+    "address": "0x29fc0",
+    "ordinal": 1027
+  },
+  {
+    "name": "?GetTrailerOffset@GAPDFFile@@QEBA_J_J@Z",
+    "address": "0x3ce80",
+    "ordinal": 1028
+  },
+  {
+    "name": "?GetType@GAObject@@QEBA?AW4GAObjectTypes@@XZ",
+    "address": "0x45b0",
+    "ordinal": 1029
+  },
+  {
+    "name": "?GetType@GAPDFPathComponent@@QEBA?AW4ComponentType@1@XZ",
+    "address": "0x7330",
+    "ordinal": 1030
+  },
+  {
+    "name": "?GetU@GAEncryption@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x1f8e0",
+    "ordinal": 1031
+  },
+  {
+    "name": "?GetUE@GAEncryption@@QEBAAEBVGBuffer@@XZ",
+    "address": "0x1f8f0",
+    "ordinal": 1032
+  },
+  {
+    "name": "?GetUndoLimit@GAUndoManager@@SAJXZ",
+    "address": "0x66d00",
+    "ordinal": 1033
+  },
+  {
+    "name": "?GetUndoManager@GADoc@@QEBAAEAVGAUndoManager@@XZ",
+    "address": "0x12ee0",
+    "ordinal": 1034
+  },
+  {
+    "name": "?GetUndoManager@GADocImp@@QEBAAEAVGAUndoManager@@XZ",
+    "address": "0x7940",
+    "ordinal": 1035
+  },
+  {
+    "name": "?GetUnescapedName@GAObjectSupport@@SAXAEBVGBuffer@@AEAV2@@Z",
+    "address": "0x31360",
+    "ordinal": 1036
+  },
+  {
+    "name": "?GetUnicodeOnlyPaths@GAPDFPathSupport@@YAAEBV?$GTable@V?$GPair@VGAPDFPathExpression@@V?$function@$$A6A_NAEBVGADoc@@AEBVGAPDFPathExpression@@@Z@std@@@@@@XZ",
+    "address": "0x4e960",
+    "ordinal": 1037
+  },
+  {
+    "name": "?GetUniqueID@GADoc@@QEBAXAEAVGBuffer@@0@Z",
+    "address": "0x12f00",
+    "ordinal": 1038
+  },
+  {
+    "name": "?GetUpdateFileSize@GAXRefOriginal@@QEBA_JXZ",
+    "address": "0x6d610",
+    "ordinal": 1039
+  },
+  {
+    "name": "?GetUpdateIndexForSize@GADoc@@QEBAJ_J@Z",
+    "address": "0x12f40",
+    "ordinal": 1040
+  },
+  {
+    "name": "?GetUserPassword@GAEncryption@@QEBAPEBVGBuffer@@XZ",
+    "address": "0x1f900",
+    "ordinal": 1041
+  },
+  {
+    "name": "?GetVersion@GADoc@@QEBAXAEAJ0@Z",
+    "address": "0x13050",
+    "ordinal": 1042
+  },
+  {
+    "name": "?GetVersion@GADocSaveParams@@QEBAXAEAJ0@Z",
+    "address": "0x1a7b0",
+    "ordinal": 1043
+  },
+  {
+    "name": "?GetVersion@GAEncryption@@QEBAJXZ",
+    "address": "0x9f70",
+    "ordinal": 1044
+  },
+  {
+    "name": "?GetVersionPolicy@GADocParams@@QEBA?AW4VersionPolicy@1@XZ",
+    "address": "0x19e90",
+    "ordinal": 1045
+  },
+  {
+    "name": "?GetWarningDescription@ObjectFormatWarning@GAObjectFormatChecker@@QEBAAEBVGString@@XZ",
+    "address": "0x2da70",
+    "ordinal": 1046
+  },
+  {
+    "name": "?GetWarningStringID@ObjectFormatWarning@GAObjectFormatChecker@@QEBAJXZ",
+    "address": "0x2da80",
+    "ordinal": 1047
+  },
+  {
+    "name": "?GetWarningType@ObjectFormatWarning@GAObjectFormatChecker@@QEBA?AW4WarningType@12@XZ",
+    "address": "0x7330",
+    "ordinal": 1048
+  },
+  {
+    "name": "?GetWarnings@GAObjectFormatChecker@@QEBAAEBV?$GTable@VObjectFormatWarning@GAObjectFormatChecker@@@@XZ",
+    "address": "0x2da90",
+    "ordinal": 1049
+  },
+  {
+    "name": "?GetWriteCharSet@GADocParams@@QEBA?AW4WriteCharSet@1@XZ",
+    "address": "0x9f70",
+    "ordinal": 1050
+  },
+  {
+    "name": "?GetWriteInfoDict@GADocParams@@QEBA?AW4WriteInfoDict@1@XZ",
+    "address": "0x14200",
+    "ordinal": 1051
+  },
+  {
+    "name": "?GetWriteInlineImageLengthKey@GADocParams@@QEBA?AW4WriteInlineImageLengthKey@1@XZ",
+    "address": "0x14220",
+    "ordinal": 1052
+  },
+  {
+    "name": "?GetWriteProcSet@GADocParams@@QEBA?AW4WriteProcSet@1@XZ",
+    "address": "0x14210",
+    "ordinal": 1053
+  },
+  {
+    "name": "?GetXRefTableOffset@GAPDFFile@@QEBA_J_J@Z",
+    "address": "0x3cf90",
+    "ordinal": 1054
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGAExLowLevel@@@Z",
+    "address": "0x6250",
+    "ordinal": 1055
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGAExWrongObjectType@@@Z",
+    "address": "0x6250",
+    "ordinal": 1056
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGAException@@@Z",
+    "address": "0x6250",
+    "ordinal": 1057
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGASimpleException@@@Z",
+    "address": "0x6250",
+    "ordinal": 1058
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGException@@@Z",
+    "address": "0x6250",
+    "ordinal": 1059
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGMemoryException@@@Z",
+    "address": "0x6250",
+    "ordinal": 1060
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXAEBVGSimpleException@@@Z",
+    "address": "0x6250",
+    "ordinal": 1061
+  },
+  {
+    "name": "?Handle@GADefaultExHandler@@UEBAXXZ",
+    "address": "0x115b0",
+    "ordinal": 1062
+  },
+  {
+    "name": "?Handle@GAExceptionHandler@@UEBAXXZ",
+    "address": "0x22620",
+    "ordinal": 1063
+  },
+  {
+    "name": "?Has@GADict@@QEBA_NAEBVGName@@@Z",
+    "address": "0x11c70",
+    "ordinal": 1064
+  },
+  {
+    "name": "?Has@GANumberTree@@QEBA_NJ@Z",
+    "address": "0x289a0",
+    "ordinal": 1065
+  },
+  {
+    "name": "?HasClassicXRefSection@GAXRefOriginal@@UEBA_NXZ",
+    "address": "0x9f50",
+    "ordinal": 1066
+  },
+  {
+    "name": "?HasInfoDict@GADoc@@QEBA_NXZ",
+    "address": "0x13090",
+    "ordinal": 1067
+  },
+  {
+    "name": "?HasRegisteredDelayedUpdateLastModified@GADoc@@QEBA_NAEBVGADict@@@Z",
+    "address": "0x130b0",
+    "ordinal": 1068
+  },
+  {
+    "name": "?HasRegisteredDelayedUpdateLastModified@GADocImp@@QEBA_NAEBVGADict@@@Z",
+    "address": "0x18370",
+    "ordinal": 1069
+  },
+  {
+    "name": "?HasWildCards@GAPDFPathExpression@@QEBA_NXZ",
+    "address": "0x3d800",
+    "ordinal": 1070
+  },
+  {
+    "name": "?ImageStreamsAreEquivalent@GAEquivalenceStrategySupport@@YA_NAEAVGInStream@@0JJ@Z",
+    "address": "0x22120",
+    "ordinal": 1071
+  },
+  {
+    "name": "?InResourceDict@GAFuzzyEquivStrategy@@AEBA_NXZ",
+    "address": "0x48f0",
+    "ordinal": 1072
+  },
+  {
+    "name": "?InitFreeObjects@GAXRefOriginal@@QEAAXXZ",
+    "address": "0x6d620",
+    "ordinal": 1073
+  },
+  {
+    "name": "?Initialize@GAException@@SAXXZ",
+    "address": "0x226d0",
+    "ordinal": 1074
+  },
+  {
+    "name": "?Initialize@GAPDFAccessLayer@@SA_NXZ",
+    "address": "0x36ea0",
+    "ordinal": 1075
+  },
+  {
+    "name": "?Initialize@GAScratchDoc@@SAXXZ",
+    "address": "0x64c00",
+    "ordinal": 1076
+  },
+  {
+    "name": "?InitializeSingletons@GAPDFAccessLayer@@CAXXZ",
+    "address": "0x37000",
+    "ordinal": 1077
+  },
+  {
+    "name": "?InitializeStrings@GAPDFAccessLayer@@CAXXZ",
+    "address": "0x37120",
+    "ordinal": 1078
+  },
+  {
+    "name": "?Insert@GAArray@@QEAAXJAEBVGAObject@@@Z",
+    "address": "0x7950",
+    "ordinal": 1079
+  },
+  {
+    "name": "?Invalidate@GADoc@@QEAAXXZ",
+    "address": "0x130e0",
+    "ordinal": 1080
+  },
+  {
+    "name": "?IsActionListDatabaseDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b2c0",
+    "ordinal": 1081
+  },
+  {
+    "name": "?IsActionListDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b410",
+    "ordinal": 1082
+  },
+  {
+    "name": "?IsAnnotatedReportDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b540",
+    "ordinal": 1083
+  },
+  {
+    "name": "?IsArray@GAObject@@QEBA_NXZ",
+    "address": "0x45c0",
+    "ordinal": 1084
+  },
+  {
+    "name": "?IsAutoSave@GADocSaveParams@@QEBA_NXZ",
+    "address": "0x1a7c0",
+    "ordinal": 1085
+  },
+  {
+    "name": "?IsBool@GAObject@@QEBA_NXZ",
+    "address": "0x45e0",
+    "ordinal": 1086
+  },
+  {
+    "name": "?IsCompressed@GAObject@@QEBA_NXZ",
+    "address": "0x4600",
+    "ordinal": 1087
+  },
+  {
+    "name": "?IsCompressedObject@GAXRefOriginal@@UEBA_NAEBVGAObjectID@@@Z",
+    "address": "0x6d800",
+    "ordinal": 1088
+  },
+  {
+    "name": "?IsCompressedXRef@GAXRefOriginal@@UEBA_NAEBVGAObjectID@@@Z",
+    "address": "0x6d850",
+    "ordinal": 1089
+  },
+  {
+    "name": "?IsContentStream@GAPDFDiffStrategy@@AEBA_NAEBVGAStream@@@Z",
+    "address": "0x3bc00",
+    "ordinal": 1090
+  },
+  {
+    "name": "?IsCurrentlyProcessing@GAPathExpressionProcessingStrategy@@AEBA_NAEBVGAObject@@@Z",
+    "address": "0x35890",
+    "ordinal": 1091
+  },
+  {
+    "name": "?IsDict@GAObject@@QEBA_NXZ",
+    "address": "0x4630",
+    "ordinal": 1092
+  },
+  {
+    "name": "?IsDirect@GAObject@@QEBA_NXZ",
+    "address": "0x4650",
+    "ordinal": 1093
+  },
+  {
+    "name": "?IsDirect@GAObjectID@@QEBA_NXZ",
+    "address": "0x7f20",
+    "ordinal": 1094
+  },
+  {
+    "name": "?IsDirty@GADoc@@QEBA_NXZ",
+    "address": "0x13110",
+    "ordinal": 1095
+  },
+  {
+    "name": "?IsDirty@GAObjectID@@QEBA_NXZ",
+    "address": "0x7f30",
+    "ordinal": 1096
+  },
+  {
+    "name": "?IsDoc@GAObject@@QEBA_NXZ",
+    "address": "0x4660",
+    "ordinal": 1097
+  },
+  {
+    "name": "?IsEPQDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b560",
+    "ordinal": 1098
+  },
+  {
+    "name": "?IsEditDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b580",
+    "ordinal": 1099
+  },
+  {
+    "name": "?IsEditLogDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b5a0",
+    "ordinal": 1100
+  },
+  {
+    "name": "?IsEncrypted@GADoc@@QEBA_NXZ",
+    "address": "0x13140",
+    "ordinal": 1101
+  },
+  {
+    "name": "?IsEqual@GAObject@@QEBA_NAEBV1@@Z",
+    "address": "0x4680",
+    "ordinal": 1102
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGAArray@@AEBVGAObject@@@Z",
+    "address": "0xfdc0",
+    "ordinal": 1103
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGABool@@AEBVGAObject@@@Z",
+    "address": "0x10040",
+    "ordinal": 1104
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGADict@@AEBVGAObject@@@Z",
+    "address": "0x10110",
+    "ordinal": 1105
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGADoc@@AEBVGAObject@@@Z",
+    "address": "0x104f0",
+    "ordinal": 1106
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGAName@@AEBVGAObject@@@Z",
+    "address": "0x10780",
+    "ordinal": 1107
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGANull@@AEBVGAObject@@@Z",
+    "address": "0x10890",
+    "ordinal": 1108
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGANumber@@AEBVGAObject@@@Z",
+    "address": "0x108c0",
+    "ordinal": 1109
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGAStream@@AEBVGAObject@@@Z",
+    "address": "0x109a0",
+    "ordinal": 1110
+  },
+  {
+    "name": "?IsEquivalent@GADefaultEquivStrategy@@UEAA_NAEBVGAString@@AEBVGAObject@@@Z",
+    "address": "0x10f30",
+    "ordinal": 1111
+  },
+  {
+    "name": "?IsEquivalent@GAFuzzyEquivStrategy@@UEAA_NAEBVGADict@@AEBVGAObject@@@Z",
+    "address": "0x24be0",
+    "ordinal": 1112
+  },
+  {
+    "name": "?IsEquivalent@GAFuzzyEquivStrategy@@UEAA_NAEBVGANumber@@AEBVGAObject@@@Z",
+    "address": "0x25170",
+    "ordinal": 1113
+  },
+  {
+    "name": "?IsEquivalent@GAFuzzyEquivStrategy@@UEAA_NAEBVGAStream@@AEBVGAObject@@@Z",
+    "address": "0x25270",
+    "ordinal": 1114
+  },
+  {
+    "name": "?IsEquivalent@GAObject@@QEBA_NAEBV1@@Z",
+    "address": "0x29be0",
+    "ordinal": 1115
+  },
+  {
+    "name": "?IsEquivalent@GAObject@@QEBA_NAEBV1@AEAVGAEquivalenceStrategy@@@Z",
+    "address": "0x4690",
+    "ordinal": 1116
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGAArray@@AEBVGAObject@@@Z",
+    "address": "0x33f90",
+    "ordinal": 1117
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGABool@@AEBVGAObject@@@Z",
+    "address": "0x34100",
+    "ordinal": 1118
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGADict@@AEBVGAObject@@@Z",
+    "address": "0x34190",
+    "ordinal": 1119
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGADoc@@AEBVGAObject@@@Z",
+    "address": "0x34300",
+    "ordinal": 1120
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGAName@@AEBVGAObject@@@Z",
+    "address": "0x34460",
+    "ordinal": 1121
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGANull@@AEBVGAObject@@@Z",
+    "address": "0x34530",
+    "ordinal": 1122
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGANumber@@AEBVGAObject@@@Z",
+    "address": "0x34550",
+    "ordinal": 1123
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGAStream@@AEBVGAObject@@@Z",
+    "address": "0x34600",
+    "ordinal": 1124
+  },
+  {
+    "name": "?IsEquivalent@GAPartialMatchStrategy@@EEAA_NAEBVGAString@@AEBVGAObject@@@Z",
+    "address": "0x346c0",
+    "ordinal": 1125
+  },
+  {
+    "name": "?IsGenericFilter@GAFilter@@QEBA_NXZ",
+    "address": "0x45a0",
+    "ordinal": 1126
+  },
+  {
+    "name": "?IsGlobalChangeDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b5c0",
+    "ordinal": 1127
+  },
+  {
+    "name": "?IsInCompressedXRef@GAObject@@QEBA_NXZ",
+    "address": "0x46a0",
+    "ordinal": 1128
+  },
+  {
+    "name": "?IsInUse@GAXRefOriginal@@UEBA?AW4GTriState@@AEBVGAObjectID@@@Z",
+    "address": "0x6d8a0",
+    "ordinal": 1129
+  },
+  {
+    "name": "?IsIndirect@GAObject@@QEBA_NXZ",
+    "address": "0x46d0",
+    "ordinal": 1130
+  },
+  {
+    "name": "?IsInitialized@GAXRefEntry@@QEBA_NXZ",
+    "address": "0x6d9f0",
+    "ordinal": 1131
+  },
+  {
+    "name": "?IsInline@GAObject@@QEBA_NXZ",
+    "address": "0x46e0",
+    "ordinal": 1132
+  },
+  {
+    "name": "?IsInteger@GANumber@@QEBA_NXZ",
+    "address": "0x27e70",
+    "ordinal": 1133
+  },
+  {
+    "name": "?IsLibraryColorDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b620",
+    "ordinal": 1134
+  },
+  {
+    "name": "?IsLinearized@GADoc@@QEBA_NXZ",
+    "address": "0x13170",
+    "ordinal": 1135
+  },
+  {
+    "name": "?IsLocked@GAUndoManager@@QEBA_NXZ",
+    "address": "0x7f40",
+    "ordinal": 1136
+  },
+  {
+    "name": "?IsLossless@GAJPXFilter@@QEBA_NXZ",
+    "address": "0x25f90",
+    "ordinal": 1137
+  },
+  {
+    "name": "?IsMasterPasswordKnown@GAEncryption@@QEBA_NXZ",
+    "address": "0x1f910",
+    "ordinal": 1138
+  },
+  {
+    "name": "?IsModernFilter@GAFilterTypes@@YA_NW4FilterType@1@@Z",
+    "address": "0x233a0",
+    "ordinal": 1139
+  },
+  {
+    "name": "?IsName@GAObject@@QEBA_NXZ",
+    "address": "0x46f0",
+    "ordinal": 1140
+  },
+  {
+    "name": "?IsNew@GAObjectID@@QEBA_NXZ",
+    "address": "0x7f50",
+    "ordinal": 1141
+  },
+  {
+    "name": "?IsNull@GAObject@@QEBA_NXZ",
+    "address": "0x4710",
+    "ordinal": 1142
+  },
+  {
+    "name": "?IsNull@GAObjectID@@QEBA_NXZ",
+    "address": "0x7f60",
+    "ordinal": 1143
+  },
+  {
+    "name": "?IsNumber@GAObject@@QEBA_NXZ",
+    "address": "0x4730",
+    "ordinal": 1144
+  },
+  {
+    "name": "?IsOriginalObject@GAXRefOriginal@@UEBA_NAEBVGAObjectID@@@Z",
+    "address": "0x6da00",
+    "ordinal": 1145
+  },
+  {
+    "name": "?IsOutputIntentTemplateDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b670",
+    "ordinal": 1146
+  },
+  {
+    "name": "?IsProcessed@GAProcessingStrategy@@QEBA_NAEBVGAObject@@@Z",
+    "address": "0x63d30",
+    "ordinal": 1147
+  },
+  {
+    "name": "?IsProfileDatabaseDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b7e0",
+    "ordinal": 1148
+  },
+  {
+    "name": "?IsProfileDocument@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1b950",
+    "ordinal": 1149
+  },
+  {
+    "name": "?IsReliable@GAVFindPathToObject@@QEBA_NXZ",
+    "address": "0x68fc0",
+    "ordinal": 1150
+  },
+  {
+    "name": "?IsReportV1Document@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1bbc0",
+    "ordinal": 1151
+  },
+  {
+    "name": "?IsReportV2Document@GADocSupport@@YA_NAEBVGADoc@@@Z",
+    "address": "0x1bbe0",
+    "ordinal": 1152
+  },
+  {
+    "name": "?IsStream@GAObject@@QEBA_NXZ",
+    "address": "0x4750",
+    "ordinal": 1153
+  },
+  {
+    "name": "?IsString@GAObject@@QEBA_NXZ",
+    "address": "0x4770",
+    "ordinal": 1154
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADoc@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1155
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocDeletePagesMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1156
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocDidChangePagesMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1157
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocDidSaveMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1158
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocDigSignatureMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1159
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocInsertPagesMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1160
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocMovePagesMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1161
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocReplacePagesMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1162
+  },
+  {
+    "name": "?IsSubscribed@?$GReceiver@VGADocWillSaveMessage@@@@QEAA_NJ@Z",
+    "address": "0x7f70",
+    "ordinal": 1163
+  },
+  {
+    "name": "?IsUpdated@GAXRefOriginal@@UEBA_NAEBVGAObjectID@@@Z",
+    "address": "0x9fc0",
+    "ordinal": 1164
+  },
+  {
+    "name": "?IsValid@GAFilter@@QEBA_NXZ",
+    "address": "0x23330",
+    "ordinal": 1165
+  },
+  {
+    "name": "?IsValid@GAObject@@QEBA_NXZ",
+    "address": "0x23330",
+    "ordinal": 1166
+  },
+  {
+    "name": "?KeepsAllEncryptionParams@GADocEncryptionParams@@QEBA_NXZ",
+    "address": "0x14230",
+    "ordinal": 1167
+  },
+  {
+    "name": "?LocateVersionInfo@GADocImp@@KA_NAEAVGInStream@@AEAJ111@Z",
+    "address": "0x183c0",
+    "ordinal": 1168
+  },
+  {
+    "name": "?MakeGAStreamFromBuffer@GAObjectSupport@@SA?AVGAStream@@AEBVGBuffer@@AEBVGADoc@@@Z",
+    "address": "0x31670",
+    "ordinal": 1169
+  },
+  {
+    "name": "?MakeGAStreamFromStream@GAObjectSupport@@SA?AVGAStream@@AEAVGInStream@@AEBVGADoc@@@Z",
+    "address": "0x317a0",
+    "ordinal": 1170
+  },
+  {
+    "name": "?MakeInfoDictPDF17Compliant@GADocImp@@IEAA_NXZ",
+    "address": "0x185f0",
+    "ordinal": 1171
+  },
+  {
+    "name": "?MakeInfoDictPDF20Compliant@GADocImp@@IEAA_NW4PDF20ComplianceOption@1@@Z",
+    "address": "0x18650",
+    "ordinal": 1172
+  },
+  {
+    "name": "?MatchExpressions@GAPDFPathSupport@@YA_NAEBVGAPDFPathExpression@@0@Z",
+    "address": "0x4fa20",
+    "ordinal": 1173
+  },
+  {
+    "name": "?Matches@GAVFindMatchingObjects@@AEBA_NAEBVGAObject@@@Z",
+    "address": "0x68900",
+    "ordinal": 1174
+  },
+  {
+    "name": "?MatrixToArray@GAObjectSupport@@SAXAEBV?$GMatrixBase@N@@AEAVGAArray@@@Z",
+    "address": "0x318d0",
+    "ordinal": 1175
+  },
+  {
+    "name": "?MaxReportSizeExceeded@GAPDFDiffStrategy@@AEAA_NXZ",
+    "address": "0x3bf10",
+    "ordinal": 1176
+  },
+  {
+    "name": "?ModifyClone@GAObjectSupport@@CA_NAEAVGAObject@@AEAV?$GDict@VGAObjectProxy@@V1@@@@Z",
+    "address": "0x31a70",
+    "ordinal": 1177
+  },
+  {
+    "name": "?MustLinearize@GADocSaveParams@@QEBA_NXZ",
+    "address": "0x8040",
+    "ordinal": 1178
+  },
+  {
+    "name": "?MustOptimize@GADocSaveParams@@QEBA_NXZ",
+    "address": "0x8050",
+    "ordinal": 1179
+  },
+  {
+    "name": "?MustSaveIncremental@GADocSaveParams@@QEBA_NXZ",
+    "address": "0x1a7d0",
+    "ordinal": 1180
+  },
+  {
+    "name": "?NewStartpoint@GACloneStrategy@@QEAAXXZ",
+    "address": "0xc830",
+    "ordinal": 1181
+  },
+  {
+    "name": "?NewStartpoint@GAProcessingStrategy@@UEAAXXZ",
+    "address": "0x63d80",
+    "ordinal": 1182
+  },
+  {
+    "name": "?Next@GAArrayIterator@@QEAA_NAEAVGAObject@@@Z",
+    "address": "0x9350",
+    "ordinal": 1183
+  },
+  {
+    "name": "?Next@GADictIterator@@QEAA_NAEAVGName@@AEAVGAObject@@@Z",
+    "address": "0x124c0",
+    "ordinal": 1184
+  },
+  {
+    "name": "?NextArrayItem@GADelayedVisitInfo@@QEAA_NAEAJAEAVGAObject@@@Z",
+    "address": "0x8060",
+    "ordinal": 1185
+  },
+  {
+    "name": "?NextDictItem@GADelayedVisitInfo@@QEAA_NAEAVGName@@AEAVGAObject@@@Z",
+    "address": "0x8190",
+    "ordinal": 1186
+  },
+  {
+    "name": "?NextDictItem@GADelayedVisitInfo@@QEAA_NAEBV?$GTable@VGName@@@@AEAVGName@@AEAVGAObject@@@Z",
+    "address": "0x82c0",
+    "ordinal": 1187
+  },
+  {
+    "name": "?NextKey@GADictIterator@@QEAA_NAEAVGName@@@Z",
+    "address": "0x124d0",
+    "ordinal": 1188
+  },
+  {
+    "name": "?NextValue@GADictIterator@@QEAA_NAEAVGAObject@@@Z",
+    "address": "0x124e0",
+    "ordinal": 1189
+  },
+  {
+    "name": "?Open@GADoc@@QEAAXXZ",
+    "address": "0x131a0",
+    "ordinal": 1190
+  },
+  {
+    "name": "?Parse@GANativeParser@@AEAAPEAVGAObjectNativeImp@@XZ",
+    "address": "0x95200",
+    "ordinal": 1191
+  },
+  {
+    "name": "?Parse@GANativeParser@@QEAAPEAVGAObjectNativeImp@@PEAVGInStream@@@Z",
+    "address": "0x95270",
+    "ordinal": 1192
+  },
+  {
+    "name": "?ParseArray@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2daa0",
+    "ordinal": 1193
+  },
+  {
+    "name": "?ParseDict@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2dbb0",
+    "ordinal": 1194
+  },
+  {
+    "name": "?ParseDirectObject@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2dce0",
+    "ordinal": 1195
+  },
+  {
+    "name": "?ParseEndObj@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2dfa0",
+    "ordinal": 1196
+  },
+  {
+    "name": "?ParseHexString@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2e130",
+    "ordinal": 1197
+  },
+  {
+    "name": "?ParseIndirectObject@GAObjectFormatChecker@@QEAA?AW4ParseResult@1@XZ",
+    "address": "0x2e2a0",
+    "ordinal": 1198
+  },
+  {
+    "name": "?ParseIndirectObjectHeader@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2e300",
+    "ordinal": 1199
+  },
+  {
+    "name": "?ParseName@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2e5b0",
+    "ordinal": 1200
+  },
+  {
+    "name": "?ParseStreamData@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2e690",
+    "ordinal": 1201
+  },
+  {
+    "name": "?ParseStreamObject@GAObjectFormatChecker@@QEAA?AW4ParseResult@1@_J@Z",
+    "address": "0x2e9a0",
+    "ordinal": 1202
+  },
+  {
+    "name": "?ParseString@GAObjectFormatChecker@@AEAA?AW4ParseResult@1@XZ",
+    "address": "0x2ea10",
+    "ordinal": 1203
+  },
+  {
+    "name": "?PartialMatchExpressions@GAPDFPathSupport@@YA_NAEBVGAPDFPathExpression@@0@Z",
+    "address": "0x50880",
+    "ordinal": 1204
+  },
+  {
+    "name": "?PathNameToFileSpec@GAObjectSupport@@SA_NAEBVGPathName@@AEAVGADict@@@Z",
+    "address": "0x324c0",
+    "ordinal": 1205
+  },
+  {
+    "name": "?PointPairToArray@GAObjectSupport@@SAXAEBV?$GPointBase@N@@0AEAVGAArray@@@Z",
+    "address": "0x325f0",
+    "ordinal": 1206
+  },
+  {
+    "name": "?PopLocation@GAObjectFormatChecker@@AEAAXXZ",
+    "address": "0x2eb70",
+    "ordinal": 1207
+  },
+  {
+    "name": "?PrepareForInsert@GAObjectSupport@@SA_NAEAVGAObject@@AEBVGADoc@@_N@Z",
+    "address": "0x32690",
+    "ordinal": 1208
+  },
+  {
+    "name": "?PrepareInfoDict@GADoc@@QEAA_NXZ",
+    "address": "0x13260",
+    "ordinal": 1209
+  },
+  {
+    "name": "?PrepareInfoDict@GADocImp@@QEAA_NXZ",
+    "address": "0x186f0",
+    "ordinal": 1210
+  },
+  {
+    "name": "?Process@GAPathExpressionProcessingStrategy@@EEAAXAEBVGAObject@@@Z",
+    "address": "0x358e0",
+    "ordinal": 1211
+  },
+  {
+    "name": "?Process@GAProcessingStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0x63da0",
+    "ordinal": 1212
+  },
+  {
+    "name": "?ProcessPathComponent@GAPathExpressionProcessingStrategy@@AEAAXAEAVGAVisitor@@@Z",
+    "address": "0x359a0",
+    "ordinal": 1213
+  },
+  {
+    "name": "?PushLocation@GAObjectFormatChecker@@AEAAXAEBVGBuffer@@@Z",
+    "address": "0x2ebe0",
+    "ordinal": 1214
+  },
+  {
+    "name": "?PushLocation@GAObjectFormatChecker@@AEAAXJ@Z",
+    "address": "0x2ec50",
+    "ordinal": 1215
+  },
+  {
+    "name": "?Put@GAArray@@QEAAXJAEBVGAObject@@@Z",
+    "address": "0x8490",
+    "ordinal": 1216
+  },
+  {
+    "name": "?Put@GADict@@QEAAXAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x11de0",
+    "ordinal": 1217
+  },
+  {
+    "name": "?Put@GANumberTree@@QEAAXJAEBVGAObject@@@Z",
+    "address": "0x28a40",
+    "ordinal": 1218
+  },
+  {
+    "name": "?RC4EnDecryptBuffer@GAEncryption@@AEBAXAEAVGBuffer@@JJ@Z",
+    "address": "0x1f920",
+    "ordinal": 1219
+  },
+  {
+    "name": "?RectToArray@GAObjectSupport@@SAXAEBV?$GRectBase@N@@AEAVGAArray@@@Z",
+    "address": "0x32c60",
+    "ordinal": 1220
+  },
+  {
+    "name": "?Redo@GAUndoArrayInsert@@EEAAXXZ",
+    "address": "0x66050",
+    "ordinal": 1221
+  },
+  {
+    "name": "?Redo@GAUndoArrayPut@@EEAAXXZ",
+    "address": "0x661c0",
+    "ordinal": 1222
+  },
+  {
+    "name": "?Redo@GAUndoArrayRemove@@EEAAXXZ",
+    "address": "0x66060",
+    "ordinal": 1223
+  },
+  {
+    "name": "?Redo@GAUndoDictPut@@EEAAXXZ",
+    "address": "0x663c0",
+    "ordinal": 1224
+  },
+  {
+    "name": "?Redo@GAUndoDictRemove@@EEAAXXZ",
+    "address": "0x66460",
+    "ordinal": 1225
+  },
+  {
+    "name": "?Redo@GAUndoManager@@QEAAXK@Z",
+    "address": "0x66e40",
+    "ordinal": 1226
+  },
+  {
+    "name": "?Redo@GAUndoObjectCreate@@EEAAXXZ",
+    "address": "0x67e70",
+    "ordinal": 1227
+  },
+  {
+    "name": "?Redo@GAUndoStringHex@@EEAAXXZ",
+    "address": "0x683f0",
+    "ordinal": 1228
+  },
+  {
+    "name": "?RegisterClone@GACloneStrategy@@UEAAXAEBVGAObject@@0@Z",
+    "address": "0xca30",
+    "ordinal": 1229
+  },
+  {
+    "name": "?RegisterClone@GAShallowCloneReplaceStrategy@@UEAAXAEBVGAObject@@0@Z",
+    "address": "0x651b0",
+    "ordinal": 1230
+  },
+  {
+    "name": "?Remove@GAArray@@QEAAXAEBVGAObject@@@Z",
+    "address": "0x8690",
+    "ordinal": 1231
+  },
+  {
+    "name": "?Remove@GAArray@@QEAAXJ@Z",
+    "address": "0x8810",
+    "ordinal": 1232
+  },
+  {
+    "name": "?Remove@GADict@@QEAAXAEBVGName@@@Z",
+    "address": "0x11fb0",
+    "ordinal": 1233
+  },
+  {
+    "name": "?Remove@GANumberTree@@QEAAXJ@Z",
+    "address": "0x29790",
+    "ordinal": 1234
+  },
+  {
+    "name": "?RemoveAll@GAArray@@QEAAXXZ",
+    "address": "0x8a10",
+    "ordinal": 1235
+  },
+  {
+    "name": "?RemoveAll@GADict@@QEAAXXZ",
+    "address": "0x12130",
+    "ordinal": 1236
+  },
+  {
+    "name": "?RemoveAllInfoDictKeysExceptModDate@GADocImp@@AEAA_N_N@Z",
+    "address": "0x18c30",
+    "ordinal": 1237
+  },
+  {
+    "name": "?RemoveDelayedUpdateLastModified@GADoc@@QEAAXAEBVGADict@@@Z",
+    "address": "0x132b0",
+    "ordinal": 1238
+  },
+  {
+    "name": "?RemoveDelayedUpdateLastModified@GADocImp@@QEAAXAEBVGADict@@@Z",
+    "address": "0x18db0",
+    "ordinal": 1239
+  },
+  {
+    "name": "?RemoveInfoDict@GADoc@@QEAAXXZ",
+    "address": "0x132e0",
+    "ordinal": 1240
+  },
+  {
+    "name": "?RemoveLast@GAPDFPathExpression@@QEAAXXZ",
+    "address": "0x3d8a0",
+    "ordinal": 1241
+  },
+  {
+    "name": "?RemoveRedo@GAUndoManager@@AEAAXXZ",
+    "address": "0x67010",
+    "ordinal": 1242
+  },
+  {
+    "name": "?RepairObjectOffsets@GAXRefOriginal@@QEAAXAEBV?$GDict@VGAObjectID@@_J@@@Z",
+    "address": "0x6df90",
+    "ordinal": 1243
+  },
+  {
+    "name": "?Reparse@GAObject@@QEAAXXZ",
+    "address": "0x29d20",
+    "ordinal": 1244
+  },
+  {
+    "name": "?Reset@GADefaultEquivStrategy@@UEAAXXZ",
+    "address": "0x112a0",
+    "ordinal": 1245
+  },
+  {
+    "name": "?Reset@GAObject@@QEAAXXZ",
+    "address": "0x29dc0",
+    "ordinal": 1246
+  },
+  {
+    "name": "?ResetPermissionsCache@GADoc@@QEAAXXZ",
+    "address": "0x13300",
+    "ordinal": 1247
+  },
+  {
+    "name": "?ResetPermissionsCache@GADocImp@@QEAAXXZ",
+    "address": "0x18e30",
+    "ordinal": 1248
+  },
+  {
+    "name": "?RestoreDirty@GADoc@@QEAAXXZ",
+    "address": "0x13320",
+    "ordinal": 1249
+  },
+  {
+    "name": "?RetrieveEncKeyAESV3@GAEncryption@@CAXAEBVGBuffer@@00000_NAEAJAEAV2@@Z",
+    "address": "0x1f970",
+    "ordinal": 1250
+  },
+  {
+    "name": "?Save@GADoc@@QEAAXAEBVGADocSaveParams@@@Z",
+    "address": "0x13350",
+    "ordinal": 1251
+  },
+  {
+    "name": "?SaveDirty@GADoc@@QEAAXXZ",
+    "address": "0x133a0",
+    "ordinal": 1252
+  },
+  {
+    "name": "?ScanVersion@GADocImp@@KA_NPEBEAEAJ11@Z",
+    "address": "0x18e40",
+    "ordinal": 1253
+  },
+  {
+    "name": "?SetAlign@GACCITTFilter@@QEAAX_N@Z",
+    "address": "0x9760",
+    "ordinal": 1254
+  },
+  {
+    "name": "?SetAutoSave@GADocSaveParams@@QEAAX_N@Z",
+    "address": "0x1a810",
+    "ordinal": 1255
+  },
+  {
+    "name": "?SetBitsPerComponent@GAFlateFilter@@QEAAXJ@Z",
+    "address": "0x23670",
+    "ordinal": 1256
+  },
+  {
+    "name": "?SetBitsPerComponent@GAJPXFilter@@QEAAXJ@Z",
+    "address": "0x25fb0",
+    "ordinal": 1257
+  },
+  {
+    "name": "?SetBitsPerComponent@GALZWFilter@@QEAAXJ@Z",
+    "address": "0x26c90",
+    "ordinal": 1258
+  },
+  {
+    "name": "?SetBlackIs1@GACCITTFilter@@QEAAX_N@Z",
+    "address": "0x9790",
+    "ordinal": 1259
+  },
+  {
+    "name": "?SetBoolInDict@GAObjectSupport@@SA_NAEAVGADict@@AEBVGName@@_N@Z",
+    "address": "0x32d80",
+    "ordinal": 1260
+  },
+  {
+    "name": "?SetBufferInDict@GAObjectSupport@@SA_NAEAVGADict@@AEBVGName@@AEBVGBuffer@@@Z",
+    "address": "0x32e70",
+    "ordinal": 1261
+  },
+  {
+    "name": "?SetByteOffset@GAXRefEntry@@QEAAX_J@Z",
+    "address": "0x6e090",
+    "ordinal": 1262
+  },
+  {
+    "name": "?SetCachingMode@GAObjectCache@@QEAAX_N@Z",
+    "address": "0x29fd0",
+    "ordinal": 1263
+  },
+  {
+    "name": "?SetChangePermissionBits@GAEncryption@@AEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x1fcc0",
+    "ordinal": 1264
+  },
+  {
+    "name": "?SetChangePermissions@GADocEncryptionParams@@QEAAXW4ChangePermissions@1@@Z",
+    "address": "0x14260",
+    "ordinal": 1265
+  },
+  {
+    "name": "?SetClassicXRefSectionStartSeparators@GAXRefOriginal@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x6e0a0",
+    "ordinal": 1266
+  },
+  {
+    "name": "?SetClassicXRefSubSectionSeparatorsOK@GAXRefOriginal@@QEAAX_N@Z",
+    "address": "0x6e0c0",
+    "ordinal": 1267
+  },
+  {
+    "name": "?SetColorTransform@GADCTFilter@@QEAAXW4ColorTransform@GDCTEnums@@_N@Z",
+    "address": "0xea20",
+    "ordinal": 1268
+  },
+  {
+    "name": "?SetColors@GADCTFilter@@QEAAXJ@Z",
+    "address": "0xea60",
+    "ordinal": 1269
+  },
+  {
+    "name": "?SetColorspace@GAJPXFilter@@QEAAXW4ColourSpace@GJPXEnums@@AEBVGBuffer@@@Z",
+    "address": "0x25fd0",
+    "ordinal": 1270
+  },
+  {
+    "name": "?SetComparePersistenceType@GADefaultEquivStrategy@@QEAAX_N@Z",
+    "address": "0xe7e0",
+    "ordinal": 1271
+  },
+  {
+    "name": "?SetCompareResult@GADefaultEquivStrategy@@IEAAXAEBVGAObject@@0_N@Z",
+    "address": "0x112d0",
+    "ordinal": 1272
+  },
+  {
+    "name": "?SetComponents@GAPDFPathExpression@@QEAAXV?$GTable@VGAPDFPathComponent@@@@@Z",
+    "address": "0x3d910",
+    "ordinal": 1273
+  },
+  {
+    "name": "?SetCompressed@GAObject@@QEAAX_N@Z",
+    "address": "0x4790",
+    "ordinal": 1274
+  },
+  {
+    "name": "?SetCreationDate@GADoc@@QEAAXAEBVGDateTime@@@Z",
+    "address": "0x133d0",
+    "ordinal": 1275
+  },
+  {
+    "name": "?SetData@GAStream@@QEAAXAEAVGInStream@@AEBV?$GTable@VGAFilter@@@@_N@Z",
+    "address": "0x65880",
+    "ordinal": 1276
+  },
+  {
+    "name": "?SetData@GAStream@@QEAAXAEBVGBuffer@@AEBV?$GTable@VGAFilter@@@@_N@Z",
+    "address": "0x65940",
+    "ordinal": 1277
+  },
+  {
+    "name": "?SetDecodeParams@GAFilter@@QEAAXAEBVGADict@@@Z",
+    "address": "0x23340",
+    "ordinal": 1278
+  },
+  {
+    "name": "?SetDefaultFilterRules@GADocFactory@@QEAAXAEBVGAFilterRules@@@Z",
+    "address": "0x156b0",
+    "ordinal": 1279
+  },
+  {
+    "name": "?SetDimensions@GADCTFilter@@QEAAXAEBV?$GSizeBase@J@@@Z",
+    "address": "0xea80",
+    "ordinal": 1280
+  },
+  {
+    "name": "?SetDimensions@GAJPXFilter@@QEAAXAEBV?$GSizeBase@J@@@Z",
+    "address": "0x26010",
+    "ordinal": 1281
+  },
+  {
+    "name": "?SetDirect@GAObjectID@@QEAAX_N@Z",
+    "address": "0x8f00",
+    "ordinal": 1282
+  },
+  {
+    "name": "?SetDirty@GAObjectID@@QEAAX_N@Z",
+    "address": "0x8f10",
+    "ordinal": 1283
+  },
+  {
+    "name": "?SetDirtyFlag@GADoc@@QEAAX_N@Z",
+    "address": "0x13490",
+    "ordinal": 1284
+  },
+  {
+    "name": "?SetEarlyChange@GALZWFilter@@QEAAXJ@Z",
+    "address": "0x26cc0",
+    "ordinal": 1285
+  },
+  {
+    "name": "?SetEncryptMetadata@GADocEncryptionParams@@QEAAXW4EncryptMetadata@1@@Z",
+    "address": "0xa4d0",
+    "ordinal": 1286
+  },
+  {
+    "name": "?SetEncryptionType@GADocEncryptionParams@@QEAAXW4EncryptionType@1@@Z",
+    "address": "0x14270",
+    "ordinal": 1287
+  },
+  {
+    "name": "?SetEndOfBlockRequired@GACCITTFilter@@QEAAX_N@Z",
+    "address": "0x97c0",
+    "ordinal": 1288
+  },
+  {
+    "name": "?SetEndOfLineRequired@GACCITTFilter@@QEAAX_N@Z",
+    "address": "0x97f0",
+    "ordinal": 1289
+  },
+  {
+    "name": "?SetEntry@GAXRefOriginal@@QEAAXKG_J_N11@Z",
+    "address": "0x6e0d0",
+    "ordinal": 1290
+  },
+  {
+    "name": "?SetExtraTrailerDict@GAXRefOriginal@@QEAAXAEBVGADict@@@Z",
+    "address": "0x6e2b0",
+    "ordinal": 1291
+  },
+  {
+    "name": "?SetFileType@GADoc@@QEAA_NAEBVGFileType@@@Z",
+    "address": "0x134c0",
+    "ordinal": 1292
+  },
+  {
+    "name": "?SetFromEncryptionParams@GAEncryption@@AEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x1fda0",
+    "ordinal": 1293
+  },
+  {
+    "name": "?SetGeneralPermissionBits@GAEncryption@@AEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x201c0",
+    "ordinal": 1294
+  },
+  {
+    "name": "?SetGeneralPermissions@GADocEncryptionParams@@QEAAXW4GeneralPermissions@1@@Z",
+    "address": "0x14280",
+    "ordinal": 1295
+  },
+  {
+    "name": "?SetGenerationNumber@GAObjectID@@QEAAXG@Z",
+    "address": "0x8f20",
+    "ordinal": 1296
+  },
+  {
+    "name": "?SetHasClassicXRefSection@GAXRefOriginal@@QEAAX_N@Z",
+    "address": "0xa4b0",
+    "ordinal": 1297
+  },
+  {
+    "name": "?SetHex@GAString@@QEAAX_N@Z",
+    "address": "0x65c70",
+    "ordinal": 1298
+  },
+  {
+    "name": "?SetInStream@GANativeParser@@QEAAXPEAVGInStream@@@Z",
+    "address": "0x95280",
+    "ordinal": 1299
+  },
+  {
+    "name": "?SetInstance@GADocFactory@@SAXPEAV1@@Z",
+    "address": "0x156c0",
+    "ordinal": 1300
+  },
+  {
+    "name": "?SetInstance@GANativeParser@@SAXPEAV1@@Z",
+    "address": "0x95290",
+    "ordinal": 1301
+  },
+  {
+    "name": "?SetJpeg2000Quality@GAFilterRules@@QEAAX_NN@Z",
+    "address": "0x156f0",
+    "ordinal": 1302
+  },
+  {
+    "name": "?SetJpegQuality@GAFilterRules@@QEAAXJ@Z",
+    "address": "0x14270",
+    "ordinal": 1303
+  },
+  {
+    "name": "?SetLastCompared@GADefaultEquivStrategy@@IEAAXAEBVGAObject@@0@Z",
+    "address": "0x11330",
+    "ordinal": 1304
+  },
+  {
+    "name": "?SetLinearize@GADocSaveParams@@QEAAX_N@Z",
+    "address": "0x1a820",
+    "ordinal": 1305
+  },
+  {
+    "name": "?SetLossless@GAJPXFilter@@QEAAX_N@Z",
+    "address": "0x26030",
+    "ordinal": 1306
+  },
+  {
+    "name": "?SetMaxNativeGarbageInterval@GAPDFAccessLayer@@SAXJ@Z",
+    "address": "0x371c0",
+    "ordinal": 1307
+  },
+  {
+    "name": "?SetMaxNativeOrphansInterval@GAPDFAccessLayer@@SAXJ@Z",
+    "address": "0x371d0",
+    "ordinal": 1308
+  },
+  {
+    "name": "?SetMethod@GACCITTFilter@@QEAAXJ@Z",
+    "address": "0x9820",
+    "ordinal": 1309
+  },
+  {
+    "name": "?SetModDate@GADoc@@QEAAXAEBVGDateTime@@@Z",
+    "address": "0x134f0",
+    "ordinal": 1310
+  },
+  {
+    "name": "?SetModDate@GADocImp@@QEAAXAEBVGDateTime@@@Z",
+    "address": "0x18f20",
+    "ordinal": 1311
+  },
+  {
+    "name": "?SetNew@GAObjectID@@QEAAX_N@Z",
+    "address": "0x8f30",
+    "ordinal": 1312
+  },
+  {
+    "name": "?SetNewCompression@GADoc@@QEBAXW4DocCompression@GADocSaveParams@@@Z",
+    "address": "0x13520",
+    "ordinal": 1313
+  },
+  {
+    "name": "?SetNewCompression@GADocSaveParams@@QEAAXW4DocCompression@1@@Z",
+    "address": "0x1a840",
+    "ordinal": 1314
+  },
+  {
+    "name": "?SetNewEncryptionParams@GADoc@@QEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x13550",
+    "ordinal": 1315
+  },
+  {
+    "name": "?SetNewEncryptionParams@GADocSaveParams@@QEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x1a850",
+    "ordinal": 1316
+  },
+  {
+    "name": "?SetNewOwnerPassword@GADoc@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x13580",
+    "ordinal": 1317
+  },
+  {
+    "name": "?SetNewOwnerPassword@GADocSaveParams@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x1a8c0",
+    "ordinal": 1318
+  },
+  {
+    "name": "?SetNewUserPassword@GADoc@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x135b0",
+    "ordinal": 1319
+  },
+  {
+    "name": "?SetNewUserPassword@GADocSaveParams@@QEAAXAEBVGBuffer@@@Z",
+    "address": "0x1a920",
+    "ordinal": 1320
+  },
+  {
+    "name": "?SetNrColumns@GACCITTFilter@@QEAAXJ@Z",
+    "address": "0x9840",
+    "ordinal": 1321
+  },
+  {
+    "name": "?SetNrColumns@GAFlateFilter@@QEAAXJ@Z",
+    "address": "0x23690",
+    "ordinal": 1322
+  },
+  {
+    "name": "?SetNrColumns@GALZWFilter@@QEAAXJ@Z",
+    "address": "0x26cf0",
+    "ordinal": 1323
+  },
+  {
+    "name": "?SetNrComponents@GAFlateFilter@@QEAAXJ@Z",
+    "address": "0x236b0",
+    "ordinal": 1324
+  },
+  {
+    "name": "?SetNrComponents@GALZWFilter@@QEAAXJ@Z",
+    "address": "0x26d20",
+    "ordinal": 1325
+  },
+  {
+    "name": "?SetNrErrors@GACCITTFilter@@QEAAXJ@Z",
+    "address": "0x9860",
+    "ordinal": 1326
+  },
+  {
+    "name": "?SetNrRows@GACCITTFilter@@QEAAXJ@Z",
+    "address": "0x9880",
+    "ordinal": 1327
+  },
+  {
+    "name": "?SetNumColorPlanes@GAJPXFilter@@QEAAXJ@Z",
+    "address": "0x26050",
+    "ordinal": 1328
+  },
+  {
+    "name": "?SetObjectAtPath@GAPDFPathSupport@@YA_NAEBVGADoc@@AEBVGAPDFPathExpression@@AEBVGAObject@@@Z",
+    "address": "0x50bf0",
+    "ordinal": 1329
+  },
+  {
+    "name": "?SetObjectNumber@GAObjectID@@QEAAXK@Z",
+    "address": "0x8f40",
+    "ordinal": 1330
+  },
+  {
+    "name": "?SetOptimize@GADocSaveParams@@QEAAX_N@Z",
+    "address": "0x1a980",
+    "ordinal": 1331
+  },
+  {
+    "name": "?SetPathName@GADocSaveParams@@QEAAXAEBVGPathName@@@Z",
+    "address": "0x1a9a0",
+    "ordinal": 1332
+  },
+  {
+    "name": "?SetPredictor@GAFlateFilter@@QEAAXJ@Z",
+    "address": "0x236d0",
+    "ordinal": 1333
+  },
+  {
+    "name": "?SetPredictor@GALZWFilter@@QEAAXJ@Z",
+    "address": "0x26d50",
+    "ordinal": 1334
+  },
+  {
+    "name": "?SetPrintPermissionBits@GAEncryption@@AEAAXAEBVGADocEncryptionParams@@@Z",
+    "address": "0x20270",
+    "ordinal": 1335
+  },
+  {
+    "name": "?SetPrintPermissions@GADocEncryptionParams@@QEAAXW4PrintPermissions@1@@Z",
+    "address": "0x14290",
+    "ordinal": 1336
+  },
+  {
+    "name": "?SetQuality@GADCTFilter@@QEAAXJ@Z",
+    "address": "0xeab0",
+    "ordinal": 1337
+  },
+  {
+    "name": "?SetQuality@GAJPXFilter@@QEAAXN@Z",
+    "address": "0x26070",
+    "ordinal": 1338
+  },
+  {
+    "name": "?SetRemoveSecurity@GADoc@@QEAAX_N@Z",
+    "address": "0x135e0",
+    "ordinal": 1339
+  },
+  {
+    "name": "?SetRemoveSecurity@GADocSaveParams@@QEAAX_N@Z",
+    "address": "0x1a9b0",
+    "ordinal": 1340
+  },
+  {
+    "name": "?SetRetval@GANativeParser@@AEAAXPEAVGAObjectNativeImp@@J@Z",
+    "address": "0x371e0",
+    "ordinal": 1341
+  },
+  {
+    "name": "?SetSaveIncremental@GADocSaveParams@@QEAAX_N@Z",
+    "address": "0x1a9c0",
+    "ordinal": 1342
+  },
+  {
+    "name": "?SetSecurity@GAEncryption@@QEAAXPEBVGBuffer@@0PEBVGADocEncryptionParams@@@Z",
+    "address": "0x202f0",
+    "ordinal": 1343
+  },
+  {
+    "name": "?SetStringEncoding@GADocParams@@QEAAXW4StringEncoding@1@@Z",
+    "address": "0x14270",
+    "ordinal": 1344
+  },
+  {
+    "name": "?SetStringInDict@GAObjectSupport@@SA_NAEAVGADict@@AEBVGName@@AEBVGString@@@Z",
+    "address": "0x32f90",
+    "ordinal": 1345
+  },
+  {
+    "name": "?SetTempFilePageSize@GAPDFAccessLayer@@SAXJ@Z",
+    "address": "0x371f0",
+    "ordinal": 1346
+  },
+  {
+    "name": "?SetTrailerDict@GAXRefOriginal@@QEAAXAEBVGADict@@@Z",
+    "address": "0x6e2f0",
+    "ordinal": 1347
+  },
+  {
+    "name": "?SetUndoLimit@GAUndoManager@@SAXJ@Z",
+    "address": "0x675e0",
+    "ordinal": 1348
+  },
+  {
+    "name": "?SetUniqueID@GADoc@@QEAAXAEBVGBuffer@@0@Z",
+    "address": "0x13610",
+    "ordinal": 1349
+  },
+  {
+    "name": "?SetVersion@GADoc@@QEAAXJJ@Z",
+    "address": "0x13650",
+    "ordinal": 1350
+  },
+  {
+    "name": "?SetVersion@GADocSaveParams@@QEAAXJJ@Z",
+    "address": "0x1a9e0",
+    "ordinal": 1351
+  },
+  {
+    "name": "?SetVersionPolicy@GADocParams@@QEAAXW4VersionPolicy@1@@Z",
+    "address": "0x19ea0",
+    "ordinal": 1352
+  },
+  {
+    "name": "?SetWriteCharSet@GADocParams@@QEAAXW4WriteCharSet@1@@Z",
+    "address": "0xa4d0",
+    "ordinal": 1353
+  },
+  {
+    "name": "?SetWriteInfoDict@GADocParams@@QEAAXW4WriteInfoDict@1@@Z",
+    "address": "0x14260",
+    "ordinal": 1354
+  },
+  {
+    "name": "?SetWriteInlineImageLengthKey@GADocParams@@QEAAXW4WriteInlineImageLengthKey@1@@Z",
+    "address": "0x14290",
+    "ordinal": 1355
+  },
+  {
+    "name": "?SetWriteProcSet@GADocParams@@QEAAXW4WriteProcSet@1@@Z",
+    "address": "0x14280",
+    "ordinal": 1356
+  },
+  {
+    "name": "?ShouldCompareDictLengths@GADefaultEquivStrategy@@MEAA_NXZ",
+    "address": "0x48f0",
+    "ordinal": 1357
+  },
+  {
+    "name": "?ShouldCompareDictLengths@GAPartialEquivalenceStrategy@@UEAA_NXZ",
+    "address": "0xe7f0",
+    "ordinal": 1358
+  },
+  {
+    "name": "?ShouldFollow@GADefaultEquivStrategy@@MEAA_NAEBVGAObject@@@Z",
+    "address": "0x113a0",
+    "ordinal": 1359
+  },
+  {
+    "name": "?ShouldFollow@GADefaultEquivStrategy@@MEAA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0xe800",
+    "ordinal": 1360
+  },
+  {
+    "name": "?ShouldFollow@GAFuzzyEquivStrategy@@UEAA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x25820",
+    "ordinal": 1361
+  },
+  {
+    "name": "?ShouldFollow@GAPartialEquivalenceStrategy@@UEAA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0xe810",
+    "ordinal": 1362
+  },
+  {
+    "name": "?ShouldProcess@GADeepProcessingStrategy@@EEBA_NAEBVGAObject@@@Z",
+    "address": "0x48f0",
+    "ordinal": 1363
+  },
+  {
+    "name": "?ShouldProcess@GADeepProcessingStrategy@@EEBA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x48f0",
+    "ordinal": 1364
+  },
+  {
+    "name": "?ShouldProcess@GAPartialProcessingStrategy@@MEBA_NAEBVGAObject@@@Z",
+    "address": "0x34a00",
+    "ordinal": 1365
+  },
+  {
+    "name": "?ShouldProcess@GAPartialProcessingStrategy@@MEBA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x34b00",
+    "ordinal": 1366
+  },
+  {
+    "name": "?ShouldProcess@GAShallowProcessingStrategy@@EEBA_NAEBVGAObject@@@Z",
+    "address": "0x9fc0",
+    "ordinal": 1367
+  },
+  {
+    "name": "?ShouldProcess@GAShallowProcessingStrategy@@EEBA_NAEBVGName@@AEBVGAObject@@@Z",
+    "address": "0x9fc0",
+    "ordinal": 1368
+  },
+  {
+    "name": "?SplitOorUAESV3@GAEncryption@@CAXAEBVGBuffer@@AEAV2@11@Z",
+    "address": "0x20680",
+    "ordinal": 1369
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADoc@@@@MEAAXJ@Z",
+    "address": "0x8f60",
+    "ordinal": 1370
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocDeletePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x13b00",
+    "ordinal": 1371
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocDidChangePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x14090",
+    "ordinal": 1372
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocDidSaveMessage@@@@MEAAXJ@Z",
+    "address": "0x2b180",
+    "ordinal": 1373
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocDigSignatureMessage@@@@MEAAXJ@Z",
+    "address": "0x23060",
+    "ordinal": 1374
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocInsertPagesMessage@@@@MEAAXJ@Z",
+    "address": "0x19890",
+    "ordinal": 1375
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocMovePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x19d20",
+    "ordinal": 1376
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocReplacePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x1a350",
+    "ordinal": 1377
+  },
+  {
+    "name": "?Subscribe@?$GReceiver@VGADocWillSaveMessage@@@@MEAAXJ@Z",
+    "address": "0x230b0",
+    "ordinal": 1378
+  },
+  {
+    "name": "?TranslatePermissions@GADocImp@@KAJJ_N00000000@Z",
+    "address": "0x18ff0",
+    "ordinal": 1379
+  },
+  {
+    "name": "?TranslateToName@GAFilterTypes@@YAAEBVGBuffer@@J@Z",
+    "address": "0x233f0",
+    "ordinal": 1380
+  },
+  {
+    "name": "?TranslateToType@GAFilterTypes@@YAJAEBVGBuffer@@@Z",
+    "address": "0x23410",
+    "ordinal": 1381
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADoc@@@@MEAAXJ@Z",
+    "address": "0x8fb0",
+    "ordinal": 1382
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocDeletePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x13b50",
+    "ordinal": 1383
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocDidChangePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x140e0",
+    "ordinal": 1384
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocDidSaveMessage@@@@MEAAXJ@Z",
+    "address": "0x2b1d0",
+    "ordinal": 1385
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocDigSignatureMessage@@@@MEAAXJ@Z",
+    "address": "0x23100",
+    "ordinal": 1386
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocInsertPagesMessage@@@@MEAAXJ@Z",
+    "address": "0x198e0",
+    "ordinal": 1387
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocMovePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x19d70",
+    "ordinal": 1388
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocReplacePagesMessage@@@@MEAAXJ@Z",
+    "address": "0x1a3a0",
+    "ordinal": 1389
+  },
+  {
+    "name": "?UnSubscribe@?$GReceiver@VGADocWillSaveMessage@@@@MEAAXJ@Z",
+    "address": "0x23200",
+    "ordinal": 1390
+  },
+  {
+    "name": "?Undo@GAUndoArrayInsert@@EEAAXXZ",
+    "address": "0x66060",
+    "ordinal": 1391
+  },
+  {
+    "name": "?Undo@GAUndoArrayPut@@EEAAXXZ",
+    "address": "0x661d0",
+    "ordinal": 1392
+  },
+  {
+    "name": "?Undo@GAUndoArrayRemove@@EEAAXXZ",
+    "address": "0x66050",
+    "ordinal": 1393
+  },
+  {
+    "name": "?Undo@GAUndoDictPut@@EEAAXXZ",
+    "address": "0x663e0",
+    "ordinal": 1394
+  },
+  {
+    "name": "?Undo@GAUndoDictRemove@@EEAAXXZ",
+    "address": "0x66470",
+    "ordinal": 1395
+  },
+  {
+    "name": "?Undo@GAUndoManager@@QEAAXK@Z",
+    "address": "0x67ba0",
+    "ordinal": 1396
+  },
+  {
+    "name": "?Undo@GAUndoObjectCreate@@EEAAXXZ",
+    "address": "0x67e80",
+    "ordinal": 1397
+  },
+  {
+    "name": "?Undo@GAUndoStringHex@@EEAAXXZ",
+    "address": "0x68400",
+    "ordinal": 1398
+  },
+  {
+    "name": "?UnreadToken@GAObjectFormatChecker@@AEAAXXZ",
+    "address": "0x2eef0",
+    "ordinal": 1399
+  },
+  {
+    "name": "?UnregisterClone@GACloneStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0xcb00",
+    "ordinal": 1400
+  },
+  {
+    "name": "?UnregisterClone@GAShallowCloneReplaceStrategy@@UEAAXAEBVGAObject@@@Z",
+    "address": "0x652d0",
+    "ordinal": 1401
+  },
+  {
+    "name": "?UpdateFileFilters@GADocFactory@@EEAAXAEAVGADict@@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x15700",
+    "ordinal": 1402
+  },
+  {
+    "name": "?UpdateFilters@GADocFactory@@UEAAXAEAVGADict@@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x15e20",
+    "ordinal": 1403
+  },
+  {
+    "name": "?UpdateInlineFilters@GADocFactory@@EEAAXAEAVGADict@@AEBV?$GTable@VGAFilter@@@@@Z",
+    "address": "0x16840",
+    "ordinal": 1404
+  },
+  {
+    "name": "?UpdateModDate@GADocImp@@QEAAXXZ",
+    "address": "0x190d0",
+    "ordinal": 1405
+  },
+  {
+    "name": "?ValidatePermsAESV3@GAEncryption@@CA_NAEBVGBuffer@@0_NAEAJ@Z",
+    "address": "0x20750",
+    "ordinal": 1406
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x71ae0",
+    "ordinal": 1407
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGABool@@@Z",
+    "address": "0x71b00",
+    "ordinal": 1408
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGADict@@@Z",
+    "address": "0x71b40",
+    "ordinal": 1409
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGAName@@@Z",
+    "address": "0x71b60",
+    "ordinal": 1410
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGANull@@@Z",
+    "address": "0x71bf0",
+    "ordinal": 1411
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGANumber@@@Z",
+    "address": "0x71c10",
+    "ordinal": 1412
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEAVGAString@@@Z",
+    "address": "0x71c70",
+    "ordinal": 1413
+  },
+  {
+    "name": "?Visit@GAInlineGenerator@@UEAAXAEBVGName@@@Z",
+    "address": "0x71eb0",
+    "ordinal": 1414
+  },
+  {
+    "name": "?Visit@GAPathExpressionProcessingStrategy@@EEAAXAEAVGAObject@@AEAVGAVisitor@@@Z",
+    "address": "0x35c00",
+    "ordinal": 1415
+  },
+  {
+    "name": "?Visit@GAProcessingStrategy@@UEAAXAEAVGAObject@@AEAVGAVisitor@@@Z",
+    "address": "0x63e10",
+    "ordinal": 1416
+  },
+  {
+    "name": "?Visit@GAVFindMatchingObjects@@UEAAXAEAVGAObject@@@Z",
+    "address": "0x68940",
+    "ordinal": 1417
+  },
+  {
+    "name": "?Visit@GAVFindPathToObject@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x69010",
+    "ordinal": 1418
+  },
+  {
+    "name": "?Visit@GAVFindPathToObject@@EEAAXAEAVGADict@@@Z",
+    "address": "0x69010",
+    "ordinal": 1419
+  },
+  {
+    "name": "?Visit@GAVFindPathToObject@@EEAAXAEAVGAObject@@@Z",
+    "address": "0x69090",
+    "ordinal": 1420
+  },
+  {
+    "name": "?Visit@GAVFindPathToObjects@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x69d10",
+    "ordinal": 1421
+  },
+  {
+    "name": "?Visit@GAVFindPathToObjects@@EEAAXAEAVGADict@@@Z",
+    "address": "0x69ef0",
+    "ordinal": 1422
+  },
+  {
+    "name": "?Visit@GAVFindPathToObjects@@EEAAXAEAVGAObject@@@Z",
+    "address": "0x6a0a0",
+    "ordinal": 1423
+  },
+  {
+    "name": "?Visit@GAVFixObjectCompressionForOldAcrobats@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6f7f0",
+    "ordinal": 1424
+  },
+  {
+    "name": "?Visit@GAVFixObjectCompressionForOldAcrobats@@UEAAXAEAVGAObject@@@Z",
+    "address": "0x6f8f0",
+    "ordinal": 1425
+  },
+  {
+    "name": "?Visit@GAVFixObjectCompressionForOldAcrobats@@UEAAXAEBVGName@@@Z",
+    "address": "0x6fb80",
+    "ordinal": 1426
+  },
+  {
+    "name": "?Visit@GAVGetPDFPathExpressions@@EEAAXAEAVGAArray@@@Z",
+    "address": "0x6fc00",
+    "ordinal": 1427
+  },
+  {
+    "name": "?Visit@GAVGetPDFPathExpressions@@EEAAXAEAVGADict@@@Z",
+    "address": "0x6fc70",
+    "ordinal": 1428
+  },
+  {
+    "name": "?Visit@GAVGetPDFPathExpressions@@EEAAXAEAVGAObject@@@Z",
+    "address": "0x6fce0",
+    "ordinal": 1429
+  },
+  {
+    "name": "?Visit@GAVGetPDFPathExpressions@@EEAAXAEBVGName@@@Z",
+    "address": "0x6fe50",
+    "ordinal": 1430
+  },
+  {
+    "name": "?Visit@GAVGetPDFPathExpressions@@EEAAXJ@Z",
+    "address": "0x6fea0",
+    "ordinal": 1431
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1432
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGABool@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1433
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1434
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGADoc@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1435
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGAName@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1436
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGANull@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1437
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGANumber@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1438
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGAObject@@@Z",
+    "address": "0x6250",
+    "ordinal": 1439
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGAStream@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1440
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEAVGAString@@@Z",
+    "address": "0x6a1d0",
+    "ordinal": 1441
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXAEBVGName@@@Z",
+    "address": "0x6250",
+    "ordinal": 1442
+  },
+  {
+    "name": "?Visit@GAVisitor@@UEAAXJ@Z",
+    "address": "0x6250",
+    "ordinal": 1443
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGAArray@@@Z",
+    "address": "0x6a530",
+    "ordinal": 1444
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGABool@@@Z",
+    "address": "0x6a5a0",
+    "ordinal": 1445
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGADict@@@Z",
+    "address": "0x6a610",
+    "ordinal": 1446
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGADoc@@@Z",
+    "address": "0x6a680",
+    "ordinal": 1447
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGAName@@@Z",
+    "address": "0x6a6f0",
+    "ordinal": 1448
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGANull@@@Z",
+    "address": "0x6a760",
+    "ordinal": 1449
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGANumber@@@Z",
+    "address": "0x6a7d0",
+    "ordinal": 1450
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGAObject@@@Z",
+    "address": "0x6a840",
+    "ordinal": 1451
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGAStream@@@Z",
+    "address": "0x6a8b0",
+    "ordinal": 1452
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEAVGAString@@@Z",
+    "address": "0x6a920",
+    "ordinal": 1453
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXAEBVGName@@@Z",
+    "address": "0x6a990",
+    "ordinal": 1454
+  },
+  {
+    "name": "?Visit@GAVisitorBlock@@UEAAXJ@Z",
+    "address": "0x6aa00",
+    "ordinal": 1455
+  },
+  {
+    "name": "?WasRepaired@GADoc@@QEBA_NXZ",
+    "address": "0x13690",
+    "ordinal": 1456
+  },
+  {
+    "name": "?WriteVersionToGBuffer@GADocImp@@KAXJJJAEAVGBuffer@@@Z",
+    "address": "0x19280",
+    "ordinal": 1457
+  },
+  {
+    "name": "?algo3_1_AES@GAEncryption@@CAXJJAEBVGBuffer@@AEAV2@@Z",
+    "address": "0x20850",
+    "ordinal": 1458
+  },
+  {
+    "name": "?algo3_1_RC4@GAEncryption@@CAXJJAEBVGBuffer@@AEAV2@@Z",
+    "address": "0x20940",
+    "ordinal": 1459
+  },
+  {
+    "name": "?algo3_2@GAEncryption@@CAXAEBVGBuffer@@J0JJ0_NAEAV2@@Z",
+    "address": "0x20a20",
+    "ordinal": 1460
+  },
+  {
+    "name": "?algo3_3@GAEncryption@@CAXAEBVGBuffer@@0JJAEAV2@@Z",
+    "address": "0x20c20",
+    "ordinal": 1461
+  },
+  {
+    "name": "?algo3_45@GAEncryption@@CAXAEBVGBuffer@@0JJ0J_NAEAV2@@Z",
+    "address": "0x20ee0",
+    "ordinal": 1462
+  },
+  {
+    "name": "?algo3_6@GAEncryption@@CA_NAEBVGBuffer@@00JJ0J_N@Z",
+    "address": "0x210a0",
+    "ordinal": 1463
+  },
+  {
+    "name": "?algo3_7@GAEncryption@@CA_NAEBVGBuffer@@00JJ0J_NAEAV2@@Z",
+    "address": "0x21190",
+    "ordinal": 1464
+  },
+  {
+    "name": "?sCheckpointLimit@GAUndoManager@@0JA",
+    "address": "0x349f90",
+    "ordinal": 1465
+  },
+  {
+    "name": "?sDocFactory@GADocFactory@@1PEAV1@EA",
+    "address": "0x352448",
+    "ordinal": 1466
+  },
+  {
+    "name": "?sExtraSevere@GAPartialProcessingStrategy@@2_NB",
+    "address": "0x2375a0",
+    "ordinal": 1467
+  },
+  {
+    "name": "?sGAScratchDoc@GAScratchDoc@@0VGADoc@@A",
+    "address": "0x352d68",
+    "ordinal": 1468
+  },
+  {
+    "name": "?sInclusiveKeys@GAPartialProcessingStrategy@@2_NB",
+    "address": "0x2375a1",
+    "ordinal": 1469
+  },
+  {
+    "name": "?sInitialized@GAPDFAccessLayer@@0JA",
+    "address": "0x352880",
+    "ordinal": 1470
+  },
+  {
+    "name": "?sInitialized@GAScratchDoc@@0JA",
+    "address": "0x352d60",
+    "ordinal": 1471
+  },
+  {
+    "name": "?sInstance@GANativeParser@@0PEAV1@EA",
+    "address": "0x353350",
+    "ordinal": 1472
+  },
+  {
+    "name": "?sMaxArrayLength@GAImplementationLimits@@2JB",
+    "address": "0x236ef0",
+    "ordinal": 1473
+  },
+  {
+    "name": "?sMaxCIDIdentifier@GAImplementationLimits@@2JB",
+    "address": "0x236f04",
+    "ordinal": 1474
+  },
+  {
+    "name": "?sMaxContentStringLength@GAImplementationLimits@@2JB",
+    "address": "0x236ee4",
+    "ordinal": 1475
+  },
+  {
+    "name": "?sMaxDictionaryLength@GAImplementationLimits@@2JB",
+    "address": "0x236ef4",
+    "ordinal": 1476
+  },
+  {
+    "name": "?sMaxInlineGarbage@GAObjectFactory@@1JB",
+    "address": "0x2372d0",
+    "ordinal": 1477
+  },
+  {
+    "name": "?sMaxIntValue@GAImplementationLimits@@2_JB",
+    "address": "0x236ed0",
+    "ordinal": 1478
+  },
+  {
+    "name": "?sMaxNameLength@GAImplementationLimits@@2JB",
+    "address": "0x236eec",
+    "ordinal": 1479
+  },
+  {
+    "name": "?sMaxNumberDeviceNComponents@GAImplementationLimits@@2JB",
+    "address": "0x236f00",
+    "ordinal": 1480
+  },
+  {
+    "name": "?sMaxNumberOfIndirectObjects@GAImplementationLimits@@2JB",
+    "address": "0x236ef8",
+    "ordinal": 1481
+  },
+  {
+    "name": "?sMaxNumberOfSignificantDigits@GAImplementationLimits@@2JB",
+    "address": "0x236ee0",
+    "ordinal": 1482
+  },
+  {
+    "name": "?sMaxQNesting@GAImplementationLimits@@2JB",
+    "address": "0x236efc",
+    "ordinal": 1483
+  },
+  {
+    "name": "?sMaxRealValue@GAImplementationLimits@@2JB",
+    "address": "0x236ed8",
+    "ordinal": 1484
+  },
+  {
+    "name": "?sMaxStringLength@GAImplementationLimits@@2JB",
+    "address": "0x236ee8",
+    "ordinal": 1485
+  },
+  {
+    "name": "?sMinIntValue@GAImplementationLimits@@2_JB",
+    "address": "0x236ec8",
+    "ordinal": 1486
+  },
+  {
+    "name": "?sMinRealValue@GAImplementationLimits@@2JB",
+    "address": "0x236edc",
+    "ordinal": 1487
+  },
+  {
+    "name": "?sUndoManagers@GAUndoManager@@0V?$GTable@PEAVGAUndoManager@@@@A",
+    "address": "0x352d88",
+    "ordinal": 1488
+  }
+]

@@ -1,0 +1,8 @@
+requested=0x180327560
+resolvedAddress=180327560
+minAddress=180000000
+inMemory=true
+isFunctionEntry=false
+containingFunction=
+status=NO_FUNCTION_AT_ENTRY
+bytes=496e76616c6964206c6f6f6b626568696e6420617373657274696f6e20656e63

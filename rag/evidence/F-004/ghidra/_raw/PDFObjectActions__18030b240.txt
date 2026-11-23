@@ -1,0 +1,27 @@
+address: 18030b240
+name: GOVGetSelectedObjects::GetObjects
+signature: GTable<GOObject*___ptr64> * __thiscall GetObjects(void)
+body_bytes: 11
+param_count: 1
+
+[callers]
+  1800adc30 GOVChangeIsolateClippaths::Visit
+[callees]
+[string_refs]
+[pointer_hits_non_exec]
+
+[decompiled]
+
+/* public: class GTable<class GOObject * __ptr64> const & __ptr64 __cdecl
+   GOVGetSelectedObjects::GetObjects(void)const __ptr64 */
+
+GTable<GOObject*___ptr64> * __thiscall
+GOVGetSelectedObjects::GetObjects(GOVGetSelectedObjects *this)
+
+{
+                    /* 0x30b240  7866
+                       ?GetObjects@GOVGetSelectedObjects@@QEBAAEBV?$GTable@PEAVGOObject@@@@XZ */
+  return (GTable<GOObject*___ptr64> *)**(undefined8 **)(this + 0x1e0);
+}
+
+

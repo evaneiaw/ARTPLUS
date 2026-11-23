@@ -1,0 +1,30 @@
+{
+  "id": "F-005",
+  "versao_ref": "24.03.10017",
+  "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\Document.dll",
+  "sha256": "DA91E28574C877D392D3E6BEF9CCBB7C4DCF3117EBD03655DE89834FC8FA9E21",
+  "estatico": [
+    "GHIDRA-Document-0x1802160B0",
+    "GHIDRA-Document-0x180216270",
+    "GHIDRA-Document-0x1800A2E40",
+    "GHIDRA-Document-0x180094E10",
+    "GHIDRA-Document-0x18008F590",
+    "GHIDRA-Document-0x180093D60",
+    "GHIDRA-Document-0x180097960",
+    "GHIDRA-Document-0x180097AB0",
+    "GHIDRA-Document-0x180083F80",
+    "GHIDRA-Document-0x1800973A0",
+    "GHIDRA-Document-0x1800973D0",
+    "GHIDRA-Document-0x1800A1230",
+    "GHIDRA-Document-0x180094F40",
+    "GHIDRA-Document-0x1800A0EC0"
+  ],
+  "comportamental": [
+    "CAP-20261121-01"
+  ],
+  "bloqueios": [
+    "IDs historicos GHIDRA-PDFAccessLayer-0x e GHIDRA-PDFObjectLayer-0x da spec antiga pertencem a outros modulos (PDFAccessLayer.dll e PDFObjectLayer.dll) e nao sao evidencia deste manifest, cujo alvo e Document.dll v240.",
+    "Registro do handler de PDF nao observado no Document.dll: a string \"application/pdf\" (0x1802eaae8) so tem xref de dados; o parse do PDF e delegado a PDFOBJECTLAYER.DLL::GODocument, importado pelo construtor Document::Document.",
+    "0x180094F40 pertence ao fluxo de Document::Save (montagem de GADocEncryptionParams), nao ao caminho de abertura; foi registrado para separar leitura de criptografia (Document::Document) de gravacao."
+  ]
+}

@@ -1,0 +1,410 @@
+requested=0x180172100
+resolvedAddress=180172100
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180172100 FUN_180172100
+status=OK
+entry=180172100
+name=FUN_180172100
+qualifiedName=FUN_180172100
+namespace=Global
+signature=undefined FUN_180172100()
+returnType=undefined
+parameterCount=0
+bodyMin=180172100
+bodyMax=18017256d
+bodySize=1129
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+18048855c refType=DATA fromFunction=
+18016a437 refType=UNCONDITIONAL_CALL fromFunction=1801683e0 FUN_1801683e0
+
+[CALLERS]
+1801683e0 FUN_1801683e0
+
+[CALLEES]
+180135230 DocumentMarks::PDFPlusCutMark::SetReferenceObject
+EXTERNAL:00000428 PDFACCESSLAYER.DLL::GAString::~GAString
+EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+18000f510 FUN_18000f510
+EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+180108330 DocumentMarks::MarkPosition::ref2box
+EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+EXTERNAL:000003a6 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+EXTERNAL:000003a7 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+EXTERNAL:0000042a PDFACCESSLAYER.DLL::GADict::GetString
+1802cbfd0 __security_check_cookie
+EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+EXTERNAL:0000041f PDFACCESSLAYER.DLL::GADict::GADict
+EXTERNAL:00000424 PDFACCESSLAYER.DLL::GAObject::IsString
+EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+18017bac0 FUN_18017bac0
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180135160 DocumentMarks::PDFPlusCutMark::SetOffset
+EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+18017a9c0 FUN_18017a9c0
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18004e3a0 FUN_18004e3a0
+180011420 FUN_180011420
+EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+
+[DIRECT_CALL_TARGETS]
+180172143 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180172156 -> EXTERNAL:0000042c PDFACCESSLAYER.DLL::GADict::GetDict
+180172167 -> EXTERNAL:0000041f PDFACCESSLAYER.DLL::GADict::GADict
+180172173 -> 18017bac0 FUN_18017bac0
+180172184 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180172199 -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+1801721a5 -> 18017a9c0 FUN_18017a9c0
+1801721ad -> 180172255 FUN_180172100
+1801721bf -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801721d4 -> EXTERNAL:00000429 PDFACCESSLAYER.DLL::GADict::GetName
+1801721e2 -> EXTERNAL:000003a6 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+1801721ee -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+1801721f7 -> EXTERNAL:00000242 DOCUMENT.DLL::ArtDoc::ContentObject::GetProperties
+18017220b -> 18004e3a0 FUN_18004e3a0
+180172219 -> 1801722a5 FUN_180172100
+180172230 -> 18017224e FUN_180172100
+180172245 -> 18017224e FUN_180172100
+180172247 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18017224e -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180172253 -> 1801722a5 FUN_180172100
+180172257 -> 180108330 DocumentMarks::MarkPosition::ref2box
+18017226c -> 180135230 DocumentMarks::PDFPlusCutMark::SetReferenceObject
+18017227b -> 1801722a5 FUN_180172100
+180172281 -> 1801722a5 FUN_180172100
+180172287 -> 1801722a5 FUN_180172100
+18017228d -> 180011420 FUN_180011420
+180172296 -> 180011420 FUN_180011420
+1801722a0 -> 180011420 FUN_180011420
+1801722b1 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801722c1 -> EXTERNAL:00000409 PDFACCESSLAYER.DLL::GADict::Has
+1801722c9 -> 1801724b3 FUN_180172100
+1801722db -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801722f0 -> EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+1801722fa -> EXTERNAL:00000424 PDFACCESSLAYER.DLL::GAObject::IsString
+180172308 -> EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+18017231a -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180172331 -> 180172413 FUN_180172100
+180172337 -> EXTERNAL:0000042a PDFACCESSLAYER.DLL::GADict::GetString
+180172348 -> EXTERNAL:000003a7 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+180172354 -> EXTERNAL:00000428 PDFACCESSLAYER.DLL::GAString::~GAString
+180172363 -> 18000f510 FUN_18000f510
+180172375 -> 180135160 DocumentMarks::PDFPlusCutMark::SetOffset
+180172385 -> 1801723ce FUN_180172100
+18017238b -> 1801723ce FUN_180172100
+180172396 -> 1801723ce FUN_180172100
+1801723aa -> 1801723c8 FUN_180172100
+1801723bf -> 1801723c8 FUN_180172100
+1801723c1 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1801723c8 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1801723d6 -> 18017252e FUN_180172100
+1801723ed -> 180172528 FUN_180172100
+180172406 -> 180172528 FUN_180172100
+18017240c -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180172413 -> EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+18017241d -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+18017242b -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180172450 -> 180135160 DocumentMarks::PDFPlusCutMark::SetOffset
+180172460 -> 18017252e FUN_180172100
+18017246a -> 18017252e FUN_180172100
+180172479 -> 18017252e FUN_180172100
+180172491 -> 180172528 FUN_180172100
+1801724aa -> 180172528 FUN_180172100
+1801724ac -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1801724d5 -> 180135160 DocumentMarks::PDFPlusCutMark::SetOffset
+1801724e5 -> 18017252e FUN_180172100
+1801724eb -> 18017252e FUN_180172100
+1801724f6 -> 18017252e FUN_180172100
+18017250a -> 180172528 FUN_180172100
+18017251f -> 180172528 FUN_180172100
+180172521 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180172528 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180172533 -> EXTERNAL:00000433 PDFACCESSLAYER.DLL::GAName::~GAName
+18017253f -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+18017254c -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+180312740 "Reference"
+180312798 "ReferenceID"
+1803127b8 "Offset"
+18031a378 "Position"
+
+[DATA_XREFS_FROM_BODY]
+180172103 -> Stack[0x20] block=? sym=
+18017210a -> Stack[-0x58] block=? sym=
+180172115 -> Stack[-0x28] block=? sym=
+180172119 -> Stack[-0x38] block=? sym=
+18017211d -> 180409ec0 block=.data sym=DAT_180409ec0
+180172127 -> Stack[-0x48] block=? sym=
+180172137 -> 18031a378 block=.rdata sym=s_Position_18031a378
+18017213e -> Stack[-0x130] block=? sym=
+180172143 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180172149 -> Stack[-0x130] block=? sym=
+18017214e -> Stack[-0x128] block=? sym=
+180172156 -> 1802f3858 block=.rdata sym=PTR_GetDict_1802f3858
+18017215d -> Stack[-0x128] block=? sym=
+180172162 -> Stack[-0x120] block=? sym=
+180172167 -> 1802f37f0 block=.rdata sym=PTR_GADict_1802f37f0
+180172178 -> 180312740 block=.rdata sym=s_Reference_180312740
+18017217f -> Stack[-0x120] block=? sym=
+180172184 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18017218a -> Stack[-0x120] block=? sym=
+18017218f -> Stack[-0xf0] block=? sym=
+180172194 -> Stack[-0x128] block=? sym=
+180172199 -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+1801721a0 -> Stack[-0xf0] block=? sym=
+1801721b3 -> 180312798 block=.rdata sym=s_ReferenceID_180312798
+1801721ba -> Stack[-0x130] block=? sym=
+1801721bf -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801721c5 -> Stack[-0x130] block=? sym=
+1801721ca -> Stack[-0x138] block=? sym=
+1801721cf -> Stack[-0x128] block=? sym=
+1801721d4 -> 1802f3840 block=.rdata sym=PTR_GetName_1802f3840
+1801721de -> Stack[-0x68] block=? sym=
+1801721e2 -> 1802f2908 block=.rdata sym=PTR_UTF8String_1802f2908
+1801721e9 -> Stack[-0x138] block=? sym=
+1801721ee -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+1801721f7 -> 1802f1de8 block=.rdata sym=PTR_GetProperties_1802f1de8
+1801721fd -> Stack[-0x68] block=? sym=
+180172201 -> 180319958 block=.rdata sym=PTR_s_DocumentMarks_CutMark_ReferenceI_180319958
+180172211 -> Stack[-0x50] block=? sym=
+180172222 -> Stack[-0x68] block=? sym=
+180172247 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18017225c -> Stack[-0xe8] block=? sym=
+180172260 -> Stack[-0x70] block=? sym=
+180172264 -> Stack[-0xe8] block=? sym=
+180172272 -> Stack[-0x70] block=? sym=
+180172289 -> Stack[-0x98] block=? sym=
+180172292 -> Stack[-0xc0] block=? sym=
+18017229b -> Stack[-0xe8] block=? sym=
+1801722a5 -> 1803127b8 block=.rdata sym=s_Offset_1803127b8
+1801722ac -> Stack[-0x138] block=? sym=
+1801722b1 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801722b7 -> Stack[-0x138] block=? sym=
+1801722bc -> Stack[-0x128] block=? sym=
+1801722c1 -> 1802f3740 block=.rdata sym=PTR_Has_1802f3740
+1801722cf -> 1803127b8 block=.rdata sym=s_Offset_1803127b8
+1801722d6 -> Stack[-0x138] block=? sym=
+1801722db -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801722e1 -> Stack[-0x138] block=? sym=
+1801722e6 -> Stack[-0x130] block=? sym=
+1801722eb -> Stack[-0x128] block=? sym=
+1801722f0 -> 1802f36b0 block=.rdata sym=PTR_Get_1802f36b0
+1801722fa -> 1802f3818 block=.rdata sym=PTR_IsString_1802f3818
+180172303 -> Stack[-0x130] block=? sym=
+180172308 -> 1802f36c0 block=.rdata sym=PTR_~GAObject_1802f36c0
+18017230e -> 1803127b8 block=.rdata sym=s_Offset_1803127b8
+180172315 -> Stack[-0x138] block=? sym=
+18017231a -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+180172320 -> Stack[-0x138] block=? sym=
+180172325 -> Stack[-0x130] block=? sym=
+18017232a -> Stack[-0x128] block=? sym=
+180172337 -> 1802f3848 block=.rdata sym=PTR_GetString_1802f3848
+180172344 -> Stack[-0x68] block=? sym=
+180172348 -> 1802f2910 block=.rdata sym=PTR_UTF8String_1802f2910
+18017234f -> Stack[-0x130] block=? sym=
+180172354 -> 1802f3838 block=.rdata sym=PTR_~GAString_1802f3838
+18017235a -> Stack[-0x68] block=? sym=
+18017235e -> Stack[-0x118] block=? sym=
+180172368 -> Stack[-0xf8] block=? sym=
+18017236d -> Stack[-0x118] block=? sym=
+18017237b -> Stack[-0xf8] block=? sym=
+18017238d -> Stack[-0x100] block=? sym=
+18017239b -> Stack[-0x118] block=? sym=
+1801723c1 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+1801723ce -> Stack[-0x50] block=? sym=
+1801723df -> Stack[-0x68] block=? sym=
+18017240c -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180172413 -> 1802f36b8 block=.rdata sym=PTR_GetNumber_1802f36b8
+18017241d -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180172426 -> Stack[-0x130] block=? sym=
+18017242b -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180172435 -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+18017243d -> Stack[-0x110] block=? sym=
+180172443 -> Stack[-0xf8] block=? sym=
+180172448 -> Stack[-0x118] block=? sym=
+180172456 -> Stack[-0xf8] block=? sym=
+180172470 -> Stack[-0x100] block=? sym=
+180172482 -> Stack[-0x118] block=? sym=
+1801724ac -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+1801724ba -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+1801724c2 -> Stack[-0x110] block=? sym=
+1801724c8 -> Stack[-0xf8] block=? sym=
+1801724cd -> Stack[-0x118] block=? sym=
+1801724db -> Stack[-0xf8] block=? sym=
+1801724ed -> Stack[-0x100] block=? sym=
+1801724fb -> Stack[-0x118] block=? sym=
+180172521 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18017252e -> Stack[-0xf0] block=? sym=
+180172533 -> 1802f3890 block=.rdata sym=PTR_~GAName_1802f3890
+18017253a -> Stack[-0x128] block=? sym=
+18017253f -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+180172545 -> Stack[-0x48] block=? sym=
+180172551 -> Stack[-0x20] block=? sym=
+180172559 -> Stack[0x18] block=? sym=
+18017255d -> Stack[-0x30] block=? sym=
+180172562 -> Stack[-0x40] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void FUN_180172100(GADict *param_1,ContentObject *param_2,undefined8 param_3,double param_4)
+
+{
+  bool bVar1;
+  Reference RVar2;
+  undefined8 uVar3;
+  Properties *pPVar4;
+  GAObject *this;
+  GANumber *this_00;
+  void *pvVar5;
+  double dVar6;
+  undefined1 auStack_158 [32];
+  GName local_138 [8];
+  GName local_130 [8];
+  GName local_128 [8];
+  GADict local_120 [8];
+  void *local_118;
+  double local_110;
+  ulonglong local_100;
+  char local_f8;
+  GName local_f0 [8];
+  PageBox local_e8 [10];
+  undefined1 local_c0 [40];
+  undefined1 local_98 [40];
+  char local_70;
+  void *local_68 [3];
+  ulonglong local_50;
+  ulonglong local_48;
+  
+  local_48 = DAT_180409ec0 ^ (ulonglong)auStack_158;
+  GName::GName(local_130,"Position");
+  GADict::GetDict(param_1,local_128);
+  uVar3 = GADict::GADict(local_120,(GADict *)local_128);
+  FUN_18017bac0(uVar3,param_3);
+  GName::GName((GName *)local_120,"Reference");
+  GADict::GetName((GADict *)local_128,local_f0);
+  RVar2 = FUN_18017a9c0(local_f0);
+  if (RVar2 == 5) {
+    GName::GName(local_130,"ReferenceID");
+    GADict::GetName((GADict *)local_128,local_138);
+    ArtDocGlue::PDFConverters::UTF8String((GAName *)local_68);
+    GAName::~GAName((GAName *)local_138);
+    pPVar4 = ArtDoc::ContentObject::GetProperties(param_2);
+    FUN_18004e3a0(pPVar4,&PTR_s_DocumentMarks_CutMark_ReferenceI_180319958,local_68);
+    if (0xf < local_50) {
+      pvVar5 = local_68[0];
+      if ((0xfff < local_50 + 1) &&
+         (pvVar5 = *(void **)((longlong)local_68[0] + -8),
+         0x1f < (ulonglong)((longlong)local_68[0] + (-8 - (longlong)pvVar5)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar5);
+    }
+  }
+  else {
+    local_e8[0] = DocumentMarks::MarkPosition::ref2box(RVar2);
+    local_70 = '\0';
+    DocumentMarks::PDFPlusCutMark::SetReferenceObject
+              ((PDFPlusCutMark *)param_2,
+               (variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> *)
+               local_e8);
+    if (((local_70 != -1) && (local_70 != '\0')) && (local_70 != '\x01')) {
+      FUN_180011420(local_98);
+      FUN_180011420(local_c0);
+      FUN_180011420(local_e8);
+    }
+  }
+  GName::GName(local_138,"Offset");
+  bVar1 = GADict::Has((GADict *)local_128,local_138);
+  if (bVar1) {
+    GName::GName(local_138,"Offset");
+    this = (GAObject *)GADict::Get((GADict *)local_128,local_130);
+    bVar1 = GAObject::IsString(this);
+    GAObject::~GAObject((GAObject *)local_130);
+    GName::GName(local_138,"Offset");
+    if (bVar1) {
+      bVar1 = (bool)GADict::GetString((GADict *)local_128,local_130);
+      ArtDocGlue::PDFConverters::UTF8String((GAString *)local_68,bVar1);
+      GAString::~GAString((GAString *)local_130);
+      FUN_18000f510(&local_118,local_68);
+      local_f8 = '\x01';
+      DocumentMarks::PDFPlusCutMark::SetOffset
+                ((PDFPlusCutMark *)param_2,
+                 (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                  *)&local_118);
+      if (((local_f8 != -1) && (local_f8 != '\0')) && (0xf < local_100)) {
+        pvVar5 = local_118;
+        if ((0xfff < local_100 + 1) &&
+           (pvVar5 = *(void **)((longlong)local_118 + -8),
+           0x1f < (ulonglong)((longlong)local_118 + (-8 - (longlong)pvVar5)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar5);
+      }
+      if (local_50 < 0x10) goto LAB_18017252e;
+      pvVar5 = local_68[0];
+      if ((0xfff < local_50 + 1) &&
+         (pvVar5 = *(void **)((longlong)local_68[0] + -8),
+         0x1f < (ulonglong)((longlong)local_68[0] + (-8 - (longlong)pvVar5)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+    }
+    else {
+      this_00 = (GANumber *)GADict::GetNumber((GADict *)local_128,local_130);
+      dVar6 = GANumber::Get(this_00);
+      GANumber::~GANumber((GANumber *)local_130);
+      local_110 = dVar6 * param_4 * DAT_1802fb5c8;
+      local_f8 = '\0';
+      DocumentMarks::PDFPlusCutMark::SetOffset
+                ((PDFPlusCutMark *)param_2,
+                 (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                  *)&local_118);
+      if (((local_f8 == -1) || (local_f8 == '\0')) || (local_100 < 0x10)) goto LAB_18017252e;
+      pvVar5 = local_118;
+      if ((0xfff < local_100 + 1) &&
+         (pvVar5 = *(void **)((longlong)local_118 + -8),
+         0x1f < (ulonglong)((longlong)local_118 + (-8 - (longlong)pvVar5)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+    }
+  }
+  else {
+    local_110 = param_4 * 0.0 * DAT_1802fb5c8;
+    local_f8 = '\0';
+    DocumentMarks::PDFPlusCutMark::SetOffset
+              ((PDFPlusCutMark *)param_2,
+               (variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                *)&local_118);
+    if (((local_f8 == -1) || (local_f8 == '\0')) || (local_100 < 0x10)) goto LAB_18017252e;
+    pvVar5 = local_118;
+    if ((0xfff < local_100 + 1) &&
+       (pvVar5 = *(void **)((longlong)local_118 + -8),
+       0x1f < (ulonglong)((longlong)local_118 + (-8 - (longlong)pvVar5)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+  }
+  free(pvVar5);
+LAB_18017252e:
+  GAName::~GAName((GAName *)local_f0);
+  GADict::~GADict((GADict *)local_128);
+  return;
+}
+
+

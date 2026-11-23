@@ -1,0 +1,8 @@
+requested=0x18024d3e0
+resolvedAddress=18024d3e0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=false
+containingFunction=18024d160 readTextBox
+status=NO_FUNCTION_AT_ENTRY
+bytes=e0498be35fc3cccccccccccccccccccc488bc448895810488970185557415648

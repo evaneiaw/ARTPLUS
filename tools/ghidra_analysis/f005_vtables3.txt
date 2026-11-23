@@ -1,0 +1,15 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## VT 1802eaad0 count=12
+   [0] slot=1802eaad0 -> 0x746365 fn=- containing=- sym=-
+   [1] slot=1802eaad8 -> 0x1802eaae8 fn=- containing=- sym=s_application/pdf_1802eaae8
+   [2] slot=1802eaae0 -> 0xf fn=- containing=- sym=-
+   [3] slot=1802eaae8 -> 0x746163696c707061 fn=- containing=- sym=-
+   [4] slot=1802eaaf0 -> 0x6664702f6e6f69 fn=- containing=- sym=-
+   [5] slot=1802eaaf8 -> 0x18031ca78 fn=- containing=- sym=_anon_D86631B5::DocumentLayer::RTTI_Complete_Object_Locator
+   [6] slot=1802eab00 -> 0x1800a2988 fn=1800a2988 FUN_1800a2988 containing=1800a2988 FUN_1800a2988 sym=FUN_1800a2988
+   [7] slot=1802eab08 -> 0x1800a2c90 fn=1800a2c90 FUN_1800a2c90 containing=1800a2c90 FUN_1800a2c90 sym=FUN_1800a2c90
+   [8] slot=1802eab10 -> 0x2000000000 fn=- containing=- sym=-
+   [9] slot=1802eab18 -> 0x18031cb70 fn=- containing=- sym=_anon_D86631B5::ErrorReporter::RTTI_Complete_Object_Locator
+   [10] slot=1802eab20 -> 0x1800a2a30 fn=1800a2a30 FUN_1800a2a30 containing=1800a2a30 FUN_1800a2a30 sym=FUN_1800a2a30
+   [11] slot=1802eab28 -> 0x1800a2f40 fn=1800a2f40 FUN_1800a2f40 containing=1800a2f40 FUN_1800a2f40 sym=FUN_1800a2f40

@@ -1,0 +1,235 @@
+address: 180133230
+name: GOVChangeScaleSelection::Change
+signature: long __thiscall Change(GOPage * param_1)
+body_bytes: 1098
+param_count: 2
+
+[callers]
+[callees]
+  EXTERNAL:0000019c PDFOBJECTTOOLSLAYER.DLL::GOVSelectOperator::GOVSelectOperator
+  180301a30 GOVGetClippedBoundingBox::GOVGetClippedBoundingBox
+  1803cf4c0 __security_check_cookie
+  180027a60 GOVGetClippedBoundingBox::~GOVGetClippedBoundingBox
+  EXTERNAL:00000198 PDFOBJECTTOOLSLAYER.DLL::GOVDefaultSelect::~GOVDefaultSelect
+  EXTERNAL:00000ef1 BASICFRAMEWORKCORELAYER.DLL::GProgress::~GProgress
+  EXTERNAL:00000888 PDFOBJECTLAYER.DLL::GOPage::Accept
+  EXTERNAL:00000ed8 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::Transform
+  EXTERNAL:0000088a PDFOBJECTLAYER.DLL::GOPage::GetPageMatrix
+  EXTERNAL:00000ef4 BASICFRAMEWORKCORELAYER.DLL::GPositionSupport::AdjustMatrixToKeepCornerFixed
+  EXTERNAL:00000ed5 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GetWidth
+  EXTERNAL:00000ed6 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GetHeight
+  18033c190 GOVChangeMatrix::Set
+  EXTERNAL:0000019d PDFOBJECTTOOLSLAYER.DLL::GOVSelectOperator::~GOVSelectOperator
+  EXTERNAL:00000ef9 BASICFRAMEWORKCORELAYER.DLL::ScopeGuardImplBase::ScopeGuardImplBase
+  EXTERNAL:00000ef8 BASICFRAMEWORKCORELAYER.DLL::ScopeGuardImplBase::~ScopeGuardImplBase
+  180035bb0 FUN_180035bb0
+  EXTERNAL:00000889 PDFOBJECTLAYER.DLL::GOPage::GetPageBox
+  1803cefc4 FUN_1803cefc4
+  180262ef0 GOVSelectContentsFromForm::GOVSelectContentsFromForm
+  180035290 FUN_180035290
+  180339f40 GOVChangeMatrix::GOVChangeMatrix
+  EXTERNAL:00000ee6 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GRectBase<double>
+  EXTERNAL:00000ef0 BASICFRAMEWORKCORELAYER.DLL::GProgress::GProgress
+  EXTERNAL:0000102e BASICFRAMEWORKCORELAYER.DLL::GMatrixBase<double>::operator==
+[string_refs]
+[pointer_hits_non_exec]
+  .rdata:18040ade0
+
+[decompiled]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: virtual long __cdecl GOVChangeScaleSelection::Change(class GOPage & __ptr64) __ptr64
+    */
+
+long __thiscall GOVChangeScaleSelection::Change(GOVChangeScaleSelection *this,GOPage *param_1)
+
+{
+  int iVar1;
+  undefined8 *puVar2;
+  double dVar3;
+  double dVar4;
+  double dVar5;
+  GOVChangeMatrix *pGVar6;
+  GOVChangeMatrix *pGVar7;
+  bool bVar8;
+  GMatrixBase<double> *pGVar9;
+  GRectBase<double> *pGVar10;
+  undefined8 *puVar11;
+  undefined4 uVar12;
+  undefined4 uVar13;
+  undefined1 auStack_928 [32];
+  undefined4 local_908;
+  GProgress local_8f8 [8];
+  GRectBase<double> local_8f0 [32];
+  GOVChangeMatrix *local_8d0;
+  GOPage *local_8c8;
+  undefined8 uStack_8c0;
+  GOVChangeMatrix *local_8b8;
+  undefined8 local_8b0;
+  undefined8 uStack_8a8;
+  GOVChangeMatrix *local_8a0;
+  undefined8 uStack_898;
+  undefined8 uStack_890;
+  GOVChangeMatrix *pGStack_888;
+  undefined8 local_880;
+  undefined8 uStack_878;
+  GMatrixBase<double> local_870 [56];
+  GOVSelectContentsFromForm local_838 [488];
+  undefined1 local_650 [24];
+  GOVSelectOperator local_638 [496];
+  GOVSelectOperator local_448 [496];
+  GOVGetClippedBoundingBox local_258 [512];
+  ulonglong local_58;
+  
+                    /* 0x133230  5989  ?Change@GOVChangeScaleSelection@@MEAAJAEAVGOPage@@@Z */
+  local_58 = DAT_180723880 ^ (ulonglong)auStack_928;
+  GProgress::GProgress(local_8f8,0.0);
+  GOVSelectOperator::GOVSelectOperator(local_448,8);
+  GOPage::Accept(param_1,(GOVisitor *)local_448);
+  GOVSelectContentsFromForm::GOVSelectContentsFromForm(local_838,0);
+  GOPage::Accept(param_1,(GOVisitor *)local_838);
+  GOVSelectOperator::GOVSelectOperator(local_638,3);
+  GOPage::Accept(param_1,(GOVisitor *)local_638);
+  ScopeGuardImplBase::ScopeGuardImplBase((ScopeGuardImplBase *)&local_8d0);
+  local_8c8 = param_1;
+  GRectBase<double>::GRectBase<double>(local_8f0);
+  GOVGetClippedBoundingBox::GOVGetClippedBoundingBox(local_258,true,false,local_8f0);
+  GOPage::Accept(param_1,(GOVisitor *)local_258);
+  pGVar9 = (GMatrixBase<double> *)GOPage::GetPageMatrix(param_1);
+  GRectBase<double>::Transform(local_8f0,pGVar9);
+  GOVGetClippedBoundingBox::~GOVGetClippedBoundingBox(local_258);
+  FUN_180035290(&local_8d0);
+  ScopeGuardImplBase::~ScopeGuardImplBase((ScopeGuardImplBase *)&local_8d0);
+  GOVSelectOperator::~GOVSelectOperator(local_638);
+  FUN_180035bb0(local_650);
+  GOVDefaultSelect::~GOVDefaultSelect((GOVDefaultSelect *)local_838);
+  GOVSelectOperator::~GOVSelectOperator(local_448);
+  GProgress::~GProgress(local_8f8);
+  pGVar7 = DAT_18040a028;
+  iVar1 = *(int *)(this + 0x1e8);
+  pGVar6 = DAT_18040a028;
+  if (iVar1 != 0) {
+    if (iVar1 == 2) {
+      pGVar6 = *(GOVChangeMatrix **)(this + 0x200);
+    }
+    else if (iVar1 == 3) {
+      dVar3 = GRectBase<double>::GetWidth(local_8f0);
+      pGVar6 = (GOVChangeMatrix *)(*(double *)(this + 0x1f0) / dVar3);
+    }
+    else if (iVar1 == 4) {
+      dVar4 = GRectBase<double>::GetWidth(local_8f0);
+      dVar3 = *(double *)(this + 0x1f0);
+      dVar5 = GRectBase<double>::GetWidth(local_8f0);
+      pGVar6 = (GOVChangeMatrix *)((dVar4 + dVar3) / dVar5);
+    }
+    else {
+      pGVar6 = (GOVChangeMatrix *)0x0;
+      if (iVar1 == 5) {
+        local_908 = 2;
+        pGVar10 = (GRectBase<double> *)
+                  GOPage::GetPageBox(param_1,(PageBoxType)&local_8d0,
+                                     SUB41(*(undefined4 *)(this + 0x210),0),0);
+        dVar3 = GRectBase<double>::GetWidth(pGVar10);
+        dVar4 = GRectBase<double>::GetWidth(local_8f0);
+        pGVar6 = (GOVChangeMatrix *)(dVar3 / dVar4);
+      }
+    }
+  }
+  pGStack_888 = (GOVChangeMatrix *)0x0;
+  switch(*(undefined4 *)(this + 0x1ec)) {
+  case 0:
+    pGStack_888 = pGVar7;
+    break;
+  case 1:
+    pGStack_888 = pGVar6;
+    break;
+  case 2:
+    pGStack_888 = *(GOVChangeMatrix **)(this + 0x208);
+    break;
+  case 3:
+    dVar3 = GRectBase<double>::GetHeight(local_8f0);
+    uVar12 = SUB84(dVar3,0);
+    uVar13 = (undefined4)((ulonglong)dVar3 >> 0x20);
+    dVar3 = *(double *)(this + 0x1f8);
+    goto LAB_180133504;
+  case 4:
+    dVar3 = GRectBase<double>::GetHeight(local_8f0);
+    dVar3 = dVar3 + *(double *)(this + 0x1f8);
+    goto LAB_1801334f9;
+  case 5:
+    local_908 = 2;
+    pGVar10 = (GRectBase<double> *)
+              GOPage::GetPageBox(param_1,(PageBoxType)&local_8d0,
+                                 SUB41(*(undefined4 *)(this + 0x214),0),0);
+    dVar3 = GRectBase<double>::GetHeight(pGVar10);
+LAB_1801334f9:
+    dVar4 = GRectBase<double>::GetHeight(local_8f0);
+    uVar12 = SUB84(dVar4,0);
+    uVar13 = (undefined4)((ulonglong)dVar4 >> 0x20);
+LAB_180133504:
+    pGStack_888 = (GOVChangeMatrix *)(dVar3 / (double)CONCAT44(uVar13,uVar12));
+  }
+  local_8a0 = pGVar6;
+  if (*(int *)(this + 0x1e8) == 1) {
+    local_8a0 = pGStack_888;
+  }
+  uStack_898 = 0;
+  uStack_890 = 0;
+  local_880 = 0;
+  uStack_878 = 0;
+  local_8b8 = pGVar7;
+  local_8d0 = pGVar7;
+  local_8b0 = 0;
+  uStack_8a8 = 0;
+  local_8c8 = (GOPage *)0x0;
+  uStack_8c0 = 0;
+  bVar8 = GMatrixBase<double>::operator==
+                    ((GMatrixBase<double> *)&local_8a0,(GMatrixBase<double> *)&local_8d0);
+  if (bVar8) {
+    puVar11 = *(undefined8 **)(this + 0x228);
+    if (puVar11 != (undefined8 *)0x0) {
+      if (this[0x220] != (GOVChangeScaleSelection)0x0) {
+        (**(code **)*puVar11)(puVar11,1);
+      }
+      *(undefined8 *)(this + 0x228) = 0;
+    }
+    this[0x220] = (GOVChangeScaleSelection)0x1;
+  }
+  else {
+    puVar11 = (undefined8 *)
+              GPositionSupport::AdjustMatrixToKeepCornerFixed
+                        (local_870,(GRectBase<double> *)&local_8a0,(Position)local_8f0);
+    local_8a0 = (GOVChangeMatrix *)*puVar11;
+    uStack_898 = puVar11[1];
+    uStack_890 = puVar11[2];
+    pGStack_888 = (GOVChangeMatrix *)puVar11[3];
+    local_880 = puVar11[4];
+    uStack_878 = puVar11[5];
+    if (*(GOVChangeMatrix **)(this + 0x228) == (GOVChangeMatrix *)0x0) {
+      local_8d0 = (GOVChangeMatrix *)FUN_1803cefc4(0x2a0);
+      if (local_8d0 == (GOVChangeMatrix *)0x0) {
+        puVar11 = (undefined8 *)0x0;
+      }
+      else {
+        puVar11 = (undefined8 *)
+                  GOVChangeMatrix::GOVChangeMatrix
+                            (local_8d0,(GMatrixBase<double> *)&local_8a0,true,0x42a);
+      }
+      puVar2 = *(undefined8 **)(this + 0x228);
+      if (puVar2 != puVar11) {
+        if ((this[0x220] != (GOVChangeScaleSelection)0x0) && (puVar2 != (undefined8 *)0x0)) {
+          (**(code **)*puVar2)(puVar2,1);
+        }
+        *(undefined8 **)(this + 0x228) = puVar11;
+      }
+      this[0x220] = (GOVChangeScaleSelection)0x1;
+    }
+    else {
+      GOVChangeMatrix::Set
+                (*(GOVChangeMatrix **)(this + 0x228),(GMatrixBase<double> *)&local_8a0,true,0x42a);
+    }
+  }
+  return 0;
+}
+
+

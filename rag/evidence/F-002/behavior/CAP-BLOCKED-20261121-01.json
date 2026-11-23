@@ -1,0 +1,33 @@
+{
+  "id": "CAP-BLOCKED-20261121-01",
+  "feature": "F-002",
+  "tool": "ArtPro+ v24.03.10017",
+  "status": "blocked",
+  "description": "The 'Mark Set' functionality (UI path: Marks > Create > Mark Sets) could not be located in the ArtPro+ v24.03.10017 application menu bar. All main menus (File, Edit, Object, Select, Prepress, View, Window, Help) and their immediate submenus were explored. A deep search for elements containing 'Mark' also yielded no results within the application window. This indicates a discrepancy between the F-002 specification and the actual UI.",
+  "steps": [
+    "1. Opened ArtPro+ v24.03.10017.",
+    "2. Clicked 'Prepress' menu item.",
+    "3. Examined 'Prepress' submenu items; 'Mark Set' not found.",
+    "4. Clicked 'Object' menu item.",
+    "5. Examined 'Object' submenu items; 'Mark Set' not found.",
+    "6. Clicked 'Window' menu item.",
+    "7. Examined 'Window' submenu items; 'Mark Set' not found.",
+    "8. Clicked 'File' menu item.",
+    "9. Examined 'File' submenu items; 'Mark Set' not found.",
+    "10. Performed a broad search for UI elements containing 'Mark'; no relevant elements found.",
+    "11. Captured screenshot documenting the available menu bar items."
+  ],
+  "screenshots": [
+    "rag/evidence/F-002/behavior/CAP-BLOCKED-20261121-01-screenshot-01.png"
+  ],
+  "menu_structure_observed": {
+    "main_menu": ["File", "Edit", "Object", "Select", "Prepress", "View", "Window", "Help"],
+    "Prepress_submenu_items": ["Add Barcode", "Convert to Barcode", "Add Dimensions", "Add Bleed...", "White Underprint...", "Rich Black...", "Ink Eater Areas", "Screening...", "Ink Coverage...", "Convert Separations With", "Thin Parts", "Update Trap Layer", "Trapping...", "Warp", "Preflight...", "Manage Preflight Profiles...", "Variable Data", "Step & Repeat", "Create Seamless Repetition...", "Flexo Tools"],
+    "Object_submenu_items": [],
+    "Window_submenu_items": ["Synchronize Views", "Arrange"],
+    "File_submenu_items": []
+  },
+  "error_message": "Functionality 'Mark Set' not found in UI.",
+  "expected_ui_path_from_spec": "Marks > Create > Mark Sets",
+  "notes": "The F-002 spec's UI path 'Marks > Create > Mark Sets' could not be found in the live ArtPro+ v24.03.10017 application. The actual 'Marks' menu is absent from the main menu bar. Further investigation is needed to determine if the functionality exists under a different name, a different menu path, or if it is exposed through a panel or tool that needs to be activated first."
+}

@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-21T23:45:24-03:00",
+  "feature": "F-006",
+  "test_name": "SaveDocumentTests",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build_audit --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-006.xml --output-on-failure -R ^SaveDocumentTests$",
+  "exit_code": 0,
+  "xml_path": "H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-006.xml",
+  "xml_sha256": "02088262DEFA5F38DD3407C4D8716E4AFD6C73C40CC2EC8728F6F6EA82672C71",
+  "log_path": "docs/testing/gates/logs/test-F-006-20261121-234524-061.log",
+  "tests": [
+    {
+      "name": "SaveDocumentTests",
+      "status": "passed",
+      "time": 0.065
+    }
+  ],
+  "failures": 0,
+  "failure_details": []
+}

@@ -1,0 +1,125 @@
+requested=0x1801343d0
+resolvedAddress=1801343d0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1801343d0 PDFPlusCutMark
+status=OK
+entry=1801343d0
+name=PDFPlusCutMark
+qualifiedName=DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+namespace=DocumentMarks::PDFPlusCutMark
+signature=undefined PDFPlusCutMark(PDFPlusCutMark * this, PDFPlusCutMark * param_1, CloneStrategy * param_2)
+returnType=undefined
+parameterCount=3
+bodyMin=1801343d0
+bodyMax=1801344d0
+bodySize=257
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aa3cc refType=DATA fromFunction=
+180486780 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18013485d refType=UNCONDITIONAL_CALL fromFunction=180134830 Clone
+
+[CALLERS]
+180134830 DocumentMarks::PDFPlusCutMark::Clone
+
+[CALLEES]
+180010e20 FUN_180010e20
+18000f510 FUN_18000f510
+18006b5c0 DocumentMarks::DynamicMark::DynamicMark
+
+[DIRECT_CALL_TARGETS]
+1801343ea -> 18006b5c0 DocumentMarks::DynamicMark::DynamicMark
+180134421 -> 18013444c DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+180134427 -> 18013443e DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+180134433 -> 18000f510 FUN_18000f510
+18013443c -> 18013444c DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+18013446f -> 1801344ae DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+180134475 -> 1801344a2 DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+18013447b -> 180134492 DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+180134487 -> 180010e20 FUN_180010e20
+180134490 -> 1801344ae DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+1801344a0 -> 1801344ae DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+1801343d0 -> Stack[0x18] block=? sym=
+1801343d5 -> Stack[0x20] block=? sym=
+1801343da -> Stack[0x8] block=? sym=
+1801343f0 -> 180316ab0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+1801343f7 -> 180316ab0 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+1801343fa -> 180316c30 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+180134401 -> 180316c30 block=.rdata sym=DocumentMarks::PDFPlusCutMark::`vftable'{for_`ArtDoc::Visitable'}
+18013440c -> Stack[0x10] block=? sym=
+18013445a -> Stack[0x10] block=? sym=
+1801344c1 -> Stack[0x18] block=? sym=
+1801344c6 -> Stack[0x20] block=? sym=
+
+[DECOMPILE]
+
+/* protected: __cdecl DocumentMarks::PDFPlusCutMark::PDFPlusCutMark(class
+   DocumentMarks::PDFPlusCutMark const & __ptr64,class ArtDoc::CloneStrategy & __ptr64) __ptr64 */
+
+PDFPlusCutMark * __thiscall
+DocumentMarks::PDFPlusCutMark::PDFPlusCutMark
+          (PDFPlusCutMark *this,PDFPlusCutMark *param_1,CloneStrategy *param_2)
+
+{
+  PDFPlusCutMark *pPVar1;
+  PDFPlusCutMark PVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  
+                    /* 0x1343d0  222
+                       ??0PDFPlusCutMark@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z */
+  DynamicMark::DynamicMark((DynamicMark *)this,(DynamicMark *)param_1,param_2);
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  this[0x770] = (PDFPlusCutMark)0xff;
+  if (param_1[0x770] != (PDFPlusCutMark)0xff) {
+    if (param_1[0x770] == (PDFPlusCutMark)0x0) {
+      uVar3 = *(undefined4 *)(param_1 + 0x754);
+      uVar4 = *(undefined4 *)(param_1 + 0x758);
+      uVar5 = *(undefined4 *)(param_1 + 0x75c);
+      *(undefined4 *)(this + 0x750) = *(undefined4 *)(param_1 + 0x750);
+      *(undefined4 *)(this + 0x754) = uVar3;
+      *(undefined4 *)(this + 0x758) = uVar4;
+      *(undefined4 *)(this + 0x75c) = uVar5;
+      this[0x770] = (PDFPlusCutMark)0x0;
+    }
+    else {
+      FUN_18000f510(this + 0x750,param_1 + 0x750);
+      this[0x770] = (PDFPlusCutMark)0x1;
+    }
+  }
+  this[0x7b8] = (PDFPlusCutMark)0x0;
+  pPVar1 = this + 0x7c0;
+  this[0x838] = (PDFPlusCutMark)0xff;
+  PVar2 = param_1[0x838];
+  if (PVar2 != (PDFPlusCutMark)0xff) {
+    if (PVar2 == (PDFPlusCutMark)0x0) {
+      *(undefined4 *)pPVar1 = *(undefined4 *)(param_1 + 0x7c0);
+      this[0x838] = (PDFPlusCutMark)0x0;
+    }
+    else if (PVar2 == (PDFPlusCutMark)0x1) {
+      *(undefined8 *)pPVar1 = *(undefined8 *)(param_1 + 0x7c0);
+      this[0x838] = (PDFPlusCutMark)0x1;
+    }
+    else {
+      FUN_180010e20(pPVar1,param_1 + 0x7c0);
+      this[0x838] = (PDFPlusCutMark)0x2;
+    }
+  }
+  *(undefined8 *)(this + 0x840) = 0;
+  *(undefined8 *)(this + 0x848) = 0;
+  return this;
+}
+
+

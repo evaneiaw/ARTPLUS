@@ -1,0 +1,70 @@
+requested=0x18012e7d0
+resolvedAddress=18012e7d0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012e7d0 UpdateDirection
+status=OK
+entry=18012e7d0
+name=UpdateDirection
+qualifiedName=DocumentMarks::PDFPlusBearerBar::UpdateDirection
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=void UpdateDirection(PDFPlusBearerBar * this)
+returnType=void
+parameterCount=1
+bodyMin=18012e7d0
+bodyMax=18012e830
+bodySize=97
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abab4 refType=DATA fromFunction=
+180486474 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18012f74c refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+
+[CALLERS]
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+
+[CALLEES]
+EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+
+[DIRECT_CALL_TARGETS]
+18012e7e3 -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+18012e7f1 -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+18012e7fd -> 18012e81c DocumentMarks::PDFPlusBearerBar::UpdateDirection
+18012e805 -> 18012e81c DocumentMarks::PDFPlusBearerBar::UpdateDirection
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012e7d0 -> Stack[0x8] block=? sym=
+18012e7e3 -> 1802f3c88 block=.rdata sym=PTR_ToVertical_1802f3c88
+18012e7f1 -> 1802f3c88 block=.rdata sym=PTR_ToVertical_1802f3c88
+18012e811 -> Stack[0x8] block=? sym=
+18012e81c -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* private: void __cdecl DocumentMarks::PDFPlusBearerBar::UpdateDirection(void) __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusBearerBar::UpdateDirection(PDFPlusBearerBar *this)
+
+{
+  Anchor AVar1;
+  Anchor AVar2;
+  
+                    /* 0x12e7d0  1688  ?UpdateDirection@PDFPlusBearerBar@DocumentMarks@@AEAAXXZ */
+  AVar1 = YAGL::ToVertical(*(Anchor *)(this + 0x418));
+  AVar2 = YAGL::ToVertical(*(Anchor *)(this + 0x41c));
+  if ((*(Anchor *)(this + 0x418) == AVar1) && (*(Anchor *)(this + 0x41c) == AVar2)) {
+    *(undefined4 *)(this + 0x770) = 0;
+    return;
+  }
+  *(undefined4 *)(this + 0x770) = 1;
+  return;
+}
+
+

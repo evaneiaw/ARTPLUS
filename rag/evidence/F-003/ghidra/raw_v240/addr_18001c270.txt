@@ -1,0 +1,63 @@
+requested=0x18001c270
+resolvedAddress=18001c270
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001c270 BearerBar
+status=OK
+entry=18001c270
+name=BearerBar
+qualifiedName=DocumentMarks::BearerBar::BearerBar
+namespace=DocumentMarks::BearerBar
+signature=undefined BearerBar(BearerBar * this, bool param_1)
+returnType=undefined
+parameterCount=2
+bodyMin=18001c270
+bodyMax=18001c2cc
+bodySize=93
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aa2f4 refType=DATA fromFunction=
+18047b29c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18010e4ce refType=UNCONDITIONAL_CALL fromFunction=18010e0f0 FUN_18010e0f0
+
+[CALLERS]
+18010e0f0 FUN_18010e0f0
+
+[CALLEES]
+18006bd80 DocumentMarks::DynamicMark::DynamicMark
+
+[DIRECT_CALL_TARGETS]
+18001c27f -> 18006bd80 DocumentMarks::DynamicMark::DynamicMark
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18001c284 -> 1802f9f48 block=.rdata sym=DocumentMarks::BearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18001c28b -> 1802f9f48 block=.rdata sym=DocumentMarks::BearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18001c28e -> 1802fa0c8 block=.rdata sym=DocumentMarks::BearerBar::`vftable'{for_`ArtDoc::Visitable'}
+18001c295 -> 1802fa0c8 block=.rdata sym=DocumentMarks::BearerBar::`vftable'{for_`ArtDoc::Visitable'}
+
+[DECOMPILE]
+
+/* public: __cdecl DocumentMarks::BearerBar::BearerBar(bool) __ptr64 */
+
+BearerBar * __thiscall DocumentMarks::BearerBar::BearerBar(BearerBar *this,bool param_1)
+
+{
+                    /* 0x1c270  168  ??0BearerBar@DocumentMarks@@QEAA@_N@Z */
+  DynamicMark::DynamicMark((DynamicMark *)this,param_1,0xfd);
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  *(undefined8 *)(this + 0x758) = 0x40cbae9d3a74e9d4;
+  *(undefined8 *)(this + 0x768) = 0;
+  *(undefined8 *)(this + 0x778) = 0;
+  *(undefined4 *)(this + 0x780) = 3;
+  return this;
+}
+
+

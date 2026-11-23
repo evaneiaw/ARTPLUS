@@ -1,0 +1,50 @@
+{
+    "detects": [
+        {
+            "filetype": "PE64",
+            "info": "",
+            "offset": "0",
+            "parentfilepart": "Header",
+            "size": "10144296",
+            "values": [
+                {
+                    "info": "",
+                    "name": "Microsoft Linker",
+                    "string": "Linker: Microsoft Linker(12.00.40629)",
+                    "type": "linker",
+                    "version": "12.00.40629"
+                },
+                {
+                    "info": "C++",
+                    "name": "Microsoft Visual C/C++",
+                    "string": "Compiler: Microsoft Visual C/C++(18.00.40629)[C++]",
+                    "type": "compiler",
+                    "version": "18.00.40629"
+                },
+                {
+                    "info": "",
+                    "name": "Microsoft Visual Studio",
+                    "string": "Tool: Microsoft Visual Studio(2013)",
+                    "type": "tool",
+                    "version": "2013"
+                },
+                {
+                    "info": "PKCS #7",
+                    "name": "Windows Authenticode",
+                    "string": "Sign tool: Windows Authenticode(2.0)[PKCS #7]",
+                    "type": "sign tool",
+                    "version": "2.0"
+                },
+                {
+                    "info": "codeview, vc_feature",
+                    "name": "Records",
+                    "string": "Debug data: Records[codeview, vc_feature]",
+                    "type": "debug data",
+                    "version": ""
+                }
+            ]
+        }
+    ]
+}
+
+

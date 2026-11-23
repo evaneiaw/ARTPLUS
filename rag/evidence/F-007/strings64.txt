@@ -1,0 +1,1400 @@
+﻿
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+WATAUAVAWH
+0A_A^A]A\_
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+`A_A^A]A\_^[
+gfffffffH
+gfffffffH
+x UATAUAVAWH
+A_A^A]A\]
+USVWATAUAVAWH
+gfffffffH
+D$pH9p s
+gfffffffH
+A_A^A]A\_^[]
+D$@H9X s
+t$ UWAVH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+WATAUAVAWH
+0A_A^A]A\_
+\$ VAVAWH
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAWH
+ A_A\_^]
+|$ ATAVAWH
+D$0D9X u
+SVWATAUAVAWH
+@A_A^A]A\_^[
+d$ UAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+|$ ATAVAWH
+gfffffffH
+x UATAUAVAWH
+;x }^L9l$(
+A;x }aL9l$(
+gfffffffH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+H UVWATAUAVAWH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+L$`H+L$XI
+A_A^A]A\_^]
+|$ ATAVAWH
+D$@H9P }
+L$(H+L$ H
+USVWATAUAVAWH
+A_A^A]A\_^[]
+|$ ATAVAWH
+|$ ATAVAWH
+UVWATAUH
+@A]A\_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+SVWATAUAVAWH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+`A_A^A]A\_^[
+@SVAVAWH
+\$ VWATH
+UVWAVAWH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+L$0H+L$(I
+A_A^A]A\_^]
+UATAUAVAWH
+A H9C }[L9n
+A H9C }[L9n
+A_A^A]A\]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+\$ UVWATAUAVAWH
+H9D$(u5H
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$PH9P }
+A H9C }aH9T$(
+t~H;T$ptwL
+L$XH+L$PI
+A_A^A]A\_^]
+VWATAVAWH
+L$0H;L$8t
+A_A^A\_^
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+L$0H;L$8t
+A_A^A]A\_^]
+WATAUAVAWH
+L$@H9y }
+H;z }SL9n
+A_A^A]A\_
+VWATAVAWH
+@A_A^A\_^
+WATAUAVAWH
+L$@L9A }
+B H9C }aM9n
+A_A^A]A\_
+|$ UATAUAVAWH
+A_A^A]A\]
+X UVWATAUAVAWH
+D$0H;D$8t
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+L$PH9Y }
+t$ L;t$@t
+D$PH;\$@t
+t$ L;t$@
+D$PH9P }
+A H9C }mH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UATAUAVAWH
+A H9C }eM9N
+A_A^A]A\]
+USVWATAUAVAWH
+L$`H;L$ht
+\$pH;\$x
+A_A^A]A\_^[]
+|$ ATAVAWH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+L$ UWAVH
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$(H9D$ 
+D$(H9D$ 
+D$(H9D$ 
+A_A^A]A\_^]
+USVWATAUAVAWH
+D$XH9D$P
+A_A^A]A\_^[]
+|$ UATAUAVAWH
+L$(H+L$ I
+L$(H+L$ I
+A_A^A]A\]
+UVWATAUAVAWH
+t$8H;t$@
+|$PH;|$X
+L$@H;L$H
+A_A^A]A\_^]
+UATAUAVAWH
+L$8H+L$0H
+A_A^A]A\]
+UVWATAUAVAWH
+L$pH+L$hH
+D$(H9D$ 
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$@H9D$8
+L$XH+L$PH
+D$@H9D$8u
+A_A^A]A\_^]
+VerticalH
+Invalid 
+No rotat
+@UVWAUAWH
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+0A_A^A]A\_^[
+@USVWATAUAVAWH
+gfffffffI
+gfffffff
+T$@H;T$Ht
+A_A^A]A\_^[]
+gfffffffH
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WATAUAVAWH
+0A_A^A]A\_
+SVWATAUAVAWH
+0A_A^A]A\_^[
+|$ ATAVAWH
+t$ WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+|$ ATAVAWH
+t$ WAVAWH
+D$0L9H }
+t$ WATAUAVAWH
+L$@H9y }
+A_A^A]A\_
+t$ WATAUAVAWH
+L$@H9y }
+A_A^A]A\_
+UVWATAUAVAWH
+L$PL9A }
+B H9C }m3
+pA_A^A]A\_^]
+WATAUAVAWH
+L$PH9y }
+A_A^A]A\_
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+H;J }oL9t$p
+A_A^A]A\_^]
+USVWATAUAVAWH
+\$(H;\$0
+A_A^A]A\_^[]
+\$ UVWATAUAVAWH
+u:H;|$8t
+A_A^A]A\_^]
+X UVWATAUAVAWH
+D$`H9P }
+D$`H9H }
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+L$XH9y }
+A_A^A]A\_^]
+UVWAVAWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+UVWATAUAVAWH
+pA_A^A]A\_^]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+x UATAUAVAWH
+A_A^A]A\]
+SVWATAUAVAWH
+gfffffffI
+ A_A^A]A\_^[
+gfffffffI
+|$ ATAVAWH
+gffffffff
+gfffffffH+
+@USVWAVH
+gfffffffH
+Cxz^u\fA
+gfffffffH
+gfffffffH
+gfffffffL+
+SVWATAUAVAWH
+ A_A^A]A\_^[
+UATAUAVAWH
+A_A^A]A\]
+WATAUAVAWH
+0A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWATAUAVAWH
+HA_A^A]A\_^][
+X UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+>HkL$ XH
+0A_A^A]A\_^[
+W0H;W8t7
+D$0H9X }
+Q H;Q(t<A
+UVWATAUH
+@A]A\_^]
+UVWATAUH
+@A]A\_^]
+SUVWATAUAVAWH
+hA_A^A]A\_^][
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+SUVWATAUAVAWH
+A_A^A]A\_^][
+SVWATAUAVAWH
+ A_A^A]A\_^[
+@SVAVAWH
+\$ ATAVAWH
+u+H;G |%H;
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+L$@H9y }
+H;x }SL9n
+`A_A^A]A\_^]
+SVWAVAWH
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+PA_A^A]A\_^[
+|$ ATAVAWH
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+v0@8y(u*
+L$hH;L$pt-H
+A_A^A]A\_
+SVWATAUAVAWH
+`A_A^A]A\_^[
+UWATAVAWH
+A_A^A\_]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWAVAWH
+ A_A^_^[
+gfffffffH
+gfffffffH
+VWATAVAWH
+A_A^A\_^
+@SUVWAWH
+SUAUAVAWH
+CH+C@;A 
+CL+CD;A$
+pA_A^A]][
+SUVWATAUAVAWH
+L$ H;L$H}
+hA_A^A]A\_^][
+.I@z1u/3
+L$ UWATAWH
+WHE+W@HcF
+p WAVAWH
+p WAVAWH
+@SUVWATAVAWH
+A_A^A\_^][
+VHE+V@HcG
+{ ATAVAWH
+x ATAVAWH
+t$ WAVAWH
+USVWATAUAVAWH
+hA_A^A]A\_^[]
+@SUVWATAVAWH
+A_A^A\_^][
+h VWATAVAWH
+A_A^A\_^
+x UATAUAVAWH
+/^0vxD9~
+/~0vzD9~
+gfffffffH
+/~0vqD9~
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+T$XI+V`H
+A_A^A]A\]
+USVWATAUAVAWH
+H;D$pr<H
+H;D$pr<H
+H;D$pr<H
+H;D$pr<H
+H;D$pr8H
+A_A^A]A\_^[]
+|$ ATAVAWH
+SUVWATAWH
+W,HkD$XpE
+A_A\_^][
+A_A\_^][
+UVWATAUAVAWH
+PA_A^A]A\_^]
+SUVWAVAWH
+A_A^_^][
+D$0H;SHt
+L$ SUVWH
+t$ WAVAW
+t$8A_A^_
+UVWATAVH
+0A^A\_^]
+|$XH;S t
+\$@H;W t
+WATAUAVAWH
+D$,H;S8t
+t$(H;S8t
+0A_A^A]A\_
+\$ UVWAUAWH
+ A_A]_^]
+\$HHc\$@H
+SVWATAUAVAWH
+ A_A^A]A\_^[
+VWATAVAWH
+D$(H;W t
+0A_A^A\_^
+WATAUAVAWH
+D$,H;Sht
+l$(H;K tSH;
+A_A^A]A\_
+\$ UVWATAVAWH
+A_A^A\_^]
+UWATAUAWH
+PA_A]A\_]
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+0A_A^A]A\_^[
+WATAUAVAWH
+ A_A^A]A\_
+gfffffffH
+gfffffffI+
+gfffffffI+
+gfffffffA
+gfffffffM
+gfffffffI+
+gfffffffI+
+gfffffffI
+|$XH;>t6H
+SVWAVAWH
+0A_A^_^[
+WATAUAVAWH
+A_A^A]A\_
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+@A_A^A\_]
+SVWAVAWH
+ A_A^_^[
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+A_A^A\_]
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+t$ WAVAWH
+Unknown exception
+bad array new length
+string too long
+map/set too long
+call to empty boost::function
+void __cdecl LayoutEngine::BleedGenerator::Bleed(void)
+bleedgenerator.layoutengine
+Stack ready
+Input graph ready
+Environment ready
+Output graph ready
+Null pointer in 'push_back()'
+vector too long
+bad allocation
+globalengine.layoutengine
+Graphic 
+ stations:
+Total prints: 
+Produce count: 
+Station 
+------------------------------------------------------------------------
+Generating a layout...
+Classic solution:
+Cost of classic solution: 
+First solution:
+First solution after removing excessive overrun:
+Cost of first solution: 
+, cost: 
+Intermediate 
+Cost of intermediate solution: 
+Starting iteration 
+Cost of solution until now: 
+Cost of solution with added sheets: 
+added sheets
+Cost of solution with combined sheets: 
+combined sheets
+Cost of solution with filled sheets: 
+filled sheets
+Cost of solution with partial weight filled sheets: 
+partially filled sheets
+Cost of solution with fiddled sheets: 
+fiddled sheets
+Cost of solution with removed stations: 
+removed stations
+Chosen option: 
+No improvement found.
+Engine is done.
+After supplementing with optional stations.
+cost.globalengine.layoutengine
+Concentration: 
+Overrun: 
+Layouts: 
+largestwhite: 
+Cost of old solution: 
+Cost of combining 
+ gives best results.
+Combining 
+No combination gives good results.
+Solution before filling any sheet: 
+ filled: 
+Solution with sheet 
+ filled and overrun removed: 
+ times to sheet 
+Added station 
+ to sheets.
+Converting solution of size 
+Converted sheet 
+calculatesheetcounts.globalengine.layoutengine
+Linear problem
+Presolved problem
+Solved problem
+Total waste: 
+Automatic
+Horizontal
+Invalid option!
+Single graphic
+Complete strips
+No rotation
+90 degree rotation
+GuillotineSheetGenerator.LayoutEngine
+Creating a GuillotineSheetGenerator with the following options:
+Sheet size: 
+First Cut: 
+Strips: 
+Horizontal gutter: 
+Vertical gutter: 
+-------------------------------------------------------------
+class std::vector<class LayoutEngine::PlacedPath,class std::allocator<class LayoutEngine::PlacedPath> > __cdecl LayoutEngine::ManualLayoutEngine::GenerateBleedLayout(const class std::vector<class LayoutEngine::PlacedPath,class std::allocator<class LayoutEngine::PlacedPath> > &,const class std::vector<double,class std::allocator<double> > &)
+ masks added
+NestingSheetGenerator.LayoutEngine
+Converting to station 
+Matrix: 
+Converted to IntermediateSheet: 
+180 rotation
+Any rotation
+From left to right
+From top to bottom
+Creating a NestingSheetGenerator with the following options:
+Gutter: 
+Rotation: 
+Filling Direction: 
+Destructing the NestingSheetGenerator:
+leftovers cache hits: 
+leftovers cache size: 
+filling cache hits: 
+filling cache size: 
+nesting.timings
+#nestingchecks : 
+class LayoutEngine::IntermediateSheet __cdecl LayoutEngine::NestingSheetGenerator::GenerateSheetLeftovers(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &,class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &)
+NSG::GSL: Nesting with 
+NSG::GSL: Nest done: 
+class LayoutEngine::IntermediateSheet __cdecl LayoutEngine::NestingSheetGenerator::GenerateSheetFilling(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &,const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &)
+NSG::GSF: Nesting with 
+NSG::GSF: Nest done: 
+NSG::GSF: Add one 
+NSG::GSF: AddOne done: 
+class LayoutEngine::IntermediateSheet __cdecl LayoutEngine::NestingSheetGenerator::ClassicFillSheet(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &)
+class LayoutEngine::IntermediateSheet __cdecl LayoutEngine::NestingSheetGenerator::ClassicMinimalLayouts(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &)
+NSG::CML: Nesting with 
+NSG::CML: Nest done: 
+NSG::CML: Weights: 
+NSG::CML: Add one 
+, errorStatus: 
+NSG::CML: AddOne done, handle 
+NSG::CML: nesting restarts: 
+NSG::CML: Nesting (max fill) with 
+class LayoutEngine::IntermediateSheet __cdecl LayoutEngine::NestingSheetGenerator::GenerateSheetWeighed(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &,const class std::map<__int64,double,struct std::less<__int64>,class std::allocator<struct std::pair<__int64 const ,double> > > &)
+NSG::GSW: Nesting with 
+NSG::GSW: Nest done: 
+NSG::GSW: Weights: 
+NSG::GSW: Add one 
+NSG::GSW: AddOne done, handle 
+class std::vector<class LayoutEngine::IntermediateSheet,class std::allocator<class LayoutEngine::IntermediateSheet> > __cdecl LayoutEngine::NestingSheetGenerator::GeneratePartiallyFilledSheets(const class std::vector<class LayoutEngine::OrderedStation,class std::allocator<class LayoutEngine::OrderedStation> > &)
+NSG::GPFS: Nesting with 
+NSG::GPFS: Add one 
+NSG::GPFS: AddOne done: 
+Shape is 
+Spreaded path: 
+@invalid map<K, T> key
+solver.layoutengine
+Pivoted on 
+Single row element 
+Constructed phase1:
+Pivoted phase1:
+Solved phase1:
+Removed artificial variables from basis:
+Basic feasible solution:
+RECTANGLE optimization : Will stop at %d objects. 
+AllowExtendedAngles
+best angle = %d
+only RECTANGLE optimization: increased resolution 
+time for index %d : %.2f 
+  - Best result for index: %d Count objects : %d,  max length = %d, time = %d
+  with object %d : %lf at pos %d %d
+-> moving horizontal : %lf
+with object %d : %lf at pos %d %d
+moving vertical: %lf
+checking object %d, max movement : %lf
+checing object %d, max movment : %lf
+Algorithm failure
+clusternesting reached %d
+Failed to place 2 copies
+Failed to place clustered copies
+Max Rects %d
+Shelf %d
+Skyline %d
+Guillotine %d %d
+best bin packer: %s time = %d
+EXTRA_OBVIOUS
+extra obvious nestins: time = %d
+Searching possibilities for position = %d, symmetric = %d, rotations = %d, heuristic = %d
+ stopped at %d objects, max length = %d, max objects: %d,  time = %d
+debugSentinelTag "E:\\Develop\\1_sources\\ArtProPlus_24.03\\Depot\\Parallel\\Private\\Source\\ThreadPool.cpp" line 21
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+$l&8($&2*U
+R 8"( 2$
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+LayoutEngine.dll
+??0GlobalEngine@LayoutEngine@@QEAA@PEAVSheetGenerator@1@_NNNNN@Z
+??0GridLayout@LayoutEngine@@QEAA@$$QEAV01@@Z
+??0GridLayout@LayoutEngine@@QEAA@AEBV01@@Z
+??0GridLayout@LayoutEngine@@QEAA@XZ
+??0GridStation@LayoutEngine@@QEAA@AEBV01@@Z
+??0GridStation@LayoutEngine@@QEAA@XZ
+??0GridStation@LayoutEngine@@QEAA@_J@Z
+??0GridStationLayout@LayoutEngine@@QEAA@AEBV01@@Z
+??0GridStationLayout@LayoutEngine@@QEAA@XZ
+??0GridStationLayout@LayoutEngine@@QEAA@_JHHHVMatrix@1@VVectorPath@1@2@Z
+??0GuillotineSheetGenerator@LayoutEngine@@QEAA@$$QEAV01@@Z
+??0GuillotineSheetGenerator@LayoutEngine@@QEAA@AEBV01@@Z
+??0GuillotineSheetGenerator@LayoutEngine@@QEAA@NNW4Type@FirstCut@1@W42Strips@1@NNW42Rotation@1@@Z
+??0IntermediateSheet@LayoutEngine@@QEAA@$$QEAV01@@Z
+??0IntermediateSheet@LayoutEngine@@QEAA@AEBV01@@Z
+??0IntermediateSheet@LayoutEngine@@QEAA@NN@Z
+??0LayoutEngine@0@QEAA@AEBV00@@Z
+??0LayoutEngine@0@QEAA@AEBVGridParameters@LayoutParameters@@AEBV?$vector@VRunlistItem@LayoutEngine@@V?$allocator@VRunlistItem@LayoutEngine@@@std@@@std@@@Z
+??0ManualLayoutEngine@LayoutEngine@@QEAA@$$QEAV01@@Z
+??0ManualLayoutEngine@LayoutEngine@@QEAA@AEBV01@@Z
+??0ManualLayoutEngine@LayoutEngine@@QEAA@XZ
+??0Matrix@LayoutEngine@@QEAA@NNNNNN@Z
+??0NestingSheetGenerator@LayoutEngine@@QEAA@AEBV01@@Z
+??0NestingSheetGenerator@LayoutEngine@@QEAA@NNNW4Type@Rotation@1@W42FillingDirection@1@@Z
+??0OrderedStation@LayoutEngine@@QEAA@AEBV01@@Z
+??0OrderedStation@LayoutEngine@@QEAA@_JAEBVRectangle@1@_K2@Z
+??0OrderedStation@LayoutEngine@@QEAA@_JAEBVRectangle@1@_K2_N@Z
+??0OrderedStation@LayoutEngine@@QEAA@_JAEBVVectorPath@1@_K2@Z
+??0OrderedStation@LayoutEngine@@QEAA@_JAEBVVectorPath@1@_K2_N@Z
+??0OutputSheet@LayoutEngine@@QEAA@AEBV01@@Z
+??0OutputSheet@LayoutEngine@@QEAA@NN@Z
+??0OutputStation@LayoutEngine@@QEAA@_JAEBVMatrix@1@AEBVRectangle@1@@Z
+??0PathPoint@LayoutEngine@@QEAA@NNW4PathPointType@01@@Z
+??0PlacedPath@LayoutEngine@@QEAA@AEBV01@@Z
+??0PlacedPath@LayoutEngine@@QEAA@_JAEBVVectorPath@1@@Z
+??0Rectangle@LayoutEngine@@QEAA@NNNN@Z
+??0RunlistItem@LayoutEngine@@QEAA@_JH@Z
+??0SeamlessRepetitionOptions@LayoutEngine@@QEAA@$$QEAU01@@Z
+??0SeamlessRepetitionOptions@LayoutEngine@@QEAA@AEBU01@@Z
+??0SeamlessRepetitionOptions@LayoutEngine@@QEAA@XZ
+??0SheetGenerator@LayoutEngine@@QEAA@AEBV01@@Z
+??0SheetGenerator@LayoutEngine@@QEAA@XZ
+??0VectorPath@LayoutEngine@@QEAA@AEBV01@@Z
+??0VectorPath@LayoutEngine@@QEAA@XZ
+??1GlobalEngine@LayoutEngine@@QEAA@XZ
+??1GridLayout@LayoutEngine@@QEAA@XZ
+??1GridStation@LayoutEngine@@QEAA@XZ
+??1GridStationLayout@LayoutEngine@@QEAA@XZ
+??1GuillotineSheetGenerator@LayoutEngine@@UEAA@XZ
+??1IntermediateSheet@LayoutEngine@@QEAA@XZ
+??1LayoutEngine@0@QEAA@XZ
+??1ManualLayoutEngine@LayoutEngine@@QEAA@XZ
+??1NestingSheetGenerator@LayoutEngine@@UEAA@XZ
+??1OrderedStation@LayoutEngine@@QEAA@XZ
+??1OutputSheet@LayoutEngine@@QEAA@XZ
+??1OutputStation@LayoutEngine@@QEAA@XZ
+??1PathPoint@LayoutEngine@@QEAA@XZ
+??1PlacedPath@LayoutEngine@@QEAA@XZ
+??1RunlistItem@LayoutEngine@@QEAA@XZ
+??1SeamlessRepetitionOptions@LayoutEngine@@QEAA@XZ
+??1SheetGenerator@LayoutEngine@@UEAA@XZ
+??1VectorPath@LayoutEngine@@QEAA@XZ
+??4GridLayout@LayoutEngine@@QEAAAEAV01@$$QEAV01@@Z
+??4GridLayout@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4GridStation@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4GridStationLayout@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4IntermediateSheet@LayoutEngine@@QEAAAEAV01@$$QEAV01@@Z
+??4IntermediateSheet@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4LayoutEngine@0@QEAAAEAV00@AEBV00@@Z
+??4ManualLayoutEngine@LayoutEngine@@QEAAAEAV01@$$QEAV01@@Z
+??4ManualLayoutEngine@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4Matrix@LayoutEngine@@QEAAAEAV01@$$QEAV01@@Z
+??4Matrix@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4OrderedStation@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4OutputSheet@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4OutputStation@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4PathPoint@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4PlacedPath@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4Rectangle@LayoutEngine@@QEAAAEAV01@$$QEAV01@@Z
+??4Rectangle@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4RunlistItem@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4SeamlessRepetitionOptions@LayoutEngine@@QEAAAEAU01@$$QEAU01@@Z
+??4SeamlessRepetitionOptions@LayoutEngine@@QEAAAEAU01@AEBU01@@Z
+??4SheetGenerator@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??4VectorPath@LayoutEngine@@QEAAAEAV01@AEBV01@@Z
+??8LayoutEngine@@YA_NAEBVMatrix@0@0@Z
+??8LayoutEngine@@YA_NAEBVOutputSheet@0@0@Z
+??8LayoutEngine@@YA_NAEBVOutputStation@0@0@Z
+??8LayoutEngine@@YA_NAEBVPathPoint@0@0@Z
+??8LayoutEngine@@YA_NAEBVRectangle@0@0@Z
+??8LayoutEngine@@YA_NAEBVVectorPath@0@0@Z
+??9LayoutEngine@@YA_NAEBVMatrix@0@0@Z
+??9LayoutEngine@@YA_NAEBVOutputSheet@0@0@Z
+??9LayoutEngine@@YA_NAEBVOutputStation@0@0@Z
+??9LayoutEngine@@YA_NAEBVPathPoint@0@0@Z
+??9LayoutEngine@@YA_NAEBVRectangle@0@0@Z
+??9LayoutEngine@@YA_NAEBVVectorPath@0@0@Z
+??DLayoutEngine@@YA?AVMatrix@0@AEBV10@0@Z
+??DLayoutEngine@@YA?AVPathPoint@0@AEBVMatrix@0@AEBV10@@Z
+??DLayoutEngine@@YA?AVVectorPath@0@AEBVMatrix@0@AEBV10@@Z
+??_7GuillotineSheetGenerator@LayoutEngine@@6B@
+??_7NestingSheetGenerator@LayoutEngine@@6B@
+??_7SheetGenerator@LayoutEngine@@6B@
+??_FMatrix@LayoutEngine@@QEAAXXZ
+??_FPathPoint@LayoutEngine@@QEAAXXZ
+??_FRectangle@LayoutEngine@@QEAAXXZ
+??_FRunlistItem@LayoutEngine@@QEAAXXZ
+?AddRemainingOptionalStationsToNester@NestingSheetGenerator@LayoutEngine@@AEAAXPEAVNesting@3@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEAV?$map@_JPEAXU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JPEAX@std@@@2@@5@@Z
+?AddRemainingStationsToNester@NestingSheetGenerator@LayoutEngine@@AEAAXPEAVNesting@3@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEAV?$map@_JPEAXU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JPEAX@std@@@2@@5@@Z
+?AddStationsToNester@NestingSheetGenerator@LayoutEngine@@AEAA?AV?$map@_JPEAXU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JPEAX@std@@@2@@std@@PEAVNesting@5@AEBV?$map@_J_KU?$less@_J@std@@V?$allocator@U?$pair@$$CB_J_K@std@@@2@@4@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?AddStationsToNester@NestingSheetGenerator@LayoutEngine@@AEAA?AV?$map@_JPEAXU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JPEAX@std@@@2@@std@@PEAVNesting@5@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?ApplyBleedOnGridLayout@LayoutEngine@1@AEAA_NXZ
+?ApplyHeadTurnOnGridLayout@LayoutEngine@1@AEAA_NXZ
+?ApplyPartialLabelStaggerOrContinuousPrintingOnGridLayout@LayoutEngine@1@AEAA_NXZ
+?ApplyStaggerOnGridLayout@LayoutEngine@1@AEAA_NXZ
+?CenterStations@LayoutEngine@@YA?AVOutputSheet@1@AEBV21@W4Type@Center@1@@Z
+?ClassicFillSheet@NestingSheetGenerator@LayoutEngine@@AEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@@Z
+?ClassicMinimalLayouts@NestingSheetGenerator@LayoutEngine@@AEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@@Z
+?CreateObject@NestingSheetGenerator@LayoutEngine@@AEAAPEAXPEAVNesting@3@AEBVOrderedStation@2@_K_N@Z
+?CreatePartialGridStation@LayoutEngine@1@AEAA_NHH_N@Z
+?CutBin@GuillotineSheetGenerator@LayoutEngine@@AEBA?AV?$vector@VBin@LayoutEngine@@V?$allocator@VBin@LayoutEngine@@@std@@@std@@AEBVBin@2@AEBVOutputStation@2@@Z
+?FetchGridStationLayoutList@LayoutEngine@1@AEAA_NAEAV?$vector@VGridStationLayout@LayoutEngine@@V?$allocator@VGridStationLayout@LayoutEngine@@@std@@@std@@@Z
+?GenerateBleedLayout@ManualLayoutEngine@LayoutEngine@@QEAA?AV?$vector@VPlacedPath@LayoutEngine@@V?$allocator@VPlacedPath@LayoutEngine@@@std@@@std@@AEBV34@AEBV?$vector@NV?$allocator@N@std@@@4@@Z
+?GenerateClassicSolution@GuillotineSheetGenerator@LayoutEngine@@UEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@_N@Z
+?GenerateClassicSolution@NestingSheetGenerator@LayoutEngine@@UEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@_N@Z
+?GenerateLayout@GlobalEngine@LayoutEngine@@QEBA?AV?$vector@VOutputSheet@LayoutEngine@@V?$allocator@VOutputSheet@LayoutEngine@@@std@@@std@@XZ
+?GeneratePartiallyFilledSheets@GuillotineSheetGenerator@LayoutEngine@@UEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?GeneratePartiallyFilledSheets@NestingSheetGenerator@LayoutEngine@@UEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?GeneratePartiallyFilledSheetsOneByOne@GuillotineSheetGenerator@LayoutEngine@@AEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?GeneratePartiallyFilledSheetsOptimized@GuillotineSheetGenerator@LayoutEngine@@AEAA?AV?$vector@VIntermediateSheet@LayoutEngine@@V?$allocator@VIntermediateSheet@LayoutEngine@@@std@@@std@@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@4@@Z
+?GenerateSheetFilling@GuillotineSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@0@Z
+?GenerateSheetFilling@NestingSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@0@Z
+?GenerateSheetLeftovers@GuillotineSheetGenerator@LayoutEngine@@AEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEAV45@W4ReducedFirstCut@12@@Z
+?GenerateSheetLeftovers@GuillotineSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEAV45@@Z
+?GenerateSheetLeftovers@NestingSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEAV45@@Z
+?GenerateSheetWeighed@GuillotineSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEBV?$map@_JNU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JN@std@@@2@@5@@Z
+?GenerateSheetWeighed@NestingSheetGenerator@LayoutEngine@@UEAA?AVIntermediateSheet@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@AEBV?$map@_JNU?$less@_J@std@@V?$allocator@U?$pair@$$CB_JN@std@@@2@@5@@Z
+?GetA@Matrix@LayoutEngine@@QEBANXZ
+?GetArea@OrderedStation@LayoutEngine@@QEBANXZ
+?GetB@Matrix@LayoutEngine@@QEBANXZ
+?GetBleedPath@GridStation@LayoutEngine@@QEBAXAEAVVectorPath@2@@Z
+?GetBleedPath@GridStationLayout@LayoutEngine@@QEAAXAEAVVectorPath@2@@Z
+?GetBoundingBox@IntermediateSheet@LayoutEngine@@QEBA?AVRectangle@2@XZ
+?GetBoundingBox@OrderedStation@LayoutEngine@@QEBAAEBVRectangle@2@XZ
+?GetBoundingBox@OutputStation@LayoutEngine@@QEBAAEBVRectangle@2@XZ
+?GetBoundingBox@VectorPath@LayoutEngine@@QEBA?AVRectangle@2@XZ
+?GetBoundingBox@VectorPath@LayoutEngine@@QEBAXAEAVRectangle@2@@Z
+?GetC@Matrix@LayoutEngine@@QEBANXZ
+?GetColumn@GridStation@LayoutEngine@@QEBAHXZ
+?GetColumn@GridStationLayout@LayoutEngine@@QEBAHXZ
+?GetCount@RunlistItem@LayoutEngine@@QEBAHXZ
+?GetD@Matrix@LayoutEngine@@QEBANXZ
+?GetFirstAvailableBin@GuillotineSheetGenerator@LayoutEngine@@AEBA_KAEBV?$vector@VBin@LayoutEngine@@V?$allocator@VBin@LayoutEngine@@@std@@@std@@AEBVOrderedStation@2@@Z
+?GetFirstCut@GuillotineSheetGenerator@LayoutEngine@@QEBA?AW4Type@FirstCut@2@XZ
+?GetFirstPointLastSegment@VectorPath@LayoutEngine@@AEBA_NAEAVPathPoint@2@@Z
+?GetGridBoundingBox@GridLayout@LayoutEngine@@QEAAXAEAVRectangle@2@@Z
+?GetGridBox@LayoutEngine@1@AEAAXAEAV?$TBox@N@ADT@@@Z
+?GetGridBoxForPartialLabel@LayoutEngine@1@AEAAXAEAV?$TBox@N@ADT@@@Z
+?GetGridPostionOnIndex@LayoutEngine@1@AEAAXHAEAH0@Z
+?GetGridStation@LayoutEngine@1@AEAA_NHHAEAVGridStation@1@@Z
+?GetGridStationLayoutList@GridLayout@LayoutEngine@@QEAAXAEAV?$vector@VGridStationLayout@LayoutEngine@@V?$allocator@VGridStationLayout@LayoutEngine@@@std@@@std@@@Z
+?GetHeight@GuillotineSheetGenerator@LayoutEngine@@QEBANXZ
+?GetHeight@IntermediateSheet@LayoutEngine@@QEBANXZ
+?GetHeight@OutputSheet@LayoutEngine@@QEBANXZ
+?GetHeight@Rectangle@LayoutEngine@@QEBANXZ
+?GetHorizontalGutter@GuillotineSheetGenerator@LayoutEngine@@QEBANXZ
+?GetIndex@GridStation@LayoutEngine@@QEBAHXZ
+?GetIndex@GridStationLayout@LayoutEngine@@QEBAHXZ
+?GetLimit@GuillotineSheetGenerator@LayoutEngine@@AEAA_KAEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@0@Z
+?GetMask@PlacedPath@LayoutEngine@@QEBAAEBVVectorPath@2@XZ
+?GetMaskFromOneUp@LayoutEngine@1@AEAA_NAEAVGridStation@1@AEAVVectorPath@1@@Z
+?GetMaskPath@GridStation@LayoutEngine@@QEBAXAEAVVectorPath@2@@Z
+?GetMaskPath@GridStationLayout@LayoutEngine@@QEAAXAEAVVectorPath@2@@Z
+?GetMatrix@GridStationLayout@LayoutEngine@@QEAAXAEAVMatrix@2@@Z
+?GetMatrix@OutputStation@LayoutEngine@@QEBAAEBVMatrix@2@XZ
+?GetMaximumQuantity@OrderedStation@LayoutEngine@@QEBA_KXZ
+?GetOffsetX@GridStation@LayoutEngine@@QEBANXZ
+?GetOffsetY@GridStation@LayoutEngine@@QEBANXZ
+?GetOneUpHandle@GridStation@LayoutEngine@@QEBA_JXZ
+?GetOneUpHandle@GridStationLayout@LayoutEngine@@QEBA_JXZ
+?GetOneUpHandle@OrderedStation@LayoutEngine@@QEBA_JXZ
+?GetOneUpHandle@OutputStation@LayoutEngine@@QEBA_JXZ
+?GetOneUpHandle@PlacedPath@LayoutEngine@@QEBA_JXZ
+?GetOneUpHandle@RunlistItem@LayoutEngine@@QEBA_JXZ
+?GetOrderedQuantity@OrderedStation@LayoutEngine@@QEBA_KXZ
+?GetPlacedStations@IntermediateSheet@LayoutEngine@@QEBAAEBV?$vector@VOutputStation@LayoutEngine@@V?$allocator@VOutputStation@LayoutEngine@@@std@@@std@@XZ
+?GetPlacedStations@OutputSheet@LayoutEngine@@QEBAAEBV?$vector@VOutputStation@LayoutEngine@@V?$allocator@VOutputStation@LayoutEngine@@@std@@@std@@XZ
+?GetPoints@VectorPath@LayoutEngine@@QEBAAEBV?$vector@VPathPoint@LayoutEngine@@V?$allocator@VPathPoint@LayoutEngine@@@std@@@std@@XZ
+?GetPoints@VectorPath@LayoutEngine@@QEBAHAEAV?$vector@VPathPoint@LayoutEngine@@V?$allocator@VPathPoint@LayoutEngine@@@std@@@std@@@Z
+?GetProduceCount@IntermediateSheet@LayoutEngine@@QEBA_KXZ
+?GetProduceCount@OutputSheet@LayoutEngine@@QEBA_KXZ
+?GetQuantities@IntermediateSheet@LayoutEngine@@QEBAAEBV?$map@_J_KU?$less@_J@std@@V?$allocator@U?$pair@$$CB_J_K@std@@@2@@std@@XZ
+?GetRemainders@GuillotineSheetGenerator@LayoutEngine@@AEBA_KAEBVBin@2@NNAEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@@Z
+?GetRotation@GridStation@LayoutEngine@@QEBANXZ
+?GetRotation@GuillotineSheetGenerator@LayoutEngine@@QEBA?AW4Type@Rotation@2@XZ
+?GetRow@GridStation@LayoutEngine@@QEBAHXZ
+?GetRow@GridStationLayout@LayoutEngine@@QEBAHXZ
+?GetSeamlessRepetitionOptions@LayoutEngine@@YA?AV?$variant@V?$vector@USeamlessRepetitionOptions@LayoutEngine@@V?$allocator@USeamlessRepetitionOptions@LayoutEngine@@@std@@@std@@W4SeamlessRepetitionErrorType@LayoutEngine@@@boost@@AEBUSeamlessRepetitionOptions@1@NNNN@Z
+?GetSeamlessRepetitions@LayoutEngine@@YA?AV?$vector@V?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V?$allocator@V?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@@std@@AEBUSeamlessRepetitionOptions@1@@Z
+?GetShadowIndex@GridStation@LayoutEngine@@QEBAHXZ
+?GetShape@NestingSheetGenerator@LayoutEngine@@AEAAAEBVVectorPath@2@AEBVOrderedStation@2@@Z
+?GetShape@OrderedStation@LayoutEngine@@QEBAAEBVVectorPath@2@XZ
+?GetStationQuantity@IntermediateSheet@LayoutEngine@@QEBA_K_J@Z
+?GetStrips@GuillotineSheetGenerator@LayoutEngine@@QEBA?AW4Type@Strips@2@XZ
+?GetTX@Matrix@LayoutEngine@@QEBANXZ
+?GetTY@Matrix@LayoutEngine@@QEBANXZ
+?GetType@PathPoint@LayoutEngine@@QEBA?AW4PathPointType@12@XZ
+?GetVerticalGutter@GuillotineSheetGenerator@LayoutEngine@@QEBANXZ
+?GetWidth@GuillotineSheetGenerator@LayoutEngine@@QEBANXZ
+?GetWidth@IntermediateSheet@LayoutEngine@@QEBANXZ
+?GetWidth@OutputSheet@LayoutEngine@@QEBANXZ
+?GetWidth@Rectangle@LayoutEngine@@QEBANXZ
+?GetX@PathPoint@LayoutEngine@@QEBANXZ
+?GetX@Rectangle@LayoutEngine@@QEBANXZ
+?GetY@PathPoint@LayoutEngine@@QEBANXZ
+?GetY@Rectangle@LayoutEngine@@QEBANXZ
+?Grow@Rectangle@LayoutEngine@@QEAAXAEBV12@@Z
+?Interupted@ManualLayoutEngine@LayoutEngine@@AEAA_NXZ
+?Invalidate@VectorPath@LayoutEngine@@AEAAXXZ
+?IsClosed@VectorPath@LayoutEngine@@QEBA_NXZ
+?IsEmpty@Rectangle@LayoutEngine@@QEBA_NXZ
+?IsEmpty@VectorPath@LayoutEngine@@QEBA_NXZ
+?IsMaximumFill@OrderedStation@LayoutEngine@@QEBA_NXZ
+?IsPartial@GridStationLayout@LayoutEngine@@QEBAHXZ
+?IsPartialLabel@GridStation@LayoutEngine@@QEBA_NXZ
+?IsRectangle@VectorPath@LayoutEngine@@QEBA_NXZ
+?IsRotated@LayoutEngine@@YA_NAEBVOutputStation@1@@Z
+?IsVisible@GridStation@LayoutEngine@@QEBA_NXZ
+?LimitStation@IntermediateSheet@LayoutEngine@@QEAAX_J_K@Z
+?LogCaches@NestingSheetGenerator@LayoutEngine@@QEBAXXZ
+?LogOptions@GuillotineSheetGenerator@LayoutEngine@@QEBAXXZ
+?LogOptions@NestingSheetGenerator@LayoutEngine@@QEBAXXZ
+?MakeClosed@VectorPath@LayoutEngine@@QEAAXXZ
+?MakeGridLayout@LayoutEngine@1@QEAA_NAEAVGridLayout@1@@Z
+?MakeRectangle@VectorPath@LayoutEngine@@SA?AV12@NNNN@Z
+?MakeSimpleGridLayout@LayoutEngine@1@AEAA_NXZ
+?Nest@NestingSheetGenerator@LayoutEngine@@AEBA?AW4nesterror_type@Nesting@@PEAV44@J@Z
+?Offset@LayoutEngine@@YA?AV?$shared_ptr@$$CBVVectorPath@LayoutEngine@@@boost@@AEBVVectorPath@1@N@Z
+?OrderStations@GlobalEngine@LayoutEngine@@QEAAXAEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@@Z
+?PathBegin@VectorPath@LayoutEngine@@QEAAXXZ
+?PathEnd@VectorPath@LayoutEngine@@QEAAXXZ
+?PathLine@VectorPath@LayoutEngine@@QEAAXNN@Z
+?PathMove@VectorPath@LayoutEngine@@QEAAXNN@Z
+?PlaceStation@GuillotineSheetGenerator@LayoutEngine@@AEBA?AVOutputStation@2@AEBVOrderedStation@2@AEBVBin@2@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@std@@@Z
+?PlaceStation@IntermediateSheet@LayoutEngine@@QEAAXAEBVOutputStation@2@@Z
+?PlaceStation@OutputSheet@LayoutEngine@@QEAAXAEBVOutputStation@2@@Z
+?PlaceStationAndCutBins@GuillotineSheetGenerator@LayoutEngine@@AEBA?AVIntermediateSheet@2@AEBVOrderedStation@2@_KAEAV?$vector@VBin@LayoutEngine@@V?$allocator@VBin@LayoutEngine@@@std@@@std@@AEBV32@AEBV?$vector@VOrderedStation@LayoutEngine@@V?$allocator@VOrderedStation@LayoutEngine@@@std@@@6@@Z
+?RemoveStation@IntermediateSheet@LayoutEngine@@QEAAX_J_K@Z
+?SetBleedPath@GridStation@LayoutEngine@@QEAAXAEAVVectorPath@2@@Z
+?SetBleedPath@GridStationLayout@LayoutEngine@@QEAAXVVectorPath@2@@Z
+?SetColumn@GridStationLayout@LayoutEngine@@QEAAXH@Z
+?SetCount@RunlistItem@LayoutEngine@@QEAAXH@Z
+?SetGetMaskFromOneUpFunction@LayoutEngine@1@QEAAXAEBV?$function@$$A6A_N_JAEAVVectorPath@LayoutEngine@@PEAX@Z@boost@@PEAX@Z
+?SetGridBoundingBox@GridLayout@LayoutEngine@@QEAAXAEAVRectangle@2@@Z
+?SetGridClipPathBox@LayoutEngine@1@QEAAXW4GridClipPathBox@11@@Z
+?SetGridStation@LayoutEngine@1@AEAA_NHHAEAVGridStation@1@@Z
+?SetGridStationLayoutList@GridLayout@LayoutEngine@@QEAAXAEAV?$vector@VGridStationLayout@LayoutEngine@@V?$allocator@VGridStationLayout@LayoutEngine@@@std@@@std@@@Z
+?SetHeight@Rectangle@LayoutEngine@@QEAAXN@Z
+?SetIndex@GridStation@LayoutEngine@@QEAAXH@Z
+?SetIndex@GridStationLayout@LayoutEngine@@QEAAXH@Z
+?SetInteruptChecker@ManualLayoutEngine@LayoutEngine@@QEAAXV?$function0@_N@boost@@@Z
+?SetIsPartial@GridStationLayout@LayoutEngine@@QEAAX_N@Z
+?SetIsPartialLabel@GridStation@LayoutEngine@@QEAAX_N@Z
+?SetIsVisible@GridStation@LayoutEngine@@QEAAX_N@Z
+?SetMaskPath@GridStation@LayoutEngine@@QEAAXAEAVVectorPath@2@@Z
+?SetMaskPath@GridStationLayout@LayoutEngine@@QEAAXVVectorPath@2@@Z
+?SetMatrix@GridStationLayout@LayoutEngine@@QEAAXVMatrix@2@@Z
+?SetMaximumQuantity@OrderedStation@LayoutEngine@@QEAAX_K@Z
+?SetOffset@GridStation@LayoutEngine@@QEAAXNN@Z
+?SetOneUpHandle@GridStation@LayoutEngine@@QEAAX_J@Z
+?SetOneUpHandle@GridStationLayout@LayoutEngine@@QEAAX_J@Z
+?SetOneUpHandle@RunlistItem@LayoutEngine@@QEAAXH@Z
+?SetOrderedQuantity@OrderedStation@LayoutEngine@@QEAAX_K@Z
+?SetPartialLabelFitMode@LayoutEngine@1@QEAAXW4PartialLabelFitMode@11@@Z
+?SetProduceCount@IntermediateSheet@LayoutEngine@@QEAAX_K@Z
+?SetProduceCount@OutputSheet@LayoutEngine@@QEAAX_K@Z
+?SetRotation@GridStation@LayoutEngine@@QEAAXN@Z
+?SetRow@GridStationLayout@LayoutEngine@@QEAAXH@Z
+?SetRowColumn@GridStation@LayoutEngine@@QEAAXHH@Z
+?SetShadowIndex@GridStation@LayoutEngine@@QEAAXH@Z
+?SetType@PathPoint@LayoutEngine@@QEAAXW4PathPointType@12@@Z
+?SetUpNest@NestingSheetGenerator@LayoutEngine@@AEBAPEAVNesting@3@XZ
+?SetWidth@Rectangle@LayoutEngine@@QEAAXN@Z
+?SetX@Rectangle@LayoutEngine@@QEAAXN@Z
+?SetXY@Rectangle@LayoutEngine@@QEAAXNN@Z
+?SetY@Rectangle@LayoutEngine@@QEAAXN@Z
+?Transform@PathPoint@LayoutEngine@@QEAAXAEAVTTrafo@ADT@@@Z
+?Transform@PathPoint@LayoutEngine@@QEAAXNNN@Z
+?Transform@VectorPath@LayoutEngine@@QEAAXAEAVTTrafo@ADT@@@Z
+?Transform@VectorPath@LayoutEngine@@QEAAXNNN@Z
+?Validate@VectorPath@LayoutEngine@@AEBAXXZ
+?initialize@GridStation@LayoutEngine@@AEAAX_J_N@Z
+?Intersect@YAGL@@YA?AV?$vector@NV?$allocator@N@std@@@std@@AEBULine@1@AEBVRotatedRectangle@1@@Z
+??0RotatedRectangle@YAGL@@QEAA@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@1@N@Z
+?Contains@RotatedRectangle@YAGL@@QEBA_NAEBV?$PointBase@UMilliPointCoordinateSystem@YAGL@@@2@@Z
+?GrowToEnclose@RotatedRectangle@YAGL@@QEAAXAEBV?$PointBase@UMilliPointCoordinateSystem@YAGL@@@2@@Z
+??1RotatedRectangle@YAGL@@QEAA@XZ
+YAGL.dll
+??1GridParameters@LayoutParameters@@QEAA@XZ
+?GetCellSizeX@GridParameters@LayoutParameters@@QEBANXZ
+?GetCellSizeY@GridParameters@LayoutParameters@@QEBANXZ
+?GetCellNumbersX@GridParameters@LayoutParameters@@QEBAHXZ
+?GetCellNumbersY@GridParameters@LayoutParameters@@QEBAHXZ
+?GetCellGapX@GridParameters@LayoutParameters@@QEBANXZ
+?GetCellGapY@GridParameters@LayoutParameters@@QEBANXZ
+?GetCellRotation@GridParameters@LayoutParameters@@QEBA?AW4Rotation@2@XZ
+?GetBleed@GridParameters@LayoutParameters@@QEBANXZ
+?GetContinuousPrintingDirection@GridParameters@LayoutParameters@@QEBA?AW4ContinuousPrintingDirection@2@XZ
+?GetHeadTurn@GridParameters@LayoutParameters@@QEBA?AW4HeadTurn@2@XZ
+?GetStagger@GridParameters@LayoutParameters@@QEBA?AW4Stagger@2@XZ
+?GetStaggerOffset@GridParameters@LayoutParameters@@QEBANXZ
+?GetStaggerRepeat@GridParameters@LayoutParameters@@QEBAHXZ
+?GetStaggerPartialLabels@GridParameters@LayoutParameters@@QEBA_NXZ
+?GetFirstFillingSequence@GridParameters@LayoutParameters@@QEBA?AW4FillingSequence@2@XZ
+?GetSecondFillingSequence@GridParameters@LayoutParameters@@QEBA?AW4FillingSequence@2@XZ
+?GetActualCellSizeX@GridParameters@LayoutParameters@@QEBANXZ
+?GetActualCellSizeY@GridParameters@LayoutParameters@@QEBANXZ
+?GetGridSizeX@GridParameters@LayoutParameters@@QEBANXZ
+?GetGridSizeY@GridParameters@LayoutParameters@@QEBANXZ
+LayoutParameters.dll
+??0Guard@Logging@@QEAA@XZ
+??1Guard@Logging@@QEAA@XZ
+?HasLevel@Logging@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_K@Z
+?IncreaseIndentation@Logging@@YAXXZ
+?DecreaseIndentation@Logging@@YAXXZ
+Logging.dll
+??0TEngine@Offset@@QEAA@AEAVTVectorContourEngine@ADT@@_N@Z
+?SetSide@TEngine@Offset@@QEAAXW4TSide@2@@Z
+?SetJoin@TEngine@Offset@@QEAAXW4TJoin@2@N@Z
+?SetCap@TEngine@Offset@@QEAAXW4TCap@2@@Z
+?SetLoopRemovalMode@TEngine@Offset@@QEAAXH@Z
+?SetDistance@TEngine@Offset@@QEAAXN@Z
+??1TEngine@Offset@@UEAA@XZ
+Offset.dll
+??0TEnvironment@ROD@@QEAA@XZ
+??1TEnvironment@ROD@@QEAA@XZ
+??0TGraph@ROD@@QEAA@AEAVTEnvironment@1@@Z
+?Output@TGraph@ROD@@QEBAXAEAVTVectorContourEngine@ADT@@I@Z
+??1TGraph@ROD@@QEAA@XZ
+??0TInputEngine@ROD@@QEAA@AEAVTEnvironment@1@@Z
+??1TInputEngine@ROD@@UEAA@XZ
+?Close@TInputEngine@ROD@@UEAAXXZ
+?SetOwnerId@TInputEngine@ROD@@QEAAXAEBI@Z
+?CreateClip@TGraphicsObject@Input@GeoMapper@@QEAAXAEAVTPath@23@@Z
+?CreateElement@TGroup@Input@GeoMapper@@QEAAPEAVTElement@23@AEAVTPath@23@AEBVTElementAttribute@3@_N@Z
+?ContainsAttribute@TFill@GeoMapper@@QEBA_NPEBVTElementAttribute@2@@Z
+??0TStack@Input@GeoMapper@@QEAA@XZ
+??1TStack@Input@GeoMapper@@UEAA@XZ
+?Root@TStack@Input@GeoMapper@@QEAAAEAVTGroup@23@XZ
+?NewPath@TStack@Input@GeoMapper@@QEAAAEAVTPath@23@XZ
+??0TOptions@GeoMapper@@QEAA@XZ
+??1TOptions@GeoMapper@@QEAA@XZ
+??0TGraph@GeoMapper@@QEAA@AEAVTStack@Input@1@PEBVTOptions@1@PEAVTRatGraphEditor@1@@Z
+??1TGraph@GeoMapper@@QEAA@XZ
+??0TRegionIterator@TGraph@GeoMapper@@QEAA@AEBV12@_NPEAVTFillSelector@2@@Z
+??1TRegionIterator@TGraph@GeoMapper@@QEAA@XZ
+?NextRegion@TRegionIterator@TGraph@GeoMapper@@QEAA_NAEAVTRegion@23@@Z
+??0TBoundary@TGraph@GeoMapper@@QEAA@XZ
+?GetFillHandle@TBoundary@TGraph@GeoMapper@@QEBAPEBVTFill@3@_N@Z
+?Output@TBoundary@TGraph@GeoMapper@@QEBAXAEAVTVectorContourEngine@ADT@@_N111@Z
+?NextBoundary@TBoundaryIteratorBase@TGraph@GeoMapper@@QEAA_NAEAVTBoundary@23@PEA_N@Z
+??0TBoundaryIterator@TContour@TRegion@TGraph@GeoMapper@@QEAA@AEBV1234@@Z
+??1TBoundaryIterator@TContour@TRegion@TGraph@GeoMapper@@UEAA@XZ
+??0TContour@TRegion@TGraph@GeoMapper@@QEAA@XZ
+??1TContour@TRegion@TGraph@GeoMapper@@QEAA@XZ
+?GetBox@TContour@TRegion@TGraph@GeoMapper@@QEBAXAEAVTIntBox@ADT@@@Z
+??0TContourIterator@TRegion@TGraph@GeoMapper@@QEAA@AEBV123@@Z
+??1TContourIterator@TRegion@TGraph@GeoMapper@@QEAA@XZ
+?NextContour@TContourIterator@TRegion@TGraph@GeoMapper@@QEAA_NAEAVTContour@234@@Z
+??0TRegion@TGraph@GeoMapper@@QEAA@XZ
+??1TRegion@TGraph@GeoMapper@@QEAA@XZ
+?NumberOfAttributes@TRegion@TGraph@GeoMapper@@QEBAHXZ
+??0TFillSelector@GeoMapper@@QEAA@XZ
+??1TFillSelector@GeoMapper@@UEAA@XZ
+?Output@TEnvelope@TGraph@GeoMapper@@QEBAXAEAVTVectorContourEngine@ADT@@_N@Z
+?End@TPath@Input@GeoMapper@@QEAAXXZ
+??0TElementAttributeIterator@GeoMapper@@QEAA@PEBVTFill@1@_N@Z
+??1TElementAttributeIterator@GeoMapper@@QEAA@XZ
+?NextAttribute@TElementAttributeIterator@GeoMapper@@QEAAPEBVTElementAttribute@2@XZ
+?GetRegion@TRegionSelector@TGraph@GeoMapper@@UEBAPEBQEBVTIntContour@3@XZ
+?GetRegionSet@TRegionSelector@TGraph@GeoMapper@@UEBAPEBV?$set@PEBVTIntContour@GeoMapper@@U?$less@PEBVTIntContour@GeoMapper@@@std@@V?$allocator@PEBVTIntContour@GeoMapper@@@4@@std@@XZ
+??RTFillSelector@GeoMapper@@UEBA_NAEBQEBVTIntContour@1@@Z
+??0TElementAttribute@GeoMapper@@QEAA@XZ
+??1TElementAttribute@GeoMapper@@UEAA@XZ
+?NewGroup@TGroup@Input@GeoMapper@@QEAAAEAV123@_N@Z
+?Close@TPath@Input@GeoMapper@@UEAAXXZ
+??0TOpaqueElementAttribute@GeoMapper@@QEAA@XZ
+??1TOpaqueElementAttribute@GeoMapper@@UEAA@XZ
+??0TNonEmptyFillSelector@GeoMapper@@QEAA@XZ
+??1TNonEmptyFillSelector@GeoMapper@@UEAA@XZ
+GeoMapper.dll
+?MoveTo@TVectorContourEngine@ADT@@QEAAXHH@Z
+?LineTo@TVectorContourEngine@ADT@@QEAAXHH@Z
+?Grow@?$TBox@H@ADT@@QEAAXH@Z
+?Grow@?$TBox@H@ADT@@QEAAXAEBV12@@Z
+?MoveTo@TVectorContourEngine@ADT@@QEAAXNN@Z
+?LineTo@TVectorContourEngine@ADT@@QEAAXNN@Z
+??0TDoubleContourEngine@ADT@@QEAA@XZ
+??1TDoubleContourEngine@ADT@@UEAA@XZ
+?StartContour@TVectorContourEngine@ADT@@UEAAX_N@Z
+?SetCurrentUserSegmentId@TVectorContourEngine@ADT@@UEAAXI_N@Z
+?IsOpen@TVectorContourEngine@ADT@@MEBA_NXZ
+?MoveToInt@TDoubleContourEngine@ADT@@MEAAXHH@Z
+?MoveToDoublePoint@TDoubleContourEngine@ADT@@MEAAXAEBVTDoublePoint@2@@Z
+?MoveToIntPoint@TDoubleContourEngine@ADT@@MEAAXAEBVTIntPoint@2@@Z
+?LineToInt@TDoubleContourEngine@ADT@@MEAAXHH@Z
+?LineToDoublePoint@TDoubleContourEngine@ADT@@MEAAXAEBVTDoublePoint@2@@Z
+?LineToIntPoint@TDoubleContourEngine@ADT@@MEAAXAEBVTIntPoint@2@@Z
+?TangentToInt@TDoubleContourEngine@ADT@@MEAAXHH@Z
+?TangentToDoublePoint@TDoubleContourEngine@ADT@@MEAAXAEBVTDoublePoint@2@@Z
+?TangentToIntPoint@TDoubleContourEngine@ADT@@MEAAXAEBVTIntPoint@2@@Z
+?CurveToInt@TDoubleContourEngine@ADT@@MEAAXHHHHHH@Z
+?CurveToDoublePoint@TDoubleContourEngine@ADT@@MEAAXAEBVTDoublePoint@2@00@Z
+?CurveToIntPoint@TDoubleContourEngine@ADT@@MEAAXAEBVTIntPoint@2@00@Z
+??XTTrafo@ADT@@QEAAAEAV01@AEBV01@@Z
+?Transform@TTrafo@ADT@@QEBA?AVTDoublePoint@2@AEBV32@@Z
+?RotationTrafo@TTrafo@ADT@@SA?AV12@N@Z
+??0TDoublePoint@ADT@@QEAA@XZ
+??0TTrafo@ADT@@QEAA@NNNNNN@Z
+?Transform@TTrafo@ADT@@QEBAXAEBVTDoublePoint@2@AEAV32@@Z
+InitializeCriticalSection
+EnterCriticalSection
+LeaveCriticalSection
+DeleteCriticalSection
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+?uncaught_exceptions@std@@YAHXZ
+?good@ios_base@std@@QEBA_NXZ
+?flags@ios_base@std@@QEBAHXZ
+?width@ios_base@std@@QEBA_JXZ
+?width@ios_base@std@@QEAA_J_J@Z
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?clog@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?precision@ios_base@std@@QEAA_J_J@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?copyfmt@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAAEAV12@AEBV12@@Z
+?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAADD@Z
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_N@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+_Thrd_hardware_concurrency
+_Mtx_init_in_situ
+_Mtx_destroy_in_situ
+_Mtx_lock
+_Mtx_unlock
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?__ExceptionPtrCreate@@YAXPEAX@Z
+?__ExceptionPtrDestroy@@YAXPEAX@Z
+?__ExceptionPtrCopy@@YAXPEAXPEBX@Z
+?__ExceptionPtrAssign@@YAXPEAXPEBX@Z
+?__ExceptionPtrToBool@@YA_NPEBX@Z
+?__ExceptionPtrCurrentException@@YAXPEAX@Z
+?__ExceptionPtrRethrow@@YAXPEBX@Z
+_Cnd_init_in_situ
+_Cnd_destroy_in_situ
+_Cnd_wait
+_Cnd_broadcast
+_Thrd_join
+_Thrd_id
+_Cnd_signal
+_Cnd_do_broadcast_at_thread_exit
+MSVCP140.dll
+_purecall
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+__CxxFrameHandler4
+__std_type_info_compare
+__current_exception
+__current_exception_context
+__C_specific_handler
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+__acrt_iob_func
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+terminate
+_beginthreadex
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVruntime_error@std@@
+.?AVbad_pointer@boost@@
+.?AVbad_ptr_container_operation@boost@@
+.?AVclone_base@exception_detail@boost@@
+.?AVexception@boost@@
+.?AU?$wrapexcept@Vbad_function_call@boost@@@boost@@
+.?AVbad_function_call@boost@@
+.?AW4nesterror_type@Nesting@@
+.P6AXVTask@Parallel@@@Z
+.?AVexpired_slot@signals2@boost@@
+.?AV?$sp_ms_deleter@Vinvocation_state@?$signal_impl@$$A6AXXZV?$optional_last_value@X@signals2@boost@@HU?$less@H@std@@V?$function@$$A6AXXZ@3@V?$function@$$A6AXAEBVconnection@signals2@boost@@@Z@3@Vmutex@23@@detail@signals2@boost@@@detail@boost@@
+.?AVsp_counted_base@detail@boost@@
+.?AVAttributeFillSelector@GMA@LayoutEngine@@
+.?AVTFillSelector@GeoMapper@@
+.?AVTRegionSelector@TGraph@GeoMapper@@
+.?AV?$sp_counted_impl_p@$$CBVVectorPath@LayoutEngine@@@detail@boost@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AVios_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AVSheetGenerator@LayoutEngine@@
+.?AVTElementAttribute@GeoMapper@@
+.?AVObjectAttribute@GMA@LayoutEngine@@
+.?AVContourEngine@GMA@LayoutEngine@@
+.?AVTDoubleContourEngine@ADT@@
+.?AVTContourEngine@ADT@@
+.?AVTVectorContourEngine@ADT@@
+.?AVGuillotineSheetGenerator@LayoutEngine@@
+.?AVNestingSheetGenerator@LayoutEngine@@
+.?AV_Ref_count_base@std@@
+.?AV?$_Func_base@XVTask@Parallel@@@std@@
+.?AVPromiseBase@Parallel@@
+.?AV?$Promise@W4nesterror_type@Nesting@@@Parallel@@
+.?AV?$_Func_impl_no_alloc@P6AXVTask@Parallel@@@ZXV12@@std@@
+.?AV?$_Ref_count_obj2@V?$Promise@W4nesterror_type@Nesting@@@Parallel@@@std@@
+.?AV?$Promise@X@Parallel@@
+.?AV?$_Ref_count_obj2@V?$Promise@X@Parallel@@@std@@
+.?AVTaskEngine@Parallel@@
+.?AVsignal_base@signals2@boost@@
+.?AVnoncopyable@noncopyable_@boost@@
+.?AUbase_token@noncopyable_@boost@@
+.?AV?$signal@$$A6AXXZV?$optional_last_value@X@signals2@boost@@HU?$less@H@std@@V?$function@$$A6AXXZ@3@V?$function@$$A6AXAEBVconnection@signals2@boost@@@Z@3@Vmutex@23@@signals2@boost@@
+.?AU?$std_functional_base@$$V@detail@signals2@boost@@
+.?AV?$sp_counted_impl_p@V?$signal_impl@$$A6AXXZV?$optional_last_value@X@signals2@boost@@HU?$less@H@std@@V?$function@$$A6AXXZ@3@V?$function@$$A6AXAEBVconnection@signals2@boost@@@Z@3@Vmutex@23@@detail@signals2@boost@@@detail@boost@@
+.?AV?$sp_counted_impl_pd@PEAVinvocation_state@?$signal_impl@$$A6AXXZV?$optional_last_value@X@signals2@boost@@HU?$less@H@std@@V?$function@$$A6AXXZ@3@V?$function@$$A6AXAEBVconnection@signals2@boost@@@Z@3@Vmutex@23@@detail@signals2@boost@@V?$sp_ms_deleter@Vinvocation_state@?$signal_impl@$$A6AXXZV?$optional_last_value@X@signals2@boost@@HU?$less@H@std@@V?$function@$$A6AXXZ@3@V?$function@$$A6AXAEBVconnection@signals2@boost@@@Z@3@Vmutex@23@@detail@signals2@boost@@@35@@detail@boost@@
+.?AV?$sp_counted_impl_p@Vmutex@signals2@boost@@@detail@boost@@
+.?AV?$sp_counted_impl_p@V?$optional_last_value@X@signals2@boost@@@detail@boost@@
+.?AV?$sp_counted_impl_p@V?$grouped_list@HU?$less@H@std@@V?$shared_ptr@V?$connection_body@U?$pair@W4slot_meta_group@detail@signals2@boost@@V?$optional@H@4@@std@@V?$slot@$$A6AXXZV?$function@$$A6AXXZ@boost@@@signals2@boost@@Vmutex@45@@detail@signals2@boost@@@boost@@@detail@signals2@boost@@@detail@boost@@
+.?AVThreadPool@Parallel@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0T1
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+231012000000Z
+241011235959Z0W1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+8http://crl.sectigo.com/SectigoPublicCodeSigningCAR36.crl0y
+8http://crt.sectigo.com/SectigoPublicCodeSigningCAR36.crt0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+230714000000Z
+341013235959Z0H1
+DigiCert, Inc.1 0
+DigiCert Timestamp 20230
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+l2|X/gGe
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R36
+g^k75Nmeib
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+240312174205Z0/

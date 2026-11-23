@@ -1,0 +1,1619 @@
+
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+UVWATAUAVAWH
+0A_A^A]A\_^]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+t$ WATAVH
+WATAUAVAWH
+0A_A^A]A\_
+t$ WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USWATAWH
+|$ UAVAWH
+@USWATAWH
+[ UATAWI
+[ UATAVH
+UVWAVAWH
+`A_A^_^]
+UVWAVAWH
+UVWAVAWH
+pA_A^_^]
+UVWAVAWH
+`A_A^_^]
+UVWAVAWH
+pA_A^_^]
+UVWAVAWH
+`A_A^_^]
+UVWAVAWH
+UVWAVAWH
+`A_A^_^]
+UVWAVAWH
+pA_A^_^]
+t$ UWAVH
+L$ SUVWH
+L$ SUVWH
+t$ UWAVH
+t$ UWAVH
+t$ UWAVH
+t$ UWAVH
+t$ UWAVH
+t$ UAVAWH
+t$ UWAVH
+|$ UATAWH
+UWATAVAWH
+A_A^A\_]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAVH
+|$ UATAWH
+t$ UWAVH
+|$ UAVAWH
+|$ UAVAWH
+t$ UAVAWH
+|$ UATAWH
+|$ UAVAWH
+t$ UWAVH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+t$ UWAVH
+|$ UAVAWH
+|$ UAVAWH
+t$ UWAVH
+t$ UWAVH
+UVWATAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+t$ UWAVH
+|$ UAVAWH
+t$ UWAVH
+|$ UAVAWH
+|$ UAVAWH
+UVWAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+t$ UWAVH
+|$ UATAVH
+t$ UWAVH
+t$ UWAVH
+@USVWAVH
+UVWAVAWH
+t$ UWATAVAWH
+A_A^A\_]
+@USAVAWH
+@USVWAVH
+@USVWAVH
+UVWAVAWH
+`A_A^_^]
+@SVWATAUAVAWH
+PA_A^A]A\_^[
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SVWATAVAWH
+A_A^A\_^[
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SVWATAUAVAWH
+A_A^A]A\_^[
+UATAUAVAWH
+A_A^A]A\]
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAUAVAWH
+PA_A^A]A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+d$ UAVAWH
+@SVWAUAVAWH
+A_A^A]_^[
+@SVWATAVAWH
+HA_A^A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+@SVWATAUAVAWH
+PA_A^A]A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+@SVWAVAWH
+PA_A^_^[
+@SUWATAVAWH
+XA_A^A\_][
+UATAUAVAWH
+A_A^A]A\]
+@SUWAVAWH
+UATAUAVAWH
+A_A^A]A\]
+@SVWATAVAWH
+A_A^A\_^[
+UATAUAVAWH
+A_A^A]A\]
+@SVWATAUAVAWH
+A_A^A]A\_^[
+UATAUAVAWH
+A_A^A]A\]
+@SUWATAVAWH
+A_A^A\_][
+@SUWATAUAVAWH
+PA_A^A]A\_][
+@SUWATAVAWH
+A_A^A\_][
+d$ UAVAWH
+l$ VWATAVAWH
+A_A^A\_^
+@SVWAVAWH
+PA_A^_^[
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+@SVWAVAWH
+PA_A^_^[
+L$ SUWATAVAWH
+HA_A^A\_][
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SUWATAUAVAWH
+@A_A^A]A\_][
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUWAVAWH
+d$ UAVAWH
+|$ ATAVAWH
+L$ SVWAVH
+L$ VWAVH
+L$ SVWAVH
+L$ SVWAVH
+L$ WAVAWH
+L$ SVWAVAWH
+`A_A^_^[
+L$ SVWAVH
+L$ SVWATAUAVAWH
+@A_A^A]A\_^[
+L$ SVWATAVAWH
+HA_A^A\_^[
+L$ SVWATAUAVAWH
+@A_A^A]A\_^[
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+PA_A^A]A\_^[
+L$ SUWATAUAVAWH
+PA_A^A]A\_][
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+PA_A^A]A\_^[
+L$ SVWATAUAVAWH
+`A_A^A]A\_^[
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ VWATAVAWH
+@A_A^A\_^
+L$ SVWAVAWH
+@A_A^_^[
+L$ VWAVH
+H SUWAVAWH
+L$ SUWAVAWH
+L$ UWATAVAWH
+A_A^A\_]
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWATAUAVAWH
+@A_A^A]A\_][
+L$ SUWATAUAVAWH
+PA_A^A]A\_][
+L$ SUWAVAWH
+L$ UWATAVAWH
+A_A^A\_]
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+@SUWAVAWH
+@SUWATAVAWH
+A_A^A\_][
+@SUWAVAWH
+@SUWATAUAVAWH
+A_A^A]A\_][
+SUWAVAWH
+@SUWAVAWH
+@SUWATAVAWH
+A_A^A\_][
+@SUWAVAWH
+@A_A^_][
+@SUWATAUAVAWH
+PA_A^A]A\_][
+SUWAVAWH
+SUWATAVAWH
+A_A^A\_][
+@SVWAVAWH
+`A_A^_^[
+@SVWATAVAWH
+XA_A^A\_^[
+SUWAVAWH
+UVWAVAWH
+0A_A^_^]
+\$ UWAVH
+SVWAVAWH
+SVWATAVAWH
+A_A^A\_^[
+@SVWAVAWH
+SUWATAUAVAWH
+A_A^A]A\_][
+SUWAVAWH
+@SVWAVAWH
+X UWATAVAWH
+A_A^A\_]
+SUWAVAWH
+SUWATAUAVAWH
+A_A^A]A\_][
+SUWATAUAVAWH
+A_A^A]A\_][
+@SUWAVAWH
+@SUWAVAWH
+X UWATAVAWH
+A_A^A\_]
+SVWAVAWH
+SVWATAVAWH
+A_A^A\_^[
+SUWAVAWH
+\$ UWAVH
+@SVWAVAWH
+pA_A^_^[
+SUWAVAWH
+@SVWAVAWH
+`A_A^_^[
+@SUVWATAWH
+hA_A\_^][
+@SUVWATAUAWH
+pA_A]A\_^][
+SVWATAVAWH
+A_A^A\_^[
+@SVWAVAWH
+`A_A^_^[
+@SVWAVAWH
+@SVWATAVAWH
+A_A^A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+@SUWAVAWH
+@SVWATAVAWH
+A_A^A\_^[
+@SVWATAVAWH
+A_A^A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAVAWH
+XA_A^A\_^[
+@SVWATAUAVAWH
+pA_A^A]A\_^[
+@SVWATAUAVAWH
+pA_A^A]A\_^[
+@SUWAVAWH
+@SVWATAVAWH
+A_A^A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWAVAWH
+0A_A^_^[
+@SUVWATAWH
+HA_A\_^][
+@SUVWATAUAWH
+@A_A]A\_^][
+@SVWATAVAWH
+A_A^A\_^[
+@SVWAVAWH
+PA_A^_^[
+@SUWAVAWH
+@SUVWATAWH
+A_A\_^][
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SUVWATAUAWH
+A_A]A\_^][
+@SVWATAVAWH
+xA_A^A\_^[
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWATAUAVAWH
+0A_A^A]A\_^[
+@SVWATAUAVAWH
+PA_A^A]A\_^[
+@SUWAVAWH
+pA_A^_][
+@SVWATAVAWH
+A_A^A\_^[
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SVWAVAWH
+`A_A^_^[
+@SUWAVAWH
+@SUVWATAWH
+HA_A\_^][
+@SUVWATAUAVH
+PA^A]A\_^][
+@SUVWATAUAVH
+PA^A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAWH
+HA_A\_^][
+@SVWATAVAWH
+A_A^A\_^[
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAVH
+A^A\_^][
+@SUVWATAWH
+A_A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAUAVH
+A^A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAWH
+hA_A\_^][
+@SUVWATAUAWH
+pA_A]A\_^][
+@SUVWATAUAWH
+pA_A]A\_^][
+@SVWATAVAWH
+A_A^A\_^[
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SUVWATAUAWH
+A_A]A\_^][
+@SVWAVAWH
+`A_A^_^[
+@SUVWATAWH
+hA_A\_^][
+SVWAVAWH
+SVWATAVAWH
+A_A^A\_^[
+L$ SUWAVH
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWAVAWH
+pA_A^_^[
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUWATAVAWH
+8A_A^A\_][
+L$ SUVAVH
+L$ SUVAVH
+L$ SUWAVH
+L$ SVWAVAWH
+0A_A^_^[
+L$ SVWAVH
+L$ SVWAVAWH
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWAUAVAWH
+A_A^A]_^[
+L$ SVWAVAWH
+L$ SVWATAVH
+L$ SVWAVAWH
+L$ SVWAVAWH
+L$ SVWAUAVAWH
+A_A^A]_^[
+L$ SVWAUAVAWH
+HA_A^A]_^[
+L$ SVWAVAWH
+`A_A^_^[
+L$ SUWAVAWH
+L$ SUWATAVAWH
+A_A^A\_][
+L$ SUVAVH
+L$ SUWAVH
+L$ SVWAVAWH
+@A_A^_^[
+L$ SVWAUAVAWH
+HA_A^A]_^[
+L$ VWAVH
+L$ VWAVH
+L$ SVWAVH
+L$ SVWAVAWH
+L$ SVWAVAWH
+L$ VWATAVAWH
+A_A^A\_^
+L$ SVWAVAWH
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWATAUAVAWH
+A_A^A]A\_^[
+L$ SVWAVH
+L$ SVWAVAWH
+L$ SVWAVAWH
+L$ VWATAVAWH
+A_A^A\_^
+L$ SUWAVAWH
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWATAUAVAWH
+A_A^A]A\_][
+L$ SUWAVH
+L$ SUWAVAWH
+L$ SVWAVAWH
+L$ UWATAVAWH
+A_A^A\_]
+L$ SUWAVH
+L$ SVWAVAWH
+L$ SVWAUAVAWH
+A_A^A]_^[
+L$ SUWAVAWH
+L$ SVWAVAWH
+0A_A^_^[
+L$ SVWAVAWH
+PA_A^_^[
+L$ SUVWATAWH
+HA_A\_^][
+L$ SUVWATAUAWH
+PA_A]A\_^][
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWAVAWH
+L$ SUVWAUAWH
+A_A]_^][
+L$ SUVWATAWH
+A_A\_^][
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWAVAWH
+L$ SUVWATAUAWH
+A_A]A\_^][
+L$ SUVWATAUAWH
+A_A]A\_^][
+L$ SVWAUAVAWH
+A_A^A]_^[
+L$ SUVWAUAWH
+A_A]_^][
+L$ SUVWAUAWH
+A_A]_^][
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWAVAWH
+`A_A^_^[
+L$ SVWATAUAVAWH
+`A_A^A]A\_^[
+L$ SVWATAUAVAWH
+pA_A^A]A\_^[
+L$ SUWAVAWH
+L$ SVWAUAVAWH
+A_A^A]_^[
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SVWATAVAWH
+A_A^A\_^[
+L$ SUWAVH
+L$ UWAVH
+L$ SUWAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+|$ UAVAWH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x UATAUAVAWH
+A_A^A]A\]
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAVAWI
+UVWAVAWI
+s UWATAVAWI
+A_A^A\_]
+UVWAVAWI
+UVWATAWI
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+t$ WAVAWH
+l$ VWAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+UVWATAWH
+pA_A\_^]
+s UWATAUAVI
+A^A]A\_]
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ VWAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+UVWAVAWI
+l$ WAVAWH
+UVWAVAWI
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+s UWATAVAWI
+A_A^A\_]
+l$ WAVAWH
+UVWAVAWI
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+|$ UAVAWH
+|$ UAVAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ VWAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ VWAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+l$ VWAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+l$ VWAWH
+l$ VWAWH
+t$ WAVAWH
+t$ WAVAWH
+UVWATAVH
+UVWATAVH
+UVWATAWH
+t$ WAVAWH
+l$ WAVAWH
+l$ WAVAWH
+UVWATAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+UVWATAWH
+`A_A\_^]
+|$ UAVAWH
+UVWATAWH
+UVWAVAWH
+UVWATAWH
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+D$@IcK$M
+A_A^A\_]
+|$ UAVAWH
+UVWATAWH
+UVWAVAWH
+UVWATAWH
+UVWATAWH
+UVWATAWH
+`A_A\_^]
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+t$ WAVAWH
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+SAUAVAWH
+hA_A^A][
+@SUAVAWH
+@SUAVAWH
+@SUAVAWH
+@SUAVAWH
+SATAVAWH
+hA_A^A\[
+@SUATAVH
+@SUATAWH
+@SVAVAWH
+@SVAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SUATAVH
+@SVAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SVAVAWH
+@SWAVAWH
+@SWAVAWH
+@SWAVAWH
+@SVAVAWH
+@SVAVAWH
+@SVAVAWH
+@SWAVAWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UATAUAVAWH
+A_A^A]A\]
+UATAUAVAWH
+A_A^A]A\]
+` UAVAWH
+UATAUAVAWH
+A_A^A]A\]
+` UAVAWH
+SVWATAUH
+0A]A\_^[
+UVWAVAWH
+t$ WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+VWATAVAWH
+A_A^A\_^
+VWATAVAWH
+A_A^A\_^
+{ ATAVAWH
+{ ATAVAWH
+WATAUAVAWH
+0A_A^A]A\_
+VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+0A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+@USVWATAUAVAWH
+xA_A^A]A\_^[]
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+C@HcT$0J
+SVWATAUAVAWH
+ A_A^A]A\_^[
+UVWAVAWH
+pA_A^_^]
+SVWAVAWH
+ A_A^_^[
+VWATAVAWH
+ A_A^A\_^
+@SUVWATAUAVAWH
+hA_A^A]A\_^][
+UVWATAUAVAWH
+`A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+D$0L9H s
+VWATAVAWH
+uiH;s rcH;
+C0H9C(tTH
+A_A^A\_^
+USVWATAUAVAWH
+L$HHcD$0H
+D$HHcD$0H
+tDHcT$0H
+tFHcT$0H
+tHHcD$0H
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWAVAWH
+S H;S(t#
+S H;S(t?
+S H;S(t4
+S H;S(t3
+8A_A^_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+D$0H9X s
+t$ WAVAWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+VWATAVAWH
+ A_A^A\_^
+UVWATAUAVAWH
+pA_A^A]A\_^]
+@SUVWAUAVAWH
+ A_A^A]_^][
+SVWATAUAVAWH
+0A_A^A]A\_^[
+@SVATAVH
+UVWATAUAVAWH
+VpI;Vxt%H
+A_A^A]A\_^]
+VpI;Vxt)H
+VpI;Vxt%H
+D$ H;D$H
+VpI;Vxt%H
+@UWAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+L$ SUVWH
+UVWAVAWH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+UVWATAUAVAWH
+PA_A^A]A\_^]
+SVWATAUH
+@A]A\_^[
+USVWATAUAVAWH
+A_A^A]A\_^[]
+@USWATAWH
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+@SUVWAVH
+@USWATAWH
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+@SUVWAVH
+@USWATAWH
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+PA_A\_[]
+@SUVWAVH
+@USWAVAWH
+`A_A^_[]
+`A_A^_[]
+`A_A^_[]
+`A_A^_[]
+`A_A^_[]
+`A_A^_[]
+@USVWAVH
+@USVWAVH
+@USVATAUH
+pA]A\^[]
+Unknown exception
+bad array new length
+bad variant access
+string too long
+unknown boost::container exception
+vector too long
+Determinant of transformation matrix is zero, can not calculate inverse
+unordered_map/set too long
+invalid hash bucket count
+get_next_capacity, allocator's max size reached
+map/set too long
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Unknown error (%d)
+No message text available for error %d
+asio.misc
+Already open
+End of file
+Element not found
+The descriptor does not fit into the select call's fd_set
+asio.misc error
+bad allocation
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+DocumentSamplePicker.dll
+??0Options@DocumentSamplePicker@@QEAA@$$QEAV01@@Z
+??0Options@DocumentSamplePicker@@QEAA@AEBV01@@Z
+??0Options@DocumentSamplePicker@@QEAA@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBVContent@ArtDoc@@@Z
+??0Options@DocumentSamplePicker@@QEAA@VBlackOutputSelector@01@AEBVContent@ArtDoc@@@Z
+??0Options@DocumentSamplePicker@@QEAA@VCMYKOutputSelector@01@AEBVContent@ArtDoc@@@Z
+??0Resources@DocumentSamplePicker@@QEAA@$$QEAV01@@Z
+??0Resources@DocumentSamplePicker@@QEAA@_K@Z
+??1Options@DocumentSamplePicker@@QEAA@XZ
+??1Resources@DocumentSamplePicker@@QEAA@XZ
+??4Resources@DocumentSamplePicker@@QEAAAEAV01@$$QEAV01@@Z
+?GetBlendingSeparations@Options@DocumentSamplePicker@@QEBAAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+?GetContent@Options@DocumentSamplePicker@@QEBAAEBVContent@ArtDoc@@XZ
+?GetDocument@Options@DocumentSamplePicker@@QEBAAEBVDocument@ArtDoc@@XZ
+?GetImpl@Resources@DocumentSamplePicker@@QEAAAEAVResourcesImpl@2@XZ
+?GetOutputMode@Options@DocumentSamplePicker@@QEBA?AW4OutputMode@12@XZ
+?PickComponentsAtPoints@DocumentSamplePicker@@YA?AV?$vector@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@V?$allocator@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@2@@std@@AEBV?$vector@V?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V?$allocator@V?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@@3@0AEBVOptions@1@AEAVResources@1@PEBVTFill@GeoMapper@@3@Z
+?Paint@ElementAttribute@DocumentGraph@@QEBAAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@XZ
+?ContentTransformation@ElementAttribute@DocumentGraph@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetTransformation@ShadingPaint@ArtPaint@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetConvertedSeparationMapping@ShadingPaint@ArtPaint@@QEBAAEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+?GetBoundingBox@ShadingPaint@ArtPaint@@QEBAAEBV?$RectangleBase@UPdfCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetExtends@AxialShadingPaint@ArtPaint@@QEBAAEBV?$array@_N$01@std@@XZ
+?GetPoints@AxialShadingPaint@ArtPaint@@QEBAAEBV?$array@V?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@$01@std@@XZ
+?GetConvertedFunction@AxialShadingPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetCmykIndex@ArtDoc@@YA?AW4Type@CmykIndex@ArtColor@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetCenters@RadialShadingPaint@ArtPaint@@QEBAAEBV?$array@V?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@$01@std@@XZ
+?GetRadii@RadialShadingPaint@ArtPaint@@QEBAAEBV?$array@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@$01@std@@XZ
+?GetExtends@RadialShadingPaint@ArtPaint@@QEBAAEBV?$array@_N$01@std@@XZ
+?GetConvertedFunction@RadialShadingPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetCmyk@Representation@ArtColor@@QEBAAEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@XZ
+?GetRepresentation@Entry@Separation@ArtDoc@@QEBAAEBVRepresentation@ArtColor@@XZ
+?Find@Separation@ArtDoc@@YA?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@VEntry@Separation@ArtDoc@@@std@@@std@@@std@@AEBV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@4@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+?GetSeparationInfo@Document@ArtDoc@@QEBAAEBV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@std@@XZ
+?GetConvertedColor@FlatPaint@ArtPaint@@QEBAAEBV?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+??8ArtColor@@YA_NAEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@0@Z
+?FillIsNormalOpaque@ArtBlend@@YA_NAEBV?$shared_ptr@$$CBVTransparency@ArtBlend@@@std@@@Z
+?GetDocument@Content@ArtDoc@@QEAAAEAVDocument@2@XZ
+?GetDocument@Content@ArtDoc@@QEBAAEBVDocument@2@XZ
+?GetContent@SoftMask@ArtBlend@@QEBAAEAVContent@ArtDoc@@XZ
+??0CContext@ArtColor@@QEAA@AEBVDocument@ArtDoc@@@Z
+??1CContext@ArtColor@@QEAA@XZ
+?Visit@CContext@ArtColor@@QEAAXAEBVContent@ArtDoc@@@Z
+?EndVisit@CContext@ArtColor@@QEAAXAEBVContent@ArtDoc@@@Z
+?Push@CContext@ArtColor@@QEAAXAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@_N@Z
+?Pop@CContext@ArtColor@@QEAAX_N@Z
+?GetCurrentBlendingColorSpace@CContext@ArtColor@@QEBAAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@XZ
+?GetColorConverter@ArtColor@@YA?AV?$shared_ptr@VColorConverter@ArtColor@@@std@@AEBV?$variant@UDeviceN@ArtColor@@UAll@2@UDeviceGray@2@UCalGray@2@UICCGray@2@UDeviceRGB@2@UCalRGB@2@UICCRGB@2@ULab@2@UICCLab@2@UICCCMYK@2@@3@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@3@W4RenderingIntent@1@@Z
+?Transparency@ElementAttribute@DocumentGraph@@QEBAAEBV?$shared_ptr@$$CBVTransparency@ArtBlend@@@std@@XZ
+?DoSelectStroke@ElementAttribute@DocumentGraph@@QEBA_NXZ
+?Transparency@GroupAttribute@DocumentGraph@@QEBAAEBV?$shared_ptr@$$CBVTransparency@ArtBlend@@@std@@XZ
+?DoSelectStroke@GroupAttribute@DocumentGraph@@QEBA_NXZ
+?GroupColorSpace@GroupAttribute@DocumentGraph@@QEBAAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@XZ
+?DefiningSoftMask@SoftMaskAttribute@DocumentGraph@@QEBAAEBV?$shared_ptr@$$CBVSoftMask@ArtBlend@@@std@@XZ
+?GroupColorSpace@SoftMaskAttribute@DocumentGraph@@QEBAAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@XZ
+?PaintedPicture@ElementAttribute@DocumentGraph@@QEBAAEBV?$shared_ptr@$$CBVPaintedPicture@ArtImg@@@std@@XZ
+?GetType@ArtPaint@@YA?AW4Type@Paint@1@AEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?ObjectTransformation@ElementAttribute@DocumentGraph@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+??0IntToComponent@ArtImg@@QEAA@_K@Z
+?GetPictureData@PaintedPicture@ArtImg@@QEBAAEBV?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@_N@Z
+?GetChannelMapping@PaintedPicture@ArtImg@@QEBAAEBV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@_N@Z
+?GetConvertedChannelMapping@PaintedPicture@ArtImg@@QEBA?AV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+?GetMaskKind@PaintedPicture@ArtImg@@QEBA?AW4MaskKind@2@_N@Z
+?GetMaskData@PaintedPicture@ArtImg@@QEBAAEBV?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@_N@Z
+?GetSoftMaskMapping@PaintedPicture@ArtImg@@QEBAAEBVValue@ChannelMappingPolicy@ArtColor@@_N@Z
+?GetPictureBuffer@PictureData@ArtImg@@QEBA?AV?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@_N@Z
+?GetConverted8BitPictureBuffer@PictureData@ArtImg@@QEBA?AV?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@AEBV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?Get8BitPictureBuffer@PictureData@ArtImg@@QEBA?AV?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@XZ
+?GetRowPtr@PictureBuffer@ArtImg@@QEBAPEBE_K@Z
+?GetRange@Function@ArtPaint@@QEBAAEBV?$vector@V?$array@N$01@std@@V?$allocator@V?$array@N$01@std@@@2@@std@@XZ
+?IsAlpha@SoftMask@ArtBlend@@QEBA_NXZ
+?GetTransferFunction@SoftMask@ArtBlend@@QEBAAEBV?$variant@_NV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@std@@XZ
+?GetBackdropLuminosity@ArtBlend@@YA?AVComponent@ArtColor@@AEBVSoftMask@1@@Z
+Document.dll
+WS2_32.dll
+?CrossProduct@YAGL@@YA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$01@1@AEBV?$PointBase@UMilliPointCoordinateSystem@YAGL@@@1@0@Z
+YAGL.dll
+?ContainsAttribute@TFill@GeoMapper@@QEBA_NPEBVTElementAttribute@2@@Z
+?IsIsolated@TGroup@TFill@GeoMapper@@QEBA_NXZ
+?IsKnockout@TGroup@TFill@GeoMapper@@QEBA_NXZ
+?SoftMaskAttribute@TSoftMask@TFill@GeoMapper@@QEBAPEBVTSoftMaskAttribute@3@XZ
+??0TGraphicsComponentIterator@TFill@GeoMapper@@QEAA@AEBVTSoftMask@12@W4TSelectMode@TObject@Input@2@_N@Z
+??1TGraphicsComponentIterator@TFill@GeoMapper@@QEAA@XZ
+?Next@TGraphicsComponentIterator@TFill@GeoMapper@@QEAAPEBVTGraphicsComponent@23@XZ
+??1TMaskComponentIterator@TFill@GeoMapper@@QEAA@XZ
+?Next@TMaskComponentIterator@TFill@GeoMapper@@QEAAPEBVTMaskComponent@23@XZ
+GeoMapper.dll
+FormatMessageA
+FormatMessageW
+WideCharToMultiByte
+LocalFree
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+__CxxFrameHandler4
+__current_exception
+__current_exception_context
+__C_specific_handler
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+__stdio_common_vsprintf
+_callnewh
+terminate
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+.?AVbad_variant_access@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@container@boost@@
+.?AVlength_error@container@boost@@
+.?AVinvalid_argument@std@@
+.?AVlogic_error@std@@
+.?AV_Ref_count_base@std@@
+.?AVAxialShadingPaintGetter@DocumentSamplePicker@@
+.?AVPaintGetter@DocumentSamplePicker@@
+.?AV?$_Ref_count_obj2@VAxialShadingPaintGetter@DocumentSamplePicker@@@std@@
+.?AVRadialShadingPaintGetter@DocumentSamplePicker@@
+.?AV?$_Ref_count_obj2@VRadialShadingPaintGetter@DocumentSamplePicker@@@std@@
+.?AVFlatPaintGetter@DocumentSamplePicker@@
+.?AV?$_Ref_count_obj2@VFlatPaintGetter@DocumentSamplePicker@@@std@@
+.?AV?$_Ref_count_obj2@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@
+.?AV?$_Ref_count_obj2@VSourcePaintBuffers@DocumentSamplePicker@@@std@@
+.?AVerror_category@system@boost@@
+.?AVsystem_error_category@detail@system@boost@@
+.?AVmisc_category@detail@error@asio@boost@@
+.?AVPicturePaintGetter@DocumentSamplePicker@@
+.?AV?$_Ref_count_obj2@VPicturePaintGetter@DocumentSamplePicker@@@std@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0W1
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+240916000000Z
+270916235959Z0
+08860479831
+Private Organization1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+:http://crl.sectigo.com/SectigoPublicCodeSigningCAEVR36.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningCAEVR36.crt0#
+http://ocsp.sectigo.com0(
+BE-08860479830
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+240926000000Z
+351125235959Z0B1
+DigiCert1 0
+DigiCert Timestamp 20240
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R36
+pfd#75}1H
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+250203230542Z0/

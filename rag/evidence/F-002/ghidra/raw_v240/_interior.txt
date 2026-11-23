@@ -1,0 +1,99 @@
+program=DocumentMarks.dll exec=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/DocumentMarks.dll
+md5=4d2f2060555b206bd9f374ca69f8a234 imageBase=180000000 ghidra=12.2
+
+===== RUN OF 10 IDS =====
+section=.text start=180001000 end=1802f0fff exec=true
+
+---- 0x18001A2C0 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a2b9 MOV dword ptr [RSP + 0x20],0x0 (len=8)
+isInstructionStart=false deltaIntoInstruction=7
+
+---- 0x18001A2D0 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a2cd CALL 0x1802ccf7a (len=5)
+isInstructionStart=false deltaIntoInstruction=3
+
+---- 0x18001A2E0 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a2de MOV RCX,qword ptr [RAX] (len=3)
+isInstructionStart=false deltaIntoInstruction=2
+
+---- 0x18001A2F0 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a2ee MOV R8,qword ptr [RBX] (len=3)
+isInstructionStart=false deltaIntoInstruction=2
+
+---- 0x18001A300 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a2fe LEA RDX,[RBX + -0x20] (len=4)
+isInstructionStart=false deltaIntoInstruction=2
+
+---- 0x18001A310 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a30d LEA RCX,[RSP + 0x40] (len=5)
+isInstructionStart=false deltaIntoInstruction=3
+
+---- 0x18001A320 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a31e MOV RDX,RDI (len=3)
+isInstructionStart=false deltaIntoInstruction=2
+
+---- 0x18001A330 ----
+isFunctionEntry=false
+containingFunction=18001a240 DocumentMarks::BarcodeMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a32c MOV RBP,qword ptr [RSP + 0x50] (len=5)
+isInstructionStart=false deltaIntoInstruction=4
+
+---- 0x18001A340 ----
+isFunctionEntry=true
+containingFunction=18001a340 DocumentMarks::DynamicMark::Accept
+symbolsAtAddress=3
+instructionContaining=18001a340 MOV qword ptr [RSP + 0x10],RBX (len=5)
+isInstructionStart=true deltaIntoInstruction=0
+
+---- 0x18001A350 ----
+isFunctionEntry=false
+containingFunction=18001a340 DocumentMarks::DynamicMark::Accept
+symbolsAtAddress=NONE
+instructionContaining=18001a350 SUB RSP,0x30 (len=4)
+isInstructionStart=true deltaIntoInstruction=0
+
+===== CONTAINER FUNCTION =====
+functionEntry=18001a240
+name=Accept
+fullName=DocumentMarks::BarcodeMark::Accept
+namespace=DocumentMarks::BarcodeMark
+prototype=void __thiscall Accept(ConstVisitorBase * param_1)
+body=18001a240..18001a33b
+bodySize=252
+thunk=false external=false
+callingConvention=__thiscall
+paramCount=2
+callerCount=1
+caller=18001aab0 postProcessMark
+calleeCount=2
+callee=1802ccf7a __RTDynamicCast
+callee=180013810 FUN_180013810
+stringsInBody=
+refTo=1803aabe4 DATA
+refTo=18047b164 DATA
+refTo=Entry Point EXTERNAL
+refTo=18001ab72 UNCONDITIONAL_CALL
+refTo=1802f9bf0 DATA
+refsToCount=5

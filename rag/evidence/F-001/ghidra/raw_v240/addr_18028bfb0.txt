@@ -1,0 +1,314 @@
+requested=0x18028bfb0
+resolvedAddress=18028bfb0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18028bfb0 FUN_18028bfb0
+status=OK
+entry=18028bfb0
+name=FUN_18028bfb0
+qualifiedName=FUN_18028bfb0
+namespace=Global
+signature=undefined FUN_18028bfb0()
+returnType=undefined
+parameterCount=0
+bodyMin=18028bfb0
+bodyMax=18028c2ed
+bodySize=826
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+1804907ac refType=DATA fromFunction=
+18028ddf7 refType=UNCONDITIONAL_CALL fromFunction=18028d730 FUN_18028d730
+
+[CALLERS]
+18028d730 FUN_18028d730
+
+[CALLEES]
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:000001ae DOCUMENT.DLL::ArtDoc::GetEskoStringValue
+18028ef30 DocumentMarks::VDPSimpleRule::VDPSimpleRule
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1802cbfd0 __security_check_cookie
+EXTERNAL:00000367 DOCUMENT.DLL::ArtDoc::Dictionary::HasStringValue
+1802a41d0 FUN_1802a41d0
+
+[DIRECT_CALL_TARGETS]
+18028c011 -> 18028ef30 DocumentMarks::VDPSimpleRule::VDPSimpleRule
+18028c01f -> 18028c055 FUN_18028bfb0
+18028c032 -> 18028c050 FUN_18028bfb0
+18028c047 -> 18028c050 FUN_18028bfb0
+18028c049 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18028c050 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c0ce -> EXTERNAL:00000367 DOCUMENT.DLL::ArtDoc::Dictionary::HasStringValue
+18028c0e0 -> 18028c116 FUN_18028bfb0
+18028c0f3 -> 18028c111 FUN_18028bfb0
+18028c108 -> 18028c111 FUN_18028bfb0
+18028c10a -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18028c111 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c119 -> 18028c25a FUN_18028bfb0
+18028c15d -> EXTERNAL:000001ae DOCUMENT.DLL::ArtDoc::GetEskoStringValue
+18028c169 -> 18028c1cd FUN_18028bfb0
+18028c173 -> 18028c1a1 FUN_18028bfb0
+18028c182 -> 18028c19c FUN_18028bfb0
+18028c197 -> 18028c1ff FUN_18028bfb0
+18028c19c -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c1d5 -> 18028c20b FUN_18028bfb0
+18028c1e8 -> 18028c206 FUN_18028bfb0
+18028c1fd -> 18028c206 FUN_18028bfb0
+18028c1ff -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18028c206 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c224 -> 18028c25a FUN_18028bfb0
+18028c237 -> 18028c255 FUN_18028bfb0
+18028c24c -> 18028c255 FUN_18028bfb0
+18028c24e -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18028c255 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c25f -> 18028c264 FUN_18028bfb0
+18028c26f -> 1802a41d0 FUN_1802a41d0
+18028c27f -> 18028c2c4 FUN_18028bfb0
+18028c288 -> 18028c2b6 FUN_18028bfb0
+18028c299 -> 18028c2b6 FUN_18028bfb0
+18028c2ab -> 18028c2b6 FUN_18028bfb0
+18028c2be -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18028c2ce -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+180328d48 "Parameters"
+
+[DATA_XREFS_FROM_BODY]
+18028bfb0 -> Stack[0x18] block=? sym=
+18028bfc0 -> Stack[-0x5f] block=? sym=
+18028bfcc -> 180409ec0 block=.data sym=DAT_180409ec0
+18028bfd6 -> Stack[-0x40] block=? sym=
+18028bfe0 -> Stack[-0xc8] block=? sym=
+18028bfe7 -> Stack[-0x80] block=? sym=
+18028bfeb -> Stack[-0x70] block=? sym=
+18028bff3 -> Stack[-0x68] block=? sym=
+18028c005 -> Stack[-0x80] block=? sym=
+18028c009 -> Stack[-0x78] block=? sym=
+18028c00d -> Stack[-0x80] block=? sym=
+18028c017 -> Stack[-0x68] block=? sym=
+18028c024 -> Stack[-0x80] block=? sym=
+18028c038 -> 6765526863746145 block=? sym=DAT_6765526863746145
+18028c049 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18028c055 -> 18032f1d8 block=.rdata sym=DocumentMarks::VDPRuleRegularExpressionMatch::vftable
+18028c05c -> 18032f1d8 block=.rdata sym=DocumentMarks::VDPRuleRegularExpressionMatch::vftable
+18028c097 -> Stack[-0xc0] block=? sym=
+18028c09b -> Stack[-0xb0] block=? sym=
+18028c0a3 -> Stack[-0xa8] block=? sym=
+18028c0ab -> 180328d48 block=.rdata sym=s_Parameters_180328d48
+18028c0b3 -> Stack[-0xc0] block=? sym=
+18028c0b8 -> 180328d50 block=.rdata sym=s_rs_180328d48+8
+18028c0bf -> Stack[-0xb8] block=? sym=
+18028c0c3 -> Stack[-0xb6] block=? sym=
+18028c0c7 -> Stack[-0xc0] block=? sym=
+18028c0ce -> 1802f2710 block=.rdata sym=PTR_HasStringValue_1802f2710
+18028c0d8 -> Stack[-0xa8] block=? sym=
+18028c0e5 -> Stack[-0xc0] block=? sym=
+18028c0f9 -> 6574656d61726148 block=? sym=DAT_6574656d61726148
+18028c10a -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18028c122 -> Stack[-0xa0] block=? sym=
+18028c126 -> Stack[-0x90] block=? sym=
+18028c12e -> Stack[-0x88] block=? sym=
+18028c136 -> 180328d48 block=.rdata sym=s_Parameters_180328d48
+18028c13e -> Stack[-0xa0] block=? sym=
+18028c143 -> 180328d50 block=.rdata sym=s_rs_180328d48+8
+18028c14a -> Stack[-0x98] block=? sym=
+18028c14e -> Stack[-0x96] block=? sym=
+18028c152 -> Stack[-0xa0] block=? sym=
+18028c159 -> Stack[-0x60] block=? sym=
+18028c15d -> 1802f1948 block=.rdata sym=PTR_GetEskoStringValue_1802f1948
+18028c1cd -> Stack[-0x48] block=? sym=
+18028c1da -> Stack[-0x60] block=? sym=
+18028c1ff -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18028c20b -> 1802f9a10 block=.rdata sym=DAT_1802f9a10
+18028c213 -> Stack[-0x50] block=? sym=
+18028c218 -> Stack[-0x60] block=? sym=
+18028c21c -> Stack[-0x88] block=? sym=
+18028c229 -> Stack[-0xa0] block=? sym=
+18028c23d -> 6574656d61726148 block=? sym=DAT_6574656d61726148
+18028c24e -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18028c2c7 -> Stack[-0x40] block=? sym=
+18028c2d3 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+VDPSimpleRule * FUN_18028bfb0(VDPSimpleRule *param_1,Dictionary *param_2)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  longlong *plVar4;
+  longlong lVar5;
+  bool bVar6;
+  VDPSimpleRule *pVVar7;
+  undefined8 uVar8;
+  void *pvVar9;
+  void *pvVar10;
+  VDPSimpleRule *pVVar11;
+  undefined1 auStack_e8 [32];
+  VDPSimpleRule *local_c8;
+  void *local_c0;
+  ulonglong uStack_b8;
+  undefined8 local_b0;
+  ulonglong local_a8;
+  void *local_a0;
+  ulonglong uStack_98;
+  undefined8 local_90;
+  ulonglong local_88;
+  void *local_80;
+  undefined8 uStack_78;
+  undefined8 local_70;
+  ulonglong local_68;
+  Dictionary local_60;
+  undefined7 uStack_5f;
+  undefined8 local_50;
+  ulonglong uStack_48;
+  ulonglong local_40;
+  
+  local_40 = DAT_180409ec0 ^ (ulonglong)auStack_e8;
+  local_70 = 8;
+  local_68 = 0xf;
+  local_80 = (void *)0x676552686374614d;
+  uStack_78 = 0;
+  local_c8 = param_1;
+  DocumentMarks::VDPSimpleRule::VDPSimpleRule
+            (param_1,param_2,
+             (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)&local_80);
+  if (0xf < local_68) {
+    pvVar10 = local_80;
+    if ((0xfff < local_68 + 1) &&
+       (pvVar10 = *(void **)((longlong)local_80 + -8),
+       0x1f < (ulonglong)((longlong)local_80 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar10);
+  }
+  *(undefined ***)param_1 = DocumentMarks::VDPRuleRegularExpressionMatch::vftable;
+  pVVar11 = param_1 + 0x30;
+  *(longlong *)pVVar11 = 0;
+  *(undefined8 *)(param_1 + 0x38) = 0;
+  *(undefined8 *)(param_1 + 0x40) = 0;
+  *(undefined8 *)(param_1 + 0x48) = 0xf;
+  *pVVar11 = (VDPSimpleRule)0x0;
+  *(undefined8 *)(param_1 + 0x50) = 0;
+  *(undefined8 *)(param_1 + 0x58) = 0;
+  *(undefined8 *)(param_1 + 0x60) = 0;
+  *(undefined8 *)(param_1 + 0x68) = 0;
+  *(undefined8 *)(param_1 + 0x70) = 0xf;
+  param_1[0x58] = (VDPSimpleRule)0x0;
+  param_1[0x78] = (VDPSimpleRule)0x1;
+  local_b0 = 10;
+  local_a8 = 0xf;
+  local_c0 = (void *)s_Parameters_180328d48._0_8_;
+  uStack_b8 = (ulonglong)(ushort)s_Parameters_180328d48._8_2_;
+  bVar6 = ArtDoc::Dictionary::HasStringValue
+                    (param_2,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                             &local_c0);
+  if (0xf < local_a8) {
+    pvVar10 = local_c0;
+    if ((0xfff < local_a8 + 1) &&
+       (pvVar10 = *(void **)((longlong)local_c0 + -8),
+       0x1f < (ulonglong)((longlong)local_c0 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar10);
+  }
+  if (bVar6) {
+    local_90 = 10;
+    local_88 = 0xf;
+    local_a0 = (void *)s_Parameters_180328d48._0_8_;
+    uStack_98 = (ulonglong)(ushort)s_Parameters_180328d48._8_2_;
+    pVVar7 = (VDPSimpleRule *)
+             ArtDoc::GetEskoStringValue
+                       (&local_60,
+                        (basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>
+                         *)param_2);
+    if (pVVar11 != pVVar7) {
+      if (0xf < *(ulonglong *)(param_1 + 0x48)) {
+        pvVar10 = *(void **)pVVar11;
+        pvVar9 = pvVar10;
+        if ((0xfff < *(ulonglong *)(param_1 + 0x48) + 1) &&
+           (pvVar9 = *(void **)((longlong)pvVar10 + -8),
+           0x1f < (ulonglong)((longlong)pvVar10 + (-8 - (longlong)pvVar9)))) goto LAB_18028c1ff;
+        free(pvVar9);
+      }
+      *(undefined8 *)(param_1 + 0x40) = 0;
+      *(undefined8 *)(param_1 + 0x48) = 0xf;
+      *pVVar11 = (VDPSimpleRule)0x0;
+      lVar5 = *(longlong *)(pVVar7 + 8);
+      *(longlong *)pVVar11 = *(longlong *)pVVar7;
+      *(longlong *)(param_1 + 0x38) = lVar5;
+      lVar5 = *(longlong *)(pVVar7 + 0x18);
+      *(longlong *)(param_1 + 0x40) = *(longlong *)(pVVar7 + 0x10);
+      *(longlong *)(param_1 + 0x48) = lVar5;
+      *(longlong *)(pVVar7 + 0x10) = 0;
+      *(longlong *)(pVVar7 + 0x18) = 0xf;
+      *pVVar7 = (VDPSimpleRule)0x0;
+    }
+    if (0xf < uStack_48) {
+      pvVar9 = (void *)CONCAT71(uStack_5f,local_60);
+      pvVar10 = pvVar9;
+      if ((0xfff < uStack_48 + 1) &&
+         (pvVar10 = *(void **)((longlong)pvVar9 + -8),
+         0x1f < (ulonglong)((longlong)pvVar9 + (-8 - (longlong)pvVar10)))) {
+LAB_18028c1ff:
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar10);
+    }
+    local_50 = _DAT_1802f9a10;
+    uStack_48 = _UNK_1802f9a18;
+    local_60 = (Dictionary)0x0;
+    if (0xf < local_88) {
+      pvVar10 = local_a0;
+      if ((0xfff < local_88 + 1) &&
+         (pvVar10 = *(void **)((longlong)local_a0 + -8),
+         0x1f < (ulonglong)((longlong)local_a0 + (-8 - (longlong)pvVar10)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar10);
+    }
+  }
+  if (0xf < *(ulonglong *)(param_1 + 0x48)) {
+    pVVar11 = *(VDPSimpleRule **)pVVar11;
+  }
+  uVar8 = FUN_1802a41d0(pVVar11,param_1 + 0x78,param_1 + 0x58);
+  pvVar10 = *(void **)(param_1 + 0x50);
+  *(undefined8 *)(param_1 + 0x50) = uVar8;
+  if (pvVar10 != (void *)0x0) {
+    plVar4 = *(longlong **)((longlong)pvVar10 + 8);
+    if (plVar4 != (longlong *)0x0) {
+      LOCK();
+      plVar1 = plVar4 + 1;
+      lVar5 = *plVar1;
+      *(int *)plVar1 = (int)*plVar1 + -1;
+      UNLOCK();
+      if ((int)lVar5 == 1) {
+        (**(code **)*plVar4)(plVar4);
+        LOCK();
+        piVar2 = (int *)((longlong)plVar4 + 0xc);
+        iVar3 = *piVar2;
+        *piVar2 = *piVar2 + -1;
+        UNLOCK();
+        if (iVar3 == 1) {
+          (**(code **)(*plVar4 + 8))(plVar4);
+        }
+      }
+    }
+    free(pvVar10);
+  }
+  return param_1;
+}
+
+

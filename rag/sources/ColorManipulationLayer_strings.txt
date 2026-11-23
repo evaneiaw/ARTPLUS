@@ -1,0 +1,1423 @@
+﻿
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+@SVATAVAWH
+ A_A^A\^[
+ A_A^A\^[
+@SUVATAWH
+ A_A\^][
+ A_A\^][
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWAVAWH
+`A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+xBHcD$XH
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWAVAWH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWATAVAWH
+D9d$8tFD
+PA_A^A\_^][
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+d$ UAVAWH
+UVWAVAWH
+x1HcD$xH
+0A_A^_^]H
+A(HcD$xH
+A(HcD$xH
+0A_A^_^]
+VWATAVAWH
+ A_A^A\_^
+UVWAVAWH
+ A_A^_^]
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+d$THct$8
+\$XLct$PE
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$8Lct$0E
+\$89t$0taH
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+UVATAUAVH
+ A^A]A\^]
+WATAUAVAWH
+@A_A^A]A\_
+l$ VWATAUAVH
+ A^A]A\_^
+UVWAVAWH
+ A_A^_^]
+t$ WAVAWH
+UVWAVAWH
+x+HcD$xHk
+0A_A^_^]
+ApHcD$xHk
+ApHcD$xLk
+0A_A^_^]
+SUVWATAVAWH
+ A_A^A\_^][
+SUVWATAVAWH
+A_A^A\_^][
+t$ UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+WATAUAVAWH
+ A_A^A]A\_
+t$ WAVAWH
+SUVWATAVAWH
+ A_A^A\_^][
+ A_A^A\_^][
+|$ ATAVAWH
+=knilt!H
+=knilt(H
+UVWATAUAVAWH
+@A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWAVAWH
+pA_A^_^]
+t$ WAVAWH
+x6HcD$hH
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+lcmnw`tMA
+A_A^A]A\_
+@USVWATAUAVAWH
+hA_A^A]A\_^[]
+=lcmnwitQ=tsbat4=knilt
+=rtrpt0=rncst
+=KYMCtt=YARGtW= baLt:= BGRt
+VWATAVAWH
+A_A^A\_^
+UVWATAUAVAWH
+0A_A^A]A\_^]
+t$ WAVAWH
+=knilu)H
+=knilu)H
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+x^HcE0Hk
+`A_A^_^]
+x=HcD$PH
+UVWAVAWH
+x-HcD$xHk
+0A_A^_^]H
+A0HcD$xHk
+A0HcD$xLk
+0A_A^_^]
+x=HcD$XI
+xTHcT$@H
+UVWATAUAVAWH
+PA_A^A]A\_^]
+x UATAUAVAWH
+t5LcD$,E
+A_A^A]A\]
+t$ UWAVH
+= BGRutH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+@SVWATAUAVAWH
+A_A^A]A\_^[
+VWATAVAWH
+A_A^A\_^
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAVH
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+@SUVWAVH
+\$ UVWAVAWH
+atU=RLC3tD=RLC4t3=RLC5t"=RLC6t
+=KYMCtK=YARGt:= baLt)= BGRt
+RLC8wVtN
+\$ UVWAVAWH
+\$ UVWAVAWH
+SVWAVAWH
+ A_A^_^[
+UVWATAUAVAWH
+PA_A^A]A\_^]
+U`HcExHk
+UPHcE`Hk
+U`HcExHk
+UpHcEhHk
+U`HcEhHk
+U`HcExHk
+Red (0-255)
+Green (0-255)
+Blue (0-255)
+CMYK Is Defined
+CMYKOG Is Defined
+L*a*b* Is Defined
+Non Existing Color
+Color Info
+ENFCLBIN
+Y@uncoated
+ColorLibrary
+LicenseenUS
+#BEGINDICT
+#ENDDICT
+Enfocus XYZ Profile.icc
+UTF8Encoding
+CGATS TR 001
+OF-COM-PO-P1-F60
+OF-COM-PO-P2-F60
+OF-COM-PO-P3-F60
+OF-COM-PO-P4-F60
+OF-COM-NE-P1-F60
+OF-COM-NE-P2-F60
+OF-COM-NE-P3-F60
+OF-COM-NE-P4-F60
+SC-GC2-CO-F30
+NW-NE F40
+JC200103
+JC200104
+EUROSB104
+EUROSB204
+CGATS TR 006
+CGATS TR 003
+CGATS TR 005
+CGATS TR 002
+CGATS21-2 CRPC1
+CGATS21-2 CRPC2
+CGATS21-2 CRPC3
+CGATS21-2 CRPC4
+CGATS21-2 CRPC5
+CGATS21-2 CRPC6
+CGATS21-2 CRPC7
+http://www.color.org
+CGATS TR 001 
+SWOP (Publication) printing in USA
+OF-COM-PO-P1-F60 
+offset commercial and specialty printing according to ISO 12647-2, positive plates, gloss-coated paper, type 1, above 70 g/m2
+OF-COM-PO-P2-F60 
+offset commercial and specialty printing according to ISO 12647-2, positive plates, matte-coated paper, type 2, above 70 g/m2
+OF-COM-PO-P3-F60 
+offset commercial and specialty printing according to ISO 12647-2, positive plates, light-weight coated web paper, type 3, ca. 65 g/m2
+OF-COM-PO-P4-F60 
+offset commercial and specialty printing according to ISO 12647-2, positive plates, uncoated offset paper, type 4, above 70 g/m2
+OF-COM-NE-P1-F60 
+offset commercial and specialty printing according to ISO 12647-2, negative plates, gloss-coated paper type 1, above 70 g/m2
+OF-COM-NE-P2-F60 
+offset commercial and specialty printing according to ISO 12647-2, negative plates, matte-coated paper type 2, above 70 g/m2
+OF-COM-NE-P3-F60 
+offset commercial and specialty printing according to ISO 12647-2, negative plates, light-weight coated paper, type 3, ca. 65 g/m2
+OF-COM-NE-P4-F60 
+offset commercial and specialty printing according to ISO 12647-2, negative plates, uncoated offset paper, type 4, above 70 g/m2
+SC-GC2-CO-F30 
+NW-NE F40 
+OFCOM_PO_P1_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and speciality printing, positive plates, paper type 1 (gloss-coated, above 70 g/m2), screen frequency 60/cm.
+OFCOM_PO_P2_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 2 (matte-coated, above 70 g/m2), screen frequency 60/cm.
+OFCOM_PO_P3_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 3 (light weight coated web, 70 g/m2 and below), screen frequency 60/cm.
+OFCOM_PO_P4_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 4, uncoated white offset above 70 g/m2, screen frequency 60/cm.
+OFCOM_NE_P1_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and speciality printing according to ISO 12647-2, negative plates, paper type 1 (gloss-coated, above 70 g/m2), screen frequency 60/cm.
+OFCOM_NE_P2_F60_95. Printing process definition: : ISO 12647-2:1996, Offset commercial and speciality printing according to ISO 12647-2, negative plates, paper type 2 (matte-coated, above 70 g/m2), screen frequency 60/cm.
+OFCOM_NE_P3_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 3 (Light weight coated, 65 g/m2), screen frequency 60/cm.
+OFCOM_NE_P4_F60_95. Printing process definition: ISO 12647-2:1996, Offset commercial and speciality printing according to ISO 12647-2, negative plates, paper type 4 (uncoated white offset), above 70 g/m2), screen frequency 60/cm.
+SC_PO_GC2CO_F30_95. Printing process definition: ISO 12647-5:2001, Screen printing, gamut class 2, conventional UV or water-based air dried, screen frequency 30/cm.
+OFCOM_PO_P1,2_F60_03. Printing process definition: ISO 12647-2:2003+, Offset commercial and speciality printing according to ISO 12647-2, positive acting plates, paper type 1 or 2 (gloss or matte coated offset), 115 g/m2), screen frequency 60/cm.
+OFCOM_PO_P3_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and speciality printing, positive plates, paper type 3 (light weight coated, 65 g/m2), screen frequency 60/cm.
+OFCOM_PO_P4_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 4 (uncoated white offset, 120 g/m2), screen frequency 60/cm.
+OFCOM_PO_P5_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 5 (uncoated, slightly yellowish, 120 g/m2), screen frequency 60/cm.
+OFCOM_PO_(P1,2)_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 1 or 2 (gloss or matte coated offset) but 170 g/m2, screen frequency 60/cm.
+OFCOM_PO_(P3)_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and speciality printing, positive plates, surface as paper type 3 (coated web) but 170 g/m2, screen frequency 60/cm.
+OFCOM_PO_(P4)_F60_03. Printing process definition:ISO 12647-2:2003+. Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 4 (uncoated white offset] but 170 g/m2, screen frequency 60/cm.
+OFCOM_PO_(P5)_F60_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 5 (uncoated, slightly yellowish offset) but 170 g/m2, screen frequency 60/cm.
+OFCOM_PO_P1,2_F70_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and speciality printing according to ISO 12647-2, positive acting plates, paper type 1 or 2 (gloss or matte coated offset), 115 g/m2), screen frequency 70/cm.
+OFCOM_PO_P3_F70_03. Printing process definition: ISO 12647-2:2003+, Offset commercial and speciality printing, positive plates, paper type 3 (light weight coated, 65 g/m2), screen frequency 70/cm.
+OFCOM_PO_P4_F70_03. Printing process definition:ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 4 (uncoated white offset, 120 g/m2), screen frequency 70/cm.
+OFCOM_PO_P5_F70_03. Printing process definition: ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 5 (uncoated, slightly yellowish, 120 g/m2), screen frequency 70/cm.
+OFCOM_PO_(P1,2)_F70_03. Printing process definition: ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 1 or 2 (gloss or matte coated offset) but 170 g/m2,screen frequency 70/cm.
+OFCOM_PO_(P1,2)_F70_03. Printing process definition: : ISO 12647-2:2003+, Offset commercial and speciality printing, positive plates, surface as paper type 3 (coated web) but 170 g/m2, screen frequency 70/cm.
+OFCOM_PO_(P4)_F70_03. Printing process definition: ISO 12647-2:2003+. Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 4 (uncoated white offset] but 170 g/m2, screen frequency 70/cm.
+OFCOM_PO_P(5)_F70_03. Printing process definition: ISO 12647-2:2003+, Offset commercial and specialty printing according to ISO 12647-2, positive plates, surface as paper type 5 (uncoated, slightly yellowish offset) but 170 g/m2, screen frequency 70/cm.
+OFCOM_PO_P1_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 1 or 2 (gloss or matte coated offset, 115 g/m2), screen frequency 60/cm.
+OFCOM_PO_P3_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 3 (coated web, 60 g/m2), screen frequency 60/cm.
+OFCOM_PO_P4_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 4 (uncoated white offset, 120 g/m2), screen frequency 60/cm.
+OFCOM_PO_P5_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Offset commercial and specialty printing according to ISO 12647-2, positive plates, paper type 5 (uncoated, slightly yellowish, offset, 115 g/m2), screen frequency 60/cm.
+OFCOF_PO_P2_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, positive plates, paper type 2 (matte coated offset, 115 g/m2), screen frequency 60/cm.
+OFCOF_PO_P4_F54_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, positive plates, paper type 4 (white uncoated offset, 80 g/m2), screen frequency 60/cm.
+OFCOF_PO_P2_F54_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, positive plates, paper type 2 (matte coated offset, 115 g/m2), screen frequency 54/cm.
+OFCOF_PO_P4_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, positive plates, paper type 4 (white uncoated offset, 120 g/m2), screen frequency 60/cm.
+OFCOF_NE_P2_F54_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, negative plates, paper type 2 (matte coated offset, 115 g/m2), screen frequency 54/cm.
+OFCOF_NE_P4_F54_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, negative plates, paper type 4 (white uncoated offset, 120 g/m2), screen frequency 54/cm.
+OFCOF_NE_P2_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, negative plates, paper type 2 (matte coated offset, 115 g/m2), screen frequency 60/cm.
+OFCOF_NE_P4_F60_04. Printing process definition: ISO/DIS 12647-2:2004, Continuous forms printing according to ISO 12647-2, negative plates, paper type 4 (white uncoated offset, 120 g/m2), screen frequency 60/cm.
+Coldset offset printing, computer to plate (tone value increase of 22%), newsprint, screen ruling 40 lines per cm.
+ISO 12647-3:1998+, Coldset offset printing, contact exposed negative acting plates (tone value increase of 28%), newsprint, screen ruling 40 lines per cm.
+ISO/DIS 12647-3:2004, Coldset offset printing, contact exposed negative acting plates or computer to plate (tone value increase of 26%), newsprint, screen ruling 40 lines per cm.
+ISO/DIS 12647-3:2004, Coldset offset printing, contact exposed negative acting plates or computer to plate (tone value increase of 30%), newsprint, screen ruling 40 lines per cm. (Principally applicable to the USA).
+Japan Color 2001 Coated. Printing process definition:ISO 12647-2:2004, sheet-fed offset printing, positive plates, paper type 3, (coated, 105 gsm), screen frequency 69/cm.
+Japan Color 2001 Coated. Printing process definition:ISO 12647-2:2004, sheet-fed offset printing, positive plates, paper type 4, (uncoated, 105 gsm), screen frequency 69/cm.
+Japan Color 2002 for Newspaper Printing Printing process definition:ISO/DIS 12647-3:2004, coldset offset printing, negative plates, newsprint, screen frequency 39/cm.
+Japan Color 2003 for Web Offset Printing process definition:ISO 12647-2:2004, heat-set web offset printing, positive plates, paper type 3, (coated, 70 gsm), screen frequency 69/cm.
+OFCOM. ISO 12647-2:2004 / Amd 1, Offset commercial and specialty printing according to ISO 12647-2, paper type 1 or 2 (gloss or matte coated offset, 115 g/m2), screen frequency 60/cm.
+OFCOM. ISO 12647-2:2004, Offset commercial and specialty printing according to ISO 12647-2, super calendered (SC) paper, 60 g/m2, screen frequency 60/cm.
+Eurostandard 15% Coated. Offset printing, according to Eurostandard System Brunner specification, within ISO 12647-2:2004 tolerances, paper type coated/semi-matte, 115 g/m2, TVI 15%, screen ruling 60 L/cm, for further information see documentation.
+Eurostandard 15% Webcoated. Offset printing, according to Eurostandard System Brunner specification, within ISO 12647-2:2004 tolerances, LWC woodpulp paper, 80 g/m2, TVI 15%, screen ruling 60 L/cm, for further information see documentation.
+ANSI CGATS/SWOP TR 006-2007
+ proofing and printing on U.S. Grade 1 coated paper
+ANSI CGATS/SWOP TR 003-2007
+ proofing and printing on U.S. Grade 3 coated publication paper
+ANSI CGATS/SWOP TR 005-2007
+ proofing and printing on U.S. Grade 5 coated publication paper
+ANSI CGATS/SNAP TR 002-2007
+SNAP printing in USA
+OFCOM. Printing process definition: ISO 12647-2:2004Offset printing according to ISO 12647-2, paper type MFC (machine finished coated), tone value increase curves B (CMY) and C (K)
+OFCOM. Printing process definition: ISO 12647-2:2004, Offset printing according to ISO 12647-2, paper type SNP (Standard Newsprint)
+OFCOM. Printing process definition: ISO 12647-2:2004 / Amd 1, Offset printing according to ISO 12647-2, paper type 1 or 2 (coated art) 115 g/m2 non-periodic screening
+OFCOM. Printing process definition: ISO 12647-2:2004/Amd1, Offset printing according to ISO 12647-2, paper type 4 (uncoated white) 115 g/m2 non-periodic screening
+OFCOM. Printing process definition: ISO 12647-2:2004, Heatset web offset printing according to ISO 12647-2, improved light-weight coated (LWC), 60 l/cm
+OFCOM. Printing process definition: ISO 12647-2, Heatset web offset printing according to ISO 12647-2:2004, standard light-weight coated (LWC), 60 l/cm
+OFCOM. Printing process definition: ISO 12647-2, Sheetfed offset printing according to ISO 12647-2:2004 / Amd 1, uncoated white (paper type 4), 115 gsm, 60 l/cm
+OFCOM. Offset printing, according to ISO 12647-2:2004, paper type INP (Improved Newsprint), 49 g/m2, tone value increase curves C (CMY) and D (K)
+OFCOM. Offset printing, according to ISO 12647-2:2004/Amd 1, paper type 1 or 2 = coated art, 115 g/m2, tone value increase curves A (CMY) and B (K), 150-200 lpi screen, laminated with matte OPP film
+OFCOM. Offset printing, according to ISO 12647-2:2004/Amd 1, paper type 1 or 2 = coated art, 115 g/m2, tone value increase curves A (CMY) and B (K), 150-200 lpi screen, laminated with glossy OPP film
+OFCOM. Offset printing, according to ISO 12647-2:2013, print substrate 1 = premium coated, fluorescence moderate (8-14 DeltaB according to ISO 15397), 115 g/m2, tone value increase curves A (CMYK)
+OFCOM. Offset printing, according to ISO 12647-2:2013, print substrate 5 = Wood-free uncoated, fluorescence high (> 14 DeltaB according to ISO 15397), 120 g/m2, tone value increase curves C (CMYK)
+Color Exchange Space 
+FOGRA53 is a CMYK based exchange space that primarily serves colour communication throughout the print production.It complements the existing 52 reference printing conditions that reflect actual offset based printing conditions.It was developed in light of the completed Fogra research project 10.057, that was establishing tools for a media neutral print workflow.Here FOGRA53 allows for a consistent colour reproduction throughout production including copy preparation, job assembly, proofing, and process colour printing.FOGRA53 fullfils the following three essential requirements : 
+It spans the expected range of colour gamuts used for the production of printed material from digital data, regardless of printing process used. 
+It allows proofability on the established proof printers and hence an objective colour reference. 
+It resembles established CMYK - based printing gamuts in size, shape and tonality
+Commercial and specialty offset, based on ISO 12647-2:2013, Super-calandered paper, printing condition PC6, tone value increase curve 2013-B, white backing.
+COLDSET NEWS (CGATS21-2 CRPC1)
+Optimized for ISO - standard printing on Universal ColdsetNews.
+Small gamut printing( newsprint ) as defined in CGATS 21-2-2013.
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21-2
+TAC : 240 % GCR : Medium + Max K : 100 % TVI : 26.1%
+HEATSET NEWS (CGATS21-2 CRPC2)
+Optimized for ISO - standard printing on Universal HeatsetNews.
+Moderate gamut printing on improved newsprint type paper as defined in CGATS 21-2-2013.
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21-2
+TAC : 260 % GCR : Medium + Max K : 100 % TVI : CMY 19 % , K22%
+GRACOL2013-UNC (CGATS21-2 CRPC3)
+Optimized for ISO - standard printing on Universal PremUncoated.
+Utility printing on a matt uncoated type paper as defined in CGATS 21-2-2013
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21 - 2
+TAC : 260 % GCR : Medium + Max K : 100 % TVI : CMY 16 % , K19%
+Optimized for ISO-standard printing on Universal SuperCal.
+General printing on super - calendared paper as defined in CGATS 21-2-2013
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21-2
+TAC : 290 % GCR : Medium + Max K : 100 % TVI : CMY 19 % , K22%
+Optimized for ISO-standard printing on Universal PubCoated.
+Typical publication printing as defined in CGATS 21-2-2013
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21-2
+TAC : 260 % GCR : Medium + Max K : 100 % TVI : CMY 16 % , K19%
+Optimized for ISO-standard printing on Universal PremCoated.
+Large gamut( typically commercial ) printing  as defined in CGATS 21-2-2013
+ISO printing condition : ISO DIS 15339-2, CGATS.21-2
+TAC : 320 % GCR : Medium + Max K : 100 % TVI : CMY 16 % , K19%
+Optimized for ISO-standard printing on Universal Extra.
+Large gamut printing processes as defined in CGATS 21-2-2013
+ISO printing condition : ISO 15339-2 : 2013, CGATS.21-2
+TAC : 340 % GCR : Medium + Max K : 100 % TVI : CMY 16 % , K19% 
+Generic Enfocus Gray.icm
+AdobeRGB1998.icc
+WAN-IFRA/ISOcoated_v2_eci.icc
+Generic Enfocus Lab.icm
+WinAnsiEncoding
+An internal error has occurred during color conversion
+No Color Management support available
+Invalid color conversion engine
+The system color management could not be accessed
+Color conversion failed
+No XYZ ICC profile has been defined
+Incorrect number of input values for color conversion
+Incorrect number of decode values for color conversion
+An ICC profile could not be read
+Invalid ICC profile
+Invalid color library file
+Color conversion was not possible because the requested CMM engine was not available.
+>ICCProfileCache_XXXXX.icc
+%SystemColorFolder%
+%LocalColorFolder%
+%NetworkColorFolder%
+%UserColorFolder%
+%EnfocusResourceFolder%
+\SysWOW64\
+\system32\
+Unknown exception
+bad array new length
+string too long
+Link invalid
+profile invalid
+Could not open profile
+bitsPerSample not 8 or 16
+Profiles do not match
+Error creating Link
+Error Creating Postscript
+vector too long
+unable to get colorant names
+numberOfColournts could not be found
+name of colorants could not be found
+bad allocation
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+&,(X&<$D* ,"*&$ &6$Z
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ColorManipulationLayer.dll
+??0GCCalGray@@QEAA@AEBV0@@Z
+??0GCCalGray@@QEAA@UGCXYZValue@@0N@Z
+??0GCCalGray@@QEAA@XZ
+??0GCCalRGB@@QEAA@AEBV0@@Z
+??0GCCalRGB@@QEAA@UGCXYZValue@@0AEBV?$GTable@N@@1@Z
+??0GCCalRGB@@QEAA@XZ
+??0GCCalibrated@@IEAA@AEBV0@@Z
+??0GCCalibrated@@IEAA@UGCXYZValue@@0@Z
+??0GCCalibrated@@IEAA@UGCXYZValue@@0AEBV?$GTable@N@@@Z
+??0GCCalibrated@@IEAA@XZ
+??0GCCallbackChangeColor@@QEAA@AEBV0@@Z
+??0GCCallbackChangeColor@@QEAA@XZ
+??0GCCallbackConverter@@QEAA@AEBV0@@Z
+??0GCCallbackConverter@@QEAA@AEBVGCColorObject@@@Z
+??0GCColorLibInfo@@QEAA@AEBV0@@Z
+??0GCColorLibInfo@@QEAA@XZ
+??0GCColorLibrary@@QEAA@AEBV0@@Z
+??0GCColorLibrary@@QEAA@AEBVGPathName@@@Z
+??0GCColorManipulation@@IEAA@XZ
+??0GCColorObject@@QEAA@$$QEAV0@@Z
+??0GCColorObject@@QEAA@AEBV0@@Z
+??0GCColorObject@@QEAA@AEBVGCSourceObjectInfo@@AEBVGCColorSpace@@AEBV?$GSharedObject@VGCICCProfile@@@@W4RenderingIntent@GCColorManipulationEnums@@@Z
+??0GCColorSpace@@IEAA@AEBV0@@Z
+??0GCColorSpace@@IEAA@AEBV?$GTable@N@@@Z
+??0GCColorSpace@@QEAA@XZ
+??0GCConverter@@QEAA@AEBV0@@Z
+??0GCConverter@@QEAA@XZ
+??0GCConverterFactory@@IEAA@XZ
+??0GCDevice@@IEAA@AEBV0@@Z
+??0GCDevice@@IEAA@XZ
+??0GCDeviceCMYK@@QEAA@AEBV0@@Z
+??0GCDeviceCMYK@@QEAA@XZ
+??0GCDeviceGray@@QEAA@AEBV0@@Z
+??0GCDeviceGray@@QEAA@XZ
+??0GCDeviceLinkMapping@@QEAA@AEBV0@@Z
+??0GCDeviceLinkMapping@@QEAA@XZ
+??0GCDeviceRGB@@QEAA@AEBV0@@Z
+??0GCDeviceRGB@@QEAA@XZ
+??0GCException@@QEAA@$$QEAV0@@Z
+??0GCException@@QEAA@AEBV0@@Z
+??0GCException@@QEAA@J@Z
+??0GCException@@QEAA@XZ
+??0GCExceptionHandler@@QEAA@AEBV0@@Z
+??0GCExceptionHandler@@QEAA@XZ
+??0GCICCBased@@IEAA@AEAVGInStream@@@Z
+??0GCICCBased@@IEAA@AEBV0@@Z
+??0GCICCBased@@IEAA@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCICCBased@@IEAA@AEBV?$GTable@N@@@Z
+??0GCICCBased@@IEAA@AEBVGPathName@@@Z
+??0GCICCBased@@IEAA@XZ
+??0GCICCBasedCMYK@@AEAA@AEBV0@@Z
+??0GCICCBasedCMYK@@AEAA@XZ
+??0GCICCBasedCMYK@@QEAA@AEAVGInStream@@@Z
+??0GCICCBasedCMYK@@QEAA@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCICCBasedCMYK@@QEAA@AEBVGPathName@@@Z
+??0GCICCBasedGray@@AEAA@AEBV0@@Z
+??0GCICCBasedGray@@AEAA@XZ
+??0GCICCBasedGray@@QEAA@AEAVGInStream@@@Z
+??0GCICCBasedGray@@QEAA@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCICCBasedGray@@QEAA@AEBVGPathName@@@Z
+??0GCICCBasedLab@@AEAA@AEBV0@@Z
+??0GCICCBasedLab@@AEAA@XZ
+??0GCICCBasedLab@@QEAA@AEAVGInStream@@@Z
+??0GCICCBasedLab@@QEAA@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCICCBasedLab@@QEAA@AEBVGPathName@@@Z
+??0GCICCBasedRGB@@AEAA@AEBV0@@Z
+??0GCICCBasedRGB@@AEAA@XZ
+??0GCICCBasedRGB@@QEAA@AEAVGInStream@@@Z
+??0GCICCBasedRGB@@QEAA@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCICCBasedRGB@@QEAA@AEBVGPathName@@@Z
+??0GCICCProfile@@AEAA@AEBV?$GSmartPtr@V?$GFileBase@VPWin32FileImp@@@@@@@Z
+??0GCICCProfile@@AEAA@AEBVGPathName@@@Z
+??0GCICCProfile@@AEAA@XZ
+??0GCICCProfileCache@@AEAA@XZ
+??0GCICCProfileCache@@QEAA@AEBV0@@Z
+??0GCIlluminantAdapterFromD50@@QEAA@UGCXYZValue@@@Z
+??0GCIlluminantAdapterToD50@@QEAA@UGCXYZValue@@@Z
+??0GCImageAttributes@@QEAA@PEAVGOImageFilter@@AEBV?$GSizeBase@J@@@Z
+??0GCLab@@QEAA@AEBV0@@Z
+??0GCLab@@QEAA@AEBVGCICCBasedLab@@@Z
+??0GCLab@@QEAA@UGCXYZValue@@0AEBV?$GTable@N@@@Z
+??0GCLab@@QEAA@XZ
+??0GCMultiStepConverter@@QEAA@AEBV0@@Z
+??0GCMultiStepConverter@@QEAA@AEBV?$GTable@V?$GSmartPtr@VGCConverter@@@@@@@Z
+??0GCObjectInfo@@QEAA@AEBV0@@Z
+??0GCObjectInfo@@QEAA@W4ObjectType@GCColorManipulationEnums@@AEBV?$GTable@N@@AEBVGCColorSpace@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCObjectInfo@@QEAA@W4ObjectType@GCColorManipulationEnums@@AEBVGCColorSpace@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCSimpleException@@QEAA@$$QEAV0@@Z
+??0GCSimpleException@@QEAA@AEBV0@@Z
+??0GCSimpleException@@QEAA@J@Z
+??0GCSourceObjectInfo@@QEAA@AEBV0@@Z
+??0GCSourceObjectInfo@@QEAA@AEBW4ObjectType@GCColorManipulationEnums@@AEBV?$GTable@N@@AEBVGCColorSpace@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCSourceObjectInfo@@QEAA@AEBW4ObjectType@GCColorManipulationEnums@@AEBVGCColorSpace@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+??0GCSourceTargetPair@@QEAA@AEBV0@@Z
+??0GCSourceTargetPair@@QEAA@XZ
+??0GCVariableSubstitution@@QEAA@W4PathNameTypes@0@@Z
+??0GCXYZ@@AEAA@AEBV0@@Z
+??0GCXYZ@@QEAA@XZ
+??0WithoutCMM@GCColorManipulation@@QEAA@XZ
+??0tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAA@$$QEAV01@@Z
+??0tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAA@AEBV01@@Z
+??0tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAA@AEBVGString@@W4Type@01@@Z
+??0tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAA@XZ
+??0tPantoneLibraryMatch@GCColorLibrarySupport@@QEAA@$$QEAV01@@Z
+??0tPantoneLibraryMatch@GCColorLibrarySupport@@QEAA@AEBV01@@Z
+??0tPantoneLibraryMatch@GCColorLibrarySupport@@QEAA@AEBVGString@@W4Type@tPantoneLibraryDefinition@1@01@Z
+??0tPantoneLibraryMatch@GCColorLibrarySupport@@QEAA@XZ
+??1GCCalGray@@UEAA@XZ
+??1GCCalRGB@@UEAA@XZ
+??1GCCalibrated@@UEAA@XZ
+??1GCCallbackChangeColor@@UEAA@XZ
+??1GCCallbackConverter@@UEAA@XZ
+??1GCColorLibInfo@@UEAA@XZ
+??1GCColorLibrary@@QEAA@XZ
+??1GCColorManipulation@@MEAA@XZ
+??1GCColorObject@@QEAA@XZ
+??1GCColorSpace@@UEAA@XZ
+??1GCConverter@@UEAA@XZ
+??1GCConverterFactory@@MEAA@XZ
+??1GCDevice@@UEAA@XZ
+??1GCDeviceCMYK@@UEAA@XZ
+??1GCDeviceGray@@UEAA@XZ
+??1GCDeviceLinkMapping@@QEAA@XZ
+??1GCDeviceRGB@@UEAA@XZ
+??1GCException@@UEAA@XZ
+??1GCExceptionHandler@@UEAA@XZ
+??1GCICCBased@@UEAA@XZ
+??1GCICCBasedCMYK@@UEAA@XZ
+??1GCICCBasedGray@@UEAA@XZ
+??1GCICCBasedLab@@UEAA@XZ
+??1GCICCBasedRGB@@UEAA@XZ
+??1GCICCProfile@@EEAA@XZ
+??1GCICCProfileCache@@AEAA@XZ
+??1GCLab@@UEAA@XZ
+??1GCMultiStepConverter@@UEAA@XZ
+??1GCObjectInfo@@UEAA@XZ
+??1GCSimpleException@@UEAA@XZ
+??1GCSourceObjectInfo@@UEAA@XZ
+??1GCSourceTargetPair@@QEAA@XZ
+??1GCVariableSubstitution@@UEAA@XZ
+??1GCXYZ@@UEAA@XZ
+??1WithoutCMM@GCColorManipulation@@QEAA@XZ
+??1tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAA@XZ
+??1tPantoneLibraryMatch@GCColorLibrarySupport@@QEAA@XZ
+??4?$GFunctor@VGCCallbackChangeColor@@@@QEAAAEAV0@$$QEAV0@@Z
+??4?$GFunctor@VGCCallbackChangeColor@@@@QEAAAEAV0@AEBV0@@Z
+??4GCCalGray@@QEAAAEAV0@AEBV0@@Z
+??4GCCalRGB@@QEAAAEAV0@AEBV0@@Z
+??4GCCalibrated@@QEAAAEAV0@AEBV0@@Z
+??4GCCallbackChangeColor@@QEAAAEAV0@AEBV0@@Z
+??4GCCallbackConverter@@QEAAAEAV0@AEBV0@@Z
+??4GCColorLibInfo@@QEAAAEAV0@AEBV0@@Z
+??4GCColorLibrary@@QEAAAEAV0@AEBV0@@Z
+??4GCColorManipulationLayer@@QEAAAEAV0@$$QEAV0@@Z
+??4GCColorManipulationLayer@@QEAAAEAV0@AEBV0@@Z
+??4GCColorObject@@QEAAAEAV0@$$QEAV0@@Z
+??4GCColorObject@@QEAAAEAV0@AEBV0@@Z
+??4GCColorSpace@@QEAAAEAV0@AEBV0@@Z
+??4GCConverter@@QEAAAEAV0@AEBV0@@Z
+??4GCDevice@@QEAAAEAV0@AEBV0@@Z
+??4GCDeviceCMYK@@QEAAAEAV0@AEBV0@@Z
+??4GCDeviceGray@@QEAAAEAV0@AEBV0@@Z
+??4GCDeviceLinkMapping@@QEAAAEAV0@AEBV0@@Z
+??4GCDeviceRGB@@QEAAAEAV0@AEBV0@@Z
+??4GCException@@QEAAAEAV0@$$QEAV0@@Z
+??4GCException@@QEAAAEAV0@AEBV0@@Z
+??4GCExceptionHandler@@QEAAAEAV0@AEBV0@@Z
+??4GCICCBased@@QEAAAEAV0@AEBV0@@Z
+??4GCICCBasedCMYK@@QEAAAEAV0@AEBV0@@Z
+??4GCICCBasedGray@@QEAAAEAV0@AEBV0@@Z
+??4GCICCBasedLab@@QEAAAEAV0@AEBV0@@Z
+??4GCICCBasedRGB@@QEAAAEAV0@AEBV0@@Z
+??4GCICCProfileCache@@QEAAAEAV0@AEBV0@@Z
+??4GCIlluminantAdapterFromD50@@QEAAAEAV0@$$QEAV0@@Z
+??4GCIlluminantAdapterFromD50@@QEAAAEAV0@AEBV0@@Z
+??4GCIlluminantAdapterToD50@@QEAAAEAV0@$$QEAV0@@Z
+??4GCIlluminantAdapterToD50@@QEAAAEAV0@AEBV0@@Z
+??4GCImageAttributes@@QEAAAEAV0@$$QEAV0@@Z
+??4GCImageAttributes@@QEAAAEAV0@AEBV0@@Z
+??4GCLab@@QEAAAEAV0@AEBV0@@Z
+??4GCMultiStepConverter@@QEAAAEAV0@AEBV0@@Z
+??4GCObjectInfo@@QEAAAEAV0@AEBV0@@Z
+4GCSimpleException@@QEAAAEAV0@$$QEAV0@@Z
+??4GCSimpleException@@QEAAAEAV0@AEBV0@@Z
+??4GCSourceObjectInfo@@QEAAAEAV0@AEBV0@@Z
+??4GCSourceTargetPair@@QEAAAEAV0@AEBV0@@Z
+??4GCXYZ@@QEAAAEAV0@AEBV0@@Z
+??4tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAAAEAV01@$$QEAV01@@Z
+??4tPantoneLibraryDefinition@GCColorLibrarySupport@@QEAAAEAV01@AEBV01@@Z
+??4tPantoneLibraryMatch@GCColorLibrarySupport@@QEAAAEAV01@$$QEAV01@@Z
+??4tPantoneLibraryMatch@GCColorLibrarySupport@@QEAAAEAV01@AEBV01@@Z
+??8@YA_NAEBVGCSourceTargetPair@@0@Z
+??8tPantoneLibraryDefinition@GCColorLibrarySupport@@QEBA_NAEBV01@@Z
+??8tPantoneLibraryMatch@GCColorLibrarySupport@@QEBA_NAEBV01@@Z
+??MtPantoneLibraryDefinition@GCColorLibrarySupport@@QEBA_NAEBV01@@Z
+??_7GCCalGray@@6B@
+??_7GCCalRGB@@6B@
+??_7GCCalibrated@@6B@
+??_7GCCallbackChangeColor@@6B@
+??_7GCCallbackConverter@@6B@
+??_7GCColorLibInfo@@6B@
+??_7GCColorManipulation@@6B@
+??_7GCColorSpace@@6B@
+??_7GCConverter@@6B@
+??_7GCConverterFactory@@6B@
+??_7GCDevice@@6B@
+??_7GCDeviceCMYK@@6B@
+??_7GCDeviceGray@@6B@
+??_7GCDeviceRGB@@6B@
+??_7GCException@@6B@
+??_7GCExceptionHandler@@6B@
+??_7GCICCBased@@6B@
+??_7GCICCBasedCMYK@@6B@
+??_7GCICCBasedGray@@6B@
+??_7GCICCBasedLab@@6B@
+??_7GCICCBasedRGB@@6B@
+??_7GCICCProfile@@6B@
+??_7GCLab@@6B@
+??_7GCMultiStepConverter@@6B@
+??_7GCObjectInfo@@6B@
+??_7GCSimpleException@@6B@
+??_7GCSourceObjectInfo@@6B@
+??_7GCVariableSubstitution@@6B@
+??_7GCXYZ@@6B@
+??_FGCVariableSubstitution@@QEAAXXZ
+?Adapt@GCIlluminantAdapterFromD50@@QEBAXAEAN00@Z
+?Adapt@GCIlluminantAdapterToD50@@QEBAXAEAN00@Z
+?AddDeviceLinkProfile@GCDeviceLinkMapping@@QEAAXW4ColorType@GCColorManipulationEnums@@0AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?Clear@GCDeviceLinkMapping@@QEAAXXZ
+?ClearCache@GCColorManipulation@@QEAAXXZ
+?ClearCache@GCConverterFactory@@UEAAXXZ
+?CollectGarbageProfiles@GCICCProfileCache@@AEAAXXZ
+?Compare@GCICCProfile@@SAJAEBV1@0@Z
+?ConvertColor@GCCallbackConverter@@UEBAXAEBV?$GTable@N@@AEBV?$GTable@PEBVGFunction@@@@PEBVGFunction@@2AEAV2@@Z
+?ConvertColor@GCColorConversion@@YA_NAEAVGCColorObject@@@Z
+?ConvertColor@GCMultiStepConverter@@UEBAXAEBV?$GTable@N@@AEBV?$GTable@PEBVGFunction@@@@PEBVGFunction@@2AEAV2@@Z
+?ConvertColorWithCMM@GCColorConversion@@YA_NAEAVGCColorObject@@@Z
+?CreateClone@GCCalGray@@UEBAPEAV1@XZ
+?CreateClone@GCCalRGB@@UEBAPEAV1@XZ
+?CreateClone@GCDeviceCMYK@@UEBAPEAV1@XZ
+?CreateClone@GCDeviceGray@@UEBAPEAV1@XZ
+?CreateClone@GCDeviceRGB@@UEBAPEAV1@XZ
+?CreateClone@GCICCBasedCMYK@@UEBAPEAV1@XZ
+?CreateClone@GCICCBasedGray@@UEBAPEAV1@XZ
+?CreateClone@GCICCBasedLab@@UEBAPEAV1@XZ
+?CreateClone@GCICCBasedRGB@@UEBAPEAV1@XZ
+?CreateClone@GCLab@@UEBAPEAV1@XZ
+?CreateClone@GCXYZ@@UEBAPEAV1@XZ
+?CreateInstance@GCICCProfileCache@@SAXXZ
+?DeleteInstance@GCICCProfileCache@@SAXXZ
+?Finalize@GCColorManipulationLayer@@SAXXZ
+?ForgetProfile@GCICCProfileCache@@QEAAXAEBVGPathName@@@Z
+?FromVariables@GCVariableSubstitution@@UEBAXAEAVGString@@@Z
+?GetActiveBlackPointCompensation@GCColorManipulation@@QEBA_NXZ
+?GetActiveDeviceLink@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGCSourceTargetPair@@W4CategoryType@GCColorManipulationEnums@@@Z
+?GetActiveDeviceLink@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGCSourceTargetPair@@W4ObjectType@GCColorManipulationEnums@@@Z
+?GetActiveEngineType@GCColorManipulation@@QEBA?AW4EngineType@GCColorManipulationEnums@@XZ
+?GetActiveICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@_NW4CategoryType@4@@Z
+?GetActiveICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@_NW4ObjectType@4@@Z
+?GetActiveOverrideSourceProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetActiveOverrideSourceProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetActiveOverrideTargetProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetActiveOverrideTargetProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetActiveRenderingIntent@GCColorManipulation@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetActiveRenderingIntent@GCColorManipulation@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetAllPantoneLibraries@GCColorLibrarySupport@@YAXAEAV?$GTable@VGCColorLibrary@@@@@Z
+?GetAllPantoneLibraryColorantNames@GCColorLibrarySupport@@YAXAEBV?$GTable@VGCColorLibrary@@@@AEAV?$GTable@VGBuffer@@@@@Z
+?GetAvailableCMMs@GCColorManipulation@@QEBAXAEAV?$GTable@W4EngineType@GCColorManipulationEnums@@@@@Z
+?GetBG@GCSourceObjectInfo@@QEBAPEBVGFunction@@XZ
+?GetBitsPerComponent@GCObjectInfo@@UEBAJXZ
+?GetBlack@GCColorLibInfo@@QEBAJXZ
+?GetBlackPoint@GCCalibrated@@QEBA?AUGCXYZValue@@XZ
+?GetBlackPoint@GCICCBased@@QEBA?AUGCXYZValue@@XZ
+?GetBlackPoint@GCICCProfile@@QEBA?AUGCXYZValue@@XZ
+?GetBlackPointCompensation@GCColorObject@@QEBA_NXZ
+?GetBlue255@GCColorLibInfo@@QEBAJXZ
+?GetBugFixProfileRevision@GCICCProfile@@QEBAJXZ
+?GetCMYKConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCColorSpace@@@Z
+?GetCMYKIsDefined@GCColorLibInfo@@QEBA_NXZ
+?GetCMYKOGIsDefined@GCColorLibInfo@@QEBAJXZ
+?GetCalGrayConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCCalGray@@AEBVGCColorSpace@@@Z
+?GetCalRGBConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCCalRGB@@AEBVGCColorSpace@@@Z
+?GetClassSignature@GCICCProfile@@AEBAKXZ
+?GetCoatedAndUncoatedPantoneLibraryMapping@GCColorLibrarySupport@@YAXAEBV?$GTable@VGCColorLibrary@@@@AEBVtPantoneLibraryMatch@1@AEAV?$GDict@VGBuffer@@VGCColorLibInfo@@@@@Z
+?GetCoatedAndUncoatedPantoneLibraryMatches@GCColorLibrarySupport@@YAXAEBV?$GTable@VGCColorLibrary@@@@AEAV?$GTable@VtPantoneLibraryMatch@GCColorLibrarySupport@@@@@Z
+?GetColorInfo@GCColorLibrary@@QEBAAEBV?$GTable@VGCColorLibInfo@@@@XZ
+?GetColorLibraryLicenseString@GCColorLibrary@@QEBAAEBVGString@@XZ
+?GetColorLibraryName@GCColorLibrary@@QEBAAEBVGString@@XZ
+?GetColorName@GCColorLibInfo@@QEBAAEBVGString@@XZ
+?GetColorSpace@GCObjectInfo@@UEBAAEBVGCColorSpace@@XZ
+?GetColorSpaceSignature@GCICCProfile@@AEBAKXZ
+?GetConverter@GCConverterFactory@@UEAA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCColorObject@@@Z
+?GetCount@GCDeviceLinkMapping@@QEBAJXZ
+?GetCyan@GCColorLibInfo@@QEBAJXZ
+?GetDataSource@GCImageAttributes@@QEAAPEAVGOImageFilter@@XZ
+?GetDefaultCMYKProfileName@GCDefaultProfileNames@@YA?AVGString@@XZ
+?GetDefaultCMYKProfilePathName@GCDefaultProfileNames@@YA?AVGPathName@@XZ
+?GetDefaultCoatedAndUncoatedPantoneLibraryMatch@GCColorLibrarySupport@@YA?AVtPantoneLibraryMatch@1@AEBV?$GTable@VGCColorLibrary@@@@@Z
+?GetDefaultGrayProfileName@GCDefaultProfileNames@@YA?AVGString@@XZ
+?GetDefaultGrayProfilePathName@GCDefaultProfileNames@@YA?AVGPathName@@XZ
+?GetDefaultICCInfo@GCColorManipulation@@QEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@@Z
+?GetDefaultICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@@Z
+?GetDefaultICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@AEAVGString@@@Z
+?GetDefaultLabProfileName@GCDefaultProfileNames@@YA?AVGString@@XZ
+?GetDefaultLabProfilePathName@GCDefaultProfileNames@@YA?AVGPathName@@XZ
+?GetDefaultPantoneLibraryDefinition@GCColorLibrarySupport@@YA?AVtPantoneLibraryDefinition@1@AEBV?$GTable@VGCColorLibrary@@@@@Z
+?GetDefaultRGBProfileName@GCDefaultProfileNames@@YA?AVGString@@XZ
+?GetDefaultRGBProfilePathName@GCDefaultProfileNames@@YA?AVGPathName@@XZ
+?GetDeviceLinkInfoFromResources@GCColorManipulation@@QEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@@Z
+?GetDeviceLinkProfile@GCColorObject@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@XZ
+?GetDeviceLinkProfile@GCICCProfileCache@@QEAA?BV?$GSharedObject@VGCICCProfile@@@@AEAVGInStream@@@Z
+?GetDeviceLinkProfile@GCICCProfileCache@@QEAA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGPathName@@@Z
+?GetDeviceLinkProfilesDict@GCDeviceLinkMapping@@QEBAAEBV?$GDict@VGCSourceTargetPair@@V?$GSharedObject@VGCICCProfile@@@@@@XZ
+?GetDimensions@GCImageAttributes@@QEBAAEBV?$GSizeBase@J@@XZ
+?GetDisplayName@GCICCProfile@@QEBAAEBVGString@@XZ
+?GetExtendedDeviceLinkInfo@GCColorManipulation@@QEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@@Z
+?GetExtendedICCInfo@GCColorManipulation@@QEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@@Z
+?GetExtendedPantoneLibraryName@GCColorLibrarySupport@@YA?AVGString@@AEBVtPantoneLibraryDefinition@1@AEBV2@1@Z
+?GetFilePath@GCICCProfile@@QEBAAEBVGPathName@@XZ
+?GetFrom@tPantoneLibraryMatch@GCColorLibrarySupport@@QEBAAEBVtPantoneLibraryDefinition@2@XZ
+?GetFunctor@?$GFunctor@VGCCallbackChangeColor@@@@SAPEAVGCCallbackChangeColor@@XZ
+?GetGamma@GCCalGray@@QEBAAEBNXZ
+?GetGamma@GCCalRGB@@QEBAAEBV?$GTable@N@@XZ
+?GetGrayConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCColorSpace@@@Z
+?GetGreen255@GCColorLibInfo@@QEBAJXZ
+?GetGreen@GCColorLibInfo@@QEBAJXZ
+?GetHash@GCICCProfile@@QEBAKXZ
+?GetHash@GCSourceTargetPair@@QEBAKXZ
+?GetICCClass@GCICCProfile@@QEBA?AW4Class@GCColorManipulationEnums@@XZ
+?GetICCColorSpace@GCICCProfile@@QEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetICCInfoFromResources@GCColorManipulation@@QEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@@Z
+?GetICCProfile@GCICCBased@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@XZ
+?GetICCProfile@GCObjectInfo@@UEBA?BV?$GSharedObject@VGCICCProfile@@@@XZ
+?GetICCProfileData@GCICCProfile@@QEBAXAEAVGBuffer@@@Z
+?GetImageAttributes@GCObjectInfo@@UEAAPEAVGCImageAttributes@@XZ
+?GetImageAttributes@GCObjectInfo@@UEBAPEBVGCImageAttributes@@XZ
+?GetIndexForTag@GCICCProfile@@AEBAJK@Z
+?GetInfoFromResources@GCColorManipulation@@AEBAXW4ColorType@GCColorManipulationEnums@@AEAV?$GTable@V?$GSharedObject@VGCICCProfile@@@@@@_N@Z
+?GetInstance@GCColorManipulation@@SAAEAV1@XZ
+?GetInstance@GCConverterFactory@@SAPEAV1@XZ
+?GetInstance@GCICCProfileCache@@SAPEAV1@XZ
+?GetInverseMatrix@GCCalRGB@@QEBAAEBV?$GTable@N@@XZ
+?GetIsSpot@GCColorLibInfo@@QEBA_NXZ
+?GetL@GCColorLibInfo@@QEBANXZ
+?GetLabConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCLab@@AEBVGCColorSpace@@@Z
+?GetLabIsDefined@GCColorLibInfo@@QEBA_NXZ
+?GetLevelDeviceLinkProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGCSourceTargetPair@@W4CategoryType@GCColorManipulationEnums@@@Z
+?GetLevelDeviceLinkProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGCSourceTargetPair@@W4ObjectType@GCColorManipulationEnums@@@Z
+?GetLevelDeviceLinkProfileState@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@AEBVGCSourceTargetPair@@W4CategoryType@3@@Z
+?GetLevelDeviceLinkProfileState@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@AEBVGCSourceTargetPair@@W4ObjectType@3@@Z
+?GetLevelEngineType@GCColorManipulation@@QEBA?AW4EngineType@GCColorManipulationEnums@@XZ
+?GetLevelICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@_NW4CategoryType@4@@Z
+?GetLevelICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@W4ColorType@GCColorManipulationEnums@@_NW4ObjectType@4@@Z
+?GetLevelICCProfileState@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ColorType@3@_NW4CategoryType@3@@Z
+?GetLevelICCProfileState@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ColorType@3@_NW4ObjectType@3@@Z
+?GetLevelOverrideSourceProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetLevelOverrideSourceProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetLevelOverrideTargetProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetLevelOverrideTargetProfiles@GCColorManipulation@@QEBA?AW4State@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetLevelRenderingIntent@GCColorManipulation@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?GetLevelRenderingIntent@GCColorManipulation@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?GetLocalColorFolder@GCColorManipulationLayer@@SAAEBVGPathName@@XZ
+?GetMD5Hash@GCICCProfile@@QEBAAEBVGBuffer@@XZ
+?GetMagenta@GCColorLibInfo@@QEBAJXZ
+?GetMajorProfileRevision@GCICCProfile@@QEBAJXZ
+?GetMatrix@GCCalRGB@@QEBAAEBV?$GTable@N@@XZ
+?GetMinorProfileRevision@GCICCProfile@@QEBAJXZ
+?GetName@tPantoneLibraryDefinition@GCColorLibrarySupport@@QEBAAEBVGString@@XZ
+?GetNetworkColorFolder@GCColorManipulationLayer@@SAAEBVGPathName@@XZ
+?GetNumColors@GCColorLibrary@@QEBAJXZ
+?GetNumLevels@GCColorManipulation@@QEBAJXZ
+?GetNumStandardRegistrations@GCICCSupport@@YAJXZ
+?GetObjects@GCColorManipulation@@AEAAAEAV?$GTable@PEAVGCColorManipulationObject@@@@W4CategoryType@GCColorManipulationEnums@@@Z
+?GetObjects@GCColorManipulation@@AEBAAEBV?$GTable@PEAVGCColorManipulationObject@@@@W4CategoryType@GCColorManipulationEnums@@@Z
+?GetOfficialCharName@GCICCSupport@@YAXJAEBVGString@@AEAV2@@Z
+?GetOrange@GCColorLibInfo@@QEBAJXZ
+?GetOutputColorSpaceStringForIndex@GCICCSupport@@YA?AVGString@@J@Z
+?GetOutputConditionIDForIndex@GCICCSupport@@YA?AVGString@@J@Z
+?GetOutputRegistryForIndex@GCICCSupport@@YA?AVGString@@J@Z
+?GetPantoneLibraryColorantInfo@GCColorLibrarySupport@@YAXAEBV?$GTable@VGCColorLibrary@@@@AEBVGString@@_N2AEAV?$GTable@VGCColorLibInfo@@@@@Z
+?GetPantoneLibraryDefinitions@GCColorLibrarySupport@@YAXAEBV?$GTable@VGCColorLibrary@@@@AEAV?$GTable@VtPantoneLibraryDefinition@GCColorLibrarySupport@@@@@Z
+?GetParams@GCColorLibInfo@@UEBAXAEAV?$GDict@VGBuffer@@VGString@@@@@Z
+?GetProfile@GCICCProfileCache@@QEAA?BV?$GSharedObject@VGCICCProfile@@@@AEAVGInStream@@@Z
+?GetProfile@GCICCProfileCache@@QEAA?BV?$GSharedObject@VGCICCProfile@@@@AEBVGPathName@@@Z
+?GetProfileDescription@GCICCProfile@@QEBAXAEAVGString@@@Z
+?GetProfileID@GCICCProfile@@QEBAAEBVGBuffer@@_N@Z
+?GetProfileVersion@GCICCProfile@@QEBAKXZ
+?GetRGBConverter@GCFactory@@YA?AV?$GSmartPtr@VGCConverter@@@@AEBVGCColorSpace@@@Z
+?GetRange@GCColorSpace@@QEBAAEBV?$GTable@N@@XZ
+?GetRed255@GCColorLibInfo@@QEBAJXZ
+?GetRegistryURL@GCICCSupport@@YAXJAEBVGString@@AEAV2@@Z
+?GetRenderingIntent@GCColorObject@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@XZ
+?GetRenderingIntent@GCICCProfile@@QEBA?AW4RenderingIntent@GCColorManipulationEnums@@XZ
+?GetRenderingIntentSignature@GCICCProfile@@AEBAKXZ
+?GetSourceColorType@GCSourceTargetPair@@QEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetSourceICCColorSpace@GCICCProfile@@QEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetSourceObjectInfo@GCColorObject@@QEAAAEAVGCSourceObjectInfo@@XZ
+?GetSourceObjectInfo@GCColorObject@@QEBAAEBVGCSourceObjectInfo@@XZ
+?GetSourceProfileName@GCSourceTargetPair@@QEBAAEBVGString@@XZ
+?GetStream@GCICCProfile@@QEBAAEAVGFileInStream@@XZ
+?GetSystemColorFolder@GCColorManipulationLayer@@SAAEBVGPathName@@XZ
+?GetTR@GCSourceObjectInfo@@QEBAAEBV?$GTable@PEBVGFunction@@@@XZ
+?GetTagData@GCICCProfile@@AEBAXJAEAVGBuffer@@@Z
+?GetTagDataOffset@GCICCProfile@@AEBAJJ@Z
+?GetTagTable@GCICCProfile@@AEBAXXZ
+?GetTargetColorType@GCSourceTargetPair@@QEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetTargetICCColorSpace@GCICCProfile@@QEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetTargetObjectInfo@GCColorObject@@QEAAAEAVGCObjectInfo@@XZ
+?GetTargetObjectInfo@GCColorObject@@QEBAAEBVGCObjectInfo@@XZ
+?GetTargetProfileName@GCSourceTargetPair@@QEBAAEBVGString@@XZ
+?GetTo@tPantoneLibraryMatch@GCColorLibrarySupport@@QEBAAEBVtPantoneLibraryDefinition@2@XZ
+?GetType@GCCalGray@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCCalRGB@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCCalibrated@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCColorSpace@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCDevice@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCDeviceCMYK@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCDeviceGray@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCDeviceRGB@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCICCBased@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCICCBasedCMYK@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCICCBasedGray@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCICCBasedLab@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCICCBasedRGB@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCLab@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@GCObjectInfo@@UEBA?AW4ObjectType@GCColorManipulationEnums@@XZ
+?GetType@GCXYZ@@UEBA?AW4ColorType@GCColorManipulationEnums@@XZ
+?GetType@tPantoneLibraryDefinition@GCColorLibrarySupport@@QEBA?AW4Type@12@XZ
+?GetUCR@GCSourceObjectInfo@@QEBAPEBVGFunction@@XZ
+?GetUserColorFolder@GCColorManipulationLayer@@SAAEBVGPathName@@XZ
+?GetValues@GCObjectInfo@@QEAAAEAV?$GTable@N@@XZ
+?GetValues@GCObjectInfo@@UEBAAEBV?$GTable@N@@XZ
+?GetWhitePoint@GCCalibrated@@QEBA?AUGCXYZValue@@XZ
+?GetWhitePoint@GCICCBased@@QEBA?AUGCXYZValue@@XZ
+?GetWhitePoint@GCICCProfile@@QEBA?AUGCXYZValue@@XZ
+?GetXYZConverter@GCFactory@@YAXAEBVGCColorSpace@@AEAV?$GTable@V?$GSmartPtr@VGCConverter@@@@@@@Z
+?GetXYZICCProfile@GCColorManipulation@@QEBA?BV?$GSharedObject@VGCICCProfile@@@@XZ
+?GetYellow@GCColorLibInfo@@QEBAJXZ
+?Geta@GCColorLibInfo@@QEBANXZ
+?Getb@GCColorLibInfo@@QEBANXZ
+?Handle@GCExceptionHandler@@UEBAXXZ
+?Initialize@GCColorManipulation@@IEAAXXZ
+?Initialize@GCColorManipulationLayer@@SA_NXZ
+?Initialize@GCException@@SAXXZ
+?InitializeCachedData@GCICCProfile@@AEAAXXZ
+?InitializeStrings@GCColorManipulationLayer@@CAXXZ
+?InitializeXYZProfile@GCColorManipulationLayer@@CAXXZ
+?IsActiveCMMEngine@GCColorManipulation@@QEBA_NW4CategoryType@GCColorManipulationEnums@@@Z
+?IsActiveCMMEngine@GCColorManipulation@@QEBA_NW4ObjectType@GCColorManipulationEnums@@@Z
+?IsConversionNecessary@GCConverter@@UEBA_NAEBV?$GTable@PEBVGFunction@@@@@Z
+?IsConversionNecessary@GCMultiStepConverter@@UEBA_NAEBV?$GTable@PEBVGFunction@@@@@Z
+?IsEqual@GCCalGray@@QEBA_NAEBV1@@Z
+?IsEqual@GCCalRGB@@QEBA_NAEBV1@@Z
+?IsEqual@GCCalibrated@@IEBA_NAEBV1@N@Z
+?IsEqual@GCColorSpace@@IEBA_NAEBV1@N@Z
+?IsEqual@GCDevice@@IEBA_NAEBV1@N@Z
+?IsEqual@GCDeviceCMYK@@QEBA_NAEBV1@@Z
+?IsEqual@GCDeviceGray@@QEBA_NAEBV1@@Z
+?IsEqual@GCDeviceRGB@@QEBA_NAEBV1@@Z
+?IsEqual@GCICCBased@@IEBA_NAEBV1@N@Z
+?IsEqual@GCICCBasedCMYK@@QEBA_NAEBV1@@Z
+?IsEqual@GCICCBasedGray@@QEBA_NAEBV1@@Z
+?IsEqual@GCICCBasedLab@@QEBA_NAEBV1@@Z
+?IsEqual@GCICCBasedRGB@@QEBA_NAEBV1@@Z
+?IsEqual@GCICCProfile@@QEBA_NAEBV1@@Z
+?IsEqual@GCLab@@QEBA_NAEBV1@@Z
+?IsICCBased@GCColorSpace@@QEBA_NXZ
+?IsTagAvailable@GCICCProfile@@QEBA_NK@Z
+?IsValid@GCICCProfile@@QEBA_NXZ
+?NeedsAdaptation@GCIlluminantAdapterFromD50@@QEBA_NXZ
+?NeedsAdaptation@GCIlluminantAdapterToD50@@QEBA_NXZ
+?PopLevel@GCColorManipulation@@QEAAXXZ
+?PushLevel@GCColorManipulation@@QEAAXXZ
+?RangeValues@GCObjectInfo@@UEAAXXZ
+?ReadAndTestHeader@GCICCProfile@@AEBAXXZ
+?SearchOutputConditionID@GCICCSupport@@YAJAEBVGString@@0@Z
+?SetBG@GCSourceObjectInfo@@QEAAXPEBVGFunction@@@Z
+?SetBlack@GCColorLibInfo@@QEAAXJ@Z
+?SetBlackPoint@GCCalibrated@@QEAAXUGCXYZValue@@@Z
+?SetBlackPointCompensation@GCColorObject@@QEAAX_N@Z
+?SetBlue255@GCColorLibInfo@@QEAAXJ@Z
+?SetCMYKIsDefined@GCColorLibInfo@@QEAAX_N@Z
+?SetCMYKOGIsDefined@GCColorLibInfo@@QEAAX_N@Z
+?SetColorConverterEngineType@GCColorManipulation@@AEBAXW4EngineType@GCColorManipulationEnums@@@Z
+?SetColorName@GCColorLibInfo@@QEAAXAEBVGString@@@Z
+?SetColorSpace@GCObjectInfo@@UEAAXAEBVGCColorSpace@@@Z
+?SetCyan@GCColorLibInfo@@QEAAXJ@Z
+?SetDeviceLinkProfile@GCColorObject@@QEAAXAEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?SetFunctor@?$GFunctor@VGCCallbackChangeColor@@@@SAXPEAVGCCallbackChangeColor@@@Z
+?SetGamma@GCCalGray@@QEAAXAEBN@Z
+?SetGamma@GCCalRGB@@QEAAXAEBV?$GTable@N@@@Z
+?SetGreen255@GCColorLibInfo@@QEAAXJ@Z
+?SetGreen@GCColorLibInfo@@QEAAXJ@Z
+?SetImageAttributes@GCObjectInfo@@UEAAXV?$GAutoPtr@VGCImageAttributes@@UGDeletePtr@@@@@Z
+?SetInstance@GCColorManipulation@@KAXPEAV1@@Z
+?SetInstance@GCConverterFactory@@KAXPEAV1@@Z
+?SetIsSpot@GCColorLibInfo@@QEAAX_N@Z
+?SetL@GCColorLibInfo@@QEAAXN@Z
+?SetLabIsDefined@GCColorLibInfo@@QEAAX_N@Z
+?SetLevelBlackPointCompensation@GCColorManipulation@@QEAAX_N@Z
+?SetLevelCMMEnabled@GCColorManipulation@@QEAAXW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?SetLevelCMMEnabled@GCColorManipulation@@QEAAXW4State@GCColorManipulationEnums@@W4ObjectType@3@@Z
+?SetLevelDeviceLinkProfile@GCColorManipulation@@QEAAXAEBVGCSourceTargetPair@@AEBV?$GSharedObject@VGCICCProfile@@@@W4CategoryType@GCColorManipulationEnums@@@Z
+?SetLevelDeviceLinkProfile@GCColorManipulation@@QEAAXAEBVGCSourceTargetPair@@AEBVGPathName@@W4CategoryType@GCColorManipulationEnums@@@Z
+?SetLevelDeviceLinkProfileState@GCColorManipulation@@QEAAXAEBVGCSourceTargetPair@@W4State@GCColorManipulationEnums@@W4CategoryType@4@@Z
+?SetLevelEngineType@GCColorManipulation@@QEAAXW4EngineType@GCColorManipulationEnums@@@Z
+?SetLevelICCProfile@GCColorManipulation@@QEAAXW4ColorType@GCColorManipulationEnums@@AEBV?$GSharedObject@VGCICCProfile@@@@_NW4CategoryType@3@@Z
+?SetLevelICCProfile@GCColorManipulation@@QEAAXW4ColorType@GCColorManipulationEnums@@AEBVGPathName@@_NW4CategoryType@3@@Z
+?SetLevelICCProfileState@GCColorManipulation@@QEAAXW4ColorType@GCColorManipulationEnums@@_NW4State@3@W4CategoryType@3@@Z
+?SetLevelOverrideSourceProfiles@GCColorManipulation@@QEAAXW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?SetLevelOverrideTargetProfiles@GCColorManipulation@@QEAAXW4State@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?SetLevelRenderingIntent@GCColorManipulation@@QEAAXW4RenderingIntent@GCColorManipulationEnums@@W4CategoryType@3@@Z
+?SetMagenta@GCColorLibInfo@@QEAAXJ@Z
+?SetMatrix@GCCalRGB@@QEAAXAEBV?$GTable@N@@@Z
+?SetMaxSupportedEncryptedProfileVersion@GCICCProfile@@SAXJ@Z
+?SetOrange@GCColorLibInfo@@QEAAXJ@Z
+?SetParams@GCColorLibInfo@@UEAAXAEBV?$GDict@VGBuffer@@VGString@@@@@Z
+?SetProfile@GCObjectInfo@@UEAAXAEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?SetRange@GCICCBased@@QEAAXAEBV?$GTable@N@@@Z
+?SetRange@GCLab@@QEAAXAEBV?$GTable@N@@@Z
+?SetRed255@GCColorLibInfo@@QEAAXJ@Z
+?SetSourceColorSpace@GCSourceTargetPair@@QEAAXW4ColorType@GCColorManipulationEnums@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?SetTR@GCSourceObjectInfo@@QEAAXAEBV?$GTable@PEBVGFunction@@@@@Z
+?SetTargetColorSpace@GCSourceTargetPair@@QEAAXW4ColorType@GCColorManipulationEnums@@AEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?SetType@GCObjectInfo@@UEAAXW4ObjectType@GCColorManipulationEnums@@@Z
+?SetUCR@GCSourceObjectInfo@@QEAAXPEBVGFunction@@@Z
+?SetValues@GCObjectInfo@@UEAAXAEBV?$GTable@N@@@Z
+?SetWhitePoint@GCCalibrated@@QEAAXUGCXYZValue@@@Z
+?SetXYZICCProfile@GCColorManipulation@@QEAAXAEBV?$GSharedObject@VGCICCProfile@@@@@Z
+?SetYellow@GCColorLibInfo@@QEAAXJ@Z
+?Seta@GCColorLibInfo@@QEAAXN@Z
+?Setb@GCColorLibInfo@@QEAAXN@Z
+?ToCategory@GCColorManipulationEnums@@YA?AW4CategoryType@1@W4ObjectType@1@@Z
+?ToVariables@GCVariableSubstitution@@UEBAXAEAVGString@@@Z
+?TrimFromReadLibrary@GCColorLibrary@@QEAAXAEBV?$function@$$A6A_NAEBVGCColorLibInfo@@@Z@std@@@Z
+?WillProcessStringTypes@GCVariableSubstitution@@UEBA_NW4StringType@GVariableSubstitution@@@Z
+?cNonExistingColor@GCColorLibInfo@@2VGBuffer@@B
+?mB@GCIlluminantAdapterToD50@@0V?$array@N$08@std@@B
+?mFunctor@?$GFunctor@VGCCallbackChangeColor@@@@0PEAVGCCallbackChangeColor@@EA
+?mIB@GCIlluminantAdapterFromD50@@0V?$array@N$08@std@@B
+?sInitialized@GCColorManipulationLayer@@0JA
+?sInstance@GCColorManipulation@@0PEAV1@EA
+?sInstance@GCConverterFactory@@0PEAV1@EA
+?sInstance@GCICCProfileCache@@0PEAV1@EA
+?sMaxEncryptedProfileVersion@GCICCProfile@@0JA
+OpenColorProfileA
+CloseColorProfile
+GetColorProfileHeader
+GetColorDirectoryW
+mscms.dll
+?DigestToBuffer@GMD5Digest@@SAXAEBVGBuffer@@AEAV2@@Z
+?DigestToBuffer@GMD5Digest@@SAXAEAVGInStream@@AEAVGBuffer@@@Z
+MD5SupportLayer.dll
+cmsOpenProfileFromMem
+cmsCreateTransform
+cmsCreateMultiprofileTransform
+cmsGetPostScriptCSA
+cmsGetPostScriptCRD
+cmsFreeNamedColorList
+cmsNamedColorInfo
+cmsGetNamedColorList
+cmsIsTag
+cmsGetHeaderRenderingIntent
+cmsGetColorSpace
+cmsGetEncodedICCversion
+cmsCloseProfile
+cmsGetPCS
+cmsDeleteTransform
+cmsDoTransform
+lcms.dll
+?GetInstance@GAllocator@@SAAEAV1@XZ
+?Alloc@GAllocator@@QEAAPEAX_K@Z
+?Free@GAllocator@@QEAAXPEAX_K@Z
+??1GBuffer@@QEAA@XZ
+?GetPtr@GBuffer@@QEBAPEBEXZ
+?Acquire@GRefCount@@QEBAXXZ
+?Release@GRefCount@@QEBAXXZ
+??4GLngString@@QEAAAEAV0@AEBV0@@Z
+??0GException@@QEAA@AEBV0@@Z
+??1GException@@UEAA@XZ
+?GetLngDescription@GException@@UEBA?BVGLngString@@XZ
+?GetLngFullDescription@GException@@UEBA?BVGLngString@@XZ
+?GetExceptionID@GException@@UEBAJXZ
+??3GFastAllocatable@@SAXPEAX_K@Z
+??2GFastAllocatable@@SAPEAX_K@Z
+??0GString@@QEAA@AEBV0@@Z
+??1GString@@QEAA@XZ
+??4GString@@QEAAAEAV0@AEBV0@@Z
+?GetAllocation@GDictUtil@@YAJJ@Z
+?GetPrecision@GLocalPrecisionSetter@@SANXZ
+?GetPrecisionType@GLocalPrecisionSetter@@SA?AW4PrecisionType@1@XZ
+?AreEqual@GMathLib@@YA_NNNNW4PrecisionType@GLocalPrecisionSetter@@@Z
+??3GFastAllocatable@@SAXPEAX0@Z
+??0GBuffer@@QEAA@AEBV0@@Z
+??0GBuffer@@QEAA@PEBD@Z
+??8@YA_NAEBVGBuffer@@0@Z
+?GetHash@GBuffer@@QEBAKXZ
+?GetInstance@GASCIIEncoding@@SAPEAV1@XZ
+??0GString@@QEAA@AEBVGBuffer@@PEBVGEncoding@@_N@Z
+??0GString@@QEAA@PEBD@Z
+??0GString@@QEAA@J@Z
+??0GString@@QEAA@N@Z
+??8@YA_NAEBVGString@@0@Z
+?GetInt32@GString@@QEBAJXZ
+?GetReal@GString@@QEBANXZ
+?GetExtension@GPathName@@QEBA?AVGString@@XZ
+?GetFromUserID@GFileType@@SAPEBV1@J@Z
+?GetExtension@GFileType@@QEBAAEBVGString@@XZ
+??9@YA_NAEBVGBuffer@@0@Z
+??0GString@@QEAA@XZ
+?Set@GString@@QEAAXAEBVGBuffer@@PEBVGEncoding@@_N@Z
+?Skip@GInStream@@UEAA_J_J@Z
+?SwapUnicodeBytes@GBufferSupport@@SAXAEAVGBuffer@@@Z
+?GetInstance@GUnicodeEncoding@@SAPEAV1@XZ
+??1GPathName@@UEAA@XZ
+??0GPathName@@QEAA@AEBV0@@Z
+??0GBufferedInStreamDecorator@@QEAA@PEAVGInStream@@J@Z
+??1GBufferedInStreamDecorator@@UEAA@XZ
+?Read@GBufferedInStreamDecorator@@UEAAJAEAVGBuffer@@J@Z
+??0GFileInStream@@QEAA@AEBVGPathName@@@Z
+??1GFileInStream@@UEAA@XZ
+?GetMachineByteOrder@PSystem@@SAJXZ
+?CreateClone@GFileInStream@@UEBAPEAVGInStream@@XZ
+?Reset@GFileInStream@@UEAAXXZ
+?Skip@GFileInStream@@UEAA_J_J@Z
+?Read@GFileInStream@@UEAAJAEAVGBuffer@@J@Z
+?GetLength@GFileInStream@@UEBA_JXZ
+?cEmptyString@GString@@2V1@B
+?FindAndReplace@GBuffer@@QEAA_NJAEBV1@0@Z
+?GetInstance@GUTF8Encoding@@SAPEAV1@XZ
+??0GString@@QEAA@$$QEAV0@@Z
+?GetBuffer@GString@@QEBAJAEAVGBuffer@@PEBVGEncoding@@@Z
+?GetBuffer@GString@@QEBA?AVGBuffer@@PEBVGEncoding@@@Z
+?ToLower@GString@@QEAAXXZ
+?Replace@GString@@QEAA_NJAEBV1@0@Z
+??4GString@@QEAAAEAV0@$$QEAV0@@Z
+??YGString@@QEAAAEAV0@AEBV0@@Z
+??H@YA?BVGString@@AEBV0@0@Z
+??M@YA_NAEBVGString@@0@Z
+??0GFileSystemIterator@@QEAA@XZ
+??0GFileSystemIterator@@QEAA@AEBVGPathName@@JJ@Z
+??1GFileSystemIterator@@UEAA@XZ
+??DGFileSystemIterator@@QEBAAEBVGPathName@@XZ
+??EGFileSystemIterator@@QEAAAEAV0@XZ
+??9@YA_NAEBVGFileSystemIterator@@0@Z
+?TryFolderExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+?GetSpecialPath@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA?AVGPathName@@J@Z
+??0GBuffer@@QEAA@XZ
+??H@YA?AVGBuffer@@AEBV0@0@Z
+??9@YA_NAEBVGString@@0@Z
+??0GBin2TextStream@@QEAA@PEAVGBufferedInStream@@PEAVGEncoding@@@Z
+??1GBin2TextStream@@UEAA@XZ
+?SkipWhitespace@GBin2TextStream@@QEAAJ_N@Z
+?ReadLine@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?ReadString@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?ReadQuotedString@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?GetLanguage@GStringPool@@SAXAEAVGString@@@Z
+?CreateClone@GBufferedInStreamDecorator@@UEBAPEAVGInStream@@XZ
+?Reset@GBufferedInStreamDecorator@@UEAAXXZ
+?Unread@GBufferedInStreamDecorator@@UEAAJJ@Z
+?SetRollBackPoint@GBufferedInStreamDecorator@@UEAAXXZ
+?RollBack@GBufferedInStreamDecorator@@UEAAJXZ
+?Clear@GString@@QEAAXXZ
+??0GPathName@@QEAA@XZ
+??4GPathName@@QEAAAEAV0@AEBV0@@Z
+?IsEmpty@GPathName@@QEBA_NXZ
+?FileExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+?TryFileExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+??1GIdleTimeClient@@UEAA@XZ
+?Start@GIdleTimeClient@@QEAAXXZ
+??0GIdleTimeClient@@QEAA@XZ
+?GetCrossPlatformString@GPathName@@UEBAAEBVGString@@XZ
+?SetCrossPlatformString@GPathName@@UEAAXAEBVGString@@@Z
+?ConvertPortableToWin32@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertWin32ToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToMachO@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertMachOToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToCFM@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertCFMToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToUNIX@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertUNIXToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?GetPortablePath@GPathName@@EEBAAEBVGString@@XZ
+?GetNormalizedPortablePathFrom@GPathName@@EEBA?AVGString@@AEBV2@@Z
+?SetPortablePath@GPathName@@EEBAXAEBVGString@@@Z
+?cEnd@GFileSystemIterator@@2V1@B
+??0GPathName@@QEAA@PEBD@Z
+??K@YA?AVGPathName@@AEBV0@0@Z
+?AddStringPoolData@GStringPoolSupport@@SAXAEBVGBuffer@@PEBDPEAUGStringPoolDataStruct@@J_N@Z
+?GetLeaf@GPathName@@QEBA?AVGString@@XZ
+??0GException@@QEAA@J@Z
+??0GBuffer@@QEAA@PEBEJ@Z
+?GetWritePtr@GBuffer@@QEAAPEAEXZ
+?Replace@GBuffer@@QEAAXJJAEBV1@@Z
+?GetSubBuffer@GBuffer@@QEBA?AV1@JJ@Z
+?GetSubBuffer@GBuffer@@QEBAXAEAV1@JJ@Z
+??0GRefCount@@QEAA@XZ
+??1GRefCount@@UEAA@XZ
+?IsEmpty@GString@@QEBA_NXZ
+?SwapBigEndian@GBufferSupport@@SAXAEAVGBuffer@@@Z
+?StripTrailingZeroes@GBufferSupport@@SAAEAVGBuffer@@AEAV2@_N@Z
+??0GMemoryOutStream@@QEAA@AEAVGBuffer@@@Z
+??1GMemoryOutStream@@UEAA@XZ
+?GetLeafWithoutExtension@GPathName@@QEBA?AVGString@@XZ
+??0GFileInStream@@QEAA@AEBV?$GSmartPtr@V?$GFileBase@VPWin32FileImp@@@@@@@Z
+?GetFile@GFileInStream@@QEBAAEBV?$GSmartPtr@V?$GFileBase@VPWin32FileImp@@@@@@XZ
+??0GPartialInStream@@QEAA@AEAVGInStream@@_J1@Z
+??1GPartialInStream@@UEAA@XZ
+?CopyStream@GStreamSupport@@SA_JAEAVGInStream@@AEAVGOutStream@@@Z
+??0GDecryptInStream@@QEAA@AEAVGInStream@@@Z
+??1GDecryptInStream@@UEAA@XZ
+?Read@GDecryptInStream@@UEAAJAEAVGBuffer@@J@Z
+?cEmptyPathName@GPathName@@2V1@B
+?GetRefCount@GRefCount@@QEBAJXZ
+??0GExceptionLocation@@QEAA@AEBVGPathName@@@Z
+??1GExceptionLocation@@QEAA@XZ
+?GetHash@GPathName@@QEBAKXZ
+??8@YA_NAEBVGPathName@@0@Z
+?GetDescription@GException@@QEBA?BVGString@@XZ
+?RemoveFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+?CreateUniqueFile@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@AEAV2@PEBVGFileType@@_N@Z
+??0PWin32FileImp@@QEAA@XZ
+?Open@PWin32FileImp@@QEAAXJ@Z
+?Close@PWin32FileImp@@QEAAXXZ
+?GetFilePosition@PWin32FileImp@@IEBA_JXZ
+??0GFileOutStream@@QEAA@AEBVGPathName@@_N@Z
+??1GFileOutStream@@UEAA@XZ
+?GetString@GStringPool@@SAAEBVGString@@J@Z
+?GetString@GStringPool@@SA_NJAEAVGString@@@Z
+?AreEqual@GMathLib@@YA_NNNNNNNNW4PrecisionType@GLocalPrecisionSetter@@@Z
+?GetHash@GString@@QEBAKXZ
+??1GVariableSubstitution@@UEAA@XZ
+??0GVariableSubstitution@@QEAA@XZ
+?GetNativePathString@GPathName@@QEBA?AVGString@@XZ
+?SetNativePathString@GPathName@@QEAAXAEBVGString@@@Z
+??CGFileSystemIterator@@QEBAPEBVGPathName@@XZ
+?FileIsOfType@GFileSupport@@SA_NAEBVGPathName@@W4Types@GTypeEnums@@@Z
+?GetInstance@GPlatformEncoding@@SAPEAV1@XZ
+?SetLength@GBuffer@@QEAAXJ@Z
+??0GString@@QEAA@PEBDPEBVGEncoding@@_N@Z
+BasicFrameworkCoreLayer.dll
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_CxxThrowException
+__CxxFrameHandler4
+_purecall
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+__current_exception
+__current_exception_context
+__C_specific_handler
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+terminate
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+InitOnceBeginInitialize
+InitOnceComplete
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+IsDebuggerPresent
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsProcessorFeaturePresent
+GetCurrentProcess
+TerminateProcess
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+KERNEL32.dll
+.?AVBCMException@@
+.?AVGCSimpleException@@
+.?AVGCException@@
+.?AVGException@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVGCConverter@@
+.?AVGCMultiStepConverter@@
+.?AVGBCMConverter@@
+.?AVGBCMConverterFactory@@
+.?AVGCConverterFactory@@
+.?AVGNonCopyable@@
+.?AVGCTransferApplier@@
+.?AVGCCMYKConverter@@
+.?AVGCCMYKToCMYK@@
+.?AVGCGrayConverter@@
+.?AVGCGrayToGray@@
+.?AVGCLabIdentity@@
+.?AVGCRGBConverter@@
+.?AVGCRGBToRGB@@
+.?AVGCCalGray@@
+.?AVGCCalibrated@@
+.?AVGCColorSpace@@
+.?AVGCCalGrayToXYZ@@
+.?AVGCCalRGB@@
+.?AVGCCalRGBToXYZ@@
+.?AVGCCallbackChangeColor@@
+.?AVGCCallbackConverter@@
+.?AV?$GFunctor@VGCCallbackChangeColor@@@@
+.?AVGCCallbackConverterFactory@@
+.?AVGCColorLibInfo@@
+.?AV_Ref_count_base@std@@
+.?AV?$_Ref_count@VGCColorLibraryBin@@@std@@
+.?AV?$_Ref_count@VGCColorLibraryText@@@std@@
+.?AV?$_Ref_count@VGCColorLibraryImp@@@std@@
+.?AVGCColorLibraryImp@@
+.?AVGInStream@@
+.?AVGCColorLibraryBin@@
+.?AVGFileInStream@@
+.?AVGBufferedInStream@@
+.?AVGCColorLibraryText@@
+.?AVGBufferedInStreamDecorator@@
+.?AVGPathName@@
+.?AVPWin32PathNameImp@@
+.?AVGCColorManipulation@@
+.?AVGFastAllocatable@@
+.?AVResourceFolderChecker@GCColorManipulation@@
+.?AVGIdleTimeClient@@
+.?AVGCDefaultConverterFactory@@
+.?AVGCUnavailableConverterFactory@@
+.?AVGCCalGrayIdentity@@
+.?AVGCCalRGBIdentity@@
+.?AVGCCMYKToGray@@
+.?AVGCCMYKToRGB@@
+.?AVGCGrayToRGB@@
+.?AVGCGrayToCMYK@@
+.?AVGCRGBToGray@@
+.?AVGCRGBToCMYK@@
+.?AVGCDevice@@
+.?AVGCDeviceCMYK@@
+.?AVGCDeviceGray@@
+.?AVGCDeviceRGB@@
+.?AVGCExceptionHandler@@
+.?AVGCICCBased@@
+.?AVGCICCBasedCMYK@@
+.?AVGCICCBasedGray@@
+.?AVGCICCBasedLab@@
+.?AVGCICCBasedRGB@@
+.?AVGCICCProfile@@
+.?AVGRefCount@@
+.?AV?$GFileBase@VPWin32FileImp@@@@
+.?AVPWin32FileImp@@
+.?AVGCommonFileImp@@
+.?AVGCLab@@
+.?AVGCLabToXYZ@@
+.?AVGCLabToGray@@
+.?AVGCObjectInfo@@
+.?AVGCSourceObjectInfo@@
+.?AVGCVariableSubstitution@@
+.?AVGVariableSubstitution@@
+.?AVGCXYZ@@
+.?AVGCXYZToCalGray@@
+.?AVGCXYZToCalRGB@@
+.?AVGCXYZToLab@@
+.?AVPCColorManipulation@@
+.?AVBCMLittleCMS@@
+.?AVBCMBaseEngine@@
+.?AVBCMLittleCMSProfile@@
+.?AVBCMEngineProfile@@
+.?AVBCMLittleCMSDLProfile@@
+.?AVBCMEngineDLProfile@@
+.?AVBCMLittleCMSLink@@
+.?AVBCMEngineLink@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0T1
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R360
+231012000000Z
+241011235959Z0W1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+8http://crl.sectigo.com/SectigoPublicCodeSigningCAR36.crl0y
+8http://crt.sectigo.com/SectigoPublicCodeSigningCAR36.crt0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+230714000000Z
+341013235959Z0H1
+DigiCert, Inc.1 0
+DigiCert Timestamp 20230
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+l2|X/gGe
+Sectigo Limited1+0)
+"Sectigo Public Code Signing CA R36
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+240312174103Z0/

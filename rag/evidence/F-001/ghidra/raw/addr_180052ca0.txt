@@ -1,0 +1,503 @@
+requested=0x180052ca0
+resolvedAddress=180052ca0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180052ca0 regenerateMarkImp
+status=OK
+entry=180052ca0
+name=regenerateMarkImp
+qualifiedName=DocumentMarks::CutMark::regenerateMarkImp
+namespace=DocumentMarks::CutMark
+signature=void regenerateMarkImp(CutMark * this)
+returnType=void
+parameterCount=1
+bodyMin=180052ca0
+bodyMax=180053242
+bodySize=1442
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ba120 refType=DATA fromFunction=
+18048fdbc refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180308cc0 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+18001de60 FUN_18001de60
+18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+180095420 DocumentMarks::DynamicObject::applyColor
+18004a7b0 FUN_18004a7b0
+1802a2780 FUN_1802a2780
+EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:0000019e DOCUMENT.DLL::ArtDoc::Content::GetDocument
+EXTERNAL:0000009f DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+1800964d0 DocumentMarks::DynamicObject::getPositionRefBBox
+1802a0fa0 FUN_1802a0fa0
+18001b3e0 FUN_18001b3e0
+EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::CloneStrategy::CloneStrategy
+EXTERNAL:0000009e DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+EXTERNAL:00000247 DOCUMENT.DLL::ArtDoc::CloneStrategy::~CloneStrategy
+180052820 DocumentMarks::CutMark::PlaceCutMarkSymbol
+1802a26c0 FUN_1802a26c0
+18029f2e0 FUN_18029f2e0
+1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1802a1ce0 FUN_1802a1ce0
+EXTERNAL:0000054e MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+180119370 DocumentMarks::GetMarksDebugLevel
+EXTERNAL:0000053c MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+180096670 DocumentMarks::DynamicObject::getPositionRefObject
+18001dcb0 FUN_18001dcb0
+
+[DIRECT_CALL_TARGETS]
+180052cca -> 180096670 DocumentMarks::DynamicObject::getPositionRefObject
+180052cdc -> 180053220 DocumentMarks::CutMark::regenerateMarkImp
+180052d09 -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+180052d11 -> 180052d93 DocumentMarks::CutMark::regenerateMarkImp
+180052d26 -> 180052d40 DocumentMarks::CutMark::regenerateMarkImp
+180052d2b -> 180052d40 DocumentMarks::CutMark::regenerateMarkImp
+180052d3e -> 180052d28 DocumentMarks::CutMark::regenerateMarkImp
+180052d48 -> 180052d98 DocumentMarks::CutMark::regenerateMarkImp
+180052d5a -> 180052d6a DocumentMarks::CutMark::regenerateMarkImp
+180052d68 -> 180052d88 DocumentMarks::CutMark::regenerateMarkImp
+180052d79 -> 18001de60 FUN_18001de60
+180052d8f -> 180052d50 DocumentMarks::CutMark::regenerateMarkImp
+180052d91 -> 180052d98 DocumentMarks::CutMark::regenerateMarkImp
+180052da3 -> 18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+180052dac -> 180052dc2 DocumentMarks::CutMark::regenerateMarkImp
+180052dc0 -> 180052dd6 DocumentMarks::CutMark::regenerateMarkImp
+180052df0 -> 180119370 DocumentMarks::GetMarksDebugLevel
+180052e02 -> 1802a1ce0 FUN_1802a1ce0
+180052e4b -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+180052e53 -> 180052ea6 DocumentMarks::CutMark::regenerateMarkImp
+180052e6a -> 180052e8f DocumentMarks::CutMark::regenerateMarkImp
+180052e7a -> 18001b3e0 FUN_18001b3e0
+180052e8a -> 18029f2e0 FUN_18029f2e0
+180052e9c -> 1802a2780 FUN_1802a2780
+180052ea1 -> 180052f51 DocumentMarks::CutMark::regenerateMarkImp
+180052ead -> 1800964d0 DocumentMarks::DynamicObject::getPositionRefBBox
+180052f4c -> 1802a26c0 FUN_1802a26c0
+180052f64 -> 180052fd3 DocumentMarks::CutMark::regenerateMarkImp
+180052f69 -> EXTERNAL:000001c8 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180052f72 -> EXTERNAL:0000019e DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180052f85 -> EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::CloneStrategy::CloneStrategy
+180052fa2 -> EXTERNAL:0000009f DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+180052fbb -> 180052820 DocumentMarks::CutMark::PlaceCutMarkSymbol
+180052fc5 -> EXTERNAL:00000247 DOCUMENT.DLL::ArtDoc::CloneStrategy::~CloneStrategy
+180052fd1 -> 180052f66 DocumentMarks::CutMark::regenerateMarkImp
+180052fda -> 180053155 DocumentMarks::CutMark::regenerateMarkImp
+180052fee -> 18001b3e0 FUN_18001b3e0
+180053009 -> 1800530ca DocumentMarks::CutMark::regenerateMarkImp
+180053022 -> 18001b3e0 FUN_18001b3e0
+18005302e -> EXTERNAL:0000054e MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18005303e -> 18001b3e0 FUN_18001b3e0
+18005304a -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+18005305a -> 18001b3e0 FUN_18001b3e0
+180053067 -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+180053077 -> 18001b3e0 FUN_18001b3e0
+180053084 -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+180053094 -> 18001b3e0 FUN_18001b3e0
+1800530a1 -> EXTERNAL:00000548 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+1800530b1 -> 18001b3e0 FUN_18001b3e0
+1800530bc -> 1800530c8 DocumentMarks::CutMark::regenerateMarkImp
+1800530c3 -> 180053010 DocumentMarks::CutMark::regenerateMarkImp
+1800530d8 -> EXTERNAL:0000053c MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+1800530e5 -> 1800964d0 DocumentMarks::DynamicObject::getPositionRefBBox
+180053134 -> 18001b3e0 FUN_18001b3e0
+180053141 -> 18001dcb0 FUN_18001dcb0
+180053150 -> 18001b3e0 FUN_18001b3e0
+180053164 -> 1800531c0 DocumentMarks::CutMark::regenerateMarkImp
+180053179 -> EXTERNAL:0000009e DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+180053187 -> 1800531b8 DocumentMarks::CutMark::regenerateMarkImp
+180053196 -> 1800531b8 DocumentMarks::CutMark::regenerateMarkImp
+1800531ad -> 1800531b8 DocumentMarks::CutMark::regenerateMarkImp
+1800531be -> 180053170 DocumentMarks::CutMark::regenerateMarkImp
+1800531c6 -> 180095420 DocumentMarks::DynamicObject::applyColor
+1800531d1 -> 18004a7b0 FUN_18004a7b0
+1800531db -> 1802a0fa0 FUN_1802a0fa0
+1800531e4 -> 180053220 DocumentMarks::CutMark::regenerateMarkImp
+1800531f7 -> 180053215 DocumentMarks::CutMark::regenerateMarkImp
+18005320c -> 180053215 DocumentMarks::CutMark::regenerateMarkImp
+18005320e -> EXTERNAL:000005ca API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18005321b -> 1802d6b8c API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+
+[STRINGS_REFERENCED]
+180307390 "] -> ["
+180308260 "gridParams:\n"
+180308df0 " Cut Mark update at \n"
+180308e08 "GridBbox mm:"
+
+[DATA_XREFS_FROM_BODY]
+180052ca0 -> Stack[0x18] block=? sym=
+180052cb0 -> Stack[-0x108] block=? sym=
+180052cbf -> Stack[-0x48] block=? sym=
+180052ce5 -> Stack[-0x1b0] block=? sym=
+180052cf0 -> Stack[-0x1a0] block=? sym=
+180052cf5 -> Stack[-0x1e8] block=? sym=
+180052cf9 -> 1804196a8 block=.data sym=ArtDoc::Group::RTTI_Type_Descriptor
+180052d00 -> 180419678 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+180052d40 -> Stack[-0x1a8] block=? sym=
+180052d50 -> Stack[0x8] block=? sym=
+180052d63 -> Stack[-0x1a8] block=? sym=
+180052d6a -> Stack[0x8] block=? sym=
+180052d74 -> Stack[-0x1b0] block=? sym=
+180052d7e -> Stack[-0x1a0] block=? sym=
+180052d83 -> Stack[-0x1a8] block=? sym=
+180052d93 -> Stack[-0x1a8] block=? sym=
+180052d9f -> Stack[-0x160] block=? sym=
+180052da8 -> Stack[-0x138] block=? sym=
+180052dae -> Stack[-0x160] block=? sym=
+180052db2 -> Stack[-0x1d8] block=? sym=
+180052db7 -> Stack[-0x150] block=? sym=
+180052dbb -> Stack[-0x140] block=? sym=
+180052dc8 -> Stack[-0x110] block=? sym=
+180052dcc -> Stack[-0x1d8] block=? sym=
+180052dd1 -> Stack[-0x110] block=? sym=
+180052dd6 -> Stack[-0x1b8] block=? sym=
+180052de0 -> 180305518 block=.rdata sym=DAT_180305518
+180052de8 -> 180305520 block=.rdata sym=DAT_180305520
+180052df8 -> Stack[0x8] block=? sym=
+180052dfe -> Stack[-0x178] block=? sym=
+180052e11 -> Stack[-0x168] block=? sym=
+180052e16 -> Stack[-0x170] block=? sym=
+180052e1b -> 180308038 block=.rdata sym=dm::MarkPositionVector::vftable
+180052e22 -> 180308038 block=.rdata sym=dm::MarkPositionVector::vftable
+180052e22 -> Stack[-0x198] block=? sym=
+180052e2a -> Stack[-0x190] block=? sym=
+180052e30 -> Stack[-0x180] block=? sym=
+180052e34 -> Stack[-0x1e8] block=? sym=
+180052e38 -> 18041a728 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+180052e3f -> 180419678 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+180052e5c -> Stack[-0xd8] block=? sym=
+180052e6c -> 180308260 block=.rdata sym=s_gridParams:_180308260
+180052e73 -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+180052e7f -> Stack[-0xd8] block=? sym=
+180052e83 -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+180052e8f -> Stack[-0x198] block=? sym=
+180052e94 -> Stack[-0xd8] block=? sym=
+180052e98 -> Stack[-0x178] block=? sym=
+180052ea6 -> Stack[-0x108] block=? sym=
+180052eb2 -> 1803082e0 block=.rdata sym=DAT_1803082e0
+180052ec1 -> 1803082f0 block=.rdata sym=DAT_1803082f0
+180052ec9 -> Stack[-0x130] block=? sym=
+180052ed2 -> 180305518 block=.rdata sym=DAT_180305518
+180052eda -> 180305520 block=.rdata sym=DAT_180305520
+180052ee7 -> 180305518 block=.rdata sym=DAT_180305518
+180052eef -> 180305520 block=.rdata sym=DAT_180305520
+180052ef7 -> Stack[-0x130] block=? sym=
+180052efb -> Stack[-0x1d8] block=? sym=
+180052f05 -> Stack[0x10] block=? sym=
+180052f0d -> Stack[0x10] block=? sym=
+180052f19 -> Stack[-0x1d0] block=? sym=
+180052f1f -> Stack[0x10] block=? sym=
+180052f26 -> Stack[0x10] block=? sym=
+180052f32 -> Stack[-0x1c8] block=? sym=
+180052f38 -> Stack[-0x1c0] block=? sym=
+180052f3e -> Stack[-0x198] block=? sym=
+180052f43 -> Stack[-0x1d8] block=? sym=
+180052f48 -> Stack[-0x178] block=? sym=
+180052f54 -> Stack[-0x188] block=? sym=
+180052f58 -> Stack[-0x190] block=? sym=
+180052f69 -> 1802fb998 block=.rdata sym=PTR_GetContent_1802fb998
+180052f72 -> 1802fb848 block=.rdata sym=PTR_GetDocument_1802fb848
+180052f81 -> Stack[-0xd8] block=? sym=
+180052f85 -> 1802fbd88 block=.rdata sym=PTR_CloneStrategy_1802fbd88
+180052f8f -> Stack[-0xd8] block=? sym=
+180052fa2 -> 1802fcb78 block=.rdata sym=PTR_InsertNewObjectAfter_1802fcb78
+180052fa8 -> Stack[-0x190] block=? sym=
+180052fc1 -> Stack[-0xd8] block=? sym=
+180052fc5 -> 1802fbd90 block=.rdata sym=PTR_~CloneStrategy_1802fbd90
+180052fd3 -> Stack[0x8] block=? sym=
+180052fe0 -> 180308df0 block=.rdata sym=s_Cut_Mark_update_at_180308df0
+180052fe7 -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+180052ff3 -> Stack[-0x188] block=? sym=
+180052ff7 -> Stack[-0x190] block=? sym=
+180053014 -> 180308290 block=.rdata sym=DAT_180308290
+18005301b -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+18005302e -> 1802fd420 block=.rdata sym=PTR_operator<<_1802fd420
+180053037 -> 180306bac block=.rdata sym=DAT_180306bac
+18005304a -> 1802fd3f0 block=.rdata sym=PTR_operator<<_1802fd3f0
+180053053 -> 180307580 block=.rdata sym=DAT_180307580
+180053067 -> 1802fd3f0 block=.rdata sym=PTR_operator<<_1802fd3f0
+180053070 -> 180307390 block=.rdata sym=s_]_->_[_180307390
+180053084 -> 1802fd3f0 block=.rdata sym=PTR_operator<<_1802fd3f0
+18005308d -> 180307580 block=.rdata sym=DAT_180307580
+1800530a1 -> 1802fd3f0 block=.rdata sym=PTR_operator<<_1802fd3f0
+1800530aa -> 18030828c block=.rdata sym=DAT_18030828c
+1800530be -> Stack[-0x190] block=? sym=
+1800530ca -> 18003dae0 block=.text sym=FUN_18003dae0
+1800530d1 -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+1800530d8 -> 1802fd390 block=.rdata sym=PTR_operator<<_1802fd390
+1800530de -> Stack[-0x108] block=? sym=
+1800530ea -> 1803082e0 block=.rdata sym=DAT_1803082e0
+1800530fc -> 1803082f0 block=.rdata sym=DAT_1803082f0
+180053104 -> Stack[-0x1d8] block=? sym=
+180053111 -> 1803082f0 block=.rdata sym=DAT_1803082f0
+180053119 -> Stack[-0x1c8] block=? sym=
+180053122 -> Stack[-0x1b8] block=? sym=
+180053126 -> 180308e08 block=.rdata sym=s_GridBbox_mm:_180308e08
+18005312d -> 1802fd3a0 block=.rdata sym=PTR_cout_1802fd3a0
+18005313c -> Stack[-0x1d8] block=? sym=
+180053149 -> 18030544c block=.rdata sym=DAT_18030544c
+180053155 -> Stack[-0x1b0] block=? sym=
+180053174 -> Stack[-0x1d8] block=? sym=
+180053179 -> 1802fcb70 block=.rdata sym=PTR_ExtractObjectFromParent_1802fcb70
+18005317f -> Stack[-0x1d0] block=? sym=
+1800531cc -> Stack[-0x198] block=? sym=
+1800531d7 -> Stack[-0x178] block=? sym=
+18005320e -> 1802fdf38 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802fdf38
+180053220 -> Stack[0x18] block=? sym=
+180053228 -> Stack[-0x48] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* protected: virtual void __cdecl DocumentMarks::CutMark::regenerateMarkImp(void) __ptr64 */
+
+void __thiscall DocumentMarks::CutMark::regenerateMarkImp(CutMark *this)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  ContentObject *this_00;
+  CPoint *pCVar3;
+  double dVar4;
+  void *pvVar5;
+  int iVar6;
+  ContentObject *pCVar7;
+  longlong lVar8;
+  longlong *plVar9;
+  Content *this_01;
+  Document *pDVar10;
+  basic_ostream<char,std::char_traits<char>_> *pbVar11;
+  basic_ostream<char,struct_std::char_traits<char>_> *pbVar12;
+  double *pdVar13;
+  undefined8 uVar14;
+  int iVar15;
+  ulonglong uVar16;
+  longlong *plVar17;
+  ulonglong uVar18;
+  void *_Memory;
+  undefined4 uVar19;
+  undefined4 uVar20;
+  undefined1 auVar21 [16];
+  undefined1 auVar22 [16];
+  undefined1 auVar23 [16];
+  longlong local_res8;
+  double local_res10;
+  undefined1 local_1d8 [16];
+  undefined1 local_1c8 [16];
+  undefined8 local_1b8;
+  void *local_1b0;
+  longlong *plStack_1a8;
+  longlong *local_1a0;
+  undefined **local_198;
+  longlong local_190;
+  longlong lStack_188;
+  undefined8 local_180;
+  undefined1 local_178 [8];
+  double local_170;
+  undefined8 local_168;
+  undefined8 local_160;
+  undefined8 uStack_158;
+  undefined4 uStack_148;
+  undefined4 uStack_144;
+  undefined8 local_140;
+  char local_138;
+  undefined1 local_130 [16];
+  undefined1 local_110;
+  undefined7 uStack_10f;
+  CloneStrategy local_d8 [160];
+  
+                    /* 0x52ca0  2179  ?regenerateMarkImp@CutMark@DocumentMarks@@MEAAXXZ */
+  pCVar7 = DynamicObject::getPositionRefObject((DynamicObject *)this);
+  if (*(longlong *)(this + 0x2c0) != 0) {
+    local_1b0 = (void *)0x0;
+    plStack_1a8 = (longlong *)0x0;
+    iVar15 = 0;
+    plVar17 = (longlong *)0x0;
+    local_1a0 = (longlong *)0x0;
+    lVar8 = __RTDynamicCast(*(longlong *)(this + 0x2c0),0,
+                            &ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                            &ArtDoc::Group::RTTI_Type_Descriptor,0);
+    if (lVar8 != 0) {
+      lVar8 = *(longlong *)(lVar8 + 0x2c0);
+      for (plStack_1a8 = (longlong *)0x0; (lVar8 != 0 && (plStack_1a8 != (longlong *)0x0));
+          plStack_1a8 = plStack_1a8 + 1) {
+        *plStack_1a8 = lVar8;
+        lVar8 = *(longlong *)(lVar8 + 8);
+      }
+      for (; lVar8 != 0; lVar8 = *(longlong *)(lVar8 + 8)) {
+        local_res8 = lVar8;
+        if (plStack_1a8 == plVar17) {
+          FUN_18001de60(&local_1b0,plStack_1a8,&local_res8);
+          plVar17 = local_1a0;
+        }
+        else {
+          *plStack_1a8 = lVar8;
+          plStack_1a8 = plStack_1a8 + 1;
+        }
+      }
+    }
+    plVar1 = plStack_1a8;
+    this_00 = (ContentObject *)plStack_1a8[-1];
+    GetBoundingBoxForPositioning((ContentObject *)&local_160);
+    if (local_138 == '\0') {
+      uStack_148 = 0;
+      uStack_144 = 0;
+      local_110 = 1;
+      local_1d8 = ZEXT816(0);
+      uVar19 = (undefined4)CONCAT71(uStack_10f,1);
+      uVar20 = (undefined4)((uint7)uStack_10f >> 0x18);
+    }
+    else {
+      local_1d8._8_8_ = uStack_158;
+      local_1d8._0_8_ = local_160;
+      uVar19 = (undefined4)local_140;
+      uVar20 = (undefined4)((ulonglong)local_140 >> 0x20);
+    }
+    local_1b8 = CONCAT44(uVar20,uVar19);
+    dVar4 = ((double)CONCAT44(uStack_144,uStack_148) * DAT_180305518) / DAT_180305520;
+    iVar6 = GetMarksDebugLevel();
+    local_res8 = CONCAT44(local_res8._4_4_,iVar6);
+    FUN_1802a1ce0(local_178);
+    local_168 = *(undefined8 *)(this + 0x698);
+    local_198 = dm::MarkPositionVector::vftable;
+    local_190 = 0;
+    lStack_188 = 0;
+    local_180 = 0;
+    local_170 = dVar4;
+    plVar9 = (longlong *)
+             __RTDynamicCast(pCVar7,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                             &GridInterface::RTTI_Type_Descriptor,0);
+    if (plVar9 == (longlong *)0x0) {
+      pdVar13 = (double *)DynamicObject::getPositionRefBBox((DynamicObject *)this);
+      auVar22._0_8_ = _DAT_1803082e0 * *pdVar13;
+      auVar22._8_8_ = _UNK_1803082e8 * pdVar13[1];
+      local_130 = divpd(auVar22,_DAT_1803082f0);
+      local_1d8._8_8_ = local_130._8_8_ + (pdVar13[3] * DAT_180305518) / DAT_180305520;
+      local_1d8._0_8_ = local_130._0_8_;
+      local_res10 = (double)local_130._0_8_;
+      local_1c8._8_8_ = local_130._8_8_;
+      local_1c8._0_8_ = (double)local_130._0_8_ + (pdVar13[2] * DAT_180305518) / DAT_180305520;
+      FUN_1802a26c0(local_178,local_1d8,&local_198);
+    }
+    else {
+      (**(code **)(*plVar9 + 8))(plVar9,local_d8);
+      if (2 < iVar6) {
+        FUN_18001b3e0(cout_exref,"gridParams:\n");
+        FUN_18029f2e0(cout_exref,local_d8);
+      }
+      FUN_1802a2780(local_178,local_d8,&local_198);
+    }
+    uVar18 = 0;
+    uVar16 = lStack_188 - local_190 >> 3;
+    if (uVar16 != 0) {
+      do {
+        this_01 = ArtDoc::ContentObject::GetContent(this_00);
+        pDVar10 = ArtDoc::Content::GetDocument(this_01);
+        ArtDoc::CloneStrategy::CloneStrategy(local_d8,pDVar10,1);
+        pCVar7 = (ContentObject *)(**(code **)(*(longlong *)this_00 + 8))(this_00,local_d8);
+        pCVar7 = DocumentEdit::InsertNewObjectAfter(pCVar7,this_00,true);
+        pCVar3 = *(CPoint **)(local_190 + uVar18 * 8);
+        PlaceCutMarkSymbol(this,pCVar7,pCVar3,pCVar3 + 0x10);
+        ArtDoc::CloneStrategy::~CloneStrategy(local_d8);
+        uVar18 = uVar18 + 1;
+      } while (uVar18 < uVar16);
+    }
+    if (2 < (int)local_res8) {
+      FUN_18001b3e0(cout_exref," Cut Mark update at \n");
+      uVar18 = lStack_188 - local_190 >> 3;
+      uVar16 = 0;
+      if (uVar18 != 0) {
+        do {
+          pdVar13 = *(double **)(local_190 + uVar16 * 8);
+          pbVar11 = (basic_ostream<char,std::char_traits<char>_> *)
+                    FUN_18001b3e0(cout_exref,&DAT_180308290);
+          iVar15 = iVar15 + 1;
+          pbVar12 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar11,iVar15);
+          pbVar11 = (basic_ostream<char,std::char_traits<char>_> *)
+                    FUN_18001b3e0(pbVar12,&DAT_180306bac);
+          pbVar12 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar11,*pdVar13);
+          pbVar11 = (basic_ostream<char,std::char_traits<char>_> *)
+                    FUN_18001b3e0(pbVar12,&DAT_180307580);
+          pbVar12 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar11,pdVar13[1])
+          ;
+          pbVar11 = (basic_ostream<char,std::char_traits<char>_> *)FUN_18001b3e0(pbVar12,"] -> [");
+          pbVar12 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar11,pdVar13[2])
+          ;
+          pbVar11 = (basic_ostream<char,std::char_traits<char>_> *)
+                    FUN_18001b3e0(pbVar12,&DAT_180307580);
+          pbVar12 = std::basic_ostream<char,std::char_traits<char>_>::operator<<(pbVar11,pdVar13[3])
+          ;
+          FUN_18001b3e0(pbVar12,&DAT_18030828c);
+          uVar16 = uVar16 + 1;
+        } while (uVar16 < uVar18);
+      }
+      std::basic_ostream<char,std::char_traits<char>_>::operator<<
+                ((basic_ostream<char,std::char_traits<char>_> *)cout_exref,FUN_18003dae0);
+      pdVar13 = (double *)DynamicObject::getPositionRefBBox((DynamicObject *)this);
+      auVar21._0_8_ = _DAT_1803082e0 * *pdVar13;
+      auVar21._8_8_ = _UNK_1803082e8 * pdVar13[1];
+      local_1d8 = divpd(auVar21,_DAT_1803082f0);
+      auVar23._0_8_ = _DAT_1803082e0 * pdVar13[2];
+      auVar23._8_8_ = _UNK_1803082e8 * pdVar13[3];
+      local_1c8 = divpd(auVar23,_DAT_1803082f0);
+      local_1b8 = CONCAT71(local_1b8._1_7_,*(undefined1 *)(pdVar13 + 4));
+      uVar14 = FUN_18001b3e0(cout_exref,"GridBbox mm:");
+      uVar14 = FUN_18001dcb0(uVar14,local_1d8);
+      FUN_18001b3e0(uVar14,&DAT_18030544c);
+    }
+    pvVar5 = local_1b0;
+    uVar16 = 0;
+    uVar18 = (longlong)plVar1 - (longlong)local_1b0 >> 3;
+    if (uVar18 != 0) {
+      do {
+        DocumentEdit::ExtractObjectFromParent((ContentObject *)local_1d8);
+        uVar14 = local_1d8._8_8_;
+        if ((longlong *)local_1d8._8_8_ != (longlong *)0x0) {
+          LOCK();
+          plVar1 = (longlong *)(local_1d8._8_8_ + 8);
+          lVar8 = *plVar1;
+          *(int *)plVar1 = (int)*plVar1 + -1;
+          UNLOCK();
+          if ((int)lVar8 == 1) {
+            (*(code *)**(undefined8 **)local_1d8._8_8_)(local_1d8._8_8_);
+            LOCK();
+            piVar2 = (int *)(uVar14 + 0xc);
+            iVar15 = *piVar2;
+            *piVar2 = *piVar2 + -1;
+            UNLOCK();
+            if (iVar15 == 1) {
+              (**(code **)(*(longlong *)uVar14 + 8))(uVar14);
+            }
+          }
+        }
+        uVar16 = uVar16 + 1;
+      } while (uVar16 < uVar18);
+    }
+    DynamicObject::applyColor((DynamicObject *)this,(ContentObject *)this);
+    FUN_18004a7b0(&local_198);
+    FUN_1802a0fa0(local_178);
+    if (pvVar5 != (void *)0x0) {
+      _Memory = pvVar5;
+      if ((0xfff < ((longlong)plVar17 - (longlong)pvVar5 & 0xfffffffffffffff8U)) &&
+         (_Memory = *(void **)((longlong)pvVar5 + -8),
+         0x1f < (ulonglong)((longlong)pvVar5 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+  }
+  return;
+}
+
+

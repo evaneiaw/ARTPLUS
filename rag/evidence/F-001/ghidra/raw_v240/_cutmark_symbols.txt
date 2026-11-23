@@ -1,0 +1,62 @@
+program=DocumentMarks.dll
+executablePath=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/DocumentMarks.dll
+executableSHA256=e47328bd25b01b6eb36e54d8e5aa5d799f088afc772d4fe06ed0f14b3c0fa102
+
+[FUNCTIONS_MATCHING_CUTMARK]
+180051f20	ArtDoc::ConstVisitor<DocumentMarks::CutMark>::ConstVisitor<DocumentMarks::CutMark>	undefined ConstVisitor<DocumentMarks::CutMark>(ConstVisitor<DocumentMarks::CutMark> * this, ConstVisitor<class_DocumentMarks::CutMark> * param_1)
+180051f30	ArtDoc::Visitor<DocumentMarks::CutMark>::Visitor<DocumentMarks::CutMark>	undefined Visitor<DocumentMarks::CutMark>(Visitor<DocumentMarks::CutMark> * this, Visitor<class_DocumentMarks::CutMark> * param_1)
+180051f40	DocumentMarks::CutMark::CutMark	undefined CutMark(CutMark * this, CutMark * param_1, CloneStrategy * param_2)
+180051f90	DocumentMarks::CutMark::CutMark	undefined CutMark(CutMark * this, bool param_1)
+180051fd0	ArtDoc::ConstVisitor<DocumentMarks::CutMark>::~ConstVisitor<DocumentMarks::CutMark>	void ~ConstVisitor<DocumentMarks::CutMark>(ConstVisitor<DocumentMarks::CutMark> * this)
+180051fe0	ArtDoc::Visitor<DocumentMarks::CutMark>::~Visitor<DocumentMarks::CutMark>	void ~Visitor<DocumentMarks::CutMark>(Visitor<DocumentMarks::CutMark> * this)
+180051ff0	DocumentMarks::CutMark::~CutMark	void ~CutMark(CutMark * this)
+1800521e0	DocumentMarks::CutMark::Accept	void Accept(CutMark * this, VisitorBase * param_1)
+1800522e0	DocumentMarks::CutMark::Accept	void Accept(CutMark * this, ConstVisitorBase * param_1)
+1800523e0	DocumentMarks::CutMark::Clone	CutMark * Clone(CutMark * this, CloneStrategy * param_1)
+180052470	DocumentMarks::CutMark::PlaceCutMarkSymbol	void PlaceCutMarkSymbol(CutMark * this, ContentObject * param_1, CPoint * param_2, CPoint * param_3)
+1800526f0	DocumentMarks::CutMark::getMarkType	basic_string_view<char,std::char_traits<char>_> getMarkType(CutMark * this)
+180052700	DocumentMarks::CutMark::parsePdfPropertiesDict	bool parsePdfPropertiesDict(CutMark * this, map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::ContentObject*___ptr64,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,ArtDoc::ContentObject*___ptr64>_>_> * param_1)
+180052950	DocumentMarks::CutMark::regenerateMarkImp	void regenerateMarkImp(CutMark * this)
+1800a95c0	ArtDoc::ConstVisitor<DocumentMarks::PDFPlusCutMark>::ConstVisitor<DocumentMarks::PDFPlusCutMark>	undefined ConstVisitor<DocumentMarks::PDFPlusCutMark>(ConstVisitor<DocumentMarks::PDFPlusCutMark> * this, ConstVisitor<class_DocumentMarks::PDFPlusCutMark> * param_1)
+1800a97f0	ArtDoc::Visitor<DocumentMarks::PDFPlusCutMark>::Visitor<DocumentMarks::PDFPlusCutMark>	undefined Visitor<DocumentMarks::PDFPlusCutMark>(Visitor<DocumentMarks::PDFPlusCutMark> * this, Visitor<class_DocumentMarks::PDFPlusCutMark> * param_1)
+1800a9800	ArtDoc::ConstVisitor<DocumentMarks::PDFPlusCutMark>::~ConstVisitor<DocumentMarks::PDFPlusCutMark>	void ~ConstVisitor<DocumentMarks::PDFPlusCutMark>(ConstVisitor<DocumentMarks::PDFPlusCutMark> * this)
+1800a9860	ArtDoc::Visitor<DocumentMarks::PDFPlusCutMark>::~Visitor<DocumentMarks::PDFPlusCutMark>	void ~Visitor<DocumentMarks::PDFPlusCutMark>(Visitor<DocumentMarks::PDFPlusCutMark> * this)
+1800a9b80	DocumentMarks::PDFPlusCutMark::Accept	void Accept(PDFPlusCutMark * this, VisitorBase * param_1)
+1800a9c80	DocumentMarks::PDFPlusCutMark::Accept	void Accept(PDFPlusCutMark * this, ConstVisitorBase * param_1)
+1800a9fb0	DocumentMarks::SetCutMarkOffset	void SetCutMarkOffset(Content * param_1, function<bool___cdecl(DocumentMarks::PDFPlusCutMark_const&___ptr64)> * param_2, variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_> * param_3)
+1800aa1b0	DocumentMarks::SetCutMarkOffset	void SetCutMarkOffset(PDFPlusCutMark * param_1, variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_> * param_2)
+1801343d0	DocumentMarks::PDFPlusCutMark::PDFPlusCutMark	undefined PDFPlusCutMark(PDFPlusCutMark * this, PDFPlusCutMark * param_1, CloneStrategy * param_2)
+1801344e0	DocumentMarks::PDFPlusCutMark::PDFPlusCutMark	undefined PDFPlusCutMark(PDFPlusCutMark * this, shared_ptr<ArtPaint::FormPaint_const_> param_1)
+1801345e0	DocumentMarks::PDFPlusCutMark::~PDFPlusCutMark	void ~PDFPlusCutMark(PDFPlusCutMark * this)
+180134830	DocumentMarks::PDFPlusCutMark::Clone	PDFPlusCutMark * Clone(PDFPlusCutMark * this, CloneStrategy * param_1)
+180134880	DocumentMarks::PDFPlusCutMark::ContentChangedSelf	void ContentChangedSelf(PDFPlusCutMark * this, Content * param_1, Content * param_2)
+180134b00	DocumentMarks::PDFPlusCutMark::GetReferenceBox	RectangleBase<YAGL::MilliPointCoordinateSystem> GetReferenceBox(PDFPlusCutMark * this)
+180134da0	DocumentMarks::PDFPlusCutMark::GetStayAwayAreas	vector<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>,std::allocator<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_>_> GetStayAwayAreas(PDFPlusCutMark * this)
+180134e60	DocumentMarks::PDFPlusCutMark::PostProcessFormulasImp	void PostProcessFormulasImp(PDFPlusCutMark * this, PostReadContext * param_1)
+180134f60	DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp	bool RemoveInvalidCustomFormulasImp(PDFPlusCutMark * this)
+180135160	DocumentMarks::PDFPlusCutMark::SetOffset	void SetOffset(PDFPlusCutMark * this, variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_> * param_1)
+180135230	DocumentMarks::PDFPlusCutMark::SetReferenceObject	void SetReferenceObject(PDFPlusCutMark * this, variant<ArtDoc::PageBox,unsigned___int64,DocumentMarks::ProcessingStepLayer> * param_1)
+180135260	DocumentMarks::PDFPlusCutMark::SetTargetSeparationsImp	void SetTargetSeparationsImp(PDFPlusCutMark * this, PaintAttribute param_1)
+1801352f0	DocumentMarks::PDFPlusCutMark::UpdateMarkErrors	void UpdateMarkErrors(PDFPlusCutMark * this, bool param_1)
+180135550	DocumentMarks::PDFPlusCutMark::getFormulas	vector<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_> getFormulas(PDFPlusCutMark * this)
+180135660	DocumentMarks::PDFPlusCutMark::getMarkType	basic_string_view<char,std::char_traits<char>_> getMarkType(PDFPlusCutMark * this)
+180135670	DocumentMarks::PDFPlusCutMark::getPositionRefBBox	RectangleBase<YAGL::MilliPointCoordinateSystem> getPositionRefBBox(PDFPlusCutMark * this)
+1801358f0	DocumentMarks::PDFPlusCutMark::getPositionRefObject	ContentObject * getPositionRefObject(PDFPlusCutMark * this)
+180135930	DocumentMarks::PDFPlusCutMark::getRefBoxes	vector<ArtDoc::PageBox,std::allocator<ArtDoc::PageBox>_> getRefBoxes(PDFPlusCutMark * this)
+1801359b0	DocumentMarks::PDFPlusCutMark::getRefObjects	vector<unsigned___int64,std::allocator<unsigned___int64>_> getRefObjects(PDFPlusCutMark * this)
+180135ba0	DocumentMarks::PDFPlusCutMark::hasPositionRef	bool hasPositionRef(PDFPlusCutMark * this)
+180135cb0	DocumentMarks::PDFPlusCutMark::postProcessClonedMark	void postProcessClonedMark(PDFPlusCutMark * this, CloneStrategy * param_1)
+180136190	DocumentMarks::PDFPlusCutMark::regenerateMarkImp	void regenerateMarkImp(PDFPlusCutMark * this)
+#count=44
+
+[ADDRESS_LOOKUP]
+0x18013a8b0	contains=18013a880 FUN_18013a880	entry=none
+0x18013ee90	contains=18013e7e0 DocumentMarks::PDFPlusExternalFileMark::GetEvaluatedFileURIImp	entry=none
+0x18013cb50	contains=18013bd30 DocumentMarks::PDFPlusExternalFileMark::ApplyMarkContent	entry=none
+0x18017c5d0	contains=18017c370 FUN_18017c370	entry=none
+0x180111410	contains=180111320 FUN_180111320	entry=none
+0x180052ca0	contains=180052950 DocumentMarks::CutMark::regenerateMarkImp	entry=none
+0x18013d160	contains=18013cf10 DocumentMarks::PDFPlusExternalFileMark::ContentChangedSelf	entry=none
+0x1800adb10	contains=1800ad9c0 FUN_1800ad9c0	entry=none
+0x180172550	contains=180172100 FUN_180172100	entry=none
+0x18024d3e0	contains=18024d160 DocumentMarks::TextAreaMark::readTextBox	entry=none

@@ -1,0 +1,691 @@
+requested=0x180245380
+resolvedAddress=180245380
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180245380 CopyMarksToPageWithLog
+status=OK
+entry=180245380
+name=CopyMarksToPageWithLog
+qualifiedName=DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+namespace=DocumentMarks::TaskMarkSets
+signature=void CopyMarksToPageWithLog(TaskMarkSets * this, Page * param_1, Page * param_2, bool param_3)
+returnType=void
+parameterCount=4
+bodyMin=180245380
+bodyMax=180245b7e
+bodySize=2041
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aaed4 refType=DATA fromFunction=
+18048e4cc refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180243f0e refType=UNCONDITIONAL_CALL fromFunction=180243ec0 ApplyMarksFromSet
+18024405e refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+1802440be refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+1802440fe refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+18024415e refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+1802441be refType=UNCONDITIONAL_CALL fromFunction=180243f40 ApplyRelevantMarkSets
+1802489cd refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+180248a1f refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+180248a8e refType=UNCONDITIONAL_CALL fromFunction=180248720 PrepareMarksCachePage
+
+[CALLERS]
+180243f40 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180248720 DocumentMarks::TaskMarkSets::PrepareMarksCachePage
+180243ec0 DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+
+[CALLEES]
+1802cbe68 FUN_1802cbe68
+1800426f0 DocumentMarks::CopyMarksToPage
+EXTERNAL:0000016e DOCUMENT.DLL::ArtDoc::Document::GetFilePath
+1802ccf86 VCRUNTIME140.DLL::memmove
+18003c5b0 FUN_18003c5b0
+EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180016f40 FUN_180016f40
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18005db00 FUN_18005db00
+18000cc20 FUN_18000cc20
+EXTERNAL:000002ae DOCUMENT.DLL::ArtDoc::Page::GetPageIndex
+EXTERNAL:000004e8 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_algorithms::stem_v3
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+1802cbfd0 __security_check_cookie
+EXTERNAL:000004a2 EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::ToUTF8String
+
+[DIRECT_CALL_TARGETS]
+1802453d4 -> 1802cbe68 FUN_1802cbe68
+1802453fd -> 1802cbe68 FUN_1802cbe68
+18024543b -> 1800426f0 DocumentMarks::CopyMarksToPage
+180245452 -> 1802457b3 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024545d -> 1802457b3 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245466 -> EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+18024546f -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180245478 -> EXTERNAL:0000016e DOCUMENT.DLL::ArtDoc::Document::GetFilePath
+180245485 -> EXTERNAL:000004e8 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_algorithms::stem_v3
+180245494 -> EXTERNAL:000004a2 EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::ToUTF8String
+18024549f -> 180016f40 FUN_180016f40
+1802454c8 -> 18024561c DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802454e7 -> 180245541 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802454f3 -> 180245517 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245515 -> 180245539 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245534 -> 18003c5b0 FUN_18003c5b0
+18024554c -> 180245552 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024555b -> 18024558c DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024557c -> 1802ccf86 VCRUNTIME140.DLL::memmove
+18024558a -> 1802455a4 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024559f -> 18003c5b0 FUN_18003c5b0
+1802455ac -> 1802455d0 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455b6 -> 1802455cb DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455bc -> 1802455cb DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455c9 -> 1802455b8 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455ce -> 1802455ef DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455da -> 1802455ef DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455ed -> 1802455e0 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802455f9 -> 180245608 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245603 -> 1802454e0 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024562d -> EXTERNAL:000002ae DOCUMENT.DLL::ArtDoc::Page::GetPageIndex
+180245672 -> EXTERNAL:000002ae DOCUMENT.DLL::ArtDoc::Page::GetPageIndex
+1802456a8 -> 180245680 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802456ba -> 18000cc20 FUN_18000cc20
+1802456e8 -> 18024571f DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802456fb -> 180245719 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245710 -> 180245719 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245712 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180245719 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245727 -> 18024575d DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024573a -> 180245758 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024574f -> 180245758 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245751 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180245758 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245778 -> 1802457ae DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024578b -> 1802457a9 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802457a0 -> 1802457a9 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802457a2 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1802457a9 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1802457b9 -> 180245b10 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802457c2 -> EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+1802457cb -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+1802457d4 -> EXTERNAL:0000016e DOCUMENT.DLL::ArtDoc::Document::GetFilePath
+1802457e1 -> EXTERNAL:000004e8 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_algorithms::stem_v3
+1802457f0 -> EXTERNAL:000004a2 EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::ToUTF8String
+1802457fb -> 180016f40 FUN_180016f40
+180245824 -> 18024597c DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024583b -> 180245895 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245847 -> 18024586b DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245869 -> 18024588d DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245888 -> 18003c5b0 FUN_18003c5b0
+1802458a0 -> 1802458a6 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802458af -> 1802458e0 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802458d0 -> 1802ccf86 VCRUNTIME140.DLL::memmove
+1802458de -> 1802458f8 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802458f3 -> 18003c5b0 FUN_18003c5b0
+180245900 -> 180245928 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024590a -> 180245923 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245914 -> 180245923 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245921 -> 180245910 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245926 -> 18024594f DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245932 -> 18024594f DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024594d -> 180245940 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245953 -> 180245968 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245963 -> 180245834 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024598d -> EXTERNAL:000002ae DOCUMENT.DLL::ArtDoc::Page::GetPageIndex
+1802459d2 -> EXTERNAL:000002ae DOCUMENT.DLL::ArtDoc::Page::GetPageIndex
+180245a08 -> 1802459e0 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245a1a -> 18000cc20 FUN_18000cc20
+180245a48 -> 180245a7f DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245a5b -> 180245a79 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245a70 -> 180245a79 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245a72 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180245a79 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245a87 -> 180245abd DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245a9a -> 180245ab8 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245aaf -> 180245ab8 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245ab1 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180245ab8 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245ad9 -> 180245b10 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245aec -> 180245b0a DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245b01 -> 180245b0a DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180245b03 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180245b0a -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245b23 -> 18005db00 FUN_18005db00
+180245b32 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245b4b -> 18005db00 FUN_18005db00
+180245b5a -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180245b66 -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+18032ac70 "WARNING: Missing Named Objects: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing object were removed from page %lu.\n"
+18032acf8 "DocumentMarks.Warning.MissingNamedObject"
+18032ad30 "WARNING: Missing Page Box: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing page box were relinked to available page box on page %lu.\n"
+18032add0 "DocumentMarks.Warning.MissingPageBox"
+
+[DATA_XREFS_FROM_BODY]
+18024538d -> Stack[-0x58] block=? sym=
+180245399 -> 180409ec0 block=.data sym=DAT_180409ec0
+1802453a3 -> Stack[-0x58] block=? sym=
+1802453ae -> Stack[-0xe8] block=? sym=
+1802453b6 -> Stack[-0xf0] block=? sym=
+1802453be -> Stack[-0xe0] block=? sym=
+1802453c6 -> Stack[-0x100] block=? sym=
+1802453cb -> Stack[-0xf8] block=? sym=
+1802453ea -> Stack[-0x100] block=? sym=
+1802453ef -> Stack[-0x110] block=? sym=
+1802453f4 -> Stack[-0x108] block=? sym=
+180245413 -> Stack[-0x110] block=? sym=
+180245418 -> Stack[-0x128] block=? sym=
+18024541d -> Stack[-0x130] block=? sym=
+180245422 -> Stack[-0x110] block=? sym=
+180245427 -> Stack[-0x138] block=? sym=
+18024542c -> Stack[-0x100] block=? sym=
+180245458 -> Stack[-0xf8] block=? sym=
+180245466 -> 1802f1718 block=.rdata sym=PTR_GetContent_1802f1718
+18024546f -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180245478 -> 1802f1748 block=.rdata sym=PTR_GetFilePath_1802f1748
+180245481 -> Stack[-0xb0] block=? sym=
+180245485 -> 1802f3f78 block=.rdata sym=PTR_stem_v3_1802f3f78
+18024548c -> Stack[-0xb0] block=? sym=
+180245490 -> Stack[-0x90] block=? sym=
+180245494 -> 1802f2f48 block=.rdata sym=PTR_ToUTF8String_1802f2f48
+18024549b -> Stack[-0xb0] block=? sym=
+1802454a7 -> Stack[-0xd0] block=? sym=
+1802454ab -> Stack[-0xc0] block=? sym=
+1802454b4 -> Stack[-0xb8] block=? sym=
+1802454b8 -> Stack[-0xd0] block=? sym=
+1802454bc -> Stack[-0x100] block=? sym=
+1802454ce -> Stack[-0x118] block=? sym=
+1802454d3 -> Stack[-0x118] block=? sym=
+1802454f9 -> Stack[-0xc0] block=? sym=
+1802454fd -> Stack[-0xd0] block=? sym=
+180245505 -> Stack[-0xd0] block=? sym=
+180245517 -> Stack[-0x138] block=? sym=
+180245520 -> 180328f04 block=.rdata sym=DAT_180328f04
+180245530 -> Stack[-0xd0] block=? sym=
+180245539 -> Stack[-0xc0] block=? sym=
+18024553d -> Stack[-0xb8] block=? sym=
+180245561 -> Stack[-0xc0] block=? sym=
+180245565 -> Stack[-0xd0] block=? sym=
+18024556d -> Stack[-0xd0] block=? sym=
+180245572 -> Stack[-0xd0] block=? sym=
+18024558c -> Stack[-0x138] block=? sym=
+18024559b -> Stack[-0xd0] block=? sym=
+1802455fb -> Stack[-0xb8] block=? sym=
+1802455ff -> Stack[-0xc0] block=? sym=
+180245608 -> Stack[-0xe8] block=? sym=
+18024560d -> Stack[-0xe0] block=? sym=
+18024562d -> 1802f2148 block=.rdata sym=PTR_GetPageIndex_1802f2148
+180245635 -> Stack[-0x90] block=? sym=
+180245639 -> Stack[-0x78] block=? sym=
+18024563e -> Stack[-0x90] block=? sym=
+180245643 -> Stack[-0xd0] block=? sym=
+180245647 -> Stack[-0xb8] block=? sym=
+18024564c -> Stack[-0xd0] block=? sym=
+180245651 -> Stack[-0x138] block=? sym=
+180245655 -> 18032ac70 block=.rdata sym=s_WARNING:_Missing_Named_Objects:_%_18032ac70
+180245672 -> 1802f2148 block=.rdata sym=PTR_GetPageIndex_1802f2148
+18024567c -> Stack[-0x5b] block=? sym=
+18024569f -> Stack[-0x5c] block=? sym=
+1802456aa -> Stack[-0x118] block=? sym=
+1802456af -> Stack[-0x5b] block=? sym=
+1802456b6 -> Stack[-0xb0] block=? sym=
+1802456c0 -> Stack[-0xb0] block=? sym=
+1802456c4 -> Stack[-0x98] block=? sym=
+1802456c9 -> Stack[-0xb0] block=? sym=
+1802456ce -> 18032acf8 block=.rdata sym=s_DocumentMarks.Warning.MissingNam_18032acf8
+1802456e0 -> Stack[-0x98] block=? sym=
+1802456ed -> Stack[-0xb0] block=? sym=
+180245712 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18024571f -> Stack[-0xb8] block=? sym=
+18024572c -> Stack[-0xd0] block=? sym=
+180245751 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180245760 -> Stack[-0xc0] block=? sym=
+180245764 -> Stack[-0xb8] block=? sym=
+18024576c -> Stack[-0xd0] block=? sym=
+180245770 -> Stack[-0x78] block=? sym=
+18024577d -> Stack[-0x90] block=? sym=
+1802457a2 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+1802457ae -> Stack[-0xf0] block=? sym=
+1802457b3 -> Stack[-0x108] block=? sym=
+1802457c2 -> 1802f1718 block=.rdata sym=PTR_GetContent_1802f1718
+1802457cb -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+1802457d4 -> 1802f1748 block=.rdata sym=PTR_GetFilePath_1802f1748
+1802457dd -> Stack[-0x90] block=? sym=
+1802457e1 -> 1802f3f78 block=.rdata sym=PTR_stem_v3_1802f3f78
+1802457e8 -> Stack[-0x90] block=? sym=
+1802457ec -> Stack[-0xb0] block=? sym=
+1802457f0 -> 1802f2f48 block=.rdata sym=PTR_ToUTF8String_1802f2f48
+1802457f7 -> Stack[-0x90] block=? sym=
+180245803 -> Stack[-0xd0] block=? sym=
+180245807 -> Stack[-0xc0] block=? sym=
+180245810 -> Stack[-0xb8] block=? sym=
+180245814 -> Stack[-0xd0] block=? sym=
+180245818 -> Stack[-0x110] block=? sym=
+18024582a -> Stack[-0x118] block=? sym=
+18024582f -> Stack[-0x118] block=? sym=
+18024584d -> Stack[-0xc0] block=? sym=
+180245851 -> Stack[-0xd0] block=? sym=
+180245859 -> Stack[-0xd0] block=? sym=
+18024586b -> Stack[-0x138] block=? sym=
+180245874 -> 180328f04 block=.rdata sym=DAT_180328f04
+180245884 -> Stack[-0xd0] block=? sym=
+18024588d -> Stack[-0xc0] block=? sym=
+180245891 -> Stack[-0xb8] block=? sym=
+1802458b5 -> Stack[-0xc0] block=? sym=
+1802458b9 -> Stack[-0xd0] block=? sym=
+1802458c1 -> Stack[-0xd0] block=? sym=
+1802458c6 -> Stack[-0xd0] block=? sym=
+1802458e0 -> Stack[-0x138] block=? sym=
+1802458ef -> Stack[-0xd0] block=? sym=
+180245955 -> Stack[-0xb8] block=? sym=
+180245959 -> Stack[-0xc0] block=? sym=
+180245968 -> Stack[-0xe8] block=? sym=
+18024596d -> Stack[-0xe0] block=? sym=
+18024598d -> 1802f2148 block=.rdata sym=PTR_GetPageIndex_1802f2148
+180245995 -> Stack[-0xb0] block=? sym=
+180245999 -> Stack[-0x98] block=? sym=
+18024599e -> Stack[-0xb0] block=? sym=
+1802459a3 -> Stack[-0xd0] block=? sym=
+1802459a7 -> Stack[-0xb8] block=? sym=
+1802459ac -> Stack[-0xd0] block=? sym=
+1802459b1 -> Stack[-0x138] block=? sym=
+1802459b5 -> 18032ad30 block=.rdata sym=s_WARNING:_Missing_Page_Box:_%s._R_18032ad30
+1802459d2 -> 1802f2148 block=.rdata sym=PTR_GetPageIndex_1802f2148
+1802459dc -> Stack[-0x5b] block=? sym=
+1802459ff -> Stack[-0x5c] block=? sym=
+180245a0a -> Stack[-0x118] block=? sym=
+180245a0f -> Stack[-0x5b] block=? sym=
+180245a16 -> Stack[-0x90] block=? sym=
+180245a20 -> Stack[-0x90] block=? sym=
+180245a24 -> Stack[-0x78] block=? sym=
+180245a29 -> Stack[-0x90] block=? sym=
+180245a2e -> 18032add0 block=.rdata sym=s_DocumentMarks.Warning.MissingPag_18032add0
+180245a40 -> Stack[-0x78] block=? sym=
+180245a4d -> Stack[-0x90] block=? sym=
+180245a72 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180245a7f -> Stack[-0xb8] block=? sym=
+180245a8c -> Stack[-0xd0] block=? sym=
+180245ab1 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180245abd -> Stack[-0xc0] block=? sym=
+180245ac5 -> Stack[-0xb8] block=? sym=
+180245acd -> Stack[-0xd0] block=? sym=
+180245ad1 -> Stack[-0x98] block=? sym=
+180245ade -> Stack[-0xb0] block=? sym=
+180245b03 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180245b10 -> Stack[-0x110] block=? sym=
+180245b19 -> Stack[-0x110] block=? sym=
+180245b1e -> Stack[-0x110] block=? sym=
+180245b2d -> Stack[-0x110] block=? sym=
+180245b38 -> Stack[-0x100] block=? sym=
+180245b41 -> Stack[-0x100] block=? sym=
+180245b46 -> Stack[-0x100] block=? sym=
+180245b55 -> Stack[-0x100] block=? sym=
+180245b5f -> Stack[-0x58] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog(class ArtDoc::Page &
+   __ptr64,class ArtDoc::Page & __ptr64,bool) __ptr64 */
+
+void __thiscall
+DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+          (TaskMarkSets *this,Page *param_1,Page *param_2,bool param_3)
+
+{
+  undefined2 *puVar1;
+  void *pvVar2;
+  char cVar3;
+  code *pcVar4;
+  undefined1 uVar5;
+  longlong lVar6;
+  longlong *plVar7;
+  bool bVar8;
+  PageContent *pPVar9;
+  Document *pDVar10;
+  __uint64 _Var11;
+  undefined8 ****ppppuVar12;
+  ulonglong uVar13;
+  longlong *plVar14;
+  undefined8 ****ppppuVar15;
+  ulonglong uVar16;
+  char *pcVar17;
+  longlong *plVar18;
+  undefined1 auStackY_158 [32];
+  undefined1 local_118 [8];
+  longlong *local_110;
+  longlong local_108;
+  longlong *local_100;
+  longlong local_f8;
+  Page *local_f0;
+  Page *local_e8;
+  TaskMarkSets *local_e0;
+  undefined8 ****local_d0;
+  undefined8 uStack_c8;
+  longlong local_c0;
+  ulonglong local_b8;
+  undefined8 ****local_b0 [3];
+  ulonglong local_98;
+  undefined8 ****local_90 [3];
+  ulonglong local_78;
+  char local_5c [4];
+  ulonglong local_58;
+  
+                    /* 0x245380  928
+                       ?CopyMarksToPageWithLog@TaskMarkSets@DocumentMarks@@QEAAXAEAVPage@ArtDoc@@0_N@Z
+                        */
+  local_58 = DAT_180409ec0 ^ (ulonglong)auStackY_158;
+  local_100 = (longlong *)0x0;
+  local_f8 = 0;
+  local_f0 = param_1;
+  local_e8 = param_2;
+  local_e0 = this;
+  local_100 = (longlong *)FUN_1802cbe68(0x40);
+  *local_100 = (longlong)local_100;
+  local_100[1] = (longlong)local_100;
+  local_100[2] = (longlong)local_100;
+  *(undefined2 *)(local_100 + 3) = 0x101;
+  local_110 = (longlong *)0x0;
+  local_108 = 0;
+  local_110 = (longlong *)FUN_1802cbe68(0x40);
+  *local_110 = (longlong)local_110;
+  local_110[1] = (longlong)local_110;
+  local_110[2] = (longlong)local_110;
+  *(undefined2 *)(local_110 + 3) = 0x101;
+  bVar8 = CopyMarksToPage(param_1,param_2,param_3,
+                          (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                           *)&local_100,
+                          (set<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>_>
+                           *)&local_110,
+                          (set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_>
+                           *)0x0,true);
+  if ((!bVar8) && (local_f8 != 0)) {
+    pPVar9 = ArtDoc::Page::GetContent(param_1);
+    pDVar10 = ArtDoc::Content::GetDocument((Content *)pPVar9);
+    ArtDoc::Document::GetFilePath(pDVar10);
+    boost::filesystem::detail::path_algorithms::stem_v3((path *)local_b0);
+    ExtraBoostFilesystem::ToUTF8String((path *)local_90);
+    FUN_180016f40(local_b0);
+    uVar5 = local_118[0];
+    uStack_c8 = 0;
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)0x0;
+    plVar14 = (longlong *)*local_100;
+    if (*(char *)((longlong)plVar14 + 0x19) == '\0') {
+      do {
+        lVar6 = local_c0;
+        plVar18 = plVar14 + 4;
+        if (local_c0 != 0) {
+          if (local_b8 - local_c0 < 2) {
+            FUN_18003c5b0(&local_d0,2,uVar5,&DAT_180328f04);
+          }
+          else {
+            ppppuVar12 = &local_d0;
+            if (0xf < local_b8) {
+              ppppuVar12 = local_d0;
+            }
+            puVar1 = (undefined2 *)((longlong)ppppuVar12 + local_c0);
+            local_c0 = local_c0 + 2;
+            *puVar1 = 0x202c;
+            *(undefined1 *)((longlong)ppppuVar12 + lVar6 + 2) = 0;
+          }
+        }
+        lVar6 = local_c0;
+        uVar16 = plVar14[6];
+        if (0xf < (ulonglong)plVar14[7]) {
+          plVar18 = (longlong *)*plVar18;
+        }
+        if (local_b8 - local_c0 < uVar16) {
+          FUN_18003c5b0(&local_d0,uVar16,uVar5,plVar18);
+        }
+        else {
+          ppppuVar12 = &local_d0;
+          if (0xf < local_b8) {
+            ppppuVar12 = local_d0;
+          }
+          pvVar2 = (void *)((longlong)ppppuVar12 + local_c0);
+          local_c0 = local_c0 + uVar16;
+          memmove(pvVar2,plVar18,uVar16);
+          *(undefined1 *)((longlong)ppppuVar12 + lVar6 + uVar16) = 0;
+        }
+        plVar18 = (longlong *)plVar14[2];
+        if (*(char *)((longlong)plVar18 + 0x19) == '\0') {
+          cVar3 = *(char *)(*plVar18 + 0x19);
+          plVar14 = plVar18;
+          plVar18 = (longlong *)*plVar18;
+          while (cVar3 == '\0') {
+            cVar3 = *(char *)(*plVar18 + 0x19);
+            plVar14 = plVar18;
+            plVar18 = (longlong *)*plVar18;
+          }
+        }
+        else {
+          cVar3 = *(char *)(plVar14[1] + 0x19);
+          plVar7 = (longlong *)plVar14[1];
+          plVar18 = plVar14;
+          while ((plVar14 = plVar7, cVar3 == '\0' && (plVar18 == (longlong *)plVar14[2]))) {
+            cVar3 = *(char *)(plVar14[1] + 0x19);
+            plVar7 = (longlong *)plVar14[1];
+            plVar18 = plVar14;
+          }
+        }
+      } while (*(char *)((longlong)plVar14 + 0x19) == '\0');
+      param_2 = local_e8;
+      this = local_e0;
+    }
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 0x38);
+    ArtDoc::Page::GetPageIndex(param_2);
+    ppppuVar12 = local_90;
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+    }
+    ppppuVar15 = &local_d0;
+    if (0xf < local_b8) {
+      ppppuVar15 = local_d0;
+    }
+    (*pcVar4)(plVar14,
+              "WARNING: Missing Named Objects: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing object were removed from page %lu.\n"
+              ,ppppuVar15,ppppuVar12);
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 8);
+    _Var11 = ArtDoc::Page::GetPageIndex(param_2);
+    pcVar17 = local_5c + 1;
+    uVar16 = _Var11 + 1;
+    do {
+      pcVar17 = pcVar17 + -1;
+      uVar13 = uVar16 / 10;
+      *pcVar17 = (char)uVar16 + (char)uVar13 * -10 + '0';
+      uVar16 = uVar13;
+    } while (uVar13 != 0);
+    FUN_18000cc20(local_b0,pcVar17,local_5c + 1,local_118);
+    ppppuVar12 = local_b0;
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+    }
+    (*pcVar4)(plVar14,1,"DocumentMarks.Warning.MissingNamedObject",ppppuVar12);
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+      if ((0xfff < local_98 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_b0[0][-1],
+         0x1f < (ulonglong)((longlong)local_b0[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    if (0xf < local_b8) {
+      ppppuVar12 = local_d0;
+      if ((0xfff < local_b8 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_d0[-1],
+         0x1f < (ulonglong)((longlong)local_d0 + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)((ulonglong)local_d0 & 0xffffffffffffff00);
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+      if ((0xfff < local_78 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_90[0][-1],
+         0x1f < (ulonglong)((longlong)local_90[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    param_1 = local_f0;
+  }
+  if (local_108 != 0) {
+    pPVar9 = ArtDoc::Page::GetContent(param_1);
+    pDVar10 = ArtDoc::Content::GetDocument((Content *)pPVar9);
+    ArtDoc::Document::GetFilePath(pDVar10);
+    boost::filesystem::detail::path_algorithms::stem_v3((path *)local_90);
+    ExtraBoostFilesystem::ToUTF8String((path *)local_b0);
+    FUN_180016f40(local_90);
+    uStack_c8 = 0;
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)0x0;
+    plVar14 = (longlong *)*local_110;
+    if (*(char *)((longlong)plVar14 + 0x19) == '\0') {
+      do {
+        lVar6 = local_c0;
+        plVar18 = plVar14 + 4;
+        if (local_c0 != 0) {
+          if (local_b8 - local_c0 < 2) {
+            FUN_18003c5b0(&local_d0,2,local_118[0],&DAT_180328f04);
+          }
+          else {
+            ppppuVar12 = &local_d0;
+            if (0xf < local_b8) {
+              ppppuVar12 = local_d0;
+            }
+            puVar1 = (undefined2 *)((longlong)ppppuVar12 + local_c0);
+            local_c0 = local_c0 + 2;
+            *puVar1 = 0x202c;
+            *(undefined1 *)((longlong)ppppuVar12 + lVar6 + 2) = 0;
+          }
+        }
+        lVar6 = local_c0;
+        uVar16 = plVar14[6];
+        if (0xf < (ulonglong)plVar14[7]) {
+          plVar18 = (longlong *)*plVar18;
+        }
+        if (local_b8 - local_c0 < uVar16) {
+          FUN_18003c5b0(&local_d0,uVar16,local_118[0],plVar18);
+        }
+        else {
+          ppppuVar12 = &local_d0;
+          if (0xf < local_b8) {
+            ppppuVar12 = local_d0;
+          }
+          pvVar2 = (void *)((longlong)ppppuVar12 + local_c0);
+          local_c0 = local_c0 + uVar16;
+          memmove(pvVar2,plVar18,uVar16);
+          *(undefined1 *)((longlong)ppppuVar12 + lVar6 + uVar16) = 0;
+        }
+        plVar18 = (longlong *)plVar14[2];
+        if (*(char *)((longlong)plVar18 + 0x19) == '\0') {
+          cVar3 = *(char *)(*plVar18 + 0x19);
+          plVar14 = plVar18;
+          plVar18 = (longlong *)*plVar18;
+          while (cVar3 == '\0') {
+            cVar3 = *(char *)(*plVar18 + 0x19);
+            plVar14 = plVar18;
+            plVar18 = (longlong *)*plVar18;
+          }
+        }
+        else {
+          cVar3 = *(char *)(plVar14[1] + 0x19);
+          plVar7 = (longlong *)plVar14[1];
+          plVar18 = plVar14;
+          while ((plVar14 = plVar7, cVar3 == '\0' && (plVar18 == (longlong *)plVar14[2]))) {
+            cVar3 = *(char *)(plVar14[1] + 0x19);
+            plVar7 = (longlong *)plVar14[1];
+            plVar18 = plVar14;
+          }
+        }
+      } while (*(char *)((longlong)plVar14 + 0x19) == '\0');
+      param_2 = local_e8;
+      this = local_e0;
+    }
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 0x38);
+    ArtDoc::Page::GetPageIndex(param_2);
+    ppppuVar12 = local_b0;
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+    }
+    ppppuVar15 = &local_d0;
+    if (0xf < local_b8) {
+      ppppuVar15 = local_d0;
+    }
+    (*pcVar4)(plVar14,
+              "WARNING: Missing Page Box: %s.\nReferenced from Mark Set: %s.\nDynamic Marks linked to a missing page box were relinked to available page box on page %lu.\n"
+              ,ppppuVar15,ppppuVar12);
+    plVar14 = *(longlong **)(this + 0x1f8);
+    pcVar4 = *(code **)(*plVar14 + 8);
+    _Var11 = ArtDoc::Page::GetPageIndex(param_2);
+    pcVar17 = local_5c + 1;
+    uVar16 = _Var11 + 1;
+    do {
+      pcVar17 = pcVar17 + -1;
+      uVar13 = uVar16 / 10;
+      *pcVar17 = (char)uVar16 + (char)uVar13 * -10 + '0';
+      uVar16 = uVar13;
+    } while (uVar13 != 0);
+    FUN_18000cc20(local_90,pcVar17,local_5c + 1,local_118);
+    ppppuVar12 = local_90;
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+    }
+    (*pcVar4)(plVar14,1,"DocumentMarks.Warning.MissingPageBox",ppppuVar12);
+    if (0xf < local_78) {
+      ppppuVar12 = local_90[0];
+      if ((0xfff < local_78 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_90[0][-1],
+         0x1f < (ulonglong)((longlong)local_90[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    if (0xf < local_b8) {
+      ppppuVar12 = local_d0;
+      if ((0xfff < local_b8 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_d0[-1],
+         0x1f < (ulonglong)((longlong)local_d0 + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+    local_c0 = 0;
+    local_b8 = 0xf;
+    local_d0 = (undefined8 ****)((ulonglong)local_d0 & 0xffffffffffffff00);
+    if (0xf < local_98) {
+      ppppuVar12 = local_b0[0];
+      if ((0xfff < local_98 + 1) &&
+         (ppppuVar12 = (undefined8 ****)local_b0[0][-1],
+         0x1f < (ulonglong)((longlong)local_b0[0] + (-8 - (longlong)ppppuVar12)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar12);
+    }
+  }
+  FUN_18005db00(&local_110,&local_110,local_110[1]);
+  free(local_110);
+  FUN_18005db00(&local_100,&local_100,local_100[1]);
+  free(local_100);
+  return;
+}
+
+

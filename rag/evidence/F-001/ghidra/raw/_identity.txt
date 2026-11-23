@@ -1,0 +1,9 @@
+program=DocumentMarks.dll
+executablePath=/C:/Esko/bg_prog_artpro+_v250/ArtPro+.app/Contents/Windows/DocumentMarks.dll
+executableSHA256=ffa8809d294a7aa08bd2794e0b0c1e64608d898b5f7ba698a4e58a8e575bee10
+executableMD5=efb14382e1b201be7ba90911d0bdb2e7
+imageBase=180000000
+language=x86:LE:64:default
+compiler=windows
+functionCount=12192
+targetAddressArgs=0x18013a8b0,0x18013aba0,0x18013ee90,0x18013cb50,0x18017c5d0,0x180111410,0x180052ca0,0x18013d160,0x1800adb10,0x180172550,0x18024d3e0,0x18013cef0,0x18013e3c0,0x18013bdc0,0x180052340,0x180052820,0x180052a50,0x18013e3b0,0x1800adf00,0x180312b40,0x180323368,0x180326a08,0x180323180,0x180327538,0x180327560,0x180308df0

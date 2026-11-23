@@ -1,0 +1,1385 @@
+
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+DemiboldH
+SemiboldH
+|$ ATAVAWH
+SVWATAUAVAWH
+>HkL$8XH
+PA_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+@SVATAUAWH
+ A_A]A\^[
+@SVATAVH
+\$ VAVAWH
+s WATAUAVAWH
+A_A^A]A\_
+SUVWAVAWH
+XA_A^_^][
+@SUVWATAVAWH
+A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ WATAUAVAWH
+0A_A^A]A\_
+|$ UATAUAVAWH
+A_A^A]A\]
+L$ SUVWH
+UVWAVAWH
+WATAUAVAWH
+A_A^A]A\_
+SVWATAUAVAWH
+ A_A^A]A\_^[
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ UWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+7HkL$(hH
+@A_A^A]A\_^[
+WATAUAVAWH
+@A_A^A]A\_
+D$0L9H s
+@USVWATAUAVAWH
+|$8;D$(~
+A_A^A]A\_^[]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+t$ UWAVH
+t$ WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ WAVAWH
+UVWATAWH
+ A_A\_^]
+t$ UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+A_A^A\_]
+t$ WATAUAVAWH
+FormTablI
+egt:freeI
+egb:barcA
+A_A^A]A\_
+SVWATAUAVAWH
+0A_A^A]A\_^[
+UVWAVAWH
+@A_A^_^]
+UVWATAUAVAWH
+U8H;U@t 
+A_A^A]A\_^]
+@SUVWAVH
+@USVWATAUAVAWH
+directioI+
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@UVAUAVAWH
+0A_A^A]^]
+SVWATAUAVAWH
+@A_A^A]A\_^[
+WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+L$ WAVAWH
+VWATAVAWH
+@A_A^A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+>HkL$(XH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+t$ UWATAVAWH
+A_A^A\_]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+D$8L;D$@
+L$@H+L$8H
+A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+t$ WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+T$@H;T$Ht
+D$PL9p s
+L;q sbI9U
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+SourceIDH
+@SUVWAVH
+UVWAVAWH
+@A_A^_^]
+@USVWAVH
+\$ UVWATAUAVAWH
+t0LcD$<E
+A_A^A]A\_^]
+L$ H;L$(
+VWATAVAWH
+A_A^A\_^
+l$ VWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+l$ VWATAVAWH
+A_A^A\_^
+\$ UVWAVAWH
+|$ UATAUAVAWH
+A_A^A]A\]
+t$ WAVAWH
+UWATAVAWH
+A_A^A\_]
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+0A_A^A]A\_^[
+gfffffffH
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+t}M9}Pt&ff
+UpI;Uxt'H
+UpI;Uxt(H
+L$@H;L$`
+A_A^A]A\]
+UVWATAUAVAWH
+uxA8p t!@
+A_A^A]A\_^]
+UVWATAUAVAWH
+uhA8p t#@
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ ATAVAWH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+0A_A^A]A\_^[
+|$ ATAVAWH
+|$ ATAVAWH
+WATAUAVAWH
+\$09k |-u
+A_A^A]A\_
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+t$ WATAUAVAWH
+uCA;o(u=I
+A_A^A]A\_
+t$ WAVAWH
+gfffffffH
+gfffffffH
+\$ UVWATAUAVAWH
+t$ D8wHu
+D;c ukD;k$ueH
+\$ D9f ulD9n$ufH
+NI:L$!t&
+E;f usE;n$umI
+NI8L$!t 
+9W uiD9o$ucH
+A_A^A]A\_^]
+UVWATAUAVAWH
+udD;c uMH
+A_A^A]A\_^]
+t$ WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+UWATAVAWH
+A_A^A\_]
+UVWAVAWH
+0A_A^_^]
+t$ WAVAWH
+@USVWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+t$ WAVAWH
+t$ WATAUAVAWH
+A_A^A]A\_
+s WAVAWH
+s WAVAWH
+t$ WAVAWH
+t$ WAVAWH
+@SVATAVH
+UVWAVAWH
+`A_A^_^]
+t$ WAVAWH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+L$ UWAVH
+|$ ATAVAWH
+UATAUAVAWH
+A_A^A]A\]
+l$ VWAVH
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+u%8S0u H
+A_A^A]A\]
+WATAUAVAWH
+A_A^A]A\_
+t$ UWATAVAWH
+A_A^A\_]
+|$ AVAWM
+UATAUAVAWH
+A_A^A]A\]
+UVWAVAWH
+`A_A^_^]
+VWATAVAWH
+0A_A^A\_^
+VWATAVAWH
+@A_A^A\_^
+s WAVAWH
+VWATAVAWH
+@A_A^A\_^
+t$ WATAUAVAWH
+A_A^A]A\_
+s WATAUAVAWH
+A_A^A]A\_
+VWATAVAWH
+0A_A^A\_^
+WATAUAVAWH
+@A_A^A]A\_
+UVWATAUAVAWH
+`A_A^A]A\_^]
+VWATAVAWH
+0A_A^A\_^
+@SUVWAVAWH
+HA_A^_^][
+HA_A^_^][
+VWATAVAWH
+@A_A^A\_^
+s WATAUAVAWH
+0A_A^A]A\_
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DynamicContent_AreaText
+Unknown exception
+bad array new length
+string too long
+Unknown error (%d)
+No message text available for error %d
+asio.misc
+Already open
+End of file
+Element not found
+The descriptor does not fit into the select call's fd_set
+asio.misc error
+Invalid code point
+Invalid UTF-8
+Not enough space
+vector too long
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DynamicContent_Barcode
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Bad optional access
+ExtraBold
+map/set too long
+invalid string position
+artworkContentCopyElement
+artworkContentStructuredCopyElement
+artworkContentGraphicElement
+artworkContentDataCarrierElement
+artworkContentMessage
+StandardBusinessDocumentHeader
+artworkContent
+artworkContentPieceOfArt
+instanceSequence
+egt:sourceReference
+egt:instanceSequence
+localeSequence
+egt:freeFormTable
+egb:barcodes
+textContent
+graphicElementReference
+referenceURI
+referenceIdentifier
+sourceReference
+artworkContentDataCarrierDetail
+dataCarrierContent
+copyElementTypeCode
+dataCarrierElementTypeCode
+structuredCopyElementTypeCode
+graphicElementTypeCode
+invalid stod argument
+stod argument out of range
+font_family
+font_style
+font_size
+tracking
+baseline_shift
+local_style
+EAN_13_WITH_TWO_DIGIT_ADD_ON
+EAN-13 with Two-Digit Add-On
+EAN_13_WITH_FIVE_DIGIT_ADD_ON
+EAN-13 with Five-digit Add-On
+UPC_A_WITH_TWO_DIGIT_ADD_ON
+UPC-A with Two-Digit Add-On
+UPC_A_WITH_FIVE_DIGIT_ADD_ON
+UPC-A with Five-digit Add-On
+UPC_E_WITH_TWO_DIGIT_ADD_ON
+UPC-E with Two-Digit Add-On
+UPC_E_WITH_FIVE_DIGIT_ADD_ON
+UPC-E with Five-Digit Add-On
+GS1_DATABAR_OMNIDIRECTIONAL
+GS1 DataBar Omnidirectional
+GS1_DataBar-14
+GS1_DATABAR_STACKED_OMNIDIRECTIONAL
+GS1 DataBar Stacked Omnidirectional
+GS1_DataBar-14_Stacked_Omni
+GS1_DATABAR_STACKED
+GS1 DataBar Stacked
+GS1_DataBar-14_Stacked
+GS1_DATABAR_TRUNCATED
+GS1 DataBar Truncated
+GS1_DataBar-14_Truncated
+GS1_DATABAR_LIMITED
+GS1 DataBar Limited
+GS1_DataBar_Limited
+GS1_DATABAR_EXPANDED
+GS1 DataBar Expanded
+GS1_DataBar-Expanded
+GS1_DATABAR_EXPANDED_STACKED
+GS1 DataBar Expanded Stacked
+GS1_DataBar-Expanded_Stacked
+GS1_DATAMATRIX
+GS1 DataMatrix
+GS1_DataMatrix
+_COMPOSITE
+symbolComponentCode
+2D_COMPOSITE_COMPONENT
+sequenceNumber
+applicationIdentifier
+addOnSymbolContent
+EAN 13 SWISS
+MARKS_AND_SPENCER
+INT_2_OF_5
+CODE-128
+CODE-128-LONG
+HIBC-128
+PARAF_ITALY
+LAETUS_PHARMA
+Klebrand
+GS1_128_COMPOSITE
+GS1_US_Coupon_Interim
+DATAMATRIX
+MicroPDF417
+Esko_DynamicContent
+Dynamic Content module
+DocumentDynamicContent::AllObjects
+unknown boost::container exception
+get_next_capacity, allocator's max size reached
+DynamicContentVariable
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+LastModified
+ObjectType
+SourceID
+InstanceID
+LocaleID
+PTagHandling
+InsertNewline
+InsertSpace
+ContentType
+AutoVersion
+IsDecimal
+AlternateURI
+FileContent
+Esko_DynamicContentContent
+Esko_DynamicContentObject
+bad cast
+boost::bad_any_cast: failed conversion using boost::any_cast
+Invalid source content for Dynamic Content area text
+Invalid source content for barcode object
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DocumentDynamicContent.Sources
+Day of month is not valid for year
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DocumentDynamicContent.XMLSources
+system id
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+call to empty boost::function
+unnamed-rule
+!$&'()*+,;=
+bad allocation
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+P2RbV2Xb\2^bb2dbh2jbn2pbt2vbz2|b
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`a
+DocumentDynamicContent.dll
+??0AreaText@DocumentDynamicContent@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+??0AreaText@DocumentDynamicContent@@QEAA@XZ
+??0Barcode@DocumentDynamicContent@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+??0Barcode@DocumentDynamicContent@@QEAA@XZ
+??0DynamicContentModule@DocumentDynamicContent@@QEAA@XZ
+??0Object@DocumentDynamicContent@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+??0Object@DocumentDynamicContent@@QEAA@XZ
+??0Source@DocumentDynamicContent@@QEAA@$$QEAU01@@Z
+??0Source@DocumentDynamicContent@@QEAA@AEBU01@@Z
+??0Source@DocumentDynamicContent@@QEAA@XZ
+??0Sources@DocumentDynamicContent@@QEAA@AEBV01@@Z
+??0Sources@DocumentDynamicContent@@QEAA@XZ
+??1AreaText@DocumentDynamicContent@@UEAA@XZ
+??1Barcode@DocumentDynamicContent@@UEAA@XZ
+??1DynamicContentModule@DocumentDynamicContent@@UEAA@XZ
+??1Object@DocumentDynamicContent@@UEAA@XZ
+??1Source@DocumentDynamicContent@@QEAA@XZ
+??1Sources@DocumentDynamicContent@@QEAA@XZ
+??4Source@DocumentDynamicContent@@QEAAAEAU01@$$QEAU01@@Z
+??4Source@DocumentDynamicContent@@QEAAAEAU01@AEBU01@@Z
+??4Sources@DocumentDynamicContent@@QEAAAEAV01@AEBV01@@Z
+??8Source@DocumentDynamicContent@@QEBA_NAEBU01@@Z
+??_7AreaText@DocumentDynamicContent@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+??_7AreaText@DocumentDynamicContent@@6BVisitable@ArtDoc@@@
+??_7Barcode@DocumentDynamicContent@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+??_7Barcode@DocumentDynamicContent@@6BVisitable@ArtDoc@@@
+??_7DynamicContentModule@DocumentDynamicContent@@6B@
+??_7Object@DocumentDynamicContent@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+??_7Object@DocumentDynamicContent@@6BVisitable@ArtDoc@@@
+??_8DynamicContentModule@DocumentDynamicContent@@7B@
+??_DDynamicContentModule@DocumentDynamicContent@@QEAAXXZ
+?Accept@AreaText@DocumentDynamicContent@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+?Accept@AreaText@DocumentDynamicContent@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+?Accept@Barcode@DocumentDynamicContent@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+?Accept@Barcode@DocumentDynamicContent@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+?Accept@Object@DocumentDynamicContent@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+?Accept@Object@DocumentDynamicContent@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+?AddSource@Sources@DocumentDynamicContent@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+?AddSource@Sources@DocumentDynamicContent@@QEAA_NUSource@2@@Z
+?AddSourceFile@Sources@DocumentDynamicContent@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@boost@@@Z
+?AddTextStatement@AreaText@DocumentDynamicContent@@QEAAAEAUTextStatement@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHAEBV45@@Z
+?AddXMLSource@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?AddXMLSource@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@AEBVpath@filesystem@boost@@@Z
+?ApplyOptimalSymbolSize@Barcode@DocumentDynamicContent@@AEAAXAEAVBarCode@DocumentBarCode@@@Z
+?Autolink@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?Clone@AreaText@DocumentDynamicContent@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+?Clone@Barcode@DocumentDynamicContent@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+?ContentChangedSelf@Barcode@DocumentDynamicContent@@MEAAXPEAVContent@ArtDoc@@0@Z
+?ContentChangedSelf@Object@DocumentDynamicContent@@MEAAXPEAVContent@ArtDoc@@0@Z
+?Create@DynamicContentModule@DocumentDynamicContent@@SA?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+?CreateUniqueSourceID@Sources@DocumentDynamicContent@@AEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?DeleteObject@Object@DocumentDynamicContent@@IEAAXAEAVContentObject@ArtDoc@@@Z
+?GetAddSpaceBetweenParagraphs@AreaText@DocumentDynamicContent@@QEBA_NXZ
+?GetInstanceID@Barcode@DocumentDynamicContent@@QEBAHXZ
+?GetInterpretAsDecimal@Barcode@DocumentDynamicContent@@QEBA_NXZ
+?GetName@DynamicContentModule@DocumentDynamicContent@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetObjectsInContent@DocumentDynamicContent@@YA?AV?$vector@PEAVObject@DocumentDynamicContent@@V?$allocator@PEAVObject@DocumentDynamicContent@@@std@@@std@@AEBVContent@ArtDoc@@@Z
+?GetOrCreateSources@DocumentDynamicContent@@YA?AV?$reference_wrapper@VSources@DocumentDynamicContent@@@std@@AEAVDocument@ArtDoc@@@Z
+?GetPreserveParagraphs@AreaText@DocumentDynamicContent@@QEBA_NXZ
+?GetSourceBarcode@Barcode@DocumentDynamicContent@@QEAAAEAVBarCode@DocumentBarCode@@XZ
+?GetSourceBarcode@Barcode@DocumentDynamicContent@@QEBAAEBVBarCode@DocumentBarCode@@XZ
+?GetSourceContent@Object@DocumentDynamicContent@@QEBA?AV?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@XZ
+?GetSourceID@Barcode@DocumentDynamicContent@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetSourceTypesettingGroup@AreaText@DocumentDynamicContent@@QEAAAEAVGroup@ArtDoc@@XZ
+?GetSourceTypesettingGroup@AreaText@DocumentDynamicContent@@QEBAAEBVGroup@ArtDoc@@XZ
+?GetSources@DocumentDynamicContent@@YA?AV?$optional@V?$reference_wrapper@$$CBVSources@DocumentDynamicContent@@@std@@@std@@AEBVDocument@ArtDoc@@@Z
+?GetSources@DocumentDynamicContent@@YA?AV?$optional@V?$reference_wrapper@VSources@DocumentDynamicContent@@@std@@@std@@AEAVDocument@ArtDoc@@@Z
+?GetSources@Sources@DocumentDynamicContent@@QEBAAEBV?$vector@USource@DocumentDynamicContent@@V?$allocator@USource@DocumentDynamicContent@@@std@@@std@@XZ
+?GetTextStatement@AreaText@DocumentDynamicContent@@QEAAPEAUTextStatement@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHAEBV45@@Z
+?GetTextStatements@AreaText@DocumentDynamicContent@@QEAAAEAV?$vector@UTextStatement@DocumentDynamicContent@@V?$allocator@UTextStatement@DocumentDynamicContent@@@std@@@std@@XZ
+?GetTextStatements@AreaText@DocumentDynamicContent@@QEBAAEBV?$vector@UTextStatement@DocumentDynamicContent@@V?$allocator@UTextStatement@DocumentDynamicContent@@@std@@@std@@XZ
+?InsertNewObjectOnTop@Object@DocumentDynamicContent@@IEAAAEAVContentObject@ArtDoc@@PEAV34@AEAVGroup@4@@Z
+?IsUsingOptimalSymbolSize@Barcode@DocumentDynamicContent@@QEBA_NXZ
+?RegenerateDynamicObjects@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@@Z
+?RemoveSources@DocumentDynamicContent@@YA?AV?$optional@VSources@DocumentDynamicContent@@@std@@AEAVDocument@ArtDoc@@@Z
+?SetAddSpaceBetweenParagraphs@AreaText@DocumentDynamicContent@@QEAAX_N@Z
+?SetInstanceID@Barcode@DocumentDynamicContent@@QEAAXH@Z
+?SetInterpretAsDecimal@Barcode@DocumentDynamicContent@@QEAAX_N@Z
+?SetPreserveParagraphs@AreaText@DocumentDynamicContent@@QEAAX_N@Z
+?SetSourceContent@Object@DocumentDynamicContent@@QEAAXV?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+?SetSourceID@Barcode@DocumentDynamicContent@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?SetSources@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@VSources@1@@Z
+?SetUseOptimalSymbolSize@Barcode@DocumentDynamicContent@@QEAAX_N@Z
+?SetUseOptimalSymbolSize@DocumentDynamicContent@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@_N@Z
+?UpdateSource@Sources@DocumentDynamicContent@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+?UpdateSourceFile@Sources@DocumentDynamicContent@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVpath@filesystem@boost@@@Z
+?UpdateXMLSource@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@5@@Z
+?UpdateXMLSource@DocumentDynamicContent@@YAXAEAVDocument@ArtDoc@@AEBVpath@filesystem@boost@@V?$optional@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+?ValidateBarcode@Barcode@DocumentDynamicContent@@AEAA_N_KAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+?getDescription@Object@DocumentDynamicContent@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?getFormulas@Object@DocumentDynamicContent@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+?getMarkType@AreaText@DocumentDynamicContent@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+?getMarkType@Barcode@DocumentDynamicContent@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+?getRefBoxes@Object@DocumentDynamicContent@@UEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+?getRefObjects@Object@DocumentDynamicContent@@UEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+?kModuleID@DynamicContentModule@DocumentDynamicContent@@2HB
+?regenerateMarkImp@AreaText@DocumentDynamicContent@@MEAAXXZ
+?regenerateMarkImp@Barcode@DocumentDynamicContent@@MEAAXXZ
+?RelinkAfterClone@DynamicObject@DocumentMarks@@UEBA_NXZ
+?postProcessMark@DynamicObject@DocumentMarks@@UEAAXXZ
+?postProcessClonedMark@DynamicObject@DocumentMarks@@UEAAXAEBVCloneStrategy@ArtDoc@@@Z
+?relinkDependentObject@DynamicObject@DocumentMarks@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@Z
+?moveMark@DynamicObject@DocumentMarks@@UEAAXAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+?parsePdfPropertiesDict@DynamicObject@DocumentMarks@@UEAA_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+?GetOrderedSourceColorSpace@DynamicObject@DocumentMarks@@UEBA?AV?$ColorList@UColorSpacePolicy@ArtColor@@@ArtColor@@XZ
+?setSourceColorants@DynamicObject@DocumentMarks@@UEAAXAEBV?$ColorList@UColorSpacePolicy@ArtColor@@@ArtColor@@@Z
+?DumpInfo@DynamicObject@DocumentMarks@@UEBA?AU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@XZ
+?UpdateMarkErrors@DynamicObject@DocumentMarks@@UEAAX_N@Z
+?ShouldUpdateOffsetOnReferenceOrAnchorChange@DynamicObject@DocumentMarks@@UEBA_NXZ
+?parsePdfPlusPropertiesDictImp@DynamicObject@DocumentMarks@@MEAA_NAEBVDictionary@ArtDoc@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+?updatePdfPropertiesDictImp@DynamicObject@DocumentMarks@@MEAAXAEAVDictionary@ArtDoc@@@Z
+?hasPositionRef@DynamicObject@DocumentMarks@@UEBA_NXZ
+?getPositionRefObject@DynamicObject@DocumentMarks@@UEBAPEAVContentObject@ArtDoc@@XZ
+?getPositionRefBBox@DynamicObject@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?setColorTypeImp@DynamicObject@DocumentMarks@@MEAAXXZ
+?SetTargetSeparationsImp@DynamicObject@DocumentMarks@@MEAAXW4PaintAttribute@2@@Z
+?colorPostProcessImp@DynamicObject@DocumentMarks@@MEAAXAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@0W4PaintAttribute@2@@Z
+?objectChangedByUserImp@DynamicObject@DocumentMarks@@MEAAXXZ
+?ReportNewFeaturesRemovedImp@DynamicObject@DocumentMarks@@MEAAXXZ
+?PDFPlusPostProcessMarkImp@DynamicObject@DocumentMarks@@MEAAXXZ
+?RemoveInvalidCustomFormulasImp@DynamicObject@DocumentMarks@@MEAA_NXZ
+?setColorType@DynamicObject@DocumentMarks@@QEAAXW4ColorType@MarkColor@2@W4PaintAttribute@2@@Z
+?linkMarkProperties@DynamicObject@DocumentMarks@@QEAAXXZ
+?setMarkDirty@DynamicObject@DocumentMarks@@QEAAXXZ
+?Create@MarksModule@DocumentMarks@@SA?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+?setReference@MarkPosition@DocumentMarks@@QEAAXW4Reference@12@_KAEBUProcessingStepLayer@2@@Z
+?getRefObjects@MarkPosition@DocumentMarks@@QEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+?getRefBoxes@MarkPosition@DocumentMarks@@QEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+??0DynamicObject@DocumentMarks@@QEAA@_NW4Flags@Group@ArtDoc@@@Z
+??1DynamicObject@DocumentMarks@@UEAA@XZ
+??0DynamicObject@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+?makeDynamic@DynamicObject@DocumentMarks@@QEAAXXZ
+?SetHasNewFeatures@DynamicObject@DocumentMarks@@QEAAX_N@Z
+DocumentMarks.dll
+?GetTextString@DocumentTypesetting@@YA_NAEBVGroup@ArtDoc@@AEBV?$optional@V?$vector@U?$Range@_K@DocumentTypesetting@@V?$allocator@U?$Range@_K@DocumentTypesetting@@@std@@@std@@@std@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@@Z
+?SetCharFeatures@DocumentTypesetting@@YAXAEAVGroup@ArtDoc@@AEBU?$Range@_K@1@AEBUCharFeatures@1@PEAU41@@Z
+?SetCaretLocation@DocumentTypesetting@@YAXAEAVGroup@ArtDoc@@AEBUCaretLocation@1@_N@Z
+?InsertTextAtCaret@DocumentTypesetting@@YA?AUCaretLocation@1@AEAVGroup@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVErrorReporter@Core@ArtSys@@PEAU?$Range@_K@1@@Z
+?ReplaceTextInRange@DocumentTypesetting@@YA?AUCaretLocation@1@AEAVGroup@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBU?$Range@_K@1@AEAVErrorReporter@Core@ArtSys@@PEAU71@@Z
+?GetCharRange@DocumentTypesetting@@YA?AU?$Range@_K@1@AEBVGroup@ArtDoc@@@Z
+?GetCharFeaturesMap@DocumentTypesetting@@YA?AV?$map@U?$Range@_K@DocumentTypesetting@@UCharFeatures@2@U?$less@U?$Range@_K@DocumentTypesetting@@@std@@V?$allocator@U?$pair@$$CBU?$Range@_K@DocumentTypesetting@@UCharFeatures@2@@std@@@5@@std@@AEBVGroup@ArtDoc@@@Z
+?GetParaFeaturesMap@DocumentTypesetting@@YA?AV?$map@U?$Range@_K@DocumentTypesetting@@UParagraphFeatures@2@U?$less@U?$Range@_K@DocumentTypesetting@@@std@@V?$allocator@U?$pair@$$CBU?$Range@_K@DocumentTypesetting@@UParagraphFeatures@2@@std@@@5@@std@@AEBVGroup@ArtDoc@@@Z
+?SetParaFeatures@DocumentTypesetting@@YA_NAEAVGroup@ArtDoc@@AEBU?$Range@_K@1@AEBUParagraphFeatures@1@W4SpacingBehaviorWhenChangingAlignment@1@@Z
+?Create@TypesettingModule@DocumentTypesetting@@SA?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+??1SpanReader@DocumentTypesetting@@UEAA@XZ
+??0SpanReader@DocumentTypesetting@@QEAA@XZ
+?SelectTexts@Direct@DocumentTypesetting@@YA?AV?$vector@_KV?$allocator@_K@std@@@std@@AEAVGroup@ArtDoc@@AEBU?$Range@_K@2@@Z
+?IsTypesettingGroup@DocumentTypesetting@@YA_NAEBVGroup@ArtDoc@@@Z
+?GetTypesettingGroup@DocumentTypesetting@@YAPEBVGroup@ArtDoc@@AEBVContentObject@3@@Z
+?GetTypesettingGroup@DocumentTypesetting@@YAPEAVGroup@ArtDoc@@AEAVContentObject@3@@Z
+?GetExternalProperties@DocumentTypesetting@@YA?AVany@boost@@AEBVGroup@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBU?$Range@_K@1@@Z
+?GetAllExternalPropertiesRanges@DocumentTypesetting@@YA?AV?$vector@U?$Range@_K@DocumentTypesetting@@V?$allocator@U?$Range@_K@DocumentTypesetting@@@std@@@std@@AEBVGroup@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+?SetExternalProperties@Direct@DocumentTypesetting@@YAXAEAVGroup@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBU?$Range@_K@2@Vany@boost@@@Z
+?GetTextCharRange@DocumentTypesetting@@YA?AU?$Range@_K@1@AEBVText@ArtDoc@@@Z
+?GetChildrenLocalCharRanges@DocumentTypesetting@@YA?AV?$vector@U?$pair@PEBVText@ArtDoc@@U?$Range@_K@DocumentTypesetting@@@std@@V?$allocator@U?$pair@PEBVText@ArtDoc@@U?$Range@_K@DocumentTypesetting@@@std@@@2@@std@@AEBVGroup@ArtDoc@@AEBU?$Range@_K@1@@Z
+DocumentTypesetting.dll
+?Clone@BarCode@DocumentBarCode@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+?GetParameters@BarCode@DocumentBarCode@@QEBAAEBVParameters@BarCodeWrapper@@XZ
+?SetCode@DocumentBarCode@@YAXAEAVBarCode@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?SetDecimalCode@DocumentBarCode@@YAXAEAVBarCode@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?SetCompositeComponent@DocumentBarCode@@YAXAEAVBarCode@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?AllowsCompositeComponent@DocumentBarCode@@YA_NAEBVBarCode@1@@Z
+?SetSupplementalDigits@DocumentBarCode@@YAXAEAVBarCode@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?SetSymbolSize@DocumentBarCode@@YAXAEAVBarCode@1@W4SymbolSize@AztecParameters@BarCodeWrapper@@@Z
+?SetUseOptimalSymbolSize@DocumentBarCode@@YAXAEAVBarCode@1@_N@Z
+?SetSymbolSize@DocumentBarCode@@YAXAEAVBarCode@1@W4SymbolSize@QRParameters@BarCodeWrapper@@@Z
+?SetSymbolSize@DocumentBarCode@@YAXAEAVBarCode@1@W4SymbolSize@MicroQRParameters@BarCodeWrapper@@@Z
+?Create@BarCodeModule@DocumentBarCode@@SA?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+DocumentBarCode.dll
+?Delete@DocumentEdit@@YAXAEAVContentObject@ArtDoc@@@Z
+?InsertNewObjectOnTop@DocumentEdit@@YAAEAVContentObject@ArtDoc@@PEAV23@AEAVGroup@3@_N@Z
+DocumentEdit.dll
+?GetContent@ContentObject@ArtDoc@@QEAAPEAVContent@2@XZ
+?GetErrorReporter@Document@ArtDoc@@QEBAAEAVErrorReporter@Core@ArtSys@@XZ
+??0CloneStrategy@ArtDoc@@QEAA@AEAVDocument@1@W4CloneFlags@01@@Z
+??1CloneStrategy@ArtDoc@@QEAA@XZ
+?GetDocument@Content@ArtDoc@@QEAAAEAVDocument@2@XZ
+?GetChildren@Content@ArtDoc@@QEAAAEAV?$List@VContentObject@ArtDoc@@@Detail@2@XZ
+?GetContent@FormPaint@ArtPaint@@QEBAAEAVContent@ArtDoc@@XZ
+?SetName@ContentObject@ArtDoc@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetName@ContentObject@ArtDoc@@UEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?IsClippingObject@ContentObject@ArtDoc@@UEBA_NXZ
+?OriginalOutlineChangedSelf@Transformable@ArtDoc@@MEAAXXZ
+?PropagateVisitorSelf@Group@ArtDoc@@UEBAXAEAVConstVisitorBase@2@@Z
+?PropagateVisitorSelf@Group@ArtDoc@@UEAAXAEAVVisitorBase@2@@Z
+?TransformationChangedSelf@Group@ArtDoc@@MEAAXAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4TransformationMode@2@@Z
+?ClippingObjectChangedSelf@Group@ArtDoc@@MEAAXXZ
+?GetBoundingBoxSelf@Group@ArtDoc@@MEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4BoxKind@2@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@4@@Z
+?ChildChangedSelf@Group@ArtDoc@@EEAAXAEAVContentObject@2@W4WhatChangedFlags@32@@Z
+?SetTransformation@Transformable@ArtDoc@@QEAAXAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4TransformationMode@2@@Z
+?GetTransformation@Transformable@ArtDoc@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetAbsoluteTransformation@ArtDoc@@YA?AV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEBVTransformable@1@@Z
+??1VisitorBase@ArtDoc@@UEAA@XZ
+??0VisitorBase@ArtDoc@@QEAA@XZ
+?DoAction@ActionList@ArtDoc@@AEAAPEBVAction@2@V?$unique_ptr@VAction@ArtDoc@@U?$default_delete@VAction@ArtDoc@@@std@@@std@@@Z
+?GetActionList@Action@ArtDoc@@AEAAAEAVActionList@2@XZ
+??0ContentAction@ArtDoc@@QEAA@AEAVContent@1@V?$Flags@W4Permission@Security@ArtDoc@@@Core@ArtSys@@@Z
+??1ContentAction@ArtDoc@@UEAA@XZ
+?InvalidateObject@ContentAction@ArtDoc@@QEAAXAEBVContentObject@2@W4WhatFlags@ContentChanges@2@@Z
+?PostActionSelf@ContentAction@ArtDoc@@UEBAXXZ
+?IsAllowed@ContentAction@ArtDoc@@UEBA_NXZ
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVTextGroup@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVLayer@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVGroup@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVImageMask@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVText@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPath@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVStrokable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVFillable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVImage@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVBlendable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVClippable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVTransformable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVContentObject@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPageContent@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVContent@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPage@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPart@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVParts@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVDocument@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVTextGroup@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVLayer@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVGroup@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVImageMask@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVText@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPath@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVStrokable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVFillable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVImage@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVBlendable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVClippable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVTransformable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVContentObject@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPageContent@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVContent@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPage@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPart@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVParts@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVDocument@2@@Z
+?GetResourceManager@Document@ArtDoc@@QEBAAEAVResourceManager@2@XZ
+?GetFontManager@ResourceManager@ArtDoc@@QEAAAEAVFontManager@ArtFont@@XZ
+?GetID@Font@ArtFont@@QEBA?AUID@2@XZ
+?GetFont@FontManager@ArtFont@@QEAA?AV?$shared_ptr@$$CBVFont@ArtFont@@@std@@UID@2@@Z
+?GetFamilyName@Font@ArtFont@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetStyleName@Font@ArtFont@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+??0FontInfo@ArtFont@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z
+??0FontInfo@ArtFont@@QEAA@AEBV01@@Z
+??4FontInfo@ArtFont@@QEAAAEAV01@AEBV01@@Z
+??0FontInfo@ArtFont@@QEAA@$$QEAV01@@Z
+??1FontInfo@ArtFont@@QEAA@XZ
+?GetFontID@FontInfo@ArtFont@@QEBA?AUID@2@XZ
+?GetPostScriptName@FontInfo@ArtFont@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetFamily@FontInfo@ArtFont@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetStyle@FontInfo@ArtFont@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetRegisteredFonts@FontInfoManager@ArtFont@@YAAEBV?$vector@VFontInfo@ArtFont@@V?$allocator@VFontInfo@ArtFont@@@std@@@std@@XZ
+?GetOrCreateFont@FontManager@ArtFont@@QEAA?AV?$shared_ptr@$$CBVFont@ArtFont@@@std@@UID@2@W4WritingMode@2@@Z
+??1Module@ArtDoc@@UEAA@XZ
+?RegisterDocumentPieceInfoReader@ArtDoc@@YA_KAEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@V?$function@$$A6AXAEAVDocument@ArtDoc@@AEBVGADict@@@Z@3@@Z
+?RegisterDocumentPieceInfoWriter@ArtDoc@@YA_KV?$function@$$A6A_NAEBVDocument@ArtDoc@@@Z@std@@AEBV?$basic_string_view@DU?$char_traits@D@std@@@3@V?$function@$$A6AXAEAVGADict@@AEBVDocument@ArtDoc@@@Z@3@@Z
+??0Module@ArtDoc@@QEAA@XZ
+?RegisterModule@ArtDoc@@YA_NHV?$function@$$A6A?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ@std@@@Z
+?FindModule@ArtDoc@@YAPEAVModule@1@H@Z
+?GetProperties@Document@ArtDoc@@QEAAAEAVProperties@2@XZ
+?GetProperties@Document@ArtDoc@@QEBAAEBVProperties@2@XZ
+?ContentChangedSelf@Group@ArtDoc@@MEAAXPEAVContent@2@0@Z
+?GetDocument@Content@ArtDoc@@QEBAAEBVDocument@2@XZ
+?Cache@Content@ArtDoc@@QEBAXXZ
+?GetDocument@CloneStrategy@ArtDoc@@QEBAAEAVDocument@2@XZ
+?GetFlags@CloneStrategy@ArtDoc@@QEBA?AW4CloneFlags@12@XZ
+??0Factory@FormPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@V?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+??1Factory@FormPaint@ArtPaint@@QEAA@XZ
+?Get@Factory@FormPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@XZ
+?Erase@Properties@ArtDoc@@QEAA_KAEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@@Z
+??1ConstVisitorBase@ArtDoc@@UEAA@XZ
+??0ConstVisitorBase@ArtDoc@@QEAA@XZ
+?GetContent@ContentObject@ArtDoc@@QEBAPEBVContent@2@XZ
+?GetParent@ContentObject@ArtDoc@@QEAAPEAVGroup@2@XZ
+?GetProperties@ContentObject@ArtDoc@@QEAAAEAVProperties@2@XZ
+?GetType@Content@ArtDoc@@QEBA?AW4Type@12@XZ
+?GetChildren@Content@ArtDoc@@QEBAAEBV?$List@VContentObject@ArtDoc@@@Detail@2@XZ
+?GetProperties@Content@ArtDoc@@QEBAAEBVPropertiesWithNotification@2@XZ
+?GetBoundingBox@ArtDoc@@YA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEBVContent@1@W4BoxKind@1@@Z
+??0MarkReader@ArtDoc@@QEAA@AEBVGAObject@@@Z
+??1MarkReader@ArtDoc@@UEAA@XZ
+?GetProperties@MarkReader@ArtDoc@@IEBA?AVGADict@@XZ
+??0MarkWriter@ArtDoc@@QEAA@XZ
+??1MarkWriter@ArtDoc@@UEAA@XZ
+??1PieceInfoWriter@ArtDoc@@UEAA@XZ
+??0PieceInfoWriter@ArtDoc@@QEAA@XZ
+?RegisterMarkReader@ArtDoc@@YA_KAEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@V?$function@$$A6A?AV?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@5@@Z@3@@Z
+?RegisterPieceInfoReader@ArtDoc@@YA_KAEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@V?$function@$$A6A?AV?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAVDocument@ArtDoc@@AEAVReadContext@7@@Z@3@@Z
+?RegisterContentPostReader@ArtDoc@@YA_KV?$function@$$A6AXAEAVContent@ArtDoc@@AEBVPostReadContext@2@@Z@std@@@Z
+??0Group@ArtDoc@@QEAA@W4Flags@01@@Z
+??1Group@ArtDoc@@UEAA@XZ
+?MapURIToPath@ArtDoc@@YA?AV?$optional@Vpath@filesystem@boost@@@std@@PEBVDocument@1@AEBVuri@5network@boost@@_N@Z
+?RegisterPropertyMarkWriter@ArtDoc@@YA_KV?$function@$$A6A_NAEBVTextGroup@ArtDoc@@AEBVWriteContext@2@@Z@std@@V?$function@$$A6A?AV?$vector@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@V?$allocator@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@@2@@std@@AEBVTextGroup@ArtDoc@@AEAVWriteContext@4@@Z@3@@Z
+?RegisterPieceInfoWriter@ArtDoc@@YA_KV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@std@@V?$function@$$A6A?AV?$unique_ptr@$$CBVPieceInfoWriter@ArtDoc@@U?$default_delete@$$CBVPieceInfoWriter@ArtDoc@@@std@@@std@@AEBVContentObject@ArtDoc@@AEAVWriteContext@4@@Z@3@@Z
+?UTF8String@PDFConverters@ArtDocGlue@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGAName@@@Z
+?UTF8String@PDFConverters@ArtDocGlue@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGAString@@_N@Z
+?ToGString@PDFConverters@ArtDocGlue@@YA?AVGString@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetFormBBox@FormPaint@ArtPaint@@QEBAAEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?SetFormBBox@Factory@FormPaint@ArtPaint@@QEAAAEAV123@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+?ReadURI@ArtDocUtils@@YA?AV?$tuple@Vuri@1network@boost@@V1123@_N@std@@AEBVDocument@ArtDoc@@AEBVGADict@@AEBVuri@7network@boost@@@Z
+?WriteURI@ArtDocUtils@@YAXAEBVDocument@ArtDoc@@AEAVGADict@@AEBVuri@5network@boost@@2AEBVpath@filesystem@7@@Z
+?WriteStamps@ArtDocUtils@@YAXAEAVGADict@@AEBV?$optional@Vptime@posix_time@boost@@@std@@AEBV?$optional@_K@4@AEBV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@4@2@Z
+?ReadStamps@ArtDocUtils@@YAXAEBVGADict@@AEAV?$optional@Vptime@posix_time@boost@@@std@@AEAV?$optional@_K@4@AEAV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@4@2@Z
+?GetFilePath@Document@ArtDoc@@QEBAAEBVpath@filesystem@boost@@XZ
+?GetInfoFlag@Document@ArtDoc@@QEBA_NW4DocumentInfoFlagKey@2@@Z
+?Accept@Group@ArtDoc@@UEAAXAEAVVisitorBase@2@@Z
+?Accept@Group@ArtDoc@@UEBAXAEAVConstVisitorBase@2@@Z
+?CreateGroup@MarkReader@ArtDoc@@UEAA?AV?$unique_ptr@VGroup@ArtDoc@@U?$default_delete@VGroup@ArtDoc@@@std@@@std@@XZ
+?PostProcessGroup@MarkReader@ArtDoc@@UEAAXAEAVGroup@2@@Z
+?PostProcessObject@MarkReader@ArtDoc@@UEAAXAEAVContentObject@2@@Z
+?ShouldFormBeReusable@MarkReader@ArtDoc@@UEAA?AVtribool@logic@boost@@XZ
+?GetDownsampleResolution@PieceInfoWriter@ArtDoc@@UEBA?AV?$optional@N@std@@XZ
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVTextGroup@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVLayer@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVText@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVImageMask@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVPath@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVStrokable@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVFillable@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVImage@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVBlendable@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVClippable@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVTransformable@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVContentObject@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVPageContent@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVContent@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVPage@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVPart@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVParts@2@@Z
+?Visit@ConstVisitorBase@ArtDoc@@UEAA_NAEBVDocument@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVTextGroup@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVLayer@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVGroup@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVText@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVImageMask@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVPath@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVStrokable@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVFillable@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVImage@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVBlendable@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVClippable@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVTransformable@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVContentObject@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVPageContent@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVContent@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVPage@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVPart@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVParts@2@@Z
+?EndVisit@ConstVisitorBase@ArtDoc@@UEAAXAEBVDocument@2@@Z
+?Clone@Group@ArtDoc@@UEBAPEAV12@AEAVCloneStrategy@2@@Z
+?DumpInfo@Group@ArtDoc@@UEBA?AU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@XZ
+?kUserScaling@Content@ArtDoc@@2V?$basic_string_view@DU?$char_traits@D@std@@@std@@B
+?GetVariableContextForDocument@ArtDoc@@YAHAEBVDocument@1@@Z
+?GetFilePathForVariableContext@ArtDoc@@YA?AV?$optional@Vpath@filesystem@boost@@@std@@H@Z
+?GetContent@Page@ArtDoc@@QEAAAEAVPageContent@2@XZ
+?GetPagesBegin@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@XZ
+?GetPagesEnd@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@XZ
+??0ActionGroupCreator@ArtDoc@@QEAA@AEAVDocument@1@_N1@Z
+??1ActionGroupCreator@ArtDoc@@QEAA@XZ
+??0DocumentAction@ArtDoc@@QEAA@AEAVDocument@1@V?$Flags@W4Permission@Security@ArtDoc@@@Core@ArtSys@@@Z
+??1DocumentAction@ArtDoc@@UEAA@XZ
+?GetDocument@DocumentAction@ArtDoc@@QEBAAEAVDocument@2@XZ
+?GetObjectWithID@Content@ArtDoc@@QEBAPEAVContentObject@2@_K@Z
+?PostActionSelf@Action@ArtDoc@@MEBAXXZ
+?IsAllowed@DocumentAction@ArtDoc@@UEBA_NXZ
+?CalculateMD5Hash@ArtDocUtils@@YA?AV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@AEBVpath@filesystem@boost@@@Z
+?GetID@ContentObject@ArtDoc@@QEBA_KXZ
+Document.dll
+?GetType@Parameters@BarCodeWrapper@@QEBA?AW4Type@2@XZ
+BarCodeWrapper.dll
+??1ErrorReporter@Core@ArtSys@@UEAA@XZ
+??0ErrorReporter@Core@ArtSys@@QEAA@XZ
+ArtSys.dll
+??1GAObject@@QEAA@XZ
+?GetPersistenceType@GAObject@@QEBA?AW4GAPersistenceType@GAPersistentObject@@XZ
+?GetDoc@GAObject@@QEBA?AVGADoc@@XZ
+?IsDict@GAObject@@QEBA_NXZ
+??0GADict@@QEAA@AEBVGADoc@@W4GAPersistenceType@GAPersistentObject@@@Z
+??0GADict@@QEAA@AEBV0@@Z
+??4GADict@@QEAAAEAV0@AEBV0@@Z
+?Cast@GADict@@SA?AV1@AEBVGAObject@@@Z
+?Put@GADict@@QEAAXAEBVGName@@AEBVGAObject@@@Z
+?Has@GADict@@QEBA_NAEBVGName@@@Z
+?GetBool@GADict@@QEBA?AVGABool@@AEBVGName@@@Z
+?GetNumber@GADict@@QEBA?AVGANumber@@AEBVGName@@@Z
+?GetName@GADict@@QEBA?AVGAName@@AEBVGName@@@Z
+?GetString@GADict@@QEBA?AVGAString@@AEBVGName@@@Z
+?GetArray@GADict@@QEBA?AVGAArray@@AEBVGName@@@Z
+?GetDict@GADict@@QEBA?AV1@AEBVGName@@@Z
+?GetStream@GADict@@QEBA?AVGAStream@@AEBVGName@@@Z
+??1GADict@@QEAA@XZ
+??0GAArray@@QEAA@AEBVGADoc@@W4GAPersistenceType@GAPersistentObject@@@Z
+?Add@GAArray@@QEAAXAEBVGAObject@@@Z
+?GetLength@GAArray@@QEBAJXZ
+?GetDict@GAArray@@QEBA?AVGADict@@J@Z
+??1GAArray@@QEAA@XZ
+??0GABool@@QEAA@AEBVGADoc@@_NW4GAPersistenceType@GAPersistentObject@@@Z
+?Get@GABool@@QEBA_NXZ
+??1GABool@@QEAA@XZ
+?DelayedUpdateLastModified@GADoc@@QEAAXAEBVGADict@@AEBVGName@@@Z
+??1GADoc@@QEAA@XZ
+??0GAFilter@@QEAA@AEBV0@@Z
+??1GAFilter@@QEAA@XZ
+??0GAFlateFilter@@QEAA@JJJJ@Z
+??1GAFlateFilter@@QEAA@XZ
+??0GAName@@QEAA@AEBVGADoc@@AEBVGBuffer@@W4GAPersistenceType@GAPersistentObject@@@Z
+??1GAName@@QEAA@XZ
+??0GANumber@@QEAA@AEBVGADoc@@NW4GAPersistenceType@GAPersistentObject@@@Z
+?Get@GANumber@@QEBANXZ
+??1GANumber@@QEAA@XZ
+??0GAStream@@QEAA@AEBVGADoc@@AEAVGADict@@AEBVGBuffer@@AEBV?$GTable@VGAFilter@@@@_N@Z
+?Get@GAStream@@QEBAXAEAVGBuffer@@@Z
+??1GAStream@@QEAA@XZ
+??0GAString@@QEAA@AEBVGADoc@@AEBVGBuffer@@W4GAPersistenceType@GAPersistentObject@@@Z
+??0GAString@@QEAA@AEBVGADoc@@AEBVGString@@W4GAPersistenceType@GAPersistentObject@@@Z
+??1GAString@@QEAA@XZ
+??0GADictIterator@@QEAA@AEBVGADict@@@Z
+??1GADictIterator@@QEAA@XZ
+?NextKey@GADictIterator@@QEAA_NAEAVGName@@@Z
+PDFAccessLayer.dll
+?GetInstance@GAllocator@@SAAEAV1@XZ
+?Alloc@GAllocator@@QEAAPEAX_K@Z
+?Free@GAllocator@@QEAAXPEAX_K@Z
+??0GBuffer@@QEAA@XZ
+??0GBuffer@@QEAA@PEBD@Z
+??1GBuffer@@QEAA@XZ
+??1GString@@QEAA@XZ
+??0GName@@QEAA@PEBD@Z
+?ToGBuffer@GStdSupport@@YA?AVGBuffer@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?ToStdString@GStdSupport@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGBuffer@@@Z
+?GetPtr@GBuffer@@QEBAPEBEXZ
+BasicFrameworkCoreLayer.dll
+?ToURI@ExtraBoostFilesystem@@YA?AVuri@2network@boost@@AEBVpath@filesystem@4@@Z
+?ToFileURI@ExtraBoostFilesystem@@YA?AVuri@2network@boost@@AEBVpath@filesystem@4@@Z
+ExtraBoostFilesystem.dll
+?file_size@detail@filesystem@boost@@YA_KAEBVpath@23@PEAVerror_code@system@3@@Z
+?last_write_time@detail@filesystem@boost@@YA_JAEBVpath@23@PEAVerror_code@system@3@@Z
+boost_filesystem.dll
+WS2_32.dll
+??0MemBufInputSource@xercesc_3_2@@QEAA@QEBE_KQEB_W_NQEAVMemoryManager@1@@Z
+??1MemBufInputSource@xercesc_3_2@@UEAA@XZ
+?adoptDocument@AbstractDOMParser@xercesc_3_2@@QEAAPEAVDOMDocument@2@XZ
+?parse@AbstractDOMParser@xercesc_3_2@@QEAAXAEBVInputSource@2@@Z
+??0XercesDOMParser@xercesc_3_2@@QEAA@QEAVXMLValidator@1@QEAVMemoryManager@1@QEAVXMLGrammarPool@1@@Z
+??1XercesDOMParser@xercesc_3_2@@UEAA@XZ
+?fgMemoryManager@XMLPlatformUtils@xercesc_3_2@@2PEAVMemoryManager@2@EA
+?get@?$ArrayJanitor@E@xercesc_3_2@@QEBAPEAEXZ
+?get@?$ArrayJanitor@_W@xercesc_3_2@@QEBAPEA_WXZ
+??0TranscodeToStr@xercesc_3_2@@QEAA@PEB_WPEBDPEAVMemoryManager@1@@Z
+??1TranscodeToStr@xercesc_3_2@@QEAA@XZ
+??0TranscodeFromStr@xercesc_3_2@@QEAA@PEBE_KPEBDPEAVMemoryManager@1@@Z
+??1TranscodeFromStr@xercesc_3_2@@QEAA@XZ
+XercesC.dll
+FormatMessageA
+FormatMessageW
+WideCharToMultiByte
+LocalFree
+KERNEL32.dll
+?_Xbad_alloc@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xout_of_range@std@@YAXPEBD@Z
+??Bios_base@std@@QEBA_NXZ
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z
+?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+??0_Lockit@std@@QEAA@H@Z
+??1_Lockit@std@@QEAA@XZ
+??Bid@locale@std@@QEAA_KXZ
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+??7ios_base@std@@QEBA_NXZ
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ
+?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z
+?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+MSVCP140.dll
+_purecall
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+__CxxFrameHandler4
+__RTDynamicCast
+__std_type_info_compare
+__current_exception
+__current_exception_context
+__C_specific_handler
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+__stdio_common_vsprintf
+_get_stream_buffer_pointers
+_fseeki64
+_lock_file
+_unlock_file
+isxdigit
+terminate
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+IsDebuggerPresent
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsProcessorFeaturePresent
+GetCurrentProcess
+TerminateProcess
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVruntime_error@std@@
+.?AVinvalid_utf8@utf8@@
+.?AVnot_enough_room@utf8@@
+.?AVContentObject@ArtDoc@@
+.?AVGroup@ArtDoc@@
+.?AVclone_base@exception_detail@boost@@
+.?AVexception@boost@@
+.?AVinvalid_code_point@utf8@@
+.?AVexception@utf8@@
+.?AVConstVisitorBase@ArtDoc@@
+.?AVVisitorBase@ArtDoc@@
+.?AV?$ConstVisitor@VAreaText@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$Visitor@VAreaText@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$ConstVisitor@VObject@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$Visitor@VObject@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$ConstVisitor@VDynamicObject@DocumentMarks@@@ArtDoc@@
+.?AV?$Visitor@VDynamicObject@DocumentMarks@@@ArtDoc@@
+.?AV?$ConstVisitor@VBarcode@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$Visitor@VBarcode@DocumentDynamicContent@@@ArtDoc@@
+.P8Barcode@DocumentDynamicContent@@EBA_NXZ
+.P8Barcode@DocumentDynamicContent@@EAAX_N@Z
+.?AV<lambda_1>@?1???0?$ObjectAction@VBarcode@DocumentDynamicContent@@_N@Private@DocumentDynamicContent@@QEAA@AEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@_NAEBV?$function@$$A6AXAEAVBarcode@DocumentDynamicContent@@AEB_N@Z@7@AEBV?$function@$$A6A_NAEBVBarcode@DocumentDynamicContent@@@Z@7@@Z@
+.?AVbad_optional_access@std@@
+.P6AXAEAVGADict@@AEBVDocument@ArtDoc@@@Z
+.P6A_NAEBVDocument@ArtDoc@@@Z
+.P6AXAEAVDocument@ArtDoc@@AEBVGADict@@@Z
+.P6A?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+.?AVexception@container@boost@@
+.?AVlength_error@container@boost@@
+.?AV?$shared_ptr@V?$vector@PEAVObject@DocumentDynamicContent@@V?$allocator@PEAVObject@DocumentDynamicContent@@@std@@@std@@@std@@
+.?AVbad_cast@std@@
+.?AVParameters@BarCodeWrapper@@
+.?AVCellular@BarCodeWrapper@@
+.?AVBarCode@DocumentBarCode@@
+.?AVTypesettingGroup@DocumentTypesetting@@
+.?AVTextGroup@ArtDoc@@
+.?AVText@ArtDoc@@
+.P6AXAEAVContent@ArtDoc@@AEBVPostReadContext@1@@Z
+.?AV<lambda_3>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@
+.?AV<lambda_2>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@
+.?AV<lambda_1>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@
+.P6A?AV?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAVDocument@ArtDoc@@AEAVReadContext@6@@Z
+.P6A?AV?$unique_ptr@VPieceInfoWriter@ArtDoc@@U?$default_delete@VPieceInfoWriter@ArtDoc@@@std@@@std@@AEBVContentObject@ArtDoc@@AEAVWriteContext@3@@Z
+.P6A_NAEBVContentObject@ArtDoc@@@Z
+.?AV<lambda_1>@?4??PostProcessObject@DCContentReader@@UEAAXAEAVContentObject@ArtDoc@@@Z@
+.?AV<lambda_2>@?1??PostProcessContent@VariableReader@@SAXAEAVContent@ArtDoc@@AEBVPostReadContext@4@@Z@
+.?AV<lambda_1>@?1??PostProcessContent@VariableReader@@SAXAEAVContent@ArtDoc@@AEBVPostReadContext@4@@Z@
+.?AU?$wrapexcept@Vbad_any_cast@boost@@@boost@@
+.?AVbad_any_cast@boost@@
+.?AUTextStatement@DocumentDynamicContent@@
+.P6A?AV?$unique_ptr@VSpanReader@DocumentTypesetting@@U?$default_delete@VSpanReader@DocumentTypesetting@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@4@@Z
+.?AV?$vector@U?$pair@V?$vector@PEAVText@ArtDoc@@V?$allocator@PEAVText@ArtDoc@@@std@@@std@@UTextStatement@DocumentDynamicContent@@@std@@V?$allocator@U?$pair@V?$vector@PEAVText@ArtDoc@@V?$allocator@PEAVText@ArtDoc@@@std@@@std@@UTextStatement@DocumentDynamicContent@@@std@@@2@@std@@
+.?AU?$wrapexcept@Ubad_day_of_month@gregorian@boost@@@boost@@
+.?AUbad_day_of_month@gregorian@boost@@
+.?AVout_of_range@std@@
+.?AVlogic_error@std@@
+.?AV?$shared_ptr@VSources@DocumentDynamicContent@@@std@@
+.?AV?$shared_ptr@VXMLSources@DocumentDynamicContent@@@std@@
+.?AU?$wrapexcept@Vbad_function_call@boost@@@boost@@
+.?AVbad_function_call@boost@@
+.?AU?$parser_binder@U?$sequence@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AU?$hierarchical_part@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@detail@uri@network@boost@@XZUunused_type@spirit@7@U897@U897@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$optional@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$optional@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$alternative@U?$cons@U?$sequence@U?$cons@U?$alternative@U?$cons@U?$sequence@U?$cons@U?$literal_string@AEAY02$$CBD$00@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$cons@U?$literal_string@AEAY02$$CBD$00@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$optional@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$cons@U?$sequence@U?$cons@U?$attr_parser@$$CBV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@@qi@spirit@boost@@U?$cons@U?$attr_parser@$$CBV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@@qi@spirit@boost@@U?$cons@U?$attr_parser@$$CBV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@@qi@spirit@boost@@U?$cons@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$iterator_range@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@boost@@XZUunused_type@spirit@4@U564@U564@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$char_set@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$char_class@U?$char_code@Udigit@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$sequence@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$repeat_parser@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$exact_iterator@H@234@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$sequence@U?$cons@U?$not_predicate@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$char_class@U?$char_code@Udigit@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$raw_directive@U?$any_uint_parser@E$09$00$02@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$repeat_parser@U?$char_class@U?$char_code@Uxdigit@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@U?$finite_iterator@H@234@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$alternative@U?$cons@U?$sequence@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.??@fd0dbf856aad71aabfc4aa51d9f4aad5@
+.??@3b9fb14ba1a08737e9f35be76d7a629a@
+.??@17105a699f78584ffc65a7b0f1ea10a1@
+.??@ad5a66af0aefd38a2b01efca19be3af7@
+.?AU?$parser_binder@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$plus@U?$char_class@U?$char_code@Uxdigit@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$plus@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@U?$cons@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$00$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$sequence@U?$cons@U?$char_class@U?$char_code@Ualpha@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$kleene@U?$alternative@U?$cons@U?$char_class@U?$char_code@Ualnum@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$char_set@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@Ueps_parser@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$sequence@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$kleene@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$cons@U?$optional@U?$sequence@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$kleene@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$plus@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$plus@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$kleene@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$raw_directive@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZUunused_type@spirit@boost@@U456@U456@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$char_set@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$sequence@U?$cons@U?$literal_char@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$cons@U?$repeat_parser@U?$char_class@U?$char_code@Uxdigit@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@U?$exact_iterator@H@234@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$alternative@U?$cons@U?$char_class@U?$char_code@Ualnum@tag@spirit@boost@@Ustandard@char_encoding@34@@tag@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$char_set@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$alternative@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@U?$cons@U?$reference@$$CBU?$rule@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$$A6ADXZUunused_type@spirit@boost@@U345@U345@@qi@spirit@boost@@@qi@spirit@boost@@Unil_@fusion@4@@fusion@4@@fusion@boost@@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AU?$parser_binder@U?$char_set@Ustandard@char_encoding@spirit@boost@@$0A@$0A@@qi@spirit@boost@@U?$bool_@$00@mpl@4@@detail@qi@spirit@boost@@
+.?AV_Ref_count_base@std@@
+.?AVerror_category@system@boost@@
+.?AVsystem_error_category@detail@system@boost@@
+.?AVAreaTextErrorReporter@DocumentDynamicContent@@
+.?AVErrorReporter@Core@ArtSys@@
+.?AVAreaText@DocumentDynamicContent@@
+.?AVObject@DocumentDynamicContent@@
+.?AVDynamicObject@DocumentMarks@@
+.?AVBlendable@ArtDoc@@
+.?AVClippable@ArtDoc@@
+.?AVTransformable@ArtDoc@@
+.?AV?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@
+.?AVVisitable@ArtDoc@@
+.?AVmisc_category@detail@error@asio@boost@@
+.?AV?$_Ref_count@VError@Core@ArtSys@@@std@@
+.?AVBarcode@DocumentDynamicContent@@
+.?AV?$_Func_base@XAEAVBarcode@DocumentDynamicContent@@AEB_N@std@@
+.?AV?$_Func_base@_NAEBVBarcode@DocumentDynamicContent@@@std@@
+.?AV?$ObjectAction@VBarcode@DocumentDynamicContent@@_N@Private@DocumentDynamicContent@@
+.?AVContentAction@ArtDoc@@
+.?AVAction@ArtDoc@@
+.?AV?$_Func_impl_no_alloc@P8Barcode@DocumentDynamicContent@@EAAX_N@ZXAEAV12@AEB_N@std@@
+.?AV?$_Func_impl_no_alloc@P8Barcode@DocumentDynamicContent@@EBA_NXZ_NAEBV12@@std@@
+.?AV?$SimpleVisitor@VBarcode@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$SimpleVisitorBase@VBarcode@DocumentDynamicContent@@$0A@$0A@@ArtDoc@@
+.?AV?$_Func_base@_NAEAVBarcode@DocumentDynamicContent@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???0?$ObjectAction@VBarcode@DocumentDynamicContent@@_N@Private@DocumentDynamicContent@@QEAA@AEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@_NAEBV?$function@$$A6AXAEAVBarcode@DocumentDynamicContent@@AEB_N@Z@8@AEBV?$function@$$A6A_NAEBVBarcode@DocumentDynamicContent@@@Z@8@@Z@_NAEAVBarcode@4@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AVios_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AVDynamicContentModule@DocumentDynamicContent@@
+.?AVModule@ArtDoc@@
+.?AV?$_Func_base@V?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@$$V@std@@
+.?AV?$_Func_base@XAEAVDocument@ArtDoc@@AEBVGADict@@@std@@
+.?AV?$_Func_base@_NAEBVDocument@ArtDoc@@@std@@
+.?AV?$_Func_base@XAEAVGADict@@AEBVDocument@ArtDoc@@@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZV12@$$V@std@@
+.?AV?$_Func_impl_no_alloc@P6AXAEAVDocument@ArtDoc@@AEBVGADict@@@ZXAEAV12@AEBV3@@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBVDocument@ArtDoc@@@Z_NAEBV12@@std@@
+.?AV?$_Func_impl_no_alloc@P6AXAEAVGADict@@AEBVDocument@ArtDoc@@@ZXAEAV1@AEBV23@@std@@
+.?AV?$_Ref_count_obj2@V?$vector@PEAVObject@DocumentDynamicContent@@V?$allocator@PEAVObject@DocumentDynamicContent@@@std@@@std@@@std@@
+.?AVplaceholder@detail@anys@boost@@
+.?AVplaceholder@any@boost@@
+.?AVPDFPlusDynamicContentMetadataWriter@?A0x99a57280@@
+.?AVPDFPlusObjectWriter@?A0x99a57280@@
+.?AVPieceInfoWriter@ArtDoc@@
+.?AVDynamicObjectLinker@?A0x99a57280@@
+.?AVPDFPlusObjectReader@?A0x99a57280@@
+.?AVMarkReader@ArtDoc@@
+.?AVTextStatementWriter@@
+.?AVMarkWriter@ArtDoc@@
+.?AVVariableReader@@
+.?AVSpanReader@DocumentTypesetting@@
+.?AV?$SimpleVisitor@VTextGroup@ArtDoc@@@ArtDoc@@
+.?AV?$SimpleVisitorBase@VTextGroup@ArtDoc@@$00$0A@@ArtDoc@@
+.?AV?$_Func_base@_NAEAVTextGroup@ArtDoc@@@std@@
+.?AV?$SimpleVisitor@VAreaText@DocumentDynamicContent@@@ArtDoc@@
+.?AV?$SimpleVisitorBase@VAreaText@DocumentDynamicContent@@$0A@$0A@@ArtDoc@@
+.?AV?$_Func_base@_NAEAVAreaText@DocumentDynamicContent@@@std@@
+.?AVDCContentReader@@
+.?AV?$_Func_base@V?$unique_ptr@VSpanReader@DocumentTypesetting@@U?$default_delete@VSpanReader@DocumentTypesetting@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@5@@std@@
+.?AV?$SimpleVisitor@VText@ArtDoc@@@ArtDoc@@
+.?AV?$SimpleVisitorBase@VText@ArtDoc@@$00$0A@@ArtDoc@@
+.?AV?$_Func_base@_NAEAVText@ArtDoc@@@std@@
+.?AV?$_Func_base@_NAEBVContentObject@ArtDoc@@@std@@
+.?AV?$_Func_base@V?$unique_ptr@$$CBVPieceInfoWriter@ArtDoc@@U?$default_delete@$$CBVPieceInfoWriter@ArtDoc@@@std@@@std@@AEBVContentObject@ArtDoc@@AEAVWriteContext@4@@std@@
+.?AV?$_Func_base@V?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAVDocument@ArtDoc@@AEAVReadContext@7@@std@@
+.?AV?$_Func_base@_NAEBVTextGroup@ArtDoc@@AEBVWriteContext@2@@std@@
+.?AV?$_Func_base@V?$vector@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@V?$allocator@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@@2@@std@@AEBVTextGroup@ArtDoc@@AEAVWriteContext@4@@std@@
+.?AV?$_Func_base@V?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@5@@std@@
+.?AV?$_Func_base@XAEAVContent@ArtDoc@@AEBVPostReadContext@2@@std@@
+.?AV?$holder@UTextStatement@DocumentDynamicContent@@@any@boost@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??PostProcessContent@VariableReader@@SAXAEAVContent@ArtDoc@@AEBVPostReadContext@5@@Z@_NAEAVTextGroup@5@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??PostProcessContent@VariableReader@@SAXAEAVContent@ArtDoc@@AEBVPostReadContext@5@@Z@_NAEAVAreaText@DocumentDynamicContent@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PostProcessObject@DCContentReader@@UEAAXAEAVContentObject@ArtDoc@@@Z@_NAEAVText@5@@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBVContentObject@ArtDoc@@@Z_NAEBV12@@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$unique_ptr@VPieceInfoWriter@ArtDoc@@U?$default_delete@VPieceInfoWriter@ArtDoc@@@std@@@std@@AEBVContentObject@ArtDoc@@AEAVWriteContext@4@@ZV?$unique_ptr@$$CBVPieceInfoWriter@ArtDoc@@U?$default_delete@$$CBVPieceInfoWriter@ArtDoc@@@std@@@2@AEBV34@AEAV54@@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAVDocument@ArtDoc@@AEAVReadContext@7@@ZV12@AEBV3@AEBV45@AEAV67@AEAV87@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@_NAEBVTextGroup@ArtDoc@@AEBVWriteContext@5@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@V?$vector@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@V?$allocator@V?$tuple@_K_KV?$unique_ptr@$$CBVMarkWriter@ArtDoc@@U?$default_delete@$$CBVMarkWriter@ArtDoc@@@std@@@std@@@std@@@2@@std@@AEBVTextGroup@ArtDoc@@AEAVWriteContext@7@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??InstallPDFPlusObjectIO@DocumentDynamicContent@@YAXXZ@V?$unique_ptr@VMarkReader@ArtDoc@@U?$default_delete@VMarkReader@ArtDoc@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@8@@std@@
+.?AV?$_Func_impl_no_alloc@P6AXAEAVContent@ArtDoc@@AEBVPostReadContext@2@@ZXAEAV12@AEBV32@@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$unique_ptr@VSpanReader@DocumentTypesetting@@U?$default_delete@VSpanReader@DocumentTypesetting@@@std@@@std@@AEBVGAObject@@AEAVDocument@ArtDoc@@AEAVReadContext@5@@ZV12@AEBV3@AEAV45@AEAV65@@std@@
+.?AVRegenerateAction@?A0x9c18433b@@
+.?AVDocumentAction@ArtDoc@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@filesystem@boost@@
+.?AV?$_Ref_count_obj2@VSources@DocumentDynamicContent@@@std@@
+.?AVUpdateXMLSourceAction@?A0x7ad14d20@@
+.?AVAutolinkAction@?A0x7ad14d20@@
+.?AVXMLSource@DocumentDynamicContent@@
+.?AVXMLSourceImpl@DocumentDynamicContent@@
+.?AV?$_Ref_count_obj2@VXMLSources@DocumentDynamicContent@@@std@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0W1
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+240916000000Z
+270916235959Z0
+08860479831
+Private Organization1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+:http://crl.sectigo.com/SectigoPublicCodeSigningCAEVR36.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningCAEVR36.crt0#
+http://ocsp.sectigo.com0(
+BE-08860479830
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+240926000000Z
+351125235959Z0B1
+DigiCert1 0
+DigiCert Timestamp 20240
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R36
+&Tu(*k[K
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+250203230533Z0/

@@ -1,0 +1,282 @@
+requested=0x180135670
+resolvedAddress=180135670
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180135670 getPositionRefBBox
+status=OK
+entry=180135670
+name=getPositionRefBBox
+qualifiedName=DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+namespace=DocumentMarks::PDFPlusCutMark
+signature=RectangleBase<YAGL::MilliPointCoordinateSystem> getPositionRefBBox(PDFPlusCutMark * this)
+returnType=RectangleBase<YAGL::MilliPointCoordinateSystem>
+parameterCount=1
+bodyMin=180135670
+bodyMax=1801358e0
+bodySize=625
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abf04 refType=DATA fromFunction=
+18048687c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316bb0 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+EXTERNAL:0000021f DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+EXTERNAL:0000020c DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+180035600 FUN_180035600
+180095ba0 DocumentMarks::DynamicObject::isNotLinkedYet
+EXTERNAL:0000023e DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:000002e4 DOCUMENT.DLL::ArtDoc::GetTopLevelTargetContent
+1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012a130 DocumentMarks::GetBoundingBoxForPositioning
+
+[DIRECT_CALL_TARGETS]
+180135699 -> EXTERNAL:0000023e DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+1801356ac -> 18013585f DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+1801356b6 -> 180135755 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+1801356e9 -> EXTERNAL:000002e4 DOCUMENT.DLL::ArtDoc::GetTopLevelTargetContent
+180135707 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18013570f -> 18013585f DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135718 -> EXTERNAL:0000021f DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+180135723 -> EXTERNAL:0000020c DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+180135750 -> 1801358c1 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135758 -> 18013585f DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135762 -> 18013585f DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+18013576b -> 18013585f DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135774 -> 180095ba0 DocumentMarks::DynamicObject::isNotLinkedYet
+18013577b -> 180135855 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135787 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+180135790 -> 180135855 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+18013579d -> 18012a130 DocumentMarks::GetBoundingBoxForPositioning
+1801357a6 -> 1801357d9 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+1801357d7 -> 180135832 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135853 -> 1801358c1 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180135858 -> 180035600 FUN_180035600
+18013585d -> 1801358c1 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180135670 -> Stack[0x10] block=? sym=
+180135675 -> Stack[0x18] block=? sym=
+18013567a -> Stack[0x20] block=? sym=
+180135684 -> Stack[-0x5f] block=? sym=
+180135699 -> 1802f1dc8 block=.rdata sym=PTR_GetContent_1802f1dc8
+1801356bc -> 1804082e0 block=.data sym=DAT_1804082e0
+1801356c4 -> 1804082c8 block=.data sym=DocumentMarks::kPageContext
+1801356cb -> 1804082d8 block=.data sym=DAT_1804082d8
+1801356d2 -> Stack[-0xd8] block=? sym=
+1801356d6 -> 1804082c8 block=.data sym=DocumentMarks::kPageContext
+1801356de -> 1804082c8 block=.data sym=DocumentMarks::kPageContext
+1801356de -> Stack[-0xd8] block=? sym=
+1801356e5 -> Stack[-0xd0] block=? sym=
+1801356e9 -> 1802f22f8 block=.rdata sym=PTR_GetTopLevelTargetContent_1802f22f8
+1801356ef -> 180412aa8 block=.data sym=ArtDoc::PageContent::RTTI_Type_Descriptor
+1801356f6 -> Stack[-0xe8] block=? sym=
+1801356fe -> 180412a80 block=.data sym=ArtDoc::Content::RTTI_Type_Descriptor
+180135718 -> 1802f1cd0 block=.rdata sym=PTR_GetPage_1802f1cd0
+180135723 -> 1802f1c38 block=.rdata sym=PTR_GetPageBox_1802f1c38
+180135787 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+180135799 -> Stack[-0xc8] block=? sym=
+1801357a2 -> Stack[-0x78] block=? sym=
+1801357a8 -> Stack[-0xc0] block=? sym=
+1801357ac -> Stack[-0x80] block=? sym=
+1801357b0 -> Stack[-0x60] block=? sym=
+1801357b4 -> Stack[-0xb0] block=? sym=
+1801357b8 -> Stack[-0x20] block=? sym=
+1801357bb -> Stack[-0x40] block=? sym=
+1801357bf -> Stack[-0x60] block=? sym=
+1801357c3 -> Stack[-0xa0] block=? sym=
+1801357c7 -> Stack[-0x50] block=? sym=
+1801357cb -> Stack[-0x90] block=? sym=
+1801357cf -> Stack[-0x40] block=? sym=
+1801357d3 -> Stack[-0x30] block=? sym=
+1801357d9 -> Stack[-0xd8] block=? sym=
+1801357dd -> Stack[-0x80] block=? sym=
+1801357e1 -> Stack[-0xc0] block=? sym=
+1801357e8 -> Stack[-0xa0] block=? sym=
+1801357f2 -> Stack[-0xd8] block=? sym=
+1801357f6 -> Stack[-0xd8] block=? sym=
+1801357fe -> Stack[-0xd8] block=? sym=
+180135806 -> Stack[-0xd8] block=? sym=
+18013580a -> Stack[-0xa0] block=? sym=
+18013580e -> Stack[-0xc0] block=? sym=
+180135812 -> Stack[-0xd8] block=? sym=
+18013581a -> Stack[-0xd8] block=? sym=
+18013581e -> Stack[-0xd8] block=? sym=
+18013582a -> Stack[-0x90] block=? sym=
+18013582e -> Stack[-0xb0] block=? sym=
+180135832 -> Stack[-0x60] block=? sym=
+180135835 -> Stack[-0x30] block=? sym=
+18013583d -> Stack[-0x50] block=? sym=
+180135848 -> Stack[-0x40] block=? sym=
+18013585f -> Stack[-0xd8] block=? sym=
+180135871 -> Stack[-0xd8] block=? sym=
+180135875 -> Stack[-0xd8] block=? sym=
+18013587d -> Stack[-0xd8] block=? sym=
+180135891 -> Stack[-0xd8] block=? sym=
+180135895 -> Stack[-0xd8] block=? sym=
+1801358a1 -> Stack[-0xd8] block=? sym=
+1801358a5 -> Stack[-0xd8] block=? sym=
+1801358c1 -> Stack[-0x18] block=? sym=
+1801358cc -> Stack[0x10] block=? sym=
+1801358d0 -> Stack[0x18] block=? sym=
+1801358d4 -> Stack[0x20] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> __cdecl
+   DocumentMarks::PDFPlusCutMark::getPositionRefBBox(void)const __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::getPositionRefBBox(PDFPlusCutMark *this)
+
+{
+  PDFPlusCutMark *pPVar1;
+  undefined8 uVar2;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar3;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar4;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar5;
+  bool bVar6;
+  Content *pCVar7;
+  PageContent *this_00;
+  Page *this_01;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> *pRVar8;
+  ContentObject *pCVar9;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> **ppbVar10;
+  longlong in_RDX;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> **ppbVar11;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_d8;
+  undefined8 uStack_d0;
+  ContentObject local_c8 [8];
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_c0;
+  undefined8 uStack_b8;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_b0;
+  undefined8 uStack_a8;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_a0;
+  undefined8 uStack_98;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_90;
+  undefined8 uStack_88;
+  undefined1 local_80;
+  char local_78;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_60;
+  undefined8 uStack_58;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *local_40;
+  undefined8 uStack_38;
+  undefined8 local_30;
+  undefined8 uStack_28;
+  
+                    /* 0x135670  1964
+                       ?getPositionRefBBox@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+                        */
+  pCVar7 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+  pPVar1 = this + 0x7c0;
+  if (pPVar1 != (PDFPlusCutMark *)0x0) {
+    if (this[0x838] == (PDFPlusCutMark)0x0) {
+      local_d8 = &kPageContext;
+      if (0xf < DAT_1804082e0) {
+        local_d8 = _kPageContext;
+      }
+      uStack_d0 = DAT_1804082d8;
+      pCVar7 = ArtDoc::GetTopLevelTargetContent
+                         (pCVar7,(basic_string_view<char,std::char_traits<char>_> *)&local_d8);
+      this_00 = (PageContent *)
+                __RTDynamicCast(pCVar7,0,&ArtDoc::Content::RTTI_Type_Descriptor,
+                                &ArtDoc::PageContent::RTTI_Type_Descriptor,0);
+      if (this_00 != (PageContent *)0x0) {
+        this_01 = ArtDoc::PageContent::GetPage(this_00);
+        pRVar8 = ArtDoc::Page::GetPageBox(this_01,*(PageBox *)pPVar1);
+        uVar2 = *(undefined8 *)(pRVar8 + 0x10);
+        *(undefined8 *)(in_RDX + 8) = *(undefined8 *)(pRVar8 + 8);
+        *(undefined8 *)(in_RDX + 0x10) = uVar2;
+        uVar2 = *(undefined8 *)(pRVar8 + 0x20);
+        *(undefined8 *)(in_RDX + 0x18) = *(undefined8 *)(pRVar8 + 0x18);
+        *(undefined8 *)(in_RDX + 0x20) = uVar2;
+        uVar2 = *(undefined8 *)(pRVar8 + 0x30);
+        *(undefined8 *)(in_RDX + 0x28) = *(undefined8 *)(pRVar8 + 0x28);
+        *(undefined8 *)(in_RDX + 0x30) = uVar2;
+        uVar2 = *(undefined8 *)(pRVar8 + 0x40);
+        *(undefined8 *)(in_RDX + 0x38) = *(undefined8 *)(pRVar8 + 0x38);
+        *(undefined8 *)(in_RDX + 0x40) = uVar2;
+        *(RectangleBase<YAGL::MilliPointCoordinateSystem> *)(in_RDX + 0x48) = pRVar8[0x48];
+        return;
+      }
+    }
+    else if (((pPVar1 != (PDFPlusCutMark *)0x0) && (this[0x838] == (PDFPlusCutMark)0x1)) &&
+            (*(undefined8 *)pPVar1 != 0)) {
+      bVar6 = DynamicObject::isNotLinkedYet((DynamicObject *)this);
+      if ((bVar6) ||
+         (pCVar9 = ArtDoc::Content::GetObjectWithID(pCVar7,*(undefined8 *)pPVar1),
+         pCVar9 == (ContentObject *)0x0)) {
+        FUN_180035600();
+        return;
+      }
+      GetBoundingBoxForPositioning(local_c8);
+      if (local_78 == '\0') {
+        local_80 = 1;
+        ppbVar10 = &local_c0;
+        ppbVar11 = &local_a0;
+        local_80 = 1;
+        local_a0 = local_d8;
+        uStack_98 = 0;
+        local_c0 = local_d8;
+        uStack_b8 = 0;
+        local_90 = local_d8;
+        uStack_88 = 0;
+        local_b0 = local_d8;
+        uStack_a8 = 0;
+      }
+      else {
+        ppbVar10 = &local_60;
+        ppbVar11 = &local_40;
+        local_60 = local_c0;
+        uStack_58 = uStack_b8;
+        local_50 = local_b0;
+        uStack_48 = uStack_a8;
+        local_40 = local_a0;
+        uStack_38 = uStack_98;
+        local_30 = local_90;
+        uStack_28 = uStack_88;
+      }
+      pbVar3 = ppbVar10[1];
+      pbVar4 = ppbVar11[2];
+      pbVar5 = ppbVar11[3];
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 8) = *ppbVar10;
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x10) = pbVar3;
+      pbVar3 = ppbVar10[3];
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x18) =
+           ppbVar10[2];
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x20) = pbVar3;
+      *(undefined1 *)(in_RDX + 0x48) = local_80;
+      pbVar3 = ppbVar11[1];
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x28) =
+           *ppbVar11;
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x30) = pbVar3;
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x38) = pbVar4;
+      *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x40) = pbVar5;
+      return;
+    }
+  }
+  *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 8) = local_d8;
+  *(undefined8 *)(in_RDX + 0x10) = 0;
+  *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x28) = local_d8;
+  *(undefined8 *)(in_RDX + 0x30) = 0;
+  *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x18) = local_d8;
+  *(undefined8 *)(in_RDX + 0x20) = 0;
+  *(basic_string<char,std::char_traits<char>,std::allocator<char>_> **)(in_RDX + 0x38) = local_d8;
+  *(undefined8 *)(in_RDX + 0x40) = 0;
+  *(undefined1 *)(in_RDX + 0x48) = 1;
+  return;
+}
+
+

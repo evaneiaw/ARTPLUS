@@ -1,0 +1,336 @@
+requested=0x18001cc60
+resolvedAddress=18001cc60
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001cc60 FUN_18001cc60
+status=OK
+entry=18001cc60
+name=FUN_18001cc60
+qualifiedName=FUN_18001cc60
+namespace=Global
+signature=undefined FUN_18001cc60()
+returnType=undefined
+parameterCount=0
+bodyMin=18001cc60
+bodyMax=18001d0dc
+bodySize=1149
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+18047b398 refType=DATA fromFunction=
+18001dfaa refType=UNCONDITIONAL_CALL fromFunction=18001de30 regenerateMarkImp
+
+[CALLERS]
+18001de30 DocumentMarks::BearerBar::regenerateMarkImp
+
+[CALLEES]
+EXTERNAL:000004a6 YAGL.DLL::YAGL::GetRectangleCompound
+
+[DIRECT_CALL_TARGETS]
+18001cca1 -> 18001cf4d FUN_18001cc60
+18001ccab -> 18001ce63 FUN_18001cc60
+18001ccb5 -> 18001cd7a FUN_18001cc60
+18001ccbf -> 18001d013 FUN_18001cc60
+18001cd75 -> 18001d003 FUN_18001cc60
+18001ce5e -> 18001d013 FUN_18001cc60
+18001cf48 -> 18001d013 FUN_18001cc60
+18001d0b9 -> EXTERNAL:000004a6 YAGL.DLL::YAGL::GetRectangleCompound
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18001cc63 -> Stack[0x8] block=? sym=
+18001cc68 -> Stack[-0x4f] block=? sym=
+18001cc73 -> Stack[-0x18] block=? sym=
+18001cc7a -> Stack[-0x28] block=? sym=
+18001cc81 -> Stack[-0xb0] block=? sym=
+18001cc89 -> Stack[-0xc0] block=? sym=
+18001cc91 -> Stack[-0xa0] block=? sym=
+18001cc99 -> Stack[-0x90] block=? sym=
+18001ccc9 -> Stack[0x30] block=? sym=
+18001cccd -> Stack[-0xe8] block=? sym=
+18001ccd2 -> Stack[-0xe8] block=? sym=
+18001ccdc -> Stack[0x28] block=? sym=
+18001ccf7 -> Stack[-0xd8] block=? sym=
+18001ccfc -> Stack[-0xd8] block=? sym=
+18001cd0a -> Stack[-0xe8] block=? sym=
+18001cd0f -> Stack[-0xe8] block=? sym=
+18001cd26 -> Stack[-0xb8] block=? sym=
+18001cd2a -> Stack[-0xe0] block=? sym=
+18001cd34 -> Stack[-0xe8] block=? sym=
+18001cd39 -> Stack[-0xe8] block=? sym=
+18001cd4b -> Stack[-0x98] block=? sym=
+18001cd53 -> Stack[-0xe0] block=? sym=
+18001cd59 -> Stack[-0xe8] block=? sym=
+18001cd67 -> Stack[-0xe8] block=? sym=
+18001cd6c -> Stack[-0xe8] block=? sym=
+18001cd7e -> Stack[0x30] block=? sym=
+18001cd8f -> Stack[0x28] block=? sym=
+18001cd93 -> Stack[-0xe8] block=? sym=
+18001cda1 -> Stack[-0xe0] block=? sym=
+18001cda7 -> Stack[-0xe8] block=? sym=
+18001cdba -> Stack[-0xe8] block=? sym=
+18001cdbf -> Stack[-0xe8] block=? sym=
+18001cdc4 -> Stack[-0xe8] block=? sym=
+18001cdd6 -> Stack[-0xb8] block=? sym=
+18001cde2 -> Stack[-0xe8] block=? sym=
+18001cde7 -> Stack[-0xe8] block=? sym=
+18001cdec -> Stack[-0xe8] block=? sym=
+18001cdfa -> Stack[-0xc8] block=? sym=
+18001ce06 -> Stack[-0xe0] block=? sym=
+18001ce10 -> Stack[-0xe8] block=? sym=
+18001ce18 -> Stack[-0xe8] block=? sym=
+18001ce2a -> Stack[-0x98] block=? sym=
+18001ce2e -> Stack[-0xe0] block=? sym=
+18001ce34 -> Stack[-0xe8] block=? sym=
+18001ce42 -> Stack[-0xe8] block=? sym=
+18001ce47 -> Stack[-0xe8] block=? sym=
+18001ce4c -> Stack[-0xa8] block=? sym=
+18001ce67 -> Stack[0x28] block=? sym=
+18001ce6f -> Stack[-0xe8] block=? sym=
+18001ce79 -> Stack[0x30] block=? sym=
+18001ce86 -> Stack[-0xe0] block=? sym=
+18001ce90 -> Stack[-0xe8] block=? sym=
+18001ce95 -> Stack[-0xe8] block=? sym=
+18001ceab -> Stack[-0xb8] block=? sym=
+18001ceaf -> Stack[-0xe0] block=? sym=
+18001ceba -> Stack[-0xe8] block=? sym=
+18001cec7 -> Stack[-0xe8] block=? sym=
+18001cecc -> Stack[-0xd8] block=? sym=
+18001ced9 -> Stack[-0xe8] block=? sym=
+18001cede -> Stack[-0xe8] block=? sym=
+18001ceec -> Stack[-0xc8] block=? sym=
+18001cef7 -> Stack[-0xd8] block=? sym=
+18001cefc -> Stack[-0xe0] block=? sym=
+18001cf05 -> Stack[-0xe8] block=? sym=
+18001cf14 -> Stack[-0x98] block=? sym=
+18001cf28 -> Stack[-0xe8] block=? sym=
+18001cf38 -> Stack[-0xe8] block=? sym=
+18001cf3d -> Stack[-0xa8] block=? sym=
+18001cf51 -> Stack[0x28] block=? sym=
+18001cf59 -> Stack[-0xe8] block=? sym=
+18001cf63 -> Stack[0x30] block=? sym=
+18001cf70 -> Stack[-0xe0] block=? sym=
+18001cf7a -> Stack[-0xe8] block=? sym=
+18001cf7f -> Stack[-0xe8] block=? sym=
+18001cf92 -> Stack[-0xb8] block=? sym=
+18001cf96 -> Stack[-0xe0] block=? sym=
+18001cfa1 -> Stack[-0xe8] block=? sym=
+18001cfae -> Stack[-0xe8] block=? sym=
+18001cfb3 -> Stack[-0xd8] block=? sym=
+18001cfc0 -> Stack[-0xe8] block=? sym=
+18001cfd3 -> Stack[-0xe8] block=? sym=
+18001cfd8 -> Stack[-0xe8] block=? sym=
+18001cfea -> Stack[-0xd8] block=? sym=
+18001cfef -> Stack[-0xe8] block=? sym=
+18001cff8 -> Stack[-0x98] block=? sym=
+18001d003 -> Stack[-0xa8] block=? sym=
+18001d007 -> Stack[-0xc8] block=? sym=
+18001d017 -> Stack[-0x98] block=? sym=
+18001d01b -> Stack[-0x38] block=? sym=
+18001d01f -> Stack[-0xa8] block=? sym=
+18001d023 -> Stack[-0xb8] block=? sym=
+18001d02b -> Stack[-0xc8] block=? sym=
+18001d037 -> Stack[-0xa8] block=? sym=
+18001d03f -> Stack[-0xa8] block=? sym=
+18001d042 -> Stack[-0xc8] block=? sym=
+18001d04a -> Stack[-0x80] block=? sym=
+18001d051 -> Stack[-0x78] block=? sym=
+18001d055 -> Stack[-0xa8] block=? sym=
+18001d058 -> Stack[-0xb8] block=? sym=
+18001d060 -> Stack[-0xe8] block=? sym=
+18001d06d -> Stack[-0xe8] block=? sym=
+18001d07a -> Stack[-0x98] block=? sym=
+18001d07d -> Stack[-0x98] block=? sym=
+18001d081 -> Stack[-0xe8] block=? sym=
+18001d08d -> Stack[-0x58] block=? sym=
+18001d094 -> Stack[-0x68] block=? sym=
+18001d098 -> Stack[-0x98] block=? sym=
+18001d09f -> Stack[-0xe8] block=? sym=
+18001d0ac -> Stack[-0xe8] block=? sym=
+18001d0b5 -> Stack[-0x48] block=? sym=
+18001d0b9 -> 1802f3c48 block=.rdata sym=PTR_GetRectangleCompound_1802f3c48
+18001d0bf -> Stack[-0x8] block=? sym=
+18001d0ca -> Stack[0x8] block=? sym=
+18001d0ce -> Stack[-0x18] block=? sym=
+18001d0d3 -> Stack[-0x28] block=? sym=
+
+[DECOMPILE]
+
+RectangleBase<YAGL::MilliPointCoordinateSystem> *
+FUN_18001cc60(RectangleBase<YAGL::MilliPointCoordinateSystem> *param_1,longlong param_2,int param_3,
+             longlong param_4,longlong param_5,longlong param_6)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined8 *puVar3;
+  undefined4 local_e8;
+  undefined4 uStack_e4;
+  undefined4 local_d8;
+  undefined4 uStack_d4;
+  undefined4 local_c8;
+  undefined4 uStack_c4;
+  double dStack_c0;
+  undefined4 local_b8;
+  undefined4 uStack_b4;
+  double dStack_b0;
+  undefined4 local_a8;
+  undefined4 uStack_a4;
+  double dStack_a0;
+  undefined4 local_98;
+  undefined4 uStack_94;
+  double dStack_90;
+  undefined8 local_78;
+  double dStack_70;
+  undefined8 local_68;
+  double dStack_60;
+  undefined4 local_58;
+  undefined4 uStack_54;
+  double dStack_50;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  double dStack_40;
+  undefined1 local_38;
+  
+  dStack_b0 = 0.0;
+  dStack_c0 = 0.0;
+  dStack_a0 = 0.0;
+  dStack_90 = 0.0;
+  if (param_3 == 0) {
+    dStack_b0 = *(double *)(param_2 + 0x20) + *(double *)(param_2 + 0x40) + *(double *)(param_5 + 8)
+    ;
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+    local_b8 = local_e8;
+    uStack_b4 = uStack_e4;
+    dStack_c0 = (*(double *)(param_2 + 0x10) - *(double *)(param_4 + 8)) - *(double *)(param_6 + 8);
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+    local_c8 = local_e8;
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+    uStack_c4 = uStack_e4;
+    dStack_90 = *(double *)(param_2 + 0x20) - *(double *)(param_5 + 8);
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+    dStack_a0 = *(double *)(param_2 + 0x10) - *(double *)(param_6 + 8);
+    local_d8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+    uStack_d4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+    local_98 = local_d8;
+    uStack_94 = uStack_d4;
+  }
+  else {
+    if (param_3 == 1) {
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+      local_b8 = local_e8;
+      uStack_b4 = uStack_e4;
+      dStack_b0 = *(double *)(param_2 + 0x20) + *(double *)(param_2 + 0x40) +
+                  *(double *)(param_5 + 8);
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+      local_c8 = local_e8;
+      uStack_c4 = uStack_e4;
+      dStack_c0 = *(double *)(param_2 + 0x10) + *(double *)(param_2 + 0x30) +
+                  *(double *)(param_6 + 8);
+      local_d8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+      uStack_d4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+      local_98 = local_d8;
+      uStack_94 = uStack_d4;
+      dStack_90 = *(double *)(param_2 + 0x20) - *(double *)(param_5 + 8);
+      local_a8 = local_e8;
+      uStack_a4 = uStack_e4;
+      dStack_a0 = *(double *)(param_2 + 0x10) + *(double *)(param_2 + 0x30) +
+                  *(double *)(param_4 + 8) + *(double *)(param_6 + 8);
+      goto LAB_18001d013;
+    }
+    if (param_3 == 2) {
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+      local_b8 = local_e8;
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+      uStack_b4 = uStack_e4;
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+      dStack_b0 = *(double *)(param_2 + 0x20) + *(double *)(param_2 + 0x40) +
+                  *(double *)(param_4 + 8) + *(double *)(param_6 + 8);
+      local_c8 = local_e8;
+      uStack_c4 = uStack_e4;
+      dStack_c0 = *(double *)(param_2 + 0x10) - *(double *)(param_5 + 8);
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+      local_98 = local_e8;
+      uStack_94 = uStack_e4;
+      dStack_90 = *(double *)(param_2 + 0x20) + *(double *)(param_2 + 0x40) +
+                  *(double *)(param_6 + 8);
+      local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+      uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+      local_a8 = local_e8;
+      uStack_a4 = uStack_e4;
+      dStack_a0 = *(double *)(param_2 + 0x10) + *(double *)(param_2 + 0x30) +
+                  *(double *)(param_5 + 8);
+      goto LAB_18001d013;
+    }
+    if (param_3 != 3) goto LAB_18001d013;
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+    dStack_b0 = *(double *)(param_2 + 0x20) - *(double *)(param_6 + 8);
+    local_d8 = (undefined4)*(undefined8 *)(param_2 + 8);
+    uStack_d4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+    dStack_c0 = *(double *)(param_2 + 0x10) - *(double *)(param_5 + 8);
+    local_b8 = local_e8;
+    uStack_b4 = uStack_e4;
+    dStack_90 = (*(double *)(param_2 + 0x20) - *(double *)(param_4 + 8)) - *(double *)(param_6 + 8);
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 0x18);
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 0x18) >> 0x20);
+    local_98 = local_e8;
+    uStack_94 = uStack_e4;
+    local_e8 = (undefined4)*(undefined8 *)(param_2 + 8);
+    uStack_e4 = (undefined4)((ulonglong)*(undefined8 *)(param_2 + 8) >> 0x20);
+    dStack_a0 = *(double *)(param_2 + 0x10) + *(double *)(param_2 + 0x30) + *(double *)(param_5 + 8)
+    ;
+    local_c8 = local_d8;
+    uStack_c4 = uStack_d4;
+  }
+  local_a8 = local_e8;
+  uStack_a4 = uStack_e4;
+LAB_18001d013:
+  local_38 = 0;
+  puVar3 = (undefined8 *)&local_b8;
+  if (dStack_90 <= dStack_b0) {
+    puVar3 = (undefined8 *)&local_98;
+  }
+  puVar1 = (undefined8 *)&local_c8;
+  if (dStack_a0 <= dStack_c0) {
+    puVar1 = (undefined8 *)&local_a8;
+  }
+  dStack_70 = (double)puVar1[1];
+  puVar2 = (undefined8 *)&local_c8;
+  if (dStack_c0 <= dStack_a0) {
+    puVar2 = (undefined8 *)&local_a8;
+  }
+  local_78 = *puVar1;
+  dStack_50 = (double)puVar2[1] - dStack_70;
+  local_e8 = (undefined4)*puVar2;
+  uStack_e4 = (undefined4)((ulonglong)*puVar2 >> 0x20);
+  local_68 = *puVar3;
+  dStack_60 = (double)puVar3[1];
+  puVar3 = (undefined8 *)&local_b8;
+  if (dStack_b0 <= dStack_90) {
+    puVar3 = (undefined8 *)&local_98;
+  }
+  local_58 = local_e8;
+  uStack_54 = uStack_e4;
+  dStack_40 = (double)puVar3[1] - dStack_60;
+  local_e8 = (undefined4)*puVar3;
+  uStack_e4 = (undefined4)((ulonglong)*puVar3 >> 0x20);
+  local_48 = local_e8;
+  uStack_44 = uStack_e4;
+  YAGL::GetRectangleCompound(param_1);
+  return param_1;
+}
+
+

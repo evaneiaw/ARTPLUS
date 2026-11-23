@@ -1,0 +1,61 @@
+address: 18022c220
+name: GOVCloneSelection::ConfigChangeMatrix
+signature: GOVisitorBase * __thiscall ConfigChangeMatrix(void)
+body_bytes: 190
+param_count: 1
+
+[callers]
+  18022bfb0 GOVCloneSelection::AddContentObjectToCurrentContent
+[callees]
+  1803cefc4 FUN_1803cefc4
+  EXTERNAL:0000089f PDFOBJECTLAYER.DLL::GOLocation::GetCurrentToUserMatrix
+  180339f40 GOVChangeMatrix::GOVChangeMatrix
+  EXTERNAL:00000ee9 BASICFRAMEWORKCORELAYER.DLL::GMatrixBase<double>::PostConcat
+[string_refs]
+[pointer_hits_non_exec]
+
+[decompiled]
+
+/* private: class GOVisitorBase * __ptr64 __cdecl GOVCloneSelection::ConfigChangeMatrix(void)
+   __ptr64 */
+
+GOVisitorBase * __thiscall GOVCloneSelection::ConfigChangeMatrix(GOVCloneSelection *this)
+
+{
+  GOVChangeMatrix *this_00;
+  undefined8 uVar1;
+  undefined8 local_38;
+  undefined8 local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+                    /* 0x22c220  6228
+                       ?ConfigChangeMatrix@GOVCloneSelection@@AEAAPEAVGOVisitorBase@@XZ */
+  if (*(longlong *)(*(longlong *)(this + 0x290) + -8 + (longlong)*(int *)(this + 0x29c) * 8) == 0) {
+    local_20 = DAT_18040a028;
+    local_38 = DAT_18040a028;
+    local_18 = 0;
+    uStack_10 = 0;
+    local_30 = 0;
+    uStack_28 = 0;
+    GOLocation::GetCurrentToUserMatrix((GMatrixBase<double> *)&local_38);
+    GMatrixBase<double>::PostConcat
+              ((GMatrixBase<double> *)&local_38,(GMatrixBase<double> *)(this + 0x1f8));
+    this_00 = (GOVChangeMatrix *)FUN_1803cefc4(0x2a0);
+    if (this_00 == (GOVChangeMatrix *)0x0) {
+      uVar1 = 0;
+    }
+    else {
+      uVar1 = GOVChangeMatrix::GOVChangeMatrix(this_00,(GMatrixBase<double> *)&local_38,false,0x3ea)
+      ;
+    }
+    *(undefined8 *)(*(longlong *)(this + 0x290) + -8 + (longlong)*(int *)(this + 0x29c) * 8) = uVar1
+    ;
+  }
+  return *(GOVisitorBase **)
+          (*(longlong *)(this + 0x290) + -8 + (longlong)*(int *)(this + 0x29c) * 8);
+}
+
+

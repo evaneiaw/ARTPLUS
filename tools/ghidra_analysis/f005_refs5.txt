@@ -1,0 +1,87 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## FN 180094e10
+   name=ArtDoc::Document::Create
+   signature=unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_> __cdecl Create(path * param_1, ReadOptions * param_2)
+   entry=180094e10 thunk=false external=false body=115
+   -- callers --
+      1800a2e76 UNCONDITIONAL_CALL 1800a2e40 FUN_1800a2e40
+      18016e7ac UNCONDITIONAL_CALL 18016e5e0 FUN_18016e5e0
+      180377d60 DATA -
+      18041c580 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      18008f590 ArtDoc::Document::Document
+      180098b30 FUN_180098b30
+      180159c90 FUN_180159c90
+      1802ae920 FUN_1802ae920
+   -- strings referenced --
+   -- decompiled --
+
+/* public: static class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > __cdecl ArtDoc::Document::Create(class boost::filesystem::path const &
+   __ptr64,class ArtDoc::ReadOptions const & __ptr64) */
+
+path * __cdecl ArtDoc::Document::Create(path *param_1,ReadOptions *param_2)
+
+{
+  Document *pDVar1;
+  undefined8 uVar2;
+  
+                    /* 0x94e10  1295
+                       ?Create@Document@ArtDoc@@SA?AV?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@AEBVpath@filesystem@boost@@AEBVReadOptions@2@@Z
+                        */
+  uVar2 = 0;
+  pDVar1 = (Document *)FUN_1802ae920(0x330);
+  if (pDVar1 != (Document *)0x0) {
+    uVar2 = Document(pDVar1,param_2);
+  }
+  *(undefined8 *)param_1 = uVar2;
+  FUN_180159c90(uVar2);
+  FUN_180098b30(*(undefined8 *)param_1);
+  return param_1;
+}
+
+
+
+## FN 180094da0
+   name=ArtDoc::Document::Create
+   signature=unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_> __cdecl Create(RectangleBase<YAGL::MilliPointCoordinateSystem> * param_1)
+   entry=180094da0 thunk=false external=false body=107
+   -- callers --
+      1800a2d7b UNCONDITIONAL_CALL 1800a2cd0 ArtDoc::GetScratchDocument
+      180377d5c DATA -
+      18041c574 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      18008ee30 ArtDoc::Document::Document
+      180098b30 FUN_180098b30
+      1802ae920 FUN_1802ae920
+   -- strings referenced --
+   -- decompiled --
+
+/* public: static class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > __cdecl ArtDoc::Document::Create(class YAGL::RectangleBase<struct
+   YAGL::MilliPointCoordinateSystem> const & __ptr64) */
+
+RectangleBase<YAGL::MilliPointCoordinateSystem> * __cdecl
+ArtDoc::Document::Create(RectangleBase<YAGL::MilliPointCoordinateSystem> *param_1)
+
+{
+  Document *pDVar1;
+  undefined8 uVar2;
+  
+                    /* 0x94da0  1294
+                       ?Create@Document@ArtDoc@@SA?AV?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@AEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+                        */
+  uVar2 = 0;
+  pDVar1 = (Document *)FUN_1802ae920(0x330);
+  if (pDVar1 != (Document *)0x0) {
+    uVar2 = Document(pDVar1);
+  }
+  *(undefined8 *)param_1 = uVar2;
+  FUN_180098b30(uVar2);
+  return param_1;
+}
+
+

@@ -1,0 +1,75 @@
+{
+  "arquivo": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\PDFObjectActions.dll",
+  "tamanho_bytes": 8004528,
+  "sha256": "8F6A23C1533E45AF657D91E62C18379AF3FE5B59C947C04A068A42E43573184D",
+  "md5": "9B2542E6BC3304C05B2CDDF12636BAF1",
+  "machine": "0x8664",
+  "image_base": "0x180000000",
+  "timestamp": 1710261423,
+  "dll": true,
+  "secoes": [
+    {
+      "nome": ".text",
+      "va": "0x1000",
+      "vsize": 4167379,
+      "rawsize": 4167680,
+      "entropia": 6.331
+    },
+    {
+      "nome": ".rdata",
+      "va": "0x3fb000",
+      "vsize": 3207078,
+      "rawsize": 3207168,
+      "entropia": 5.764
+    },
+    {
+      "nome": ".data",
+      "va": "0x70a000",
+      "vsize": 210168,
+      "rawsize": 163840,
+      "entropia": 4.603
+    },
+    {
+      "nome": ".pdata",
+      "va": "0x73e000",
+      "vsize": 206712,
+      "rawsize": 206848,
+      "entropia": 6.265
+    },
+    {
+      "nome": ".rsrc",
+      "va": "0x771000",
+      "vsize": 480,
+      "rawsize": 512,
+      "entropia": 4.725
+    },
+    {
+      "nome": ".reloc",
+      "va": "0x772000",
+      "vsize": 245996,
+      "rawsize": 246272,
+      "entropia": 5.439
+    }
+  ],
+  "imports": [
+    "adt.dll",
+    "basicframeworkcorelayer.dll",
+    "certifiedpdflayer.dll",
+    "colormanipulationlayer.dll",
+    "curveapprox.dll",
+    "fontlayer.dll",
+    "geomapper.dll",
+    "imagesupportlayer.dll",
+    "jpxsupportlayer.dll",
+    "offset.dll",
+    "pdfaccesslayer.dll",
+    "pdfbarcodescanlayer.dll",
+    "pdfgeometrylayer.dll",
+    "pdfobjectlayer.dll",
+    "pdfobjecttoolslayer.dll",
+    "pdfrenderinglayer.dll",
+    "reportdatabaselayer.dll",
+    "yagl.dll"
+  ],
+  "exports_count": 10024
+}

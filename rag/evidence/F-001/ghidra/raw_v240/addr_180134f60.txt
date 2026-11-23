@@ -1,0 +1,203 @@
+requested=0x180134f60
+resolvedAddress=180134f60
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180134f60 RemoveInvalidCustomFormulasImp
+status=OK
+entry=180134f60
+name=RemoveInvalidCustomFormulasImp
+qualifiedName=DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+namespace=DocumentMarks::PDFPlusCutMark
+signature=bool RemoveInvalidCustomFormulasImp(PDFPlusCutMark * this)
+returnType=bool
+parameterCount=1
+bodyMin=180134f60
+bodyMax=180135155
+bodySize=500
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ab6cc refType=DATA fromFunction=
+180486834 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316be8 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+EXTERNAL:000001b2 DOCUMENT.DLL::ArtDoc::ContentObject::GetName
+EXTERNAL:000003c3 ARTSYS.DLL::ArtSys::Core::Error::Error
+EXTERNAL:000003b5 ARTSYS.DLL::ArtSys::Core::Error::~Error
+EXTERNAL:00000172 DOCUMENT.DLL::ArtDoc::Document::GetErrorReporter
+18000f510 FUN_18000f510
+EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180148050 FUN_180148050
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1800aa1b0 DocumentMarks::SetCutMarkOffset
+180147ee0 FUN_180147ee0
+1802cbfd0 __security_check_cookie
+
+[DIRECT_CALL_TARGETS]
+180134f94 -> 18013512d DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180134f9e -> 18013512d DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180134faa -> 180147ee0 FUN_180147ee0
+180134fb1 -> 180134fc6 DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180134fb9 -> 180148050 FUN_180148050
+180134fc0 -> 18013512d DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180134fc9 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180134fd2 -> 1801350bc DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180134fdb -> EXTERNAL:000001b2 DOCUMENT.DLL::ArtDoc::ContentObject::GetName
+180134fee -> EXTERNAL:000003c3 ARTSYS.DLL::ArtSys::Core::Error::Error
+180135017 -> 18000f510 FUN_18000f510
+180135020 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180135029 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180135032 -> EXTERNAL:00000172 DOCUMENT.DLL::ArtDoc::Document::GetErrorReporter
+180135057 -> 180135091 DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+18013506e -> 18013508c DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180135083 -> 18013508c DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180135085 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18013508c -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1801350b6 -> EXTERNAL:000003b5 ARTSYS.DLL::ArtSys::Core::Error::~Error
+1801350d2 -> 1800aa1b0 DocumentMarks::SetCutMarkOffset
+1801350e2 -> 18013512a DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+1801350e8 -> 18013512a DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+1801350f3 -> 18013512a DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+180135107 -> 180135125 DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+18013511c -> 180135125 DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp
+18013511e -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180135125 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18013513c -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180134f60 -> Stack[0x10] block=? sym=
+180134f65 -> Stack[0x18] block=? sym=
+180134f72 -> 180409ec0 block=.data sym=DAT_180409ec0
+180134f7c -> Stack[-0x18] block=? sym=
+180134fc9 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+180134fdb -> 1802f1968 block=.rdata sym=PTR_GetName_1802f1968
+180134fe9 -> Stack[-0x78] block=? sym=
+180134fee -> 1802f1078 block=.rdata sym=PTR_Error_1802f1078
+180134ff5 -> 180301078 block=.rdata sym=DocumentMarks::MarkActionError::`vftable'
+180134ffc -> 180301078 block=.rdata sym=DocumentMarks::MarkActionError::`vftable'
+180134ffc -> Stack[-0x78] block=? sym=
+180135001 -> Stack[-0x40] block=? sym=
+18013500f -> Stack[-0x38] block=? sym=
+180135020 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+180135029 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180135032 -> 1802f1768 block=.rdata sym=PTR_GetErrorReporter_1802f1768
+18013503f -> Stack[-0x78] block=? sym=
+18013504b -> Stack[-0x20] block=? sym=
+18013505c -> Stack[-0x38] block=? sym=
+180135085 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180135091 -> Stack[-0x28] block=? sym=
+18013509d -> Stack[-0x20] block=? sym=
+1801350a9 -> Stack[-0x38] block=? sym=
+1801350b1 -> Stack[-0x78] block=? sym=
+1801350b6 -> 1802f1008 block=.rdata sym=PTR_~Error_1802f1008
+1801350bf -> Stack[-0xa0] block=? sym=
+1801350c5 -> Stack[-0x88] block=? sym=
+1801350ca -> Stack[-0xa8] block=? sym=
+1801350d8 -> Stack[-0x88] block=? sym=
+1801350ea -> Stack[-0x90] block=? sym=
+1801350f8 -> Stack[-0xa8] block=? sym=
+18013511e -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180135131 -> Stack[-0x18] block=? sym=
+180135141 -> Stack[-0x10] block=? sym=
+180135149 -> Stack[0x8] block=? sym=
+18013514d -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: virtual bool __cdecl
+   DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp(void) __ptr64 */
+
+bool __thiscall DocumentMarks::PDFPlusCutMark::RemoveInvalidCustomFormulasImp(PDFPlusCutMark *this)
+
+{
+  PDFPlusCutMark *pPVar1;
+  void *pvVar2;
+  char cVar3;
+  Content *pCVar4;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar5;
+  Document *this_00;
+  ErrorReporter *pEVar6;
+  void *pvVar7;
+  bool bVar8;
+  undefined1 auStack_c8 [32];
+  void *local_a8;
+  undefined8 local_a0;
+  ulonglong local_90;
+  char local_88;
+  undefined **local_78 [7];
+  undefined4 local_40;
+  undefined1 local_38;
+  undefined7 uStack_37;
+  undefined8 local_28;
+  ulonglong local_20;
+  ulonglong local_18;
+  
+                    /* 0x134f60  1438
+                       ?RemoveInvalidCustomFormulasImp@PDFPlusCutMark@DocumentMarks@@MEAA_NXZ */
+  local_18 = DAT_180409ec0 ^ (ulonglong)auStack_c8;
+  bVar8 = false;
+  pPVar1 = this + 0x750;
+  if ((pPVar1 != (PDFPlusCutMark *)0x0) && (this[0x770] == (PDFPlusCutMark)0x1)) {
+    cVar3 = FUN_180147ee0(pPVar1,this);
+    if ((cVar3 == '\0') && (cVar3 = FUN_180148050(pPVar1,this), cVar3 == '\0')) {
+      return false;
+    }
+    pCVar4 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+    if (pCVar4 != (Content *)0x0) {
+      pbVar5 = ArtDoc::ContentObject::GetName((ContentObject *)this);
+      ArtSys::Core::Error::Error((Error *)local_78,2);
+      local_78[0] = MarkActionError::_vftable_;
+      local_40 = 4;
+      FUN_18000f510(&local_38,pbVar5);
+      pCVar4 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+      this_00 = ArtDoc::Content::GetDocument(pCVar4);
+      pEVar6 = ArtDoc::Document::GetErrorReporter(this_00);
+      (**(code **)(*(longlong *)pEVar6 + 0x10))(pEVar6,local_78);
+      if (0xf < local_20) {
+        pvVar2 = (void *)CONCAT71(uStack_37,local_38);
+        pvVar7 = pvVar2;
+        if ((0xfff < local_20 + 1) &&
+           (pvVar7 = *(void **)((longlong)pvVar2 + -8),
+           0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar7);
+      }
+      local_28 = 0;
+      local_20 = 0xf;
+      local_38 = 0;
+      ArtSys::Core::Error::~Error((Error *)local_78);
+    }
+    local_a0 = 0;
+    local_88 = '\0';
+    SetCutMarkOffset(this,(variant<YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>
+                           *)&local_a8);
+    if (((local_88 != -1) && (local_88 != '\0')) && (0xf < local_90)) {
+      pvVar7 = local_a8;
+      if ((0xfff < local_90 + 1) &&
+         (pvVar7 = *(void **)((longlong)local_a8 + -8),
+         0x1f < (ulonglong)((longlong)local_a8 + (-8 - (longlong)pvVar7)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar7);
+    }
+    bVar8 = true;
+  }
+  return bVar8;
+}
+
+

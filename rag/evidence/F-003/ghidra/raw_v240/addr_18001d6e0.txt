@@ -1,0 +1,47 @@
+requested=0x18001d6e0
+resolvedAddress=18001d6e0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001d6e0 getLocation
+status=OK
+entry=18001d6e0
+name=getLocation
+qualifiedName=DocumentMarks::BearerBar::getLocation
+namespace=DocumentMarks::BearerBar
+signature=int getLocation(BearerBar * this)
+returnType=int
+parameterCount=1
+bodyMin=18001d6e0
+bodyMax=18001d6e6
+bodySize=7
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abe28 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+
+[DECOMPILE]
+
+/* public: int __cdecl DocumentMarks::BearerBar::getLocation(void)const __ptr64 */
+
+int __thiscall DocumentMarks::BearerBar::getLocation(BearerBar *this)
+
+{
+                    /* 0x1d6e0  1909  ?getLocation@BearerBar@DocumentMarks@@QEBAHXZ */
+  return *(int *)(this + 0x780);
+}
+
+

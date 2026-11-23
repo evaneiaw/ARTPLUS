@@ -1,0 +1,25 @@
+﻿{
+  "evidence_id": "GHIDRA-ColorManipulationLayer-0x18000a2f0",
+  "subject": {
+    "name": "ColorManipulationLayer.dll",
+    "format": "pe",
+    "architecture": "x86_64",
+    "sha256": "92a8b38fa14ac6480a036acadf76c4563da49109805418e9e5688659c7de72a9"
+  },
+  "operation": "procedure_pseudo_code",
+  "parameters": { "procedure": "0x18000a2f0" },
+  "normalized_result": null,
+  "error": {
+    "code": "target_unavailable",
+    "category": "unavailable",
+    "message": "Cannot open artifact: target does not exist or a path component is not a directory: ENOENT: no such file or directory, access 'C:\\bg_prog_artpro+_v250\\ArtPro+.app\\Contents\\Windows\\ColorManipulationLayer.dll'.",
+    "remediation": "Usar fallback: symbols.csv demangling + xrefs.csv + strings.csv em rag/ghidra/exports/ColorManipulationLayer.dll/"
+  },
+  "confidence": "media",
+  "authority": "shipped-artifact",
+  "limitations": [
+    "Pseudocódigo não disponível: rea decompile falhou com target_unavailable (caminho do binário não encontrado neste ambiente).",
+    "Endereço e assinatura confirmados via symbols.csv: ?ConvertColor@GCCallbackConverter@@UEBAXAEBV?$GTable@N@@AEBV?$GTable@PEBVGFunction@@@@PEBVGFunction@@2AEAV2@@Z"
+  ],
+  "caller_input_path": "C:\\bg_prog_artpro+_v250\\ArtPro+.app\\Contents\\Windows\\ColorManipulationLayer.dll (invalido); importacao feita via rag/ghidra/exports/ColorManipulationLayer.dll"
+}

@@ -1,0 +1,52 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## DATA 1802eaae8 value=application/pdf
+   refFrom=1802eaad8 type=DATA fn=- offset=-
+   refCount=1
+
+## DATA 1802fd848 value=application/vnd.esko.ct
+   refFrom=180214e9a type=PARAM fn=180214d30 FUN_180214d30 offset=362
+   refFrom=1802fd838 type=DATA fn=- offset=-
+   refCount=2
+
+## DATA 1802fd870 value=application/vnd.esko.lp
+   refFrom=180214fda type=PARAM fn=180214d30 FUN_180214d30 offset=682
+   refFrom=1802fd860 type=DATA fn=- offset=-
+   refCount=2
+
+## FN 1800a2c10
+   name=FUN_1800a2c10
+   signature=undefined FUN_1800a2c10(void)
+   entry=1800a2c10 thunk=false external=false body=92
+   -- callers --
+      1800a2e17 DATA 1800a2e00 ArtDoc::Initialize
+      1800a2e1e DATA 1800a2e00 ArtDoc::Initialize
+      18041d00c DATA -
+   -- callees --
+      1800a1230 FUN_1800a1230
+      1802ae920 FUN_1802ae920
+   -- strings referenced --
+   -- decompiled --
+
+longlong * FUN_1800a2c10(longlong *param_1)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  
+  lVar1 = FUN_1802ae920(0x28);
+  if (lVar1 == 0) {
+    plVar2 = (longlong *)0x0;
+  }
+  else {
+    plVar2 = (longlong *)FUN_1800a1230(lVar1,1);
+  }
+  if (plVar2 == (longlong *)0x0) {
+    *param_1 = 0;
+    return param_1;
+  }
+  *param_1 = (longlong)*(int *)(*plVar2 + 4) + (longlong)plVar2;
+  return param_1;
+}
+
+

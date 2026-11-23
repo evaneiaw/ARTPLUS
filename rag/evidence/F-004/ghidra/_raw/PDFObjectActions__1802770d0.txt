@@ -1,0 +1,54 @@
+address: 1802770d0
+name: GOVSelectHitElement::SetHitType
+signature: void __thiscall SetHitType(HitType param_1)
+body_bytes: 99
+param_count: 2
+
+[callers]
+  18027e220 GOVSelectInRegion::GOVSelectInRegion
+  1802a10b0 GOVSelectSingleImagePageImage::Select
+  18027e6c0 GOVSelectInRegion::InitSelectHit
+  18027ecc0 GOVSelectInRegion::LoadSelf
+  18027e0a0 GOVSelectInRegion::GOVSelectInRegion
+[callees]
+[string_refs]
+[pointer_hits_non_exec]
+
+[decompiled]
+
+/* public: void __cdecl GOVSelectHitElement::SetHitType(enum GOVSelectHitElement::HitType) __ptr64
+    */
+
+void __thiscall GOVSelectHitElement::SetHitType(GOVSelectHitElement *this,HitType param_1)
+
+{
+                    /* 0x2770d0  13670  ?SetHitType@GOVSelectHitElement@@QEAAXW4HitType@1@@Z */
+  if (param_1 == 0) {
+    this[0x209] = (GOVSelectHitElement)0x1;
+    *(undefined2 *)(this + 0x20a) = 0;
+  }
+  else {
+    if (param_1 == 1) {
+      *(undefined2 *)(this + 0x20a) = 1;
+      this[0x209] = (GOVSelectHitElement)0x1;
+      return;
+    }
+    if (param_1 == 2) {
+      this[0x209] = (GOVSelectHitElement)0x0;
+      *(undefined2 *)(this + 0x20a) = 0;
+      return;
+    }
+    if (param_1 == 3) {
+      *(undefined2 *)(this + 0x20a) = 1;
+      this[0x209] = (GOVSelectHitElement)0x0;
+      return;
+    }
+    if (param_1 == 4) {
+      this[0x20b] = (GOVSelectHitElement)0x1;
+      return;
+    }
+  }
+  return;
+}
+
+

@@ -1,0 +1,13 @@
+Number of Sections: 6
+Size of Optional Header: 240
+PE offset: 0x108
+Machine: 0x8664
+TimeDateStamp: 1710261525
+
+--- Section Headers ---
+Section .text: VA=0x1000, VSize=0x2EFFBB, RawPtr=0x400, RawSize=0x2F0000
+Section .rdata: VA=0x2F1000, VSize=0x11606E, RawPtr=0x2F0400, RawSize=0x116200
+Section .data: VA=0x408000, VSize=0x71218, RawPtr=0x406600, RawSize=0x6E000
+Section .pdata: VA=0x47A000, VSize=0x1C770, RawPtr=0x474600, RawSize=0x1C800
+Section .rsrc: VA=0x497000, VSize=0x1E0, RawPtr=0x490E00, RawSize=0x200
+Section .reloc: VA=0x498000, VSize=0xA524, RawPtr=0x491000, RawSize=0xA600

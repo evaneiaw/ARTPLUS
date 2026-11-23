@@ -1,0 +1,8 @@
+requested=0x1800adb10
+resolvedAddress=1800adb10
+minAddress=180000000
+inMemory=true
+isFunctionEntry=false
+containingFunction=1800ad9c0 FUN_1800ad9c0
+status=NO_FUNCTION_AT_ENTRY
+bytes=849a000000488b8f900000004885c97449488b97a0000000482bd14883e2f848

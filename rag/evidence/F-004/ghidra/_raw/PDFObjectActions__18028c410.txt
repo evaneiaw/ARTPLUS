@@ -1,0 +1,143 @@
+address: 18028c410
+name: GOVSelectOverlapping::Select
+signature: bool __thiscall Select(GOPage * param_1)
+body_bytes: 778
+param_count: 2
+
+[callers]
+[callees]
+  EXTERNAL:00000888 PDFOBJECTLAYER.DLL::GOPage::Accept
+  180304aa0 GOVGetObjectBBoxes::~GOVGetObjectBBoxes
+  EXTERNAL:00000f8d BASICFRAMEWORKCORELAYER.DLL::GAllocator::Free
+  180304a00 GOVGetObjectBBoxes::GOVGetObjectBBoxes
+  EXTERNAL:00000fd3 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::Intersects
+  180289680 GOVSelectOperatorRoll::GOVSelectOperatorRoll
+  1800396c0 GSet<GOOCGroup_const*___ptr64>::AddItem
+  EXTERNAL:00000198 PDFOBJECTTOOLSLAYER.DLL::GOVDefaultSelect::~GOVDefaultSelect
+  EXTERNAL:00000f8e BASICFRAMEWORKCORELAYER.DLL::GAllocator::GetInstance
+  EXTERNAL:00000ef0 BASICFRAMEWORKCORELAYER.DLL::GProgress::GProgress
+  EXTERNAL:00000ef1 BASICFRAMEWORKCORELAYER.DLL::GProgress::~GProgress
+[string_refs]
+[pointer_hits_non_exec]
+  .rdata:1804f1d10
+
+[decompiled]
+
+/* public: virtual bool __cdecl GOVSelectOverlapping::Select(class GOPage & __ptr64) __ptr64 */
+
+bool __thiscall GOVSelectOverlapping::Select(GOVSelectOverlapping *this,GOPage *param_1)
+
+{
+  bool bVar1;
+  GAllocator *pGVar2;
+  void *pvVar3;
+  int iVar4;
+  longlong lVar5;
+  longlong lVar6;
+  void *pvVar7;
+  int iVar8;
+  GProgress local_res18 [8];
+  void *local_818;
+  undefined8 local_810;
+  longlong local_808;
+  void *local_800;
+  undefined8 local_7f8;
+  longlong local_7f0;
+  GOVSelectOperatorRoll local_7e8 [496];
+  GOVGetObjectBBoxes local_5f8 [496];
+  GOVSelectOperatorRoll local_408 [496];
+  GOVGetObjectBBoxes local_218 [496];
+  
+                    /* 0x28c410  13458  ?Select@GOVSelectOverlapping@@UEAA_NAEAVGOPage@@@Z */
+  local_800 = (void *)0x0;
+  local_7f8 = 0;
+  local_7f0 = 0;
+  local_818 = (void *)0x0;
+  local_810 = 0;
+  local_808 = 0;
+  GProgress::GProgress(local_res18,0.0);
+  GOVGetObjectBBoxes::GOVGetObjectBBoxes
+            (local_218,(GTable<GPair<GOElement*___ptr64,GRectBase<double>_>_> *)&local_800);
+  GOPage::Accept(param_1,(GOVisitor *)local_218);
+  GOVSelectOperatorRoll::GOVSelectOperatorRoll(local_408,2,1);
+  GOPage::Accept(param_1,(GOVisitor *)local_408);
+  GOVGetObjectBBoxes::GOVGetObjectBBoxes
+            (local_5f8,(GTable<GPair<GOElement*___ptr64,GRectBase<double>_>_> *)&local_818);
+  GOPage::Accept(param_1,(GOVisitor *)local_5f8);
+  GOVSelectOperatorRoll::GOVSelectOperatorRoll(local_7e8,2,1);
+  GOPage::Accept(param_1,(GOVisitor *)local_7e8);
+  iVar8 = 0;
+  if (0 < local_810._4_4_) {
+    lVar5 = 0;
+    pvVar3 = local_818;
+    pvVar7 = local_800;
+    do {
+      iVar4 = 0;
+      if (0 < local_7f8._4_4_) {
+        lVar6 = 0;
+        do {
+          if (*(longlong *)(lVar5 + (longlong)pvVar3) != *(longlong *)(lVar6 + (longlong)pvVar7)) {
+            bVar1 = GRectBase<double>::Intersects
+                              ((GRectBase<double> *)((longlong)pvVar3 + (longlong)iVar8 * 0x28 + 8),
+                               (GRectBase<double> *)
+                               ((longlong)pvVar7 + ((longlong)iVar4 * 5 + 1) * 8),
+                               (GComparator<double> *)(this + 0x1e0),
+                               (GComparator<double> *)(this + 0x200));
+            if (bVar1) {
+              GSet<GOOCGroup_const*___ptr64>::AddItem
+                        ((GSet<GOOCGroup_const*___ptr64> *)(this + 0x220),
+                         (GOOCGroup **)((longlong)local_818 + (longlong)iVar8 * 0x28));
+              pvVar3 = local_818;
+              pvVar7 = local_800;
+              break;
+            }
+            pvVar3 = local_818;
+            pvVar7 = local_800;
+          }
+          iVar4 = iVar4 + 1;
+          lVar6 = lVar6 + 0x28;
+        } while (iVar4 < local_7f8._4_4_);
+      }
+      iVar8 = iVar8 + 1;
+      lVar5 = lVar5 + 0x28;
+    } while (iVar8 < local_810._4_4_);
+  }
+  GOVDefaultSelect::~GOVDefaultSelect((GOVDefaultSelect *)local_7e8);
+  GOVGetObjectBBoxes::~GOVGetObjectBBoxes(local_5f8);
+  GOVDefaultSelect::~GOVDefaultSelect((GOVDefaultSelect *)local_408);
+  GOVGetObjectBBoxes::~GOVGetObjectBBoxes(local_218);
+  GProgress::~GProgress(local_res18);
+  lVar5 = local_808;
+  if ((int)local_810 != 0) {
+    local_810 = local_810 & 0xffffffff;
+    for (; lVar5 != 0; lVar5 = *(longlong *)(lVar5 + 0x18)) {
+      if ((*(int *)(lVar5 + 0x10) != 1) && (-1 < *(int *)(lVar5 + 0xc))) {
+        *(int *)(lVar5 + 0xc) = *(int *)(lVar5 + 0xc);
+      }
+    }
+    pGVar2 = GAllocator::GetInstance();
+    GAllocator::Free(pGVar2,local_818,(longlong)(int)local_810 * 0x28);
+    lVar5 = local_808;
+  }
+  for (; lVar5 != 0; lVar5 = *(longlong *)(lVar5 + 0x18)) {
+    *(undefined4 *)(lVar5 + 0xc) = 0xffffffff;
+    *(undefined4 *)(lVar5 + 0x10) = 1;
+  }
+  if ((int)local_7f8 != 0) {
+    local_7f8 = local_7f8 & 0xffffffff;
+    for (lVar5 = local_7f0; lVar5 != 0; lVar5 = *(longlong *)(lVar5 + 0x18)) {
+      if ((*(int *)(lVar5 + 0x10) != 1) && (-1 < *(int *)(lVar5 + 0xc))) {
+        *(int *)(lVar5 + 0xc) = *(int *)(lVar5 + 0xc);
+      }
+    }
+    pGVar2 = GAllocator::GetInstance();
+    GAllocator::Free(pGVar2,local_800,(longlong)(int)local_7f8 * 0x28);
+  }
+  for (; local_7f0 != 0; local_7f0 = *(longlong *)(local_7f0 + 0x18)) {
+    *(undefined4 *)(local_7f0 + 0xc) = 0xffffffff;
+    *(undefined4 *)(local_7f0 + 0x10) = 1;
+  }
+  return false;
+}
+
+

@@ -1,0 +1,4 @@
+@echo off
+set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot
+call "H:\Desktop\ArtPlus\tools\ghidra_12.2_PUBLIC\support\analyzeHeadless.bat" "H:\Desktop\ArtPlus\tools\ghidra_projects" ArtProPlus_Document -process Document.dll -noanalysis -readOnly -scriptPath "H:\Desktop\ArtPlus\tools\ghidra_analysis\scripts" -postScript DumpF005Refs.java "H:\Desktop\ArtPlus\tools\ghidra_analysis\f005_refs3.txt" str:0x1802eaae8 str:0x1802fd848 str:0x1802fd870 fn:0x1800a2c10
+call "H:\Desktop\ArtPlus\tools\ghidra_12.2_PUBLIC\support\analyzeHeadless.bat" "H:\Desktop\ArtPlus\tools\ghidra_projects" ArtProPlus_Document -process Document.dll -noanalysis -readOnly -scriptPath "H:\Desktop\ArtPlus\tools\ghidra_analysis\scripts" -postScript DumpF005Vtable.java "H:\Desktop\ArtPlus\tools\ghidra_analysis\f005_vtables2.txt" vt:0x1802eab68:6 vt:0x1802ea970:5

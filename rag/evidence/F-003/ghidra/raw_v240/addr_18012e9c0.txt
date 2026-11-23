@@ -1,0 +1,86 @@
+requested=0x18012e9c0
+resolvedAddress=18012e9c0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012e9c0 ValidateAnchors
+status=OK
+entry=18012e9c0
+name=ValidateAnchors
+qualifiedName=DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=void ValidateAnchors(PDFPlusBearerBar * this)
+returnType=void
+parameterCount=1
+bodyMin=18012e9c0
+bodyMax=18012ea3d
+bodySize=126
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abb1c refType=DATA fromFunction=
+18048648c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18012f754 refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+
+[CALLERS]
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+
+[CALLEES]
+180108450 DocumentMarks::MarkPosition::setAnchors
+EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+
+[DIRECT_CALL_TARGETS]
+18012e9d5 -> 18012e9f8 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+18012e9da -> 18012ea33 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+18012e9e2 -> EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+18012e9f0 -> EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+18012e9f6 -> 18012ea12 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+18012e9fe -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+18012ea0c -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+18012ea18 -> 18012ea22 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+18012ea20 -> 18012ea33 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+18012ea2e -> 180108450 DocumentMarks::MarkPosition::setAnchors
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012e9c0 -> Stack[0x8] block=? sym=
+18012e9e2 -> 1802f3c90 block=.rdata sym=PTR_ToHorizontal_1802f3c90
+18012e9f0 -> 1802f3c90 block=.rdata sym=PTR_ToHorizontal_1802f3c90
+18012e9fe -> 1802f3c88 block=.rdata sym=PTR_ToVertical_1802f3c88
+18012ea0c -> 1802f3c88 block=.rdata sym=PTR_ToVertical_1802f3c88
+18012ea33 -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* protected: void __cdecl DocumentMarks::PDFPlusBearerBar::ValidateAnchors(void) __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusBearerBar::ValidateAnchors(PDFPlusBearerBar *this)
+
+{
+  Anchor AVar1;
+  Anchor AVar2;
+  
+                    /* 0x12e9c0  1714  ?ValidateAnchors@PDFPlusBearerBar@DocumentMarks@@IEAAXXZ */
+  if (*(int *)(this + 0x770) == 0) {
+    AVar1 = YAGL::ToVertical(*(Anchor *)(this + 0x418));
+    AVar2 = YAGL::ToVertical(*(Anchor *)(this + 0x41c));
+  }
+  else {
+    if (*(int *)(this + 0x770) != 1) {
+      return;
+    }
+    AVar1 = YAGL::ToHorizontal(*(Anchor *)(this + 0x418));
+    AVar2 = YAGL::ToHorizontal(*(Anchor *)(this + 0x41c));
+  }
+  if ((*(Anchor *)(this + 0x418) != AVar1) || (*(Anchor *)(this + 0x41c) != AVar2)) {
+    MarkPosition::setAnchors((MarkPosition *)(this + 0x390),AVar1,AVar2);
+  }
+  return;
+}
+
+

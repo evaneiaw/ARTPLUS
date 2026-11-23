@@ -1,0 +1,929 @@
+requested=0x180136190
+resolvedAddress=180136190
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180136190 regenerateMarkImp
+status=OK
+entry=180136190
+name=regenerateMarkImp
+qualifiedName=DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+namespace=DocumentMarks::PDFPlusCutMark
+signature=void regenerateMarkImp(PDFPlusCutMark * this)
+returnType=void
+parameterCount=1
+bodyMin=180136190
+bodyMax=180136de2
+bodySize=3143
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ac1ec refType=DATA fromFunction=
+1804868d0 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180316b98 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+EXTERNAL:000000c1 DOCUMENTEDIT.DLL::DocumentEdit::Expander::Expander
+EXTERNAL:0000045e LOCALIZATION.DLL::Localization::PointUnit
+18006c280 FUN_18006c280
+EXTERNAL:00000456 LOCALIZATION.DLL::Localization::Unit::~Unit
+18004a3b0 FUN_18004a3b0
+1802ccfe6 API-MS-WIN-CRT-MATH-L1-1-0.DLL::cos
+180297e70 FUN_180297e70
+180134b00 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+EXTERNAL:00000223 DOCUMENT.DLL::ArtPaint::FormPaint::GetContent
+18012a530 DocumentMarks::GetPDFPlusBoundingBox
+EXTERNAL:00000176 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::ActionGroupCreator
+180019a50 FUN_180019a50
+EXTERNAL:0000024a DOCUMENT.DLL::ArtDoc::Group::Group
+180297130 FUN_180297130
+EXTERNAL:00000177 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::~ActionGroupCreator
+EXTERNAL:00000458 LOCALIZATION.DLL::Localization::Quantity::~Quantity
+EXTERNAL:000000ce DOCUMENTEDIT.DLL::DocumentEdit::Delete
+EXTERNAL:0000045b LOCALIZATION.DLL::Localization::CanConvert
+EXTERNAL:0000045a LOCALIZATION.DLL::Localization::Quantity::GetValueForUnit
+EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+EXTERNAL:000000cc DOCUMENTEDIT.DLL::DocumentEdit::Expander::~Expander
+180071630 DocumentMarks::DynamicMark::GetSourceContent
+180016510 FUN_180016510
+EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+1802cbfd0 __security_check_cookie
+EXTERNAL:000000cb DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectOnTop
+1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+EXTERNAL:0000045c LOCALIZATION.DLL::Localization::FormulaException::FormulaException
+1802ccff2 API-MS-WIN-CRT-MATH-L1-1-0.DLL::atan2
+1802cbe68 FUN_1802cbe68
+EXTERNAL:00000247 DOCUMENT.DLL::ArtDoc::Transformable::GetTransformation
+18006e460 DocumentMarks::DynamicMark::ApplyPDFPlusColor
+180298840 FUN_180298840
+1802988f0 FUN_1802988f0
+1802ccfec API-MS-WIN-CRT-MATH-L1-1-0.DLL::sin
+EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::Transformable::SetTransformation
+EXTERNAL:000001b0 DOCUMENT.DLL::ArtDoc::GetVariableContextForObjectTarget
+EXTERNAL:0000045d LOCALIZATION.DLL::Localization::Evaluate
+1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+
+[DIRECT_CALL_TARGETS]
+180136219 -> 180136235 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136223 -> EXTERNAL:000000ce DOCUMENTEDIT.DLL::DocumentEdit::Delete
+180136233 -> 180136220 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013623d -> 180297e70 FUN_180297e70
+18013624b -> 180136261 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136254 -> 18006c280 FUN_18006c280
+18013626b -> 180136420 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136275 -> 1801364c3 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013628a -> EXTERNAL:000001b0 DOCUMENT.DLL::ArtDoc::GetVariableContextForObjectTarget
+180136314 -> EXTERNAL:0000045d LOCALIZATION.DLL::Localization::Evaluate
+180136326 -> 180136344 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136339 -> 180016510 FUN_180016510
+18013634f -> 18013636d DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136362 -> 180016510 FUN_180016510
+180136375 -> EXTERNAL:0000045e LOCALIZATION.DLL::Localization::PointUnit
+180136387 -> EXTERNAL:0000045b LOCALIZATION.DLL::Localization::CanConvert
+180136398 -> EXTERNAL:00000456 LOCALIZATION.DLL::Localization::Unit::~Unit
+1801363a0 -> 180136dac DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801363ae -> EXTERNAL:0000045e LOCALIZATION.DLL::Localization::PointUnit
+1801363c0 -> EXTERNAL:0000045a LOCALIZATION.DLL::Localization::Quantity::GetValueForUnit
+1801363d1 -> EXTERNAL:00000456 LOCALIZATION.DLL::Localization::Unit::~Unit
+1801363e7 -> EXTERNAL:00000458 LOCALIZATION.DLL::Localization::Quantity::~Quantity
+180136412 -> 180136432 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013643d -> 180071630 DocumentMarks::DynamicMark::GetSourceContent
+180136446 -> EXTERNAL:00000223 DOCUMENT.DLL::ArtPaint::FormPaint::GetContent
+180136457 -> 18012a530 DocumentMarks::GetPDFPlusBoundingBox
+180136468 -> 180136499 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136477 -> 180136499 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013648e -> 180136499 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801364a5 -> 180136505 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801364b5 -> 180136505 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801364c1 -> 180136508 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801364c6 -> 180136420 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801364d0 -> 180136420 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136500 -> 180136432 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136535 -> 1801365a8 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013653b -> 1801365a8 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136540 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18013654c -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18013656a -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+180136572 -> 1801365a8 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013659e -> 1802988f0 FUN_1802988f0
+1801365a3 -> 180136690 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801365b3 -> 180134b00 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+180136636 -> 180136d2f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136641 -> 180136d2f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013668b -> 180298840 FUN_180298840
+1801366a4 -> 180136d2f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801366c7 -> 1802cbe68 FUN_1802cbe68
+1801366d7 -> 1801366f7 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801366e1 -> EXTERNAL:0000024a DOCUMENT.DLL::ArtDoc::Group::Group
+1801366f5 -> 1801366fa DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136762 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18013676b -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+1801367a1 -> EXTERNAL:000000c1 DOCUMENTEDIT.DLL::DocumentEdit::Expander::Expander
+1801367b3 -> 1801367d1 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801367c6 -> 180016510 FUN_180016510
+1801367dc -> 1801367fa DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801367ef -> 180016510 FUN_180016510
+180136805 -> 180136823 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136818 -> 180016510 FUN_180016510
+18013682e -> 180071630 DocumentMarks::DynamicMark::GetSourceContent
+180136837 -> EXTERNAL:00000223 DOCUMENT.DLL::ArtPaint::FormPaint::GetContent
+18013685e -> 18013688f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+18013686d -> 18013688f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136884 -> 18013688f DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801368fb -> 1802ccff2 API-MS-WIN-CRT-MATH-L1-1-0.DLL::atan2
+180136903 -> 1802ccfe6 API-MS-WIN-CRT-MATH-L1-1-0.DLL::cos
+18013690e -> 1802ccfec API-MS-WIN-CRT-MATH-L1-1-0.DLL::sin
+180136966 -> EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::Transformable::SetTransformation
+180136978 -> 18012a530 DocumentMarks::GetPDFPlusBoundingBox
+180136985 -> 1801369ee DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+1801369e9 -> 180136a91 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136ada -> 180136af8 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136adc -> 180136af8 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136af6 -> 180136b1d DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136afd -> 180136b14 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b12 -> 180136b1d DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b46 -> 180136b55 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b48 -> 180136b55 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b53 -> 180136b65 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b5a -> 180136b62 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b60 -> 180136b65 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136b68 -> EXTERNAL:00000247 DOCUMENT.DLL::ArtDoc::Transformable::GetTransformation
+180136ca0 -> EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::Transformable::SetTransformation
+180136ca9 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+180136cb2 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180136cc9 -> EXTERNAL:00000176 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::ActionGroupCreator
+180136cde -> EXTERNAL:000000cb DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectOnTop
+180136cea -> 18006e460 DocumentMarks::DynamicMark::ApplyPDFPlusColor
+180136cf8 -> EXTERNAL:00000177 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::~ActionGroupCreator
+180136d07 -> EXTERNAL:000000cc DOCUMENTEDIT.DLL::DocumentEdit::Expander::~Expander
+180136d29 -> 1801366c2 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180136d34 -> 18004a3b0 FUN_18004a3b0
+180136d42 -> 180297130 FUN_180297130
+180136d52 -> 1802cbfd0 __security_check_cookie
+180136db4 -> 180019a50 FUN_180019a50
+180136dc9 -> EXTERNAL:0000045c LOCALIZATION.DLL::Localization::FormulaException::FormulaException
+180136dde -> 1802ccf6e VCRUNTIME140.DLL::_CxxThrowException
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180136193 -> Stack[0x10] block=? sym=
+180136197 -> Stack[0x18] block=? sym=
+1801361ab -> Stack[-0x38] block=? sym=
+1801361af -> Stack[-0x48] block=? sym=
+1801361b3 -> Stack[-0x58] block=? sym=
+1801361b8 -> Stack[-0x68] block=? sym=
+1801361bd -> Stack[-0x78] block=? sym=
+1801361c2 -> Stack[-0x88] block=? sym=
+1801361ca -> Stack[-0x98] block=? sym=
+1801361d2 -> Stack[-0xa8] block=? sym=
+1801361da -> Stack[-0xb8] block=? sym=
+1801361e2 -> Stack[-0xc8] block=? sym=
+1801361ea -> 180409ec0 block=.data sym=DAT_180409ec0
+1801361f4 -> Stack[-0xd8] block=? sym=
+1801361ff -> Stack[-0x9e8] block=? sym=
+18013620a -> Stack[-0xa08] block=? sym=
+180136223 -> 1802f2d70 block=.rdata sym=PTR_Delete_1802f2d70
+180136235 -> Stack[-0x9b8] block=? sym=
+18013627b -> Stack[-0xa08] block=? sym=
+180136280 -> 1804082c8 block=.data sym=DocumentMarks::kPageContext
+18013628a -> 1802f1958 block=.rdata sym=PTR_GetVariableContextForObjectTarget_1802f1958
+180136290 -> Stack[-0x6d8] block=? sym=
+180136298 -> 180301990 block=.rdata sym=std::_Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>::vftable
+18013629f -> 180301990 block=.rdata sym=std::_Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>::vftable
+18013629f -> Stack[-0x4d8] block=? sym=
+1801362a7 -> 1800c90b0 block=.text sym=DocumentMarks::EvaluateFunction
+1801362ae -> 1800c90b0 block=.text sym=DocumentMarks::EvaluateFunction
+1801362ae -> Stack[-0x4d0] block=? sym=
+1801362b6 -> Stack[-0x4d8] block=? sym=
+1801362be -> Stack[-0x4a0] block=? sym=
+1801362c6 -> 180316c88 block=.rdata sym=std::_Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>___cdecl__anon_A30AA6C0::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>::vftable
+1801362cd -> 180316c88 block=.rdata sym=std::_Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>___cdecl__anon_A30AA6C0::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>::vftable
+1801362cd -> Stack[-0x498] block=? sym=
+1801362d5 -> Stack[-0x490] block=? sym=
+1801362dc -> Stack[-0x498] block=? sym=
+1801362e4 -> Stack[-0x460] block=? sym=
+1801362ec -> Stack[-0x6f8] block=? sym=
+1801362f4 -> Stack[-0xa18] block=? sym=
+1801362f9 -> Stack[-0x4d8] block=? sym=
+180136301 -> Stack[-0x498] block=? sym=
+18013630c -> Stack[-0x838] block=? sym=
+180136314 -> 1802f3268 block=.rdata sym=PTR_Evaluate_1802f3268
+18013631b -> Stack[-0x460] block=? sym=
+180136328 -> Stack[-0x498] block=? sym=
+18013632b -> Stack[-0x498] block=? sym=
+180136339 -> 180316ca8 block=.rdata sym=vftable[4]
+18013633c -> Stack[-0x460] block=? sym=
+180136344 -> Stack[-0x4a0] block=? sym=
+180136351 -> Stack[-0x4d8] block=? sym=
+180136354 -> Stack[-0x4d8] block=? sym=
+180136362 -> 1803019b0 block=.rdata sym=vftable[4]
+180136365 -> Stack[-0x4a0] block=? sym=
+18013636d -> Stack[-0x630] block=? sym=
+180136375 -> 1802f3270 block=.rdata sym=PTR_PointUnit_1802f3270
+18013637f -> Stack[-0x838] block=? sym=
+180136387 -> 1802f3258 block=.rdata sym=PTR_CanConvert_1802f3258
+180136390 -> Stack[-0x630] block=? sym=
+180136398 -> 1802f3230 block=.rdata sym=PTR_~Unit_1802f3230
+1801363a6 -> Stack[-0x6d0] block=? sym=
+1801363ae -> 1802f3270 block=.rdata sym=PTR_PointUnit_1802f3270
+1801363b8 -> Stack[-0x838] block=? sym=
+1801363c0 -> 1802f3250 block=.rdata sym=PTR_GetValueForUnit_1802f3250
+1801363c9 -> Stack[-0x6d0] block=? sym=
+1801363d1 -> 1802f3230 block=.rdata sym=PTR_~Unit_1802f3230
+1801363d7 -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+1801363df -> Stack[-0x838] block=? sym=
+1801363e7 -> 1802f3240 block=.rdata sym=PTR_~Quantity_1802f3240
+1801363ed -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+1801363fb -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+180136409 -> Stack[-0x9a8] block=? sym=
+180136420 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+180136429 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+180136432 -> Stack[-0x920] block=? sym=
+180136446 -> 1802f1cf0 block=.rdata sym=PTR_GetContent_1802f1cf0
+18013644f -> Stack[-0x608] block=? sym=
+18013645d -> Stack[-0x918] block=? sym=
+18013649d -> Stack[-0x5b8] block=? sym=
+1801364a7 -> Stack[-0x5d8] block=? sym=
+1801364db -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+1801364e9 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+1801364f7 -> Stack[-0x9a8] block=? sym=
+180136508 -> Stack[-0x9b0] block=? sym=
+180136511 -> 1802fcf00 block=.rdata sym=dm::MarkPositionVector::vftable
+180136518 -> 1802fcf00 block=.rdata sym=dm::MarkPositionVector::vftable
+180136518 -> Stack[-0x9d8] block=? sym=
+180136520 -> Stack[-0x9d0] block=? sym=
+180136526 -> Stack[-0x9c0] block=? sym=
+180136540 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+18013654c -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+180136555 -> Stack[-0xa18] block=? sym=
+18013655a -> 18040b9f8 block=.data sym=DocumentMarks::GridInterface::RTTI_Type_Descriptor
+180136561 -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18013657b -> Stack[-0x5a8] block=? sym=
+180136589 -> Stack[-0x9d8] block=? sym=
+18013658e -> Stack[-0x5a8] block=? sym=
+180136596 -> Stack[-0x9b8] block=? sym=
+1801365a8 -> Stack[-0x528] block=? sym=
+1801365bc -> Stack[-0x650] block=? sym=
+1801365c8 -> Stack[-0x640] block=? sym=
+1801365e1 -> Stack[-0x690] block=? sym=
+1801365ed -> Stack[-0x888] block=? sym=
+180136647 -> Stack[-0x988] block=? sym=
+180136657 -> Stack[-0x980] block=? sym=
+180136664 -> Stack[-0x978] block=? sym=
+18013666d -> Stack[-0x970] block=? sym=
+180136676 -> Stack[-0x9d8] block=? sym=
+18013667b -> Stack[-0x988] block=? sym=
+180136683 -> Stack[-0x9b8] block=? sym=
+180136693 -> Stack[-0x9c8] block=? sym=
+180136698 -> Stack[-0x9d0] block=? sym=
+1801366aa -> 1802fbad8 block=.rdata sym=ArtDoc::Group::vftable
+1801366b1 -> 1802fdca0 block=.rdata sym=DAT_1802fdca0
+1801366ba -> Stack[-0x888] block=? sym=
+1801366cf -> Stack[-0x9e0] block=? sym=
+1801366e1 -> 1802f1e28 block=.rdata sym=PTR_Group_1802f1e28
+1801366e7 -> 1802fbad8 block=.rdata sym=ArtDoc::Group::vftable
+1801366ea -> 1802fbb40 block=.rdata sym=ArtDoc::Group::vftable
+1801366f1 -> 1802fbb40 block=.rdata sym=ArtDoc::Group::vftable
+1801366fa -> Stack[-0x9e8] block=? sym=
+180136702 -> 180316d30 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_3>,bool,ArtDoc::Group_const&___ptr64>::vftable
+180136709 -> 180316d30 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_3>,bool,ArtDoc::Group_const&___ptr64>::vftable
+180136709 -> Stack[-0x458] block=? sym=
+180136711 -> Stack[-0x458] block=? sym=
+180136719 -> Stack[-0x420] block=? sym=
+180136721 -> 180316cf8 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_2>,bool,ArtDoc::Group_const&___ptr64>::vftable
+180136728 -> 180316cf8 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_2>,bool,ArtDoc::Group_const&___ptr64>::vftable
+180136728 -> Stack[-0x3d8] block=? sym=
+180136730 -> Stack[-0x3d8] block=? sym=
+180136738 -> Stack[-0x3a0] block=? sym=
+180136740 -> 180316cc0 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_1>,bool,ArtDoc::Layer_const&___ptr64>::vftable
+180136747 -> 180316cc0 block=.rdata sym=std::_Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_1>,bool,ArtDoc::Layer_const&___ptr64>::vftable
+180136747 -> Stack[-0x418] block=? sym=
+18013674f -> Stack[-0x418] block=? sym=
+180136757 -> Stack[-0x3e0] block=? sym=
+180136762 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+18013676b -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180136771 -> Stack[-0x458] block=? sym=
+180136779 -> Stack[-0xa10] block=? sym=
+18013677e -> Stack[-0x3d8] block=? sym=
+180136786 -> Stack[-0xa18] block=? sym=
+18013678b -> Stack[-0x418] block=? sym=
+180136799 -> Stack[-0x358] block=? sym=
+1801367a1 -> 1802f2d08 block=.rdata sym=PTR_Expander_1802f2d08
+1801367a8 -> Stack[-0x3e0] block=? sym=
+1801367b5 -> Stack[-0x418] block=? sym=
+1801367b8 -> Stack[-0x418] block=? sym=
+1801367c6 -> 180316ce0 block=.rdata sym=vftable[4]
+1801367c9 -> Stack[-0x3e0] block=? sym=
+1801367d1 -> Stack[-0x3a0] block=? sym=
+1801367de -> Stack[-0x3d8] block=? sym=
+1801367e1 -> Stack[-0x3d8] block=? sym=
+1801367ef -> 180316d18 block=.rdata sym=vftable[4]
+1801367f2 -> Stack[-0x3a0] block=? sym=
+1801367fa -> Stack[-0x420] block=? sym=
+180136807 -> Stack[-0x458] block=? sym=
+18013680a -> Stack[-0x458] block=? sym=
+180136818 -> 180316d50 block=.rdata sym=vftable[4]
+18013681b -> Stack[-0x420] block=? sym=
+180136823 -> Stack[-0x910] block=? sym=
+180136837 -> 1802f1cf0 block=.rdata sym=PTR_GetContent_1802f1cf0
+180136844 -> Stack[-0x358] block=? sym=
+180136853 -> Stack[-0x908] block=? sym=
+18013688f -> Stack[-0x9d0] block=? sym=
+1801368ad -> Stack[-0x8a8] block=? sym=
+1801368b5 -> Stack[-0x8a0] block=? sym=
+180136916 -> 1802fd1b0 block=.rdata sym=DAT_1802fd1b0
+18013691d -> Stack[-0x878] block=? sym=
+180136926 -> Stack[-0x870] block=? sym=
+18013692f -> Stack[-0x868] block=? sym=
+180136938 -> Stack[-0x860] block=? sym=
+180136941 -> Stack[-0x850] block=? sym=
+18013694b -> Stack[-0x840] block=? sym=
+18013695b -> Stack[-0x878] block=? sym=
+180136966 -> 1802f1e08 block=.rdata sym=PTR_SetTransformation_1802f1e08
+180136970 -> Stack[-0x758] block=? sym=
+18013697d -> Stack[-0x708] block=? sym=
+18013698a -> Stack[-0x750] block=? sym=
+180136992 -> Stack[-0x7b8] block=? sym=
+18013699a -> Stack[-0x740] block=? sym=
+1801369a2 -> Stack[-0x7a8] block=? sym=
+1801369aa -> Stack[-0x730] block=? sym=
+1801369b2 -> Stack[-0x798] block=? sym=
+1801369ba -> Stack[-0x720] block=? sym=
+1801369c2 -> Stack[-0x788] block=? sym=
+1801369ca -> Stack[-0x710] block=? sym=
+1801369d2 -> Stack[-0x778] block=? sym=
+1801369d9 -> Stack[-0x7b8] block=? sym=
+1801369e1 -> Stack[-0x798] block=? sym=
+1801369f1 -> Stack[-0x900] block=? sym=
+1801369fe -> Stack[-0x900] block=? sym=
+180136a06 -> Stack[-0x808] block=? sym=
+180136a0e -> Stack[-0x8e8] block=? sym=
+180136a1b -> Stack[-0x8e8] block=? sym=
+180136a28 -> Stack[-0x9f8] block=? sym=
+180136a2d -> Stack[-0x7e8] block=? sym=
+180136a35 -> Stack[-0x8d8] block=? sym=
+180136a42 -> Stack[-0x8d8] block=? sym=
+180136a4a -> Stack[-0x7f8] block=? sym=
+180136a52 -> Stack[-0x8c8] block=? sym=
+180136a5f -> Stack[-0x8c8] block=? sym=
+180136a6c -> Stack[-0x9f8] block=? sym=
+180136a71 -> Stack[-0x7d8] block=? sym=
+180136a79 -> Stack[-0x7c8] block=? sym=
+180136a81 -> Stack[-0x808] block=? sym=
+180136a89 -> Stack[-0x7e8] block=? sym=
+180136a91 -> Stack[-0x798] block=? sym=
+180136aab -> Stack[-0x7b8] block=? sym=
+180136aae -> Stack[-0x660] block=? sym=
+180136ab6 -> Stack[-0x8a8] block=? sym=
+180136abe -> Stack[-0xa08] block=? sym=
+180136acf -> Stack[-0xa00] block=? sym=
+180136ade -> Stack[-0xa08] block=? sym=
+180136ae3 -> Stack[-0x9f8] block=? sym=
+180136aff -> Stack[-0xa08] block=? sym=
+180136b04 -> Stack[-0x9f8] block=? sym=
+180136b14 -> Stack[-0xa08] block=? sym=
+180136b1d -> Stack[-0x7a8] block=? sym=
+180136b21 -> Stack[-0x680] block=? sym=
+180136b29 -> Stack[-0x780] block=? sym=
+180136b68 -> 1802f1e10 block=.rdata sym=PTR_GetTransformation_1802f1e10
+180136b7f -> Stack[-0x968] block=? sym=
+180136b96 -> Stack[-0x960] block=? sym=
+180136bae -> Stack[-0x958] block=? sym=
+180136bc6 -> Stack[-0x950] block=? sym=
+180136bd3 -> Stack[-0x670] block=? sym=
+180136bdf -> Stack[-0xa08] block=? sym=
+180136be8 -> Stack[-0xa08] block=? sym=
+180136bf1 -> Stack[-0xa08] block=? sym=
+180136c07 -> Stack[-0x9f8] block=? sym=
+180136c0c -> Stack[-0x9f8] block=? sym=
+180136c16 -> Stack[-0x9f8] block=? sym=
+180136c1b -> Stack[-0x948] block=? sym=
+180136c23 -> Stack[-0x940] block=? sym=
+180136c30 -> Stack[-0x8a8] block=? sym=
+180136c3c -> Stack[-0x9f8] block=? sym=
+180136c4a -> Stack[-0x9f0] block=? sym=
+180136c50 -> Stack[-0x9f8] block=? sym=
+180136c61 -> Stack[-0x998] block=? sym=
+180136c69 -> Stack[-0x998] block=? sym=
+180136c76 -> Stack[-0x998] block=? sym=
+180136c7e -> Stack[-0x938] block=? sym=
+180136c86 -> Stack[-0x930] block=? sym=
+180136c95 -> Stack[-0x968] block=? sym=
+180136ca0 -> 1802f1e08 block=.rdata sym=PTR_SetTransformation_1802f1e08
+180136ca9 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+180136cb2 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180136cc1 -> Stack[-0x8b8] block=? sym=
+180136cc9 -> 1802f1788 block=.rdata sym=PTR_ActionGroupCreator_1802f1788
+180136cd0 -> Stack[-0x9e8] block=? sym=
+180136cde -> 1802f2d58 block=.rdata sym=PTR_InsertNewObjectOnTop_1802f2d58
+180136cf0 -> Stack[-0x8b8] block=? sym=
+180136cf8 -> 1802f1790 block=.rdata sym=PTR_~ActionGroupCreator_1802f1790
+180136cff -> Stack[-0x358] block=? sym=
+180136d07 -> 1802f2d60 block=.rdata sym=PTR_~Expander_1802f2d60
+180136d11 -> Stack[-0x9c8] block=? sym=
+180136d16 -> Stack[-0x9d0] block=? sym=
+180136d22 -> 1802fbad8 block=.rdata sym=ArtDoc::Group::vftable
+180136d2f -> Stack[-0x9d8] block=? sym=
+180136d3a -> Stack[-0x9b8] block=? sym=
+180136d47 -> Stack[-0xd8] block=? sym=
+180136d57 -> Stack[-0x30] block=? sym=
+180136d5f -> Stack[0x8] block=? sym=
+180136d63 -> Stack[0x10] block=? sym=
+180136d67 -> Stack[-0x40] block=? sym=
+180136d6c -> Stack[-0x50] block=? sym=
+180136d71 -> Stack[-0x60] block=? sym=
+180136d76 -> Stack[-0x70] block=? sym=
+180136d7b -> Stack[-0x80] block=? sym=
+180136d80 -> Stack[-0x90] block=? sym=
+180136d85 -> Stack[-0xa0] block=? sym=
+180136d8a -> Stack[-0xb0] block=? sym=
+180136d8f -> Stack[-0xc0] block=? sym=
+180136d97 -> Stack[-0xd0] block=? sym=
+180136dac -> Stack[-0x770] block=? sym=
+180136dc1 -> Stack[-0x6b0] block=? sym=
+180136dc9 -> 1802f3260 block=.rdata sym=PTR_FormulaException_1802f3260
+180136dcf -> 1803a94e8 block=.rdata sym=DAT_1803a94e8
+180136dd6 -> Stack[-0x6b0] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: virtual void __cdecl DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void) __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::regenerateMarkImp(PDFPlusCutMark *this)
+
+{
+  int *piVar1;
+  longlong *plVar2;
+  PDFPlusCutMark *pPVar3;
+  int iVar4;
+  double *pdVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  double dVar9;
+  double dVar10;
+  double dVar11;
+  bool bVar12;
+  bool bVar13;
+  bool bVar14;
+  bool bVar15;
+  Unit *pUVar16;
+  undefined8 *puVar17;
+  Content *pCVar18;
+  ContentObject *pCVar19;
+  longlong *plVar20;
+  longlong lVar21;
+  Group *this_00;
+  Document *pDVar22;
+  undefined8 *puVar23;
+  TransformationBase<YAGL::MilliPointCoordinateSystem> *pTVar24;
+  undefined8 uVar25;
+  ulonglong uVar26;
+  double dVar27;
+  undefined4 uVar28;
+  undefined4 uVar29;
+  undefined4 uVar30;
+  undefined4 uVar31;
+  undefined1 auStackY_a38 [32];
+  double dStack_a00;
+  undefined8 local_9f8;
+  undefined **local_9d8;
+  longlong local_9d0;
+  longlong lStack_9c8;
+  undefined8 local_9c0;
+  undefined1 local_9b8 [8];
+  double local_9b0;
+  double local_9a8;
+  undefined4 local_998;
+  undefined4 uStack_994;
+  double dStack_990;
+  double local_988;
+  double local_980;
+  double local_978;
+  double local_970;
+  double local_968;
+  double local_960;
+  double local_958;
+  double local_950;
+  undefined8 local_948;
+  double local_940;
+  undefined8 local_938;
+  double local_930;
+  longlong *local_918;
+  longlong *local_908;
+  undefined8 local_900;
+  undefined8 uStack_8f8;
+  undefined8 local_8e8;
+  undefined8 uStack_8e0;
+  undefined8 local_8d8;
+  undefined8 uStack_8d0;
+  undefined8 local_8c8;
+  undefined8 uStack_8c0;
+  ActionGroupCreator local_8b8 [16];
+  undefined8 local_8a8;
+  double dStack_8a0;
+  undefined8 local_888;
+  double dStack_880;
+  double local_878;
+  double local_870;
+  undefined8 local_868;
+  double local_860;
+  undefined8 local_850;
+  undefined8 local_840;
+  Quantity local_838 [48];
+  undefined8 local_808;
+  undefined8 uStack_800;
+  undefined8 local_7f8;
+  undefined8 uStack_7f0;
+  undefined8 local_7e8;
+  undefined8 uStack_7e0;
+  undefined8 local_7d8;
+  undefined8 uStack_7d0;
+  undefined1 local_7c8;
+  undefined8 local_7b8;
+  undefined8 uStack_7b0;
+  undefined8 local_7a8;
+  undefined8 uStack_7a0;
+  undefined8 local_798;
+  undefined8 uStack_790;
+  undefined8 local_788;
+  undefined8 uStack_780;
+  undefined1 local_778;
+  undefined1 local_770 [24];
+  Visitable local_758 [8];
+  undefined8 local_750;
+  undefined8 uStack_748;
+  undefined8 local_740;
+  undefined8 uStack_738;
+  undefined8 local_730;
+  undefined8 uStack_728;
+  undefined8 local_720;
+  undefined8 uStack_718;
+  undefined1 local_710;
+  char local_708;
+  undefined1 local_6d8;
+  Unit local_6d0 [32];
+  FormulaException local_6b0 [32];
+  undefined8 local_690;
+  double dStack_688;
+  undefined8 local_680;
+  double dStack_678;
+  undefined8 local_670;
+  double dStack_668;
+  undefined8 local_660;
+  double dStack_658;
+  undefined8 local_650;
+  double dStack_648;
+  undefined8 local_640;
+  double dStack_638;
+  Unit local_630 [40];
+  Visitable local_608 [48];
+  double local_5d8;
+  char local_5b8;
+  undefined1 local_5a8 [208];
+  undefined **local_4d8;
+  code *local_4d0;
+  undefined ***local_4a0;
+  undefined **local_498;
+  int local_490;
+  undefined ***local_460;
+  undefined **local_458 [7];
+  undefined ***local_420;
+  undefined **local_418 [7];
+  undefined ***local_3e0;
+  undefined **local_3d8 [7];
+  undefined ***local_3a0;
+  Expander local_358 [640];
+  ulonglong local_d8;
+  
+                    /* 0x136190  2150  ?regenerateMarkImp@PDFPlusCutMark@DocumentMarks@@MEAAXXZ */
+  local_d8 = DAT_180409ec0 ^ (ulonglong)auStackY_a38;
+  bVar14 = false;
+  bVar12 = false;
+  pCVar19 = *(ContentObject **)(this + 0x360);
+  while (pCVar19 != (ContentObject *)0x0) {
+    DocumentEdit::Delete(pCVar19);
+    pCVar19 = *(ContentObject **)(this + 0x360);
+  }
+  FUN_180297e70(local_9b8);
+  if (this[0x7b8] != (PDFPlusCutMark)0x0) {
+    FUN_18006c280(this + 0x778);
+    this[0x7b8] = (PDFPlusCutMark)0x0;
+  }
+  pPVar3 = this + 0x750;
+  uVar28 = SUB84(DAT_1802fa2e8,0);
+  uVar29 = (undefined4)((ulonglong)DAT_1802fa2e8 >> 0x20);
+  uVar30 = SUB84(DAT_1802fa2f0,0);
+  uVar31 = (undefined4)((ulonglong)DAT_1802fa2f0 >> 0x20);
+  if (pPVar3 != (PDFPlusCutMark *)0x0) {
+    if (this[0x770] == (PDFPlusCutMark)0x1) {
+      local_490 = ArtDoc::GetVariableContextForObjectTarget((ContentObject *)this,&kPageContext);
+      local_6d8 = 0;
+      local_4d8 = std::
+                  _Func_impl_no_alloc<class_Localization::Quantity_(__cdecl*)(std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64,std::vector<Localization::Quantity,std::allocator<Localization::Quantity>_>_const&___ptr64),Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64,std::vector<class_Localization::Quantity,class_std::allocator<class_Localization::Quantity>_>_>
+                  ::vftable;
+      local_4d0 = EvaluateFunction;
+      local_4a0 = &local_4d8;
+      local_498 = std::
+                  _Func_impl_no_alloc<`class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>___cdecl__anon_A30AA6C0::EvaluateFormula(DocumentMarks::PDFPlusCutMark_const&___ptr64,std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const&___ptr64)'::`2'::<lambda_1>,Localization::Quantity,std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const&___ptr64>
+                  ::vftable;
+      local_460 = &local_498;
+      Localization::Evaluate(local_838,pPVar3,&local_498,&local_4d8);
+      if (local_460 != (undefined ***)0x0) {
+        (*(code *)(*local_460)[4])
+                  (local_460,CONCAT71((int7)((ulonglong)&local_498 >> 8),local_460 != &local_498));
+        local_460 = (undefined ***)0x0;
+      }
+      if (local_4a0 != (undefined ***)0x0) {
+        (*(code *)(*local_4a0)[4])
+                  (local_4a0,CONCAT71((int7)((ulonglong)&local_4d8 >> 8),local_4a0 != &local_4d8));
+        local_4a0 = (undefined ***)0x0;
+      }
+      pUVar16 = (Unit *)Localization::PointUnit();
+      bVar15 = Localization::CanConvert(local_838,pUVar16);
+      Localization::Unit::~Unit(local_630);
+      if (!bVar15) {
+        uVar25 = FUN_180019a50(local_770);
+        Localization::FormulaException::FormulaException(local_6b0,1,uVar25);
+                    /* WARNING: Subroutine does not return */
+        _CxxThrowException(local_6b0,(ThrowInfo *)&DAT_1803a94e8);
+      }
+      pUVar16 = (Unit *)Localization::PointUnit();
+      dVar6 = Localization::Quantity::GetValueForUnit(local_838,pUVar16);
+      Localization::Unit::~Unit(local_6d0);
+      dVar6 = dVar6 * DAT_1802fb5c8;
+      Localization::Quantity::~Quantity(local_838);
+      uVar28 = SUB84(DAT_1802fa2e8,0);
+      uVar29 = (undefined4)((ulonglong)DAT_1802fa2e8 >> 0x20);
+      uVar30 = SUB84(DAT_1802fa2f0,0);
+      uVar31 = (undefined4)((ulonglong)DAT_1802fa2f0 >> 0x20);
+      local_9a8 = (dVar6 * DAT_1802fa2e8) / DAT_1802fa2f0;
+    }
+    else if ((pPVar3 != (PDFPlusCutMark *)0x0) && (this[0x770] == (PDFPlusCutMark)0x0)) {
+      local_9a8 = (*(double *)(this + 0x758) * DAT_1802fa2e8) / DAT_1802fa2f0;
+    }
+  }
+  puVar17 = (undefined8 *)DynamicMark::GetSourceContent((DynamicMark *)this);
+  ArtPaint::FormPaint::GetContent((FormPaint *)*puVar17);
+  GetPDFPlusBoundingBox(local_608);
+  if (local_918 != (longlong *)0x0) {
+    LOCK();
+    plVar20 = local_918 + 1;
+    lVar21 = *plVar20;
+    *(int *)plVar20 = (int)*plVar20 + -1;
+    UNLOCK();
+    if ((int)lVar21 == 1) {
+      (**(code **)*local_918)(local_918);
+      LOCK();
+      piVar1 = (int *)((longlong)local_918 + 0xc);
+      iVar4 = *piVar1;
+      *piVar1 = *piVar1 + -1;
+      UNLOCK();
+      if (iVar4 == 1) {
+        (**(code **)(*local_918 + 8))(local_918);
+      }
+    }
+  }
+  if ((local_5b8 == '\0') || (local_5d8 < 0.0)) {
+    local_9b0 = 0.0;
+  }
+  else {
+    local_9b0 = (local_5d8 * (double)CONCAT44(uVar29,uVar28)) / (double)CONCAT44(uVar31,uVar30);
+  }
+  local_9d8 = dm::MarkPositionVector::vftable;
+  local_9d0 = 0;
+  lStack_9c8 = 0;
+  local_9c0 = 0;
+  if ((this + 0x7c0 == (PDFPlusCutMark *)0x0) || (this[0x838] != (PDFPlusCutMark)0x1)) {
+LAB_1801365a8:
+    lVar21 = GetReferenceBox(this);
+    local_690 = *(undefined8 *)(lVar21 + 0x18);
+    dStack_688 = *(double *)(lVar21 + 0x20);
+    local_640 = *(undefined8 *)(lVar21 + 8);
+    dStack_638 = *(double *)(lVar21 + 0x10);
+    dVar6 = (dStack_638 * (double)CONCAT44(uVar29,uVar28)) / (double)CONCAT44(uVar31,uVar30);
+    local_888 = *(undefined8 *)(lVar21 + 8);
+    dStack_880 = *(double *)(lVar21 + 0x10);
+    dVar27 = (dStack_688 * (double)CONCAT44(uVar29,uVar28)) / (double)CONCAT44(uVar31,uVar30);
+    dVar8 = ((dStack_880 + *(double *)(lVar21 + 0x30)) * (double)CONCAT44(uVar29,uVar28)) /
+            (double)CONCAT44(uVar31,uVar30) - dVar6;
+    dVar7 = ((dStack_688 + *(double *)(lVar21 + 0x40)) * (double)CONCAT44(uVar29,uVar28)) /
+            (double)CONCAT44(uVar31,uVar30) - dVar27;
+    local_650 = local_690;
+    dStack_648 = dStack_688;
+    if ((dVar8 <= 0.0) || (dVar7 <= 0.0)) goto LAB_180136d2f;
+    local_980 = dVar27 + dVar7;
+    local_978 = dVar6 + dVar8;
+    local_988 = dVar6;
+    local_970 = dVar27;
+    FUN_180298840(local_9b8,&local_988,&local_9d8);
+  }
+  else {
+    pCVar18 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+    pCVar19 = ArtDoc::Content::GetObjectWithID(pCVar18,*(__uint64 *)(this + 0x7c0));
+    plVar20 = (longlong *)
+              __RTDynamicCast(pCVar19,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                              &GridInterface::RTTI_Type_Descriptor);
+    if (plVar20 == (longlong *)0x0) goto LAB_1801365a8;
+    (**(code **)(*plVar20 + 8))(plVar20,local_5a8);
+    FUN_1802988f0(local_9b8,local_5a8,&local_9d8);
+  }
+  uVar25 = local_888;
+  dVar6 = DAT_1802fdca0;
+  uVar26 = 0;
+  if (lStack_9c8 - local_9d0 >> 3 != 0) {
+    do {
+      this_00 = (Group *)FUN_1802cbe68(0x370);
+      if (this_00 == (Group *)0x0) {
+        this_00 = (Group *)0x0;
+      }
+      else {
+        ArtDoc::Group::Group(this_00,0x1ff);
+        *(undefined ***)this_00 = ArtDoc::Group::vftable;
+        *(undefined ***)(this_00 + 0x20) = ArtDoc::Group::vftable;
+      }
+      local_458[0] = std::
+                     _Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_3>,bool,ArtDoc::Group_const&___ptr64>
+                     ::vftable;
+      local_420 = local_458;
+      local_3d8[0] = std::
+                     _Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_2>,bool,ArtDoc::Group_const&___ptr64>
+                     ::vftable;
+      local_3a0 = local_3d8;
+      local_418[0] = std::
+                     _Func_impl_no_alloc<`protected:_virtual_void___cdecl_DocumentMarks::PDFPlusCutMark::regenerateMarkImp(void)___ptr64'::`25'::<lambda_1>,bool,ArtDoc::Layer_const&___ptr64>
+                     ::vftable;
+      local_3e0 = local_418;
+      pCVar18 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+      pDVar22 = ArtDoc::Content::GetDocument(pCVar18);
+      DocumentEdit::Expander::Expander
+                (local_358,this_00,pDVar22,
+                 (function<bool___cdecl(ArtDoc::Layer_const&___ptr64)> *)local_418,
+                 (function<bool___cdecl(ArtDoc::Group_const&___ptr64)> *)local_3d8,
+                 (function<bool___cdecl(ArtDoc::Group_const&___ptr64)> *)local_458);
+      if (local_3e0 != (undefined ***)0x0) {
+        (*(code *)(*local_3e0)[4])
+                  (local_3e0,CONCAT71((int7)((ulonglong)local_418 >> 8),local_3e0 != local_418));
+        local_3e0 = (undefined ***)0x0;
+      }
+      if (local_3a0 != (undefined ***)0x0) {
+        (*(code *)(*local_3a0)[4])
+                  (local_3a0,CONCAT71((int7)((ulonglong)local_3d8 >> 8),local_3a0 != local_3d8));
+        local_3a0 = (undefined ***)0x0;
+      }
+      if (local_420 != (undefined ***)0x0) {
+        (*(code *)(*local_420)[4])
+                  (local_420,CONCAT71((int7)((ulonglong)local_458 >> 8),local_420 != local_458));
+        local_420 = (undefined ***)0x0;
+      }
+      puVar17 = (undefined8 *)DynamicMark::GetSourceContent((DynamicMark *)this);
+      pCVar18 = ArtPaint::FormPaint::GetContent((FormPaint *)*puVar17);
+      (**(code **)(*(longlong *)pCVar18 + 8))(pCVar18,local_358);
+      plVar20 = local_908;
+      if (local_908 != (longlong *)0x0) {
+        LOCK();
+        plVar2 = local_908 + 1;
+        lVar21 = *plVar2;
+        *(int *)plVar2 = (int)*plVar2 + -1;
+        UNLOCK();
+        if ((int)lVar21 == 1) {
+          (**(code **)*local_908)(local_908);
+          LOCK();
+          piVar1 = (int *)((longlong)plVar20 + 0xc);
+          iVar4 = *piVar1;
+          *piVar1 = *piVar1 + -1;
+          UNLOCK();
+          if (iVar4 == 1) {
+            (**(code **)(*plVar20 + 8))(plVar20);
+          }
+        }
+      }
+      pdVar5 = *(double **)(local_9d0 + uVar26 * 8);
+      dVar27 = (*pdVar5 * (double)CONCAT44(uVar31,uVar30)) / (double)CONCAT44(uVar29,uVar28);
+      local_8a8 = uVar25;
+      dVar9 = (pdVar5[1] * (double)CONCAT44(uVar31,uVar30)) / (double)CONCAT44(uVar29,uVar28);
+      dVar10 = (pdVar5[2] * (double)CONCAT44(uVar31,uVar30)) / (double)CONCAT44(uVar29,uVar28);
+      dVar11 = (pdVar5[3] * (double)CONCAT44(uVar31,uVar30)) / (double)CONCAT44(uVar29,uVar28);
+      dStack_8a0 = dVar27;
+      dVar7 = atan2(dVar11 - dVar9,dVar10 - dVar27);
+      dVar8 = cos(dVar7);
+      local_870 = sin(dVar7);
+      local_868 = CONCAT44((uint)((ulonglong)local_870 >> 0x20) ^ DAT_1802fd1b0._4_4_,
+                           SUB84(local_870,0) ^ (uint)DAT_1802fd1b0);
+      local_850 = 0;
+      local_840 = 0;
+      local_878 = dVar8;
+      local_860 = dVar8;
+      ArtDoc::Transformable::SetTransformation
+                ((Transformable *)this_00,
+                 (TransformationBase<YAGL::MilliPointCoordinateSystem> *)&local_878,7);
+      GetPDFPlusBoundingBox(local_758);
+      if (local_708 == '\0') {
+        bVar12 = true;
+        uStack_8f8 = 0;
+        local_808 = local_900;
+        uStack_800 = 0;
+        uStack_8e0 = 0;
+        local_7e8 = local_8e8;
+        uStack_7e0 = 0;
+        uStack_8d0 = 0;
+        local_7f8 = local_8d8;
+        uStack_7f0 = 0;
+        uStack_8c0 = 0;
+        local_7d8 = local_8c8;
+        uStack_7d0 = 0;
+        local_7c8 = 1;
+        puVar17 = &local_808;
+        puVar23 = &local_7e8;
+        bVar15 = bVar14;
+      }
+      else {
+        local_7b8 = local_750;
+        uStack_7b0 = uStack_748;
+        local_7a8 = local_740;
+        uStack_7a0 = uStack_738;
+        local_798 = local_730;
+        uStack_790 = uStack_728;
+        local_788 = local_720;
+        uStack_780 = uStack_718;
+        local_778 = local_710;
+        puVar17 = &local_7b8;
+        puVar23 = &local_798;
+        bVar15 = true;
+      }
+      bVar13 = false;
+      if (!bVar12) {
+        bVar13 = bVar12;
+      }
+      bVar14 = false;
+      if (!bVar15) {
+        bVar14 = bVar15;
+      }
+      local_660 = *puVar17;
+      dStack_658 = (double)puVar17[1];
+      dVar7 = dVar27 - dStack_658;
+      if (dVar27 == dVar10) {
+        dVar7 = dVar7 - (double)puVar23[1] * dVar6;
+      }
+      else if (dVar10 < dVar27) {
+        dVar7 = dVar7 - (double)puVar23[1];
+      }
+      local_680 = puVar17[2];
+      dStack_678 = (double)puVar17[3];
+      dVar8 = (double)puVar23[3];
+      dVar27 = dVar9 - (dVar8 + dStack_678);
+      if (dVar9 == dVar11) {
+        dVar27 = dVar8 * dVar6 + dVar27;
+      }
+      else if (dVar9 < dVar11) {
+        dVar27 = dVar8 + dVar27;
+      }
+      pTVar24 = ArtDoc::Transformable::GetTransformation((Transformable *)this_00);
+      local_968 = *(double *)(pTVar24 + 8) * 0.0 + *(double *)pTVar24;
+      local_960 = *(double *)pTVar24 * 0.0 + *(double *)(pTVar24 + 8);
+      local_958 = *(double *)(pTVar24 + 0x18) * 0.0 + *(double *)(pTVar24 + 0x10);
+      local_950 = *(double *)(pTVar24 + 0x10) * 0.0 + *(double *)(pTVar24 + 0x18);
+      local_670 = *(undefined8 *)(pTVar24 + 0x30);
+      dStack_668 = *(double *)(pTVar24 + 0x38);
+      dStack_a00 = SUB168(*(undefined1 (*) [16])(pTVar24 + 0x20),8);
+      local_9f8 = SUB168(*(undefined1 (*) [16])(pTVar24 + 0x20),0);
+      local_940 = dStack_668 * 0.0 + dStack_a00 + dVar7;
+      local_948 = local_9f8;
+      local_8a8 = *(undefined8 *)(pTVar24 + 0x30);
+      dStack_8a0 = *(double *)(pTVar24 + 0x38);
+      local_938 = *(undefined8 *)(pTVar24 + 0x20);
+      local_9f8._0_4_ = (undefined4)local_938;
+      local_9f8._4_4_ = (undefined4)((ulonglong)local_938 >> 0x20);
+      dStack_990 = *(double *)(pTVar24 + 0x28) * 0.0 + dStack_8a0;
+      local_998 = (undefined4)local_9f8;
+      uStack_994 = local_9f8._4_4_;
+      local_930 = dVar27 + dStack_990;
+      ArtDoc::Transformable::SetTransformation
+                ((Transformable *)this_00,
+                 (TransformationBase<YAGL::MilliPointCoordinateSystem> *)&local_968,7);
+      pCVar18 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+      pDVar22 = ArtDoc::Content::GetDocument(pCVar18);
+      ArtDoc::ActionGroupCreator::ActionGroupCreator(local_8b8,pDVar22,false,false);
+      pCVar19 = DocumentEdit::InsertNewObjectOnTop((ContentObject *)this_00,(Group *)this,true);
+      DynamicMark::ApplyPDFPlusColor((DynamicMark *)this,pCVar19);
+      ArtDoc::ActionGroupCreator::~ActionGroupCreator(local_8b8);
+      DocumentEdit::Expander::~Expander(local_358);
+      uVar26 = uVar26 + 1;
+      bVar12 = bVar13;
+    } while (uVar26 < (ulonglong)(lStack_9c8 - local_9d0 >> 3));
+  }
+LAB_180136d2f:
+  FUN_18004a3b0(&local_9d8);
+  FUN_180297130(local_9b8);
+  return;
+}
+
+

@@ -1,0 +1,9 @@
+program=Document.dll
+executablePath=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/Document.dll
+executableSHA256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+[FUNCTIONS_MATCHING_CUTMARK]
+1800fae70	ArtDoc::Page::GetPageBox	RectangleBase<YAGL::MilliPointCoordinateSystem> * GetPageBox(Page * this, PageBox param_1)
+#count=1
+
+[ADDRESS_LOOKUP]

@@ -1,0 +1,663 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## DATA 1802e4fc0 value=Already open
+   refFrom=18001f437 type=READ fn=18001f410 FUN_18001f410 offset=39
+   refCount=1
+
+## DATA 1802e9ef0 value=Document: File 
+   refFrom=18009058b type=DATA fn=18008f590 ArtDoc::Document::Document offset=4091
+   refCount=1
+
+## DATA 1802e9f58 value=Document: Open read-only: 
+   refFrom=18008fe9b type=DATA fn=18008f590 ArtDoc::Document::Document offset=2315
+   refCount=1
+
+## DATA 1802e9f90 value=Document: Exception caught while opening 
+   refFrom=1802b62f9 type=DATA fn=1802b6260 FUN_1802b6260 offset=153
+   refCount=1
+
+## DATA 1802ea1e0 value=Document: File has no pages
+   refFrom=180094503 type=DATA fn=180093d60 ArtDoc::Document::Cache offset=1955
+   refCount=1
+
+## DATA 1802ea828 value=ERROR_WRONG_PASSWORD
+   refFrom=1800a0f4f type=READ fn=1800a0ec0 FUN_1800a0ec0 offset=143
+   refCount=1
+
+## DATA 1802e9a88 value=Document: Unknown encryption value 
+   refFrom=1800950ce type=DATA fn=180094f40 FUN_180094f40 offset=398
+   refCount=1
+
+## FN 1802160b0
+   name=DocumentIO::FileDispatcher::OpenFile
+   signature=unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_> __thiscall OpenFile(FileDispatcher * this, path * param_1, ReadOptions * param_2)
+   entry=1802160b0 thunk=false external=false body=444
+   -- callers --
+      180378e40 DATA -
+      18042b274 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      1800a0aa0 ArtDoc::DocumentOpenException::DocumentOpenException
+      180215d50 DocumentIO::FileDispatcher::AddToOpeningFiles
+      180216380 DocumentIO::FileDispatcher::RemoveFromOpeningFiles
+      1802aea00 __security_check_cookie
+      1802afba2 VCRUNTIME140.DLL::_CxxThrowException
+      1802afbae VCRUNTIME140.DLL::memcmp
+      EXTERNAL:0000011f EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::MimeType::GetMimeType
+      EXTERNAL:00000141 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::status
+   -- strings referenced --
+   -- decompiled --
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > __cdecl DocumentIO::FileDispatcher::OpenFile(class boost::filesystem::path
+   const & __ptr64,class ArtDoc::ReadOptions const & __ptr64) __ptr64 */
+
+path * __thiscall
+DocumentIO::FileDispatcher::OpenFile(FileDispatcher *this,path *param_1,ReadOptions *param_2)
+
+{
+  undefined8 *puVar1;
+  ulonglong uVar2;
+  char cVar3;
+  int iVar4;
+  uint *puVar5;
+  undefined8 *puVar6;
+  undefined8 *puVar7;
+  undefined8 *puVar8;
+  ulonglong uVar9;
+  undefined8 in_R9;
+  undefined1 auStack_128 [32];
+  undefined4 local_108;
+  FileDispatcher *local_100;
+  undefined8 local_f8;
+  void *local_f0;
+  ulonglong local_e8;
+  path *local_e0;
+  path local_d8 [16];
+  DocumentOpenException local_c8 [112];
+  ulonglong local_58;
+  
+                    /* 0x2160b0  2375
+                       ?OpenFile@FileDispatcher@DocumentIO@@QEAA?AV?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@AEBVpath@filesystem@boost@@AEBVReadOptions@ArtDoc@@@Z
+                        */
+  local_58 = DAT_1803e3780 ^ (ulonglong)auStack_128;
+  local_108 = 0;
+  local_100 = this;
+  local_f8 = in_R9;
+  local_e0 = param_1;
+  puVar5 = (uint *)boost::filesystem::detail::status(local_d8,(error_code *)param_2);
+  if (*puVar5 < 2) {
+    ArtDoc::DocumentOpenException::DocumentOpenException(local_c8,(path *)param_2,0);
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(local_c8,(ThrowInfo *)&DAT_180376200);
+  }
+  ExtraBoostFilesystem::MimeType::GetMimeType((path *)&local_f0);
+  puVar1 = *(undefined8 **)this;
+  puVar6 = (undefined8 *)puVar1[1];
+  puVar8 = puVar1;
+  if (*(char *)((longlong)puVar6 + 0x19) == '\0') {
+    do {
+      uVar2 = puVar6[5];
+      uVar9 = uVar2;
+      if (local_e8 < uVar2) {
+        uVar9 = local_e8;
+      }
+      iVar4 = memcmp((void *)puVar6[4],local_f0,uVar9);
+      if (iVar4 == 0) {
+        if (uVar2 < local_e8) {
+          cVar3 = -1;
+          goto LAB_180216171;
+        }
+        if (local_e8 < uVar2) goto LAB_18021616f;
+LAB_18021617b:
+        puVar7 = (undefined8 *)*puVar6;
+        puVar8 = puVar6;
+      }
+      else {
+        if (iVar4 < 0) {
+          cVar3 = -1;
+        }
+        else {
+LAB_18021616f:
+          cVar3 = '\x01';
+        }
+LAB_180216171:
+        if (-1 < cVar3) goto LAB_18021617b;
+        puVar7 = (undefined8 *)puVar6[2];
+      }
+      puVar6 = puVar7;
+    } while (*(char *)((longlong)puVar7 + 0x19) == '\0');
+    this = local_100;
+  }
+  if (*(char *)((longlong)puVar8 + 0x19) == '\0') {
+    uVar2 = puVar8[5];
+    uVar9 = local_e8;
+    if (uVar2 < local_e8) {
+      uVar9 = uVar2;
+    }
+    iVar4 = memcmp(local_f0,(void *)puVar8[4],uVar9);
+    if (iVar4 == 0) {
+      if (uVar2 <= local_e8) {
+        if (local_e8 <= uVar2) goto LAB_1802161ca;
+        goto LAB_1802161c1;
+      }
+      cVar3 = -1;
+    }
+    else if (iVar4 < 0) {
+      cVar3 = -1;
+    }
+    else {
+LAB_1802161c1:
+      cVar3 = '\x01';
+    }
+    if (-1 < cVar3) goto LAB_1802161ca;
+  }
+  puVar8 = puVar1;
+LAB_1802161ca:
+  if (puVar8 == puVar1) {
+    ArtDoc::DocumentOpenException::DocumentOpenException(local_c8,(path *)param_2,7);
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(local_c8,(ThrowInfo *)&DAT_180376200);
+  }
+  AddToOpeningFiles(this,(path *)param_2);
+  (**(code **)(*(longlong *)puVar8[6] + 8))((longlong *)puVar8[6],param_1,param_2,local_f8);
+  local_108 = 1;
+  RemoveFromOpeningFiles(this,(path *)param_2);
+  return param_1;
+}
+
+
+
+## FN 180216270
+   name=DocumentIO::FileDispatcher::RegisterFileHandler
+   signature=void __thiscall RegisterFileHandler(FileDispatcher * this, basic_string_view<char,std::char_traits<char>_> * param_1, unique_ptr<DocumentIO::OpenFileHandler,std::default_delete<DocumentIO::OpenFileHandler>_> param_2)
+   entry=180216270 thunk=false external=false body=256
+   -- callers --
+      1800a1db6 UNCONDITIONAL_CALL 1800a1230 FUN_1800a1230
+      1800a1e20 UNCONDITIONAL_CALL 1800a1230 FUN_1800a1230
+      180378f38 DATA -
+      18042b280 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      18002c390 FUN_18002c390
+      18002c5f0 FUN_18002c5f0
+      1802145f0 FUN_1802145f0
+      180215b80 FUN_180215b80
+      1802ae920 FUN_1802ae920
+   -- strings referenced --
+   -- decompiled --
+
+/* public: void __cdecl DocumentIO::FileDispatcher::RegisterFileHandler(class
+   std::basic_string_view<char,struct std::char_traits<char> > const & __ptr64,class
+   std::unique_ptr<class DocumentIO::OpenFileHandler,struct std::default_delete<class
+   DocumentIO::OpenFileHandler> >) __ptr64 */
+
+void __thiscall
+DocumentIO::FileDispatcher::RegisterFileHandler
+          (FileDispatcher *this,undefined8 *param_1,longlong *param_3,undefined8 param_4)
+
+{
+  undefined8 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  char cVar4;
+  undefined8 *puVar5;
+  FileDispatcher *pFVar6;
+  undefined8 uVar7;
+  undefined8 local_38;
+  undefined8 uStack_30;
+  undefined1 local_28 [32];
+  
+                    /* 0x216270  2437
+                       ?RegisterFileHandler@FileDispatcher@DocumentIO@@QEAAXAEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@V?$unique_ptr@VOpenFileHandler@DocumentIO@@U?$default_delete@VOpenFileHandler@DocumentIO@@@std@@@4@@Z
+                        */
+  puVar5 = (undefined8 *)FUN_180215b80(this,local_28,param_1);
+  local_38 = *puVar5;
+  uStack_30 = puVar5[1];
+  if (*(char *)(puVar5[2] + 0x19) == '\0') {
+    cVar4 = FUN_1802145f0(this,param_1,puVar5[2] + 0x20);
+    if (cVar4 == '\0') goto LAB_180216343;
+  }
+  if (*(longlong *)(this + 8) == 0x492492492492492) {
+                    /* WARNING: Subroutine does not return */
+    FUN_18002c5f0();
+  }
+  uVar1 = *(undefined8 *)this;
+  uVar7 = 0;
+  pFVar6 = this;
+  puVar5 = (undefined8 *)FUN_1802ae920(0x38);
+  uVar3 = param_1[1];
+  puVar5[4] = *param_1;
+  puVar5[5] = uVar3;
+  lVar2 = *param_3;
+  *param_3 = 0;
+  puVar5[6] = lVar2;
+  *puVar5 = uVar1;
+  puVar5[1] = uVar1;
+  puVar5[2] = uVar1;
+  *(undefined2 *)(puVar5 + 3) = 0;
+  FUN_18002c390(this,&local_38,puVar5,param_4,pFVar6,uVar7);
+LAB_180216343:
+  puVar5 = (undefined8 *)*param_3;
+  if (puVar5 != (undefined8 *)0x0) {
+    (**(code **)*puVar5)(puVar5,1);
+  }
+  return;
+}
+
+
+
+## FN 180215d50
+   name=DocumentIO::FileDispatcher::AddToOpeningFiles
+   signature=void __thiscall AddToOpeningFiles(FileDispatcher * this, path * param_1)
+   entry=180215d50 thunk=false external=false body=273
+   -- callers --
+      1802161d5 UNCONDITIONAL_CALL 1802160b0 DocumentIO::FileDispatcher::OpenFile
+      180377b6c DATA -
+      18042b214 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180015140 FUN_180015140
+      18002c390 FUN_18002c390
+      18002c5f0 FUN_18002c5f0
+      1802ae920 FUN_1802ae920
+      EXTERNAL:00000133 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_algorithms::compare_v3
+   -- strings referenced --
+   -- decompiled --
+
+/* private: void __cdecl DocumentIO::FileDispatcher::AddToOpeningFiles(class boost::filesystem::path
+   const & __ptr64) __ptr64 */
+
+void __thiscall DocumentIO::FileDispatcher::AddToOpeningFiles(FileDispatcher *this,path *param_1)
+
+{
+  FileDispatcher *pFVar1;
+  FileDispatcher FVar2;
+  longlong lVar3;
+  FileDispatcher *pFVar4;
+  int iVar5;
+  longlong *plVar6;
+  FileDispatcher *pFVar7;
+  FileDispatcher *pFVar8;
+  FileDispatcher *local_38;
+  undefined8 uStack_30;
+  FileDispatcher *local_28;
+  uint uStack_20;
+  undefined4 uStack_1c;
+  
+                    /* 0x215d50  1170
+                       ?AddToOpeningFiles@FileDispatcher@DocumentIO@@AEAAXAEBVpath@filesystem@boost@@@Z
+                        */
+  pFVar1 = this + 0x10;
+  local_28 = *(FileDispatcher **)(*(FileDispatcher **)pFVar1 + 8);
+  uStack_20 = 0;
+  FVar2 = local_28[0x19];
+  pFVar4 = *(FileDispatcher **)pFVar1;
+  pFVar8 = local_28;
+  while (FVar2 == (FileDispatcher)0x0) {
+    local_28 = pFVar8;
+    iVar5 = boost::filesystem::detail::path_algorithms::compare_v3((path *)(pFVar8 + 0x20),param_1);
+    if (-1 < iVar5) {
+      pFVar7 = *(FileDispatcher **)pFVar8;
+    }
+    else {
+      pFVar7 = *(FileDispatcher **)(pFVar8 + 0x10);
+      pFVar8 = pFVar4;
+    }
+    uStack_20 = (uint)(-1 < iVar5);
+    pFVar4 = pFVar8;
+    pFVar8 = pFVar7;
+    FVar2 = pFVar7[0x19];
+  }
+  if ((pFVar4[0x19] != (FileDispatcher)0x0) ||
+     (iVar5 = boost::filesystem::detail::path_algorithms::compare_v3
+                        (param_1,(path *)(pFVar4 + 0x20)), iVar5 < 0)) {
+    if (*(longlong *)(this + 0x18) == 0x3ffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+      FUN_18002c5f0();
+    }
+    lVar3 = *(longlong *)pFVar1;
+    uStack_30 = (longlong *)0x0;
+    local_38 = pFVar1;
+    plVar6 = (longlong *)FUN_1802ae920(0x40);
+    uStack_30 = plVar6;
+    FUN_180015140(plVar6 + 4,param_1);
+    *plVar6 = lVar3;
+    plVar6[1] = lVar3;
+    plVar6[2] = lVar3;
+    *(undefined2 *)(plVar6 + 3) = 0;
+    local_38 = local_28;
+    uStack_30 = (longlong *)CONCAT44(uStack_1c,uStack_20);
+    FUN_18002c390(pFVar1,&local_38,plVar6);
+  }
+  return;
+}
+
+
+
+## FN 180215e70
+   name=DocumentIO::FileDispatcher::CancelOpen
+   signature=void __thiscall CancelOpen(FileDispatcher * this, path * param_1)
+   entry=180215e70 thunk=false external=false body=238
+   -- callers --
+      180369824 DATA -
+      180369860 DATA -
+      180377bf0 DATA -
+      18042b220 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      180216030 DocumentIO::FileDispatcher::IsOpening
+      1802afbae VCRUNTIME140.DLL::memcmp
+      EXTERNAL:0000011f EXTRABOOSTFILESYSTEM.DLL::ExtraBoostFilesystem::MimeType::GetMimeType
+   -- strings referenced --
+   -- decompiled --
+
+/* public: void __cdecl DocumentIO::FileDispatcher::CancelOpen(class boost::filesystem::path const &
+   __ptr64) __ptr64 */
+
+void __thiscall DocumentIO::FileDispatcher::CancelOpen(FileDispatcher *this,path *param_1)
+
+{
+  char cVar1;
+  undefined8 *puVar2;
+  ulonglong uVar3;
+  undefined8 *puVar4;
+  bool bVar5;
+  int iVar6;
+  undefined8 *puVar7;
+  undefined8 *puVar8;
+  ulonglong uVar9;
+  void *local_28;
+  ulonglong local_20;
+  
+                    /* 0x215e70  1203
+                       ?CancelOpen@FileDispatcher@DocumentIO@@QEAAXAEBVpath@filesystem@boost@@@Z */
+  bVar5 = IsOpening(this,param_1);
+  if ((bVar5) && (ExtraBoostFilesystem::MimeType::GetMimeType((path *)&local_28), local_20 != 0)) {
+    puVar2 = *(undefined8 **)this;
+    cVar1 = *(char *)((longlong)puVar2[1] + 0x19);
+    puVar8 = puVar2;
+    puVar4 = (undefined8 *)puVar2[1];
+    while (cVar1 == '\0') {
+      uVar3 = puVar4[5];
+      uVar9 = uVar3;
+      if (local_20 < uVar3) {
+        uVar9 = local_20;
+      }
+      iVar6 = memcmp((void *)puVar4[4],local_28,uVar9);
+      if (iVar6 == 0) {
+        if (local_20 <= uVar3) goto LAB_180215ef0;
+LAB_180215f29:
+        puVar7 = (undefined8 *)puVar4[2];
+      }
+      else {
+        if (iVar6 < 0) goto LAB_180215f29;
+LAB_180215ef0:
+        puVar7 = (undefined8 *)*puVar4;
+        puVar8 = puVar4;
+      }
+      puVar4 = puVar7;
+      cVar1 = *(char *)((longlong)puVar7 + 0x19);
+    }
+    if (*(char *)((longlong)puVar8 + 0x19) == '\0') {
+      uVar3 = puVar8[5];
+      uVar9 = local_20;
+      if (uVar3 < local_20) {
+        uVar9 = uVar3;
+      }
+      iVar6 = memcmp(local_28,(void *)puVar8[4],uVar9);
+      if (iVar6 == 0) {
+        if (local_20 < uVar3) {
+          return;
+        }
+      }
+      else if (iVar6 < 0) {
+        return;
+      }
+      if (puVar8 != puVar2) {
+        (**(code **)(*(longlong *)puVar8[6] + 0x10))();
+      }
+    }
+  }
+  return;
+}
+
+
+
+## FN 180216030
+   name=DocumentIO::FileDispatcher::IsOpening
+   signature=bool __thiscall IsOpening(FileDispatcher * this, path * param_1)
+   entry=180216030 thunk=false external=false body=126
+   -- callers --
+      180215e7d UNCONDITIONAL_CALL 180215e70 DocumentIO::FileDispatcher::CancelOpen
+      180378cf4 DATA -
+      18042b268 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      EXTERNAL:00000133 BOOST_FILESYSTEM.DLL::boost::filesystem::detail::path_algorithms::compare_v3
+   -- strings referenced --
+   -- decompiled --
+
+/* private: bool __cdecl DocumentIO::FileDispatcher::IsOpening(class boost::filesystem::path const &
+   __ptr64) __ptr64 */
+
+bool __thiscall DocumentIO::FileDispatcher::IsOpening(FileDispatcher *this,path *param_1)
+
+{
+  char cVar1;
+  undefined8 *puVar2;
+  int iVar3;
+  undefined8 *puVar4;
+  undefined8 *puVar5;
+  
+                    /* 0x216030  2292
+                       ?IsOpening@FileDispatcher@DocumentIO@@AEAA_NAEBVpath@filesystem@boost@@@Z */
+  puVar5 = (undefined8 *)(*(undefined8 **)(this + 0x10))[1];
+  cVar1 = *(char *)((longlong)puVar5 + 0x19);
+  puVar2 = *(undefined8 **)(this + 0x10);
+  while (cVar1 == '\0') {
+    iVar3 = boost::filesystem::detail::path_algorithms::compare_v3((path *)(puVar5 + 4),param_1);
+    if (iVar3 < 0) {
+      puVar4 = (undefined8 *)puVar5[2];
+      puVar5 = puVar2;
+    }
+    else {
+      puVar4 = (undefined8 *)*puVar5;
+    }
+    puVar2 = puVar5;
+    puVar5 = puVar4;
+    cVar1 = *(char *)((longlong)puVar4 + 0x19);
+  }
+  if ((*(char *)((longlong)puVar2 + 0x19) == '\0') &&
+     (iVar3 = boost::filesystem::detail::path_algorithms::compare_v3(param_1,(path *)(puVar2 + 4)),
+     -1 < iVar3)) {
+    return true;
+  }
+  return false;
+}
+
+
+
+## FN 1800973a0
+   name=ArtDoc::Document::GetPagesBegin
+   signature=indirect_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_>_>_>_>,boost::use_default,boost::use_default,boost::use_default,boost::use_default> __thiscall GetPagesBegin(Document * this)
+   entry=1800973a0 thunk=false external=false body=45
+   -- callers --
+      1800a0532 UNCONDITIONAL_CALL 1800a04a0 ArtDoc::GetAssociatedContent
+      1800c47c5 UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c4806 UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c497e UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c5951 UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800c598b UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800c5afe UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800f6826 UNCONDITIONAL_CALL 1800f67f0 FUN_1800f67f0
+      1800fdffc UNCONDITIONAL_CALL 1800fdda0 ArtDoc::Part::Part
+      1800fe014 UNCONDITIONAL_CALL 1800fdda0 ArtDoc::Part::Part
+      1800fef06 UNCONDITIONAL_CALL 1800feeb0 ArtDoc::Part::ExtractPart
+      1800fef26 UNCONDITIONAL_CALL 1800feeb0 ArtDoc::Part::ExtractPart
+      1800fefd4 UNCONDITIONAL_CALL 1800feeb0 ArtDoc::Part::ExtractPart
+      1800feff4 UNCONDITIONAL_CALL 1800feeb0 ArtDoc::Part::ExtractPart
+      1800ff1b4 UNCONDITIONAL_CALL 1800ff190 ArtDoc::Part::GetPageRange
+      1800ff1d1 UNCONDITIONAL_CALL 1800ff190 ArtDoc::Part::GetPageRange
+      1800ff224 UNCONDITIONAL_CALL 1800ff200 ArtDoc::Part::GetPageRange
+      1800ff241 UNCONDITIONAL_CALL 1800ff200 ArtDoc::Part::GetPageRange
+      1800ffba2 UNCONDITIONAL_CALL 1800ffb70 ArtDoc::IsPartsValid
+      1800ffbfa UNCONDITIONAL_CALL 1800ffb70 ArtDoc::IsPartsValid
+      18010016f UNCONDITIONAL_CALL 180100130 ArtDoc::Part::PropagateVisitorSelf
+      18010018c UNCONDITIONAL_CALL 180100130 ArtDoc::Part::PropagateVisitorSelf
+      18010029f UNCONDITIONAL_CALL 180100260 ArtDoc::Part::PropagateVisitorSelf
+      1801002bc UNCONDITIONAL_CALL 180100260 ArtDoc::Part::PropagateVisitorSelf
+      180100924 UNCONDITIONAL_CALL 180100810 FUN_180100810
+      180100941 UNCONDITIONAL_CALL 180100810 FUN_180100810
+      180144d2e UNCONDITIONAL_CALL 180144cf0 FUN_180144cf0
+      18017954a UNCONDITIONAL_CALL 180179530 FUN_180179530
+      18019d7cd UNCONDITIONAL_CALL 18019d6a0 FUN_18019d6a0
+      18019d833 UNCONDITIONAL_CALL 18019d6a0 FUN_18019d6a0
+      1801a5ff8 UNCONDITIONAL_CALL 1801a5800 FUN_1801a5800
+      1801aa9fa UNCONDITIONAL_CALL 1801aa8c0 ArtDoc::PDFAction::DoActionSelf
+      1801ab2c2 UNCONDITIONAL_CALL 1801ab2a0 ArtDoc::PDFAction::RedoActionSelf
+      1801ab752 UNCONDITIONAL_CALL 1801ab730 ArtDoc::PDFAction::UndoActionSelf
+      1801ab89c UNCONDITIONAL_CALL 1801ab860 ArtDoc::PDFAction::UpdateAllRedoBackpointers
+      1801ab952 UNCONDITIONAL_CALL 1801ab860 ArtDoc::PDFAction::UpdateAllRedoBackpointers
+      1801aba3c UNCONDITIONAL_CALL 1801aba00 ArtDoc::PDFAction::UpdateAllUndoBackpointers
+      1801abaef UNCONDITIONAL_CALL 1801aba00 ArtDoc::PDFAction::UpdateAllUndoBackpointers
+      1801abd45 UNCONDITIONAL_CALL 1801abd20 ArtDoc::PDFAction::UpdateRedoBackpointers
+      1801abdb5 UNCONDITIONAL_CALL 1801abd90 ArtDoc::PDFAction::UpdateUndoBackpointers
+      1801c6055 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c6084 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c60f3 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c616f UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1803787c4 DATA -
+      1803787c8 DATA -
+      18041c70c DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+   -- strings referenced --
+   -- decompiled --
+
+/* public: class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default> __cdecl
+   ArtDoc::Document::GetPagesBegin(void) __ptr64 */
+
+void __thiscall ArtDoc::Document::GetPagesBegin(Document *this)
+
+{
+  undefined8 *in_RDX;
+  
+                    /* 0x973a0  1960
+                       ?GetPagesBegin@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@XZ
+                       0x973a0  1961
+                       ?GetPagesBegin@Document@ArtDoc@@QEBA?AV?$indirect_iterator@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@$$CBVPage@ArtDoc@@Uuse_default@boost@@U56@U56@@iterators@boost@@XZ
+                        */
+  SwitchToWorkingFile(this);
+  *in_RDX = *(undefined8 *)(this + 0x1b0);
+  return;
+}
+
+
+
+## FN 1800973d0
+   name=ArtDoc::Document::GetPagesEnd
+   signature=indirect_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::unique_ptr<ArtDoc::Page,std::default_delete<ArtDoc::Page>_>_>_>_>,boost::use_default,boost::use_default,boost::use_default,boost::use_default> __thiscall GetPagesEnd(Document * this)
+   entry=1800973d0 thunk=false external=false body=45
+   -- callers --
+      1800c47b5 UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c4997 UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c4ab4 UNCONDITIONAL_CALL 1800c43b0 ArtDoc::GetLayerPositionForInsertingAfter
+      1800c5941 UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800c5b17 UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800c5c34 UNCONDITIONAL_CALL 1800c5510 ArtDoc::GetLayerPositionForInsertingBefore
+      1800f6814 UNCONDITIONAL_CALL 1800f67f0 FUN_1800f67f0
+      1800ffb90 UNCONDITIONAL_CALL 1800ffb70 ArtDoc::IsPartsValid
+      1800ffbe8 UNCONDITIONAL_CALL 1800ffb70 ArtDoc::IsPartsValid
+      180144d3a UNCONDITIONAL_CALL 180144cf0 FUN_180144cf0
+      18017955a UNCONDITIONAL_CALL 180179530 FUN_180179530
+      18019d7bb UNCONDITIONAL_CALL 18019d6a0 FUN_18019d6a0
+      18019d821 UNCONDITIONAL_CALL 18019d6a0 FUN_18019d6a0
+      1801a6005 UNCONDITIONAL_CALL 1801a5800 FUN_1801a5800
+      1801aaa07 UNCONDITIONAL_CALL 1801aa8c0 ArtDoc::PDFAction::DoActionSelf
+      1801ab2cf UNCONDITIONAL_CALL 1801ab2a0 ArtDoc::PDFAction::RedoActionSelf
+      1801ab75f UNCONDITIONAL_CALL 1801ab730 ArtDoc::PDFAction::UndoActionSelf
+      1801ab8b1 UNCONDITIONAL_CALL 1801ab860 ArtDoc::PDFAction::UpdateAllRedoBackpointers
+      1801ab9d6 UNCONDITIONAL_CALL 1801ab860 ArtDoc::PDFAction::UpdateAllRedoBackpointers
+      1801aba51 UNCONDITIONAL_CALL 1801aba00 ArtDoc::PDFAction::UpdateAllUndoBackpointers
+      1801abb6a UNCONDITIONAL_CALL 1801aba00 ArtDoc::PDFAction::UpdateAllUndoBackpointers
+      1801c6042 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c6071 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c60e0 UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1801c617f UNCONDITIONAL_CALL 1801c5fe0 FUN_1801c5fe0
+      1803787cc DATA -
+      1803787d0 DATA -
+      18041c718 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      18009c2e0 ArtDoc::Document::SwitchToWorkingFile
+   -- strings referenced --
+   -- decompiled --
+
+/* public: class boost::iterators::indirect_iterator<class std::_Vector_iterator<class
+   std::_Vector_val<struct std::_Simple_types<class std::unique_ptr<class ArtDoc::Page,struct
+   std::default_delete<class ArtDoc::Page> > > > >,struct boost::use_default,struct
+   boost::use_default,struct boost::use_default,struct boost::use_default> __cdecl
+   ArtDoc::Document::GetPagesEnd(void) __ptr64 */
+
+void __thiscall ArtDoc::Document::GetPagesEnd(Document *this)
+
+{
+  undefined8 *in_RDX;
+  
+                    /* 0x973d0  1962
+                       ?GetPagesEnd@Document@ArtDoc@@QEAA?AV?$indirect_iterator@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@Uuse_default@boost@@U34@U34@U34@@iterators@boost@@XZ
+                       0x973d0  1963
+                       ?GetPagesEnd@Document@ArtDoc@@QEBA?AV?$indirect_iterator@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@V?$unique_ptr@VPage@ArtDoc@@U?$default_delete@VPage@ArtDoc@@@std@@@std@@@std@@@std@@@std@@$$CBVPage@ArtDoc@@Uuse_default@boost@@U56@U56@@iterators@boost@@XZ
+                        */
+  SwitchToWorkingFile(this);
+  *in_RDX = *(undefined8 *)(this + 0x1b8);
+  return;
+}
+
+
+
+## FN 180083f80
+   name=ArtDoc::ContentTracker::AddPageToDocument
+   signature=void __thiscall AddPageToDocument(ContentTracker * this, Page * param_1)
+   entry=180083f80 thunk=false external=false body=42
+   -- callers --
+      18008f4fb UNCONDITIONAL_CALL 18008ee30 ArtDoc::Document::Document
+      18009438f UNCONDITIONAL_CALL 180093d60 ArtDoc::Document::Cache
+      180097a41 UNCONDITIONAL_CALL 180097960 ArtDoc::Document::InsertPage
+      180097b9a UNCONDITIONAL_CALL 180097ab0 ArtDoc::Document::InsertPage
+      180097cae UNCONDITIONAL_CALL 180097c00 ArtDoc::Document::InsertPage
+      180097d73 UNCONDITIONAL_CALL 180097c00 ArtDoc::Document::InsertPage
+      180097eda UNCONDITIONAL_CALL 180097e20 ArtDoc::Document::InsertPage
+      180097f9f UNCONDITIONAL_CALL 180097e20 ArtDoc::Document::InsertPage
+      180377b38 DATA -
+      18041b734 DATA -
+      Entry Point EXTERNAL -
+   -- callees --
+      1800197e0 ArtImg::PictureBuffer::GetBitsPerSample
+      18007ff10 FUN_18007ff10
+   -- strings referenced --
+   -- decompiled --
+
+/* public: void __cdecl ArtDoc::ContentTracker::AddPageToDocument(class ArtDoc::Page & __ptr64)
+   __ptr64 */
+
+void __thiscall ArtDoc::ContentTracker::AddPageToDocument(ContentTracker *this,Page *param_1)
+
+{
+  __uint64 _Var1;
+  undefined1 local_res8 [32];
+  
+                    /* 0x83f80  1157  ?AddPageToDocument@ContentTracker@ArtDoc@@QEAAXAEAVPage@2@@Z
+                        */
+  _Var1 = ArtImg::PictureBuffer::GetBitsPerSample((PictureBuffer *)param_1);
+  FUN_18007ff10(this + 8,_Var1,local_res8,0);
+  return;
+}
+
+

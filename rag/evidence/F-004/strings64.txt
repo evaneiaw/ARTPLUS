@@ -1,0 +1,1053 @@
+﻿LeftResize
+RightResize
+BottomResize
+TopResize
+TransformType
+WhatWithCropBox
+TransformX
+TransformY
+TransformHorizontally
+TransformVertically
+Added selection to form
+Move selection
+Scale selection
+Rotate selection
+Shear selection
+Transform selection
+Select line art
+Select image type
+Select %1 images
+Select embedded PostScript fragments
+Select text segments
+Select clipping and non-clipping text
+Select forms
+Select images
+Select shading objects
+Select XObjects
+Select subpaths
+Select shadings
+Select text base
+Select rendering objects
+Select all
+Duplicate top of selection stack
+Remove top of selection stack
+Select text by point size
+Select text if point size is %1 %2 pt
+Select pages
+Select %1
+Select by number of color plates
+Select if number of color plates is %1 %2
+Select if number of color plates is %1 %2, only considering %3
+Select objects matching all of:
+Select fonts by type
+Select %1 fonts
+Select subset fonts
+OpenType embedded fonts that are subset will be included in this selection.
+Select standard 14 fonts
+Select embedded fonts
+OpenType embedded fonts will be included in this selection.
+Select unembedded fonts
+Select fonts that can be emulated
+Select by line weight
+Select if line weight is %1 %2
+Select color range
+Select %1 %2 color
+Select annotations
+Select by document encoding
+Select if document encoding is ASCII
+Select if document encoding is binary
+Remove selection
+Resize %1 box
+Select objects inside or outside region
+Select objects %1
+Select fonts by name
+Select font %1
+Select spot color
+Select all spot colors
+Select spot color %1
+Select color
+Select fill color
+Select stroke color
+Select fill and stroke color
+Select nothing
+Select objects that use neither stroke nor fill
+Select objects that lie outside of a mask
+Also select invisible objects that belong to this form
+Select objects that are completely clipped away
+Log selection
+Log absence of selection
+Select external hyperlink annotations
+Select last added objects
+Select pages with Illustrator PieceInfo
+Select pages with PieceInfo
+Resize %1 box by (%2, %3)
+Resize %1 box by (%2, %3, %4, %5)
+Select non-solid colors
+Put selection in form
+Select by intersecting bounding boxes
+This Action needs to be preceded by 2 Selects. It will select the objects from the first selection that have a bounding box that intersects with the bounding box of an object from the second selection.
+Rotate selection relative to the
+Resize %1 box to selection
+Select by image resolution
+Select if image resolution is less than %1 dpi
+Select if image resolution is more than %1 dpi
+Select images with a resolution
+Select if image resolution is %1 %2 dpi
+Select if image resolution is %1 %2 ppi
+Select if resolution of %1 is %2 %3
+Select if resolution of %1 is %2 %3 and %4
+Change form bounding box
+Select text lines using a
+Select objects with line weight
+Select objects that appear on
+Select by
+Select text lines with point size
+Select these annotations
+Select images that are
+Line %1: Page content should be transformed horizontally or vertically
+ Resize
+Resize page box to fit the selection
+Select objects
+Select objects overlapping the region
+Grab Area from Selection
+Select spot color by name
+Select Spot Color by regular expression
+Select Spot Color by name from list
+Select Spot Color by PANTONE color library
+selection
+Selection color
+Grab Selection
+Select %1 %2
+Select size
+Select object with %1 %2 %3
+Select objects of which
+selection bounding box
+visible area of selection
+Select ICC profile
+Grab Sample from Selection
+Grab %1 from selection
+Select these objects
+Select by trapped flag
+Select if trapped flag is set to %1
+Select if trapped flag equals
+Select by binding
+Select if binding is
+Select if binding is %1
+Select page by its page box properties
+Select page if
+Select page if both
+Select page if document bleed is
+Select if document encoding is
+Select invisible objects
+Select invisible objects without fill and stroke
+Select image by filter type
+Select by rendering intent
+Select page by ink coverage (non-Black only)
+Select page by gray surface
+Select inside or outside contour
+Select inside contour
+Select outside contour
+Select objects covering contour
+Select Esko barcode
+Select concealed objects
+Select visible objects
+Select overlapping objects
+Select inline image syntax
+Select black point compensation
+Select annotations with external hyperlinks to
+Select images with OPI info
+Select by graphic state attributes
+Select the following objects
+Resize text editing area
+Select by overprint
+Select if fill overprint is %1, stroke overprint %2
+Select if %1 is %2 
+Select if fill and stroke overprint are %1
+Select objects with
+Select by color space
+Select Preflight Profile
+Select by document info
+Select if the %1 document info field %2 "%3"
+Select if the %1 document info field %2
+Select pages with transparent objects
+Select flatness
+Select objects with a flatness
+Select objects with a flatness %1 %2
+Select transparent objects
+Select by spot color suffix
+Select objects which use a spot color where the suffix is not
+Select PDF/X compliant Output Intent
+Select compliant Output Intent
+Select non-compliant Output Intent
+Select annotations by print setting
+Select annotations if %1 to printing
+Select annotations if
+Select required color set
+Select objects with tints of other than the following colors
+Select default color spaces
+Select by PDF version
+Select if
+Select by %1
+Select by alternate images
+Select by overprint mode
+Select if not using %1
+Select if not equal
+Select spot color by alternate color space
+Select spot color if alternate color space is not CMYK nor gray
+Select by document permissions
+Select by document encryption
+Select if unreadable data is found in front of the PDF header signature
+Select if document does not have enough high-ASCII bytes in the PDF header
+Select OpenType embedded fonts
+Select embedded fonts that are not OpenType
+Select embedded fonts that
+Select page if content is selected
+Only select page object
+Select page object and entire page content
+Select page if the number of selected objects on it is 
+Select objects if page is selected
+Select by ink coverage
+Select object if ink coverage is
+Select by ink coverage (basic object check)
+Select by color space in Output Intent
+Select if color space in Output Intent is %1
+Select if color space in Output Intent is
+Select color space resource
+Select objects of which ICC profile is equal to ICC profile in PDF/X Output Intent
+Select object if fill ICC profile is equal to ICC profile in PDF/X Output Intent
+Select object if stroke ICC profile is equal to ICC profile in PDF/X Output Intent
+Select document if XMP file identifiers are not present
+Select if document XMP contains an invalid name space prefix
+Use flags to select annotation
+Select clipping objects
+Select objects by type
+Select document
+Select layers
+Select by ICC tag subtype
+Select by page size
+Select pages of which the size of the
+It is recommended to stop using this Action. Please use a Select Action followed by the "Change font" Action instead.
+Clone selection
+Select subpaths from path
+Select content that is %1
+Select objects in layers by layer properties
+Select content that is
+Select objects in layers by name
+Select objects in layers where name
+Select layers where name
+Select layers by name
+Select objects in selected layers
+Select undefined DeviceN colorants
+Select all objects which use a DeviceN color space (including NChannel) that contains spot colors not defined in its Colorants dictionary.
+Select incorrectly defined process color spaces in DeviceN
+Select objects that use a DeviceN color space containing a process color space which does not match the PDF/X Output Intent
+Select by page rotation angle
+Select pages with a rotation angle of %1 degrees
+Select if page rotation angle is 
+Select DeviceN with attributes
+Check if spot colors with the same name have the same tint transform and alternate color space
+Select non-PDF/X or PDF/A compliant TrueType fonts
+Select non-%1 compliant TrueType fonts
+Select objects close to the page edge
+Select corrupt font widths
+This Action will select fonts containing characters with a corrupt font width. Only used characters will be checked.
+Select an existing font
+Select Font Name
+Select if document metadata is inconsistent
+Select by blend modes
+Select object if it contains
+Select trim marks
+Select potential trim marks colors
+Select Marks to select
+Select by media box origin
+Select pages of which the lower left corner of the media box is not at coordinates 0, 0
+Line %1: Select at least one box to set and at least one color.
+Select Boxes to set
+Line %1: Select at least one Mark type to select and at least one color.
+Select trim and bleed marks
+Select bleed marks
+Line %1: Select at least one Mark type to check and at least one color.
+Select Marks to check
+Select by tagged ICC profile
+Select fonts by license
+Select by page orientation
+Select if page orientation is:
+Select registration marks
+Select potential registration marks colors
+Select color bars
+Select color bars with patch size between
+Color patches border to select other color bar objects
+Select PDF document
+the bounding box of all objects
+Select Empty Pages
+Select empty pages
+Select gray
+Select %1 gray within %2 % deviation
+Select page by number of paths
+Select page if number of paths is %1 %2
+Select page by number of images
+Select page if number of images is %1 %2
+Select parent content object
+Select document if document XMP metadata contains invalid types
+the tint transform functions are equal (recommended)
+Select annotations' appearance streams contents according to annotation selection
+Select the annotation content if the annotation is selected.
+Select everything except the annotation content of annotations that are not selected.
+Select thin objects
+Select objects if width of
+Select objects with width of
+Select by blending color space
+Select a page or form depending on the presence of a (specific) blending color space.
+Select objects that have a clipping path
+Select text by key phrase
+Select text containing %1
+Line %1: Select text does not contain a valid regular expression.
+Select form contents according to form selection
+Select the form content if the form is selected.
+Deselect the form content if the form is selected.
+Select by image size
+Select if image width or height is %1 %2 pixels
+Select if image width or height is
+Select single image page images
+Select clipping paths
+Select clip path if object is selected
+Select text by x-height
+Select text if x-height is %1 %2
+Select tiling pattern contents according to parent object selection
+Resize window to initial page:
+Combined Select Operators
+ROLL top %1 selections %2 positions up
+Select layers by processing steps - ISO 19593-1
+Select layers by any processing steps
+Select layers by processing steps %1
+Select layers by processing steps %1 (%2)
+Select form if content is selected
+Also select nested forms
+Save selection
+Save selection as %1
+Line %1: Too many named selections
+Line %1: Selection name is used more than once in this Action List
+Line %1: Selection name is empty
+Restore selection
+Restore selection %1
+Line %1: Restoring unknown selection
+Select objects with negative dash pattern phase
+Select page by total number of nodes
+Select page if total number of nodes is %1 %2
+Select spot colors from Esko Normalized PDF XMP
+Line %1: Select at least one matching criterion
+Could not determine bounding box of rasterized shading
+Select Esko barcode type
+Select %1 barcodes
+Select closed paths
+Select layers by print state
+Select only colors with correct alternate color values
+Select only colors with wrong alternate color values
+Select objects which use a spot color
+Select black and white objects
+Rasterize selection
+Rasterize selection at %1 ppi
+Rasterize selection at %1 ppi, blend to %2
+Select line art by total number of nodes
+Select line art if total number of nodes is %1 %2
+Select pages with page label
+Flip selection
+Flip selection horizontally
+Flip selection vertically
+Flip selection relative to center of
+Select objects in areas with dense graphics
+Select PDF file
+Select by tiling pattern
+Fix bounding box values of Type 3 fonts
+Select process colorant
+Select colorants
+Select all colorants
+Deselect all colorants
+Select rotated objects
+Select by halftone origin
+Select by version compatibility with PDF/X
+Select by version compatibility with PDF/A
+Select by inconsistent Type 3 font width information
+Select pages with bookmarks
+Select paths by fill type
+Select paths without fill
+Select paths with Non-Zero Winding fill
+Select paths with Even-Odd fill
+Selections
+Line %1: Select overlapping objects needs to be preceded by 2 Selects
+Line %1: Select page if object is selected needs to be preceded by a Select
+Line %1: Remove top of selection stack needs to be preceded by a Select
+Line %1: Duplicate top of selection stack needs to be preceded by a Select
+Line %1: Save selection needs to be preceded by a Select
+Line %1: Not enough selections on stack preceding a ROLL
+The unknown Actions include selections. Running this Action List is not possible. Please use the Action List Editor to correct your Action List first.
+CropBox size %1 of page %2 is not equal to %3
+CropBox rectangle %1 of page %2 is not equal to %3
+Rotated selection around %AnchorPoint% anchor point of %BoxType% over an angle of %Angle% degrees
+Changed %BoxType% to the bounding box of the selection
+Changed form bounding box
+%ArtBox% %BleedBox% %CropBox% %MediaBox% %TrimBox% %Rotate%
+Resized %BoxType% by %RequiredDimensions%
+Resized %BoxType% to %RequiredDimensions%
+Resized page size by %RequiredDimensions%
+Resized page size to %RequiredDimensions%
+%ArtBox% %BleedBox% %CropBox% %MediaBox% %TrimBox% %Rotate% %PageScalingFactor%
+Scaled selection
+Rasterized selection at %PPI% ppi
+Rasterized selection at %PPI% ppi, blended to %BlendTo%
+Flipped selection horizontally
+Flipped selection vertically
+Fixed bounding box values of Type3 font %[]FontName%
+Shading shape does not fill entire bounding box
+UseColorantSelection
+CropBox
+SourceSelection
+SelectionMethod
+HitType
+HandleAnnots
+HandleClips
+SelectionMode
+SelectionName
+easy handle already used in multi handle
+SEC_E_INVALID_HANDLE
+SEC_E_WRONG_CREDENTIAL_HANDLE
+schannel: AcquireCredentialsHandle failed: %s
+schannel: failed to store credential handle
+Cannot SELECT without a mailbox.
+SELECT %s
+Select failed
+State not handled yet
+cached response data too big to handle
+AcquireCredentialsHandle
+??0GOVChangeFlipSelection@@QEAA@AEBV0@@Z
+??0GOVChangeFlipSelection@@QEAA@W4BoxType@0@_N@Z
+??0GOVChangeFormBoundingBox@@IEAA@AEBV0@@Z
+??0GOVChangeFormBoundingBox@@QEAA@AEBV?$GQuadPointBase@N@@@Z
+??0GOVChangeFormBoundingBox@@QEAA@NN@Z
+??0GOVChangePageBox@@QEAA@W4ActionType@0@W4PageBoxType@GOPage@@W4TransformType@GOVChangeTransformPage@@N_N33@Z
+??0GOVChangePageBox@@QEAA@W4PageBoxType@GOPage@@0W4TransformType@GOVChangeTransformPage@@_NNNNNN22@Z
+??0GOVChangePageBox@@QEAA@W4PageBoxType@GOPage@@AEBV?$GRectBase@N@@W4TransformType@GOVChangeTransformPage@@_NN3333@Z
+??0GOVChangePageBox@@QEAA@W4PageBoxType@GOPage@@W4TransformType@GOVChangeTransformPage@@NNNNN_N22@Z
+??0GOVChangePageBoxLayout@@QEAA@W4Purpose@0@NNW4CropBoxAction@0@PEAV?$GTable@W4PageBoxType@GOPage@@@@W4PDFXVersion@GOPDFXSupport@@_NNNNN@Z
+??0GOVChangeRasterizeSelection@@QEAA@AEBV0@@Z
+??0GOVChangeRasterizeSelection@@QEAA@JW4GOVImageCompressionType@@J_N11W4BlendToType@0@211111W4InsertCopyType@0@AEAV?$map@U?$pair@W4Warning@GOVChangeRasterizeSelection@@VGString@@@std@@JU?$less@U?$pair@W4Warning@GOVChangeRasterizeSelection@@VGString@@@std@@@2@V?$allocator@U?$pair@$$CBU?$pair@W4Warning@GOVChangeRasterizeSelection@@VGString@@@std@@J@std@@@2@@std@@@Z
+??0GOVChangeRasterizeSelection@@QEAA@XZ
+??0GOVChangeRotateSelection@@IEAA@AEBV0@@Z
+??0GOVChangeRotateSelection@@QEAA@NJW4BoxType@0@_N@Z
+??0GOVChangeScaleSelection@@AEAA@AEBV0@@Z
+??0GOVChangeScaleSelection@@AEAA@XZ
+??0GOVChangeSelectionToForm@@QEAA@AEBV0@@Z
+??0GOVChangeSelectionToForm@@QEAA@XZ
+??0GOVChangeTransformNodes@@AEAA@AEBV0@@Z
+??0GOVChangeTransformNodes@@QEAA@AEBV?$GMatrixBase@N@@@Z
+??0GOVChangeTransformPage@@AEAA@AEBV0@@Z
+??0GOVChangeTransformPage@@QEAA@AEBV?$GSizeBase@N@@_N@Z
+??0GOVChangeTransformPage@@QEAA@JW4PageBoxType@GOPage@@NNNNW4TransformType@0@_N22@Z
+??0GOVChangeTransformPage@@QEAA@NJW4PageBoxType@GOPage@@_N@Z
+??0GOVChangeTransformPage@@QEAA@NNJW4PageBoxType@GOPage@@_N1@Z
+??0GOVChangeTransformPage@@QEAA@W4TransformType@0@JAEBV?$GRectBase@N@@W4PageBoxType@GOPage@@_N@Z
+??0GOVChangeTransformPageBox@@AEAA@AEBV0@@Z
+??0GOVChangeTransformPageBox@@QEAA@NNW4Position@GPositionSupport@@W4PageBoxType@GOPage@@_N@Z
+??0GOVCheckHalftoneOrigin@@QEAA@W4SelectionMethod@GOVSelectHalftoneOrigin@@@Z
+??0GOVCheckLogSelection@@QEAA@AEBV0@@Z
+??0GOVCheckLogSelection@@QEAA@AEBVGString@@@Z
+??0GOVCheckLogSelection@@QEAA@J@Z
+??0GOVCheckLogSelection@@QEAA@XZ
+??0GOVCheckNumberOfElementsOnPage@@QEAA@W4SelectionType@0@W4Operator@GComparatorBase@@J@Z
+??0GOVCheckPageBoxLayout@@QEAA@W4Purpose@GOVChangePageBoxLayout@@NNW4CropBoxAction@2@W4PDFXVersion@GOPDFXSupport@@@Z
+??0GOVCheckSpotByName@@QEAA@AEBVGString@@W4tSelectionMethod@GOVSelectSpotColor@@_N@Z
+??0GOVCloneSelection@@AEAA@AEBV0@@Z
+??0GOVCloneSelection@@QEAA@AEAVGADoc@@PEAVGOObjectTable@@1@Z
+??0GOVCloneSelection@@QEAA@AEAVGOForm@@PEAVGOObjectTable@@1@Z
+??0GOVCloneSelection@@QEAA@AEBV?$GSharedObject@VGOPage@@@@PEAVGOObjectTable@@1@Z
+??0GOVGetClippedBoundingBox@@QEAA@AEBV0@@Z
+??0GOVGetClippedBoundingBox@@QEAA@V?$function@$$A6A_NAEBVGOContentObject@@@Z@std@@_NPEAV?$GRectBase@N@@@Z
+??0GOVGetClippedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@@Z
+??0GOVGetClippedBoundingBox@@QEAA@_NPEAV?$GRectBase@N@@@Z
+??0GOVGetFixedBoundingBox@@QEAA@AEBV0@@Z
+??0GOVGetFixedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@1@Z
+??0GOVNodeSelectionToUser@@QEAA@$$QEAV0@@Z
+??0GOVNodeSelectionToUser@@QEAA@AEBV0@@Z
+??0GOVNodeSelectionToUser@@QEAA@XZ
+??0GOVSelectByPageBoxLayout@@QEAA@W4Purpose@GOVChangePageBoxLayout@@NNW4CropBoxAction@2@W4PDFXVersion@GOPDFXSupport@@@Z
+??0GOVSelectConcealedObjects@@QEAA@W4Visibility@0@W4SourceSelection@0@@Z
+??0GOVSelectHalftoneOrigin@@QEAA@W4SelectionMethod@0@W4Predicate@0@AEBV?$GPointBase@N@@W4CoordinateSystem@Origin@GOHalftoneSupport@@@Z
+??0GOVSelectInContour@@QEAA@W4tHitType@0@_NN@Z
+??0GOVSelectNodes@@QEAA@W4NodeSelectionType@0@@Z
+??0GOVSelectOverlappingObjects@@QEAA@W4SelectionMode@0@@Z
+??0GOVSelectPageByNumberOfElements@@QEAA@W4SelectionType@0@W4Operator@GComparatorBase@@J@Z
+??0GOVSelectSpotColor@@QEAA@AEBVGString@@W4tSelectionMethod@0@_N@Z
+??0PatternTransformSource@@QEAA@AEBV0@@Z
+??0PatternTransformSource@@QEAA@PEAVGOTilingPatternResource@@AEBV?$GMatrixBase@N@@@Z
+??0ShadingTransformSource@@QEAA@AEBV0@@Z
+??0ShadingTransformSource@@QEAA@PEAVGOShadingColorSpace@@AEBV?$GMatrixBase@N@@@Z
+??1GOVChangeFlipSelection@@UEAA@XZ
+??1GOVChangeFormBoundingBox@@UEAA@XZ
+??1GOVChangeRasterizeSelection@@UEAA@XZ
+??1GOVChangeRotateSelection@@UEAA@XZ
+??1GOVChangeScaleSelection@@EEAA@XZ
+??1GOVChangeSelectionToForm@@UEAA@XZ
+??1GOVChangeTransformNodes@@UEAA@XZ
+??1GOVChangeTransformPage@@UEAA@XZ
+??1GOVChangeTransformPageBox@@UEAA@XZ
+??1GOVCheckLogSelection@@UEAA@XZ
+??1GOVCloneSelection@@UEAA@XZ
+??1GOVGetClippedBoundingBox@@UEAA@XZ
+??1GOVGetFixedBoundingBox@@UEAA@XZ
+??1GOVNodeSelectionToUser@@UEAA@XZ
+??1PatternTransformSource@@QEAA@XZ
+??1ShadingTransformSource@@QEAA@XZ
+??4GOVGetClippedBoundingBox@@QEAAAEAV0@AEBV0@@Z
+??4GOVGetFixedBoundingBox@@QEAAAEAV0@AEBV0@@Z
+??4GOVNodeSelectionToUser@@QEAAAEAV0@$$QEAV0@@Z
+??4GOVNodeSelectionToUser@@QEAAAEAV0@AEBV0@@Z
+??4PatternTransformSource@@QEAAAEAV0@AEBV0@@Z
+??4ShadingTransformSource@@QEAAAEAV0@AEBV0@@Z
+??8PatternTransformSource@@QEBA_NAEBV0@@Z
+??8ShadingTransformSource@@QEBA_NAEBV0@@Z
+??_7GOVChangeFlipSelection@@6BGOVDefault@@@
+??_7GOVChangeFlipSelection@@6BGOVisitorCertify@@@
+??_7GOVChangeFlipSelection@@6BGOVisitorIdentity@@@
+??_7GOVChangeFlipSelection@@6BGrDefaultLogging@@@
+??_7GOVChangeFormBoundingBox@@6BGOVDefault@@@
+??_7GOVChangeFormBoundingBox@@6BGOVisitorCertify@@@
+??_7GOVChangeFormBoundingBox@@6BGOVisitorIdentity@@@
+??_7GOVChangeFormBoundingBox@@6BGrDefaultLogging@@@
+??_7GOVChangeRasterizeSelection@@6BGOVDefault@@@
+??_7GOVChangeRasterizeSelection@@6BGOVisitorCertify@@@
+??_7GOVChangeRasterizeSelection@@6BGOVisitorIdentity@@@
+??_7GOVChangeRasterizeSelection@@6BGrDefaultLogging@@@
+??_7GOVChangeRotateSelection@@6BGOVDefault@@@
+??_7GOVChangeRotateSelection@@6BGOVisitorCertify@@@
+??_7GOVChangeRotateSelection@@6BGOVisitorIdentity@@@
+??_7GOVChangeRotateSelection@@6BGrDefaultLogging@@@
+??_7GOVChangeScaleSelection@@6BGOVDefault@@@
+??_7GOVChangeScaleSelection@@6BGOVisitorCertify@@@
+??_7GOVChangeScaleSelection@@6BGOVisitorIdentity@@@
+??_7GOVChangeScaleSelection@@6BGrDefaultLogging@@@
+??_7GOVChangeSelectionToForm@@6BGOVDefault@@@
+??_7GOVChangeSelectionToForm@@6BGOVisitorCertify@@@
+??_7GOVChangeSelectionToForm@@6BGOVisitorIdentity@@@
+??_7GOVChangeSelectionToForm@@6BGrDefaultLogging@@@
+??_7GOVChangeTransformNodes@@6BGOVDefault@@@
+??_7GOVChangeTransformNodes@@6BGOVisitorCertify@@@
+??_7GOVChangeTransformNodes@@6BGOVisitorIdentity@@@
+??_7GOVChangeTransformNodes@@6BGrDefaultLogging@@@
+??_7GOVChangeTransformPage@@6BGOVDefault@@@
+??_7GOVChangeTransformPage@@6BGOVisitorCertify@@@
+??_7GOVChangeTransformPage@@6BGOVisitorIdentity@@@
+??_7GOVChangeTransformPage@@6BGrDefaultLogging@@@
+??_7GOVChangeTransformPageBox@@6BGOVDefault@@@
+??_7GOVChangeTransformPageBox@@6BGOVisitorCertify@@@
+??_7GOVChangeTransformPageBox@@6BGOVisitorIdentity@@@
+??_7GOVChangeTransformPageBox@@6BGrDefaultLogging@@@
+??_7GOVCheckLogSelection@@6BGOVDefault@@@
+??_7GOVCheckLogSelection@@6BGOVisitorCertify@@@
+??_7GOVCheckLogSelection@@6BGOVisitorIdentity@@@
+??_7GOVCheckLogSelection@@6BGrDefaultLogging@@@
+??_7GOVCloneSelection@@6BGOVDefault@@@
+??_7GOVCloneSelection@@6BGOVisitorCertify@@@
+??_7GOVCloneSelection@@6BGOVisitorIdentity@@@
+??_7GOVCloneSelection@@6BGrDefaultLogging@@@
+??_7GOVGetClippedBoundingBox@@6BGOVDefault@@@
+??_7GOVGetClippedBoundingBox@@6BGOVisitorCertify@@@
+??_7GOVGetClippedBoundingBox@@6BGOVisitorIdentity@@@
+??_7GOVGetClippedBoundingBox@@6BGrDefaultLogging@@@
+??_7GOVGetFixedBoundingBox@@6BGOVDefault@@@
+??_7GOVGetFixedBoundingBox@@6BGOVisitorCertify@@@
+??_7GOVGetFixedBoundingBox@@6BGOVisitorIdentity@@@
+??_7GOVGetFixedBoundingBox@@6BGrDefaultLogging@@@
+??_7GOVNodeSelectionToUser@@6BGOVDefault@@@
+??_7GOVNodeSelectionToUser@@6BGOVisitorCertify@@@
+??_7GOVNodeSelectionToUser@@6BGOVisitorIdentity@@@
+??_7GOVNodeSelectionToUser@@6BGrDefaultLogging@@@
+??_FGOVGetFixedBoundingBox@@QEAAXXZ
+?AddContentObjectToCurrentContent@GOVCloneSelection@@AEAAXPEAVGOContentObject@@@Z
+?CanDoEditLogging@GOVCloneSelection@@UEBA_NXZ
+?CanDoEditLogging@GOVGetClippedBoundingBox@@UEBA_NXZ
+?CanDoEditLogging@GOVGetFixedBoundingBox@@UEBA_NXZ
+?CanDoEditLogging@GOVNodeSelectionToUser@@EEBA_NXZ
+?Change@GOVChangeFlipSelection@@MEAAJAEAVGOClipPath@@@Z
+?Change@GOVChangeFlipSelection@@MEAAJAEAVGOClipText@@@Z
+?Change@GOVChangeFlipSelection@@MEAAJAEAVGOElement@@@Z
+?Change@GOVChangeFlipSelection@@MEAAJAEAVGOPage@@@Z
+?Change@GOVChangeFlipSelection@@MEAAJAEAVGOSubPath@@@Z
+?Change@GOVChangeFormBoundingBox@@UEAAJAEAVGOForm@@@Z
+?Change@GOVChangeRotateSelection@@UEAAJAEAVGOClipPath@@@Z
+?Change@GOVChangeRotateSelection@@UEAAJAEAVGOClipText@@@Z
+?Change@GOVChangeRotateSelection@@UEAAJAEAVGOElement@@@Z
+?Change@GOVChangeRotateSelection@@UEAAJAEAVGOPage@@@Z
+?Change@GOVChangeRotateSelection@@UEAAJAEAVGOSubPath@@@Z
+?Change@GOVChangeScaleSelection@@MEAAJAEAVGOElement@@@Z
+?Change@GOVChangeScaleSelection@@MEAAJAEAVGOPage@@@Z
+?Change@GOVChangeScaleSelection@@MEAAJAEAVGOSubPath@@@Z
+?Change@GOVChangeSelectionToForm@@UEAAJAEAVGOContentObject@@@Z
+?Change@GOVChangeTransformPage@@EEAAJAEAVGOPage@@@Z
+?Change@GOVChangeTransformPageBox@@UEAAJAEAVGOPage@@@Z
+?ChangeNodes@GOVChangeTransformNodes@@UEAAJAEAVGOSubPathEditable@@@Z
+?CheckForPressLayout@GOVSelectByPageBoxLayout@@CA?AW4PageBoxLayoutError@1@AEBVGOPage@@NNW4CropBoxAction@GOVChangePageBoxLayout@@AEAV?$GTable@W4PageBoxLayoutError@GOVSelectByPageBoxLayout@@@@@Z
+?CheckPageBoxLayout@GOVSelectByPageBoxLayout@@SA?AW4PageBoxLayoutError@1@AEBVGOPage@@W4Purpose@GOVChangePageBoxLayout@@NNW4CropBoxAction@5@W4PDFXVersion@GOPDFXSupport@@@Z
+?CheckPageBoxLayout@GOVSelectByPageBoxLayout@@SA?AW4PageBoxLayoutError@1@AEBVGOPage@@W4Purpose@GOVChangePageBoxLayout@@NNW4CropBoxAction@5@W4PDFXVersion@GOPDFXSupport@@AEAV?$GTable@W4PageBoxLayoutError@GOVSelectByPageBoxLayout@@@@@Z
+?CleanupObjectsStack@GOVChangeSelectionToForm@@AEAAXXZ
+?ConfigChangeMatrix@GOVCloneSelection@@AEAAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeFlipSelection@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeFormBoundingBox@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeRasterizeSelection@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeRotateSelection@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeScaleSelection@@MEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeSelectionToForm@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeTransformNodes@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeTransformPage@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVChangeTransformPageBox@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVCheckLogSelection@@EEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVCloneSelection@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVGetClippedBoundingBox@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVGetFixedBoundingBox@@UEBAPEAVGOVisitorBase@@XZ
+?CreateClone@GOVNodeSelectionToUser@@EEBAPEAVGOVisitorBase@@XZ
+?CreateCurrentObjectID@GOVChangeRasterizeSelection@@UEBA?AV?$GAutoPtr@VGrObjectID@@UGDeletePtr@@@@XZ
+?CreateNewConfiguration@GOVCheckLogSelection@@AEBAPEAVGrRecordConfiguration@@J@Z
+?EndChange@GOVChangeFlipSelection@@MEAAJAEAVGOPage@@@Z
+?EndChange@GOVChangeRotateSelection@@UEAAJAEAVGOPage@@@Z
+?EndInform@GOVCloneSelection@@UEAAXAEAVGOForm@@@Z
+?EndVisit@GOVChangeSelectionToForm@@UEAAXAEAVGOForm@@@Z
+?EndVisit@GOVChangeSelectionToForm@@UEAAXAEAVGOPage@@@Z
+?EndVisit@GOVCheckLogSelection@@EEAAXAEAVGOPage@@@Z
+?EndVisit@GOVCloneSelection@@UEAAXAEAVGOForm@@@Z
+?EndVisit@GOVCloneSelection@@UEAAXAEAVGOPage@@@Z
+?EndVisit@GOVGetClippedBoundingBox@@UEAAXAEAVGOForm@@@Z
+?EndVisit@GOVGetClippedBoundingBox@@UEAAXAEAVGOPage@@@Z
+?EndVisit@GOVGetFixedBoundingBox@@UEAAXAEAVGOForm@@@Z
+?EndVisit@GOVGetFixedBoundingBox@@UEAAXAEAVGOPage@@@Z
+?Expand@GOVChangeFlipSelection@@UEBAXAEAV?$GTable@PEAVGOVisitorBase@@@@@Z
+?Expand@GOVChangeRasterizeSelection@@UEBAXAEAV?$GTable@PEAVGOVisitorBase@@@@@Z
+?Expand@GOVChangeRotateSelection@@UEBAXAEAV?$GTable@PEAVGOVisitorBase@@@@@Z
+?Expand@GOVChangeScaleSelection@@MEBAXAEAV?$GTable@PEAVGOVisitorBase@@@@@Z
+?Expand@GOVChangeSelectionToForm@@UEBAXAEAV?$GTable@PEAVGOVisitorBase@@@@@Z
+?GetBoundingBox@ColorBar@GOColorBarSupport@@QEBAAEBV?$GRectBase@N@@XZ
+?GetDescription@GOVChangeFlipSelection@@UEBAXAEAVGString@@@Z
+?GetDescription@GOVChangeRasterizeSelection@@UEBAXAEAVGString@@@Z
+?GetDescription@GOVChangeRotateSelection@@UEBAXAEAVGString@@@Z
+?GetDescription@GOVChangeSelectionToForm@@UEBAXAEAVGString@@@Z
+?GetDescription@GOVChangeTransformPage@@UEBAXAEAVGString@@@Z
+?GetDescription@GOVCheckLogSelection@@EEBAXAEAVGString@@@Z
+?GetExceptionHandler@GOVChangeIsolateClippaths@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVChangeUndoCloseGapsInContour@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVCollectChars@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVCollectDenseGraphicsParams@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVCollectPaths@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVCosmeticGroup@@MEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVGetClippedBoundingBox@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVGetColorPlates@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVGetFixedBoundingBox@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVHasPageTransparency@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVHasUsedDefaultColors@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVNodeSelectionToUser@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVSelectStackToUser@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVSetHiddenFlag@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVSetLastAdded@@EEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVSetLastAddedPages@@EEBAAEBVGExceptionHandler@@XZ
+?GetHash@PatternTransformSource@@QEBAKXZ
+?GetHash@ShadingTransformSource@@QEBAKXZ
+?GetIntersectionBBox@GOVGetFixedBoundingBox@@QEBA_NAEAV?$GRectBase@N@@@Z
+?GetLanguageFromIndex@GOVCheckLogSelection@@QEBA?AVGBuffer@@J@Z
+?GetNamedSelections@GOVSelectRestore@@QEBA?BV?$GSharedObject@VGONamedSelections@@@@XZ
+?GetNumberOfLanguages@GOVCheckLogSelection@@QEBAJXZ
+?GetProcessingStrategy@GOVGetClippedBoundingBox@@EEAAAEAVGOProcessingStrategy@@XZ
+?GetProcessingStrategy@GOVGetFixedBoundingBox@@EEAAAEAVGOProcessingStrategy@@XZ
+?GetProcessingStrategy@GOVNodeSelectionToUser@@EEAAAEAVGOProcessingStrategy@@XZ
+?GetRemovedPreviousSelections@GOVSelectConcealedObjects@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectHalftoneOrigin@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectInContour@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectOperatorRoll@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectOverlappingObjects@@MEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectSave@@EEBAJXZ
+?GetSelectionName@GOVSelectRestore@@QEBAAEBVGString@@XZ
+?GetStringForLanguageIndex@GOVCheckLogSelection@@QEBAAEBVGString@@J@Z
+?GetTableIndex@GOVCheckLogSelection@@AEAAJAEBVGString@@@Z
+?GetTitle@GOVChangeFlipSelection@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeFormBoundingBox@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeRasterizeSelection@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeRotateSelection@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeScaleSelection@@MEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeSelectionToForm@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeTransformNodes@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeTransformPage@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVChangeTransformPageBox@@UEBAXAEAVGString@@@Z
+?GetTitle@GOVCheckLogSelection@@EEBAXAEAVGString@@@Z
+?GetTitle@GOVCloneSelection@@UEBAXAEAVGString@@@Z
+?GetType@GOVGetClippedBoundingBox@@UEBA?AW4Type@GOVisitorBase@@XZ
+?GetType@GOVGetFixedBoundingBox@@UEBA?AW4Type@GOVisitorBase@@XZ
+?GetType@GOVNodeSelectionToUser@@UEBA?AW4Type@GOVisitorBase@@XZ
+?GetUnionBBox@GOVGetFixedBoundingBox@@QEBA_NAEAV?$GRectBase@N@@@Z
+?GetUsedPreviousSelections@GOVAddTracePath@@UEBAJXZ
+?GetUsedPreviousSelections@GOVChangeOC@@MEBAJXZ
+?GetUsedPreviousSelections@GOVChangeRemoveFromOC@@MEBAJXZ
+?GetUsedPreviousSelections@GOVSelectAnnotAppearanceContentsFromAnnot@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectConcealedObjects@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectContentsFromForm@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectContentsFromLayer@@MEBAJXZ
+?GetUsedPreviousSelections@GOVSelectFormFromContents@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectHalftoneOrigin@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectInContour@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectObjIfPageSel@@EEBAJXZ
+?GetUsedPreviousSelections@GOVSelectOperatorRoll@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectOverlappingObjects@@MEBAJXZ
+?GetUsedPreviousSelections@GOVSelectPageIfObjSel@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectParentContent@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectParentContentObject@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectPathFromSubPath@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectSave@@EEBAJXZ
+?GetUsedPreviousSelections@GOVSelectSubPathFromNodes@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectSubPathsFromPath@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSelectTilingPatternContentsFromParent@@UEBAJXZ
+?GetVersion@GOVChangeRasterizeSelection@@UEBAJXZ
+?GetVersion@GOVChangeRotateSelection@@UEBAJXZ
+?GetVersion@GOVChangeTransformPage@@UEBAJXZ
+?GetVersion@GOVCheckLogSelection@@EEBAJXZ
+?HandleElements@GOVSelectDefaultColors@@AEBA_NAEAVGOElement@@@Z
+?HandleImages@GOVHasUsedDefaultColors@@AEAAXAEAVGOImageInterface@@@Z
+?HandleSpotColorEntry@GOVAmbiguousSpotList@@IEAAJPEBVGOVAmbiguousSpotEntry@@AEAJ_N@Z
+?IncrementLogOutput@GOVChangeRasterizeSelection@@AEAAXW4Warning@1@AEBVGString@@@Z
+?Inform@GOVCloneSelection@@UEAAXAEAVGOContentObject@@@Z
+?Inform@GOVCloneSelection@@UEAAXAEAVGOForm@@@Z
+?Initialize@GOVChangeFlipSelection@@SAXXZ
+?Initialize@GOVChangeRasterizeSelection@@SAXXZ
+?Initialize@GOVChangeRotateSelection@@SAXXZ
+?Initialize@GOVChangeScaleSelection@@SAXXZ
+?Initialize@GOVChangeSelectionToForm@@SAXXZ
+?Initialize@GOVChangeTransformPage@@SAXXZ
+?Initialize@GOVChangeTransformPageBox@@SAXXZ
+?Initialize@GOVCheckLogSelection@@SAXXZ
+?InitializeAttributes@GOVChangeFlipSelection@@UEAAXXZ
+?InitializeAttributes@GOVChangeFormBoundingBox@@UEAAXXZ
+?InitializeAttributes@GOVChangeRasterizeSelection@@UEAAXXZ
+?InitializeAttributes@GOVChangeRotateSelection@@UEAAXXZ
+?InitializeAttributes@GOVChangeScaleSelection@@MEAAXXZ
+?InitializeAttributes@GOVChangeTransformNodes@@UEAAXXZ
+?InitializeAttributes@GOVChangeTransformPage@@UEAAXXZ
+?InitializeAttributes@GOVChangeTransformPageBox@@UEAAXXZ
+?InitializeAttributes@GOVCheckLogSelection@@UEAAXXZ
+?InitializeAttributes@GOVCloneSelection@@UEAAXXZ
+?InitializeAttributes@GOVGetFixedBoundingBox@@UEAAXXZ
+?InitializeAttributes@GOVNodeSelectionToUser@@UEAAXXZ
+?IsCorrectConfigured@GOVChangeRasterizeSelection@@UEBA_NAEAVGString@@@Z
+?IsCorrectConfigured@GOVChangeScaleSelection@@MEBA_NAEAVGString@@@Z
+?IsCorrectConfigured@GOVChangeTransformPage@@UEBA_NAEAVGString@@@Z
+?IsCorrectConfigured@GOVCheckLogSelection@@UEBA_NAEAVGString@@@Z
+?IsValid@GOVGetFixedBoundingBox@@IEBA_NAEBV?$GRectBase@N@@@Z
+?LoadSelf@GOVChangeFlipSelection@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeFormBoundingBox@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeRasterizeSelection@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeRotateSelection@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeScaleSelection@@MEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeSelectionToForm@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeTransformNodes@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeTransformPage@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVChangeTransformPageBox@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVCheckLogSelection@@EEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVCloneSelection@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVGetClippedBoundingBox@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVGetFixedBoundingBox@@UEAAXAEBVGOVisitorSettings@@@Z
+?LoadSelf@GOVNodeSelectionToUser@@EEAAXAEBVGOVisitorSettings@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGOAnnotation@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGOClippingObject@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGODocument@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGOElement@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGOOCGroup@@@Z
+?Log@GOVCheckLogSelection@@EEAAXAEAVGOPage@@@Z
+?LogConfiguration@GOVChangeFlipSelection@@MEBAXXZ
+?LogConfiguration@GOVChangeFormBoundingBox@@UEBAXXZ
+?LogConfiguration@GOVChangeRasterizeSelection@@MEBAXXZ
+?LogConfiguration@GOVChangeRotateSelection@@UEBAXXZ
+?LogConfiguration@GOVChangeScaleSelection@@MEBAXXZ
+?LogConfiguration@GOVChangeSelectionToForm@@UEBAXXZ
+?LogConfiguration@GOVChangeTransformPage@@UEBAXXZ
+?LogConfiguration@GOVChangeTransformPageBox@@UEBAXXZ
+?LogConfiguration@GOVCheckLogSelection@@EEBAXXZ
+?LogException@GOVChangeRasterizeSelection@@AEAAXAEBVGException@@AEBV?$vector@PEAVGOElement@@V?$allocator@PEAVGOElement@@@std@@@std@@@Z
+?LogSuccess@GOVChangeRasterizeSelection@@AEAAXAEAVGOElement@@@Z
+?LogWarning@GOVChangeRasterizeSelection@@AEAAXAEAVGOElement@@W4Warning@1@_N@Z
+?ProcessBox@GOVGetClippedBoundingBox@@AEAA?AV?$GRectBase@N@@AEBV2@PEBVGOClippingObject@@_N@Z
+?ProcessSelectionOnPage@GOVSelectConcealedObjects@@IEAAXAEAVGOPage@@@Z
+?ProcessSelectionOnPage@GOVSelectInContour@@AEAAXAEAVGOPage@@0_N@Z
+?Rasterize@GOVChangeRasterizeSelection@@AEAA_NAEAVGOContent@@AEBV?$GMatrixBase@N@@V?$GSharedObject@VGOColorSpaceResource@@@@2AEBV?$vector@PEAVGOElement@@V?$allocator@PEAVGOElement@@@std@@@std@@AEBV?$GRectBase@N@@_NAEBV?$GTable@PEAVGOOCGroupBase@@@@@Z
+?ReinitializeAttributes@GOVChangeFlipSelection@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeFormBoundingBox@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeRasterizeSelection@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeRotateSelection@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeScaleSelection@@MEAAXXZ
+?ReinitializeAttributes@GOVChangeTransformNodes@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeTransformPage@@UEAAXXZ
+?ReinitializeAttributes@GOVChangeTransformPageBox@@UEAAXXZ
+?ReinitializeAttributes@GOVCheckLogSelection@@UEAAXXZ
+?ReinitializeAttributes@GOVCloneSelection@@UEAAXXZ
+?ReinitializeAttributes@GOVGetFixedBoundingBox@@UEAAXXZ
+?ReinitializeAttributes@GOVNodeSelectionToUser@@UEAAXXZ
+?SaveSelf@GOVChangeFlipSelection@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeFormBoundingBox@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeRasterizeSelection@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeRotateSelection@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeScaleSelection@@MEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeSelectionToForm@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeTransformNodes@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeTransformPage@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVChangeTransformPageBox@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVCheckLogSelection@@EEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVCloneSelection@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVGetClippedBoundingBox@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVGetFixedBoundingBox@@UEBAXAEAVGOVisitorSettings@@@Z
+?SaveSelf@GOVNodeSelectionToUser@@EEBAXAEAVGOVisitorSettings@@@Z
+?SetHandleClipPathAsFilled@GOVSelectHitElement@@QEAAX_N@Z
+?SetHitType@GOVSelectHitElement@@QEAAXW4HitType@1@@Z
+?SetIntersectWithCropBox@GOVGetClippedBoundingBox@@QEAAX_N@Z
+?SetLocalClipRect@GOVGetClippedBoundingBox@@QEAAXAEBV?$GRectBase@N@@@Z
+?SetNamedSelections@GOVSelectRestore@@AEAAXAEBV?$GSharedObject@VGONamedSelections@@@@@Z
+?SetNamedSelections@GOVSelectSave@@AEAAXAEBV?$GSharedObject@VGONamedSelections@@@@@Z
+?SetReferenceRect@GOVChangeTransformPage@@QEAAXAEBV?$GRectBase@N@@@Z
+?SetReportLoggedObjectType@GOVCheckLogSelection@@QEAAX_N@Z
+?SetSelectionName@GOVSelectRestore@@QEAAXAEBVGString@@@Z
+?SetSelectionName@GOVSelectSave@@QEAAXAEBVGString@@@Z
+?SetStringForLanguageIndex@GOVCheckLogSelection@@QEAAXJAEBVGString@@@Z
+?SetUseClippedObjectBBox@GOVGetFixedBoundingBox@@QEAAX_N@Z
+?StartProcessing@GOVCheckLogSelection@@UEAAXXZ
+?StopProcessing@GOVCheckLogSelection@@UEAAXXZ
+?StopProcessingPage@GOVChangeSelectionToForm@@UEAAXXZ
+?StopProcessingPage@GOVChangeTransformNodes@@UEAAXXZ
+?Transform@GOGraphicsContents@@QEAAXAEBV?$GMatrixBase@N@@@Z
+?TransformCenter@GOVChangeTransformPage@@AEAA?AV?$GMatrixBase@N@@V2@V?$GRectBase@N@@J@Z
+?TransformFromPage@GOVChangePageBox@@AEBAXAEAV?$GRectBase@N@@AEBVGOPage@@@Z
+?TransformOPIPosition@GOVChangeMatrix@@AEAAXAEAV?$GMatrixBase@N@@AEAVGAObject@@@Z
+?TransformOPIPositions@GOVChangeMatrix@@AEAAXAEAV?$GMatrixBase@N@@AEAVGAObject@@@Z
+?TransformToPage@GOVChangePageBox@@AEBAXAEAV?$GRectBase@N@@AEBVGOPage@@@Z
+?UpdateSelf@GOVChangeFlipSelection@@UEAAXXZ
+?UpdateSelf@GOVChangeFormBoundingBox@@UEAAXXZ
+?UpdateSelf@GOVChangeRasterizeSelection@@UEAAXXZ
+?UpdateSelf@GOVChangeRotateSelection@@UEAAXXZ
+?UpdateSelf@GOVChangeScaleSelection@@MEAAXXZ
+?UpdateSelf@GOVChangeTransformNodes@@UEAAXXZ
+?UpdateSelf@GOVChangeTransformPage@@UEAAXXZ
+?UpdateSelf@GOVChangeTransformPageBox@@UEAAXXZ
+?UpdateSelf@GOVCheckLogSelection@@UEAAXXZ
+?UpdateSelf@GOVCloneSelection@@UEAAXXZ
+?UpdateSelf@GOVGetFixedBoundingBox@@UEAAXXZ
+?UpdateSelf@GOVNodeSelectionToUser@@UEAAXXZ
+?Visit@GOVChangeRasterizeSelection@@UEAAXAEAVGOPageContent@@@Z
+?Visit@GOVChangeSelectionToForm@@UEAAXAEAVGOForm@@@Z
+?Visit@GOVChangeSelectionToForm@@UEAAXAEAVGOPage@@@Z
+?Visit@GOVCloneSelection@@UEAAXAEAVGOForm@@@Z
+?Visit@GOVCloneSelection@@UEAAXAEAVGOPage@@@Z
+?Visit@GOVCloneSelection@@UEAAXAEAVGOPath@@@Z
+?Visit@GOVCloneSelection@@UEAAXAEAVGOSubPath@@@Z
+?Visit@GOVGetClippedBoundingBox@@UEAAXAEAVGOElement@@@Z
+?Visit@GOVGetClippedBoundingBox@@UEAAXAEAVGOForm@@@Z
+?Visit@GOVGetClippedBoundingBox@@UEAAXAEAVGOPage@@@Z
+?Visit@GOVGetClippedBoundingBox@@UEAAXAEAVGOPath@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOClipPath@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOClipText@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOElement@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOForm@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOPage@@@Z
+?Visit@GOVGetFixedBoundingBox@@UEAAXAEAVGOSubPath@@@Z
+?Visit@GOVNodeSelectionToUser@@EEAAXAEAVGOSubPath@@@Z
+?cAttr_Anchor@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_AntiAliasing@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_BlendTo@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_BlendToAlternativeType@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_BlendToType@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_BottomMargin@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_BottomResize@GOVChangePageBox@@2VGBuffer@@B
+?cAttr_BoxType@GOVChangeFlipSelection@@2VGBuffer@@B
+?cAttr_CompressionQuality@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_CompressionType@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_CreateCopy@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_Degrees@GOVChangeRotateSelection@@2VGBuffer@@B
+?cAttr_FlipHorizontally@GOVChangeFlipSelection@@2VGBuffer@@B
+?cAttr_ForceIntoSeparateImages@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_ForceIntoSingleImage@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_HandleAnnots@GOVMoveObjectsInOutBox@@2VGBuffer@@B
+?cAttr_HandleAnnots@GOVSelectInRegion@@2VGBuffer@@B
+?cAttr_HandleClips@GOVSelectInRegion@@2VGBuffer@@B
+?cAttr_HeightBox@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_HeightScale@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_HeightScalingAction@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_HeightValue@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_HitType@GOVSelectInContour@@2VGBuffer@@B
+?cAttr_HitType@GOVSelectInRegion@@2VGBuffer@@B
+?cAttr_IgnoreBlendAndOverprint@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_IgnoreOptionalContent@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_IndexImages@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_InsertCopy@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_LeftMargin@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_LeftResize@GOVChangePageBox@@2VGBuffer@@B
+?cAttr_LogIfNothingFound@GOVCheckLogSelection@@2VGBuffer@@B
+?cAttr_OperationType@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_PageBoxType@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_PageBoxType@GOVChangeTransformPageBox@@2VGBuffer@@B
+?cAttr_ReferenceCorner@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_ReferenceCorner@GOVChangeTransformPageBox@@2VGBuffer@@B
+?cAttr_ReferenceRect@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_ReportAnnotation@GOVCheckLogSelection@@2VGBuffer@@B
+?cAttr_ReportLoggedObjectType@GOVCheckLogSelection@@2VGBuffer@@B
+?cAttr_ReportString@GOVCheckLogSelection@@2VGBuffer@@B
+?cAttr_ReportStringID@GOVCheckLogSelection@@2VGBuffer@@B
+?cAttr_Resolution@GOVChangeRasterizeSelection@@2VGBuffer@@B
+?cAttr_RightMargin@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_RightResize@GOVChangePageBox@@2VGBuffer@@B
+?cAttr_ScaleX@GOVChangeTransformPageBox@@2VGBuffer@@B
+?cAttr_ScaleXYUseAnchorPoint@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_ScaleY@GOVChangeTransformPageBox@@2VGBuffer@@B
+?cAttr_SelectionMethod@GOVCheckSpotByName@@2VGBuffer@@B
+?cAttr_SelectionMethod@GOVSelectHalftoneOrigin@@2VGBuffer@@B
+?cAttr_SelectionMethod@GOVSelectSpotColor@@2VGBuffer@@B
+?cAttr_SelectionMode@GOVSelectOverlappingObjects@@2VGBuffer@@B
+?cAttr_SelectionName@GOVSelectRestore@@2VGBuffer@@B
+?cAttr_SelectionName@GOVSelectSave@@2VGBuffer@@B
+?cAttr_SourceAnchorPoint@GOVChangeRotateSelection@@2VGBuffer@@B
+?cAttr_SourceBox@GOVChangeRotateSelection@@2VGBuffer@@B
+?cAttr_SourceSelection@GOVSelectConcealedObjects@@2VGBuffer@@B
+?cAttr_TopMargin@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_TopResize@GOVChangePageBox@@2VGBuffer@@B
+?cAttr_TransformHorizontally@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_TransformType@GOVChangePageBox@@2VGBuffer@@B
+?cAttr_TransformVertically@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_TransformX@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_TransformY@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_UseColorantSelection@GOVAddTracePath@@2VGBuffer@@B
+?cAttr_UsePageMatrix@GOVChangeRotateSelection@@2VGBuffer@@B
+?cAttr_UsePageMatrix@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_UsePageMatrix@GOVChangeTransformPageBox@@2VGBuffer@@B
+?cAttr_UseVisibleObjects@GOVChangeTransformPage@@2VGBuffer@@B
+?cAttr_WhatWithCropBox@GOVChangePageBoxLayout@@2VGBuffer@@B
+?cAttr_WhatWithCropBox@GOVCheckPageBoxLayout@@2VGBuffer@@B
+?cAttr_WhatWithCropBox@GOVSelectByPageBoxLayout@@2VGBuffer@@B
+?cAttr_WidthBox@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_WidthScale@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_WidthScalingAction@GOVChangeScaleSelection@@2VGBuffer@@B
+?cAttr_WidthValue@GOVChangeScaleSelection@@2VGBuffer@@B
+?cSuccessKey@GOVChangeRasterizeSelection@@2U?$pair@W4Warning@GOVChangeRasterizeSelection@@VGString@@@std@@B
+?GetTransformToUserSpace@GprRenderedImage@@QEBA?AV?$GMatrixBase@N@@XZ
+?GetBoundingBox@GpgCompound@@QEBA?AV?$GRectBase@N@@XZ
+?GetExceptionHandler@GOVDefaultChange@@MEBAAEBVGExceptionHandler@@XZ
+?GetUsedPreviousSelections@GOVisitorBase@@UEBAJXZ
+??1GOVisitorExHandler@@UEAA@XZ
+?GetExceptionHandler@GOVDefaultCheck@@UEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVDefaultSelect@@MEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVDefaultInform@@MEBAAEBVGExceptionHandler@@XZ
+?GetUsedPreviousSelections@GOVSelect@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelect@@UEBAJXZ
+?GetUsedPreviousSelections@GOVSettings@@MEBAJXZ
+?GetExceptionHandler@GOVSettings@@MEBAAEBVGExceptionHandler@@XZ
+??0GOVisitorExHandler@@QEAA@PEAVGOVisitorBase@@@Z
+?GetExceptionHandler@GOVDefaultAdd@@MEBAAEBVGExceptionHandler@@XZ
+?GetUsedPreviousSelections@GOVSelectOperator@@UEBAJXZ
+?GetRemovedPreviousSelections@GOVSelectOperator@@UEBAJXZ
+?GetExceptionHandler@GOVDefaultRemoveBase@@MEBAAEBVGExceptionHandler@@XZ
+?GetExceptionHandler@GOVSelectNodesBase@@MEBAAEBVGExceptionHandler@@XZ
+?TransformUserToCurrent@GOVDefaultAdd@@KAXAEAVGOObject@@@Z
+??1GODefaultExHandler@@UEAA@XZ
+??4GODefaultExHandler@@QEAAAEAV0@AEBV0@@Z
+?GetBoundingBox@GOPath@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?CopySelectionStack@GOSelectable@@UEAAXAEBV1@@Z
+?ClearSelectionStack@GOSelectable@@UEAAXXZ
+?PushSelection@GOSelectable@@UEAAX_N@Z
+?AndSelection@GOSelectable@@UEAAXXZ
+?OrSelection@GOSelectable@@UEAAXXZ
+?XorSelection@GOSelectable@@UEAAXXZ
+?InvertSelection@GOSelectable@@UEAAXXZ
+?PopSelection@GOSelectable@@UEAAXXZ
+?DupSelection@GOSelectable@@UEAAXXZ
+?RollSelection@GOSelectable@@UEAAXKK@Z
+?Transform@GOLocation@@CAXAEANAEBV?$GMatrixBase@N@@@Z
+?GetBoundingBox@GOSubPath@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?Transform@GOSubPath@@UEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?CreateTransformedIndexedSpace@GOColorSpaceSupport@@YAPEAVGOIndexedSpace@@AEBV2@AEAVGOImageChainingFilter@@@Z
+?PushSelection@GOPage@@UEAAX_N@Z
+?AndSelection@GOPage@@UEAAXXZ
+?OrSelection@GOPage@@UEAAXXZ
+?XorSelection@GOPage@@UEAAXXZ
+?InvertSelection@GOPage@@UEAAXXZ
+?PopSelection@GOPage@@UEAAXXZ
+?DupSelection@GOPage@@UEAAXXZ
+?RollSelection@GOPage@@UEAAXKK@Z
+?CopySelectionStack@GOPage@@UEAAXAEBVGOSelectable@@@Z
+?ClearSelectionStack@GOPage@@UEAAXXZ
+?GetBoundingBox@GOForm@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+??0GODefaultExHandler@@QEAA@AEBV0@@Z
+??0GODefaultExHandler@@QEAA@$$QEAV0@@Z
+??4GODefaultExHandler@@QEAAAEAV0@$$QEAV0@@Z
+?GetBoundingBox@GOImage@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetBoundingBox@GOFormResource@@UEBAXAEAV?$GRectBase@N@@@Z
+?GetBoundingBox@GOPathBase@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetIntersectionBoundingBox@GOClipPath@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?SetBoundingBox@GOForm@@QEAAXAEBV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetBoundingBox@GOTextBase@@UEBAXAEAV?$GQuadPointBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetBoundingBox@GOTextBase@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetIntersectionBoundingBox@GOClipText@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetIntersectionBoundingBox@GOTextClippingGroup@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?TransformAllBoxes@GOPage@@QEAAXAEBV?$GMatrixBase@N@@@Z
+??0GODefaultExHandler@@QEAA@XZ
+?TransformUserHeightToCurrent@GOLocation@@SAXAEAN@Z
+?GetBoundingBox@GOText@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?CalculateLocalBBox@GOVGetBoundingBox@@YA?AV?$GRectBase@N@@AEBV?$GTable@PEAVGOContentObject@@@@@Z
+?GetBoundingBox@GOShading@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?IsSelected@GOColorantSelection@@QEBA_NAEBVGBuffer@@@Z
+?GetColorantSelection@GOPage@@QEBAAEBVGOColorantSelection@@XZ
+?GetFineBoundingBox@GOPathSupport@@SA?AV?$GRectBase@N@@AEBVGOutline@@AEBV?$GMatrixBase@N@@@Z
+?TransformCurrentHeightToUser@GOLocation@@SAXAEAN@Z
+?TransformFromPageContentToGivenContent@GOLocation@@SAXAEAV?$GQuadPointBase@N@@PEBVGOContent@@@Z
+?IsSelectedAs@GONamedSelections@@QEAA_NAEBVGOObject@@J@Z
+?RestoreColorantSelection@GONamedSelections@@QEAAXJAEAVGOPage@@@Z
+?GetNamedSelections@GOVisitorSharedData@@QEBA?BV?$GSharedObject@VGONamedSelections@@@@XZ
+?SaveSelectionAs@GONamedSelections@@QEAAXAEAVGOObject@@J_N@Z
+?SaveColorantSelection@GONamedSelections@@QEAAXJAEBVGOPage@@@Z
+?GetIntersectionBoundingBox@GOClippingGroup@@UEBAXAEAV?$GRectBase@N@@W4Type@GOCoordinateSystem@@@Z
+?GetBoundingBox@GFGlyph@@QEBAAEBV?$GRectBase@N@@XZ
+??0GADCTFilter@@QEAA@W4ColorTransform@GDCTEnums@@JJJJ@Z
+?GetSecurityHandlerName@GADoc@@QEBAXAEAVGBuffer@@@Z
+?Transform@?$GPointBase@N@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?Transform@?$GRectBase@N@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?Transform@GOutline@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?Transform@?$GSizeBase@N@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?Transform@?$GRectBase@J@@QEAAAEAV1@AEBV?$GMatrixBase@J@@@Z
+GetModuleHandleA
+CloseHandle
+GetStdHandle
+__CxxFrameHandler4
+__C_specific_handler
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+.?AV<lambda_2>@?1??ProcessSelectionOnPage@GOVSelectConcealedObjects@@IEAAXAEAVGOPage@@@Z@
+.?AV<lambda_1>@?1??ProcessSelectionOnPage@GOVSelectConcealedObjects@@IEAAXAEAVGOPage@@@Z@
+.?AV<lambda_4_>@?0???0GOVGetClippedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@@Z@
+.?AV<lambda_3_>@?0???0GOVGetClippedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@@Z@
+.?AV<lambda_2_>@?0???0GOVGetClippedBoundingBox@@QEAA@_NPEAV?$GRectBase@N@@@Z@
+.?AV<lambda_1_>@?0???0GOVGetClippedBoundingBox@@QEAA@_NPEAV?$GRectBase@N@@@Z@
+.?AVGOVChangeScaleSelection@@
+.?AVGOVGatherAlignObjectsBoundingBoxes@?A0x8c35cbb9@@
+.?AVGOVChangeFlipSelection@@
+.?AV?$GConcreteValueImp@W4BoxType@GOVChangeFlipSelection@@@@
+.?AVGOVChangeFormBoundingBox@@
+.?AVGOVChangeRasterizeSelection@@
+.?AVGOVChangeRasterizeSelection_Visitor@?A0x311a9ff3@@
+.?AVGOVChangeRasterizeSelection_NoneStream@?A0x311a9ff3@@
+.?AVGOVChangeRasterizeSelection_ImageBleedStream@?A0x311a9ff3@@
+.?AV?$GConcreteValueImp@W4BlendToType@GOVChangeRasterizeSelection@@@@
+.?AV?$GConcreteValueImp@W4InsertCopyType@GOVChangeRasterizeSelection@@@@
+.?AVGOVChangeRotateSelection@@
+.?AV?$GConcreteValueImp@W4ScalingAction@GOVChangeScaleSelection@@@@
+.?AVGOVChangeSelectionToForm@@
+.?AVGOVChangeTransformNodes@@
+.?AVGOVChangeTransformPage@@
+.?AVGOVChangeTransformPageBox@@
+.?AVGOVCloneSelection@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ProcessSelectionOnPage@GOVSelectConcealedObjects@@IEAAXAEAVGOPage@@@Z@AEBVTSimpleElementAttribute@GeoMapper@@AEBVGOElement@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??ProcessSelectionOnPage@GOVSelectConcealedObjects@@IEAAXAEAVGOPage@@@Z@AEBVTSimpleElementAttribute@GeoMapper@@AEBVGOElement@@@std@@
+.?AV?$GConcreteValueImp@W4HitType@GOVSelectHitElement@@@@
+.?AVGOVGetClippedBoundingBox@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1_>@?0???0GOVGetClippedBoundingBox@@QEAA@_NPEAV?$GRectBase@N@@@Z@_NAEBVGOContentObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2_>@?0???0GOVGetClippedBoundingBox@@QEAA@_NPEAV?$GRectBase@N@@@Z@_NAEBVGOContentObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3_>@?0???0GOVGetClippedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@@Z@_NAEBVGOContentObject@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4_>@?0???0GOVGetClippedBoundingBox@@QEAA@_N0PEAV?$GRectBase@N@@@Z@_NAEBVGOContentObject@@@std@@
+.?AVGOVGetFixedBoundingBox@@
+.?AVGOVNodeSelectionToUser@@
+.?AVGOVCheckLogSelection@@

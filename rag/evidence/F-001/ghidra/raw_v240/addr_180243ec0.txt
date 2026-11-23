@@ -1,0 +1,90 @@
+requested=0x180243ec0
+resolvedAddress=180243ec0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180243ec0 ApplyMarksFromSet
+status=OK
+entry=180243ec0
+name=ApplyMarksFromSet
+qualifiedName=DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+namespace=DocumentMarks::TaskMarkSets
+signature=bool ApplyMarksFromSet(TaskMarkSets * this, vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_> * param_1, Page * param_2, bool param_3)
+returnType=bool
+parameterCount=4
+bodyMin=180243ec0
+bodyMax=180243f30
+bodySize=109
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aad68 refType=DATA fromFunction=
+18048e490 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180243eb1 refType=UNCONDITIONAL_CALL fromFunction=180243ea0 ApplyExtraMarkSet
+
+[CALLERS]
+180243ea0 DocumentMarks::TaskMarkSets::ApplyExtraMarkSet
+
+[CALLEES]
+EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+
+[DIRECT_CALL_TARGETS]
+180243ee6 -> 180243ef0 DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+180243eea -> 180243f1e DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+180243ef8 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+180243f0e -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+180243f1a -> 180243ef0 DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180243ec0 -> Stack[0x8] block=? sym=
+180243ec5 -> Stack[0x18] block=? sym=
+180243ef3 -> Stack[0x10] block=? sym=
+180243ef8 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+180243f1e -> Stack[0x8] block=? sym=
+180243f23 -> Stack[0x18] block=? sym=
+
+[DECOMPILE]
+
+/* public: bool __cdecl DocumentMarks::TaskMarkSets::ApplyMarksFromSet(class std::vector<class
+   std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class ArtDoc::Document> >,class
+   std::allocator<class std::unique_ptr<class ArtDoc::Document,struct std::default_delete<class
+   ArtDoc::Document> > > > const & __ptr64,class ArtDoc::Page & __ptr64,bool) __ptr64 */
+
+bool __thiscall
+DocumentMarks::TaskMarkSets::ApplyMarksFromSet
+          (TaskMarkSets *this,
+          vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+          *param_1,Page *param_2,bool param_3)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  bool bVar3;
+  undefined8 *puVar4;
+  
+                    /* 0x243ec0  837
+                       ?ApplyMarksFromSet@TaskMarkSets@DocumentMarks@@QEAA_NAEBV?$vector@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@V?$allocator@V?$unique_ptr@VDocument@ArtDoc@@U?$default_delete@VDocument@ArtDoc@@@std@@@std@@@2@@std@@AEAVPage@ArtDoc@@_N@Z
+                        */
+  puVar4 = *(undefined8 **)param_1;
+  puVar1 = *(undefined8 **)(param_1 + 8);
+  if (puVar4 == puVar1) {
+    bVar3 = false;
+  }
+  else {
+    do {
+      puVar2 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar4);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar2,param_2,param_3);
+      puVar4 = puVar4 + 1;
+    } while (puVar4 != puVar1);
+    bVar3 = true;
+  }
+  return bVar3;
+}
+
+

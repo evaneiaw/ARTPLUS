@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="3">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArtPlus - status da extracao</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --line:#30363d; --fg:#e6edf3;
+           --dim:#8b949e; --acc:#58a6ff; --ok:#3fb950; --warn:#d29922; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px; background:var(--bg); color:var(--fg);
+          font:14px/1.5 "Cascadia Mono", Consolas, ui-monospace, monospace; }
+  h1 { font-size:19px; margin:0 0 4px; letter-spacing:.4px; }
+  .sub { color:var(--dim); font-size:12px; margin-bottom:22px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+            gap:14px; margin-bottom:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px;
+           padding:14px 16px; }
+  .card .k { color:var(--dim); font-size:11px; text-transform:uppercase;
+              letter-spacing:1px; }
+  .card .v { font-size:26px; font-weight:600; margin-top:6px; }
+  .card .n { color:var(--dim); font-size:11px; margin-top:4px; }
+  .bar { height:12px; background:#21262d; border:1px solid var(--line);
+          border-radius:7px; overflow:hidden; margin:8px 0 4px; }
+  .bar > i { display:block; height:100%; width:100%;
+              background:linear-gradient(90deg,#1f6feb,var(--ok)); }
+  .phase { color:var(--acc); }
+  table { width:100%; border-collapse:collapse; background:var(--card);
+           border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th,td { padding:9px 12px; border-bottom:1px solid var(--line); text-align:left; }
+  th { color:var(--dim); font-size:11px; text-transform:uppercase;
+        letter-spacing:1px; font-weight:500; }
+  tr:last-child td { border-bottom:none; }
+  tr:hover td { background:#1c2129; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  td.mod { color:var(--fg); }
+  a { color:var(--acc); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .miss { color:var(--warn); }
+  footer { color:var(--dim); font-size:11px; margin-top:18px; }
+</style>
+</head>
+<body>
+  <h1>ArtPlus &mdash; extracao deterministica</h1>
+  <div class="sub">ArtPro+ v24.03.10017 &middot; atualizado 2026-11-20 23:35:02
+    &middot; auto-refresh 3s &middot; <code>python scripts/status.py --text</code></div>
+
+  <div class="cards">
+    <div class="card"><div class="k">Dossies</div>
+      <div class="v">52</div>
+      <div class="n">52 no disco</div></div>
+    <div class="card"><div class="k">Funcoes</div>
+      <div class="v">245.936</div>
+      <div class="n">48 modulos com export Ghidra</div></div>
+    <div class="card"><div class="k">Fila</div>
+      <div class="v">8/8</div>
+      <div class="n">100% &middot; concluido</div></div>
+    <div class="card"><div class="k">Relatorio</div>
+      <div class="v" style="font-size:14px"><a href="../phases/OVERNIGHT-20261119.md">OVERNIGHT-20261119.md</a></div>
+      <div class="n">inicio 02:33 &middot;
+        fim - &middot;
+        ghidra sim</div></div>
+  </div>
+
+  <div class="bar"><i></i></div>
+  <div class="sub">lacunas abertas 181 &middot;
+    bloqueios 0 &middot;
+    fase <span class="phase">concluido</span></div>
+
+  <table>
+    <thead><tr><th>Modulo</th><th class="num">Funcoes</th><th>Estado</th>
+      <th class="num">Lacunas</th><th>Dossie</th></tr></thead>
+    <tbody>
+      <tr><td class="mod">ArtPro+.exe_libFNP.dll</td><td class="num">52.103</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ArtPro+.exe_libFNP/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">JDFWrapper.dll</td><td class="num">21.664</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/JDFWrapper/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">NDLModelLocal.dll</td><td class="num">20.751</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/NDLModelLocal/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">Document.dll</td><td class="num">10.641</td><td>triado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/Document/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ARDLib.dll</td><td class="num">8.993</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/ARDLib/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentOCR.dll</td><td class="num">8.789</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentOCR/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PreflightProfileLayer.dll</td><td class="num">8.432</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PreflightProfileLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentTypesetting.dll</td><td class="num">8.251</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentTypesetting/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ArtProKernel_ProcessorLib.dll</td><td class="num">7.472</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ArtProKernel_ProcessorLib/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentScanConverter.dll</td><td class="num">7.339</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentScanConverter/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFObjectLayer.dll</td><td class="num">7.139</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PDFObjectLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">EncryptionLayer.dll</td><td class="num">5.821</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/EncryptionLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentStructuralDesign.dll</td><td class="num">5.620</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentStructuralDesign/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">NDLModelActionList.dll</td><td class="num">4.531</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/NDLModelActionList/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentEdit.dll</td><td class="num">3.753</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentEdit/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">BasicFrameworkCoreLayer.dll</td><td class="num">3.726</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/BasicFrameworkCoreLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ArtProCore.dll</td><td class="num">3.725</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ArtProCore/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFObjectToolsLayer.dll</td><td class="num">3.585</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PDFObjectToolsLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentVariableData.dll</td><td class="num">3.405</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentVariableData/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ReportGenerationLayer.dll</td><td class="num">3.051</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/ReportGenerationLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentSamplePicker.dll</td><td class="num">3.031</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentSamplePicker/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">FontLayer.dll</td><td class="num">2.974</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/FontLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PreflightProfileViewLayer.dll</td><td class="num">2.769</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/PreflightProfileViewLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentWarp.dll</td><td class="num">2.277</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentWarp/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">VariablesViewLayer.dll</td><td class="num">2.219</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/VariablesViewLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ProcessingLayer.dll</td><td class="num">2.216</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/ProcessingLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">TextEditLayer.dll</td><td class="num">2.170</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/TextEditLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">NDLModelActionListTypes.dll</td><td class="num">2.153</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/NDLModelActionListTypes/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentAutomationEngine.dll</td><td class="num">2.052</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentAutomationEngine/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentBarCode.dll</td><td class="num">1.985</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentBarCode/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ArtProPDF.dll</td><td class="num">1.963</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ArtProPDF/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">GMGOpenColor.dll</td><td class="num">1.925</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/GMGOpenColor/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentLayout.dll</td><td class="num">1.763</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentLayout/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ArtProBarcodes.dll</td><td class="num">1.562</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ArtProBarcodes/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFObjectViewLayer.dll</td><td class="num">1.532</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PDFObjectViewLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ReportDatabaseLayer.dll</td><td class="num">1.504</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/ReportDatabaseLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">MutatorViewLayer.dll</td><td class="num">1.483</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/MutatorViewLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentFlexoTools.dll</td><td class="num">1.322</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentFlexoTools/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">CertifiedPDFCoreLayer.dll</td><td class="num">1.304</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/CertifiedPDFCoreLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">FileManagerViewLayer.dll</td><td class="num">1.304</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/FileManagerViewLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentDynamicContent.dll</td><td class="num">1.204</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentDynamicContent/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">StepAndRepeatCAD.dll</td><td class="num">1.126</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/StepAndRepeatCAD/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFBarcodeScanLayer.dll</td><td class="num">1.117</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PDFBarcodeScanLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">ColorManipulationLayer.dll</td><td class="num">1.093</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/ColorManipulationLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFRenderingLayer.dll</td><td class="num">1.063</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/PDFRenderingLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">VariablesCoreLayer.dll</td><td class="num">1.023</td><td>nao-tratado +ghidra +1F</td><td class="num">2</td><td><a href="../../dossiers/VariablesCoreLayer/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentEditSeparations.dll</td><td class="num">1.011</td><td>nao-tratado +ghidra</td><td class="num">4</td><td><a href="../../dossiers/DocumentEditSeparations/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">CMS.dll</td><td class="num">0</td><td>nao-tratado +1F</td><td class="num">3</td><td><a href="../../dossiers/CMS/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentMarks.dll</td><td class="num">0</td><td>nao-tratado</td><td class="num">5</td><td><a href="../../dossiers/DocumentMarks/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">DocumentTrap.dll</td><td class="num">0</td><td>nao-tratado</td><td class="num">5</td><td><a href="../../dossiers/DocumentTrap/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFObjectActions.dll</td><td class="num">0</td><td>sem estado +ghidra +4F</td><td class="num">3</td><td><a href="../../dossiers/PDFObjectActions/DOSSIER.md">abrir</a></td></tr>
+      <tr><td class="mod">PDFObjectActionViewLayer.dll</td><td class="num">0</td><td>nao-tratado</td><td class="num">5</td><td><a href="../../dossiers/PDFObjectActionViewLayer/DOSSIER.md">abrir</a></td></tr>
+    </tbody>
+  </table>
+  <footer>fonte: dossiers/*/manifest.json &middot;
+    logs/auto/extract-detached.log &middot; gerado por scripts/status.py</footer>
+</body>
+</html>
+

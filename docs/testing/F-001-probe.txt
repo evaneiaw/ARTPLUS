@@ -1,0 +1,140 @@
+F-001 — Cut Mark (Trim Marks): probe de runtime e teste unitário
+================================================================
+
+Data da execução: 2026-11-19, ~03:05–03:07 (hora local)
+Host: Windows 11 x86_64
+Compilador: g++.exe (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r3) 16.2.0
+  C:\Users\Evanei\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.MSVCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\g++.exe
+Qt: 6.8.3 (mingw_64, C:/Qt/6.8.3/mingw_64)
+Runtime: PATH=C:\Qt\6.8.3\mingw_64\bin (evita 0xc0000135 / DLL do Qt não encontrada)
+
+Fontes no estado testado:
+  src/prepress/cut_mark.h/.cpp  (cut_mark.cpp com R4 por manager, mtime 19/11/2026 03:02:39)
+  src/document/document_model.cpp, document_serializer.cpp, undo.cpp
+
+[1] Compilação do probe — build/f001_probe.cpp
+Comando (g++ WinLibs POSIX.MSVCRT, caminhos absolutos):
+  g++.exe -std=c++17 -IH:/Desktop/ArtPlus/src
+    -IC:/Qt/6.8.3/mingw_64/include -IC:/Qt/6.8.3/mingw_64/include/QtCore
+    -IC:/Qt/6.8.3/mingw_64/include/QtGui
+    build/f001_probe.cpp src/prepress/cut_mark.cpp src/document/document_model.cpp
+    src/document/document_serializer.cpp src/document/undo.cpp
+    -LC:/Qt/6.8.3/mingw_64/lib -lQt6Gui -lQt6Core -o build/f001_probe.exe
+
+Exit code: 0
+stderr: 170 linhas, somente warnings (nenhum erro)
+Resumo: 10 marcações "warning:", de 2 tipos, ambos -Wsfinae-incomplete
+(definição de QAnyStringView / QRegularExpression depois de falhar em contexto SFINAE).
+Causa: Qt 6.8.3 foi compilado com GCC 13.1.0 e é consumido pelo GCC 16.2.0.
+Não afeta o código de F-001; o binário do probe foi gerado. Lista completa na seção [6].
+
+[2] Execução do probe
+Comando: build\f001_probe.exe   (PATH com Qt 6.8.3\mingw_64\bin)
+Exit code: 0
+stderr: vazio (0 bytes)
+stdout — 43 linhas:
+----------------------------------------------------------------
+ok: addCutMark returned a mark
+ok: group created
+ok: group has 8 path children
+ok: display name Cut Mark 1
+ok: referenceBox TrimBox
+ok: referenceKind PageBox
+ok: offsetMm 0
+ok: orientation 1
+ok: repetition 2
+ok: lineTypes {0}
+ok: all 8 children are paths
+ok: first segment has Move+Line
+ok: first element Move
+ok: second element Line
+ok: segment starts at corner
+ok: horizontal segment points outward
+ok: creation pushed an undo action
+ok: setParams(offset 3mm) applied
+ok: content still present
+ok: regeneration does not accumulate
+ok: offset moves start outward
+ok: undo restored offsetMm 0
+ok: undo restored original geometry
+ok: redo re-applied offset 3mm
+ok: setParams(offset 1.5mm) applied
+ok: saveToMetadata
+ok: root has metadata
+ok: metadata.DocumentMarks present
+ok: save .artplus
+ok: load .artplus
+ok: loadFromMetadata
+ok: one mark reloaded
+ok: offsetMm reloaded
+ok: referenceBox reloaded
+ok: orientation/repetition reloaded
+ok: lineTypes reloaded
+ok: groupId still resolves after load
+ok: geometry reloaded with 8 segments
+ok: reloaded geometry matches params
+ok: loadFromMetadata on empty doc succeeds
+ok: document without metadata key has zero marks
+
+ALL CHECKS PASSED (0 failure(s))
+----------------------------------------------------------------
+
+[3] Teste unitário — tests/unit/test_cut_mark.cpp (casos D7 da ADR-001)
+Compilação fora do CMake (moc + g++, Qt6Test); CMakeLists.txt NÃO foi editado:
+  moc.exe tests/unit/test_cut_mark.cpp -o build/test_cut_mark.moc
+  g++.exe -std=c++17 -IH:/Desktop/ArtPlus/src -IH:/Desktop/ArtPlus/build
+    -IC:/Qt/6.8.3/mingw_64/include -IC:/Qt/6.8.3/mingw_64/include/QtCore
+    -IC:/Qt/6.8.3/mingw_64/include/QtGui -IC:/Qt/6.8.3/mingw_64/include/QtTest
+    tests/unit/test_cut_mark.cpp src/prepress/cut_mark.cpp src/document/document_model.cpp
+    src/document/document_serializer.cpp src/document/undo.cpp
+    -LC:/Qt/6.8.3/mingw_64/lib -lQt6Test -lQt6Gui -lQt6Core -o build/cut_mark_test.exe
+
+Exit code (build): 0
+Comando: build\cut_mark_test.exe -o <arquivo>,txt   (PATH com Qt 6.8.3\mingw_64\bin)
+Exit code: 0
+Saída do Qt Test:
+----------------------------------------------------------------
+********* Start testing of TestCutMark *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestCutMark::initTestCase()
+PASS   : TestCutMark::testDefaults_R2_R9()
+PASS   : TestCutMark::testGeometryTopology_R7()
+PASS   : TestCutMark::testOffsetAndSingleUndo_R5()
+PASS   : TestCutMark::testReferenceBoxResolution_R3()
+PASS   : TestCutMark::testRegenerationReplaces_R8()
+PASS   : TestCutMark::testReferenceByMark_R4_E5()
+PASS   : TestCutMark::testPersistence_R10v1()
+PASS   : TestCutMark::cleanupTestCase()
+Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 18ms
+********* Finished testing of TestCutMark *********
+----------------------------------------------------------------
+
+[4] Resultado
+Probe: ALL CHECKS PASSED — 41 checks "ok", 0 FAIL, exit 0.
+Teste: 9 passed, 0 failed, 0 skipped — os 7 casos D7 + initTestCase/cleanupTestCase.
+R4 (referência por Cut Mark) foi implementado em src/prepress/cut_mark.cpp durante a tarefa
+(via CutMarkManager + CutMark::markBounds); o caso 6 é verificado positivamente, sem QEXPECT_FAIL.
+
+[5] Cobertura de cada caso D7
+  1 testDefaults_R2_R9            defaults TrimBox / 0 mm / orientation 1 / repetition 2 / lineTypes {0}; nome "Cut Mark 1"
+  2 testGeometryTopology_R7       8 PathObject Move+Line, 2 por vértice, nenhum ponto dentro da caixa
+  3 testOffsetAndSingleUndo_R5    offset 3 mm para fora; 1 undo / redo / undo
+  4 testReferenceBoxResolution_R3 Trim != Media usa Trim; trocar para MediaBox desloca a geometria
+  5 testRegenerationReplaces_R8   contagem de objetos constante, conteúdo substituído
+  6 testReferenceByMark_R4_E5     referência a Cut Mark 1 = bounds dela; E5/auto-referência recusados
+  7 testPersistence_R10v1         metadata.DocumentMarks no JSON; save/load com 1,5 mm; doc sem chave = 0 marcas
+
+[6] Warnings completos (stderr da compilação do probe) — 10 linhas
+----------------------------------------------------------------
+C:/Qt/6.8.3/mingw_64/include/QtCore/qanystringview.h:30:7: warning: defining 'QAnyStringView', which previously failed
+C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h:30:21: warning: defining 'QRegularExpression', which
+C:/Qt/6.8.3/mingw_64/include/QtCore/qanystringview.h:30:7: warning: defining 'QAnyStringView', which previously failed
+C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h:30:21: warning: defining 'QRegularExpression', which
+C:/Qt/6.8.3/mingw_64/include/QtCore/qanystringview.h:30:7: warning: defining 'QAnyStringView', which previously failed
+C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h:30:21: warning: defining 'QRegularExpression', which
+C:/Qt/6.8.3/mingw_64/include/QtCore/qanystringview.h:30:7: warning: defining 'QAnyStringView', which previously failed
+C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h:30:21: warning: defining 'QRegularExpression', which
+C:/Qt/6.8.3/mingw_64/include/QtCore/qanystringview.h:30:7: warning: defining 'QAnyStringView', which previously failed
+C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h:30:21: warning: defining 'QRegularExpression', which
+----------------------------------------------------------------
+Fim de F-001-probe.txt

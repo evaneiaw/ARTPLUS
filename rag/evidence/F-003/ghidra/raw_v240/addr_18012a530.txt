@@ -1,0 +1,164 @@
+requested=0x18012a530
+resolvedAddress=18012a530
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012a530 GetPDFPlusBoundingBox
+status=OK
+entry=18012a530
+name=GetPDFPlusBoundingBox
+qualifiedName=DocumentMarks::GetPDFPlusBoundingBox
+namespace=DocumentMarks
+signature=optional<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_> GetPDFPlusBoundingBox(Visitable * param_1)
+returnType=optional<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_>
+parameterCount=1
+bodyMin=18012a530
+bodyMax=18012a5a7
+bodySize=120
+isThunk=false
+isExternal=false
+callingConvention=__cdecl
+
+[XREFS_TO]
+1803ab398 refType=DATA fromFunction=
+180486288 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18023660a refType=UNCONDITIONAL_CALL fromFunction=1802361a0 FUN_1802361a0
+18012a2ae refType=UNCONDITIONAL_CALL fromFunction=18012a130 GetBoundingBoxForPositioning
+18010456c refType=UNCONDITIONAL_CALL fromFunction=180104420 FUN_180104420
+18026baf0 refType=UNCONDITIONAL_CALL fromFunction=18026ba10 FUN_18026ba10
+18027a112 refType=UNCONDITIONAL_CALL fromFunction=180279ed0 FUN_180279ed0
+180089157 refType=UNCONDITIONAL_CALL fromFunction=1800890d0 FUN_1800890d0
+1801bbde7 refType=UNCONDITIONAL_CALL fromFunction=1801bbd10 CalculateScaledProperties
+18012dd07 refType=UNCONDITIONAL_CALL fromFunction=18012db30 FUN_18012db30
+18012f9b6 refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+18012fafb refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+18012fdd1 refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+180130647 refType=UNCONDITIONAL_CALL fromFunction=1801305f0 PDFPlusClipMark
+180130679 refType=UNCONDITIONAL_CALL fromFunction=1801305f0 PDFPlusClipMark
+180236c7d refType=UNCONDITIONAL_CALL fromFunction=1802369a0 FUN_1802369a0
+180133f3e refType=UNCONDITIONAL_CALL fromFunction=180133b00 regenerateMarkImp
+180237e49 refType=UNCONDITIONAL_CALL fromFunction=180237c80 FUN_180237c80
+180134c6e refType=UNCONDITIONAL_CALL fromFunction=180134b00 GetReferenceBox
+180136457 refType=UNCONDITIONAL_CALL fromFunction=180136190 regenerateMarkImp
+180136978 refType=UNCONDITIONAL_CALL fromFunction=180136190 regenerateMarkImp
+180137b7e refType=UNCONDITIONAL_CALL fromFunction=180137a80 GetDimension
+180137daa refType=UNCONDITIONAL_CALL fromFunction=180137c30 FUN_180137c30
+180137db6 refType=UNCONDITIONAL_CALL fromFunction=180137c30 FUN_180137c30
+180138384 refType=UNCONDITIONAL_CALL fromFunction=180138200 GetRepresentationBox
+180138464 refType=UNCONDITIONAL_CALL fromFunction=180138200 GetRepresentationBox
+18013c2a7 refType=UNCONDITIONAL_CALL fromFunction=18013bd30 ApplyMarkContent
+18013ca3f refType=UNCONDITIONAL_CALL fromFunction=18013bd30 ApplyMarkContent
+180156ffc refType=UNCONDITIONAL_CALL fromFunction=180155d60 ApplyMarkContent
+180157963 refType=UNCONDITIONAL_CALL fromFunction=180155d60 ApplyMarkContent
+18015bed8 refType=UNCONDITIONAL_CALL fromFunction=18015be90 FUN_18015be90
+1801bb5c8 refType=UNCONDITIONAL_CALL fromFunction=1801bb570 PDFPlusResizeMark
+1801bb5fa refType=UNCONDITIONAL_CALL fromFunction=1801bb570 PDFPlusResizeMark
+18018dc6c refType=UNCONDITIONAL_CALL fromFunction=18018dbd0 moveMark
+18018f2ac refType=UNCONDITIONAL_CALL fromFunction=18018e080 regenerateMarkImp
+1801daeda refType=UNCONDITIONAL_CALL fromFunction=1801daa60 FUN_1801daa60
+1801947ca refType=UNCONDITIONAL_CALL fromFunction=1801944f0 regenerateMarkImp
+180194940 refType=UNCONDITIONAL_CALL fromFunction=1801944f0 regenerateMarkImp
+18019510a refType=UNCONDITIONAL_CALL fromFunction=1801944f0 regenerateMarkImp
+180195215 refType=UNCONDITIONAL_CALL fromFunction=1801944f0 regenerateMarkImp
+1801953ea refType=UNCONDITIONAL_CALL fromFunction=1801944f0 regenerateMarkImp
+18019d739 refType=UNCONDITIONAL_CALL fromFunction=18019d280 CreateRepetitionForSeparation
+18019d847 refType=UNCONDITIONAL_CALL fromFunction=18019d280 CreateRepetitionForSeparation
+1801a2548 refType=UNCONDITIONAL_CALL fromFunction=1801a24b0 regenerateMarkImp
+1801a36e6 refType=UNCONDITIONAL_CALL fromFunction=1801a24b0 regenerateMarkImp
+1801bd351 refType=UNCONDITIONAL_CALL fromFunction=1801bd320 GetSourceContentSize
+1801be6f2 refType=UNCONDITIONAL_CALL fromFunction=1801be320 regenerateMarkImp
+1801bea22 refType=UNCONDITIONAL_CALL fromFunction=1801be320 regenerateMarkImp
+1801d9d4c refType=UNCONDITIONAL_CALL fromFunction=1801d9bb0 FUN_1801d9bb0
+
+[CALLERS]
+18012a130 DocumentMarks::GetBoundingBoxForPositioning
+1800890d0 FUN_1800890d0
+180136190 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+180133b00 DocumentMarks::PDFPlusClipMark::regenerateMarkImp
+18013bd30 DocumentMarks::PDFPlusExternalFileMark::ApplyMarkContent
+1801bb570 DocumentMarks::PDFPlusResizeMark::PDFPlusResizeMark
+18012db30 FUN_18012db30
+1801944f0 DocumentMarks::PDFPlusRepeatByCountMark::regenerateMarkImp
+1801d9bb0 FUN_1801d9bb0
+180279ed0 FUN_180279ed0
+1801bd320 DocumentMarks::PDFPlusResizeMark::GetSourceContentSize
+18015be90 FUN_18015be90
+180104420 FUN_180104420
+1802369a0 FUN_1802369a0
+18018e080 DocumentMarks::PDFPlusPlateIDMark::regenerateMarkImp
+1801bbd10 DocumentMarks::PDFPlusResizeMark::CalculateScaledProperties
+180237c80 FUN_180237c80
+1802361a0 FUN_1802361a0
+1801be320 DocumentMarks::PDFPlusResizeMark::regenerateMarkImp
+180134b00 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+180137c30 FUN_180137c30
+1801daa60 FUN_1801daa60
+180155d60 DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+180137a80 DocumentMarks::PDFPlusDimensionsMark::GetDimension
+180138200 DocumentMarks::PDFPlusDimensionsMark::GetRepresentationBox
+18026ba10 FUN_18026ba10
+1801a24b0 DocumentMarks::PDFPlusRepeatForSeparationsMark::regenerateMarkImp
+1801305f0 DocumentMarks::PDFPlusClipMark::PDFPlusClipMark
+18018dbd0 DocumentMarks::PDFPlusPlateIDMark::moveMark
+18019d280 DocumentMarks::PDFPlusRepeatForSeparationsMark::CreateRepetitionForSeparation
+
+[CALLEES]
+18012b040 FUN_18012b040
+EXTERNAL:0000007e DOCUMENTAPPEARANCE.DLL::ArtDoc::ConstVisitor<DocumentAppearance::Path>::~ConstVisitor<DocumentAppearance::Path>
+EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+18012aaa0 FUN_18012aaa0
+180091cc0 FUN_180091cc0
+
+[DIRECT_CALL_TARGETS]
+18012a548 -> 18012aaa0 FUN_18012aaa0
+18012a564 -> 18012b040 FUN_18012b040
+18012a56f -> 180091cc0 FUN_180091cc0
+18012a579 -> 180091cc0 FUN_180091cc0
+18012a583 -> EXTERNAL:0000007e DOCUMENTAPPEARANCE.DLL::ArtDoc::ConstVisitor<DocumentAppearance::Path>::~ConstVisitor<DocumentAppearance::Path>
+18012a58e -> EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012a530 -> Stack[0x8] block=? sym=
+18012a543 -> Stack[-0x68] block=? sym=
+18012a551 -> Stack[-0x68] block=? sym=
+18012a55f -> Stack[-0x68] block=? sym=
+18012a56a -> Stack[-0x30] block=? sym=
+18012a574 -> Stack[-0x58] block=? sym=
+18012a57e -> Stack[-0x60] block=? sym=
+18012a583 -> 1802f29a8 block=.rdata sym=PTR_~ConstVisitor<DocumentAppearance::Path>_1802f29a8
+18012a589 -> Stack[-0x68] block=? sym=
+18012a58e -> 1802f18f8 block=.rdata sym=PTR_~ConstVisitorBase_1802f18f8
+18012a597 -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* class std::optional<class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> > __cdecl
+   DocumentMarks::GetPDFPlusBoundingBox(class ArtDoc::Visitable const & __ptr64) */
+
+Visitable * __cdecl DocumentMarks::GetPDFPlusBoundingBox(Visitable *param_1)
+
+{
+  longlong *in_RDX;
+  ConstVisitorBase local_68 [8];
+  ConstVisitor<DocumentAppearance::Path> local_60 [8];
+  undefined1 local_58 [40];
+  undefined1 local_30 [40];
+  
+                    /* 0x12a530  1233
+                       ?GetPDFPlusBoundingBox@DocumentMarks@@YA?AV?$optional@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@AEBVVisitable@ArtDoc@@@Z
+                        */
+  FUN_18012aaa0(local_68);
+  (**(code **)(*in_RDX + 8))();
+  FUN_18012b040(local_68,param_1);
+  FUN_180091cc0(local_30);
+  FUN_180091cc0(local_58);
+  ArtDoc::ConstVisitor<DocumentAppearance::Path>::~ConstVisitor<DocumentAppearance::Path>(local_60);
+  ArtDoc::ConstVisitorBase::~ConstVisitorBase(local_68);
+  return param_1;
+}
+
+

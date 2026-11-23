@@ -1,0 +1,190 @@
+---
+modulo: PDFObjectActions.dll
+funcao: GOVChangeFlipSelection::Change
+endereco: 0x1800940d0
+versao: 24.03.10017
+confianca: alta
+xrefs: []
+strings: []
+---
+
+# GOVChangeFlipSelection::Change @ 0x1800940d0
+
+Modulo: PDFObjectActions.dll, versao de referencia 24.03.10017.
+
+## Identidade
+
+| Campo | Valor |
+|---|---|
+| Endereco | `0x1800940d0` |
+| Nome no binario | `GOVChangeFlipSelection::Change` |
+| Assinatura (Ghidra) | `long __thiscall Change(GOPage * param_1)` |
+| Parametros | 2 |
+| Bytes de corpo | 668 |
+| Chamadores | 0 |
+| Chamadas diretas | 15 |
+
+## Papel provavel
+
+Fato: `long GOVChangeFlipSelection::Change(GOPage&)`, 668 bytes, vtable em
+`.rdata` (ver ponteiro listado). Modo 0 => `GOVGetFixedBoundingBox(true,true)`;
+modo 1 => `GOVGetClippedBoundingBox(true,true)`; em ambos aplica
+`GOPage::GetPageMatrix` + `GRectBase<double>::Transform` e pega um canto com
+`GPositionSupport::GetCorner(...,0)`.
+
+Fato: `this[0x1ec]` seleciona o eixo do espelhamento e alimenta os dois
+fatores da matriz; apos montar o `GOVChangeMatrix(...,0x3ea)` a funcao grava
+o ponteiro em `+0x1f8` e liga a flag `this[0x1f0] = 1`.
+
+Inferencia: e o operador 'Flip selection' (horizontal/vertical). O Ghidra nao
+recupera com fidelidade os doubles movidos em registradores nesta funcao
+(sequencias `CONCAT44`), por isso a forma exata da matriz NAO e afirmada aqui.
+
+## Xrefs de entrada (quem chama)
+
+- nenhuma chamada direta detectada (provavel entrada por vtable/export)
+
+## Chamadas diretas (quem esta funcao chama)
+
+- `0x180301a30 GOVGetClippedBoundingBox::GOVGetClippedBoundingBox`
+- `EXTERNAL:0000088d PDFOBJECTLAYER.DLL::GOProcessingStrategyDefault::~GOProcessingStrategyDefault`
+- `0x1803cf4c0 __security_check_cookie`
+- `0x180304030 GOVGetFixedBoundingBox::GOVGetFixedBoundingBox`
+- `EXTERNAL:00000f80 BASICFRAMEWORKCORELAYER.DLL::GPointBase<double>::GPointBase<double>`
+- `EXTERNAL:00000888 PDFOBJECTLAYER.DLL::GOPage::Accept`
+- `0x1803cefc4 FUN_1803cefc4`
+- `EXTERNAL:00000ed8 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::Transform`
+- `0x180027120 FUN_180027120`
+- `EXTERNAL:0000088a PDFOBJECTLAYER.DLL::GOPage::GetPageMatrix`
+- `EXTERNAL:0000088f PDFOBJECTLAYER.DLL::GODefaultExHandler::~GODefaultExHandler`
+- `EXTERNAL:00001088 BASICFRAMEWORKCORELAYER.DLL::GPositionSupport::GetCorner`
+- `0x180339f40 GOVChangeMatrix::GOVChangeMatrix`
+- `EXTERNAL:00000ee6 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GRectBase<double>`
+- `EXTERNAL:00000190 PDFOBJECTTOOLSLAYER.DLL::GOVisitorBase::~GOVisitorBase`
+
+## Strings referenciadas pela propria funcao
+
+- nenhuma string literal referenciada diretamente
+
+## Ponteiros para esta funcao em dados nao executaveis (vtable/RTTI)
+
+- `.rdata:1804239e8`
+
+## Pseudocodigo (extrato do Ghidra, cortado em 110 linhas)
+
+```c
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* protected: virtual long __cdecl GOVChangeFlipSelection::Change(class GOPage & __ptr64) __ptr64 */
+
+long __thiscall GOVChangeFlipSelection::Change(GOVChangeFlipSelection *this,GOPage *param_1)
+
+{
+  GMatrixBase<double> *pGVar1;
+  undefined8 *puVar2;
+  undefined8 *puVar3;
+  GOVisitorBase *this_00;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined1 auStackY_4d8 [32];
+  undefined8 local_4a8;
+  double dStack_4a0;
+  GRectBase<double> local_498 [32];
+  GOVChangeMatrix *local_478 [2];
+  undefined8 local_468;
+  undefined8 local_460;
+  undefined8 uStack_458;
+  double local_450;
+  double local_448;
+  double local_440;
+  GOVGetFixedBoundingBox local_408 [280];
+  undefined1 local_2f0 [24];
+  GOProcessingStrategyDefault local_2d8 [152];
+  GODefaultExHandler local_240 [24];
+  GOVGetClippedBoundingBox local_228 [192];
+  longlong local_168 [7];
+  longlong *local_130;
+  undefined1 local_118 [24];
+  GOProcessingStrategyDefault local_100 [152];
+  GODefaultExHandler local_68 [64];
+  ulonglong local_28;
+
+                    /* 0x940d0  5737  ?Change@GOVChangeFlipSelection@@MEAAJAEAVGOPage@@@Z */
+  local_28 = DAT_180723880 ^ (ulonglong)auStackY_4d8;
+  GPointBase<double>::GPointBase<double>((GPointBase<double> *)&local_4a8);
+  puVar3 = (undefined8 *)0x0;
+  if (*(int *)(this + 0x1e8) == 0) {
+    GRectBase<double>::GRectBase<double>(local_498);
+    GOVGetFixedBoundingBox::GOVGetFixedBoundingBox
+              (local_408,true,true,local_498,(GRectBase<double> *)0x0);
+    GOPage::Accept(param_1,(GOVisitor *)local_408);
+    pGVar1 = (GMatrixBase<double> *)GOPage::GetPageMatrix(param_1);
+    GRectBase<double>::Transform(local_498,pGVar1);
+    puVar2 = (undefined8 *)
+             GPositionSupport::GetCorner((GRectBase<double> *)local_478,(long)local_498,0);
+    local_4a8 = *puVar2;
+    dStack_4a0 = (double)puVar2[1];
+    GODefaultExHandler::~GODefaultExHandler(local_240);
+    GOProcessingStrategyDefault::~GOProcessingStrategyDefault(local_2d8);
+    FUN_180027120(local_2f0);
+    this_00 = (GOVisitorBase *)local_408;
+  }
+  else {
+    if (*(int *)(this + 0x1e8) != 1) goto LAB_180094283;
+    GRectBase<double>::GRectBase<double>(local_498);
+    GOVGetClippedBoundingBox::GOVGetClippedBoundingBox(local_228,true,true,local_498);
+    GOPage::Accept(param_1,(GOVisitor *)local_228);
+    pGVar1 = (GMatrixBase<double> *)GOPage::GetPageMatrix(param_1);
+    GRectBase<double>::Transform(local_498,pGVar1);
+    puVar2 = (undefined8 *)
+             GPositionSupport::GetCorner((GRectBase<double> *)local_478,(long)local_498,0);
+    local_4a8 = *puVar2;
+    dStack_4a0 = (double)puVar2[1];
+    GODefaultExHandler::~GODefaultExHandler(local_68);
+    GOProcessingStrategyDefault::~GOProcessingStrategyDefault(local_100);
+    FUN_180027120(local_118);
+    if (local_130 != (longlong *)0x0) {
+      (**(code **)(*local_130 + 0x20))
+                (local_130,CONCAT71((int7)((ulonglong)local_168 >> 8),local_130 != local_168));
+      local_130 = (longlong *)0x0;
+    }
+    this_00 = (GOVisitorBase *)local_228;
+  }
+  GOVisitorBase::~GOVisitorBase(this_00);
+LAB_180094283:
+  uVar6 = SUB84(DAT_18040a028,0);
+  uVar7 = (undefined4)((ulonglong)DAT_18040a028 >> 0x20);
+  uVar4 = 0;
+  uVar5 = 0;
+  if (this[0x1ec] == (GOVChangeFlipSelection)0x0) {
+    local_450 = DAT_180418898;
+    local_440 = dStack_4a0;
+  }
+  else {
+    uVar6 = SUB84(DAT_180418898,0);
+    uVar7 = (undefined4)((ulonglong)DAT_180418898 >> 0x20);
+    uVar4 = (undefined4)local_4a8;
+    uVar5 = (undefined4)((ulonglong)local_4a8 >> 0x20);
+    local_450 = DAT_18040a028;
+    local_440 = 0.0;
+  }
+  local_448 = (DAT_18040a028 - (double)CONCAT44(uVar7,uVar6)) * (double)CONCAT44(uVar5,uVar4);
+  local_440 = (DAT_18040a028 - local_450) * local_440;
+  local_468 = CONCAT44(uVar7,uVar6);
+  local_460 = 0;
+  uStack_458 = 0;
+  local_478[0] = (GOVChangeMatrix *)FUN_1803cefc4(0x2a0);
+  if (local_478[0] != (GOVChangeMatrix *)0x0) {
+    puVar3 = (undefined8 *)
+             GOVChangeMatrix::GOVChangeMatrix
+                       (local_478[0],(GMatrixBase<double> *)&local_468,true,0x3ea);
+  }
+  puVar2 = *(undefined8 **)(this + 0x1f8);
+  if (puVar2 != puVar3) {
+/* ... 10 linhas omitidas ... */
+```
+
+Raw completo: `_raw/PDFObjectActions__1800940d0.txt`.
+

@@ -1,0 +1,1217 @@
+
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+gfffffffH
+A_A^A]A\_^]
+SUVWATAUAVAWH
+(A_A^A]A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+D$8H9D$`vVM
+L$`L;\$8w
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+l$ VWATAVAWH
+A_A^A\_^
+VWATAVAWH
+@A_A^A\_^
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+0A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+`A_A^A]A\_^[
+@SVWATAUAVAWH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+PA_A^A]A\_^[
+SVWATAUAVAWH
+A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+>HkL$(8H
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+`A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+PA_A^A]A\_^[
+PA_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+SVWATAUAVAWH
+PA_A^A]A\_^[
+PA_A^A]A\_^[
+|$ UATAUAVAWH
+A_A^A]A\]
+t$ WATAUAVAWH
+A_A^A]A\_
+t$ WATAUAVAWH
+D$ H;D$(sYM;
+A_A^A]A\_
+t$ WATAUAVAWH
+D$ H;D$(sOM;
+A_A^A]A\_
+UVWATAUAVAWH
+D$0H;D$8u
+D$HH;D$Ps.Hk
+A_A^A]A\_^]
+UVWATAUAVAWH
+gfffffffH
+D$0H;D$8u
+D$HH;D$Ps(H
+A_A^A]A\_^]
+UVWAVAWH
+D$PH;D$Xs
+D$PH;D$XsFH
+D$PH;D$Xs
+ A_A^_^]
+UVWAVAWH
+D$PH;D$Xs
+D$PH;D$XsFH
+D$PH;D$Xs
+ A_A^_^]
+H USVWATAUAVAWH
+l$(L;l$H
+l$PH9D$X
+D$8H9D$X
+H;D$Xu9L;l$H
+A_A^A]A\_^[]
+@SUVWATAUAVAWH
+8A_A^A]A\_^][
+\$ UVWATAUAVAWH
+D$@H;D$ t
+D$hH;D$pt
+D$pH;D$ht
+D$ L;t$X
+A_A^A]A\_^]
+X UVWATAUAVAWH
+gfffffffI
+D$(H;D$ t
+D$@H;D$Ht
+D$HH;D$@t
+D$ H;D$Pt
+D$PH;D$Ht
+D$@H;D$Xt
+D$`H;D$ht
+D$pH;D$xt
+D$ L;t$0
+A_A^A]A\_^]
+L$ UVWATAUAVAWH
+ A_A^A]A\_^]
+L$ WATAUAVAWH
+ A_A^A]A\_
+SUVWATAUAVAWH
+(A_A^A]A\_^][
+L$ UVWATAUAVAWH
+ A_A^A]A\_^]
+@SVATAVH
+\$ VAVAWH
+VWATAVAWH
+ A_A^A\_^
+SVWAVAWH
+ A_A^_^[
+UVWATAUAVAWH
+pA_A^A]A\_^]
+@SUVWATAVAWH
+A_A^A\_^][
+@SUVWAVAWH
+hA_A^_^][
+@SUVWATAVAWH
+A_A^A\_^][
+@SUVWATAVAWH
+gfffffffH
+pA_A^A\_^][
+|$ ATAVAWH
+t$ WAVAWH
+UVWATAUAVAWH
+@A_A^A]A\_^]
+WATAUAVAWH
+@A_A^A]A\_
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+l$ VWAVH
+l$ VWAVH
+gfffffffH
+gfffffffH
+UVWAVAWH
+gfffffffI
+@A_A^_^]
+gfffffffH
+gfffffffH
+VWATAVAWH
+gfffffffI
+@A_A^A\_^
+WATAUAVAWH
+ A_A^A]A\_
+l$ VWAVH
+X UVWATAUAVAWH
+gfffffffH
+A_A^A]A\_^]
+VWATAVAWH
+A_A^A\_^
+VpH+Vht+I
+UVWAVAWH
+ A_A^_^]
+UVWAVAWH
+@A_A^_^]
+gfffffffH
+gfffffffH
+VWATAVAWH
+gfffffffH+
+A_A^A\_^
+t$ WATAUAVAWH
+gfffffffH+
+A_A^A]A\_
+VWATAVAWH
+gfffffffI+
+ A_A^A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+USVWATAUAVAWH
+A_A^A]A\_^[]H
+WATAUAVAWH
+A_A^A]A\_
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+SUVWATAUAVAWH
+HA_A^A]A\_^][
+SUVWATAUAVAWH
+hA_A^A]A\_^][
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+SUVWATAUAVAWH
+hA_A^A]A\_^][
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+UVWAVAWH
+D$PH9D$Hu
+D$8H9D$0t
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+gfffffffH
+A_A^A]A\_^]
+SUVWATAUAVAWH
+xA_A^A]A\_^][
+SUVWATAUAVAWH
+A_A^A]A\_^][
+SUVWATAUAVAWH
+A_A^A]A\_^][
+USVWATAUAVAWH
+A_A^A]A\_^[]
+SUVWATAUAVAWH
+hA_A^A]A\_^][
+x UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWAVAWH
+UVWATAUAVAWH
+pA_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+_XH;_`t"H
+A_A^A]A\_^]
+UVWATAUAVAWH
+L$PI;T$`t
+A_A^A]A\_^]
+X UVWATAUAVAWH
+gfffffffH
+L$`H;L$ht
+A_A^A]A\_^]
+UVWATAUAVAWH
+t;L;d$Pt
+A_A^A]A\_^]
+UVWAVAWH
+USVWATAUAVAWH
+|$pH;D$x
+A_A^A]A\_^[]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+|$ ATAVAWH
+UATAUAVAWH
+gfffffffH
+A_A^A]A\]
+UWATAVAWH
+A_A^A\_]
+@SUVWAVH
+UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+gfffffffH
+gfffffffH
+A_A^A]A\_^]
+T$xH+T$pH
+UVWATAUAVAWH
+gfffffffH
+gfffffffH
+A_A^A]A\_^]
+T$xH+T$pH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+l$ VAVAWH
+@VWAVAWH
+\$xukI;v
+H97upH;s
+p WATAUAVAWH
+A_A^A]A\_
+USVWATAUAVAWH
+D$@H;W`t
+A_A^A]A\_^[]
+UVWAVAWH
+UVWAVAWH
+ A_A^_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+SUVWAUAVH
+HA^A]_^][
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+gfffffffH
+A_A^A]A\_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$0D8npt
+gfffffffH
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$pH9D$ t2
+D$PH9D$ t2
+D$8H;D$@t
+A_A^A]A\_^]
+UVWATAUAVAWH
+D$8H;D$@t
+A_A^A]A\_^]
+l$ VAVAWH
+gfffffffH
+gfffffffH
+gfffffffL
+l$ VWATAVAWH
+VPH+VHt+I
+VhH+V`t+I
+ A_A^A\_^
+|$ ATAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+L$ SUVWH
+UVWAVAWH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+pA_A^A]A\_^[
+WATAUAVAWH
+ A_A^A]A\_
+d$ UAVAWH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+X UVWATAUAVAWH
+U(H;U0t-H
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+\$ UVWATAUAVAWH
+L$HH;L$Pt
+\$@H;\$Hu
+A_A^A]A\_^]
+VWATAVAWH
+gfffffffH
+A_A^A\_^
+X UVWATAUAVAWH
+H;|$PtdH
+H;|$PtrH
+A_A^A]A\_^]
+X UVWATAUAVAWH
+H;|$PtvH
+H;|$PtZH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+u|L;t$Pt\H
+A_A^A]A\_^]
+UVWATAUAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+A_A^A]A\_^]
+UVWATAUAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+A_A^A]A\_^]
+\$ UVWAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+\$ UVWAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+SVWATAUAVAWH
+gfffffffH
+pA_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+@A_A^A]A\_^[
+@A_A^A]A\_^[
+gfffffffI
+L$ UVWATAUAVAWH
+0A_A^A]A\_^]
+UATAUAVAWH
+A_A^A]A\]
+t$ UWATAVAWH
+A_A^A\_]
+UWATAVAWH
+gfffffffI
+A_A^A\_]
+UWATAVAWH
+gfffffffI
+A_A^A\_]
+gfffffffH
+t$ WAVAWH
+|$ UAVAWH
+|$ UAVAWH
+gfffffffH
+|$ UAVAWH
+gfffffffH
+UVWAVAWH
+\$ UVWAVAWH
+gfffffffH
+gfffffffH
+gfffffffH
+UATAUAVAWH
+A_A^A]A\]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+|$ UAVAWH
+|$ UAVAWH
+D$0H9D$ 
+UWATAVAWH
+A_A^A\_]
+D$0H9D$ 
+t$ WATAUAVAWH
+ A_A^A]A\_
+SVWATAUAVAWH
+pA_A^A]A\_^[
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWATAUAVAWH
+@A_A^A]A\_^[
+USVWATAUAVAWH
+D$PL+D$HI
+L$8H+L$0H
+A_A^A]A\_^[]
+WATAUAVAWH
+ A_A^A]A\_
+l$ VWAVH
+UVWAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+SVWATAUAVAWH
+>HkL$(8H
+@A_A^A]A\_^[
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+|$0H+|$(H
+L;t$XtaH
+@USVWATAUAVAWH
+L;|$@t]H
+L;|$@t`H
+A_A^A]A\_^[]
+@SVWATAUAVAWH
+A_A^A]A\_^[
+SVWAVAWH
+0A_A^_^[
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Unknown exception
+bad array new length
+bad variant access
+string too long
+map/set too long
+Unknown error (%d)
+No message text available for error %d
+asio.misc
+Already open
+End of file
+Element not found
+The descriptor does not fit into the select call's fd_set
+asio.misc error
+vector too long
+unordered_map/set too long
+invalid hash bucket count
+srgb.icc
+Edit Separations module
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+&&&&&&$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DocumentEdit::SharedContentUpdationWarning
+bad allocation
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+:p<(>><q
+DocumentEditSeparations.dll
+??0EditSeparationsModule@DocumentEditSeparations@@QEAA@XZ
+??0SharedContentUpdationWarning@DocumentEditSeparations@@QEAA@$$QEAV01@@Z
+??0SharedContentUpdationWarning@DocumentEditSeparations@@QEAA@AEBV01@@Z
+??0SharedContentUpdationWarning@DocumentEditSeparations@@QEAA@W4Type@01@@Z
+??1EditSeparationsModule@DocumentEditSeparations@@UEAA@XZ
+??1SharedContentUpdationWarning@DocumentEditSeparations@@UEAA@XZ
+??4SharedContentUpdationWarning@DocumentEditSeparations@@QEAAAEAV01@$$QEAV01@@Z
+??4SharedContentUpdationWarning@DocumentEditSeparations@@QEAAAEAV01@AEBV01@@Z
+??_7EditSeparationsModule@DocumentEditSeparations@@6B@
+??_7SharedContentUpdationWarning@DocumentEditSeparations@@6B@
+??_8EditSeparationsModule@DocumentEditSeparations@@7B@
+??_DEditSeparationsModule@DocumentEditSeparations@@QEAAXXZ
+?ApplyColorProfiles@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@3@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?Clone@SharedContentUpdationWarning@DocumentEditSeparations@@UEBAPEAV12@XZ
+?Create@EditSeparationsModule@DocumentEditSeparations@@SA?AV?$unique_ptr@VModule@ArtDoc@@U?$default_delete@VModule@ArtDoc@@@std@@@std@@XZ
+?DropColorProfiles@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?ExplicitlyAddAndOrRemoveSeparations@DocumentEditSeparations@@YAXAEAVContent@ArtDoc@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@1@Z
+?GetErrorType@SharedContentUpdationWarning@DocumentEditSeparations@@QEBA?AW4Type@12@XZ
+?GetName@EditSeparationsModule@DocumentEditSeparations@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?RemapSeparation@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?RemoveSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@3@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?RenameSeparation@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@1AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@3@@Z
+?kModuleID@EditSeparationsModule@DocumentEditSeparations@@2HB
+?what@SharedContentUpdationWarning@DocumentEditSeparations@@UEBAPEBDXZ
+?GetEffects@Path@DocumentAppearance@@QEBAAEBV?$vector@V?$variant@UInnerGradient@DocumentAppearance@@UOuterGradient@2@@std@@V?$allocator@V?$variant@UInnerGradient@DocumentAppearance@@UOuterGradient@2@@std@@@2@@std@@XZ
+?IsStroked@Path@DocumentAppearance@@QEBA_NXZ
+?GetStrokePaint@Path@DocumentAppearance@@QEBAAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@XZ
+?IsFilled@Path@DocumentAppearance@@QEBA_NXZ
+?GetFillPaint@Path@DocumentAppearance@@QEBAAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@XZ
+??0Factory@Path@DocumentAppearance@@QEAA@AEBV12@@Z
+??1Factory@Path@DocumentAppearance@@QEAA@XZ
+?SetEffects@Factory@Path@DocumentAppearance@@QEAAAEAV123@AEBV?$vector@V?$variant@UInnerGradient@DocumentAppearance@@UOuterGradient@2@@std@@V?$allocator@V?$variant@UInnerGradient@DocumentAppearance@@UOuterGradient@2@@std@@@2@@std@@@Z
+?SetStrokePaint@Factory@Path@DocumentAppearance@@QEAAAEAV123@V?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?SetFillPaint@Factory@Path@DocumentAppearance@@QEAAAEAV123@V?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?Get@Factory@Path@DocumentAppearance@@QEBA?AV?$unique_ptr@VBlendable@ArtDoc@@U?$default_delete@VBlendable@ArtDoc@@@std@@@std@@AEAVDocument@ArtDoc@@@Z
+??1?$Visitor@VPath@DocumentAppearance@@@ArtDoc@@MEAA@XZ
+??0?$Visitor@VPath@DocumentAppearance@@@ArtDoc@@QEAA@XZ
+?EndVisit@?$Visitor@VPath@DocumentAppearance@@@ArtDoc@@UEAAXAEAVPath@DocumentAppearance@@@Z
+DocumentAppearance.dll
+?SetOutputIntent@DocumentEdit@@YAXAEAVDocument@ArtDoc@@V?$optional@VOutputIntent@ArtColor@@@std@@@Z
+?GetLink@DocumentEdit@@YA?AV?$optional@UReferencePageLink@DocumentEdit@@@std@@AEBVFormPaint@ArtPaint@@@Z
+?SetSeparationMapping@DocumentEdit@@YAXAEBV?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@2@@3@@Z
+?GetSeparationMapping@DocumentEdit@@YA?AV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@2@@std@@AEBVFormPaint@ArtPaint@@@Z
+?ApplySeparationMapping@DocumentEdit@@YAXAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@2@@std@@AEAV23@@Z
+??1ReferencePageLink@DocumentEdit@@QEAA@XZ
+??8ReferencePageLink@DocumentEdit@@QEBA_NAEBU01@@Z
+??0ReferencePageLink@DocumentEdit@@QEAA@AEBU01@@Z
+?UnlinkReferencePage@DocumentEdit@@YA?AV?$vector@PEAVPath@ArtDoc@@V?$allocator@PEAVPath@ArtDoc@@@std@@@std@@AEAVDocument@ArtDoc@@AEBVuri@6network@boost@@_K@Z
+?SetSeparationInfo@DocumentEdit@@YAXAEAVDocument@ArtDoc@@V?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@std@@@Z
+??0SeparationWarning@DocumentEdit@@QEAA@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@W4Type@01@@Z
+??1SeparationWarning@DocumentEdit@@UEAA@XZ
+DocumentEdit.dll
+cmsCloseProfile
+cmsDeleteTransform
+cmsLabEncoded2Float
+cmsNamedColorCount
+cmsNamedColorInfo
+cmsReadTag
+cmsOpenProfileFromMem
+cmsCreateMultiprofileTransform
+cmsDoTransform
+lcms.dll
+?GetDescription@ICCProfile@ArtColor@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetDisplayName@ICCProfile@ArtColor@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetEskoProfileName@ICCProfile@ArtColor@@QEBAAEBV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+??8ArtColor@@YA_NAEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@0@Z
+??0Representation@ArtColor@@QEAA@XZ
+??1Representation@ArtColor@@QEAA@XZ
+?SetLab@Representation@ArtColor@@QEAAXV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@Z
+?GetList@Separations@ArtDoc@@QEBA?AUList@12@_N@Z
+??0Entry@Separation@ArtDoc@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4InkType@12@AEBVRepresentation@ArtColor@@AEBV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@4@AEBV?$variant@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4PredefinedPrintingMethod@Separation@ArtDoc@@@4@AEBV?$optional@_K@4@@Z
+?GetName@Entry@Separation@ArtDoc@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetInkType@Entry@Separation@ArtDoc@@QEBA?AW4InkType@23@XZ
+?GetRepresentation@Entry@Separation@ArtDoc@@QEBAAEBVRepresentation@ArtColor@@XZ
+??1Entry@Separation@ArtDoc@@QEAA@XZ
+??0Entry@Separation@ArtDoc@@QEAA@AEBV012@@Z
+??0Entry@Separation@ArtDoc@@QEAA@$$QEAV012@@Z
+??4Entry@Separation@ArtDoc@@QEAAAEAV012@AEBV012@@Z
+?Find@Separation@ArtDoc@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VEntry@Separation@ArtDoc@@@std@@@std@@@std@@AEAV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@4@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+?Find@Separation@ArtDoc@@YA?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@VEntry@Separation@ArtDoc@@@std@@@std@@@std@@AEBV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@4@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+?MergeSeparationInfo@Separation@ArtDoc@@YA?AV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@std@@AEBV34@0@Z
+??4Properties@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+??1VisitorBase@ArtDoc@@UEAA@XZ
+??0VisitorBase@ArtDoc@@QEAA@XZ
+?GetContent@ContentObject@ArtDoc@@QEBAPEBVContent@2@XZ
+?GetContent@ContentObject@ArtDoc@@QEAAPEAVContent@2@XZ
+?GetProperties@ContentObject@ArtDoc@@QEAAAEAVProperties@2@XZ
+?ReplaceObject@ArtDoc@@YAPEAVContentObject@1@PEAV21@0@Z
+??0CContext@ArtColor@@QEAA@AEBVDocument@ArtDoc@@@Z
+??1CContext@ArtColor@@QEAA@XZ
+?Visit@CContext@ArtColor@@QEAAXAEBVContent@ArtDoc@@@Z
+?EndVisit@CContext@ArtColor@@QEAAXAEBVContent@ArtDoc@@@Z
+?Visit@CContext@ArtColor@@QEAAXAEBVGroup@ArtDoc@@@Z
+?EndVisit@CContext@ArtColor@@QEAAXAEBVGroup@ArtDoc@@@Z
+?GetCurrentTargetProfile@CContext@ArtColor@@QEBAAEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@XZ
+?GetColor@ArtColor@@YA?AV?$ColorList@UColorPolicy@ArtColor@@@1@AEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@AEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@1@@Z
+?GetComponents@ArtColor@@YA?AV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@AEBV?$ColorList@UColorPolicy@ArtColor@@@1@AEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@1@@Z
+?DoAction@ActionList@ArtDoc@@AEAAPEBVAction@2@V?$unique_ptr@VAction@ArtDoc@@U?$default_delete@VAction@ArtDoc@@@std@@@std@@@Z
+?IsActionDone@Action@ArtDoc@@IEBA_NXZ
+?GetActionList@Action@ArtDoc@@AEAAAEAVActionList@2@XZ
+??0ActionGroupCreator@ArtDoc@@QEAA@AEAVDocument@1@_N1@Z
+??1ActionGroupCreator@ArtDoc@@QEAA@XZ
+?GetType@Content@ArtDoc@@QEBA?AW4Type@12@XZ
+?GetID@Content@ArtDoc@@QEBA_KXZ
+?GetDocument@Content@ArtDoc@@QEAAAEAVDocument@2@XZ
+?GetDocument@Content@ArtDoc@@QEBAAEBVDocument@2@XZ
+?GetSeparations@Content@ArtDoc@@QEAAAEAVSeparations@2@XZ
+?GetSeparations@Content@ArtDoc@@QEBAAEBVSeparations@2@XZ
+??0ContentAction@ArtDoc@@QEAA@AEAVContent@1@V?$Flags@W4Permission@Security@ArtDoc@@@Core@ArtSys@@@Z
+??1ContentAction@ArtDoc@@UEAA@XZ
+?InvalidateObject@ContentAction@ArtDoc@@QEAAXAEBVContentObject@2@W4WhatFlags@ContentChanges@2@@Z
+?GetDocument@ContentAction@ArtDoc@@QEBAAEAVDocument@2@XZ
+??0OutputIntent@ArtColor@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V?$shared_ptr@$$CBVICCProfile@ArtColor@@@3@@Z
+??0OutputIntent@ArtColor@@QEAA@$$QEAV01@@Z
+??1OutputIntent@ArtColor@@QEAA@XZ
+??8OutputIntent@ArtColor@@QEBA_NAEBV01@@Z
+?IsAllowedTo@Document@ArtDoc@@QEBA_NAEBV?$Flags@W4Permission@Security@ArtDoc@@@Core@ArtSys@@@Z
+?GetInfoFlag@Document@ArtDoc@@QEBA_NW4DocumentInfoFlagKey@2@@Z
+?GetDynamicObjects@Document@ArtDoc@@QEAAAEAVDynamicObjectController@2@XZ
+?GetDynamicObjects@Document@ArtDoc@@QEBAAEBVDynamicObjectController@2@XZ
+?GetSeparationInfo@Document@ArtDoc@@QEBAAEBV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@std@@XZ
+?GetErrorReporter@Document@ArtDoc@@QEBAAEAVErrorReporter@Core@ArtSys@@XZ
+?GetOutputIntent@Document@ArtDoc@@QEBAAEBV?$optional@VOutputIntent@ArtColor@@@std@@XZ
+?VisitContent@ArtDoc@@YAXAEAVContent@1@_NAEBV?$function@$$A6A_NAEBUValue@ContentTracker@ArtDoc@@@Z@std@@@Z
+?VisitParentContent@ArtDoc@@YAXAEAVContent@1@AEBV?$function@$$A6A_NAEBUValue@ContentTracker@ArtDoc@@@Z@std@@@Z
+?ObjectColorChanged@DynamicObjectController@ArtDoc@@UEBAXAEAVContentObject@2@AEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@1_N@Z
+?InksChanged@DynamicObjectController@ArtDoc@@UEAAXXZ
+?SetAllNeedUpdate@DynamicObjectController@ArtDoc@@UEAAXAEAVPage@2@@Z
+?GetStaticColorsInDynamicMark@DynamicObjectController@ArtDoc@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBVContentObject@2@@Z
+?IsFilled@Fillable@ArtDoc@@QEBA_NXZ
+?SetFillPaint@Fillable@ArtDoc@@QEAAXV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?GetFillPaint@Fillable@ArtDoc@@QEBAAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@XZ
+?GetPaintedPicture@Image@ArtDoc@@QEBAAEBV?$shared_ptr@$$CBVPaintedPicture@ArtImg@@@std@@XZ
+?SetPaintedPicture@Image@ArtDoc@@QEAAXV?$shared_ptr@$$CBVPaintedPicture@ArtImg@@@std@@@Z
+?GetPage@PageContent@ArtDoc@@QEAAAEAVPage@2@XZ
+?IsStroked@Strokable@ArtDoc@@QEBA_NXZ
+?SetStrokePaint@Strokable@ArtDoc@@QEAAXV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?GetStrokePaint@Strokable@ArtDoc@@QEBAAEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@XZ
+?GetCyanSeparation@ArtDoc@@YAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetMagentaSeparation@ArtDoc@@YAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetYellowSeparation@ArtDoc@@YAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetBlackSeparation@ArtDoc@@YAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?IsProcessColorName@ArtDoc@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+??0ChannelInfo@ArtImg@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4Type@01@AEBV?$array@N$01@3@@Z
+?GetType@ChannelInfo@ArtImg@@QEBA?AW4Type@12@XZ
+?GetName@ChannelInfo@ArtImg@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?SetName@ChannelInfo@ArtImg@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?SetRepresentation@ChannelInfo@ArtImg@@QEAAXAEBVRepresentation@ArtColor@@@Z
+??1ChannelInfo@ArtImg@@QEAA@XZ
+??0ChannelInfo@ArtImg@@QEAA@AEBV01@@Z
+??0ChannelInfo@ArtImg@@QEAA@$$QEAV01@@Z
+??0BufferedPictureSource@ArtImg@@QEAA@V?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@V?$vector@VChannelInfo@ArtImg@@V?$allocator@VChannelInfo@ArtImg@@@std@@@3@V?$shared_ptr@$$CBVColorTable@ArtColor@@@3@V?$optional@UResolution@ArtImg@@@3@V?$shared_ptr@$$CBVCompound@YAGL@@@3@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+??1BufferedPictureSource@ArtImg@@UEAA@XZ
+?IsDeviceIndependentColorSpace@ArtImg@@YA_NAEBV?$variant@UDeviceN@ArtColor@@UAll@2@UDeviceGray@2@UCalGray@2@UICCGray@2@UDeviceRGB@2@UCalRGB@2@UICCRGB@2@ULab@2@UICCLab@2@UICCCMYK@2@@std@@@Z
+?GetPictureData@PaintedPicture@ArtImg@@QEBAAEBV?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@_N@Z
+?GetChannelMapping@PaintedPicture@ArtImg@@QEBAAEBV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@_N@Z
+?GetConvertedChannelMapping@PaintedPicture@ArtImg@@QEBA?AV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+?GetMaskData@PaintedPicture@ArtImg@@QEBAAEBV?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@_N@Z
+??0Factory@PaintedPicture@ArtImg@@QEAA@AEBVDocument@ArtDoc@@AEBV?$shared_ptr@$$CBVPaintedPicture@ArtImg@@@std@@_N@Z
+??1Factory@PaintedPicture@ArtImg@@QEAA@XZ
+?SetPictureData@Factory@PaintedPicture@ArtImg@@QEAAAEAV123@V?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@@Z
+?SetChannelMapping@Factory@PaintedPicture@ArtImg@@QEAAAEAV123@V?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@@Z
+?Get@Factory@PaintedPicture@ArtImg@@QEAA?AV?$shared_ptr@$$CBVPaintedPicture@ArtImg@@@std@@XZ
+?GetDefaultChannelMapping@ArtImg@@YA?AV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBVPictureSource@1@_N@Z
+??1PictureBuffer@ArtImg@@QEAA@XZ
+?GetRowPtr@PictureBuffer@ArtImg@@QEBAPEBE_K@Z
+??0Factory@PictureBuffer@ArtImg@@QEAA@_K000@Z
+??1Factory@PictureBuffer@ArtImg@@QEAA@XZ
+?GetResult@Factory@PictureBuffer@ArtImg@@QEAA?AV?$unique_ptr@$$CBVPictureBuffer@ArtImg@@U?$default_delete@$$CBVPictureBuffer@ArtImg@@@std@@@std@@XZ
+?GetRowPtr@Factory@PictureBuffer@ArtImg@@QEAAPEAE_K@Z
+??0Factory@PictureData@ArtImg@@QEAA@AEBVDocument@ArtDoc@@V?$shared_ptr@$$CBVPictureSource@ArtImg@@@std@@@Z
+??1Factory@PictureData@ArtImg@@QEAA@XZ
+?SetResolution@Factory@PictureData@ArtImg@@QEAAAEAV123@V?$optional@UResolution@ArtImg@@@std@@@Z
+?Get@Factory@PictureData@ArtImg@@QEAA?AV?$shared_ptr@$$CBVPictureData@ArtImg@@@std@@XZ
+?GetLink@PictureData@ArtImg@@QEBAAEBV?$optional@UPictureLink@ArtImg@@@std@@XZ
+?GetResolution@PictureData@ArtImg@@QEBAAEBV?$optional@UResolution@ArtImg@@@std@@XZ
+?GetConvertedChannelInfos@PictureData@ArtImg@@QEBA?AV?$vector@VChannelInfo@ArtImg@@V?$allocator@VChannelInfo@ArtImg@@@std@@@std@@AEBV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetConverted8BitPictureBuffer@PictureData@ArtImg@@QEBA?AV?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@AEBV?$ColorList@UChannelMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetPictureSource@PictureData@ArtImg@@QEBAAEBV?$shared_ptr@$$CBVPictureSource@ArtImg@@@std@@XZ
+?GetMapping@ImageImpersonator@DocumentIO@@QEBAAEBV?$ColorList@UImpersonatorMappingPolicy@DocumentIO@@@ArtColor@@_N@Z
+?IsLinked@DocumentIO@@YA_NAEBVImageImpersonator@1@@Z
+??0Factory@ImageImpersonator@DocumentIO@@QEAA@AEBV12@_N@Z
+??1Factory@ImageImpersonator@DocumentIO@@QEAA@XZ
+?SetMapping@Factory@ImageImpersonator@DocumentIO@@QEAAAEAV123@AEBV?$ColorList@UImpersonatorMappingPolicy@DocumentIO@@@ArtColor@@@Z
+?Get@Factory@ImageImpersonator@DocumentIO@@QEAA?AV?$unique_ptr@VBlendable@ArtDoc@@U?$default_delete@VBlendable@ArtDoc@@@std@@@std@@AEAVDocument@ArtDoc@@@Z
+??1?$Visitor@VImageImpersonator@DocumentIO@@@ArtDoc@@MEAA@XZ
+??0?$Visitor@VImageImpersonator@DocumentIO@@@ArtDoc@@QEAA@XZ
+?GetType@Paint@ArtPaint@@QEBA?AW4Type@12@XZ
+?GetType@ArtPaint@@YA?AW4Type@Paint@1@AEBV?$shared_ptr@$$CBVPaint@ArtPaint@@@std@@@Z
+?GetTransformation@ShadingPaint@ArtPaint@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetConvertedBackground@ShadingPaint@ArtPaint@@QEBAAEBV?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetSeparationMapping@ShadingPaint@ArtPaint@@QEBAAEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@XZ
+?GetConvertedSeparationMapping@ShadingPaint@ArtPaint@@QEBAAEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+?GetBoundingBox@ShadingPaint@ArtPaint@@QEBAAEBV?$RectangleBase@UPdfCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetType@Function@ArtPaint@@QEBA?AW4Type@12@XZ
+?GetDomain@Function@ArtPaint@@QEBAAEBV?$vector@V?$array@N$01@std@@V?$allocator@V?$array@N$01@std@@@2@@std@@XZ
+?GetConvertedFunction@RadialShadingPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?SetBackground@?$Factory@VRadialShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@RadialShadingPaint@3@V?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@@Z
+?SetSeparationMapping@?$Factory@VRadialShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@RadialShadingPaint@3@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@@Z
+??0Factory@RadialShadingPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@AEBV?$shared_ptr@$$CBVRadialShadingPaint@ArtPaint@@@std@@@Z
+??1Factory@RadialShadingPaint@ArtPaint@@QEAA@XZ
+?SetFunction@Factory@RadialShadingPaint@ArtPaint@@QEAAAEAV123@AEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@Z
+?Get@Factory@RadialShadingPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVRadialShadingPaint@ArtPaint@@@std@@XZ
+?ConvertToStitching@ArtPaint@@YA?AV?$shared_ptr@$$CBVStitchingFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@3@@Z
+?GetC0@ExponentialFunction@ArtPaint@@QEBAAEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@XZ
+?GetC1@ExponentialFunction@ArtPaint@@QEBAAEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@XZ
+?GetN@ExponentialFunction@ArtPaint@@QEBANXZ
+??0Factory@ExponentialFunction@ArtPaint@@QEAA@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@0N@Z
+??1Factory@ExponentialFunction@ArtPaint@@QEAA@XZ
+?SetDomain@Factory@ExponentialFunction@ArtPaint@@QEAAAEAV123@AEBV?$array@N$01@std@@@Z
+?Get@Factory@ExponentialFunction@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVExponentialFunction@ArtPaint@@@std@@XZ
+?GetColor@FlatPaint@ArtPaint@@QEBAAEBV?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@XZ
+?GetConvertedColor@FlatPaint@ArtPaint@@QEBAAEBV?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+??0Factory@FlatPaint@ArtPaint@@QEAA@V?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@PEBVDocument@ArtDoc@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@@Z
+??1Factory@FlatPaint@ArtPaint@@QEAA@XZ
+?Get@Factory@FlatPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVFlatPaint@ArtPaint@@@std@@XZ
+?GetContent@FormPaint@ArtPaint@@QEBAAEAVContent@ArtDoc@@XZ
+?SetSeparationMapping@?$Factory@VFunctionShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@FunctionShadingPaint@3@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@@Z
+??0Factory@FunctionShadingPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@AEBV?$shared_ptr@$$CBVFunctionShadingPaint@ArtPaint@@@std@@@Z
+??1Factory@FunctionShadingPaint@ArtPaint@@QEAA@XZ
+?Get@Factory@FunctionShadingPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVFunctionShadingPaint@ArtPaint@@@std@@XZ
+??0ColorTable@ArtColor@@QEAA@PEBE_K11AEBV?$array@N$01@std@@@Z
+??1ColorTable@ArtColor@@QEAA@XZ
+?GetChannelCount@ColorTable@ArtColor@@QEBA_KXZ
+?GetColorCount@ColorTable@ArtColor@@QEBA_KXZ
+?GetDecode@ColorTable@ArtColor@@QEBAAEBV?$array@N$01@std@@XZ
+?GetTableData@ColorTable@ArtColor@@QEBAAEBV?$vector@EV?$allocator@E@std@@@std@@XZ
+?GetNumComponents@MeshPaint@ArtPaint@@UEBA_KXZ
+?GetColorTable@MeshPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@XZ
+?GetBitsPerCoordinate@MeshPaint@ArtPaint@@QEBA_KXZ
+?GetBitsPerComponent@MeshPaint@ArtPaint@@QEBA_KXZ
+?GetBitsPerFlagOrVerticesPerRow@MeshPaint@ArtPaint@@QEBA_KXZ
+?GetDecode@MeshPaint@ArtPaint@@QEBAAEBV?$vector@NV?$allocator@N@std@@@std@@XZ
+?GetFunction@MeshPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@XZ
+?GetMesh@MeshPaint@ArtPaint@@QEBAAEBV?$vector@EV?$allocator@E@std@@@std@@XZ
+?GetConvertedColorTable@MeshPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?SetTransformation@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+?SetBackground@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@V?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@@Z
+?SetSeparationMapping@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@@Z
+?SetBoundingBox@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@AEBV?$RectangleBase@UPdfCoordinateSystem@YAGL@@@YAGL@@@Z
+?SetColorTable@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@MeshPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@V?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@@Z
+?SetFunction@?$Factory@VGouraudShadedTriangleMeshPaint@ArtPaint@@@MeshPaint@ArtPaint@@IEAAAEAVFactory@GouraudShadedTriangleMeshPaint@3@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@Z
+??0Factory@GouraudShadedTriangleMeshPaint@ArtPaint@@QEAA@W4Type@Paint@2@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@V?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@_K33V?$vector@NV?$allocator@N@std@@@8@V?$shared_ptr@$$CBVFunction@ArtPaint@@@8@V?$vector@EV?$allocator@E@std@@@8@PEBVDocument@ArtDoc@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@8@@Z
+??0Factory@GouraudShadedTriangleMeshPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@AEBV?$shared_ptr@$$CBVGouraudShadedTriangleMeshPaint@ArtPaint@@@std@@@Z
+??1Factory@GouraudShadedTriangleMeshPaint@ArtPaint@@QEAA@XZ
+?AddVertex@Factory@GouraudShadedTriangleMeshPaint@ArtPaint@@QEAAAEAV123@IAEBV?$array@I$01@std@@PEBI@Z
+?Get@Factory@GouraudShadedTriangleMeshPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVGouraudShadedTriangleMeshPaint@ArtPaint@@@std@@XZ
+?SetTransformation@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+?SetBackground@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@V?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@@Z
+?SetSeparationMapping@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@@Z
+?SetBoundingBox@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@AEBV?$RectangleBase@UPdfCoordinateSystem@YAGL@@@YAGL@@@Z
+?SetColorTable@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@MeshPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@V?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@@Z
+?SetFunction@?$Factory@VCoonsTensorProductPatchMeshPaint@ArtPaint@@@MeshPaint@ArtPaint@@IEAAAEAVFactory@CoonsTensorProductPatchMeshPaint@3@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@Z
+??0Factory@CoonsTensorProductPatchMeshPaint@ArtPaint@@QEAA@W4Type@Paint@2@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@V?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@_K33V?$vector@NV?$allocator@N@std@@@8@V?$shared_ptr@$$CBVFunction@ArtPaint@@@8@V?$vector@EV?$allocator@E@std@@@8@PEBVDocument@ArtDoc@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@8@@Z
+??0Factory@CoonsTensorProductPatchMeshPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@AEBV?$shared_ptr@$$CBVCoonsTensorProductPatchMeshPaint@ArtPaint@@@std@@@Z
+??1Factory@CoonsTensorProductPatchMeshPaint@ArtPaint@@QEAA@XZ
+?AddPatch@Factory@CoonsTensorProductPatchMeshPaint@ArtPaint@@QEAAAEAV123@IPEBV?$array@I$01@std@@PEBI@Z
+?Get@Factory@CoonsTensorProductPatchMeshPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVCoonsTensorProductPatchMeshPaint@ArtPaint@@@std@@XZ
+?GetConvertedFunction@AxialShadingPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?SetBackground@?$Factory@VAxialShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@AxialShadingPaint@3@V?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@@Z
+?SetSeparationMapping@?$Factory@VAxialShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@AxialShadingPaint@3@V?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@@Z
+??0Factory@AxialShadingPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@AEBV?$shared_ptr@$$CBVAxialShadingPaint@ArtPaint@@@std@@@Z
+??1Factory@AxialShadingPaint@ArtPaint@@QEAA@XZ
+?SetFunction@Factory@AxialShadingPaint@ArtPaint@@QEAAAEAV123@AEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@Z
+?Get@Factory@AxialShadingPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVAxialShadingPaint@ArtPaint@@@std@@XZ
+?GetColor@PatternPaint@ArtPaint@@QEBAAEBV?$optional@V?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@@std@@XZ
+?GetConvertedColor@PatternPaint@ArtPaint@@QEBAAEBV?$optional@V?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+??0Factory@PatternPaint@ArtPaint@@QEAA@PEAVCloneStrategy@ArtDoc@@V?$shared_ptr@$$CBVPatternPaint@ArtPaint@@@std@@@Z
+??1Factory@PatternPaint@ArtPaint@@QEAA@XZ
+?SetColor@Factory@PatternPaint@ArtPaint@@QEAAAEAV123@V?$ColorList@UColorPolicy@ArtColor@@@ArtColor@@@Z
+?Get@Factory@PatternPaint@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVPatternPaint@ArtPaint@@@std@@XZ
+?GetBounds@StitchingFunction@ArtPaint@@QEBAAEBV?$vector@NV?$allocator@N@std@@@std@@XZ
+?GetEncode@StitchingFunction@ArtPaint@@QEBAAEBV?$vector@V?$array@N$01@std@@V?$allocator@V?$array@N$01@std@@@2@@std@@XZ
+?GetFunctions@StitchingFunction@ArtPaint@@QEBAAEBV?$vector@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@V?$allocator@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@2@@std@@XZ
+??0Factory@StitchingFunction@ArtPaint@@QEAA@V?$vector@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@V?$allocator@V?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@@2@@std@@V?$vector@NV?$allocator@N@std@@@4@@Z
+??1Factory@StitchingFunction@ArtPaint@@QEAA@XZ
+?SetEncode@Factory@StitchingFunction@ArtPaint@@QEAAAEAV123@V?$vector@V?$array@N$01@std@@V?$allocator@V?$array@N$01@std@@@2@@std@@@Z
+?Get@Factory@StitchingFunction@ArtPaint@@QEAA?AV?$shared_ptr@$$CBVStitchingFunction@ArtPaint@@@std@@XZ
+?GetReducedColorSpace@ArtDocUtils@@YA?AV?$ColorList@UColorSpacePolicy@ArtColor@@@ArtColor@@AEBVPaint@ArtPaint@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@_N@Z
+?GetPictureBuffer@BufferedPictureSource@ArtImg@@UEBA?AV?$shared_ptr@$$CBVPictureBuffer@ArtImg@@@std@@XZ
+?GetColorTable@BufferedPictureSource@ArtImg@@UEBA?AV?$shared_ptr@$$CBVColorTable@ArtColor@@@std@@XZ
+?GetChannelInfoMapping@BufferedPictureSource@ArtImg@@UEBAAEBV?$ColorList@USeparationMappingPolicy@ArtColor@@@ArtColor@@XZ
+?GetWidth@BufferedPictureSource@ArtImg@@UEBA_KXZ
+?GetHeight@BufferedPictureSource@ArtImg@@UEBA_KXZ
+?GetResolution@BufferedPictureSource@ArtImg@@UEBA?AV?$optional@UResolution@ArtImg@@@std@@XZ
+?GetBitsPerChannel@BufferedPictureSource@ArtImg@@UEBA_KXZ
+?GetChannelInfos@BufferedPictureSource@ArtImg@@UEBAAEBV?$vector@VChannelInfo@ArtImg@@V?$allocator@VChannelInfo@ArtImg@@@std@@@std@@XZ
+?GetClippingPath@BufferedPictureSource@ArtImg@@UEBA?AV?$shared_ptr@$$CBVCompound@YAGL@@@std@@XZ
+?GetPictureStream@PictureSource@ArtImg@@UEBA?AV?$unique_ptr@VPictureStream@ArtImg@@U?$default_delete@VPictureStream@ArtImg@@@std@@@std@@XZ
+?GetStreamType@PictureSource@ArtImg@@UEBA?AW4Type@PictureStream@2@XZ
+?EndVisit@?$Visitor@VImageImpersonator@DocumentIO@@@ArtDoc@@UEAAXAEAVImageImpersonator@DocumentIO@@@Z
+?PostActionSelf@ContentAction@ArtDoc@@UEBAXXZ
+?IsAllowed@ContentAction@ArtDoc@@UEBA_NXZ
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVTextGroup@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVLayer@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVGroup@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVImageMask@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVText@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPath@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVStrokable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVFillable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVImage@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVBlendable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVClippable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVTransformable@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVContentObject@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPageContent@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVContent@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPage@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVPart@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVParts@2@@Z
+?Visit@VisitorBase@ArtDoc@@UEAA_NAEAVDocument@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVTextGroup@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVLayer@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVGroup@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVImageMask@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVText@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPath@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVStrokable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVFillable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVImage@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVBlendable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVClippable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVTransformable@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVContentObject@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPageContent@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVContent@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPage@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVPart@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVParts@2@@Z
+?EndVisit@VisitorBase@ArtDoc@@UEAAXAEAVDocument@2@@Z
+?GetColorSpace@ICCProfile@ArtColor@@QEBA?AW4ColorSpaceId@2@XZ
+?CreateICCProfile@ArtColor@@YA?AV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@W4ProfileSource@1@AEBV23@@Z
+?HasLab@Representation@ArtColor@@QEBA_NXZ
+?GetRgb@Representation@ArtColor@@QEBAAEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@XZ
+?GetLab@Representation@ArtColor@@QEBAAEBV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@XZ
+?SetRgb@Representation@ArtColor@@QEAAXV?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@Z
+?GetInkBookName@Entry@Separation@ArtDoc@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetDefaultWorkingSpaceProfile@ArtColor@@YA?AV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@XZ
+?GetProfile@OutputIntent@ArtColor@@QEBAAEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@std@@XZ
+?StandardizeProcessColorName@ArtDoc@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
+??0Module@ArtDoc@@QEAA@XZ
+??1Module@ArtDoc@@UEAA@XZ
+?AddSeparation@Separations@ArtDoc@@QEAAXV?$basic_string_view@DU?$char_traits@D@std@@@std@@@Z
+?RemoveSeparation@Separations@ArtDoc@@QEAAXV?$basic_string_view@DU?$char_traits@D@std@@@std@@@Z
+?GetContent@ContentAction@ArtDoc@@QEBAAEAVContent@2@XZ
+?SetGroupColorSpace@Content@ArtDoc@@QEAAXAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@@Z
+?GetGroupColorSpace@Content@ArtDoc@@QEBAAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@XZ
+?GetGroupColorSpace@Group@ArtDoc@@QEBAAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@XZ
+?SetGroupColorSpace@Group@ArtDoc@@QEAAXAEBV?$variant@Umonostate@std@@UDeviceGray@ArtColor@@UDeviceRGB@4@UDeviceCMYK@ArtBlend@@UCalGray@4@UCalRGB@4@UICCGray@4@UICCRGB@4@UICCCMYK@4@@std@@@Z
+?GetTransformation@PictureSource@ArtImg@@QEBAAEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+?GetConvertedBackground@ArtPaint@@YA?AV?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@AEBVShadingPaint@1@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@3@@Z
+?SetBackground@?$Factory@VFunctionShadingPaint@ArtPaint@@@ShadingPaint@ArtPaint@@IEAAAEAVFactory@FunctionShadingPaint@3@V?$optional@V?$vector@VComponent@ArtColor@@V?$allocator@VComponent@ArtColor@@@std@@@std@@@std@@@Z
+?GetConvertedBitsPerComponent@MeshPaint@ArtPaint@@QEBA_KXZ
+?GetConvertedDecode@MeshPaint@ArtPaint@@QEBAAEBV?$vector@NV?$allocator@N@std@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetConvertedFunction@MeshPaint@ArtPaint@@QEBAAEBV?$shared_ptr@$$CBVFunction@ArtPaint@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+?GetConvertedMesh@MeshPaint@ArtPaint@@QEBAAEBV?$vector@EV?$allocator@E@std@@@std@@AEBV?$shared_ptr@$$CBVICCProfile@ArtColor@@@4@@Z
+Document.dll
+??1Error@Core@ArtSys@@UEAA@XZ
+??0Error@Core@ArtSys@@IEAA@AEBV012@@Z
+??4Error@Core@ArtSys@@IEAAAEAV012@AEBV012@@Z
+?GetTitle@Error@Core@ArtSys@@UEBA?AV?$basic_string@_WUuni16char_traits@Core@ArtSys@@V?$allocator@_W@std@@@std@@XZ
+?GetDescription@Error@Core@ArtSys@@UEBA?AV?$basic_string@_WUuni16char_traits@Core@ArtSys@@V?$allocator@_W@std@@@std@@XZ
+?GetTimeStamp@Error@Core@ArtSys@@UEBA?AV?$basic_string@_WUuni16char_traits@Core@ArtSys@@V?$allocator@_W@std@@@std@@XZ
+??0Error@Core@ArtSys@@QEAA@W4Severity@012@@Z
+ArtSys.dll
+?TCMSIL_InkLimitDBNew@@YA?AV?$shared_ptr@VTInkLimit@@@std@@V?$shared_ptr@VTCMSLibrary@@@2@PEBD@Z
+?TCMSIL_InkLimitInitConvert@@YAHV?$shared_ptr@VTInkLimit@@@std@@EEEEHPEBHH@Z
+?TCMSIL_InkLimitConvertExt@@YAHV?$shared_ptr@VTInkLimit@@@std@@PEBQEBEHPEBQEAEHHH@Z
+?GetInkName@InkInfo@TCMS@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetBookName@InkInfo@TCMS@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+?GetInkNamePtr@InkInfo@TCMS@@QEBAPEBDXZ
+?GetBookNamePtr@InkInfo@TCMS@@QEBAPEBDXZ
+??9InkInfo@TCMS@@QEBA_NAEBV01@@Z
+?NameEquals@InkInfo@TCMS@@AEBA_NAEBV12@@Z
+??1InkInfo@TCMS@@QEAA@XZ
+?TCMS_ColTransfDBNewCopy@@YA?AV?$shared_ptr@VTColTransf@@@std@@V?$shared_ptr@VTCMSLibrary@@@2@PEBD@Z
+?TCMS_ColTransfGetName@@YAPEBDV?$shared_ptr@VTColTransf@@@std@@@Z
+?TCMS_ColTransfGetSrcDstProfileNames@@YAHV?$shared_ptr@VTColTransf@@@std@@PEAPEBD1_N@Z
+?TCMS_ColTransfGetNamesOfOutputInks@@YA?AV?$vector@VInkInfo@TCMS@@V?$allocator@VInkInfo@TCMS@@@std@@@std@@V?$shared_ptr@VTColTransf@@@2@_N1@Z
+?TCMS_ColTransfAdvItemGetInkIndex@@YAHV?$shared_ptr@VTColTransf@@@std@@PEBD1@Z
+?TCMS_ColTransfAdvItemDelete@@YAHV?$shared_ptr@VTColTransf@@@std@@H@Z
+?TCMS_ColTransfAdvItemAdd@@YAHV?$shared_ptr@VTColTransf@@@std@@HPEBD1W4ColTransfInkOption@TCMS@@HPEBN33@Z
+?TCMS_ColTransfConvert@@YAHV?$shared_ptr@VTColTransf@@@std@@PEBQEBEPEBQEAEHHH@Z
+?TCMS_ColTransfConvertAligned@@YAHV?$shared_ptr@VTColTransf@@@std@@PEBEPEAEH@Z
+?TCMS_ColTransfInitConvert@@YAHV?$shared_ptr@VTColTransf@@@std@@AEBV?$vector@V?$shared_ptr@VTInk@@@std@@V?$allocator@V?$shared_ptr@VTInk@@@std@@@2@@2@PEBNHHHHHHHHV?$function@$$A6AHPEAXHH@Z@2@AEBV?$vector@_NV?$allocator@_N@std@@@2@PEBDPEAXP6AH6PEBQEBEHPEBQEAEHH@Z_N@Z
+?TCMS_ColTransfInitOutputSpace@@YAHV?$shared_ptr@VTColTransf@@@std@@AEBV?$vector@V?$shared_ptr@VTInk@@@std@@V?$allocator@V?$shared_ptr@VTInk@@@std@@@2@@2@@Z
+?TCMS_ColTransfEndConvert@@YAHV?$shared_ptr@VTColTransf@@@std@@_N@Z
+?TCMSDB_ColTransfGetType@@YA?AW4ColTransfType@TCMS@@V?$shared_ptr@VTCMSLibrary@@@std@@PEBD@Z
+?TCMS_ProcDBNew@@YA?AV?$shared_ptr@VTProc@@@std@@V?$shared_ptr@VTCMSLibrary@@@2@PEBD@Z
+?TCMS_ProcGetInkLimit@@YAPEBDV?$shared_ptr@VTProc@@@std@@@Z
+?TIDB_GetColorInk@@YA?AV?$shared_ptr@VTInk@@@std@@V?$shared_ptr@VTCMSLibrary@@@2@PEBDPEBNN1PEAPEBDAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z
+?TIDB_GetInk@@YA?AV?$shared_ptr@VTInk@@@std@@V?$shared_ptr@VTCMSLibrary@@@2@PEBD1@Z
+?TIDB_BookUsesNewFileFormat@@YA_NV?$shared_ptr@VTCMSLibrary@@@std@@PEBD@Z
+?TIDB_BookExists@@YA_NV?$shared_ptr@VTCMSLibrary@@@std@@PEBD@Z
+?TInk_GetRGBValue@@YAHV?$shared_ptr@VTInk@@@std@@PEANW4RenderingIntent@TCMS@@@Z
+?TInk_GetInkInfo@@YA?AVInkInfo@TCMS@@V?$shared_ptr@VTInk@@@std@@@Z
+?TIDB_BGNameToGUINameOfInk@@YAHV?$shared_ptr@VTCMSLibrary@@@std@@PEBD1PEAD@Z
+?TIDB_GUINameToBGNameOfInk@@YAHV?$shared_ptr@VTCMSLibrary@@@std@@PEBD1PEAD@Z
+?TCMS_GetLib@@YA?AV?$shared_ptr@VTCMSLibrary@@@std@@XZ
+?TInk_GetLabValue@@YAHV?$shared_ptr@VTInk@@@std@@_NPEANPEAVTIlluminant@@@Z
+?TCMS_Init@@YAHPEAUTCMS_RootDirChangeHandlers@@PEAH@Z
+?TCMS_End@@YAHH@Z
+WS2_32.dll
+FormatMessageA
+FormatMessageW
+WideCharToMultiByte
+LocalFree
+KERNEL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xbad_function_call@std@@YAXXZ
+MSVCP140.dll
+__std_terminate
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_compare
+_CxxThrowException
+__CxxFrameHandler4
+__RTDynamicCast
+__C_specific_handler
+__current_exception
+__current_exception_context
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+__stdio_common_vsprintf
+terminate
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+IsDebuggerPresent
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsProcessorFeaturePresent
+GetCurrentProcess
+TerminateProcess
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+.?AVbad_variant_access@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AUChangeSeparationsNotInitialized@DocumentEditSeparations@@
+.?AVPaint@ArtPaint@@
+.?AVFormPaint@ArtPaint@@
+.?AVProcessorCMYKConverter@?A0x912df7e3@@
+.?AVProcessorColorStrategy@?A0x912df7e3@@
+.?AVProcessorICCProfile@?A0x912df7e3@@
+.?AVProcessorCombiner@?A0x912df7e3@@
+.?AVProcessorDecoder@?A0x912df7e3@@
+.?AVVisitorBase@ArtDoc@@
+.?AV?$Visitor@VPath@DocumentAppearance@@@ArtDoc@@
+.?AV?$Visitor@VImageImpersonator@DocumentIO@@@ArtDoc@@
+.?AV<lambda_2>@?FA@??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@4@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@4@@Z@
+.?AV<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@4@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@4@@Z@
+.?AV<lambda_1>@?1???R0?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@4@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@4@@Z@QEBA@AEBUValue@ContentTracker@6@@Z@
+.?AV<lambda_1>@?1??IsPartOfLinkedContent@?A0x912df7e3@@YA_NAEBUValue@ContentTracker@ArtDoc@@@Z@
+.?AV<lambda_1>@?1??GetContentOwnerStat@ContentOwnerSelectionChecker@?A0x912df7e3@@AEAA?AU?$pair@_N_N@std@@XZ@
+.?AV<lambda_4_>@?0???0ChangesFinder@?A0x912df7e3@@QEAA@AEBVDocument@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UWorkToColorStrategy@?A0x912df7e3@@UWorkToICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@std@@@Z@
+.?AV<lambda_3>@?9???R<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@5@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@@Z@QEBA@AEBUValue@ContentTracker@7@@Z@
+.?AV<lambda_2>@?7???R<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@5@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@@Z@QEBA@AEBUValue@ContentTracker@7@@Z@
+.?AU?$default_delete@$$CBVPictureBuffer@ArtImg@@@std@@
+.?AV<lambda_1>@?1??HandleColorProfiles@?A0x70195995@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@4@1@Z@
+.?AV<lambda_1>@?9???R0?1??HandleColorProfiles@?A0x70195995@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@4@1@Z@QEBA@AEBUValue@ContentTracker@6@@Z@
+.?AV<lambda_3_>@?0???0ChangesFinder@?A0x70195995@@QEAA@AEAVDocument@ArtDoc@@_N@Z@
+.?AV_Ref_count_base@std@@
+.?AVerror_category@system@boost@@
+.?AVsystem_error_category@detail@system@boost@@
+.?AV?$_Func_base@_NAEBVContentObject@ArtDoc@@@std@@
+.?AVBufferedPictureSource@ArtImg@@
+.?AVPictureSource@ArtImg@@
+.?AV?$enable_shared_from_this@VPictureSource@ArtImg@@@std@@
+.?AVmisc_category@detail@error@asio@boost@@
+.?AVSharedContentUpdationWarning@DocumentEditSeparations@@
+.?AVError@Core@ArtSys@@
+.?AVChangesFinder@?A0x912df7e3@@
+.?AV?$_Func_base@XPEAEPEAE_K@std@@
+.?AVChangeSeparationsAction@?A0x912df7e3@@
+.?AVContentAction@ArtDoc@@
+.?AVAction@ArtDoc@@
+.?AV?$_Func_base@_NAEBUValue@ContentTracker@ArtDoc@@@std@@
+.?AV?$SimpleVisitor@VPath@ArtDoc@@@ArtDoc@@
+.?AV?$SimpleVisitorBase@VPath@ArtDoc@@$00$0A@@ArtDoc@@
+.?AV?$_Func_base@_NAEAVPath@ArtDoc@@@std@@
+.?AV?$_Ref_count_obj2@VBufferedPictureSource@ArtImg@@@std@@
+.?AV?$_Ref_count_obj2@$$CBVColorTable@ArtColor@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4_>@?0???0ChangesFinder@?A0x912df7e3@@QEAA@AEBVDocument@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UWorkToColorStrategy@?A0x912df7e3@@UWorkToICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@std@@@Z@_NAEBVContentObject@5@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetContentOwnerStat@ContentOwnerSelectionChecker@?A0x912df7e3@@AEAA?AU?$pair@_N_N@std@@XZ@_NAEBUValue@ContentTracker@ArtDoc@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??IsPartOfLinkedContent@?A0x912df7e3@@YA_NAEBUValue@ContentTracker@ArtDoc@@@Z@_NAEBU456@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???R1?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@5@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@@Z@QEBA@AEBUValue@ContentTracker@7@@Z@_NAEBVContentObject@7@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@5@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@@Z@_NAEBUValue@ContentTracker@7@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?FA@??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@5@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@@Z@_NAEAVPath@7@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?7???R<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@6@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@6@@Z@QEBA@AEBUValue@ContentTracker@8@@Z@_NAEBVContentObject@8@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3>@?9???R<lambda_1>@?1??ChangeSeparations@DocumentEditSeparations@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@AEBV?$variant@V?$vector@UToCMYK@DocumentEditSeparations@@V?$allocator@UToCMYK@DocumentEditSeparations@@@std@@@std@@UConvertUsingColorStrategy@DocumentEditSeparations@@UConvertUsingICCProfile@4@V?$vector@UToMap@DocumentEditSeparations@@V?$allocator@UToMap@DocumentEditSeparations@@@std@@@2@@6@AEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@6@@Z@QEBA@AEBUValue@ContentTracker@8@@Z@_NAEBVContentObject@8@@std@@
+.?AV?$_Ref_count_resource@PEBVPictureBuffer@ArtImg@@U?$default_delete@$$CBVPictureBuffer@ArtImg@@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@VProcessorCMYKConverter@?A0x912df7e3@@XPEAEPEAE_K@std@@
+.?AV?$_Func_impl_no_alloc@VProcessorColorStrategy@?A0x912df7e3@@XPEAEPEAE_K@std@@
+.?AV?$_Func_impl_no_alloc@VProcessorICCProfile@?A0x912df7e3@@XPEAEPEAE_K@std@@
+.?AV?$_Func_impl_no_alloc@VProcessorCombiner@?A0x912df7e3@@XPEAEPEAE_K@std@@
+.?AV?$_Func_impl_no_alloc@VProcessorDecoder@?A0x912df7e3@@XPEAEPEAE_K@std@@
+.?AVEditSeparationsModule@DocumentEditSeparations@@
+.?AVModule@ArtDoc@@
+.?AVExplicitlyAddAndOrRemoveSeparationsAction@?A0x2ea440a3@@
+.?AVChangesFinder@?A0x70195995@@
+.?AVHandleColorProfileAction@?A0x70195995@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3_>@?0???0ChangesFinder@?A0x70195995@@QEAA@AEAVDocument@ArtDoc@@_N@Z@_NAEBVContentObject@5@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9???R1?1??HandleColorProfiles@?A0x70195995@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@1@Z@QEBA@AEBUValue@ContentTracker@7@@Z@_NAEBVContentObject@7@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??HandleColorProfiles@?A0x70195995@@YA?AV?$vector@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@V?$allocator@U?$pair@PEAVContentObject@ArtDoc@@PEAV12@@std@@@2@@std@@AEAVContent@ArtDoc@@_NAEBV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@5@1@Z@_NAEBUValue@ContentTracker@7@@std@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0W1
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+240916000000Z
+270916235959Z0
+08860479831
+Private Organization1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+:http://crl.sectigo.com/SectigoPublicCodeSigningCAEVR36.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningCAEVR36.crt0#
+http://ocsp.sectigo.com0(
+BE-08860479830
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+240926000000Z
+351125235959Z0B1
+DigiCert1 0
+DigiCert Timestamp 20240
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R36
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+250203230534Z0/

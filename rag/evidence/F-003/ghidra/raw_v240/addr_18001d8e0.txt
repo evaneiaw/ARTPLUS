@@ -1,0 +1,468 @@
+requested=0x18001d8e0
+resolvedAddress=18001d8e0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001d8e0 parsePdfPropertiesDict
+status=OK
+entry=18001d8e0
+name=parsePdfPropertiesDict
+qualifiedName=DocumentMarks::BearerBar::parsePdfPropertiesDict
+namespace=DocumentMarks::BearerBar
+signature=bool parsePdfPropertiesDict(BearerBar * this, map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::ContentObject*___ptr64,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,ArtDoc::ContentObject*___ptr64>_>_> * param_1)
+returnType=bool
+parameterCount=2
+bodyMin=18001d8e0
+bodyMax=18001dd91
+bodySize=1195
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ac0f8 refType=DATA fromFunction=
+18047b3ec refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1802f9fe0 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+180074c70 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180100280 FUN_180100280
+EXTERNAL:000001e2 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:000001ac DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+1802cbfd0 __security_check_cookie
+EXTERNAL:000001ad DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+18000d740 FUN_18000d740
+EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:000001e3 DOCUMENT.DLL::ArtDoc::Dictionary::GetBoolValue
+
+[DIRECT_CALL_TARGETS]
+18001d918 -> 180074c70 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+18001d91f -> 18001da74 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d94d -> 18001d945 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d953 -> 18000d740 FUN_18000d740
+18001d964 -> EXTERNAL:000001ad DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+18001d975 -> 18001d9ab DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d988 -> 18001d9a6 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d99d -> 18001d9a6 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d99f -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001d9a6 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001d9dd -> 18001d9d5 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001d9e3 -> 18000d740 FUN_18000d740
+18001d9f0 -> EXTERNAL:000001ac DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+18001da00 -> 18001da36 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001da13 -> 18001da31 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001da28 -> 18001da31 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001da2a -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001da31 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001da39 -> 18001da7b DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001da51 -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18001da6f -> 180100280 FUN_180100280
+18001da76 -> 18001dd5f DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001da9c -> 18001da94 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001daa2 -> 18000d740 FUN_18000d740
+18001daaf -> EXTERNAL:000001e2 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+18001dac1 -> 18001daf7 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dad4 -> 18001daf2 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dae9 -> 18001daf2 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001daeb -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001daf2 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001db18 -> 18001db10 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001db1e -> 18000d740 FUN_18000d740
+18001db2b -> EXTERNAL:000001e2 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+18001db3c -> 18001db72 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001db4f -> 18001db6d DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001db64 -> 18001db6d DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001db66 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001db6d -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001db98 -> 18001db90 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001db9e -> 18000d740 FUN_18000d740
+18001dbab -> EXTERNAL:000001e2 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+18001dbbc -> 18001dbf2 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dbcf -> 18001dbed DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dbe4 -> 18001dbed DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dbe6 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001dbed -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001dc04 -> 18001dc87 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc18 -> 18001dc11 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc21 -> 18000d740 FUN_18000d740
+18001dc2e -> EXTERNAL:000001e3 DOCUMENT.DLL::ArtDoc::Dictionary::GetBoolValue
+18001dc3f -> 18001dc75 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc52 -> 18001dc70 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc67 -> 18001dc70 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc69 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001dc70 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001dc85 -> 18001dcf3 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dc97 -> 18001dc90 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dca0 -> 18000d740 FUN_18000d740
+18001dcad -> EXTERNAL:000001ac DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+18001dcbd -> 18001dcf3 DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dcd0 -> 18001dcee DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dce5 -> 18001dcee DocumentMarks::BearerBar::parsePdfPropertiesDict
+18001dce7 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18001dcee -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18001dd66 -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+1802fa1f8 "BearerBar"
+18032fda8 "DM-BearerBarParams"
+180330128 "DM-BearerBarParams-Width"
+180330148 "DM-BearerBarParams-Extend"
+180330168 "DM-BearerBarParams-Offset"
+180330188 "DM-BearerBarParams-IsVertical"
+1803301a8 "DM-BearerBarParams-Location"
+1803301c8 "DM-BearerBarParams-Version"
+
+[DATA_XREFS_FROM_BODY]
+18001d8e3 -> Stack[0x18] block=? sym=
+18001d8e7 -> Stack[0x20] block=? sym=
+18001d8ef -> Stack[-0x5f] block=? sym=
+18001d8fa -> Stack[-0x28] block=? sym=
+18001d8fe -> Stack[-0x38] block=? sym=
+18001d902 -> Stack[-0x48] block=? sym=
+18001d907 -> 180409ec0 block=.data sym=DAT_180409ec0
+18001d911 -> Stack[-0x58] block=? sym=
+18001d925 -> 180409af8 block=.data sym=PTR_s_DM-BearerBarParams_180409af8
+18001d925 -> 18032fda8 block=.rdata sym=s_DM-BearerBarParams_18032fda8
+18001d92f -> Stack[-0x78] block=? sym=
+18001d936 -> Stack[-0x68] block=? sym=
+18001d948 -> 18032fda8 block=.rdata sym=s_DM-BearerBarParams_18032fda8
+18001d948 -> 18032fda9 block=.rdata sym=s_M-BearerBarParams_18032fda8+1
+18001d94f -> Stack[-0x78] block=? sym=
+18001d959 -> Stack[-0x78] block=? sym=
+18001d964 -> 1802f1940 block=.rdata sym=PTR_GetDictionaryValue_1802f1940
+18001d96d -> Stack[-0x60] block=? sym=
+18001d97a -> Stack[-0x78] block=? sym=
+18001d99f -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001d9ab -> 1802f9a10 block=.rdata sym=DAT_1802f9a10
+18001d9b3 -> Stack[-0x68] block=? sym=
+18001d9b8 -> Stack[-0x78] block=? sym=
+18001d9bc -> 180409c30 block=.data sym=PTR_s_DM-BearerBarParams-Version_180409c30
+18001d9bc -> 1803301c8 block=.rdata sym=s_DM-BearerBarParams-Version_1803301c8
+18001d9c6 -> Stack[-0x98] block=? sym=
+18001d9cd -> Stack[-0x88] block=? sym=
+18001d9d8 -> 1803301c8 block=.rdata sym=s_DM-BearerBarParams-Version_1803301c8
+18001d9d8 -> 1803301c9 block=.rdata sym=s_M-BearerBarParams-Version_1803301c8+1
+18001d9df -> Stack[-0x98] block=? sym=
+18001d9e9 -> Stack[-0x98] block=? sym=
+18001d9f0 -> 1802f1938 block=.rdata sym=PTR_GetIntegerValue_1802f1938
+18001d9f8 -> Stack[-0x80] block=? sym=
+18001da05 -> Stack[-0x98] block=? sym=
+18001da2a -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001da3b -> 1802fa1f8 block=.rdata sym=s_BearerBar_1802fa1f8
+18001da42 -> 1802fa1f8 block=.rdata sym=s_BearerBar_1802fa1f8
+18001da42 -> Stack[-0x78] block=? sym=
+18001da46 -> Stack[-0x70] block=? sym=
+18001da51 -> 1802f1908 block=.rdata sym=PTR_GetContent_1802f1908
+18001da57 -> Stack[-0x78] block=? sym=
+18001da5b -> 1802fa1f9 block=.rdata sym=s_earerBar_1802fa1f8+1
+18001da5b -> Stack[-0x78] block=? sym=
+18001da60 -> Stack[-0x78] block=? sym=
+18001da7b -> 180409c08 block=.data sym=PTR_s_DM-BearerBarParams-Width_180409c08
+18001da7b -> 180330128 block=.rdata sym=s_DM-BearerBarParams-Width_180330128
+18001da85 -> Stack[-0x98] block=? sym=
+18001da8c -> Stack[-0x88] block=? sym=
+18001da97 -> 180330128 block=.rdata sym=s_DM-BearerBarParams-Width_180330128
+18001da97 -> 180330129 block=.rdata sym=s_M-BearerBarParams-Width_180330128+1
+18001da9e -> Stack[-0x98] block=? sym=
+18001daa8 -> Stack[-0x98] block=? sym=
+18001daaf -> 1802f1ae8 block=.rdata sym=PTR_GetFloatValue_1802f1ae8
+18001dab9 -> Stack[-0x80] block=? sym=
+18001dac6 -> Stack[-0x98] block=? sym=
+18001daeb -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001daf7 -> 180409c10 block=.data sym=PTR_s_DM-BearerBarParams-Extend_180409c10
+18001daf7 -> 180330148 block=.rdata sym=s_DM-BearerBarParams-Extend_180330148
+18001db01 -> Stack[-0x98] block=? sym=
+18001db08 -> Stack[-0x88] block=? sym=
+18001db13 -> 180330148 block=.rdata sym=s_DM-BearerBarParams-Extend_180330148
+18001db13 -> 180330149 block=.rdata sym=s_M-BearerBarParams-Extend_180330148+1
+18001db1a -> Stack[-0x98] block=? sym=
+18001db24 -> Stack[-0x98] block=? sym=
+18001db2b -> 1802f1ae8 block=.rdata sym=PTR_GetFloatValue_1802f1ae8
+18001db34 -> Stack[-0x80] block=? sym=
+18001db41 -> Stack[-0x98] block=? sym=
+18001db66 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001db72 -> 180409c18 block=.data sym=PTR_s_DM-BearerBarParams-Offset_180409c18
+18001db72 -> 180330168 block=.rdata sym=s_DM-BearerBarParams-Offset_180330168
+18001db7c -> Stack[-0x98] block=? sym=
+18001db83 -> Stack[-0x88] block=? sym=
+18001db93 -> 180330168 block=.rdata sym=s_DM-BearerBarParams-Offset_180330168
+18001db93 -> 180330169 block=.rdata sym=s_M-BearerBarParams-Offset_180330168+1
+18001db9a -> Stack[-0x98] block=? sym=
+18001dba4 -> Stack[-0x98] block=? sym=
+18001dbab -> 1802f1ae8 block=.rdata sym=PTR_GetFloatValue_1802f1ae8
+18001dbb4 -> Stack[-0x80] block=? sym=
+18001dbc1 -> Stack[-0x98] block=? sym=
+18001dbe6 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001dbf8 -> Stack[-0x98] block=? sym=
+18001dbfc -> Stack[-0x88] block=? sym=
+18001dc0a -> 180409c20 block=.data sym=PTR_s_DM-BearerBarParams-IsVertical_180409c20
+18001dc0a -> 180330188 block=.rdata sym=s_DM-BearerBarParams-IsVertical_180330188
+18001dc14 -> 180330188 block=.rdata sym=s_DM-BearerBarParams-IsVertical_180330188
+18001dc14 -> 180330189 block=.rdata sym=s_M-BearerBarParams-IsVertical_180330188+1
+18001dc1d -> Stack[-0x98] block=? sym=
+18001dc27 -> Stack[-0x98] block=? sym=
+18001dc2e -> 1802f1af0 block=.rdata sym=PTR_GetBoolValue_1802f1af0
+18001dc37 -> Stack[-0x80] block=? sym=
+18001dc44 -> Stack[-0x98] block=? sym=
+18001dc69 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001dc87 -> 180409c28 block=.data sym=PTR_s_DM-BearerBarParams-Location_180409c28
+18001dc87 -> 1803301a8 block=.rdata sym=s_DM-BearerBarParams-Location_1803301a8
+18001dc93 -> 1803301a8 block=.rdata sym=s_DM-BearerBarParams-Location_1803301a8
+18001dc93 -> 1803301a9 block=.rdata sym=s_M-BearerBarParams-Location_1803301a8+1
+18001dc9c -> Stack[-0x98] block=? sym=
+18001dca6 -> Stack[-0x98] block=? sym=
+18001dcad -> 1802f1938 block=.rdata sym=PTR_GetIntegerValue_1802f1938
+18001dcb5 -> Stack[-0x80] block=? sym=
+18001dcc2 -> Stack[-0x98] block=? sym=
+18001dce7 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18001dcf3 -> 1802fa2f0 block=.rdata sym=DAT_1802fa2f0
+18001dd00 -> 1802fa2e8 block=.rdata sym=DAT_1802fa2e8
+18001dd0d -> Stack[-0x78] block=? sym=
+18001dd16 -> Stack[-0x78] block=? sym=
+18001dd2a -> Stack[-0x78] block=? sym=
+18001dd32 -> Stack[-0x78] block=? sym=
+18001dd46 -> Stack[-0x78] block=? sym=
+18001dd5f -> Stack[-0x58] block=? sym=
+18001dd6b -> Stack[-0x20] block=? sym=
+18001dd73 -> Stack[0x10] block=? sym=
+18001dd77 -> Stack[0x18] block=? sym=
+18001dd7b -> Stack[-0x30] block=? sym=
+18001dd80 -> Stack[-0x40] block=? sym=
+18001dd85 -> Stack[-0x50] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: virtual bool __cdecl DocumentMarks::BearerBar::parsePdfPropertiesDict(class
+   std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char>
+   >,class ArtDoc::ContentObject * __ptr64,struct std::less<class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class
+   ArtDoc::ContentObject * __ptr64> > > const & __ptr64) __ptr64 */
+
+bool __thiscall
+DocumentMarks::BearerBar::parsePdfPropertiesDict
+          (BearerBar *this,
+          map<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>,ArtDoc::ContentObject*___ptr64,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>_>_const_,ArtDoc::ContentObject*___ptr64>_>_>
+          *param_1)
+
+{
+  double dVar1;
+  double dVar2;
+  bool bVar3;
+  int iVar4;
+  Dictionary *this_00;
+  Content *pCVar5;
+  char *_Memory;
+  void *pvVar6;
+  longlong lVar7;
+  longlong lVar8;
+  double dVar9;
+  double dVar10;
+  double dVar11;
+  undefined1 auStack_b8 [32];
+  void *local_98;
+  undefined8 uStack_90;
+  undefined8 local_88;
+  ulonglong uStack_80;
+  char *local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  ulonglong uStack_60;
+  ulonglong local_58;
+  
+                    /* 0x1d8e0  2089
+                       ?parsePdfPropertiesDict@BearerBar@DocumentMarks@@UEAA_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+                        */
+  local_58 = DAT_180409ec0 ^ (ulonglong)auStack_b8;
+  bVar3 = DynamicMark::parsePdfPropertiesDict((DynamicMark *)this,param_1);
+  if (bVar3) {
+    local_78 = (char *)0x0;
+    uStack_70 = 0;
+    local_68 = 0;
+    uStack_60 = 0;
+    lVar7 = -1;
+    lVar8 = -1;
+    do {
+      lVar8 = lVar8 + 1;
+    } while (PTR_s_DM_BearerBarParams_180409af8[lVar8] != '\0');
+    FUN_18000d740(&local_78);
+    this_00 = ArtDoc::Dictionary::GetDictionaryValue
+                        ((Dictionary *)(this + 0x370),
+                         (basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                         &local_78);
+    if (0xf < uStack_60) {
+      _Memory = local_78;
+      if ((0xfff < uStack_60 + 1) &&
+         (_Memory = *(char **)(local_78 + -8), (char *)0x1f < local_78 + (-8 - (longlong)_Memory)))
+      {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    local_68 = _DAT_1802f9a10;
+    uStack_60 = _UNK_1802f9a18;
+    local_78 = (char *)((ulonglong)local_78 & 0xffffffffffffff00);
+    local_98 = (void *)0x0;
+    uStack_90 = 0;
+    local_88 = 0;
+    uStack_80 = 0;
+    lVar8 = -1;
+    do {
+      lVar8 = lVar8 + 1;
+    } while (PTR_s_DM_BearerBarParams_Version_180409c30[lVar8] != '\0');
+    FUN_18000d740(&local_98);
+    iVar4 = ArtDoc::Dictionary::GetIntegerValue
+                      (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                               &local_98);
+    if (0xf < uStack_80) {
+      pvVar6 = local_98;
+      if ((0xfff < uStack_80 + 1) &&
+         (pvVar6 = *(void **)((longlong)local_98 + -8),
+         0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(pvVar6);
+    }
+    if (iVar4 < 3) {
+      local_98 = (void *)0x0;
+      uStack_90 = 0;
+      local_88 = 0;
+      uStack_80 = 0;
+      lVar8 = -1;
+      do {
+        lVar8 = lVar8 + 1;
+      } while (PTR_s_DM_BearerBarParams_Width_180409c08[lVar8] != '\0');
+      FUN_18000d740(&local_98);
+      dVar9 = ArtDoc::Dictionary::GetFloatValue
+                        (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *)
+                                 &local_98);
+      if (0xf < uStack_80) {
+        pvVar6 = local_98;
+        if ((0xfff < uStack_80 + 1) &&
+           (pvVar6 = *(void **)((longlong)local_98 + -8),
+           0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar6);
+      }
+      local_98 = (void *)0x0;
+      uStack_90 = 0;
+      local_88 = 0;
+      uStack_80 = 0;
+      lVar8 = -1;
+      do {
+        lVar8 = lVar8 + 1;
+      } while (PTR_s_DM_BearerBarParams_Extend_180409c10[lVar8] != '\0');
+      FUN_18000d740(&local_98);
+      dVar10 = ArtDoc::Dictionary::GetFloatValue
+                         (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *
+                                  )&local_98);
+      if (0xf < uStack_80) {
+        pvVar6 = local_98;
+        if ((0xfff < uStack_80 + 1) &&
+           (pvVar6 = *(void **)((longlong)local_98 + -8),
+           0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar6);
+      }
+      local_98 = (void *)0x0;
+      uStack_90 = 0;
+      local_88 = 0;
+      uStack_80 = 0;
+      lVar8 = -1;
+      do {
+        lVar8 = lVar8 + 1;
+      } while (PTR_s_DM_BearerBarParams_Offset_180409c18[lVar8] != '\0');
+      FUN_18000d740(&local_98);
+      dVar11 = ArtDoc::Dictionary::GetFloatValue
+                         (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_> *
+                                  )&local_98);
+      if (0xf < uStack_80) {
+        pvVar6 = local_98;
+        if ((0xfff < uStack_80 + 1) &&
+           (pvVar6 = *(void **)((longlong)local_98 + -8),
+           0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar6);
+      }
+      local_98 = (void *)0x0;
+      uStack_90 = 0;
+      local_88 = 0;
+      uStack_80 = 0;
+      if (iVar4 == 1) {
+        do {
+          lVar7 = lVar7 + 1;
+        } while (PTR_s_DM_BearerBarParams_IsVertical_180409c20[lVar7] != '\0');
+        FUN_18000d740(&local_98,PTR_s_DM_BearerBarParams_IsVertical_180409c20,lVar7);
+        bVar3 = ArtDoc::Dictionary::GetBoolValue
+                          (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_>
+                                    *)&local_98);
+        if (0xf < uStack_80) {
+          pvVar6 = local_98;
+          if ((0xfff < uStack_80 + 1) &&
+             (pvVar6 = *(void **)((longlong)local_98 + -8),
+             0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar6);
+        }
+        iVar4 = 0xc;
+        if (bVar3) {
+          iVar4 = 3;
+        }
+      }
+      else {
+        do {
+          lVar7 = lVar7 + 1;
+        } while (PTR_s_DM_BearerBarParams_Location_180409c28[lVar7] != '\0');
+        FUN_18000d740(&local_98,PTR_s_DM_BearerBarParams_Location_180409c28,lVar7);
+        iVar4 = ArtDoc::Dictionary::GetIntegerValue
+                          (this_00,(basic_string<char,std::char_traits<char>,std::allocator<char>_>
+                                    *)&local_98);
+        if (0xf < uStack_80) {
+          pvVar6 = local_98;
+          if ((0xfff < uStack_80 + 1) &&
+             (pvVar6 = *(void **)((longlong)local_98 + -8),
+             0x1f < (ulonglong)((longlong)local_98 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar6);
+        }
+      }
+      dVar2 = DAT_1802fa2f0;
+      dVar1 = DAT_1802fa2e8;
+      dVar9 = (dVar9 * DAT_1802fa2f0) / DAT_1802fa2e8;
+      *(char **)(this + 0x750) = local_78;
+      *(double *)(this + 0x758) = dVar9;
+      *(char **)(this + 0x760) = local_78;
+      *(double *)(this + 0x768) = (dVar10 * dVar2) / dVar1;
+      *(char **)(this + 0x770) = local_78;
+      *(double *)(this + 0x778) = (dVar11 * dVar2) / dVar1;
+      *(int *)(this + 0x780) = iVar4;
+      return true;
+    }
+    local_78 = "BearerBar";
+    uStack_70 = 9;
+    pCVar5 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+    FUN_180100280(pCVar5,iVar4,2,&local_78);
+  }
+  return false;
+}
+
+

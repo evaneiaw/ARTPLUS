@@ -1,0 +1,97 @@
+requested=0x1800fae70
+resolvedAddress=1800fae70
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1800fae70 GetPageBox
+status=OK
+entry=1800fae70
+name=GetPageBox
+qualifiedName=ArtDoc::Page::GetPageBox
+namespace=ArtDoc::Page
+signature=RectangleBase<YAGL::MilliPointCoordinateSystem> * GetPageBox(Page * this, PageBox param_1)
+returnType=RectangleBase<YAGL::MilliPointCoordinateSystem> *
+parameterCount=2
+bodyMin=1800fae70
+bodyMax=1800faeca
+bodySize=91
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+18037879c refType=DATA fromFunction=
+180420bd0 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18007b8b0 refType=UNCONDITIONAL_CALL fromFunction=18007b880 GetGroupColorSpace
+18007c127 refType=UNCONDITIONAL_CALL fromFunction=18007c0f0 SetGroupColorSpace
+1801a601f refType=UNCONDITIONAL_CALL fromFunction=1801a5800 FUN_1801a5800
+1801a60dd refType=UNCONDITIONAL_CALL fromFunction=1801a5800 FUN_1801a5800
+180097cd1 refType=UNCONDITIONAL_CALL fromFunction=180097c00 InsertPage
+180097efd refType=UNCONDITIONAL_CALL fromFunction=180097e20 InsertPage
+1800b29a0 refType=UNCONDITIONAL_CALL fromFunction=1800b2770 FUN_1800b2770
+180129718 refType=UNCONDITIONAL_CALL fromFunction=180128f90 FUN_180128f90
+1801c89d6 refType=UNCONDITIONAL_CALL fromFunction=1801c89a0 FUN_1801c89a0
+1801c8a0f refType=UNCONDITIONAL_CALL fromFunction=1801c89a0 FUN_1801c89a0
+1801c8a29 refType=UNCONDITIONAL_CALL fromFunction=1801c89a0 FUN_1801c89a0
+1801c8a43 refType=UNCONDITIONAL_CALL fromFunction=1801c89a0 FUN_1801c89a0
+1801c8a5d refType=UNCONDITIONAL_CALL fromFunction=1801c89a0 FUN_1801c89a0
+1801c8eb8 refType=UNCONDITIONAL_CALL fromFunction=1801c8e40 FUN_1801c8e40
+1801c8f69 refType=UNCONDITIONAL_CALL fromFunction=1801c8e40 FUN_1801c8e40
+1801c92a7 refType=UNCONDITIONAL_CALL fromFunction=1801c8e40 FUN_1801c8e40
+
+[CALLERS]
+18007b880 ArtDoc::Content::GetGroupColorSpace
+1800b2770 FUN_1800b2770
+1801c89a0 FUN_1801c89a0
+180128f90 FUN_180128f90
+180097c00 ArtDoc::Document::InsertPage
+18007c0f0 ArtDoc::Content::SetGroupColorSpace
+1801a5800 FUN_1801a5800
+1801c8e40 FUN_1801c8e40
+180097e20 ArtDoc::Document::InsertPage
+
+[CALLEES]
+1800f9f30 ArtDoc::Page::Cache
+
+[DIRECT_CALL_TARGETS]
+1800fae80 -> 1800f9f30 ArtDoc::Page::Cache
+1800fae91 -> 1800faeb2 ArtDoc::Page::GetPageBox
+1800faeb0 -> 1800faea0 ArtDoc::Page::GetPageBox
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+1800fae70 -> Stack[0x8] block=? sym=
+1800fae93 -> 1802ef6d8 block=.rdata sym=DAT_1802ef6d8
+1800faea0 -> 1802ef6d8 block=.rdata sym=DAT_1802ef6d8
+1800faeb9 -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* public: class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> const & __ptr64
+   __cdecl ArtDoc::Page::GetPageBox(enum ArtDoc::PageBox)const __ptr64 */
+
+RectangleBase<YAGL::MilliPointCoordinateSystem> * __thiscall
+ArtDoc::Page::GetPageBox(Page *this,PageBox param_1)
+
+{
+  Page PVar1;
+  longlong lVar2;
+  
+                    /* 0xfae70  1950
+                       ?GetPageBox@Page@ArtDoc@@QEBAAEBV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4PageBox@2@@Z
+                        */
+  lVar2 = (longlong)(int)param_1;
+  Cache(this);
+  PVar1 = this[lVar2 * 0x58 + 0x78];
+  while (PVar1 == (Page)0x0) {
+    param_1 = *(PageBox *)(&DAT_1802ef6d8 + lVar2 * 4);
+    lVar2 = (longlong)(int)param_1;
+    PVar1 = this[lVar2 * 0x58 + 0x78];
+  }
+  return (RectangleBase<YAGL::MilliPointCoordinateSystem> *)
+         (this + (longlong)(int)param_1 * 0x58 + 0x28);
+}
+
+

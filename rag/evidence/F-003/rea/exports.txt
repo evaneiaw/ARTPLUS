@@ -1,0 +1,21 @@
+DocumentMarks.dll - PE32+ Export Table (selected BearerBar-related exports):
+
+Ordinal 3: ??0?$ConstVisitor@VBearerBar@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z - address 0x18001c100
+Ordinal 4: ??0?$ConstVisitor@VBearerBar@DocumentMarks@@@ArtDoc@@QEAA@XZ - address 0x18001c100
+Ordinal 25: ??0?$ConstVisitor@VPDFPlusBearerBar@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z - address 0x18003d8a0
+Ordinal 26: ??0?$ConstVisitor@VPDFPlusBearerBar@DocumentMarks@@@ArtDoc@@QEAA@XZ - address 0x18003d8a0
+Ordinal 85: ??0?$Visitor@VBearerBar@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z - address 0x18001c110
+Ordinal 86: ??0?$Visitor@VBearerBar@DocumentMarks@@@ArtDoc@@QEAA@XZ - address 0x18003d8e0
+Ordinal 107: ??0?$Visitor@VPDFPlusBearerBar@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z - address 0x18003d8e0
+Ordinal 108: ??0?$Visitor@VPDFPlusBearerBar@DocumentMarks@@@ArtDoc@@QEAA@XZ - address 0x18003d8e0
+
+Also exported:
+- ??0 (constructors) for: BarcodeMark, BearerBar, CornerMark, CustomMark, CutMark, DynamicMark, DynamicObject, DynamicTextObject, GradationMark, GridMark, ImageMark, PDFPlusBarcodeMark, PDFPlusBearerBar, PDFPlusClipMark, PDFPlusCutMark, PDFPlusDimensionsMark, PDFPlusExternalFileMark, PDFPlusInputFileMark, PDFPlusPlateIDMark, PDFPlusPositionMark, PDFPlusRepeatByCountMark, PDFPlusRepeatForGridMark, PDFPlusRepeatForPlaceholderMark, PDFPlusRepeatForSeparationsMark, PDFPlusRepeatForStationsMark, PDFPlusResizeMark, SNRCell, SNRGrid, TextAreaMark, TextMark, TextOnPathMark, VDPAreaText, VDPBarcode, VDPImageBase, VDPImageColor, VDPImageMono, VDPImagePDF, VDPObject, VDPPointText, VDPTextBase, WUPObject
+
+- ??1 (destructors) for same classes
+
+- Visitor classes: Visitor@VBarcodeMark, Visitor@VBearerBar, Visitor@VCornerMark, etc.
+
+- Creation functions: ??0BarcodeMark@DocumentMarks, ??0BearerBar@DocumentMarks, ??0CornerMark@DocumentMarks, etc.
+
+- Clone strategy functions: ??0BarcodeMark@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z, ??0BearerBar@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z, etc.

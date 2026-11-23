@@ -1,0 +1,64 @@
+requested=0x18001e750
+resolvedAddress=18001e750
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001e750 SetOffset
+status=OK
+entry=18001e750
+name=SetOffset
+qualifiedName=DocumentMarks::PDFPlusBearerBar::SetOffset
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=void SetOffset(PDFPlusBearerBar * this, CoordinateBase<YAGL::MilliPointCoordinateSystem> * param_1)
+returnType=void
+parameterCount=2
+bodyMin=18001e750
+bodyMax=18001e75a
+bodySize=11
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ab870 refType=DATA fromFunction=
+1803ac2f4 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18016ff2c refType=UNCONDITIONAL_CALL fromFunction=18016fa10 FUN_18016fa10
+1800a8a2b refType=DATA fromFunction=1800a89d0 SetBearerBarOffset
+1800a8a32 refType=DATA fromFunction=1800a89d0 SetBearerBarOffset
+
+[CALLERS]
+18016fa10 FUN_18016fa10
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+
+[DECOMPILE]
+
+/* public: void __cdecl DocumentMarks::PDFPlusBearerBar::SetOffset(class YAGL::CoordinateBase<struct
+   YAGL::MilliPointCoordinateSystem> const & __ptr64) __ptr64 */
+
+void __thiscall
+DocumentMarks::PDFPlusBearerBar::SetOffset
+          (PDFPlusBearerBar *this,CoordinateBase<YAGL::MilliPointCoordinateSystem> *param_1)
+
+{
+  undefined8 uVar1;
+  
+                    /* 0x1e750  1543
+                       ?SetOffset@PDFPlusBearerBar@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+                       0x1e750  2216
+                       ?setWidth@BearerBar@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+                        */
+  uVar1 = *(undefined8 *)(param_1 + 8);
+  *(undefined8 *)(this + 0x750) = *(undefined8 *)param_1;
+  *(undefined8 *)(this + 0x758) = uVar1;
+  return;
+}
+
+

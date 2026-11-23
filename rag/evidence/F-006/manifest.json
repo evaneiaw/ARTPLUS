@@ -1,0 +1,24 @@
+{
+  "id": "F-006",
+  "versao_ref": "24.03.10017",
+  "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\Document.dll",
+  "sha256": "DA91E28574C877D392D3E6BEF9CCBB7C4DCF3117EBD03655DE89834FC8FA9E21",
+  "tamanho": 4922408,
+  "compiler": "Microsoft Visual C/C++ (19.41.34435)",
+  "linker": "Microsoft Linker (14.41.34435)",
+  "tool": "Microsoft Visual Studio (2022, 17.11)",
+  "subsystem": "2 (GUI)",
+  "entrypoint": "0x2D7590",
+  "imagebase": "0x180000000",
+  "machine": "x86-64",
+  "sections": ".text, .rdata, .data, .pdata, .rsrc, .reloc",
+  "exports_critical": "2268 exports including ConstVisitor (mark visors) and updatePdfPropertiesDictImp",
+  "imports_critical": "Document.dll (732), DocumentEdit.dll (66), UniversalText.dll (48), DocumentBarCode.dll (33), YAGL.dll (45), icuuc.dll, icuin.dll, MSVCP140.dll, VCRUNTIME140.dll, KERNEL32.dll, USER32.dll",
+  "estatico": [
+    "GHIDRA-Document-0x...",
+    "GHIDRA-PDFAccessLayer-0x...",
+    "GHIDRA-PDFObjectLayer-0x..."
+  ],
+  "comportamental": [],
+  "bloqueios": []
+}

@@ -1,0 +1,327 @@
+# DumpBearerBarRefs on DocumentMarks.dll
+executableSHA256=e47328bd25b01b6eb36e54d8e5aa5d799f088afc772d4fe06ed0f14b3c0fa102
+
+=== STRING "DocumentMarks_BearerBar_ReferenceID"
+
+=== ADDR 180319f90 -> 180319f90
+inMemory=true
+  symbol: Label s_DocumentMarks_BearerBar_Referenc_180319f90
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 180319968 [DATA] in (data)
+
+=== STRING "Vertical offset in bearer bar not supported."
+
+=== ADDR 18031ad78 -> 18031ad78
+inMemory=true
+  symbol: Label s_Vertical_offset_in_bearer_bar_no_18031ad78
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 18016ff72 [DATA] in 18016fa10 FUN_18016fa10
+    <- 18016ff79 [DATA] in 18016fa10 FUN_18016fa10
+
+=== STRING "AIDynamicMarks-BearerBar"
+
+=== ADDR 1802fa140 -> 1802fa140
+inMemory=true
+  symbol: Label s_AIDynamicMarks-BearerBar_1802fa140
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 18010e474 [PARAM] in 18010e0f0 FUN_18010e0f0
+    <- 1802fa130 [DATA] in (data)
+    <- 180312ee0 [DATA] in (data)
+
+=== STRING "DynamicObject_PDFPlusBearerBar"
+
+=== ADDR 180316468 -> 180316468
+inMemory=true
+  symbol: Label s_DynamicObject_PDFPlusBearerBar_180316468
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 180316458 [DATA] in (data)
+
+=== STRING "DM-BearerBarParams"
+
+=== ADDR 18032fda8 -> 18032fda8
+inMemory=true
+  symbol: Label s_DM-BearerBarParams_18032fda8
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 18001ea47 [READ] in 18001e9a0 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+    <- 18001ea24 [PARAM] in 18001e9a0 DocumentMarks::BearerBar::updatePdfPropertiesDictImp
+    <- 18001d948 [READ] in 18001d8e0 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 18001d925 [PARAM] in 18001d8e0 DocumentMarks::BearerBar::parsePdfPropertiesDict
+    <- 180409af8 [DATA] in (data)
+
+=== STRING "Position"
+
+=== ADDR 180306978 -> 180306978
+inMemory=true
+  symbol: Label s_Position_180306978
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 1801836c5 [PARAM] in 1801836a0 FUN_1801836a0
+    <- 18031a140 [DATA] in (data)
+
+=== STRING "Position"
+
+=== ADDR 18031a378 -> 18031a378
+inMemory=true
+  symbol: Label s_Position_18031a378
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 18017b8d6 [DATA] in 18017b8c0 FUN_18017b8c0
+    <- 18016fa47 [DATA] in 18016fa10 FUN_18016fa10
+    <- 1801835c3 [DATA] in 1801830b0 FUN_1801830b0
+    <- 1801770ed [DATA] in 1801770b0 FUN_1801770b0
+    <- 180187eb1 [DATA] in 180187660 FUN_180187660
+    <- 18017684f [DATA] in 180176810 FUN_180176810
+    <- 180186df0 [DATA] in 180186ac0 FUN_180186ac0
+    <- 180172e22 [DATA] in 180172d40 FUN_180172d40
+    <- 180172137 [DATA] in 180172100 FUN_180172100
+    <- 180189c1b [DATA] in 1801898b0 FUN_1801898b0
+    <- 1801751a5 [DATA] in 180175170 FUN_180175170
+    <- 18018965f [DATA] in 180189320 FUN_180189320
+    <- 1801756c5 [DATA] in 1801756a0 FUN_1801756a0
+    <- 1801758ac [DATA] in 1801757f0 FUN_1801757f0
+    <- 180188edb [DATA] in 180188b60 FUN_180188b60
+    <- 1801855bf [DATA] in 180184f40 FUN_180184f40
+    <- 180168eb5 [DATA] in 1801683e0 FUN_1801683e0
+    <- 180169426 [DATA] in 1801683e0 FUN_1801683e0
+    <- 1801697d3 [DATA] in 1801683e0 FUN_1801683e0
+    <- 180169a96 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016a663 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016a93f [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016ac22 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016b15d [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016b2f3 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016bbb4 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016bc82 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c0de [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c1a6 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c2f1 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c3ce [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c674 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016c778 [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016cb4d [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016cc1a [DATA] in 1801683e0 FUN_1801683e0
+    <- 18016cfce [DATA] in 1801683e0 FUN_1801683e0
+
+=== STRING "Extends"
+
+=== ADDR 18031a790 -> 18031a790
+inMemory=true
+  symbol: Label s_Extends_18031a790
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 180166cc4 [DATA] in 180166b70 FUN_180166b70
+    <- 180166cea [DATA] in 180166b70 FUN_180166b70
+    <- 180185a67 [DATA] in 180185680 FUN_180185680
+
+=== STRING "PDFPlusBearerBar_OriginalReferenceName"
+
+=== ADDR 180316280 -> 180316280
+inMemory=true
+  symbol: Label s_PDFPlusBearerBar_OriginalReferen_180316280
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 18012f52a [PARAM] in 18012f330 DocumentMarks::PDFPlusBearerBar::postProcessClonedMark
+    <- 180316270 [DATA] in (data)
+
+=== ADDR 0x18012C640 -> 18012c640
+inMemory=true
+  symbol: Function DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+  symbol: Label Ordinal_219
+  symbol: Label ??0PDFPlusBearerBar@DocumentMarks@@QEAA@V?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+  isFunctionEntry=true entryName=DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+  containing=18012c640 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar body=18012c640..18012c7fa size=443
+  [REFERENCES_TO]
+    <- 1803aa3c0 [DATA] in (data)
+    <- 1804863d8 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180165300 [UNCONDITIONAL_CALL] in 1801652b0 FUN_1801652b0
+  [CALLERS]
+    * 1801652b0 FUN_1801652b0
+  [CALLEES]
+    -> 1801f7670 FUN_1801f7670
+    -> 18006bd80 DocumentMarks::DynamicMark::DynamicMark
+    -> 180024cf0 FUN_180024cf0
+    -> 180020c10 FUN_180020c10
+    -> 180090ac0 FUN_180090ac0
+    -> 180093dd0 DocumentMarks::DynamicObject::SetTargetSeparations
+    -> 180108450 DocumentMarks::MarkPosition::setAnchors
+    -> 180097950 DocumentMarks::DynamicObject::setColorType
+    -> 1801089c0 DocumentMarks::MarkPosition::setReferenceObject
+    -> 180071b30 DocumentMarks::DynamicMark::SetSourceContent
+
+=== ADDR 0x18001C270 -> 18001c270
+inMemory=true
+  symbol: Function DocumentMarks::BearerBar::BearerBar
+  symbol: Label Ordinal_168
+  symbol: Label ??0BearerBar@DocumentMarks@@QEAA@_N@Z
+  isFunctionEntry=true entryName=DocumentMarks::BearerBar::BearerBar
+  containing=18001c270 DocumentMarks::BearerBar::BearerBar body=18001c270..18001c2cc size=93
+  [REFERENCES_TO]
+    <- 1803aa2f4 [DATA] in (data)
+    <- 18047b29c [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 18010e4ce [UNCONDITIONAL_CALL] in 18010e0f0 FUN_18010e0f0
+  [CALLERS]
+    * 18010e0f0 FUN_18010e0f0
+  [CALLEES]
+    -> 18006bd80 DocumentMarks::DynamicMark::DynamicMark
+
+=== ADDR 0x18001D8E0 -> 18001d8e0
+inMemory=true
+  symbol: Function DocumentMarks::BearerBar::parsePdfPropertiesDict
+  symbol: Label Ordinal_2089
+  symbol: Label ?parsePdfPropertiesDict@BearerBar@DocumentMarks@@UEAA_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+  isFunctionEntry=true entryName=DocumentMarks::BearerBar::parsePdfPropertiesDict
+  containing=18001d8e0 DocumentMarks::BearerBar::parsePdfPropertiesDict body=18001d8e0..18001dd91 size=1195
+  [REFERENCES_TO]
+    <- 1803ac0f8 [DATA] in (data)
+    <- 18047b3ec [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1802f9fe0 [DATA] in (data)
+  [CALLERS]
+    (none)
+  [CALLEES]
+    -> EXTERNAL:000001e3 DOCUMENT.DLL::ArtDoc::Dictionary::GetBoolValue
+    -> EXTERNAL:000001ad DOCUMENT.DLL::ArtDoc::Dictionary::GetDictionaryValue
+    -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 180100280 FUN_180100280
+    -> EXTERNAL:000001e2 DOCUMENT.DLL::ArtDoc::Dictionary::GetFloatValue
+    -> 180074c70 DocumentMarks::DynamicMark::parsePdfPropertiesDict
+    -> 18000d740 FUN_18000d740
+    -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> 1802cbfd0 __security_check_cookie
+    -> EXTERNAL:000001ac DOCUMENT.DLL::ArtDoc::Dictionary::GetIntegerValue
+
+=== ADDR 0x18001DE30 -> 18001de30
+inMemory=true
+  symbol: Function DocumentMarks::BearerBar::regenerateMarkImp
+  symbol: Label Ordinal_2139
+  symbol: Label ?regenerateMarkImp@BearerBar@DocumentMarks@@MEAAXXZ
+  isFunctionEntry=true entryName=DocumentMarks::BearerBar::regenerateMarkImp
+  containing=18001de30 DocumentMarks::BearerBar::regenerateMarkImp body=18001de30..18001e417 size=1511
+  [REFERENCES_TO]
+    <- 1803ac1c0 [DATA] in (data)
+    <- 18047b404 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 1802fa030 [DATA] in (data)
+  [CALLERS]
+    (none)
+  [CALLEES]
+    -> EXTERNAL:0000008d DOCUMENTEDIT.DLL::DocumentEdit::ExtractObjectFromParent
+    -> EXTERNAL:000001eb DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Get
+    -> EXTERNAL:000001e9 DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::Factory
+    -> 1802cbe68 FUN_1802cbe68
+    -> EXTERNAL:000001e4 DOCUMENT.DLL::ArtDoc::Fillable::IsFilled
+    -> EXTERNAL:000001e5 DOCUMENT.DLL::ArtDoc::Fillable::SetFillPaint
+    -> EXTERNAL:000001e6 DOCUMENT.DLL::ArtDoc::Fillable::GetFillPaint
+    -> EXTERNAL:0000008e DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectAfter
+    -> 1801160f0 DocumentMarks::GetMarksDebugLevel
+    -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+    -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+    -> 180019300 FUN_180019300
+    -> EXTERNAL:00000524 MSVCP140.DLL::std::basic_ostream<char,std::char_traits<char>_>::operator<<
+    -> EXTERNAL:000001ea DOCUMENT.DLL::ArtPaint::FlatPaint::Factory::~Factory
+    -> 1800f46a0 FUN_1800f46a0
+    -> 1800943e0 DocumentMarks::DynamicObject::applyColor
+    -> 18001be10 FUN_18001be10
+    -> EXTERNAL:000001e7 DOCUMENT.DLL::ArtDoc::Path::Path
+    -> 1800f42c0 FUN_1800f42c0
+    -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+    -> 1800954f0 DocumentMarks::DynamicObject::getPositionRefBBox
+    -> 18001cc60 FUN_18001cc60
+
+=== ADDR 0x18012F6E0 -> 18012f6e0
+inMemory=true
+  symbol: Function DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  symbol: Label Ordinal_2148
+  symbol: Label ?regenerateMarkImp@PDFPlusBearerBar@DocumentMarks@@MEAAXXZ
+  isFunctionEntry=true entryName=DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+  containing=18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp body=18012f6e0..180130003 size=2340
+  [REFERENCES_TO]
+    <- 1803ac1e4 [DATA] in (data)
+    <- 180486540 [DATA] in (data)
+    <- Entry Point [EXTERNAL] in (data)
+    <- 180316398 [DATA] in (data)
+  [CALLERS]
+    (none)
+  [CALLEES]
+    -> 1800401f0 FUN_1800401f0
+    -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+    -> EXTERNAL:000004ae YAGL.DLL::YAGL::ToVertical
+    -> EXTERNAL:00000223 DOCUMENT.DLL::ArtPaint::FormPaint::GetContent
+    -> 18012e9c0 DocumentMarks::PDFPlusBearerBar::ValidateAnchors
+    -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+    -> 180083d20 FUN_180083d20
+    -> 18006e460 DocumentMarks::DynamicMark::ApplyPDFPlusColor
+    -> 18012d960 FUN_18012d960
+    -> EXTERNAL:000000cb DOCUMENTEDIT.DLL::DocumentEdit::InsertNewObjectOnTop
+    -> EXTERNAL:000004af YAGL.DLL::YAGL::ToHorizontal
+    -> EXTERNAL:00000177 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::~ActionGroupCreator
+    -> 1802cbe68 FUN_1802cbe68
+    -> 180071630 DocumentMarks::DynamicMark::GetSourceContent
+    -> 180041180 FUN_180041180
+    -> 18012e7d0 DocumentMarks::PDFPlusBearerBar::UpdateDirection
+    -> EXTERNAL:000000ce DOCUMENTEDIT.DLL::DocumentEdit::Delete
+    -> EXTERNAL:00000246 DOCUMENT.DLL::ArtDoc::Transformable::SetTransformation
+    -> 18012a530 DocumentMarks::GetPDFPlusBoundingBox
+    -> EXTERNAL:0000024a DOCUMENT.DLL::ArtDoc::Group::Group
+    -> EXTERNAL:000000c1 DOCUMENTEDIT.DLL::DocumentEdit::Expander::Expander
+    -> EXTERNAL:00000176 DOCUMENT.DLL::ArtDoc::ActionGroupCreator::ActionGroupCreator
+    -> 18012e950 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+    -> EXTERNAL:000000cc DOCUMENTEDIT.DLL::DocumentEdit::Expander::~Expander
+    -> 18012db30 FUN_18012db30
+    -> EXTERNAL:000001a6 DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+    -> 1802cbfd0 __security_check_cookie
+    -> 180016510 FUN_180016510
+
+=== ADDR 0x180327930 -> 180327930
+inMemory=true
+  symbol: Label s_Escape_sequence_terminated_prema_180327930
+  isFunctionEntry=false entryName=-
+  containing=-
+  [REFERENCES_TO]
+    <- 180217e93 [READ] in 180217e20 FUN_180217e20
+    <- 1802b1b70 [READ] in 1802b1b00 FUN_1802b1b00
+
+=== ADDR 0x180179DA0 -> 180179da0
+inMemory=true
+  isFunctionEntry=false entryName=-
+  containing=1801798e0 FUN_1801798e0 body=1801798e0..180179e33 size=1362
+  [REFERENCES_TO]
+    (none)
+
+=== ADDR 0x180170C20 -> 180170c20
+inMemory=true
+  isFunctionEntry=false entryName=-
+  containing=180170540 FUN_180170540 body=180170540..1801710bd size=2933
+  [REFERENCES_TO]
+    (none)
+
+=== ADDR 0x18016F250 -> 18016f250
+inMemory=true
+  isFunctionEntry=false entryName=-
+  containing=18016edc0 FUN_18016edc0 body=18016edc0..18016f7f5 size=2612
+  [REFERENCES_TO]
+    (none)
+
+=== ADDR 0x180111410 -> 180111410
+inMemory=true
+  isFunctionEntry=false entryName=-
+  containing=180111320 FUN_180111320 body=180111320..1801114ba size=411
+  [REFERENCES_TO]
+    (none)

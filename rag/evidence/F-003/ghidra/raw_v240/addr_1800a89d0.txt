@@ -1,0 +1,205 @@
+requested=0x1800a89d0
+resolvedAddress=1800a89d0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1800a89d0 SetBearerBarOffset
+status=OK
+entry=1800a89d0
+name=SetBearerBarOffset
+qualifiedName=DocumentMarks::SetBearerBarOffset
+namespace=DocumentMarks
+signature=void SetBearerBarOffset(Content * param_1, function<bool___cdecl(DocumentMarks::PDFPlusBearerBar_const&___ptr64)> * param_2, CoordinateBase<YAGL::MilliPointCoordinateSystem> * param_3)
+returnType=void
+parameterCount=3
+bodyMin=1800a89d0
+bodyMax=1800a8b38
+bodySize=361
+isThunk=false
+isExternal=false
+callingConvention=__cdecl
+
+[XREFS_TO]
+1803ab75c refType=DATA fromFunction=
+180481c08 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1802cbfd0 __security_check_cookie
+180016520 FUN_180016520
+1802cbe68 FUN_1802cbe68
+1800a81c0 FUN_1800a81c0
+EXTERNAL:0000027b DOCUMENT.DLL::ArtDoc::Action::GetActionList
+EXTERNAL:0000027a DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+
+[DIRECT_CALL_TARGETS]
+1800a8a5d -> 1802cbe68 FUN_1802cbe68
+1800a8a69 -> 1800a8a96 DocumentMarks::SetBearerBarOffset
+1800a8a8f -> 1800a81c0 FUN_1800a81c0
+1800a8a94 -> 1800a8a99 DocumentMarks::SetBearerBarOffset
+1800a8aa8 -> EXTERNAL:0000027b DOCUMENT.DLL::ArtDoc::Action::GetActionList
+1800a8ac1 -> EXTERNAL:0000027a DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+1800a8acf -> 1800a8adc DocumentMarks::SetBearerBarOffset
+1800a8ae3 -> 1800a8af9 DocumentMarks::SetBearerBarOffset
+1800a8af2 -> 180016520 FUN_180016520
+1800a8b00 -> 1800a8b12 DocumentMarks::SetBearerBarOffset
+1800a8b0f -> 180016520 FUN_180016520
+1800a8b19 -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+1800a89d0 -> Stack[0x18] block=? sym=
+1800a89d8 -> Stack[-0x5f] block=? sym=
+1800a89e4 -> Stack[-0x28] block=? sym=
+1800a89ec -> 180409ec0 block=.data sym=DAT_180409ec0
+1800a89f6 -> Stack[-0x38] block=? sym=
+1800a8a02 -> 18001a5f0 block=.text sym=DocumentMarks::PDFPlusExternalFileMark::GetFileURIFormula
+1800a8a09 -> 18001a5f0 block=.text sym=DocumentMarks::PDFPlusExternalFileMark::GetFileURIFormula
+1800a8a09 -> Stack[-0xc8] block=? sym=
+1800a8a0d -> Stack[-0xc0] block=? sym=
+1800a8a10 -> 180303cb0 block=.rdata sym=std::_Func_impl_no_alloc<class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>,DocumentMarks::PDFPlusBearerBar_const&___ptr64>::vftable
+1800a8a17 -> 180303cb0 block=.rdata sym=std::_Func_impl_no_alloc<class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>,DocumentMarks::PDFPlusBearerBar_const&___ptr64>::vftable
+1800a8a17 -> Stack[-0x78] block=? sym=
+1800a8a1b -> Stack[-0xc8] block=? sym=
+1800a8a1f -> Stack[-0x70] block=? sym=
+1800a8a23 -> Stack[-0x78] block=? sym=
+1800a8a27 -> Stack[-0x40] block=? sym=
+1800a8a2b -> 18001e750 block=.text sym=DocumentMarks::PDFPlusBearerBar::SetOffset
+1800a8a32 -> 18001e750 block=.text sym=DocumentMarks::PDFPlusBearerBar::SetOffset
+1800a8a32 -> Stack[-0xc8] block=? sym=
+1800a8a36 -> Stack[-0xc0] block=? sym=
+1800a8a39 -> 180303c78 block=.rdata sym=std::_Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>_const&___ptr64>::vftable
+1800a8a40 -> 180303c78 block=.rdata sym=std::_Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>_const&___ptr64>::vftable
+1800a8a40 -> Stack[-0xb8] block=? sym=
+1800a8a44 -> Stack[-0xc8] block=? sym=
+1800a8a48 -> Stack[-0xb0] block=? sym=
+1800a8a4c -> Stack[-0xb8] block=? sym=
+1800a8a50 -> Stack[-0x80] block=? sym=
+1800a8a62 -> Stack[-0xd0] block=? sym=
+1800a8a6b -> Stack[-0xc8] block=? sym=
+1800a8a70 -> Stack[-0x78] block=? sym=
+1800a8a74 -> Stack[-0xe0] block=? sym=
+1800a8a79 -> Stack[-0xb8] block=? sym=
+1800a8a7d -> Stack[-0xe8] block=? sym=
+1800a8a82 -> Stack[-0xc8] block=? sym=
+1800a8a99 -> Stack[-0xd8] block=? sym=
+1800a8a9d -> Stack[-0xd8] block=? sym=
+1800a8aa1 -> Stack[-0xc8] block=? sym=
+1800a8aa8 -> 1802f1fb0 block=.rdata sym=PTR_GetActionList_1802f1fb0
+1800a8aae -> Stack[-0xd8] block=? sym=
+1800a8ab2 -> Stack[-0xd8] block=? sym=
+1800a8ab6 -> Stack[-0xd0] block=? sym=
+1800a8aba -> Stack[-0xd0] block=? sym=
+1800a8ac1 -> 1802f1fa8 block=.rdata sym=PTR_DoAction_1802f1fa8
+1800a8ac8 -> Stack[-0xd8] block=? sym=
+1800a8adc -> Stack[-0x80] block=? sym=
+1800a8ae5 -> Stack[-0xb8] block=? sym=
+1800a8ae8 -> Stack[-0xb8] block=? sym=
+1800a8af2 -> 180303c98 block=.rdata sym=vftable[4]
+1800a8af5 -> Stack[-0x80] block=? sym=
+1800a8af9 -> Stack[-0x40] block=? sym=
+1800a8b02 -> Stack[-0x78] block=? sym=
+1800a8b05 -> Stack[-0x78] block=? sym=
+1800a8b0f -> 180303cd0 block=.rdata sym=vftable[4]
+1800a8b12 -> Stack[-0x38] block=? sym=
+1800a8b1e -> Stack[0x10] block=? sym=
+1800a8b26 -> Stack[-0x30] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* void __cdecl DocumentMarks::SetBearerBarOffset(class ArtDoc::Content & __ptr64,class
+   std::function<bool __cdecl(class DocumentMarks::PDFPlusBearerBar const & __ptr64)> const &
+   __ptr64,class YAGL::CoordinateBase<struct YAGL::MilliPointCoordinateSystem> const & __ptr64) */
+
+void __cdecl
+DocumentMarks::SetBearerBarOffset
+          (Content *param_1,
+          function<bool___cdecl(DocumentMarks::PDFPlusBearerBar_const&___ptr64)> *param_2,
+          CoordinateBase<YAGL::MilliPointCoordinateSystem> *param_3)
+
+{
+  Action **ppAVar1;
+  longlong lVar2;
+  ulonglong uVar3;
+  ulonglong uVar4;
+  ActionList *pAVar5;
+  undefined1 auStack_108 [32];
+  undefined ***local_e8;
+  undefined ***local_e0;
+  Action *local_d8;
+  Action *local_d0;
+  Action **local_c8;
+  ulonglong uStack_c0;
+  undefined **local_b8;
+  undefined4 local_b0;
+  undefined4 uStack_ac;
+  undefined4 uStack_a8;
+  undefined4 uStack_a4;
+  undefined ***local_80;
+  undefined **local_78;
+  code *local_70;
+  longlong lStack_68;
+  undefined ***local_40;
+  ulonglong local_38;
+  
+                    /* 0xa89d0  1474
+                       ?SetBearerBarOffset@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusBearerBar@DocumentMarks@@@Z@std@@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+                        */
+  uVar4 = uStack_c0;
+  local_38 = DAT_180409ec0 ^ (ulonglong)auStack_108;
+  uVar3 = uStack_c0 >> 0x20;
+  uStack_c0 = uVar3 << 0x20;
+  local_78 = std::
+             _Func_impl_no_alloc<class_YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>,DocumentMarks::PDFPlusBearerBar_const&___ptr64>
+             ::vftable;
+  local_70 = PDFPlusExternalFileMark::GetFileURIFormula;
+  lStack_68 = uStack_c0;
+  local_40 = &local_78;
+  local_c8 = (Action **)PDFPlusBearerBar::SetOffset;
+  uStack_a4 = (undefined4)(uVar4 >> 0x20);
+  uStack_c0 = uVar3 << 0x20;
+  local_b8 = std::
+             _Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(YAGL::CoordinateBase<YAGL::MilliPointCoordinateSystem>_const&___ptr64)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,YAGL::CoordinateBase<struct_YAGL::MilliPointCoordinateSystem>_const&___ptr64>
+             ::vftable;
+  local_b0 = 0x8001e750;
+  uStack_ac = 1;
+  uStack_a8 = 0;
+  local_80 = &local_b8;
+  ppAVar1 = *(Action ***)param_3;
+  lVar2 = *(longlong *)(param_3 + 8);
+  local_d0 = (Action *)FUN_1802cbe68(0x108);
+  if (local_d0 == (Action *)0x0) {
+    local_d8 = (Action *)0x0;
+  }
+  else {
+    local_e0 = &local_78;
+    local_e8 = &local_b8;
+    local_c8 = ppAVar1;
+    uStack_c0 = lVar2;
+    local_d8 = (Action *)FUN_1800a81c0(local_d0,param_1,param_2,&local_c8);
+  }
+  local_c8 = &local_d8;
+  pAVar5 = ArtDoc::Action::GetActionList(local_d8);
+  local_d0 = local_d8;
+  local_d8 = (Action *)0x0;
+  ArtDoc::ActionList::DoAction(pAVar5,&local_d0);
+  if (local_d8 != (Action *)0x0) {
+    (*(code *)**(undefined8 **)local_d8)(local_d8,1);
+  }
+  if (local_80 != (undefined ***)0x0) {
+    (*(code *)(*local_80)[4])
+              (local_80,CONCAT71((int7)((ulonglong)&local_b8 >> 8),local_80 != &local_b8));
+    local_80 = (undefined ***)0x0;
+  }
+  if (local_40 != (undefined ***)0x0) {
+    (*(code *)(*local_40)[4])
+              (local_40,CONCAT71((int7)((ulonglong)&local_78 >> 8),local_40 != &local_78));
+  }
+  return;
+}
+
+

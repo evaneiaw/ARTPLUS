@@ -1,0 +1,48 @@
+requested=0x18001e730
+resolvedAddress=18001e730
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001e730 setLocation
+status=OK
+entry=18001e730
+name=setLocation
+qualifiedName=DocumentMarks::BearerBar::setLocation
+namespace=DocumentMarks::BearerBar
+signature=void setLocation(BearerBar * this, int param_1)
+returnType=void
+parameterCount=2
+bodyMin=18001e730
+bodyMax=18001e736
+bodySize=7
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803ac2a0 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+
+[DECOMPILE]
+
+/* public: void __cdecl DocumentMarks::BearerBar::setLocation(int) __ptr64 */
+
+void __thiscall DocumentMarks::BearerBar::setLocation(BearerBar *this,int param_1)
+
+{
+                    /* 0x1e730  2195  ?setLocation@BearerBar@DocumentMarks@@QEAAXH@Z */
+  *(int *)(this + 0x780) = param_1;
+  return;
+}
+
+

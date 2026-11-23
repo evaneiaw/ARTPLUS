@@ -1,0 +1,74 @@
+requested=0x1801652b0
+resolvedAddress=1801652b0
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1801652b0 FUN_1801652b0
+status=OK
+entry=1801652b0
+name=FUN_1801652b0
+qualifiedName=FUN_1801652b0
+namespace=Global
+signature=undefined FUN_1801652b0()
+returnType=undefined
+parameterCount=0
+bodyMin=1801652b0
+bodyMax=18016531d
+bodySize=110
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180488148 refType=DATA fromFunction=
+18016b944 refType=UNCONDITIONAL_CALL fromFunction=1801683e0 FUN_1801683e0
+
+[CALLERS]
+1801683e0 FUN_1801683e0
+
+[CALLEES]
+18012c640 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+1802cbe68 FUN_1802cbe68
+
+[DIRECT_CALL_TARGETS]
+1801652d1 -> 1802cbe68 FUN_1802cbe68
+1801652de -> 180165308 FUN_1801652b0
+180165300 -> 18012c640 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+1801652b0 -> Stack[0x10] block=? sym=
+1801652b5 -> Stack[0x20] block=? sym=
+1801652ba -> Stack[0x8] block=? sym=
+1801652d6 -> Stack[0x8] block=? sym=
+1801652e3 -> Stack[-0x20] block=? sym=
+1801652ec -> Stack[-0x18] block=? sym=
+1801652f8 -> Stack[-0x20] block=? sym=
+18016530e -> Stack[0x10] block=? sym=
+180165313 -> Stack[0x20] block=? sym=
+
+[DECOMPILE]
+
+undefined8 * FUN_1801652b0(undefined8 *param_1,undefined8 *param_2)
+
+{
+  PDFPlusBearerBar *pPVar1;
+  undefined8 uVar2;
+  undefined8 local_20;
+  undefined8 local_18;
+  
+  uVar2 = 0;
+  pPVar1 = (PDFPlusBearerBar *)FUN_1802cbe68(0x858);
+  if (pPVar1 != (PDFPlusBearerBar *)0x0) {
+    local_20 = *param_2;
+    local_18 = param_2[1];
+    *param_2 = 0;
+    param_2[1] = 0;
+    uVar2 = DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar(pPVar1,&local_20);
+  }
+  *param_1 = uVar2;
+  return param_1;
+}
+
+

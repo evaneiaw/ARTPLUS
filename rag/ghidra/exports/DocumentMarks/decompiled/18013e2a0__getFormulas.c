@@ -1,0 +1,73 @@
+// 18013e2a0 getFormulas
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: virtual class std::vector<class std::basic_string<char,struct
+   std::char_traits<char>,class std::allocator<char> >,class std::allocator<class
+   std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > __cdecl
+   DocumentMarks::PDFPlusCutMark::getFormulas(void)const __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::getFormulas(PDFPlusCutMark *this)
+
+{
+  undefined8 *puVar1;
+  undefined8 uVar2;
+  undefined8 *puVar3;
+  void *_Memory;
+  undefined8 *in_RDX;
+  PDFPlusCutMark *pPVar4;
+  undefined4 extraout_XMM0_Da;
+  undefined1 auStack_68 [32];
+  undefined4 local_48;
+  void *local_38 [3];
+  ulonglong local_20;
+  ulonglong local_18;
+  
+                    /* 0x13e2a0  1923
+                       ?getFormulas@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+                        */
+  local_18 = DAT_180418e00 ^ (ulonglong)auStack_68;
+  *in_RDX = 0;
+  in_RDX[1] = 0;
+  in_RDX[2] = 0;
+  local_48 = 1;
+  pPVar4 = this + 0x698;
+  if ((pPVar4 == (PDFPlusCutMark *)0x0) || (this[0x6b8] != (PDFPlusCutMark)0x1)) {
+    pPVar4 = (PDFPlusCutMark *)0x0;
+  }
+  if (pPVar4 != (PDFPlusCutMark *)0x0) {
+    puVar3 = (undefined8 *)FUN_180150650(local_38);
+    puVar1 = (undefined8 *)in_RDX[1];
+    if (puVar1 == (undefined8 *)in_RDX[2]) {
+      FUN_18005f930(extraout_XMM0_Da,puVar1,puVar3);
+    }
+    else {
+      *puVar1 = 0;
+      puVar1[1] = 0;
+      puVar1[2] = 0;
+      puVar1[3] = 0;
+      uVar2 = puVar3[1];
+      *puVar1 = *puVar3;
+      puVar1[1] = uVar2;
+      uVar2 = puVar3[3];
+      puVar1[2] = puVar3[2];
+      puVar1[3] = uVar2;
+      puVar3[2] = 0;
+      puVar3[3] = 0xf;
+      *(undefined1 *)puVar3 = 0;
+      in_RDX[1] = in_RDX[1] + 0x20;
+    }
+    if (0xf < local_20) {
+      _Memory = local_38[0];
+      if ((0xfff < local_20 + 1) &&
+         (_Memory = *(void **)((longlong)local_38[0] + -8),
+         0x1f < (ulonglong)((longlong)local_38[0] + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+  }
+  return;
+}
+
+

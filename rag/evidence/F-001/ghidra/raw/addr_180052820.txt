@@ -1,0 +1,200 @@
+requested=0x180052820
+resolvedAddress=180052820
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180052820 PlaceCutMarkSymbol
+status=OK
+entry=180052820
+name=PlaceCutMarkSymbol
+qualifiedName=DocumentMarks::CutMark::PlaceCutMarkSymbol
+namespace=DocumentMarks::CutMark
+signature=void PlaceCutMarkSymbol(CutMark * this, ContentObject * param_1, CPoint * param_2, CPoint * param_3)
+returnType=void
+parameterCount=4
+bodyMin=180052820
+bodyMax=180052a3e
+bodySize=543
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803b9538 refType=DATA fromFunction=
+18048fda4 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+180052fbb refType=UNCONDITIONAL_CALL fromFunction=180052ca0 regenerateMarkImp
+
+[CALLERS]
+180052ca0 DocumentMarks::CutMark::regenerateMarkImp
+
+[CALLEES]
+1802d7dc6 API-MS-WIN-CRT-MATH-L1-1-0.DLL::cos
+1802d7dd2 API-MS-WIN-CRT-MATH-L1-1-0.DLL::atan2
+EXTERNAL:000000d6 DOCUMENTEDIT.DLL::DocumentEdit::Transform
+1802d7dcc API-MS-WIN-CRT-MATH-L1-1-0.DLL::sin
+18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+
+[DIRECT_CALL_TARGETS]
+1800528b8 -> 1802d7dd2 API-MS-WIN-CRT-MATH-L1-1-0.DLL::atan2
+1800528cb -> 1802d7dc6 API-MS-WIN-CRT-MATH-L1-1-0.DLL::cos
+1800528d6 -> 1802d7dcc API-MS-WIN-CRT-MATH-L1-1-0.DLL::sin
+180052910 -> EXTERNAL:000000d6 DOCUMENTEDIT.DLL::DocumentEdit::Transform
+18005291e -> 18012d5f0 DocumentMarks::GetBoundingBoxForPositioning
+180052928 -> 180052936 DocumentMarks::CutMark::PlaceCutMarkSymbol
+180052934 -> 180052944 DocumentMarks::CutMark::PlaceCutMarkSymbol
+18005295d -> 18005297d DocumentMarks::CutMark::PlaceCutMarkSymbol
+18005295f -> 18005297d DocumentMarks::CutMark::PlaceCutMarkSymbol
+180052976 -> 180052991 DocumentMarks::CutMark::PlaceCutMarkSymbol
+18005297b -> 180052991 DocumentMarks::CutMark::PlaceCutMarkSymbol
+18005298c -> 180052991 DocumentMarks::CutMark::PlaceCutMarkSymbol
+180052a1a -> EXTERNAL:000000d6 DOCUMENTEDIT.DLL::DocumentEdit::Transform
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180052823 -> Stack[0x8] block=? sym=
+180052827 -> Stack[0x20] block=? sym=
+18005283d -> 1803082f0 block=.rdata sym=DAT_1803082f0
+180052853 -> 180305520 block=.rdata sym=DAT_180305520
+18005285b -> 180305520 block=.rdata sym=DAT_180305520
+180052867 -> 180305518 block=.rdata sym=DAT_180305518
+18005286f -> 1803082e0 block=.rdata sym=DAT_1803082e0
+180052877 -> 180305518 block=.rdata sym=DAT_180305518
+18005287f -> Stack[0x18] block=? sym=
+180052888 -> Stack[0x18] block=? sym=
+18005289a -> Stack[0x10] block=? sym=
+1800528a3 -> Stack[0x10] block=? sym=
+1800528ac -> Stack[-0x18] block=? sym=
+1800528b4 -> Stack[-0x28] block=? sym=
+1800528c0 -> 180488498 block=.data sym=DAT_180488498
+1800528db -> Stack[-0xe0] block=? sym=
+1800528e1 -> Stack[-0xe8] block=? sym=
+1800528e6 -> 180308300 block=.rdata sym=DAT_180308300
+1800528f3 -> Stack[-0xd8] block=? sym=
+1800528ff -> Stack[-0xe8] block=? sym=
+180052905 -> Stack[-0xc8] block=? sym=
+18005290a -> Stack[-0xd0] block=? sym=
+180052910 -> 1802fcd30 block=.rdata sym=PTR_Transform_1802fcd30
+180052919 -> Stack[-0xb8] block=? sym=
+180052923 -> Stack[-0x90] block=? sym=
+18005292a -> Stack[-0xb8] block=? sym=
+18005292f -> Stack[-0xa8] block=? sym=
+180052939 -> Stack[-0x38] block=? sym=
+18005296e -> 180308e18 block=.rdata sym=DAT_180308e18
+180052984 -> 180308e18 block=.rdata sym=DAT_180308e18
+180052991 -> 1803082c8 block=.rdata sym=DAT_1803082c8
+180052999 -> Stack[-0x88] block=? sym=
+1800529aa -> 180306700 block=.rdata sym=DAT_180306700
+1800529bc -> Stack[0x10] block=? sym=
+1800529c5 -> Stack[0x10] block=? sym=
+1800529d7 -> 1803066f0 block=.rdata sym=DAT_1803066f0
+1800529df -> Stack[-0x88] block=? sym=
+1800529e7 -> Stack[-0x78] block=? sym=
+1800529f8 -> 1803082c8 block=.rdata sym=DAT_1803082c8
+180052a00 -> Stack[-0x68] block=? sym=
+180052a11 -> Stack[-0x60] block=? sym=
+180052a1a -> 1802fcd30 block=.rdata sym=PTR_Transform_1802fcd30
+180052a20 -> Stack[-0x8] block=? sym=
+180052a28 -> Stack[0x8] block=? sym=
+180052a2c -> Stack[0x20] block=? sym=
+180052a30 -> Stack[-0x18] block=? sym=
+180052a35 -> Stack[-0x28] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* private: void __cdecl DocumentMarks::CutMark::PlaceCutMarkSymbol(class ArtDoc::ContentObject &
+   __ptr64,struct dm::CPoint const & __ptr64,struct dm::CPoint const & __ptr64) __ptr64 */
+
+void __thiscall
+DocumentMarks::CutMark::PlaceCutMarkSymbol
+          (CutMark *this,ContentObject *param_1,CPoint *param_2,CPoint *param_3)
+
+{
+  undefined1 auVar1 [12];
+  double dVar2;
+  double dVar3;
+  undefined1 auVar4 [16];
+  undefined1 auVar5 [16];
+  double local_e8;
+  double local_e0;
+  undefined8 local_d8;
+  double local_d0;
+  undefined8 local_c8;
+  undefined8 uStack_c0;
+  double local_b8;
+  double dStack_b0;
+  undefined1 local_a8 [16];
+  char local_90;
+  undefined8 local_88;
+  undefined8 uStack_80;
+  undefined8 local_78;
+  undefined8 uStack_70;
+  double local_68;
+  double local_60;
+  undefined1 local_38;
+  
+                    /* 0x52820  1417
+                       ?PlaceCutMarkSymbol@CutMark@DocumentMarks@@AEAAXAEAVContentObject@ArtDoc@@AEBUCPoint@dm@@1@Z
+                        */
+  auVar4._0_8_ = _DAT_1803082f0 * *(double *)param_3;
+  auVar4._8_8_ = _UNK_1803082f8 * *(double *)(param_3 + 8);
+  auVar4 = divpd(auVar4,_DAT_1803082e0);
+  auVar5 = auVar4 >> 0x40;
+  dVar2 = atan2(auVar4._8_8_ - (*(double *)(param_2 + 8) * DAT_180305520) / DAT_180305518,
+                auVar4._0_8_ - (*(double *)param_2 * DAT_180305520) / DAT_180305518);
+  dVar2 = dVar2 + _DAT_180488498;
+  dVar3 = cos(dVar2);
+  local_e0 = sin(dVar2);
+  local_d8 = CONCAT44((uint)((ulonglong)local_e0 >> 0x20) ^ DAT_180308300._4_4_,
+                      SUB84(local_e0,0) ^ (uint)DAT_180308300);
+  local_c8 = 0;
+  uStack_c0 = 0;
+  local_e8 = dVar3;
+  local_d0 = dVar3;
+  DocumentEdit::Transform
+            ((Transformable *)param_1,
+             (TransformationBase<YAGL::MilliPointCoordinateSystem> *)&local_e8,7);
+  GetBoundingBoxForPositioning((ContentObject *)&local_b8);
+  if (local_90 == '\0') {
+    local_b8 = 0.0;
+    dStack_b0 = 0.0;
+    local_38 = 1;
+    local_a8 = ZEXT816(0);
+  }
+  dVar2 = *(double *)param_2;
+  auVar1._4_8_ = auVar5._8_8_;
+  auVar1._0_4_ = local_a8._4_4_;
+  auVar5._0_8_ = auVar1._0_8_ << 0x20;
+  auVar5._8_4_ = local_a8._8_4_;
+  auVar5._12_4_ = local_a8._12_4_;
+  dVar3 = auVar5._8_8_;
+  if (dVar2 == *(double *)param_3) {
+    local_68 = local_a8._0_8_ * DAT_180308e18;
+    local_60 = 0.0;
+    if (*(double *)(param_2 + 8) <= *(double *)(param_3 + 8) &&
+        *(double *)(param_3 + 8) != *(double *)(param_2 + 8)) {
+      local_60 = dVar3;
+    }
+  }
+  else {
+    local_60 = dVar3 * DAT_180308e18;
+    local_68 = 0.0;
+    if (*(double *)param_3 < dVar2) {
+      local_68 = local_a8._0_8_;
+    }
+  }
+  local_88 = _DAT_1803066f0;
+  uStack_80 = _UNK_1803066f8;
+  local_78 = _DAT_180306700;
+  uStack_70 = _UNK_180306708;
+  local_68 = (dVar2 * DAT_1803082c8 - local_b8) - local_68;
+  local_60 = (*(double *)(param_2 + 8) * DAT_1803082c8 - (dVar3 + dStack_b0)) + local_60;
+  DocumentEdit::Transform
+            ((Transformable *)param_1,
+             (TransformationBase<YAGL::MilliPointCoordinateSystem> *)&local_88,7);
+  return;
+}
+
+

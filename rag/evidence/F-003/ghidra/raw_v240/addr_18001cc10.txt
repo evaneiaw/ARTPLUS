@@ -1,0 +1,67 @@
+requested=0x18001cc10
+resolvedAddress=18001cc10
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18001cc10 Clone
+status=OK
+entry=18001cc10
+name=Clone
+qualifiedName=DocumentMarks::BearerBar::Clone
+namespace=DocumentMarks::BearerBar
+signature=BearerBar * Clone(BearerBar * this, CloneStrategy * param_1)
+returnType=BearerBar *
+parameterCount=2
+bodyMin=18001cc10
+bodyMax=18001cc5a
+bodySize=75
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aada0 refType=DATA fromFunction=
+18047b38c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1802f9f50 refType=DATA fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+18001c200 DocumentMarks::BearerBar::BearerBar
+1802cbe68 FUN_1802cbe68
+
+[DIRECT_CALL_TARGETS]
+18001cc25 -> 1802cbe68 FUN_1802cbe68
+18001cc32 -> 18001cc4e DocumentMarks::BearerBar::Clone
+18001cc3d -> 18001c200 DocumentMarks::BearerBar::BearerBar
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18001cc10 -> Stack[0x8] block=? sym=
+18001cc2a -> Stack[0x18] block=? sym=
+18001cc43 -> Stack[0x8] block=? sym=
+18001cc50 -> Stack[0x8] block=? sym=
+
+[DECOMPILE]
+
+/* public: virtual class DocumentMarks::BearerBar * __ptr64 __cdecl
+   DocumentMarks::BearerBar::Clone(class ArtDoc::CloneStrategy & __ptr64)const __ptr64 */
+
+BearerBar * __thiscall DocumentMarks::BearerBar::Clone(BearerBar *this,CloneStrategy *param_1)
+
+{
+  BearerBar *pBVar1;
+  
+                    /* 0x1cc10  851
+                       ?Clone@BearerBar@DocumentMarks@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z */
+  pBVar1 = (BearerBar *)FUN_1802cbe68(0x788);
+  if (pBVar1 == (BearerBar *)0x0) {
+    return (BearerBar *)0x0;
+  }
+  pBVar1 = (BearerBar *)BearerBar(pBVar1,this,param_1);
+  return pBVar1;
+}
+
+

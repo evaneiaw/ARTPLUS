@@ -1,0 +1,56 @@
+address: 180277140
+name: GOVSelectHitElement::SetRect
+signature: void __thiscall SetRect(GRectBase<double> * param_1)
+body_bytes: 182
+param_count: 2
+
+[callers]
+  180192a70 GOVAddPageNumber::Add
+  1801a2f90 GOVCheckAnnotInArea::Visit
+  1802755d0 GOVSelectHitElement::GOVSelectHitElement
+  180287370 GOVSelectNotInSafeTypeZone::Select
+  18027f940 GOVSelectInRegion::Select
+[callees]
+  EXTERNAL:00000ed5 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GetWidth
+  EXTERNAL:00000ed6 BASICFRAMEWORKCORELAYER.DLL::GRectBase<double>::GetHeight
+[string_refs]
+[pointer_hits_non_exec]
+
+[decompiled]
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* public: void __cdecl GOVSelectHitElement::SetRect(class GRectBase<double> const & __ptr64)
+   __ptr64 */
+
+void __thiscall GOVSelectHitElement::SetRect(GOVSelectHitElement *this,GRectBase<double> *param_1)
+
+{
+  GRectBase<double> *this_00;
+  double dVar1;
+  undefined8 uVar2;
+  double dVar3;
+  
+                    /* 0x277140  13755  ?SetRect@GOVSelectHitElement@@QEAAXAEBV?$GRectBase@N@@@Z */
+  uVar2 = *(undefined8 *)(param_1 + 8);
+  this_00 = (GRectBase<double> *)(this + 0x1e0);
+  *(undefined8 *)this_00 = *(undefined8 *)param_1;
+  *(undefined8 *)(this + 0x1e8) = uVar2;
+  uVar2 = *(undefined8 *)(param_1 + 0x18);
+  *(undefined8 *)(this + 0x1f0) = *(undefined8 *)(param_1 + 0x10);
+  *(undefined8 *)(this + 0x1f8) = uVar2;
+  dVar1 = GRectBase<double>::GetHeight(this_00);
+  dVar3 = _DAT_1804141a0;
+  if (dVar1 == 0.0) {
+    dVar1 = *(double *)(this + 0x1e8) - _DAT_1804141a0;
+    *(double *)(this + 0x1f8) = *(double *)(this + 0x1f8) + _DAT_1804141a0;
+    *(double *)(this + 0x1e8) = dVar1;
+  }
+  dVar1 = GRectBase<double>::GetWidth(this_00);
+  if (dVar1 == 0.0) {
+    *(double *)(this + 0x1f0) = *(double *)(this + 0x1f0) + dVar3;
+    *(double *)this_00 = *(double *)this_00 - dVar3;
+  }
+  return;
+}
+
+

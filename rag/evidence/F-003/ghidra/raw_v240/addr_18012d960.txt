@@ -1,0 +1,216 @@
+requested=0x18012d960
+resolvedAddress=18012d960
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012d960 FUN_18012d960
+status=OK
+entry=18012d960
+name=FUN_18012d960
+qualifiedName=FUN_18012d960
+namespace=Global
+signature=undefined FUN_18012d960()
+returnType=undefined
+parameterCount=0
+bodyMin=18012d960
+bodyMax=18012db27
+bodySize=456
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180486450 refType=DATA fromFunction=
+18012e719 refType=UNCONDITIONAL_CALL fromFunction=18012db30 FUN_18012db30
+18012f982 refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+
+[CALLERS]
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+18012db30 FUN_18012db30
+
+[CALLEES]
+18012a130 DocumentMarks::GetBoundingBoxForPositioning
+EXTERNAL:0000020c DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+EXTERNAL:0000021f DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+
+[DIRECT_CALL_TARGETS]
+18012d985 -> 18012d9d7 FUN_18012d960
+18012d98a -> 18012d9cc FUN_18012d960
+18012d98f -> EXTERNAL:0000021f DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+18012d99a -> EXTERNAL:0000020c DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+18012d9c7 -> 18012db10 FUN_18012d960
+18012d9cf -> 18012d9d7 FUN_18012d960
+18012d9d5 -> 18012d9da FUN_18012d960
+18012d9dd -> 18012daae FUN_18012d960
+18012d9e9 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18012d9f6 -> 18012a130 DocumentMarks::GetBoundingBoxForPositioning
+18012d9ff -> 18012da32 FUN_18012d960
+18012da30 -> 18012da8b FUN_18012d960
+18012daac -> 18012db10 FUN_18012d960
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012d960 -> Stack[0x8] block=? sym=
+18012d965 -> Stack[0x10] block=? sym=
+18012d96b -> Stack[-0x5f] block=? sym=
+18012d98f -> 1802f1cd0 block=.rdata sym=PTR_GetPage_1802f1cd0
+18012d99a -> 1802f1c38 block=.rdata sym=PTR_GetPageBox_1802f1c38
+18012d9e9 -> 1802f1eb0 block=.rdata sym=PTR_GetObjectWithID_1802f1eb0
+18012d9f2 -> Stack[-0xb8] block=? sym=
+18012d9fb -> Stack[-0x68] block=? sym=
+18012da01 -> Stack[-0xb0] block=? sym=
+18012da05 -> Stack[-0x70] block=? sym=
+18012da09 -> Stack[-0x50] block=? sym=
+18012da0d -> Stack[-0xa0] block=? sym=
+18012da11 -> Stack[-0x10] block=? sym=
+18012da14 -> Stack[-0x30] block=? sym=
+18012da18 -> Stack[-0x50] block=? sym=
+18012da1c -> Stack[-0x90] block=? sym=
+18012da20 -> Stack[-0x40] block=? sym=
+18012da24 -> Stack[-0x80] block=? sym=
+18012da28 -> Stack[-0x30] block=? sym=
+18012da2c -> Stack[-0x20] block=? sym=
+18012da32 -> Stack[-0xc8] block=? sym=
+18012da36 -> Stack[-0x70] block=? sym=
+18012da3a -> Stack[-0xb0] block=? sym=
+18012da41 -> Stack[-0x90] block=? sym=
+18012da4b -> Stack[-0xc8] block=? sym=
+18012da4f -> Stack[-0xc8] block=? sym=
+18012da57 -> Stack[-0xc8] block=? sym=
+18012da5f -> Stack[-0xc8] block=? sym=
+18012da63 -> Stack[-0x90] block=? sym=
+18012da67 -> Stack[-0xb0] block=? sym=
+18012da6b -> Stack[-0xc8] block=? sym=
+18012da73 -> Stack[-0xc8] block=? sym=
+18012da77 -> Stack[-0xc8] block=? sym=
+18012da83 -> Stack[-0x80] block=? sym=
+18012da87 -> Stack[-0xa0] block=? sym=
+18012da8b -> Stack[-0x50] block=? sym=
+18012da8e -> Stack[-0x20] block=? sym=
+18012da96 -> Stack[-0x40] block=? sym=
+18012daa1 -> Stack[-0x30] block=? sym=
+18012daae -> Stack[-0xc8] block=? sym=
+18012dac0 -> Stack[-0xc8] block=? sym=
+18012dac4 -> Stack[-0xc8] block=? sym=
+18012dacc -> Stack[-0xc8] block=? sym=
+18012dae0 -> Stack[-0xc8] block=? sym=
+18012dae4 -> Stack[-0xc8] block=? sym=
+18012daf0 -> Stack[-0xc8] block=? sym=
+18012daf4 -> Stack[-0xc8] block=? sym=
+18012db10 -> Stack[-0x8] block=? sym=
+18012db1b -> Stack[0x8] block=? sym=
+18012db1f -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+longlong FUN_18012d960(longlong param_1,PageContent *param_2,PageBox *param_3)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  Page *this;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> *pRVar4;
+  undefined8 *puVar5;
+  undefined8 *puVar6;
+  undefined8 local_c8;
+  ContentObject local_b8 [8];
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  undefined8 local_a0;
+  undefined8 uStack_98;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined8 local_80;
+  undefined8 uStack_78;
+  undefined1 local_70;
+  char local_68;
+  undefined8 local_50;
+  undefined8 uStack_48;
+  undefined8 local_40;
+  undefined8 uStack_38;
+  undefined8 local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  undefined8 uStack_18;
+  
+  if (param_3 != (PageBox *)0x0) {
+    if ((char)param_3[0x1e] == 0) {
+      this = ArtDoc::PageContent::GetPage(param_2);
+      pRVar4 = ArtDoc::Page::GetPageBox(this,*param_3);
+      uVar1 = *(undefined8 *)(pRVar4 + 0x10);
+      *(undefined8 *)(param_1 + 8) = *(undefined8 *)(pRVar4 + 8);
+      *(undefined8 *)(param_1 + 0x10) = uVar1;
+      uVar1 = *(undefined8 *)(pRVar4 + 0x20);
+      *(undefined8 *)(param_1 + 0x18) = *(undefined8 *)(pRVar4 + 0x18);
+      *(undefined8 *)(param_1 + 0x20) = uVar1;
+      uVar1 = *(undefined8 *)(pRVar4 + 0x30);
+      *(undefined8 *)(param_1 + 0x28) = *(undefined8 *)(pRVar4 + 0x28);
+      *(undefined8 *)(param_1 + 0x30) = uVar1;
+      uVar1 = *(undefined8 *)(pRVar4 + 0x40);
+      *(undefined8 *)(param_1 + 0x38) = *(undefined8 *)(pRVar4 + 0x38);
+      *(undefined8 *)(param_1 + 0x40) = uVar1;
+      *(RectangleBase<YAGL::MilliPointCoordinateSystem> *)(param_1 + 0x48) = pRVar4[0x48];
+      return param_1;
+    }
+    if ((param_3 != (PageBox *)0x0) && ((char)param_3[0x1e] == 1)) goto LAB_18012d9da;
+  }
+  param_3 = (PageBox *)0x0;
+LAB_18012d9da:
+  if (param_3 == (PageBox *)0x0) {
+    *(undefined8 *)(param_1 + 8) = local_c8;
+    *(undefined8 *)(param_1 + 0x10) = 0;
+    *(undefined8 *)(param_1 + 0x28) = local_c8;
+    *(undefined8 *)(param_1 + 0x30) = 0;
+    *(undefined8 *)(param_1 + 0x18) = local_c8;
+    *(undefined8 *)(param_1 + 0x20) = 0;
+    *(undefined8 *)(param_1 + 0x38) = local_c8;
+    *(undefined8 *)(param_1 + 0x40) = 0;
+    *(undefined1 *)(param_1 + 0x48) = 1;
+  }
+  else {
+    ArtDoc::Content::GetObjectWithID((Content *)param_2,*(undefined8 *)param_3);
+    DocumentMarks::GetBoundingBoxForPositioning(local_b8);
+    if (local_68 == '\0') {
+      local_70 = 1;
+      puVar5 = &local_b0;
+      puVar6 = &local_90;
+      local_70 = 1;
+      uStack_88 = 0;
+      uStack_a8 = 0;
+      uStack_78 = 0;
+      uStack_98 = 0;
+    }
+    else {
+      puVar5 = &local_50;
+      puVar6 = &local_30;
+      local_50 = local_b0;
+      uStack_48 = uStack_a8;
+      local_40 = local_a0;
+      uStack_38 = uStack_98;
+      local_30 = local_90;
+      uStack_28 = uStack_88;
+      local_20 = local_80;
+      uStack_18 = uStack_78;
+    }
+    uVar1 = puVar5[1];
+    uVar2 = puVar6[2];
+    uVar3 = puVar6[3];
+    *(undefined8 *)(param_1 + 8) = *puVar5;
+    *(undefined8 *)(param_1 + 0x10) = uVar1;
+    uVar1 = puVar5[3];
+    *(undefined8 *)(param_1 + 0x18) = puVar5[2];
+    *(undefined8 *)(param_1 + 0x20) = uVar1;
+    *(undefined1 *)(param_1 + 0x48) = local_70;
+    uVar1 = puVar6[1];
+    *(undefined8 *)(param_1 + 0x28) = *puVar6;
+    *(undefined8 *)(param_1 + 0x30) = uVar1;
+    *(undefined8 *)(param_1 + 0x38) = uVar2;
+    *(undefined8 *)(param_1 + 0x40) = uVar3;
+  }
+  return param_1;
+}
+
+

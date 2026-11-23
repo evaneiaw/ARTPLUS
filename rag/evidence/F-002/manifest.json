@@ -1,0 +1,54 @@
+{
+  "id": "F-002",
+  "versao_ref": "24.03.10017",
+  "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\DocumentMarks.dll",
+  "sha256": "E47328BD25B01B6EB36E54D8E5AA5D799F088AFC772D4FE06ED0F14B3C0FA102",
+  "tamanho": 4841904,
+  "md5": "4D2F2060555B206BD9F374CA69F8A234",
+  "programa_ghidra": "DocMarks_v240 /DocumentMarks.dll (imageBase 0x180000000, x86:LE:64:default, Ghidra 12.2)",
+  "input": "tools/reference_capture/F-002/input/test_vector.pdf",
+  "input_sha256": "ADFD91B4E95BCE3708DB37055885C355880068EE53A1472AB1DC82E0820640D7",
+  "estatico": [
+    "GHIDRA-DocumentMarks-0x1800147F0",
+    "GHIDRA-DocumentMarks-0x180014A00",
+    "GHIDRA-DocumentMarks-0x18001A340",
+    "GHIDRA-DocumentMarks-0x1800426F0",
+    "GHIDRA-DocumentMarks-0x180045C70",
+    "GHIDRA-DocumentMarks-0x180243EC0",
+    "GHIDRA-DocumentMarks-0x180243F40",
+    "GHIDRA-DocumentMarks-0x180244A50",
+    "GHIDRA-DocumentMarks-0x180245380",
+    "GHIDRA-DocumentMarks-0x180246C70",
+    "GHIDRA-DocumentMarks-0x180248720",
+    "GHIDRA-DocumentMarks-0x180248D30",
+    "GHIDRA-DocumentMarks-0x180249210"
+  ],
+  "documentos": [
+    "rag/evidence/F-002/ghidra/raw_v240/_probe.txt",
+    "rag/evidence/F-002/ghidra/raw_v240/_names.txt",
+    "rag/evidence/F-002/ghidra/raw_v240/_interior.txt",
+    "rag/evidence/F-002/ghidra/raw_v240/_detail.txt",
+    "rag/evidence/F-002/ghidra/raw_v240/_decompile.txt",
+    "rag/evidence/F-002/ghidra/raw_v240/_decompile_detail.txt",
+    "tools/ghidra_analysis/scripts/F002MarkSetProbe.java",
+    "tools/ghidra_analysis/scripts/F002DetailProbe.java",
+    "tools/ghidra_analysis/gen_f002_evidence.py"
+  ],
+  "comportamental": [
+    "CAP-20261121-03"
+  ],
+  "capturas": [
+    "shot-06-file-probe.png",
+    "shot-07-document-open.png",
+    "menu-1842.png",
+    "menu-1899.png",
+    "shot-08-save-delete-markset.png"
+  ],
+  "bloqueios": [
+    "CAP-20261118-03 nao resolve: nao existe rag/evidence/F-002/behavior/ nem qualquer artefato CAP em docs/behavior/. docs/behavior/MarkSets.md registra BLOQUEIO (2026-11-19): nenhuma captura foi gerada para F-002 e CAP-20261119-03 tambem nao foi emitido. Captura comportamental da v24.03.10017 pendente (GUI unica / dialogo de licenciamento).",
+    "13 IDs historicos aposentados de estatico (nao sao entradas de funcao na v240, prova em rag/evidence/F-002/ghidra/): 0x18001A2C0, 0x18001A2D0, 0x18001A2E0, 0x18001A2F0, 0x18001A300, 0x18001A310, 0x18001A320, 0x18001A330 e 0x18001A350 sao offsets internos de DocumentMarks::BarcodeMark::Accept (0x18001A240); 0x18024D3E0, 0x18024D460, 0x18024E9B0 e 0x180251790 sao exports do layout v25 (equivalentes v240: 0x180243EC0, 0x180243F40, 0x180245380, 0x180248720).",
+    "spec F-002 cita enderecos/helpers que nao existem na v240: ?ReadMarkSetFile em 0x18024e460 (real 0x180248D30), ?ApplyMarkSetToPage em 0x18024d70 (real 0x180014A00), PrepareMarksCache em 0x1454 (real 0x180246C70 e sobrecarga 0x1802475E0). Reapontar a spec pertence ao orquestrador/documentacao.",
+    "ReadMarkSetFile (0x180248D30) nao valida versao do mark set no proprio corpo: kVersionTooOld e kVersionTooNew existem como strings no DocumentMarks.dll v240 mas nao sao referenciadas nessa funcao. O produtor dessas mensagens nao foi localizado nesta passada.",
+    "CAP-BLOCKED-20261121-01 (Mark Set nao localizada) esta SUPERADO por CAP-20261121-03: Mark Set existe na v24.03.10017 em painel Document > Marks > engrenagem (Load Mark Set... / Save/Delete Mark Set...). O arquivo CAP-BLOCKED fica preservado como historico da tentativa."
+  ]
+}

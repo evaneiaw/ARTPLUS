@@ -1,0 +1,34 @@
+address: 180341480
+name: GOVSelectObjects::Select
+signature: bool __thiscall Select(GOObject * param_1)
+body_bytes: 32
+param_count: 2
+
+[callers]
+[callees]
+  1803ceeec MSVCP140.DLL::std::_Xbad_function_call
+[string_refs]
+[pointer_hits_non_exec]
+  .rdata:180514740
+
+[decompiled]
+
+/* private: virtual bool __cdecl GOVSelectObjects::Select(class GOObject & __ptr64) __ptr64 */
+
+bool __thiscall GOVSelectObjects::Select(GOVSelectObjects *this,GOObject *param_1)
+
+{
+  undefined1 uVar1;
+  
+                    /* 0x341480  13447  ?Select@GOVSelectObjects@@EEAA_NAEAVGOObject@@@Z */
+  if (*(longlong **)(this + 0x220) == (longlong *)0x0) {
+                    /* WARNING: Subroutine does not return */
+    std::_Xbad_function_call();
+  }
+                    /* WARNING: Could not recover jumptable at 0x000180341497. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = (**(code **)(**(longlong **)(this + 0x220) + 0x10))();
+  return (bool)uVar1;
+}
+
+

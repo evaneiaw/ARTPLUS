@@ -1,0 +1,104 @@
+program=DocumentMarks.dll exec=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/DocumentMarks.dll
+md5=4d2f2060555b206bd9f374ca69f8a234 imageBase=180000000 language=x86:LE:64:default ghidra=12.2
+decompiled=18001a340 lines=32
+
+===== ADDRESS PROBE =====
+---- 0x18001A2C0 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0x80
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A2D0 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0x90
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A2E0 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xa0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A2F0 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xb0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A300 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xc0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A310 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xd0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A320 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xe0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A330 ----
+isFunctionEntry=false
+containingFunction=18001a240 Accept
+offsetIntoContaining=0xf0
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18001A340 ----
+isFunctionEntry=true
+functionEntry=18001a340
+name=Accept
+namespace=DocumentMarks::DynamicMark
+prototype=void __thiscall Accept(VisitorBase * param_1)
+body=18001a340..18001a3e0
+thunk=false external=false
+callingConvention=__thiscall
+paramCount=2
+stackFrameSize=64
+callers=NONE
+calleeCount=2
+callee=1802ccf7a __RTDynamicCast
+callee=180013750 FUN_180013750
+stringsInBody=
+refTo=1803aac08 DATA
+refTo=18047b170 DATA
+refTo=Entry Point EXTERNAL
+refTo=1802ffb80 DATA
+refsToCount=4
+---- 0x18001A350 ----
+isFunctionEntry=false
+containingFunction=18001a340 Accept
+offsetIntoContaining=0x10
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18024D3E0 ----
+isFunctionEntry=false
+containingFunction=18024d160 readTextBox
+offsetIntoContaining=0x280
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18024D460 ----
+isFunctionEntry=false
+containingFunction=18024d3f0 regenerateMarkImp
+offsetIntoContaining=0x70
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x18024E9B0 ----
+isFunctionEntry=false
+containingFunction=18024e870 SetUseStationInformation
+offsetIntoContaining=0x140
+symbolsAtAddress=NONE
+refsToCount=0
+---- 0x180251790 ----
+isFunctionEntry=false
+containingFunction=180251680 createTextGroup
+offsetIntoContaining=0x110
+symbolsAtAddress=NONE
+refsToCount=0

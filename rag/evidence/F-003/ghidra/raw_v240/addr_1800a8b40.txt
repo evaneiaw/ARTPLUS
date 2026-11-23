@@ -1,0 +1,192 @@
+requested=0x1800a8b40
+resolvedAddress=1800a8b40
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=1800a8b40 SetBearerBarSizeReference
+status=OK
+entry=1800a8b40
+name=SetBearerBarSizeReference
+qualifiedName=DocumentMarks::SetBearerBarSizeReference
+namespace=DocumentMarks
+signature=void SetBearerBarSizeReference(Content * param_1, function<bool___cdecl(DocumentMarks::PDFPlusBearerBar_const&___ptr64)> * param_2, SizeReference param_3)
+returnType=void
+parameterCount=3
+bodyMin=1800a8b40
+bodyMax=1800a8c9f
+bodySize=352
+isThunk=false
+isExternal=false
+callingConvention=__cdecl
+
+[XREFS_TO]
+1803ab760 refType=DATA fromFunction=
+180481c14 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1800a8380 FUN_1800a8380
+1802cbfd0 __security_check_cookie
+180016520 FUN_180016520
+1802cbe68 FUN_1802cbe68
+EXTERNAL:0000027b DOCUMENT.DLL::ArtDoc::Action::GetActionList
+EXTERNAL:0000027a DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+
+[DIRECT_CALL_TARGETS]
+1800a8bcd -> 1802cbe68 FUN_1802cbe68
+1800a8bd9 -> 1800a8c00 DocumentMarks::SetBearerBarSizeReference
+1800a8bf9 -> 1800a8380 FUN_1800a8380
+1800a8bfe -> 1800a8c03 DocumentMarks::SetBearerBarSizeReference
+1800a8c12 -> EXTERNAL:0000027b DOCUMENT.DLL::ArtDoc::Action::GetActionList
+1800a8c2b -> EXTERNAL:0000027a DOCUMENT.DLL::ArtDoc::ActionList::DoAction
+1800a8c39 -> 1800a8c46 DocumentMarks::SetBearerBarSizeReference
+1800a8c4d -> 1800a8c63 DocumentMarks::SetBearerBarSizeReference
+1800a8c5c -> 180016520 FUN_180016520
+1800a8c6a -> 1800a8c7c DocumentMarks::SetBearerBarSizeReference
+1800a8c79 -> 180016520 FUN_180016520
+1800a8c83 -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+1800a8b40 -> Stack[0x18] block=? sym=
+1800a8b45 -> Stack[0x20] block=? sym=
+1800a8b4e -> Stack[-0x5f] block=? sym=
+1800a8b5a -> 180409ec0 block=.data sym=DAT_180409ec0
+1800a8b64 -> Stack[-0x28] block=? sym=
+1800a8b74 -> 18012e780 block=.text sym=DocumentMarks::PDFPlusBearerBar::GetSizeReference
+1800a8b7b -> 18012e780 block=.text sym=DocumentMarks::PDFPlusBearerBar::GetSizeReference
+1800a8b7b -> Stack[-0xb8] block=? sym=
+1800a8b7f -> Stack[-0xb0] block=? sym=
+1800a8b83 -> 180303c08 block=.rdata sym=std::_Func_impl_no_alloc<enum_DocumentMarks::PDFPlusBearerBar::SizeReference_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference,DocumentMarks::PDFPlusBearerBar_const&___ptr64>::vftable
+1800a8b8a -> 180303c08 block=.rdata sym=std::_Func_impl_no_alloc<enum_DocumentMarks::PDFPlusBearerBar::SizeReference_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference,DocumentMarks::PDFPlusBearerBar_const&___ptr64>::vftable
+1800a8b8a -> Stack[-0x68] block=? sym=
+1800a8b8e -> Stack[-0xb8] block=? sym=
+1800a8b92 -> Stack[-0x60] block=? sym=
+1800a8b96 -> Stack[-0x68] block=? sym=
+1800a8b9a -> Stack[-0x30] block=? sym=
+1800a8b9e -> 18012e7c0 block=.text sym=DocumentMarks::PDFPlusBearerBar::SetSizeReference
+1800a8ba5 -> 18012e7c0 block=.text sym=DocumentMarks::PDFPlusBearerBar::SetSizeReference
+1800a8ba5 -> Stack[-0xb8] block=? sym=
+1800a8ba9 -> Stack[-0xb0] block=? sym=
+1800a8bad -> 180303bd0 block=.rdata sym=std::_Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(DocumentMarks::PDFPlusBearerBar::SizeReference)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference_const&___ptr64>::vftable
+1800a8bb4 -> 180303bd0 block=.rdata sym=std::_Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(DocumentMarks::PDFPlusBearerBar::SizeReference)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference_const&___ptr64>::vftable
+1800a8bb4 -> Stack[-0xa8] block=? sym=
+1800a8bb8 -> Stack[-0xb8] block=? sym=
+1800a8bbc -> Stack[-0xa0] block=? sym=
+1800a8bc0 -> Stack[-0xa8] block=? sym=
+1800a8bc4 -> Stack[-0x70] block=? sym=
+1800a8bd2 -> Stack[-0xc0] block=? sym=
+1800a8bdb -> Stack[-0x68] block=? sym=
+1800a8bdf -> Stack[-0xd0] block=? sym=
+1800a8be4 -> Stack[-0xa8] block=? sym=
+1800a8be8 -> Stack[-0xd8] block=? sym=
+1800a8c03 -> Stack[-0xc8] block=? sym=
+1800a8c07 -> Stack[-0xc8] block=? sym=
+1800a8c0b -> Stack[-0xb8] block=? sym=
+1800a8c12 -> 1802f1fb0 block=.rdata sym=PTR_GetActionList_1802f1fb0
+1800a8c18 -> Stack[-0xc8] block=? sym=
+1800a8c1c -> Stack[-0xc8] block=? sym=
+1800a8c20 -> Stack[-0xc0] block=? sym=
+1800a8c24 -> Stack[-0xc0] block=? sym=
+1800a8c2b -> 1802f1fa8 block=.rdata sym=PTR_DoAction_1802f1fa8
+1800a8c32 -> Stack[-0xc8] block=? sym=
+1800a8c46 -> Stack[-0x70] block=? sym=
+1800a8c4f -> Stack[-0xa8] block=? sym=
+1800a8c52 -> Stack[-0xa8] block=? sym=
+1800a8c5c -> 180303bf0 block=.rdata sym=vftable[4]
+1800a8c5f -> Stack[-0x70] block=? sym=
+1800a8c63 -> Stack[-0x30] block=? sym=
+1800a8c6c -> Stack[-0x68] block=? sym=
+1800a8c6f -> Stack[-0x68] block=? sym=
+1800a8c79 -> 180303c28 block=.rdata sym=vftable[4]
+1800a8c7c -> Stack[-0x28] block=? sym=
+1800a8c88 -> Stack[-0x20] block=? sym=
+1800a8c90 -> Stack[0x10] block=? sym=
+1800a8c94 -> Stack[0x18] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* void __cdecl DocumentMarks::SetBearerBarSizeReference(class ArtDoc::Content & __ptr64,class
+   std::function<bool __cdecl(class DocumentMarks::PDFPlusBearerBar const & __ptr64)> const &
+   __ptr64,enum DocumentMarks::PDFPlusBearerBar::SizeReference) */
+
+void __cdecl
+DocumentMarks::SetBearerBarSizeReference
+          (Content *param_1,
+          function<bool___cdecl(DocumentMarks::PDFPlusBearerBar_const&___ptr64)> *param_2,
+          SizeReference param_3)
+
+{
+  ActionList *pAVar1;
+  undefined1 auStack_f8 [32];
+  undefined ***local_d8;
+  undefined ***local_d0;
+  Action *local_c8;
+  Action *local_c0;
+  Action **local_b8;
+  undefined4 uStack_b0;
+  uint uStack_ac;
+  undefined **local_a8;
+  undefined4 local_a0;
+  undefined4 uStack_9c;
+  undefined4 uStack_98;
+  undefined ***local_70;
+  undefined **local_68;
+  code *local_60;
+  longlong lStack_58;
+  undefined ***local_30;
+  ulonglong local_28;
+  
+                    /* 0xa8b40  1475
+                       ?SetBearerBarSizeReference@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusBearerBar@DocumentMarks@@@Z@std@@W4SizeReference@PDFPlusBearerBar@1@@Z
+                        */
+  local_28 = DAT_180409ec0 ^ (ulonglong)auStack_f8;
+  local_68 = std::
+             _Func_impl_no_alloc<enum_DocumentMarks::PDFPlusBearerBar::SizeReference_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(void)const___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference,DocumentMarks::PDFPlusBearerBar_const&___ptr64>
+             ::vftable;
+  lStack_58 = (ulonglong)uStack_ac << 0x20;
+  local_60 = PDFPlusBearerBar::GetSizeReference;
+  local_30 = &local_68;
+  local_b8 = (Action **)PDFPlusBearerBar::SetSizeReference;
+  uStack_b0 = 0;
+  local_a8 = std::
+             _Func_impl_no_alloc<void_(__cdecl_DocumentMarks::PDFPlusBearerBar::*)(DocumentMarks::PDFPlusBearerBar::SizeReference)___ptr64,void,DocumentMarks::PDFPlusBearerBar&___ptr64,DocumentMarks::PDFPlusBearerBar::SizeReference_const&___ptr64>
+             ::vftable;
+  local_a0 = 0x8012e7c0;
+  uStack_9c = 1;
+  uStack_98 = 0;
+  local_70 = &local_a8;
+  local_c0 = (Action *)FUN_1802cbe68(0x100);
+  if (local_c0 == (Action *)0x0) {
+    local_c8 = (Action *)0x0;
+  }
+  else {
+    local_d0 = &local_68;
+    local_d8 = &local_a8;
+    local_c8 = (Action *)FUN_1800a8380(local_c0,param_1,param_2,param_3);
+  }
+  local_b8 = &local_c8;
+  pAVar1 = ArtDoc::Action::GetActionList(local_c8);
+  local_c0 = local_c8;
+  local_c8 = (Action *)0x0;
+  ArtDoc::ActionList::DoAction(pAVar1,&local_c0);
+  if (local_c8 != (Action *)0x0) {
+    (*(code *)**(undefined8 **)local_c8)(local_c8,1);
+  }
+  if (local_70 != (undefined ***)0x0) {
+    (*(code *)(*local_70)[4])
+              (local_70,CONCAT71((int7)((ulonglong)&local_a8 >> 8),local_70 != &local_a8));
+    local_70 = (undefined ***)0x0;
+  }
+  if (local_30 != (undefined ***)0x0) {
+    (*(code *)(*local_30)[4])
+              (local_30,CONCAT71((int7)((ulonglong)&local_68 >> 8),local_30 != &local_68));
+  }
+  return;
+}
+
+

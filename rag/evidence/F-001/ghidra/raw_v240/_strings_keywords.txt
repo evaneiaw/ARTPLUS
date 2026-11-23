@@ -1,0 +1,26 @@
+1802e8f80	string	invalid string position
+1802ea318	string	GTS_PDFXVersion
+1802eb6a8	string	Orientation: 
+1802ebd00	string	Horizontal scaling: 
+1802ec1b0	string	, vertical wmode
+1802f0e78	string	Core.NormPDFMediaBox
+1802f2bf8	string	Orientation
+1802f2fa8	string	GTS_PDFX
+1802f48c0	string	Positions
+1802f5858	string	OffsetLithography
+1802f6ab8	string	offset
+18038f84b	TerminatedCString	??6ArtDoc@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV12@W4PageOrientation@0@@Z
+180390716	TerminatedCString	??DArtDoc@@YA?AV?$DimensionBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4PageOrientation@0@AEBV12@@Z
+18039077d	TerminatedCString	??DArtDoc@@YA?AV?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4PageOrientation@0@AEBV12@@Z
+1803907e0	TerminatedCString	??DArtDoc@@YA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4PageOrientation@0@AEBV12@@Z
+1803a5152	TerminatedCString	?GetHorizontalScaling@Text@ArtDoc@@QEBANXZ
+1803a5a1c	TerminatedCString	?GetLayerPositionForInsertingAfter@ArtDoc@@YA?AV?$vector@_KV?$allocator@_K@std@@@std@@AEBVLayerConfiguration@1@AEBVContent@1@AEBV?$shared_ptr@VLayerProperties@ArtDoc@@@3@@Z
+1803a5ac9	TerminatedCString	?GetLayerPositionForInsertingBefore@ArtDoc@@YA?AV?$vector@_KV?$allocator@_K@std@@@std@@AEBVLayerConfiguration@1@AEBVContent@1@AEBV?$shared_ptr@VLayerProperties@ArtDoc@@@3@@Z
+1803a5b77	TerminatedCString	?GetLayerPositions@ArtDoc@@YA?AV?$vector@V?$vector@_KV?$allocator@_K@std@@@std@@V?$allocator@V?$vector@_KV?$allocator@_K@std@@@std@@@2@@std@@AEBVLayerConfiguration@1@AEBV?$shared_ptr@VLayerProperties@ArtDoc@@@3@@Z
+1803a7cc5	TerminatedCString	?GetOrientation@Page@ArtDoc@@QEBA?AW4PageOrientation@2@XZ
+1803b917a	TerminatedCString	?SetHorizontalScaling@Text@ArtDoc@@QEAAXN@Z
+1803ba0aa	TerminatedCString	?SetOrientation@Page@ArtDoc@@QEAAXW4PageOrientation@2@@Z
+1803d1e34	TerminatedCString	?SetHorizontalScale@GOTextBase@@QEAAXN@Z
+1803d1f4c	TerminatedCString	?GetHorizontalScale@GOTextBase@@QEBANXZ
+1803dfedc	TerminatedCString	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+#hits=25

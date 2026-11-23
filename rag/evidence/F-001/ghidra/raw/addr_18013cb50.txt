@@ -1,0 +1,197 @@
+requested=0x18013cb50
+resolvedAddress=18013cb50
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18013cb50 GetReferenceBox
+status=OK
+entry=18013cb50
+name=GetReferenceBox
+qualifiedName=DocumentMarks::PDFPlusCutMark::GetReferenceBox
+namespace=DocumentMarks::PDFPlusCutMark
+signature=RectangleBase<YAGL::MilliPointCoordinateSystem> GetReferenceBox(PDFPlusCutMark * this)
+returnType=RectangleBase<YAGL::MilliPointCoordinateSystem>
+parameterCount=1
+bodyMin=18013cb50
+bodyMax=18013ccd1
+bodySize=386
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803b92c4 refType=DATA fromFunction=
+180498e70 refType=DATA fromFunction=
+1803917c4 refType=DATA fromFunction=
+1803917d4 refType=DATA fromFunction=
+1803917e8 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18013ffe4 refType=UNCONDITIONAL_CALL fromFunction=18013ee90 regenerateMarkImp
+
+[CALLERS]
+18013ee90 DocumentMarks::PDFPlusCutMark::regenerateMarkImp
+
+[CALLEES]
+18012d9d0 DocumentMarks::GetPDFPlusBoundingBox
+EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:00000279 DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+180025a80 FUN_180025a80
+EXTERNAL:00000229 DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+EXTERNAL:0000023c DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+
+[DIRECT_CALL_TARGETS]
+18013cb68 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18013cb73 -> 18013cb8d DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cb88 -> 18013ccb5 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cb9f -> 18013cc9a DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cbac -> 18013cc9a DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cbb8 -> 18013cc19 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cbbd -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18013cbda -> 1802d7d5a VCRUNTIME140.DLL::__RTDynamicCast
+18013cbe2 -> 18013cc9a DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cbeb -> EXTERNAL:0000023c DOCUMENT.DLL::ArtDoc::PageContent::GetPage
+18013cbf6 -> EXTERNAL:00000229 DOCUMENT.DLL::ArtDoc::Page::GetPageBox
+18013cc14 -> 18013ccad DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cc1b -> 18013cccd DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cc27 -> EXTERNAL:0000025b DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18013cc33 -> EXTERNAL:00000279 DOCUMENT.DLL::ArtDoc::Content::GetObjectWithID
+18013cc3c -> 18013cc9a DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cc47 -> 18012d9d0 DocumentMarks::GetPDFPlusBoundingBox
+18013cc59 -> 18013cc80 DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cc7b -> 18013cbfc DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cc95 -> 18013cbfc DocumentMarks::PDFPlusCutMark::GetReferenceBox
+18013cccd -> 180025a80 FUN_180025a80
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18013cb50 -> Stack[0x10] block=? sym=
+18013cb55 -> Stack[0x18] block=? sym=
+18013cb68 -> 1802fbe30 block=.rdata sym=PTR_GetContent_1802fbe30
+18013cb8d -> Stack[0x8] block=? sym=
+18013cbbd -> 1802fbe30 block=.rdata sym=PTR_GetContent_1802fbe30
+18013cbc3 -> 180421a98 block=.data sym=ArtDoc::PageContent::RTTI_Type_Descriptor
+18013cbca -> Stack[-0x78] block=? sym=
+18013cbd1 -> 180421a70 block=.data sym=ArtDoc::Content::RTTI_Type_Descriptor
+18013cbeb -> 1802fbd38 block=.rdata sym=PTR_GetPage_1802fbd38
+18013cbf6 -> 1802fbca0 block=.rdata sym=PTR_GetPageBox_1802fbca0
+18013cbfc -> Stack[-0x68] block=? sym=
+18013cc02 -> Stack[-0x58] block=? sym=
+18013cc0a -> Stack[-0x48] block=? sym=
+18013cc27 -> 1802fbe30 block=.rdata sym=PTR_GetContent_1802fbe30
+18013cc33 -> 1802fbf20 block=.rdata sym=PTR_GetObjectWithID_1802fbf20
+18013cc42 -> Stack[-0x40] block=? sym=
+18013cc4c -> Stack[-0x68] block=? sym=
+18013cc51 -> Stack[-0x18] block=? sym=
+18013cc5b -> Stack[-0x40] block=? sym=
+18013cc60 -> Stack[-0x30] block=? sym=
+18013cc65 -> Stack[-0x68] block=? sym=
+18013cc6a -> Stack[-0x20] block=? sym=
+18013cc70 -> Stack[-0x48] block=? sym=
+18013cc76 -> Stack[-0x58] block=? sym=
+18013cc83 -> Stack[-0x48] block=? sym=
+18013cc8b -> Stack[-0x68] block=? sym=
+18013cc90 -> Stack[-0x58] block=? sym=
+18013ccad -> Stack[0x8] block=? sym=
+18013ccb5 -> Stack[-0x8] block=? sym=
+18013ccc0 -> Stack[0x10] block=? sym=
+18013ccc4 -> Stack[0x18] block=? sym=
+
+[DECOMPILE]
+
+/* private: class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> __cdecl
+   DocumentMarks::PDFPlusCutMark::GetReferenceBox(void)const __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusCutMark::GetReferenceBox(PDFPlusCutMark *this)
+
+{
+  PDFPlusCutMark *pPVar1;
+  undefined8 uVar2;
+  Content *pCVar3;
+  PageContent *this_00;
+  Page *this_01;
+  RectangleBase<YAGL::MilliPointCoordinateSystem> *pRVar4;
+  ContentObject *pCVar5;
+  undefined8 *in_RDX;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  undefined8 local_58;
+  undefined8 uStack_50;
+  undefined8 local_48;
+  undefined8 local_40;
+  undefined8 uStack_38;
+  undefined8 local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  char local_18;
+  
+                    /* 0x13cb50  1260
+                       ?GetReferenceBox@PDFPlusCutMark@DocumentMarks@@AEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+                        */
+  pCVar3 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+  if (pCVar3 == (Content *)0x0) {
+    *in_RDX = 0;
+    in_RDX[1] = 0;
+    in_RDX[2] = 0;
+    in_RDX[3] = 0;
+    *(undefined1 *)(in_RDX + 4) = 1;
+    return;
+  }
+  pPVar1 = this + 0x708;
+  if ((pPVar1 == (PDFPlusCutMark *)0x0) || (this[0x788] != (PDFPlusCutMark)0x0)) {
+LAB_18013cc9a:
+    *in_RDX = 0;
+    in_RDX[1] = 0;
+    in_RDX[2] = 0;
+    in_RDX[3] = 0;
+    *(undefined1 *)(in_RDX + 4) = 1;
+  }
+  else {
+    if (this[0x780] == (PDFPlusCutMark)0x0) {
+      pCVar3 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+      this_00 = (PageContent *)
+                __RTDynamicCast(pCVar3,0,&ArtDoc::Content::RTTI_Type_Descriptor,
+                                &ArtDoc::PageContent::RTTI_Type_Descriptor,0);
+      if (this_00 == (PageContent *)0x0) goto LAB_18013cc9a;
+      this_01 = ArtDoc::PageContent::GetPage(this_00);
+      pRVar4 = ArtDoc::Page::GetPageBox(this_01,*(PageBox *)pPVar1);
+    }
+    else {
+      if (this[0x780] != (PDFPlusCutMark)0x1) {
+                    /* WARNING: Subroutine does not return */
+        FUN_180025a80();
+      }
+      uVar2 = *(undefined8 *)pPVar1;
+      pCVar3 = ArtDoc::ContentObject::GetContent((ContentObject *)this);
+      pCVar5 = ArtDoc::Content::GetObjectWithID(pCVar3,uVar2);
+      if (pCVar5 == (ContentObject *)0x0) goto LAB_18013cc9a;
+      GetPDFPlusBoundingBox((Visitable *)&local_40);
+      pRVar4 = (RectangleBase<YAGL::MilliPointCoordinateSystem> *)&local_68;
+      if (local_18 == '\0') {
+        local_48 = CONCAT71(local_48._1_7_,1);
+        local_68 = 0;
+        uStack_60 = 0;
+        local_58 = 0;
+        uStack_50 = 0;
+      }
+      else {
+        local_68 = local_40;
+        uStack_60 = uStack_38;
+        local_48 = local_20;
+        local_58 = local_30;
+        uStack_50 = uStack_28;
+      }
+    }
+    uVar2 = *(undefined8 *)(pRVar4 + 8);
+    *in_RDX = *(undefined8 *)pRVar4;
+    in_RDX[1] = uVar2;
+    uVar2 = *(undefined8 *)(pRVar4 + 0x18);
+    in_RDX[2] = *(undefined8 *)(pRVar4 + 0x10);
+    in_RDX[3] = uVar2;
+    in_RDX[4] = *(undefined8 *)(pRVar4 + 0x20);
+  }
+  return;
+}
+
+

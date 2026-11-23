@@ -1,0 +1,9 @@
+program=Document.dll
+executablePath=/C:/Esko/bg_prog_artpro+_v240/ArtPro+.app/Contents/Windows/Document.dll
+executableSHA256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+executableMD5=22fd92f4e1bfc14456d342ee715479ef
+imageBase=180000000
+language=x86:LE:64:default
+compiler=windows
+functionCount=12793
+targetAddressArgs=0x1800fae70

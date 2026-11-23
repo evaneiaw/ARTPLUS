@@ -1,0 +1,1014 @@
+requested=0x180170540
+resolvedAddress=180170540
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180170540 FUN_180170540
+status=OK
+entry=180170540
+name=FUN_180170540
+qualifiedName=FUN_180170540
+namespace=Global
+signature=undefined FUN_180170540()
+returnType=undefined
+parameterCount=0
+bodyMin=180170540
+bodyMax=1801710bd
+bodySize=2933
+isThunk=false
+isExternal=false
+callingConvention=unknown
+
+[XREFS_TO]
+180488520 refType=DATA fromFunction=
+180170180 refType=UNCONDITIONAL_CALL fromFunction=1801700b0 FUN_1801700b0
+18017023b refType=UNCONDITIONAL_CALL fromFunction=1801700b0 FUN_1801700b0
+
+[CALLERS]
+1801700b0 FUN_1801700b0
+
+[CALLEES]
+EXTERNAL:0000041e PDFACCESSLAYER.DLL::GADict::GetBool
+18017d930 FUN_18017d930
+EXTERNAL:000003a7 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+18006c1a0 FUN_18006c1a0
+EXTERNAL:0000041b PDFACCESSLAYER.DLL::GABool::Get
+EXTERNAL:00000424 PDFACCESSLAYER.DLL::GAObject::IsString
+1800bcfe0 FUN_1800bcfe0
+1800203f0 FUN_1800203f0
+EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+EXTERNAL:00000431 PDFACCESSLAYER.DLL::GANumber::Cast
+180163bb0 FUN_180163bb0
+EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+18000f510 FUN_18000f510
+EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+EXTERNAL:00000428 PDFACCESSLAYER.DLL::GAString::~GAString
+18003c5b0 FUN_18003c5b0
+18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180014170 FUN_180014170
+EXTERNAL:00000408 PDFACCESSLAYER.DLL::GADict::Cast
+18003d920 FUN_18003d920
+1802cbfd0 __security_check_cookie
+EXTERNAL:00000411 PDFACCESSLAYER.DLL::GAString::Cast
+180016fb0 FUN_180016fb0
+18003ace0 FUN_18003ace0
+EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+EXTERNAL:00000422 PDFACCESSLAYER.DLL::GAObject::IsDict
+1802ccf86 VCRUNTIME140.DLL::memmove
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180163b70 FUN_180163b70
+18017d990 FID_conflict:sprintf_s
+180048fd0 FUN_180048fd0
+EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+EXTERNAL:00000425 PDFACCESSLAYER.DLL::GAObject::IsNull
+EXTERNAL:0000041a PDFACCESSLAYER.DLL::GABool::~GABool
+18001f0e0 FUN_18001f0e0
+
+[DIRECT_CALL_TARGETS]
+180170594 -> EXTERNAL:000003f7 PDFACCESSLAYER.DLL::GADict::Get
+1801705a0 -> EXTERNAL:00000425 PDFACCESSLAYER.DLL::GAObject::IsNull
+1801705a8 -> 1801705b3 FUN_180170540
+1801705ae -> 180171074 FUN_180170540
+1801705b8 -> EXTERNAL:00000422 PDFACCESSLAYER.DLL::GAObject::IsDict
+1801705c0 -> 180170eb1 FUN_180170540
+1801705d0 -> EXTERNAL:00000408 PDFACCESSLAYER.DLL::GADict::Cast
+1801705e3 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801705f8 -> EXTERNAL:000003f8 PDFACCESSLAYER.DLL::GADict::GetNumber
+180170602 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180170614 -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180170621 -> 1801706b8 FUN_180170540
+180170627 -> 1801706b8 FUN_180170540
+180170634 -> 18000f510 FUN_18000f510
+180170644 -> 180163bb0 FUN_180163bb0
+180170652 -> 1801706a8 FUN_180170540
+180170658 -> 1801706a8 FUN_180170540
+180170662 -> 180170698 FUN_180170540
+180170675 -> 180170693 FUN_180170540
+18017068a -> 180170693 FUN_180170540
+18017068c -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170693 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1801706ad -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+1801706b3 -> 180171074 FUN_180170540
+1801706c4 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+1801706d9 -> EXTERNAL:0000041e PDFACCESSLAYER.DLL::GADict::GetBool
+1801706e3 -> EXTERNAL:0000041b PDFACCESSLAYER.DLL::GABool::Get
+1801706f2 -> EXTERNAL:0000041a PDFACCESSLAYER.DLL::GABool::~GABool
+180170704 -> EXTERNAL:00000472 BASICFRAMEWORKCORELAYER.DLL::GName::GName
+180170719 -> EXTERNAL:0000041e PDFACCESSLAYER.DLL::GADict::GetBool
+180170723 -> EXTERNAL:0000041b PDFACCESSLAYER.DLL::GABool::Get
+180170732 -> EXTERNAL:0000041a PDFACCESSLAYER.DLL::GABool::~GABool
+180170747 -> 18017d930 FUN_18017d930
+180170759 -> 18003d920 FUN_18003d920
+18017077f -> 18017d990 FID_conflict:sprintf_s
+180170797 -> 1801707d0 FUN_180170540
+1801707c1 -> 1802ccf86 VCRUNTIME140.DLL::memmove
+1801707ce -> 1801707f4 FUN_180170540
+1801707ef -> 18003c5b0 FUN_18003c5b0
+18017081a -> 180170850 FUN_180170540
+18017082d -> 18017084b FUN_180170540
+180170842 -> 18017084b FUN_180170540
+180170844 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18017084b -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170863 -> 180170d4f FUN_180170540
+18017087d -> 180170b85 FUN_180170540
+180170887 -> 1801710b9 FUN_180170540
+180170895 -> 18017089a FUN_180170540
+1801708c0 -> 1800203f0 FUN_1800203f0
+1801708dc -> 180170904 FUN_180170540
+180170902 -> 180170924 FUN_180170540
+18017091f -> 18003c5b0 FUN_18003c5b0
+180170967 -> 180048fd0 FUN_180048fd0
+1801709aa -> 180048fd0 FUN_180048fd0
+1801709f2 -> 180048fd0 FUN_180048fd0
+180170a20 -> 180163bb0 FUN_180163bb0
+180170a2e -> 180170a42 FUN_180170540
+180170a34 -> 180170a42 FUN_180170540
+180170a3c -> 180014170 FUN_180014170
+180170a4a -> 180170a80 FUN_180170540
+180170a5d -> 180170a7b FUN_180170540
+180170a72 -> 180170a7b FUN_180170540
+180170a74 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170a7b -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170a98 -> 180170ace FUN_180170540
+180170aab -> 180170ac9 FUN_180170540
+180170ac0 -> 180170ac9 FUN_180170540
+180170ac2 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170ac9 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170ae6 -> 180170b1c FUN_180170540
+180170af9 -> 180170b17 FUN_180170540
+180170b0e -> 180170b17 FUN_180170540
+180170b10 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170b17 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170b30 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170b3e -> 180170b75 FUN_180170540
+180170b51 -> 180170b6f FUN_180170540
+180170b66 -> 180170b6f FUN_180170540
+180170b68 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170b6f -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170b7a -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+180170b80 -> 180171074 FUN_180170540
+180170b89 -> 1801710b3 FUN_180170540
+180170b97 -> 180170b9c FUN_180170540
+180170bc2 -> 1800203f0 FUN_1800203f0
+180170bd9 -> 180048fd0 FUN_180048fd0
+180170c21 -> 180048fd0 FUN_180048fd0
+180170c64 -> 180048fd0 FUN_180048fd0
+180170cac -> 180048fd0 FUN_180048fd0
+180170cf4 -> 180163bb0 FUN_180163bb0
+180170cfe -> 18006c1a0 FUN_18006c1a0
+180170d07 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d11 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d1b -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d25 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d2f -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d39 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170d44 -> EXTERNAL:0000042d PDFACCESSLAYER.DLL::GADict::~GADict
+180170d4a -> 180171074 FUN_180170540
+180170d59 -> 180170e08 FUN_180170540
+180170d66 -> 18001f0e0 FUN_18001f0e0
+180170d7a -> 18003ace0 FUN_18003ace0
+180170d8b -> 1800bcfe0 FUN_1800bcfe0
+180170d9f -> 18003ace0 FUN_18003ace0
+180170db0 -> 1800bcfe0 FUN_1800bcfe0
+180170dbd -> 180163b70 FUN_180163b70
+180170dc8 -> 180163bb0 FUN_180163bb0
+180170dd2 -> 18006c1a0 FUN_18006c1a0
+180170ddb -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170de5 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170def -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170df9 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170e03 -> 180170d2f FUN_180170540
+180170e0f -> 18001f0e0 FUN_18001f0e0
+180170e23 -> 18003ace0 FUN_18003ace0
+180170e34 -> 1800bcfe0 FUN_1800bcfe0
+180170e48 -> 18003ace0 FUN_18003ace0
+180170e59 -> 1800bcfe0 FUN_1800bcfe0
+180170e66 -> 180163b70 FUN_180163b70
+180170e71 -> 180163bb0 FUN_180163bb0
+180170e7b -> 18006c1a0 FUN_18006c1a0
+180170e84 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170e8e -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170e98 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170ea2 -> 18000ef90 DocumentMarks::SNRGridInfo::~SNRGridInfo
+180170eac -> 180170d2f FUN_180170540
+180170eb6 -> EXTERNAL:00000424 PDFACCESSLAYER.DLL::GAObject::IsString
+180170ec8 -> 180170fd8 FUN_180170540
+180170ece -> EXTERNAL:00000411 PDFACCESSLAYER.DLL::GAString::Cast
+180170edf -> EXTERNAL:000003a7 DOCUMENT.DLL::ArtDocGlue::PDFConverters::UTF8String
+180170f1d -> 180163bb0 FUN_180163bb0
+180170f2b -> 180170f7a FUN_180170540
+180170f31 -> 180170f7a FUN_180170540
+180170f3b -> 180170f6a FUN_180170540
+180170f4e -> 180170f65 FUN_180170540
+180170f63 -> 180170fac FUN_180170540
+180170f65 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170f82 -> 180170fb8 FUN_180170540
+180170f95 -> 180170fb3 FUN_180170540
+180170faa -> 180170fb3 FUN_180170540
+180170fac -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180170fb3 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180170fcd -> EXTERNAL:00000428 PDFACCESSLAYER.DLL::GAString::~GAString
+180170fd3 -> 180171074 FUN_180170540
+180170fd8 -> EXTERNAL:00000431 PDFACCESSLAYER.DLL::GANumber::Cast
+180170fe2 -> EXTERNAL:00000415 PDFACCESSLAYER.DLL::GANumber::Get
+180171004 -> 180163bb0 FUN_180163bb0
+180171012 -> 180171068 FUN_180170540
+180171018 -> 180171068 FUN_180170540
+180171022 -> 180171058 FUN_180170540
+180171035 -> 180171053 FUN_180170540
+18017104a -> 180171053 FUN_180170540
+18017104c -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180171053 -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18017106d -> EXTERNAL:0000042f PDFACCESSLAYER.DLL::GANumber::~GANumber
+180171079 -> EXTERNAL:000003f9 PDFACCESSLAYER.DLL::GAObject::~GAObject
+18017108c -> 1802cbfd0 __security_check_cookie
+1801710b3 -> 180016fb0 FUN_180016fb0
+1801710b9 -> 180016fb0 FUN_180016fb0
+
+[STRINGS_REFERENCED]
+18031a7b0 "CellSize"
+18031a7c0 "EvenMultiple"
+18031a7d0 "Overflow"
+18031ab48 "EVEN( "
+18031ab50 ", 2 ) * "
+18031ab60 "FLOOR( "
+18031ab68 "ODD( "
+18031ab70 ") - 1, 2) + 1 ) * "
+18031ab88 "(FLOOR(( "
+
+[DATA_XREFS_FROM_BODY]
+18017054d -> Stack[-0xe8] block=? sym=
+18017055b -> Stack[-0x48] block=? sym=
+18017055f -> Stack[-0x58] block=? sym=
+180170563 -> 180409ec0 block=.data sym=DAT_180409ec0
+18017056d -> Stack[-0x68] block=? sym=
+18017057d -> Stack[-0x198] block=? sym=
+180170582 -> Stack[0x28] block=? sym=
+18017058c -> Stack[-0x1a0] block=? sym=
+180170594 -> 1802f36b0 block=.rdata sym=PTR_Get_1802f36b0
+18017059b -> Stack[-0x1a0] block=? sym=
+1801705a0 -> 1802f3820 block=.rdata sym=PTR_IsNull_1802f3820
+1801705b3 -> Stack[-0x1a0] block=? sym=
+1801705b8 -> 1802f3808 block=.rdata sym=PTR_IsDict_1802f3808
+1801705c6 -> Stack[-0x1a0] block=? sym=
+1801705cb -> Stack[-0x190] block=? sym=
+1801705d0 -> 1802f3738 block=.rdata sym=PTR_Cast_1802f3738
+1801705d7 -> 18031a7b0 block=.rdata sym=s_CellSize_18031a7b0
+1801705de -> Stack[-0x188] block=? sym=
+1801705e3 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801705e9 -> Stack[-0x188] block=? sym=
+1801705ee -> Stack[-0x198] block=? sym=
+1801705f3 -> Stack[-0x190] block=? sym=
+1801705f8 -> 1802f36b8 block=.rdata sym=PTR_GetNumber_1802f36b8
+180170602 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+18017060f -> Stack[-0x198] block=? sym=
+180170614 -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180170630 -> Stack[-0x150] block=? sym=
+180170639 -> Stack[-0x130] block=? sym=
+18017063d -> Stack[-0x150] block=? sym=
+180170649 -> Stack[-0x130] block=? sym=
+18017065a -> Stack[-0x138] block=? sym=
+180170667 -> Stack[-0x150] block=? sym=
+18017068c -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170698 -> Stack[-0x140] block=? sym=
+18017069c -> Stack[-0x138] block=? sym=
+1801706a4 -> Stack[-0x150] block=? sym=
+1801706a8 -> Stack[-0x190] block=? sym=
+1801706ad -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+1801706b8 -> 18031a7c0 block=.rdata sym=s_EvenMultiple_18031a7c0
+1801706bf -> Stack[-0x198] block=? sym=
+1801706c4 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+1801706ca -> Stack[-0x198] block=? sym=
+1801706cf -> Stack[-0x188] block=? sym=
+1801706d4 -> Stack[-0x190] block=? sym=
+1801706d9 -> 1802f37e8 block=.rdata sym=PTR_GetBool_1802f37e8
+1801706e3 -> 1802f37d0 block=.rdata sym=PTR_Get_1802f37d0
+1801706ed -> Stack[-0x188] block=? sym=
+1801706f2 -> 1802f37c8 block=.rdata sym=PTR_~GABool_1802f37c8
+1801706f8 -> 18031a7d0 block=.rdata sym=s_Overflow_18031a7d0
+1801706ff -> Stack[-0x198] block=? sym=
+180170704 -> 1802f1220 block=.rdata sym=PTR_GName_1802f1220
+18017070a -> Stack[-0x198] block=? sym=
+18017070f -> Stack[-0x188] block=? sym=
+180170714 -> Stack[-0x190] block=? sym=
+180170719 -> 1802f37e8 block=.rdata sym=PTR_GetBool_1802f37e8
+180170723 -> 1802f37d0 block=.rdata sym=PTR_Get_1802f37d0
+18017072d -> Stack[-0x188] block=? sym=
+180170732 -> 1802f37c8 block=.rdata sym=PTR_~GABool_1802f37c8
+180170740 -> 18031a084 block=.rdata sym=DAT_18031a084
+180170755 -> Stack[-0x88] block=? sym=
+18017075e -> Stack[-0x88] block=? sym=
+180170762 -> Stack[-0x70] block=? sym=
+180170767 -> Stack[-0x88] block=? sym=
+180170778 -> 18031a084 block=.rdata sym=DAT_18031a084
+180170785 -> Stack[-0x78] block=? sym=
+180170789 -> Stack[-0x70] block=? sym=
+18017079d -> Stack[-0x78] block=? sym=
+1801707a1 -> Stack[-0x88] block=? sym=
+1801707a9 -> Stack[-0x88] block=? sym=
+1801707b7 -> 18031ab3c block=.rdata sym=DAT_18031ab3c
+1801707ca -> Stack[-0x88] block=? sym=
+1801707d0 -> Stack[-0x1c8] block=? sym=
+1801707d9 -> 18031ab3c block=.rdata sym=DAT_18031ab3c
+1801707e0 -> Stack[-0x1a8] block=? sym=
+1801707eb -> Stack[-0x88] block=? sym=
+1801707f4 -> Stack[-0x88] block=? sym=
+1801707f7 -> Stack[-0x128] block=? sym=
+1801707fb -> Stack[-0x78] block=? sym=
+1801707ff -> Stack[-0x118] block=? sym=
+180170803 -> Stack[-0x78] block=? sym=
+180170807 -> Stack[-0x70] block=? sym=
+18017080f -> Stack[-0x88] block=? sym=
+180170812 -> Stack[-0x70] block=? sym=
+18017081f -> Stack[-0x88] block=? sym=
+180170844 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170850 -> Stack[-0x78] block=? sym=
+180170854 -> Stack[-0x70] block=? sym=
+18017085c -> Stack[-0x88] block=? sym=
+18017089a -> Stack[-0x1b8] block=? sym=
+18017089f -> Stack[-0x1c0] block=? sym=
+1801708a4 -> Stack[-0x1c8] block=? sym=
+1801708ad -> 18031ab48 block=.rdata sym=s_EVEN(_18031ab48
+1801708b7 -> Stack[-0x1a8] block=? sym=
+1801708bc -> Stack[-0x108] block=? sym=
+1801708c6 -> Stack[-0xf8] block=? sym=
+1801708ca -> Stack[-0xf0] block=? sym=
+1801708d4 -> Stack[-0x108] block=? sym=
+1801708e2 -> Stack[-0xf8] block=? sym=
+1801708ea -> Stack[-0x108] block=? sym=
+1801708ef -> 18030f1d8 block=.rdata sym=DAT_18030f1d8
+1801708fe -> Stack[-0x108] block=? sym=
+180170904 -> Stack[-0x1c8] block=? sym=
+18017090d -> 18030f1d8 block=.rdata sym=DAT_18030f1d8
+180170914 -> Stack[-0x1a8] block=? sym=
+180170927 -> Stack[-0xc8] block=? sym=
+18017092b -> Stack[-0xb8] block=? sym=
+18017092f -> Stack[-0xb0] block=? sym=
+180170933 -> Stack[-0x108] block=? sym=
+180170936 -> Stack[-0xc8] block=? sym=
+18017093a -> Stack[-0xf8] block=? sym=
+18017093e -> Stack[-0xb8] block=? sym=
+180170942 -> Stack[-0xf8] block=? sym=
+180170946 -> Stack[-0xf0] block=? sym=
+18017094e -> Stack[-0x108] block=? sym=
+180170951 -> Stack[-0x128] block=? sym=
+180170955 -> Stack[-0x110] block=? sym=
+18017095a -> Stack[-0x128] block=? sym=
+18017095f -> Stack[-0x118] block=? sym=
+180170963 -> Stack[-0xc8] block=? sym=
+18017096f -> Stack[-0xe8] block=? sym=
+180170973 -> Stack[-0xd8] block=? sym=
+180170977 -> Stack[-0xd0] block=? sym=
+18017097e -> Stack[-0xe8] block=? sym=
+180170986 -> Stack[-0xd8] block=? sym=
+18017099f -> 18031ab40 block=.rdata sym=DAT_18031ab40
+1801709a6 -> Stack[-0xe8] block=? sym=
+1801709b2 -> Stack[-0xa8] block=? sym=
+1801709b6 -> Stack[-0x98] block=? sym=
+1801709ba -> Stack[-0x90] block=? sym=
+1801709c1 -> Stack[-0xa8] block=? sym=
+1801709c9 -> Stack[-0x98] block=? sym=
+1801709dc -> Stack[-0x128] block=? sym=
+1801709e0 -> Stack[-0x110] block=? sym=
+1801709e5 -> Stack[-0x128] block=? sym=
+1801709ea -> Stack[-0x118] block=? sym=
+1801709ee -> Stack[-0xa8] block=? sym=
+180170a0d -> Stack[-0x150] block=? sym=
+180170a11 -> Stack[-0x140] block=? sym=
+180170a15 -> Stack[-0x130] block=? sym=
+180170a19 -> Stack[-0x150] block=? sym=
+180170a25 -> Stack[-0x130] block=? sym=
+180170a38 -> Stack[-0x150] block=? sym=
+180170a42 -> Stack[-0x90] block=? sym=
+180170a4f -> Stack[-0xa8] block=? sym=
+180170a74 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170a80 -> Stack[-0x98] block=? sym=
+180170a84 -> Stack[-0x90] block=? sym=
+180170a8c -> Stack[-0xa8] block=? sym=
+180170a90 -> Stack[-0xd0] block=? sym=
+180170a9d -> Stack[-0xe8] block=? sym=
+180170ac2 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170ace -> Stack[-0xd8] block=? sym=
+180170ad2 -> Stack[-0xd0] block=? sym=
+180170ada -> Stack[-0xe8] block=? sym=
+180170ade -> Stack[-0xb0] block=? sym=
+180170aeb -> Stack[-0xc8] block=? sym=
+180170b10 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170b1c -> Stack[-0xb8] block=? sym=
+180170b20 -> Stack[-0xb0] block=? sym=
+180170b28 -> Stack[-0xc8] block=? sym=
+180170b2c -> Stack[-0x108] block=? sym=
+180170b36 -> Stack[-0x110] block=? sym=
+180170b43 -> Stack[-0x128] block=? sym=
+180170b68 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170b75 -> Stack[-0x190] block=? sym=
+180170b7a -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+180170b9c -> Stack[-0x1b8] block=? sym=
+180170ba1 -> Stack[-0x1c0] block=? sym=
+180170ba6 -> Stack[-0x1c8] block=? sym=
+180170baf -> 18031ab60 block=.rdata sym=s_FLOOR(_18031ab60
+180170bb9 -> Stack[-0x1a8] block=? sym=
+180170bbe -> Stack[-0x150] block=? sym=
+180170bce -> 18030f1d8 block=.rdata sym=DAT_18030f1d8
+180170bd5 -> Stack[-0x150] block=? sym=
+180170be1 -> Stack[-0xe8] block=? sym=
+180170be5 -> Stack[-0xd8] block=? sym=
+180170be9 -> Stack[-0xd0] block=? sym=
+180170bf0 -> Stack[-0xe8] block=? sym=
+180170bf8 -> Stack[-0xd8] block=? sym=
+180170c0b -> Stack[-0x128] block=? sym=
+180170c0f -> Stack[-0x110] block=? sym=
+180170c14 -> Stack[-0x128] block=? sym=
+180170c19 -> Stack[-0x118] block=? sym=
+180170c1d -> Stack[-0xe8] block=? sym=
+180170c29 -> Stack[-0xc8] block=? sym=
+180170c2d -> Stack[-0xb8] block=? sym=
+180170c31 -> Stack[-0xb0] block=? sym=
+180170c38 -> Stack[-0xc8] block=? sym=
+180170c40 -> Stack[-0xb8] block=? sym=
+180170c59 -> 18031ab50 block=.rdata sym=s_,_2_)_*_18031ab50
+180170c60 -> Stack[-0xc8] block=? sym=
+180170c6c -> Stack[-0x108] block=? sym=
+180170c70 -> Stack[-0xf8] block=? sym=
+180170c74 -> Stack[-0xf0] block=? sym=
+180170c7b -> Stack[-0x108] block=? sym=
+180170c83 -> Stack[-0xf8] block=? sym=
+180170c96 -> Stack[-0x128] block=? sym=
+180170c9a -> Stack[-0x110] block=? sym=
+180170c9f -> Stack[-0x128] block=? sym=
+180170ca4 -> Stack[-0x118] block=? sym=
+180170ca8 -> Stack[-0x108] block=? sym=
+180170cb4 -> Stack[-0xa8] block=? sym=
+180170cbc -> Stack[-0x98] block=? sym=
+180170ccf -> Stack[-0x178] block=? sym=
+180170cd4 -> Stack[-0x168] block=? sym=
+180170cd8 -> Stack[-0x98] block=? sym=
+180170cdc -> Stack[-0x90] block=? sym=
+180170ce4 -> Stack[-0xa8] block=? sym=
+180170ce8 -> Stack[-0x158] block=? sym=
+180170cec -> Stack[-0x178] block=? sym=
+180170cf9 -> Stack[-0x178] block=? sym=
+180170d03 -> Stack[-0xa8] block=? sym=
+180170d0d -> Stack[-0x108] block=? sym=
+180170d17 -> Stack[-0xc8] block=? sym=
+180170d21 -> Stack[-0xe8] block=? sym=
+180170d2b -> Stack[-0x150] block=? sym=
+180170d35 -> Stack[-0x128] block=? sym=
+180170d3f -> Stack[-0x190] block=? sym=
+180170d44 -> 1802f3860 block=.rdata sym=PTR_~GADict_1802f3860
+180170d52 -> Stack[-0xa8] block=? sym=
+180170d5f -> 18031ab68 block=.rdata sym=s_ODD(_18031ab68
+180170d6c -> 18030f1d8 block=.rdata sym=DAT_18030f1d8
+180170d76 -> Stack[-0xe8] block=? sym=
+180170d80 -> Stack[-0x128] block=? sym=
+180170d87 -> Stack[-0xc8] block=? sym=
+180170d91 -> 18031ab40 block=.rdata sym=DAT_18031ab40
+180170d9b -> Stack[-0x108] block=? sym=
+180170da5 -> Stack[-0x128] block=? sym=
+180170dac -> Stack[-0x150] block=? sym=
+180170db8 -> Stack[-0x178] block=? sym=
+180170dcd -> Stack[-0x178] block=? sym=
+180170dd7 -> Stack[-0x150] block=? sym=
+180170de1 -> Stack[-0x108] block=? sym=
+180170deb -> Stack[-0xc8] block=? sym=
+180170df5 -> Stack[-0xe8] block=? sym=
+180170dff -> Stack[-0xa8] block=? sym=
+180170e08 -> 18031ab88 block=.rdata sym=s_(FLOOR((_18031ab88
+180170e15 -> 18031ab84 block=.rdata sym=DAT_18031ab84
+180170e1f -> Stack[-0xe8] block=? sym=
+180170e29 -> Stack[-0x128] block=? sym=
+180170e30 -> Stack[-0xc8] block=? sym=
+180170e3a -> 18031ab70 block=.rdata sym=s_)_-_1,_2)_+_1_)_*_18031ab70
+180170e44 -> Stack[-0x108] block=? sym=
+180170e4e -> Stack[-0x128] block=? sym=
+180170e55 -> Stack[-0x150] block=? sym=
+180170e61 -> Stack[-0x178] block=? sym=
+180170e76 -> Stack[-0x178] block=? sym=
+180170e80 -> Stack[-0x150] block=? sym=
+180170e8a -> Stack[-0x108] block=? sym=
+180170e94 -> Stack[-0xc8] block=? sym=
+180170e9e -> Stack[-0xe8] block=? sym=
+180170ea8 -> Stack[-0xa8] block=? sym=
+180170eb1 -> Stack[-0x1a0] block=? sym=
+180170eb6 -> 1802f3818 block=.rdata sym=PTR_IsString_1802f3818
+180170ebc -> Stack[-0x1a0] block=? sym=
+180170ec1 -> Stack[-0x198] block=? sym=
+180170ece -> 1802f3780 block=.rdata sym=PTR_Cast_1802f3780
+180170edb -> Stack[-0x108] block=? sym=
+180170edf -> 1802f2910 block=.rdata sym=PTR_UTF8String_1802f2910
+180170ee8 -> Stack[-0x150] block=? sym=
+180170eec -> Stack[-0x140] block=? sym=
+180170ef0 -> Stack[-0x138] block=? sym=
+180170ef7 -> Stack[-0x150] block=? sym=
+180170eff -> Stack[-0x140] block=? sym=
+180170f12 -> Stack[-0x130] block=? sym=
+180170f16 -> Stack[-0x150] block=? sym=
+180170f22 -> Stack[-0x130] block=? sym=
+180170f33 -> Stack[-0x138] block=? sym=
+180170f40 -> Stack[-0x150] block=? sym=
+180170f6a -> Stack[-0x140] block=? sym=
+180170f6e -> Stack[-0x138] block=? sym=
+180170f76 -> Stack[-0x150] block=? sym=
+180170f7a -> Stack[-0xf0] block=? sym=
+180170f87 -> Stack[-0x108] block=? sym=
+180170fac -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180170fb8 -> Stack[-0xf8] block=? sym=
+180170fbc -> Stack[-0xf0] block=? sym=
+180170fc4 -> Stack[-0x108] block=? sym=
+180170fc8 -> Stack[-0x198] block=? sym=
+180170fcd -> 1802f3838 block=.rdata sym=PTR_~GAString_1802f3838
+180170fd8 -> 1802f3880 block=.rdata sym=PTR_Cast_1802f3880
+180170fe2 -> 1802f37a0 block=.rdata sym=PTR_Get_1802f37a0
+180170fec -> 1802fb5c8 block=.rdata sym=DAT_1802fb5c8
+180170ff4 -> Stack[-0x148] block=? sym=
+180170ff9 -> Stack[-0x130] block=? sym=
+180170ffd -> Stack[-0x150] block=? sym=
+180171009 -> Stack[-0x130] block=? sym=
+18017101a -> Stack[-0x138] block=? sym=
+180171027 -> Stack[-0x150] block=? sym=
+18017104c -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+180171058 -> Stack[-0x140] block=? sym=
+18017105c -> Stack[-0x138] block=? sym=
+180171064 -> Stack[-0x150] block=? sym=
+180171068 -> Stack[-0x198] block=? sym=
+18017106d -> 1802f3870 block=.rdata sym=PTR_~GANumber_1802f3870
+180171074 -> Stack[-0x1a0] block=? sym=
+180171079 -> 1802f36c0 block=.rdata sym=PTR_~GAObject_1802f36c0
+180171082 -> Stack[-0x68] block=? sym=
+180171091 -> Stack[-0x50] block=? sym=
+180171099 -> Stack[-0x60] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+longlong FUN_180170540(longlong param_1,GADict *param_2,undefined8 param_3,double param_4,
+                      undefined8 *param_5)
+
+{
+  double dVar1;
+  void *pvVar2;
+  ulonglong uVar3;
+  bool bVar4;
+  bool bVar5;
+  int iVar6;
+  GANumber *pGVar7;
+  GABool *pGVar8;
+  undefined8 ****ppppuVar9;
+  undefined8 *puVar10;
+  ulonglong *puVar11;
+  longlong *plVar12;
+  undefined8 uVar13;
+  wchar_t *_Dst;
+  undefined8 ***_Memory;
+  SNRGridInfo *this;
+  undefined4 *puVar14;
+  void *pvVar15;
+  undefined4 uVar16;
+  undefined1 auStack_1e8 [32];
+  undefined8 local_1c8;
+  undefined8 *local_1c0;
+  longlong local_1b8;
+  undefined1 local_1a8;
+  GName local_1a0 [8];
+  longlong local_198;
+  GAObject local_190 [8];
+  GName local_188 [16];
+  undefined4 local_178;
+  undefined4 uStack_174;
+  undefined4 uStack_170;
+  undefined4 uStack_16c;
+  undefined4 local_168;
+  undefined4 uStack_164;
+  undefined4 uStack_160;
+  undefined4 uStack_15c;
+  undefined1 local_158;
+  void *local_150;
+  double dStack_148;
+  undefined8 local_140;
+  ulonglong uStack_138;
+  char local_130;
+  undefined4 local_128;
+  undefined4 uStack_124;
+  undefined4 uStack_120;
+  undefined4 uStack_11c;
+  undefined8 local_118;
+  ulonglong uStack_110;
+  undefined8 ****local_108;
+  longlong lStack_100;
+  ulonglong local_f8;
+  ulonglong uStack_f0;
+  void *local_e8;
+  ulonglong uStack_e0;
+  ulonglong local_d8;
+  ulonglong uStack_d0;
+  undefined8 ***local_c8;
+  undefined8 ***pppuStack_c0;
+  undefined8 ***local_b8;
+  undefined8 ***pppuStack_b0;
+  void *local_a8;
+  ulonglong uStack_a0;
+  undefined8 local_98;
+  ulonglong uStack_90;
+  undefined8 local_88 [2];
+  longlong local_78;
+  ulonglong uStack_70;
+  ulonglong local_68;
+  
+  local_68 = DAT_180409ec0 ^ (ulonglong)auStack_1e8;
+  local_198 = param_1;
+  GADict::Get(param_2,local_1a0);
+  bVar4 = GAObject::IsNull((GAObject *)local_1a0);
+  if (bVar4) {
+    *(undefined1 *)(param_1 + 0x28) = 0;
+  }
+  else {
+    bVar4 = GAObject::IsDict((GAObject *)local_1a0);
+    if (bVar4) {
+      GADict::Cast(local_190);
+      GName::GName(local_188,"CellSize");
+      pGVar7 = (GANumber *)GADict::GetNumber((GADict *)local_190,(GName *)&local_198);
+      dVar1 = GANumber::Get(pGVar7);
+      uVar16 = SUB84(dVar1 * param_4,0);
+      GANumber::~GANumber((GANumber *)&local_198);
+      if (dVar1 * param_4 == 0.0) {
+        FUN_18000f510(&local_150,param_5);
+        local_130 = '\x01';
+        FUN_180163bb0(param_1,&local_150);
+        if ((local_130 != -1) && (local_130 != '\0')) {
+          if (0xf < uStack_138) {
+            pvVar15 = local_150;
+            if ((0xfff < uStack_138 + 1) &&
+               (pvVar15 = *(void **)((longlong)local_150 + -8),
+               0x1f < (ulonglong)((longlong)local_150 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+              _invalid_parameter_noinfo_noreturn();
+            }
+            free(pvVar15);
+          }
+          local_140 = 0;
+          uStack_138 = 0xf;
+          local_150 = (void *)((ulonglong)local_150 & 0xffffffffffffff00);
+        }
+        GADict::~GADict((GADict *)local_190);
+      }
+      else {
+        GName::GName((GName *)&local_198,"EvenMultiple");
+        pGVar8 = (GABool *)GADict::GetBool((GADict *)local_190,local_188);
+        bVar4 = GABool::Get(pGVar8);
+        GABool::~GABool((GABool *)local_188);
+        GName::GName((GName *)&local_198,"Overflow");
+        pGVar8 = (GABool *)GADict::GetBool((GADict *)local_190,local_188);
+        bVar5 = GABool::Get(pGVar8);
+        GABool::~GABool((GABool *)local_188);
+        iVar6 = FUN_18017d930(&DAT_18031a084,uVar16);
+        FUN_18003d920(local_88,(longlong)iVar6,0);
+        _Dst = (wchar_t *)local_88;
+        if (0xf < uStack_70) {
+          _Dst = (wchar_t *)CONCAT71(local_88[0]._1_7_,(undefined1)local_88[0]);
+        }
+        FID_conflict_sprintf_s(_Dst,(longlong)iVar6 + 1,L"春",uVar16);
+        if (uStack_70 - local_78 < 3) {
+          local_1c8 = 3;
+          puVar10 = (undefined8 *)FUN_18003c5b0(local_88,3,local_1a8,&DAT_18031ab3c);
+        }
+        else {
+          puVar10 = local_88;
+          if (0xf < uStack_70) {
+            puVar10 = (undefined8 *)CONCAT71(local_88[0]._1_7_,(undefined1)local_88[0]);
+          }
+          pvVar15 = (void *)((longlong)puVar10 + local_78);
+          local_78 = local_78 + 3;
+          memmove(pvVar15,&DAT_18031ab3c,3);
+          *(undefined1 *)((longlong)pvVar15 + 3) = 0;
+          puVar10 = local_88;
+        }
+        local_128 = *(undefined4 *)puVar10;
+        uStack_124 = *(undefined4 *)((longlong)puVar10 + 4);
+        uStack_120 = *(undefined4 *)(puVar10 + 1);
+        uStack_11c = *(undefined4 *)((longlong)puVar10 + 0xc);
+        local_118 = puVar10[2];
+        uStack_110 = puVar10[3];
+        puVar10[2] = 0;
+        puVar10[3] = 0xf;
+        *(undefined1 *)puVar10 = 0;
+        if (0xf < uStack_70) {
+          pvVar2 = (void *)CONCAT71(local_88[0]._1_7_,(undefined1)local_88[0]);
+          pvVar15 = pvVar2;
+          if ((0xfff < uStack_70 + 1) &&
+             (pvVar15 = *(void **)((longlong)pvVar2 + -8),
+             0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar15);
+        }
+        local_78 = 0;
+        uStack_70 = 0xf;
+        local_88[0]._0_1_ = 0;
+        if (bVar4) {
+          local_1b8 = param_5[2];
+          local_1c0 = param_5;
+          if (bVar5) {
+            if (0x7fffffffffffffffU - local_1b8 < 6) {
+                    /* WARNING: Subroutine does not return */
+              FUN_180016fb0();
+            }
+            if (0xf < (ulonglong)param_5[3]) {
+              local_1c0 = (undefined8 *)*param_5;
+            }
+            local_1c8 = 6;
+            FUN_1800203f0(&local_108,local_1a8,param_5,"EVEN( ");
+            uVar3 = local_f8;
+            if (uStack_f0 == local_f8) {
+              local_1c8 = 1;
+              ppppuVar9 = (undefined8 ****)FUN_18003c5b0(&local_108,1,local_1a8,&DAT_18030f1d8);
+            }
+            else {
+              local_f8 = local_f8 + 1;
+              ppppuVar9 = &local_108;
+              if (0xf < uStack_f0) {
+                ppppuVar9 = local_108;
+              }
+              *(char *)((longlong)ppppuVar9 + uVar3) = (char)DAT_18030f1d8;
+              *(undefined1 *)((longlong)ppppuVar9 + uVar3 + 1) = 0;
+              ppppuVar9 = &local_108;
+            }
+            local_c8 = (undefined8 ***)0x0;
+            pppuStack_c0 = (undefined8 ***)0x0;
+            local_b8 = (undefined8 ***)0x0;
+            pppuStack_b0 = (undefined8 ***)0x0;
+            local_c8 = *ppppuVar9;
+            pppuStack_c0 = ppppuVar9[1];
+            local_b8 = ppppuVar9[2];
+            pppuStack_b0 = ppppuVar9[3];
+            ppppuVar9[2] = (undefined8 ***)0x0;
+            ppppuVar9[3] = (undefined8 ***)0xf;
+            *(undefined1 *)ppppuVar9 = 0;
+            puVar14 = &local_128;
+            if (0xf < uStack_110) {
+              puVar14 = (undefined4 *)CONCAT44(uStack_124,local_128);
+            }
+            puVar10 = (undefined8 *)FUN_180048fd0(&local_c8,puVar14,local_118);
+            local_e8 = (void *)*puVar10;
+            uStack_e0 = puVar10[1];
+            local_d8 = puVar10[2];
+            uStack_d0 = puVar10[3];
+            puVar10[2] = 0;
+            puVar10[3] = 0xf;
+            *(undefined1 *)puVar10 = 0;
+            puVar10 = (undefined8 *)FUN_180048fd0((SNRGridInfo *)&local_e8,&DAT_18031ab40,4);
+            local_a8 = (void *)*puVar10;
+            uStack_a0 = puVar10[1];
+            local_98 = puVar10[2];
+            uStack_90 = puVar10[3];
+            puVar10[2] = 0;
+            puVar10[3] = 0xf;
+            *(undefined1 *)puVar10 = 0;
+            puVar14 = &local_128;
+            if (0xf < uStack_110) {
+              puVar14 = (undefined4 *)CONCAT44(uStack_124,local_128);
+            }
+            puVar10 = (undefined8 *)FUN_180048fd0(&local_a8,puVar14,local_118);
+            local_150 = (void *)*puVar10;
+            dStack_148 = (double)puVar10[1];
+            local_140 = puVar10[2];
+            uStack_138 = puVar10[3];
+            puVar10[2] = 0;
+            puVar10[3] = 0xf;
+            *(undefined1 *)puVar10 = 0;
+            local_130 = '\x01';
+            FUN_180163bb0(param_1,&local_150);
+            if ((local_130 != -1) && (local_130 != '\0')) {
+              FUN_180014170(&local_150,0);
+            }
+            if (0xf < uStack_90) {
+              pvVar15 = local_a8;
+              if ((0xfff < uStack_90 + 1) &&
+                 (pvVar15 = *(void **)((longlong)local_a8 + -8),
+                 0x1f < (ulonglong)((longlong)local_a8 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              free(pvVar15);
+            }
+            local_98 = 0;
+            uStack_90 = 0xf;
+            local_a8 = (void *)((ulonglong)local_a8 & 0xffffffffffffff00);
+            if (0xf < uStack_d0) {
+              pvVar15 = local_e8;
+              if ((0xfff < uStack_d0 + 1) &&
+                 (pvVar15 = *(void **)((longlong)local_e8 + -8),
+                 0x1f < (ulonglong)((longlong)local_e8 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              free(pvVar15);
+            }
+            local_d8 = 0;
+            uStack_d0 = 0xf;
+            local_e8 = (void *)((ulonglong)local_e8 & 0xffffffffffffff00);
+            if ((undefined8 ***)0xf < pppuStack_b0) {
+              _Memory = local_c8;
+              if ((0xfff < (longlong)pppuStack_b0 + 1U) &&
+                 (_Memory = (undefined8 ***)local_c8[-1],
+                 0x1f < (ulonglong)((longlong)local_c8 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              free(_Memory);
+            }
+            local_b8 = (undefined8 ***)0x0;
+            pppuStack_b0 = (undefined8 ***)0xf;
+            local_c8 = (undefined8 ***)((ulonglong)local_c8 & 0xffffffffffffff00);
+            DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_108);
+            if (0xf < uStack_110) {
+              pvVar2 = (void *)CONCAT44(uStack_124,local_128);
+              pvVar15 = pvVar2;
+              if ((0xfff < uStack_110 + 1) &&
+                 (pvVar15 = *(void **)((longlong)pvVar2 + -8),
+                 0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+                _invalid_parameter_noinfo_noreturn();
+              }
+              free(pvVar15);
+            }
+            GADict::~GADict((GADict *)local_190);
+            goto LAB_180171074;
+          }
+          if (0x7fffffffffffffffU - local_1b8 < 7) {
+                    /* WARNING: Subroutine does not return */
+            FUN_180016fb0();
+          }
+          if (0xf < (ulonglong)param_5[3]) {
+            local_1c0 = (undefined8 *)*param_5;
+          }
+          local_1c8 = 7;
+          FUN_1800203f0(&local_150,local_1a8,param_5,"FLOOR( ");
+          puVar11 = (ulonglong *)FUN_180048fd0(&local_150,&DAT_18030f1d8,1);
+          local_e8 = (void *)*puVar11;
+          uStack_e0 = puVar11[1];
+          local_d8 = puVar11[2];
+          uStack_d0 = puVar11[3];
+          puVar11[2] = 0;
+          puVar11[3] = 0xf;
+          *(undefined1 *)puVar11 = 0;
+          puVar14 = &local_128;
+          if (0xf < uStack_110) {
+            puVar14 = (undefined4 *)CONCAT44(uStack_124,local_128);
+          }
+          puVar11 = (ulonglong *)FUN_180048fd0((SNRGridInfo *)&local_e8,puVar14,local_118);
+          local_c8 = (undefined8 ***)*puVar11;
+          pppuStack_c0 = (undefined8 ***)puVar11[1];
+          local_b8 = (undefined8 ***)puVar11[2];
+          pppuStack_b0 = (undefined8 ***)puVar11[3];
+          puVar11[2] = 0;
+          puVar11[3] = 0xf;
+          *(undefined1 *)puVar11 = 0;
+          plVar12 = (longlong *)FUN_180048fd0(&local_c8,", 2 ) * ",8);
+          local_108 = (undefined8 ****)*plVar12;
+          lStack_100 = plVar12[1];
+          local_f8 = plVar12[2];
+          uStack_f0 = plVar12[3];
+          plVar12[2] = 0;
+          plVar12[3] = 0xf;
+          *(undefined1 *)plVar12 = 0;
+          puVar14 = &local_128;
+          if (0xf < uStack_110) {
+            puVar14 = (undefined4 *)CONCAT44(uStack_124,local_128);
+          }
+          puVar11 = (ulonglong *)FUN_180048fd0(&local_108,puVar14,local_118);
+          local_178 = (undefined4)*puVar11;
+          uStack_174 = *(undefined4 *)((longlong)puVar11 + 4);
+          uVar3 = *puVar11;
+          uStack_170 = (undefined4)puVar11[1];
+          uStack_16c = *(undefined4 *)((longlong)puVar11 + 0xc);
+          uStack_a0 = puVar11[1];
+          local_168 = (undefined4)puVar11[2];
+          uStack_164 = *(undefined4 *)((longlong)puVar11 + 0x14);
+          uStack_160 = (undefined4)puVar11[3];
+          uStack_15c = *(undefined4 *)((longlong)puVar11 + 0x1c);
+          puVar11[2] = 0;
+          puVar11[3] = 0xf;
+          *(undefined1 *)puVar11 = 0;
+          local_98 = 0;
+          uStack_90 = 0xf;
+          local_a8 = (void *)(uVar3 & 0xffffffffffffff00);
+          local_158 = 1;
+          FUN_180163bb0(param_1,&local_178);
+          FUN_18006c1a0(&local_178);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_a8);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_108);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_c8);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_e8);
+          this = (SNRGridInfo *)&local_150;
+        }
+        else if (bVar5) {
+          uVar13 = FUN_18001f0e0(&local_a8,"ODD( ",param_5);
+          uVar13 = FUN_18003ace0((SNRGridInfo *)&local_e8,uVar13,&DAT_18030f1d8);
+          uVar13 = FUN_1800bcfe0(&local_c8,uVar13,&local_128);
+          uVar13 = FUN_18003ace0(&local_108,uVar13,&DAT_18031ab40);
+          uVar13 = FUN_1800bcfe0(&local_150,uVar13,&local_128);
+          uVar13 = FUN_180163b70(&local_178,uVar13);
+          FUN_180163bb0(param_1,uVar13);
+          FUN_18006c1a0(&local_178);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_150);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_108);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_c8);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_e8);
+          this = (SNRGridInfo *)&local_a8;
+        }
+        else {
+          uVar13 = FUN_18001f0e0(&local_a8,"(FLOOR(( ",param_5);
+          uVar13 = FUN_18003ace0((SNRGridInfo *)&local_e8,uVar13,&DAT_18031ab84);
+          uVar13 = FUN_1800bcfe0(&local_c8,uVar13,&local_128);
+          uVar13 = FUN_18003ace0(&local_108,uVar13,") - 1, 2) + 1 ) * ");
+          uVar13 = FUN_1800bcfe0(&local_150,uVar13,&local_128);
+          uVar13 = FUN_180163b70(&local_178,uVar13);
+          FUN_180163bb0(param_1,uVar13);
+          FUN_18006c1a0(&local_178);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_150);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_108);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_c8);
+          DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_e8);
+          this = (SNRGridInfo *)&local_a8;
+        }
+        DocumentMarks::SNRGridInfo::~SNRGridInfo(this);
+        DocumentMarks::SNRGridInfo::~SNRGridInfo((SNRGridInfo *)&local_128);
+        GADict::~GADict((GADict *)local_190);
+      }
+      goto LAB_180171074;
+    }
+    bVar4 = GAObject::IsString((GAObject *)local_1a0);
+    if (!bVar4) {
+      pGVar7 = (GANumber *)GANumber::Cast((GAObject *)&local_198);
+      dVar1 = GANumber::Get(pGVar7);
+      dStack_148 = dVar1 * param_4 * DAT_1802fb5c8;
+      local_130 = '\0';
+      FUN_180163bb0(param_1,&local_150);
+      if ((local_130 != -1) && (local_130 != '\0')) {
+        if (0xf < uStack_138) {
+          pvVar15 = local_150;
+          if ((0xfff < uStack_138 + 1) &&
+             (pvVar15 = *(void **)((longlong)local_150 + -8),
+             0x1f < (ulonglong)((longlong)local_150 + (-8 - (longlong)pvVar15)))) {
+                    /* WARNING: Subroutine does not return */
+            _invalid_parameter_noinfo_noreturn();
+          }
+          free(pvVar15);
+        }
+        local_140 = 0;
+        uStack_138 = 0xf;
+        local_150 = (void *)((ulonglong)local_150 & 0xffffffffffffff00);
+      }
+      GANumber::~GANumber((GANumber *)&local_198);
+      goto LAB_180171074;
+    }
+    bVar4 = (bool)GAString::Cast((GAObject *)&local_198);
+    puVar10 = (undefined8 *)ArtDocGlue::PDFConverters::UTF8String((GAString *)&local_108,bVar4);
+    local_150 = (void *)*puVar10;
+    dStack_148 = (double)puVar10[1];
+    local_140 = puVar10[2];
+    uStack_138 = puVar10[3];
+    puVar10[2] = 0;
+    puVar10[3] = 0xf;
+    *(undefined1 *)puVar10 = 0;
+    local_130 = '\x01';
+    FUN_180163bb0(param_1,&local_150);
+    if ((local_130 != -1) && (local_130 != '\0')) {
+      if (0xf < uStack_138) {
+        pvVar15 = local_150;
+        if ((0xfff < uStack_138 + 1) &&
+           (pvVar15 = *(void **)((longlong)local_150 + -8),
+           0x1f < (ulonglong)((longlong)local_150 + (-8 - (longlong)pvVar15)))) goto LAB_180170fac;
+        free(pvVar15);
+      }
+      local_140 = 0;
+      uStack_138 = 0xf;
+      local_150 = (void *)((ulonglong)local_150 & 0xffffffffffffff00);
+    }
+    if (0xf < uStack_f0) {
+      ppppuVar9 = local_108;
+      if ((0xfff < uStack_f0 + 1) &&
+         (ppppuVar9 = (undefined8 ****)local_108[-1],
+         0x1f < (ulonglong)((longlong)local_108 + (-8 - (longlong)ppppuVar9)))) {
+LAB_180170fac:
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(ppppuVar9);
+    }
+    local_f8 = 0;
+    uStack_f0 = 0xf;
+    local_108 = (undefined8 ****)((ulonglong)local_108 & 0xffffffffffffff00);
+    GAString::~GAString((GAString *)&local_198);
+  }
+LAB_180171074:
+  GAObject::~GAObject((GAObject *)local_1a0);
+  return param_1;
+}
+
+

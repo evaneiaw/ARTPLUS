@@ -1,0 +1,453 @@
+180304e70	string	AIDynamicMarks-BarcodeMark
+180305060	string	invalid string position
+180305370	string	AIDynamicMarks-BearerBar
+180305498	string	, offset=
+180307620	string	Media Box
+180307630	string	Crop Box
+180307640	string	Bleed Box
+180307650	string	Trim Box
+180307660	string	Art Box
+180308240	string	AIDynamicMarks-CornerMark
+180308270	string	 Corner Mark update at \n
+180308550	string	AIDynamicMarks-CustomMark
+180308dd0	string	AIDynamicMarks-CutMark
+180308de8	string	CutMark
+180308df0	string	 Cut Mark update at \n
+1803093f0	string	DFE: Media Box
+180309408	string	DFE: Trim Box
+18030a9f0	string	AIDynamicMarks-NDLTextMark
+18030aa20	string	AIDynamicMarks-NDLTextOnPathMark
+18030aa58	string	AIDynamicMarks-NDLTextAreaMark
+18030cac8	string	position
+18030cba0	string	offset_x
+18030cbb0	string	offset_y
+18030cbc0	string	offset_x_relative
+18030cbd8	string	offset_y_relative
+18030cbf0	string	offset_x_variable
+18030cc08	string	offset_y_variable
+18030dd88	string	DynamicObject_OffsetX
+18030dda0	string	DynamicObject_OffsetY
+18030f390	string	DashOffset
+180312af0	string	Position
+180312b40	string	DynamicObject_PDFPlusCutMark
+180312cb0	string	DynamicObject_PDFPlusPosition
+180315520	string	NDLTaskMessages.DocumentMarksAction.kOffsetFormulaBlocksTransform
+180315568	string	NDLTaskMessages.DocumentMarksAction.kOffsetFormulaWasRemoved
+180315600	string	NDLTaskMessages.DocumentMarksAction.kInvalidObjectBasedOffsetFormulaRemoved
+1803156f0	string	NDLTaskMessages.DocumentMarksAction.kOffsetFormulaRemoved_ObjectNameEmpty
+1803163f8	string	NDLTaskMessages.VDPRules.OutsideTrimBox
+180316950	string	Text was changed. Min horizontal scale: '
+180317d08	string	NDLTaskMessages.DocumentMarks.kMarkHasInvalidOffsetFormula
+180317d50	string	NDLTaskMessages.DocumentMarks.kMarkHasUnresolvableOffsetFormula
+180317e58	string	NDLTaskMessages.DocumentMarks.kMarkHasInvalidStepOffsetFormula
+180319e30	string	AIDynamicMarks-GradationStrip
+180319e98	string	Error: cannot obtain horizontal info for Gradation Mark 
+18031a018	string	Warning: Gradation Mark is set to horizontal but is vertical
+18031a058	string	Warning: Gradation Mark is set to vertical but is horizontal
+18031a400	string	AIDynamicMarks-GridMark
+18031b068	string	AIDynamicMarks-ImageMark
+18031b990	string	Offset
+18031cfa8	string	horizontal
+18031cfb8	string	vertical
+18031d118	string	[horizontal]
+18031d128	string	[vertical]
+18031d138	string	Horizontal Scale Factor
+18031d150	string	Vertical Scale Factor
+18031ebd0	string	MediaBox
+18031ebe0	string	TrimBox
+18031ebe8	string	BleedBox
+18031ebf8	string	CropBox
+18031ec00	string	ArtBox
+18031ec38	string	Offset
+18031ec60	string	Position parameters
+18031ec78	string	$mediabox$
+18031ec88	string	$cropbox$
+18031eca8	string	$trimbox$
+18031ecb8	string	$artbox$
+18031ecf0	string	MarkPosition(
+18031ed00	string	MediaBox
+18031ed10	string	CropBox
+18031ed18	string	BleedBox
+18031ed28	string	TrimBox
+18031ed30	string	ArtBox
+18031ed60	string	, OffsetY=
+18031ed70	string	, OffsetX=
+18031f4d8	string	AIDynamicMarks-WhiteUnderprint
+1803214d8	string	Output: Horizontal Distortion
+180321508	string	Output: Vertical Distortion
+180321538	string	Output: Horizontal Scale
+180321568	string	Output: Vertical Scale
+180323180	string	PDFPlusCutMark_OriginalReferenceName
+180323368	string	PDFPlusCutMark_Offset
+180326980	string	DocumentMarks_RepeatForGridMark_Position
+1803269b0	string	DocumentMarks_RepeatForGridMark_Repetition
+180326a08	string	DocumentMarks_CutMark_ReferenceID
+180326e58	string	Position
+180326e88	string	AllStructuralDesignStations
+180327020	string	VerticalReference
+180327038	string	HorizontalReference
+180327098	string	Repetition
+1803270f8	string	Repetition
+180327108	string	Repetition
+180327130	string	Orientation
+180327140	string	Horizontal
+180327150	string	Vertical
+180327160	string	LineTypes
+1803271c8	string	Offset
+180327228	string	Horizontal
+180327238	string	Vertical
+180327338	string	MediaBox
+180327348	string	TrimBox
+180327350	string	BleedBox
+180327360	string	CropBox
+180327368	string	ArtBox
+180327390	string	MediaBox
+1803273a0	string	TrimBox
+1803273a8	string	BleedBox
+1803273b8	string	CropBox
+1803273c0	string	ArtBox
+1803274c8	string	UnsupportedPositionReference
+1803274e8	string	UnsupportedRepetition
+180327538	string	Cut Mark has invalid Orientation value
+180327560	string	Cut Mark has invalid Repetition value
+1803275b8	string	UnrecognizableRepetition
+180327608	string	Invalid Repetition Direction value
+180327930	string	Vertical offset in bearer bar not supported.
+180327a70	string	Different reference and position reference is not supported.
+180327ab0	string	Position::Reference and Position::ReferenceID must be of the same type.
+180329840	string	PDFPlusPositionMark_Width
+180329860	string	PDFPlusPositionMark_Height
+180329aa0	string	PDFPlusRepeatByCountMark_StepOffsetX
+180329ac8	string	PDFPlusRepeatByCountMark_StepOffsetY
+18032ac78	string	PDFPlusRepeatForSeparationsMark_StepOffsetX
+18032aca8	string	PDFPlusRepeatForSeparationsMark_StepOffsetY
+18032be98	string	PDFPlusRepeatForGridMark_OffsetX
+18032bec0	string	PDFPlusRepeatForGridMark_OffsetY
+18032f8a0	string	3rdparty.esko.output.horizontaldistortion
+18032f8d0	string	Horizontal Distortion
+18032f8e8	string	3rdparty.esko.output.verticaldistortion
+18032f910	string	Vertical Distortion
+18032f928	string	3rdparty.esko.output.horizontalscale
+18032f950	string	Horizontal Scale
+18032f968	string	3rdparty.esko.output.verticalscale
+18032f990	string	Vertical Scale
+180330c28	string	DocumentMarks_Report_PageRepetition
+180331978	string	ReportMakerTask.Warning.NoRepetitions
+180331e80	string	Invalid preceding regular expression prior to repetition operator.
+180332128	string	vertical-tab
+180332428	string	vertical-line
+180333c88	string	Found a closing repetition operator } with no corresponding {.
+180334098	string	Missing } in quantified repetition.
+180334590	string	A repetition operator cannot be applied to a zero-width assertion.
+180335848	string	 - TrimBox offset:     
+180335938	string	    - Offset:              
+180335ab0	string	CellTrimBoxOffsetX
+180335ac8	string	CellTrimBoxOffsetY
+180335ce8	string	 - Orientation: 
+1803363b8	string	 Offset X : 
+1803363c8	string	 Offset Y : 
+18033b0e8	string	allstructuraldesignstationsreference
+18033bf68	string	size_offset
+18033c518	string	OutsideTrimBox
+18033c680	string	HorizontalScale
+18033c690	string	HorizontalScaleMin
+18033cb80	string	Dynamic Text Object error: vertical text direction is not supported.
+18033d088	string	DM-CutMarkParams
+18033d0d0	string	DM-GridPositionParams
+18033d418	string	DM-BearerBarParams-Offset
+18033d438	string	DM-BearerBarParams-IsVertical
+18033d498	string	DM-GradationStripParams-Repetition
+18033d508	string	DM-GradationStripParams-IsHorizontal
+18033d550	string	DM-CutMarkParams-Offset
+18033d568	string	DM-CutMarkParams-SymbolDefinition
+18033d590	string	DM-CutMarkParams-Version
+18033d5b0	string	DM-CornerMarkParams-HorizontalOffset
+18033d5d8	string	DM-CornerMarkParams-VerticalOffset
+18033d6f0	string	DM-GridCopiesParams-ReverseStartPosition
+18033d720	string	DM-GridPositionParams-Version
+18033d740	string	DM-GridPositionParams-Reference
+18033d760	string	DM-GridPositionParams-SymbolDefinition
+18033d788	string	DM-GridPositionParams-Relation
+18033d7a8	string	DM-GridPositionParams-HorizontalOffset
+18033d7d0	string	DM-GridPositionParams-VerticalOffset
+18033d7f8	string	DM-GridPositionParams-HorizontalOffsetMirror
+18033d828	string	DM-GridPositionParams-VerticalOffsetMirror
+18033dd78	string	 offset=
+18033e578	string	Missing } in quantified repetition.
+18033eb88	string	   Position: 
+18033eba8	string	 Position: 
+18033ebc0	string	position/%s
+1803bd9ce	TerminatedCString	??0?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803bda10	TerminatedCString	??0?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803bdf22	TerminatedCString	??0?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803bdf6b	TerminatedCString	??0?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803be20d	TerminatedCString	??0?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803be25b	TerminatedCString	??0?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803bf013	TerminatedCString	??0?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803bf050	TerminatedCString	??0?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803bf503	TerminatedCString	??0?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803bf547	TerminatedCString	??0?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803bf7bc	TerminatedCString	??0?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAA@AEBV01@@Z
+1803bf805	TerminatedCString	??0?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAA@XZ
+1803c0794	TerminatedCString	??0CutMark@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+1803c07d7	TerminatedCString	??0CutMark@DocumentMarks@@QEAA@_N@Z
+1803c10bf	TerminatedCString	??0MarkPosition@DocumentMarks@@QEAA@$$QEAV01@@Z
+1803c10ef	TerminatedCString	??0MarkPosition@DocumentMarks@@QEAA@AEBV01@@Z
+1803c111d	TerminatedCString	??0MarkPosition@DocumentMarks@@QEAA@XZ
+1803c1361	TerminatedCString	??0PDFPlusCutMark@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+1803c13ab	TerminatedCString	??0PDFPlusCutMark@DocumentMarks@@QEAA@V?$shared_ptr@$$CBVFormPaint@ArtPaint@@@std@@@Z
+1803c1724	TerminatedCString	??0PDFPlusPositionMark@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+1803c1773	TerminatedCString	??0PDFPlusPositionMark@DocumentMarks@@QEAA@AEBV?$DimensionBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@Z
+1803c2d6c	TerminatedCString	??1?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c2ff3	TerminatedCString	??1?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c3157	TerminatedCString	??1?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c37ff	TerminatedCString	??1?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c3a54	TerminatedCString	??1?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c3b9f	TerminatedCString	??1?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@MEAA@XZ
+1803c4269	TerminatedCString	??1CutMark@DocumentMarks@@UEAA@XZ
+1803c446c	TerminatedCString	??1MarkPosition@DocumentMarks@@QEAA@XZ
+1803c453b	TerminatedCString	??1PDFPlusCutMark@DocumentMarks@@UEAA@XZ
+1803c4622	TerminatedCString	??1PDFPlusPositionMark@DocumentMarks@@UEAA@XZ
+1803c4c66	TerminatedCString	??4?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c4f6f	TerminatedCString	??4?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c5114	TerminatedCString	??4?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c590e	TerminatedCString	??4?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c5be5	TerminatedCString	??4?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c5d71	TerminatedCString	??4?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@QEAAAEAV01@AEBV01@@Z
+1803c6684	TerminatedCString	??4MarkPosition@DocumentMarks@@QEAAAEAV01@$$QEAV01@@Z
+1803c66ba	TerminatedCString	??4MarkPosition@DocumentMarks@@QEAAAEAV01@AEBV01@@Z
+1803c6bdf	TerminatedCString	??_7?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@6B@
+1803c6e48	TerminatedCString	??_7?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@6B@
+1803c6f9d	TerminatedCString	??_7?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@6B@
+1803c75f7	TerminatedCString	??_7?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@6B@
+1803c782e	TerminatedCString	??_7?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@6B@
+1803c796a	TerminatedCString	??_7?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@6B@
+1803c8123	TerminatedCString	??_7CutMark@DocumentMarks@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+1803c8174	TerminatedCString	??_7CutMark@DocumentMarks@@6BVisitable@ArtDoc@@@
+1803c8852	TerminatedCString	??_7PDFPlusCutMark@DocumentMarks@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+1803c88aa	TerminatedCString	??_7PDFPlusCutMark@DocumentMarks@@6BVisitable@ArtDoc@@@
+1803c8b56	TerminatedCString	??_7PDFPlusPositionMark@DocumentMarks@@6B?$ListItem@VContentObject@ArtDoc@@@Detail@ArtDoc@@@
+1803c8bb3	TerminatedCString	??_7PDFPlusPositionMark@DocumentMarks@@6BVisitable@ArtDoc@@@
+1803c9b1f	TerminatedCString	?Accept@CutMark@DocumentMarks@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+1803c9b5e	TerminatedCString	?Accept@CutMark@DocumentMarks@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+1803ca0af	TerminatedCString	?Accept@PDFPlusCutMark@DocumentMarks@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+1803ca0f5	TerminatedCString	?Accept@PDFPlusCutMark@DocumentMarks@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+1803ca3b8	TerminatedCString	?Accept@PDFPlusPositionMark@DocumentMarks@@UEAAXAEAVVisitorBase@ArtDoc@@@Z
+1803ca403	TerminatedCString	?Accept@PDFPlusPositionMark@DocumentMarks@@UEBAXAEAVConstVisitorBase@ArtDoc@@@Z
+1803cbd94	TerminatedCString	?Clone@CutMark@DocumentMarks@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+1803cc025	TerminatedCString	?Clone@PDFPlusCutMark@DocumentMarks@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+1803cc1c0	TerminatedCString	?Clone@PDFPlusPositionMark@DocumentMarks@@UEBAPEAV12@AEAVCloneStrategy@ArtDoc@@@Z
+1803ccd42	TerminatedCString	?ContentChangedSelf@PDFPlusCutMark@DocumentMarks@@MEAAXPEAVContent@ArtDoc@@0@Z
+1803cdc8f	TerminatedCString	?CreateRepetitionForSeparation@PDFPlusRepeatForSeparationsMark@DocumentMarks@@IEAAXAEAVContent@ArtDoc@@VEntry@?$ColorList@UColorSpacePolicy@ArtColor@@@ArtColor@@_NV?$vector@UEntry@List@Separations@ArtDoc@@V?$allocator@UEntry@List@Separations@ArtDoc@@@std@@@std@@V?$variant@W4OtherColorantsKeepChoice@DocumentMarks@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@9@AEAV?$vector@V?$shared_ptr@VMarkError@DocumentMarks@@@std@@V?$allocator@V?$shared_ptr@VMarkError@DocumentMarks@@@std@@@2@@9@AEAV?$PointBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@AEAV?$unique_ptr@VGroup@ArtDoc@@U?$default_delete@VGroup@ArtDoc@@@std@@@9@@Z
+1803cf43f	TerminatedCString	?EndVisit@?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@UEAAXAEBVCutMark@DocumentMarks@@@Z
+1803cf853	TerminatedCString	?EndVisit@?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@UEAAXAEBVPDFPlusCutMark@DocumentMarks@@@Z
+1803cfa9e	TerminatedCString	?EndVisit@?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@UEAAXAEBVPDFPlusPositionMark@DocumentMarks@@@Z
+1803d0578	TerminatedCString	?EndVisit@?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@UEAAXAEAVCutMark@DocumentMarks@@@Z
+1803d095a	TerminatedCString	?EndVisit@?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@UEAAXAEAVPDFPlusCutMark@DocumentMarks@@@Z
+1803d0b8c	TerminatedCString	?EndVisit@?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@UEAAXAEAVPDFPlusPositionMark@DocumentMarks@@@Z
+1803d2667	TerminatedCString	?GetBoundingBoxForPositioning@DocumentMarks@@YA?AV?$optional@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@AEBVContentObject@ArtDoc@@@Z
+1803d2adc	TerminatedCString	?GetBoundingBoxSelf@PDFPlusCutMark@DocumentMarks@@MEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4BoxKind@ArtDoc@@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@4@@Z
+1803d2ecf	TerminatedCString	?GetBoundingBoxSelf@PDFPlusPositionMark@DocumentMarks@@MEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@W4BoxKind@ArtDoc@@AEBV?$TransformationBase@UMilliPointCoordinateSystem@YAGL@@@4@@Z
+1803d476c	TerminatedCString	?GetDynamicMarkPositionReferenceObject@DocumentMarks@@YA?AV?$variant@W4PageBox@ArtDoc@@_KUProcessingStepLayer@DocumentMarks@@@std@@AEBVDynamicObject@1@@Z
+1803d560f	TerminatedCString	?GetHeight@PDFPlusPositionMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d5797	TerminatedCString	?GetHorizontalPositionReference@PDFPlusRepeatForGridMark@DocumentMarks@@QEBA?AW4PositionReference@12@XZ
+1803d57ff	TerminatedCString	?GetHorizontalRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@QEBA?AV?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@std@@XZ
+1803d5a2e	TerminatedCString	?GetLineTypes@PDFPlusCutMark@DocumentMarks@@QEBAAEBV?$vector@W4LineType@PDFPlusCutMark@DocumentMarks@@V?$allocator@W4LineType@PDFPlusCutMark@DocumentMarks@@@std@@@std@@XZ
+1803d67b1	TerminatedCString	?GetOffset@PDFPlusBearerBar@DocumentMarks@@QEBAAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803d6824	TerminatedCString	?GetOffset@PDFPlusCutMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d68e4	TerminatedCString	?GetOffsetX@PDFPlusRepeatForGridMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d69af	TerminatedCString	?GetOffsetX@PDFPlusRepeatForPlaceholderMark@DocumentMarks@@QEBA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803d6a31	TerminatedCString	?GetOffsetX@PDFPlusRepeatForStationsMark@DocumentMarks@@QEBA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803d6ab0	TerminatedCString	?GetOffsetX@SNRGrid@DocumentMarks@@QEBANXZ
+1803d6adb	TerminatedCString	?GetOffsetY@PDFPlusRepeatForGridMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d6ba6	TerminatedCString	?GetOffsetY@PDFPlusRepeatForPlaceholderMark@DocumentMarks@@QEBA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803d6c28	TerminatedCString	?GetOffsetY@PDFPlusRepeatForStationsMark@DocumentMarks@@QEBA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803d6ca7	TerminatedCString	?GetOffsetY@SNRGrid@DocumentMarks@@QEBANXZ
+1803d6e2b	TerminatedCString	?GetOrientation@PDFPlusCutMark@DocumentMarks@@QEBA?AW4Orientation@12@XZ
+1803d750b	TerminatedCString	?GetReferenceBox@PDFPlusCutMark@DocumentMarks@@AEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+1803d76e5	TerminatedCString	?GetReferenceObject@PDFPlusCutMark@DocumentMarks@@QEBAAEBV?$variant@V?$variant@W4PageBox@ArtDoc@@_KUProcessingStepLayer@DocumentMarks@@@std@@UAllStructuralDesignStations@PDFPlusCutMark@DocumentMarks@@@std@@XZ
+1803d7a63	TerminatedCString	?GetRepetition@PDFPlusCutMark@DocumentMarks@@QEBA?AW4Repetition@12@XZ
+1803d7b28	TerminatedCString	?GetReportPageRepetition@DocumentMarks@@YA?AV?$optional@V?$variant@UNoPageRepetition@DocumentMarks@@UFilterPageRepetition@2@@std@@@std@@AEBVPageContent@ArtDoc@@@Z
+1803d7bcb	TerminatedCString	?GetReportPageRepetitionCount@DocumentMarks@@YA?AV?$optional@_K@std@@AEBVPageContent@ArtDoc@@@Z
+1803d845d	TerminatedCString	?GetStaggerOffset@SNRGrid@DocumentMarks@@QEBANXZ
+1803d87a9	TerminatedCString	?GetStayAwayAreas@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$vector@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V?$allocator@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@@std@@XZ
+1803d8950	TerminatedCString	?GetStayAwayAreas@PDFPlusPositionMark@DocumentMarks@@MEBA?AV?$vector@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@V?$allocator@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@@std@@XZ
+1803d8f22	TerminatedCString	?GetStepOffsetX@PDFPlusRepeatByCountMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d8ff1	TerminatedCString	?GetStepOffsetX@PDFPlusRepeatForSeparationsMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d90c7	TerminatedCString	?GetStepOffsetY@PDFPlusRepeatByCountMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803d9196	TerminatedCString	?GetStepOffsetY@PDFPlusRepeatForSeparationsMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803da0e3	TerminatedCString	?GetVerticalPositionReference@PDFPlusRepeatForGridMark@DocumentMarks@@QEBA?AW4PositionReference@12@XZ
+1803da149	TerminatedCString	?GetVerticalRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@QEBA?AV?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@std@@XZ
+1803da2b7	TerminatedCString	?GetWidth@PDFPlusPositionMark@DocumentMarks@@QEBAAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803da991	TerminatedCString	?InvertXOffset@PDFPlusRepeatForSeparationsMark@DocumentMarks@@SA_NW4Anchor@YAGL@@0@Z
+1803da9e6	TerminatedCString	?InvertYOffset@PDFPlusRepeatForSeparationsMark@DocumentMarks@@SA_NW4Anchor@YAGL@@0@Z
+1803dabee	TerminatedCString	?IsAllowedAsNestedMark@PDFPlusPositionMark@DocumentMarks@@UEBA_NXZ
+1803daeb7	TerminatedCString	?IsPositionVertical@GridMark@DocumentMarks@@IEBA_NXZ
+1803dbe00	TerminatedCString	?PlaceCornerMarkSymbol@CornerMark@DocumentMarks@@AEAAXAEAVContentObject@ArtDoc@@PEAUCornerMarkPosition@dm@@@Z
+1803dbe6e	TerminatedCString	?PlaceCutMarkSymbol@CutMark@DocumentMarks@@AEAAXAEAVContentObject@ArtDoc@@AEBUCPoint@dm@@1@Z
+1803dbfb5	TerminatedCString	?PostProcessFormulas@MarkPosition@DocumentMarks@@QEAAXAEBVPostReadContext@ArtDoc@@@Z
+1803dc177	TerminatedCString	?PostProcessFormulasImp@PDFPlusCutMark@DocumentMarks@@MEAAXAEBVPostReadContext@ArtDoc@@@Z
+1803dc294	TerminatedCString	?PostProcessFormulasImp@PDFPlusPositionMark@DocumentMarks@@MEAAXAEBVPostReadContext@ArtDoc@@@Z
+1803dd106	TerminatedCString	?RemoveInvalidCustomFormulasImp@PDFPlusCutMark@DocumentMarks@@MEAA_NXZ
+1803dd14d	TerminatedCString	?RemoveInvalidCustomFormulasImp@PDFPlusPositionMark@DocumentMarks@@MEAA_NXZ
+1803de232	TerminatedCString	?SetBearerBarOffset@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusBearerBar@DocumentMarks@@@Z@std@@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803de77c	TerminatedCString	?SetCutMarkLineTypes@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusCutMark@DocumentMarks@@@Z@std@@AEBV?$vector@W4LineType@PDFPlusCutMark@DocumentMarks@@V?$allocator@W4LineType@PDFPlusCutMark@DocumentMarks@@@std@@@5@@Z
+1803de86f	TerminatedCString	?SetCutMarkLineTypes@DocumentMarks@@YAXAEAVPDFPlusCutMark@1@AEBV?$vector@W4LineType@PDFPlusCutMark@DocumentMarks@@V?$allocator@W4LineType@PDFPlusCutMark@DocumentMarks@@@std@@@std@@@Z
+1803de926	TerminatedCString	?SetCutMarkOffset@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusCutMark@DocumentMarks@@@Z@std@@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@5@@Z
+1803dea2e	TerminatedCString	?SetCutMarkOffset@DocumentMarks@@YAXAEAVPDFPlusCutMark@1@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803deafa	TerminatedCString	?SetCutMarkOrientation@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusCutMark@DocumentMarks@@@Z@std@@W4Orientation@PDFPlusCutMark@1@@Z
+1803deb99	TerminatedCString	?SetCutMarkOrientation@DocumentMarks@@YAXAEAVPDFPlusCutMark@1@W4Orientation@21@@Z
+1803debeb	TerminatedCString	?SetCutMarkReferenceToAllStructuralDesignStations@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusCutMark@DocumentMarks@@@Z@std@@@Z
+1803dec86	TerminatedCString	?SetCutMarkRepetition@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusCutMark@DocumentMarks@@@Z@std@@W4Repetition@PDFPlusCutMark@1@@Z
+1803ded23	TerminatedCString	?SetCutMarkRepetition@DocumentMarks@@YAXAEAVPDFPlusCutMark@1@W4Repetition@21@@Z
+1803df1e9	TerminatedCString	?SetDynamicMarkPositionAnchors@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@W4Anchor@YAGL@@2_N@Z
+1803df27f	TerminatedCString	?SetDynamicMarkPositionOffsetX@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803df344	TerminatedCString	?SetDynamicMarkPositionOffsetX@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@@Z
+1803df406	TerminatedCString	?SetDynamicMarkPositionOffsetX@DocumentMarks@@YAXAEAVDynamicObject@1@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803df48f	TerminatedCString	?SetDynamicMarkPositionOffsetY@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803df554	TerminatedCString	?SetDynamicMarkPositionOffsetY@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@@Z
+1803df616	TerminatedCString	?SetDynamicMarkPositionOffsetY@DocumentMarks@@YAXAEAVDynamicObject@1@AEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803df69f	TerminatedCString	?SetDynamicMarkPositionRefBox@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@W4PageBox@3@_N@Z
+1803df730	TerminatedCString	?SetDynamicMarkPositionRefBox@DocumentMarks@@YAXAEAVDynamicObject@1@W4PageBox@ArtDoc@@_N@Z
+1803df78b	TerminatedCString	?SetDynamicMarkPositionRefObject@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@_K_N@Z
+1803df815	TerminatedCString	?SetDynamicMarkPositionRefObject@DocumentMarks@@YAXAEAVDynamicObject@1@_K_N@Z
+1803df863	TerminatedCString	?SetDynamicMarkPositionReferenceLayer@DocumentMarks@@YAXAEAVContent@ArtDoc@@V?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@UProcessingStepLayer@1@_N@Z
+1803e041d	TerminatedCString	?SetHeight@PDFPlusPositionMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e05a7	TerminatedCString	?SetHorizontalPositionReference@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXW4PositionReference@12@@Z
+1803e060e	TerminatedCString	?SetHorizontalRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXV?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@std@@@Z
+1803e06bd	TerminatedCString	?SetImpositionTemplateName@DocumentMarks@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1803e0afb	TerminatedCString	?SetLineTypes@PDFPlusCutMark@DocumentMarks@@QEAAXAEBV?$vector@W4LineType@PDFPlusCutMark@DocumentMarks@@V?$allocator@W4LineType@PDFPlusCutMark@DocumentMarks@@@std@@@std@@@Z
+1803e0f5b	TerminatedCString	?SetOffset@PDFPlusBearerBar@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803e0fcf	TerminatedCString	?SetOffset@PDFPlusCutMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e1090	TerminatedCString	?SetOffset@SNRGrid@DocumentMarks@@QEAAXNN@Z
+1803e10bc	TerminatedCString	?SetOffsetX@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e1188	TerminatedCString	?SetOffsetX@PDFPlusRepeatForPlaceholderMark@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803e120c	TerminatedCString	?SetOffsetX@PDFPlusRepeatForStationsMark@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803e128d	TerminatedCString	?SetOffsetY@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e1359	TerminatedCString	?SetOffsetY@PDFPlusRepeatForPlaceholderMark@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803e13dd	TerminatedCString	?SetOffsetY@PDFPlusRepeatForStationsMark@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803e14ce	TerminatedCString	?SetOrientation@PDFPlusCutMark@DocumentMarks@@QEAAXW4Orientation@12@@Z
+1803e1bb4	TerminatedCString	?SetReferenceObject@PDFPlusCutMark@DocumentMarks@@QEAAXAEBV?$variant@V?$variant@W4PageBox@ArtDoc@@_KUProcessingStepLayer@DocumentMarks@@@std@@UAllStructuralDesignStations@PDFPlusCutMark@DocumentMarks@@@std@@@Z
+1803e201f	TerminatedCString	?SetRepeatDirectionOffsetX@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@5@@Z
+1803e212f	TerminatedCString	?SetRepeatDirectionOffsetX@DocumentMarks@@YAXAEAVDynamicObject@1@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e2203	TerminatedCString	?SetRepeatDirectionOffsetY@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVDynamicObject@DocumentMarks@@@Z@std@@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@5@@Z
+1803e2313	TerminatedCString	?SetRepeatDirectionOffsetY@DocumentMarks@@YAXAEAVDynamicObject@1@AEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e2434	TerminatedCString	?SetRepeatForGridMarkHorizontalPositionReference@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusRepeatForGridMark@DocumentMarks@@@Z@std@@W4PositionReference@PDFPlusRepeatForGridMark@1@@Z
+1803e2507	TerminatedCString	?SetRepeatForGridMarkHorizontalRepetition@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusRepeatForGridMark@DocumentMarks@@@Z@std@@V?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@5@@Z
+1803e275c	TerminatedCString	?SetRepeatForGridMarkVerticalPositionReference@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusRepeatForGridMark@DocumentMarks@@@Z@std@@W4PositionReference@PDFPlusRepeatForGridMark@1@@Z
+1803e282d	TerminatedCString	?SetRepeatForGridMarkVerticalRepetition@DocumentMarks@@YAXAEAVContent@ArtDoc@@AEBV?$function@$$A6A_NAEBVPDFPlusRepeatForGridMark@DocumentMarks@@@Z@std@@V?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@5@@Z
+1803e2d5e	TerminatedCString	?SetRepetition@PDFPlusCutMark@DocumentMarks@@QEAAXW4Repetition@12@@Z
+1803e2da3	TerminatedCString	?SetReportPageRepetition@DocumentMarks@@YAXAEAVPageContent@ArtDoc@@AEBV?$variant@UNoPageRepetition@DocumentMarks@@UFilterPageRepetition@2@@std@@@Z
+1803e36de	TerminatedCString	?SetStepOffsetX@PDFPlusRepeatByCountMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e37ae	TerminatedCString	?SetStepOffsetX@PDFPlusRepeatForSeparationsMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e3885	TerminatedCString	?SetStepOffsetY@PDFPlusRepeatByCountMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e3955	TerminatedCString	?SetStepOffsetY@PDFPlusRepeatForSeparationsMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e3ff6	TerminatedCString	?SetTargetSeparationsImp@PDFPlusCutMark@DocumentMarks@@MEAAXW4PaintAttribute@2@@Z
+1803e4c51	TerminatedCString	?SetUniversalTextProperty@DocumentMarks@@YAXPEAVDynamicTextObject@1@AEBW4VerticalAlignment@DocumentTypesetting@@@Z
+1803e4e3d	TerminatedCString	?SetVerticalPositionReference@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXW4PositionReference@12@@Z
+1803e4ea2	TerminatedCString	?SetVerticalRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@QEAAXV?$variant@W4PredefinedRepetition@PDFPlusRepeatForGridMark@DocumentMarks@@USteppedRepetition@23@@std@@@Z
+1803e51cf	TerminatedCString	?SetWidth@PDFPlusPositionMark@DocumentMarks@@QEAAXAEBV?$variant@V?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@Z
+1803e5357	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@CustomMark@DocumentMarks@@MEBA_NXZ
+1803e53a7	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@DynamicObject@DocumentMarks@@UEBA_NXZ
+1803e53fa	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusBarcodeMark@DocumentMarks@@MEBA_NXZ
+1803e5452	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusExternalFileMark@DocumentMarks@@MEBA_NXZ
+1803e54af	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusInputFileMark@DocumentMarks@@MEBA_NXZ
+1803e5509	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusPlateIDMark@DocumentMarks@@UEBA_NXZ
+1803e5561	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusPositionMark@DocumentMarks@@MEBA_NXZ
+1803e55ba	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusRepeatForSeparationsMark@DocumentMarks@@MEBA_NXZ
+1803e561f	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@PDFPlusResizeMark@DocumentMarks@@MEBA_NXZ
+1803e5676	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@TextAreaMark@DocumentMarks@@MEBA_NXZ
+1803e56c8	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@TextMark@DocumentMarks@@MEBA_NXZ
+1803e5716	TerminatedCString	?ShouldUpdateOffsetOnReferenceOrAnchorChange@TextOnPathMark@DocumentMarks@@MEBA_NXZ
+1803e6225	TerminatedCString	?UpdateMarkErrors@PDFPlusCutMark@DocumentMarks@@UEAAX_N@Z
+1803e6361	TerminatedCString	?UpdateMarkErrors@PDFPlusPositionMark@DocumentMarks@@UEAAX_N@Z
+1803e699d	TerminatedCString	?Visit@?$ConstVisitor@VCutMark@DocumentMarks@@@ArtDoc@@UEAA_NAEBVCutMark@DocumentMarks@@@Z
+1803e6d9d	TerminatedCString	?Visit@?$ConstVisitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@UEAA_NAEBVPDFPlusCutMark@DocumentMarks@@@Z
+1803e6fde	TerminatedCString	?Visit@?$ConstVisitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@UEAA_NAEBVPDFPlusPositionMark@DocumentMarks@@@Z
+1803e7a84	TerminatedCString	?Visit@?$Visitor@VCutMark@DocumentMarks@@@ArtDoc@@UEAA_NAEAVCutMark@DocumentMarks@@@Z
+1803e7e52	TerminatedCString	?Visit@?$Visitor@VPDFPlusCutMark@DocumentMarks@@@ArtDoc@@UEAA_NAEAVPDFPlusCutMark@DocumentMarks@@@Z
+1803e807a	TerminatedCString	?Visit@?$Visitor@VPDFPlusPositionMark@DocumentMarks@@@ArtDoc@@UEAA_NAEAVPDFPlusPositionMark@DocumentMarks@@@Z
+1803e8a7c	TerminatedCString	?box2ref@MarkPosition@DocumentMarks@@SA?AW4Reference@12@W4PageBox@ArtDoc@@@Z
+1803e8c64	TerminatedCString	?checkOutsideTrimBoxRule@VDPObject@DocumentMarks@@QEBAXXZ
+1803e8e59	TerminatedCString	?convertPDFPlusToAnchor@MarkPosition@DocumentMarks@@KA?AW4Anchor@YAGL@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1803e9062	TerminatedCString	?createDefaultDMPositionParams@DynamicMark@DocumentMarks@@IEAAXXZ
+1803ea853	TerminatedCString	?getFormulas@CutMark@DocumentMarks@@MEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+1803eac53	TerminatedCString	?getFormulas@MarkPosition@DocumentMarks@@QEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+1803eaf98	TerminatedCString	?getFormulas@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+1803eb3c2	TerminatedCString	?getFormulas@PDFPlusPositionMark@DocumentMarks@@UEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+1803ec33b	TerminatedCString	?getMarkPosition@DynamicObject@DocumentMarks@@QEAAAEAVMarkPosition@2@XZ
+1803ec383	TerminatedCString	?getMarkPosition@DynamicObject@DocumentMarks@@QEBAAEBVMarkPosition@2@XZ
+1803ec553	TerminatedCString	?getMarkType@CutMark@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+1803ec811	TerminatedCString	?getMarkType@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+1803eca29	TerminatedCString	?getMarkType@PDFPlusPositionMark@DocumentMarks@@UEBA?AV?$basic_string_view@DU?$char_traits@D@std@@@std@@XZ
+1803ed13e	TerminatedCString	?getObjAnchor@MarkPosition@DocumentMarks@@QEBA?AW4Anchor@YAGL@@XZ
+1803ed1b9	TerminatedCString	?getOffset@BearerBar@DocumentMarks@@QEBA?AV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803ed224	TerminatedCString	?getOffsetX@MarkPosition@DocumentMarks@@QEBAAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803ed294	TerminatedCString	?getOffsetXFormula@MarkPosition@DocumentMarks@@QEBAAEBV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803ed31d	TerminatedCString	?getOffsetY@MarkPosition@DocumentMarks@@QEBAAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@XZ
+1803ed38d	TerminatedCString	?getOffsetYFormula@MarkPosition@DocumentMarks@@QEBAAEBV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@XZ
+1803ed6d7	TerminatedCString	?getPositionFormulas@DynamicObject@DocumentMarks@@QEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ
+1803ed7ae	TerminatedCString	?getPositionRefBBox@DynamicObject@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+1803ed822	TerminatedCString	?getPositionRefBBox@PDFPlusBearerBar@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+1803ed899	TerminatedCString	?getPositionRefBBox@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+1803ed90e	TerminatedCString	?getPositionRefBBox@PDFPlusDimensionsMark@DocumentMarks@@UEBA?AV?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@XZ
+1803ed98a	TerminatedCString	?getPositionRefObject@DynamicObject@DocumentMarks@@UEBAPEAVContentObject@ArtDoc@@XZ
+1803ed9de	TerminatedCString	?getPositionRefObject@PDFPlusBearerBar@DocumentMarks@@UEBAPEAVContentObject@ArtDoc@@XZ
+1803eda35	TerminatedCString	?getPositionRefObject@PDFPlusCutMark@DocumentMarks@@UEBAPEAVContentObject@ArtDoc@@XZ
+1803eda8a	TerminatedCString	?getPositionRefObject@PDFPlusDimensionsMark@DocumentMarks@@UEBAPEAVContentObject@ArtDoc@@XZ
+1803edae6	TerminatedCString	?getRefAnchor@MarkPosition@DocumentMarks@@QEBA?AW4Anchor@YAGL@@XZ
+1803edd04	TerminatedCString	?getRefBoxes@CutMark@DocumentMarks@@MEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+1803edf5b	TerminatedCString	?getRefBoxes@MarkPosition@DocumentMarks@@QEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+1803ee14c	TerminatedCString	?getRefBoxes@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+1803ee3cd	TerminatedCString	?getRefBoxes@PDFPlusPositionMark@DocumentMarks@@UEBA?AV?$vector@W4PageBox@ArtDoc@@V?$allocator@W4PageBox@ArtDoc@@@std@@@std@@XZ
+1803ee9c9	TerminatedCString	?getRefObjects@CutMark@DocumentMarks@@MEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+1803eeb8a	TerminatedCString	?getRefObjects@MarkPosition@DocumentMarks@@QEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+1803eed03	TerminatedCString	?getRefObjects@PDFPlusCutMark@DocumentMarks@@UEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+1803eeeee	TerminatedCString	?getRefObjects@PDFPlusPositionMark@DocumentMarks@@UEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@XZ
+1803ef2d3	TerminatedCString	?getReference@MarkPosition@DocumentMarks@@QEBA?AW4Reference@12@XZ
+1803ef315	TerminatedCString	?getReferenceID@MarkPosition@DocumentMarks@@QEBA_KXZ
+1803ef34a	TerminatedCString	?getReferenceLayer@MarkPosition@DocumentMarks@@QEBA?AUProcessingStepLayer@2@XZ
+1803ef399	TerminatedCString	?getRelType@MarkPosition@DocumentMarks@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ
+1803ef408	TerminatedCString	?getRepetitionBox@GradationMark@DocumentMarks@@IEBA?AV?$optional@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@XZ
+1803ef48c	TerminatedCString	?getRotation@MarkPosition@DocumentMarks@@QEBANXZ
+1803efacc	TerminatedCString	?getVersion@MarkPosition@DocumentMarks@@QEBAHXZ
+1803efbe1	TerminatedCString	?hasPositionRef@DynamicObject@DocumentMarks@@UEBA_NXZ
+1803efc17	TerminatedCString	?hasPositionRef@PDFPlusBearerBar@DocumentMarks@@UEBA_NXZ
+1803efc50	TerminatedCString	?hasPositionRef@PDFPlusCutMark@DocumentMarks@@UEBA_NXZ
+1803efc87	TerminatedCString	?hasPositionRef@PDFPlusDimensionsMark@DocumentMarks@@UEBA_NXZ
+1803efd68	TerminatedCString	?isModified@MarkPosition@DocumentMarks@@QEBA_NXZ
+1803efe41	TerminatedCString	?kDefaultOffsetValue@PDFPlusRepeatByCountMark@DocumentMarks@@2NB
+1803efe82	TerminatedCString	?kDefaultOffsetValue@PDFPlusRepeatForGridMark@DocumentMarks@@2NB
+1803efec3	TerminatedCString	?kDefaultOffsetValue@PDFPlusRepeatForSeparationsMark@DocumentMarks@@2NB
+1803eff41	TerminatedCString	?kDefaultSizeValue@PDFPlusPositionMark@DocumentMarks@@2NB
+1803f06b6	TerminatedCString	?parsePdfPlusPropertiesDict@MarkPosition@DocumentMarks@@QEAA_NAEBVDictionary@ArtDoc@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@PEBN@Z
+1803f0df6	TerminatedCString	?parsePdfPropertiesDict@CutMark@DocumentMarks@@UEAA_NAEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+1803f17c8	TerminatedCString	?parsePdfPropertiesDict@MarkPosition@DocumentMarks@@QEAA_NPEAVContent@ArtDoc@@AEBVDictionary@4@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVContentObject@ArtDoc@@@std@@@2@@std@@@Z
+1803f27d1	TerminatedCString	?postProcessClonedMark@PDFPlusCutMark@DocumentMarks@@UEAAXAEBVCloneStrategy@ArtDoc@@@Z
+1803f2886	TerminatedCString	?postProcessClonedMark@PDFPlusPositionMark@DocumentMarks@@UEAAXAEBVCloneStrategy@ArtDoc@@@Z
+1803f2df7	TerminatedCString	?ref2box@MarkPosition@DocumentMarks@@SA?AW4PageBox@ArtDoc@@W4Reference@12@@Z
+1803f2f4d	TerminatedCString	?regenerateMarkImp@CutMark@DocumentMarks@@MEAAXXZ
+1803f310c	TerminatedCString	?regenerateMarkImp@PDFPlusCutMark@DocumentMarks@@MEAAXXZ
+1803f3243	TerminatedCString	?regenerateMarkImp@PDFPlusPositionMark@DocumentMarks@@MEAAXXZ
+1803f3cf9	TerminatedCString	?setAnchors@MarkPosition@DocumentMarks@@QEAAXW4Anchor@YAGL@@0@Z
+1803f3e7b	TerminatedCString	?setColorTypeImp@PDFPlusCutMark@DocumentMarks@@MEAAXXZ
+1803f4054	TerminatedCString	?setMarkPositionToDynamicEngine@DynamicMarksController@DocumentMarks@@QEAAXAEBVDynamicObject@2@@Z
+1803f40b6	TerminatedCString	?setOffset@BearerBar@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803f4123	TerminatedCString	?setOffsetX@MarkPosition@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803f4194	TerminatedCString	?setOffsetXFormula@MarkPosition@DocumentMarks@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1803f420c	TerminatedCString	?setOffsetY@MarkPosition@DocumentMarks@@QEAAXAEBV?$CoordinateBase@UMilliPointCoordinateSystem@YAGL@@$00@YAGL@@@Z
+1803f427d	TerminatedCString	?setOffsetYFormula@MarkPosition@DocumentMarks@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1803f439d	TerminatedCString	?setReference@MarkPosition@DocumentMarks@@QEAAXW4Reference@12@_KAEBUProcessingStepLayer@2@@Z
+1803f43fa	TerminatedCString	?setReferenceBox@MarkPosition@DocumentMarks@@QEAAXW4PageBox@ArtDoc@@@Z
+1803f4441	TerminatedCString	?setReferenceLayer@MarkPosition@DocumentMarks@@QEAAXAEBUProcessingStepLayer@2@@Z
+1803f4492	TerminatedCString	?setReferenceObject@MarkPosition@DocumentMarks@@QEAAX_K@Z
+1803f44cc	TerminatedCString	?setRelType@MarkPosition@DocumentMarks@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+1803f453d	TerminatedCString	?setRotation@MarkPosition@DocumentMarks@@QEAAXN@Z
+1803f492a	TerminatedCString	?updatePdfPropertiesDict@MarkPosition@DocumentMarks@@QEAAXAEAVDictionary@ArtDoc@@@Z
+18040a85a	TerminatedCString	?GetHorizontalScaling@Text@ArtDoc@@QEBANXZ
+180411e66	TerminatedCString	?SetStaggerOffset@GridParameters@LayoutParameters@@QEAAXN@Z
+1804121fa	TerminatedCString	?GetStaggerOffset@GridParameters@LayoutParameters@@QEBANXZ
+18041330a	TerminatedCString	?ToVertical@YAGL@@YA?AW4Anchor@1@W421@@Z
+180413336	TerminatedCString	?ToHorizontal@YAGL@@YA?AW4Anchor@1@W421@@Z
+180415234	TerminatedCString	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+#hits=452

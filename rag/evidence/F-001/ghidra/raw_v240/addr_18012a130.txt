@@ -1,0 +1,360 @@
+requested=0x18012a130
+resolvedAddress=18012a130
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012a130 GetBoundingBoxForPositioning
+status=OK
+entry=18012a130
+name=GetBoundingBoxForPositioning
+qualifiedName=DocumentMarks::GetBoundingBoxForPositioning
+namespace=DocumentMarks
+signature=optional<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_> GetBoundingBoxForPositioning(ContentObject * param_1)
+returnType=optional<YAGL::RectangleBase<YAGL::MilliPointCoordinateSystem>_>
+parameterCount=1
+bodyMin=18012a130
+bodyMax=18012a3c5
+bodySize=661
+isThunk=false
+isExternal=false
+callingConvention=__cdecl
+
+[XREFS_TO]
+1803ab17c refType=DATA fromFunction=
+180486270 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18009560f refType=UNCONDITIONAL_CALL fromFunction=1800954f0 getPositionRefBBox
+180073628 refType=UNCONDITIONAL_CALL fromFunction=1800735c0 createDefaultDMPositionParams
+180052559 refType=UNCONDITIONAL_CALL fromFunction=180052470 PlaceCutMarkSymbol
+180052a55 refType=UNCONDITIONAL_CALL fromFunction=180052950 regenerateMarkImp
+180076cbe refType=UNCONDITIONAL_CALL fromFunction=180076b00 FUN_180076b00
+1800774b6 refType=UNCONDITIONAL_CALL fromFunction=1800773b0 FUN_1800773b0
+180077b34 refType=UNCONDITIONAL_CALL fromFunction=180077800 FUN_180077800
+180086ba7 refType=UNCONDITIONAL_CALL fromFunction=180086a30 RelinkClonedDynamicObjectInPage
+18008a58f refType=UNCONDITIONAL_CALL fromFunction=18008a550 FUN_18008a550
+18008bf70 refType=UNCONDITIONAL_CALL fromFunction=18008bf00 FUN_18008bf00
+18008e055 refType=UNCONDITIONAL_CALL fromFunction=18008df00 FUN_18008df00
+1800cbd0d refType=UNCONDITIONAL_CALL fromFunction=1800cb9c0 PlaceGradationSymbol
+1800cc229 refType=UNCONDITIONAL_CALL fromFunction=1800cc1e0 TrimSymbol
+1800cc354 refType=UNCONDITIONAL_CALL fromFunction=1800cc1e0 TrimSymbol
+1800cef1a refType=UNCONDITIONAL_CALL fromFunction=1800cee00 createWUPObject
+1800d680a refType=UNCONDITIONAL_CALL fromFunction=1800d6760 getSizeRefBBox
+18012d9f6 refType=UNCONDITIONAL_CALL fromFunction=18012d960 FUN_18012d960
+18012ecad refType=UNCONDITIONAL_CALL fromFunction=18012eb80 getPositionRefBBox
+18013579d refType=UNCONDITIONAL_CALL fromFunction=180135670 getPositionRefBBox
+180138e4d refType=UNCONDITIONAL_CALL fromFunction=180138d20 getPositionRefBBox
+18022ccae refType=UNCONDITIONAL_CALL fromFunction=18022caf0 FUN_18022caf0
+18022d4c6 refType=UNCONDITIONAL_CALL fromFunction=18022d3c0 FUN_18022d3c0
+18022df74 refType=UNCONDITIONAL_CALL fromFunction=18022dc40 FUN_18022dc40
+180239e69 refType=UNCONDITIONAL_CALL fromFunction=180239e30 FUN_180239e30
+18023ba5b refType=UNCONDITIONAL_CALL fromFunction=18023ba00 FUN_18023ba00
+1802834f1 refType=UNCONDITIONAL_CALL fromFunction=180283450 getSizeRefBBox
+
+[CALLERS]
+18022caf0 FUN_18022caf0
+1800735c0 DocumentMarks::DynamicMark::createDefaultDMPositionParams
+1800cb9c0 DocumentMarks::GradationMark::PlaceGradationSymbol
+1800cc1e0 DocumentMarks::GradationMark::TrimSymbol
+1800954f0 DocumentMarks::DynamicObject::getPositionRefBBox
+180283450 DocumentMarks::VDPImageBase::getSizeRefBBox
+18012eb80 DocumentMarks::PDFPlusBearerBar::getPositionRefBBox
+180135670 DocumentMarks::PDFPlusCutMark::getPositionRefBBox
+180076b00 FUN_180076b00
+18008a550 FUN_18008a550
+18022dc40 FUN_18022dc40
+18008df00 FUN_18008df00
+1800cee00 DocumentMarks::GridMark::createWUPObject
+1800773b0 FUN_1800773b0
+18022d3c0 FUN_18022d3c0
+18023ba00 FUN_18023ba00
+1800d6760 DocumentMarks::ImageMark::getSizeRefBBox
+180138d20 DocumentMarks::PDFPlusDimensionsMark::getPositionRefBBox
+180077800 FUN_180077800
+180052950 DocumentMarks::CutMark::regenerateMarkImp
+180086a30 DocumentMarks::DynamicMarksController::RelinkClonedDynamicObjectInPage
+180239e30 FUN_180239e30
+18012d960 FUN_18012d960
+18008bf00 FUN_18008bf00
+180052470 DocumentMarks::CutMark::PlaceCutMarkSymbol
+
+[CALLEES]
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+180095b90 DocumentMarks::DynamicObject::isMarkNormalized
+18012a530 DocumentMarks::GetPDFPlusBoundingBox
+EXTERNAL:000001a5 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::ConstVisitorBase
+18012a3d0 FUN_18012a3d0
+EXTERNAL:00000210 DOCUMENT.DLL::ArtDoc::ContentObject::GetBoundingBox
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+EXTERNAL:0000023e DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+180235d10 FUN_180235d10
+
+[DIRECT_CALL_TARGETS]
+18012a15a -> EXTERNAL:0000023e DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18012a163 -> 18012a16e DocumentMarks::GetBoundingBoxForPositioning
+18012a169 -> 18012a3a7 DocumentMarks::GetBoundingBoxForPositioning
+18012a186 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012a18e -> 18012a2b8 DocumentMarks::GetBoundingBoxForPositioning
+18012a197 -> EXTERNAL:0000023e DOCUMENT.DLL::ArtDoc::ContentObject::GetContent
+18012a1a4 -> 180235d10 FUN_180235d10
+18012a1b3 -> 18012a1e5 DocumentMarks::GetBoundingBoxForPositioning
+18012a1c6 -> 18012a1e5 DocumentMarks::GetBoundingBoxForPositioning
+18012a1da -> 18012a1e5 DocumentMarks::GetBoundingBoxForPositioning
+18012a1e8 -> 18012a2a7 DocumentMarks::GetBoundingBoxForPositioning
+18012a1f6 -> 18012a3d0 FUN_18012a3d0
+18012a209 -> 18012a24c DocumentMarks::GetBoundingBoxForPositioning
+18012a228 -> 1802ccf7a VCRUNTIME140.DLL::__RTDynamicCast
+18012a230 -> 18012a23e DocumentMarks::GetBoundingBoxForPositioning
+18012a235 -> 180095b90 DocumentMarks::DynamicObject::isMarkNormalized
+18012a23c -> 18012a290 DocumentMarks::GetBoundingBoxForPositioning
+18012a245 -> 18012a210 DocumentMarks::GetBoundingBoxForPositioning
+18012a252 -> 18012a2a2 DocumentMarks::GetBoundingBoxForPositioning
+18012a272 -> 18012a29a DocumentMarks::GetBoundingBoxForPositioning
+18012a287 -> 18012a29a DocumentMarks::GetBoundingBoxForPositioning
+18012a289 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18012a298 -> 18012a24f DocumentMarks::GetBoundingBoxForPositioning
+18012a29d -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+18012a2a5 -> 18012a2b8 DocumentMarks::GetBoundingBoxForPositioning
+18012a2ae -> 18012a530 DocumentMarks::GetPDFPlusBoundingBox
+18012a2b3 -> 18012a3a7 DocumentMarks::GetBoundingBoxForPositioning
+18012a2bd -> EXTERNAL:000001a5 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::ConstVisitorBase
+18012a30a -> 18012a33a DocumentMarks::GetBoundingBoxForPositioning
+18012a338 -> 18012a34d DocumentMarks::GetBoundingBoxForPositioning
+18012a347 -> EXTERNAL:00000210 DOCUMENT.DLL::ArtDoc::ContentObject::GetBoundingBox
+18012a3a1 -> EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012a130 -> Stack[0x8] block=? sym=
+18012a135 -> Stack[0x10] block=? sym=
+18012a142 -> Stack[-0xa8] block=? sym=
+18012a15a -> 1802f1dc8 block=.rdata sym=PTR_GetContent_1802f1dc8
+18012a16e -> Stack[-0x188] block=? sym=
+18012a173 -> 180436cf0 block=.data sym=DocumentMarks::DynamicObject::RTTI_Type_Descriptor
+18012a17a -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012a197 -> 1802f1dc8 block=.rdata sym=PTR_GetContent_1802f1dc8
+18012a1a0 -> Stack[-0xd8] block=? sym=
+18012a1ac -> Stack[-0xd0] block=? sym=
+18012a1f1 -> Stack[-0x178] block=? sym=
+18012a1fc -> Stack[-0x170] block=? sym=
+18012a201 -> Stack[-0x178] block=? sym=
+18012a210 -> Stack[-0x188] block=? sym=
+18012a215 -> 180436cf0 block=.data sym=DocumentMarks::DynamicObject::RTTI_Type_Descriptor
+18012a21c -> 18040a898 block=.data sym=ArtDoc::ContentObject::RTTI_Type_Descriptor
+18012a247 -> Stack[-0x178] block=? sym=
+18012a254 -> Stack[-0x168] block=? sym=
+18012a289 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18012a293 -> Stack[-0x178] block=? sym=
+18012a2b8 -> Stack[-0x158] block=? sym=
+18012a2bd -> 1802f1900 block=.rdata sym=PTR_ConstVisitorBase_1802f1900
+18012a2c3 -> 180315f28 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2ca -> 180315f28 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2ca -> Stack[-0x158] block=? sym=
+18012a2cf -> 180316068 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2d6 -> 180316068 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2d6 -> Stack[-0x150] block=? sym=
+18012a2db -> 180316088 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2e2 -> 180316088 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2e2 -> Stack[-0x148] block=? sym=
+18012a2e7 -> 1803160a8 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2ee -> 1803160a8 block=.rdata sym=_anon_AFE7D701::PositioningBoundingBoxGetter::vftable
+18012a2ee -> Stack[-0x140] block=? sym=
+18012a2f3 -> Stack[-0xe8] block=? sym=
+18012a2fe -> Stack[-0x158] block=? sym=
+18012a306 -> Stack[-0xe8] block=? sym=
+18012a30c -> Stack[-0x130] block=? sym=
+18012a311 -> Stack[-0xc0] block=? sym=
+18012a315 -> Stack[-0x120] block=? sym=
+18012a319 -> Stack[-0xb0] block=? sym=
+18012a31d -> Stack[-0x110] block=? sym=
+18012a321 -> Stack[-0xa0] block=? sym=
+18012a325 -> Stack[-0x100] block=? sym=
+18012a329 -> Stack[-0x90] block=? sym=
+18012a32d -> Stack[-0xf0] block=? sym=
+18012a331 -> Stack[-0x80] block=? sym=
+18012a334 -> Stack[-0xc8] block=? sym=
+18012a340 -> Stack[-0x78] block=? sym=
+18012a347 -> 1802f1c58 block=.rdata sym=PTR_GetBoundingBox_1802f1c58
+18012a34d -> Stack[-0xc0] block=? sym=
+18012a355 -> Stack[-0xb0] block=? sym=
+18012a35d -> Stack[-0xa0] block=? sym=
+18012a365 -> Stack[-0x90] block=? sym=
+18012a36d -> Stack[-0x80] block=? sym=
+18012a378 -> 180313498 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::VDPAreaText>::`vftable'
+18012a37f -> 180313498 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::VDPAreaText>::`vftable'
+18012a37f -> Stack[-0x140] block=? sym=
+18012a384 -> 1802ff458 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::TextOnPathMark>::`vftable'
+18012a38b -> 1802ff458 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::TextOnPathMark>::`vftable'
+18012a38b -> Stack[-0x148] block=? sym=
+18012a390 -> 1802ffd00 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::TextAreaMark>::`vftable'
+18012a397 -> 1802ffd00 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::TextAreaMark>::`vftable'
+18012a397 -> Stack[-0x150] block=? sym=
+18012a39c -> Stack[-0x158] block=? sym=
+18012a3a1 -> 1802f18f8 block=.rdata sym=PTR_~ConstVisitorBase_1802f18f8
+18012a3aa -> Stack[-0x28] block=? sym=
+18012a3b2 -> Stack[0x8] block=? sym=
+18012a3b6 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* class std::optional<class YAGL::RectangleBase<struct YAGL::MilliPointCoordinateSystem> > __cdecl
+   DocumentMarks::GetBoundingBoxForPositioning(class ArtDoc::ContentObject const & __ptr64) */
+
+ContentObject * __cdecl DocumentMarks::GetBoundingBoxForPositioning(ContentObject *param_1)
+
+{
+  int *piVar1;
+  int iVar2;
+  undefined8 uVar3;
+  longlong lVar4;
+  bool bVar5;
+  Content *pCVar6;
+  longlong lVar7;
+  longlong *plVar8;
+  DynamicObject *this;
+  undefined1 *puVar9;
+  ContentObject *in_RDX;
+  undefined8 *puVar10;
+  undefined8 *local_178;
+  undefined8 *local_170;
+  longlong local_168;
+  undefined **local_158;
+  undefined **local_150;
+  undefined **local_148;
+  undefined **local_140;
+  undefined8 local_130;
+  undefined8 uStack_128;
+  undefined8 local_120;
+  undefined8 uStack_118;
+  undefined8 local_110;
+  undefined8 uStack_108;
+  undefined8 local_100;
+  undefined8 uStack_f8;
+  undefined1 local_f0;
+  char local_e8;
+  undefined1 local_d8 [8];
+  longlong *local_d0;
+  undefined1 local_c8 [8];
+  undefined8 local_c0;
+  undefined8 uStack_b8;
+  undefined8 local_b0;
+  undefined8 uStack_a8;
+  undefined8 local_a0;
+  undefined8 uStack_98;
+  undefined8 local_90;
+  undefined8 uStack_88;
+  undefined1 local_80;
+  undefined1 local_78 [80];
+  
+                    /* 0x12a130  1098
+                       ?GetBoundingBoxForPositioning@DocumentMarks@@YA?AV?$optional@V?$RectangleBase@UMilliPointCoordinateSystem@YAGL@@@YAGL@@@std@@AEBVContentObject@ArtDoc@@@Z
+                        */
+  pCVar6 = ArtDoc::ContentObject::GetContent(in_RDX);
+  if (pCVar6 == (Content *)0x0) {
+    param_1[0x50] = (ContentObject)0x0;
+    return param_1;
+  }
+  lVar7 = __RTDynamicCast();
+  if (lVar7 == 0) {
+    pCVar6 = ArtDoc::ContentObject::GetContent(in_RDX);
+    plVar8 = (longlong *)FUN_180235d10(local_d8,pCVar6);
+    lVar7 = *plVar8;
+    if (local_d0 != (longlong *)0x0) {
+      LOCK();
+      plVar8 = local_d0 + 1;
+      lVar4 = *plVar8;
+      *(int *)plVar8 = (int)*plVar8 + -1;
+      UNLOCK();
+      if ((int)lVar4 == 1) {
+        (**(code **)*local_d0)(local_d0);
+        LOCK();
+        piVar1 = (int *)((longlong)local_d0 + 0xc);
+        iVar2 = *piVar1;
+        *piVar1 = *piVar1 + -1;
+        UNLOCK();
+        if (iVar2 == 1) {
+          (**(code **)(*local_d0 + 8))(local_d0);
+        }
+      }
+    }
+    if (lVar7 == 0) {
+      FUN_18012a3d0(&local_178);
+      puVar10 = local_178;
+      if (local_178 != local_170) {
+        do {
+          this = (DynamicObject *)
+                 __RTDynamicCast(*puVar10,0,&ArtDoc::ContentObject::RTTI_Type_Descriptor,
+                                 &DynamicObject::RTTI_Type_Descriptor,0);
+          if ((this != (DynamicObject *)0x0) &&
+             (bVar5 = DynamicObject::isMarkNormalized(this), !bVar5)) {
+            bVar5 = false;
+            goto LAB_18012a24f;
+          }
+          puVar10 = puVar10 + 1;
+        } while (puVar10 != local_170);
+      }
+      bVar5 = true;
+LAB_18012a24f:
+      if (local_178 != (undefined8 *)0x0) {
+        puVar10 = local_178;
+        if ((0xfff < (ulonglong)((local_168 - (longlong)local_178 >> 3) * 8)) &&
+           (puVar10 = (undefined8 *)local_178[-1],
+           0x1f < (ulonglong)((longlong)local_178 + (-8 - (longlong)puVar10)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(puVar10);
+      }
+      if (bVar5) goto LAB_18012a2b8;
+    }
+    GetPDFPlusBoundingBox((Visitable *)param_1);
+  }
+  else {
+LAB_18012a2b8:
+    ArtDoc::ConstVisitorBase::ConstVisitorBase((ConstVisitorBase *)&local_158);
+    local_158 = _anon_AFE7D701::PositioningBoundingBoxGetter::vftable;
+    local_150 = _anon_AFE7D701::PositioningBoundingBoxGetter::vftable;
+    local_148 = _anon_AFE7D701::PositioningBoundingBoxGetter::vftable;
+    local_140 = _anon_AFE7D701::PositioningBoundingBoxGetter::vftable;
+    local_e8 = '\0';
+    (**(code **)(*(longlong *)(in_RDX + 0x20) + 8))(in_RDX + 0x20,&local_158);
+    if (local_e8 == '\0') {
+      puVar9 = (undefined1 *)ArtDoc::ContentObject::GetBoundingBox(in_RDX,(BoxKind)local_78);
+    }
+    else {
+      local_c0 = local_130;
+      uStack_b8 = uStack_128;
+      local_b0 = local_120;
+      uStack_a8 = uStack_118;
+      local_a0 = local_110;
+      uStack_98 = uStack_108;
+      local_90 = local_100;
+      uStack_88 = uStack_f8;
+      local_80 = local_f0;
+      puVar9 = local_c8;
+    }
+    uVar3 = *(undefined8 *)(puVar9 + 0x10);
+    *(undefined8 *)(param_1 + 8) = *(undefined8 *)(puVar9 + 8);
+    *(undefined8 *)(param_1 + 0x10) = uVar3;
+    uVar3 = *(undefined8 *)(puVar9 + 0x20);
+    *(undefined8 *)(param_1 + 0x18) = *(undefined8 *)(puVar9 + 0x18);
+    *(undefined8 *)(param_1 + 0x20) = uVar3;
+    uVar3 = *(undefined8 *)(puVar9 + 0x30);
+    *(undefined8 *)(param_1 + 0x28) = *(undefined8 *)(puVar9 + 0x28);
+    *(undefined8 *)(param_1 + 0x30) = uVar3;
+    uVar3 = *(undefined8 *)(puVar9 + 0x40);
+    *(undefined8 *)(param_1 + 0x38) = *(undefined8 *)(puVar9 + 0x38);
+    *(undefined8 *)(param_1 + 0x40) = uVar3;
+    param_1[0x48] = *(ContentObject *)(puVar9 + 0x48);
+    param_1[0x50] = (ContentObject)0x1;
+    local_140 = ArtDoc::ConstVisitor<DocumentMarks::VDPAreaText>::_vftable_;
+    local_148 = ArtDoc::ConstVisitor<DocumentMarks::TextOnPathMark>::_vftable_;
+    local_150 = ArtDoc::ConstVisitor<DocumentMarks::TextAreaMark>::_vftable_;
+    ArtDoc::ConstVisitorBase::~ConstVisitorBase((ConstVisitorBase *)&local_158);
+  }
+  return param_1;
+}
+
+

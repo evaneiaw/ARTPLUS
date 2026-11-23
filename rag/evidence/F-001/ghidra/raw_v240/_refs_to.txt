@@ -1,0 +1,40 @@
+program=DocumentMarks.dll
+sha256=e47328bd25b01b6eb36e54d8e5aa5d799f088afc772d4fe06ed0f14b3c0fa102
+
+[REFS_TO 0x1802fdc58]
+18010f0d6	PARAM	fromFunction=18010e0f0 FUN_18010e0f0
+1802fdc48	DATA	fromFunction=none
+
+[REFS_TO 0x180319368]
+180156b70	DATA	fromFunction=180155d60 DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent
+180156b77	DATA	fromFunction=180155d60 DocumentMarks::PDFPlusInputFileMark::ApplyMarkContent
+18015c060	DATA	fromFunction=18015c060 FUN_18015c060
+18015c067	DATA	fromFunction=18015c060 FUN_18015c060
+
+[REFS_TO 0x180316068]
+18012a2cf	DATA	fromFunction=18012a130 DocumentMarks::GetBoundingBoxForPositioning
+18012a2d6	DATA	fromFunction=18012a130 DocumentMarks::GetBoundingBoxForPositioning
+
+[REFS_TO 0x180305dc8]
+1800b7ffd	DATA	fromFunction=1800b7ef0 FUN_1800b7ef0
+1800b8004	DATA	fromFunction=1800b7ef0 FUN_1800b7ef0
+1800b81cc	DATA	fromFunction=1800b80d0 FUN_1800b80d0
+1800b81d3	DATA	fromFunction=1800b80d0 FUN_1800b80d0
+
+[REFS_TO 0x18032f1d8]
+18028c055	DATA	fromFunction=18028bfb0 FUN_18028bfb0
+18028c05c	DATA	fromFunction=18028bfb0 FUN_18028bfb0
+18028d016	DATA	fromFunction=18028cda0 FUN_18028cda0
+18028d01d	DATA	fromFunction=18028cda0 FUN_18028cda0
+
+[REFS_TO 0x18031a598]
+1801832bf	DATA	fromFunction=1801830b0 FUN_1801830b0
+180176408	DATA	fromFunction=1801763c0 FUN_1801763c0
+1801892ce	DATA	fromFunction=180189150 FUN_180189150
+180175408	DATA	fromFunction=1801753d0 FUN_1801753d0
+18016ac54	DATA	fromFunction=1801683e0 FUN_1801683e0
+18016cf94	DATA	fromFunction=1801683e0 FUN_1801683e0
+
+[REFS_TO 0x1803196b0]
+
+[REFS_TO 0x180319bf0]

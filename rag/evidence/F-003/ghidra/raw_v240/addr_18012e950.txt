@@ -1,0 +1,81 @@
+requested=0x18012e950
+resolvedAddress=18012e950
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012e950 UpdateSizeReference
+status=OK
+entry=18012e950
+name=UpdateSizeReference
+qualifiedName=DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=void UpdateSizeReference(PDFPlusBearerBar * this)
+returnType=void
+parameterCount=1
+bodyMin=18012e950
+bodyMax=18012e98c
+bodySize=61
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803abb18 refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+1800b0e00 refType=UNCONDITIONAL_CALL fromFunction=1800b0210 FUN_1800b0210
+18012f75c refType=UNCONDITIONAL_CALL fromFunction=18012f6e0 regenerateMarkImp
+
+[CALLERS]
+1800b0210 FUN_1800b0210
+18012f6e0 DocumentMarks::PDFPlusBearerBar::regenerateMarkImp
+
+[CALLEES]
+
+[DIRECT_CALL_TARGETS]
+18012e95a -> 18012e98c DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+18012e96e -> 18012e98c DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+18012e96e -> 18012e970 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+18012e96e -> 18012e979 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+18012e977 -> 18012e980 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+18012e980 -> 18012e98c DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012e95c -> 180000000 block=Headers sym=IMAGE_DOS_HEADER_180000000
+18012e963 -> 18012e990 block=.text sym=switchD_18012e96e::switchdataD_18012e990
+
+[DECOMPILE]
+
+/* public: void __cdecl DocumentMarks::PDFPlusBearerBar::UpdateSizeReference(void) __ptr64 */
+
+void __thiscall DocumentMarks::PDFPlusBearerBar::UpdateSizeReference(PDFPlusBearerBar *this)
+
+{
+  bool bVar1;
+  
+                    /* 0x12e950  1713  ?UpdateSizeReference@PDFPlusBearerBar@DocumentMarks@@QEAAXXZ
+                        */
+  switch(*(undefined4 *)(this + 0x7f8)) {
+  default:
+    goto switchD_18012e96e_caseD_0;
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+    bVar1 = *(int *)(this + 0x770) == 0;
+    break;
+  case 5:
+  case 6:
+  case 7:
+  case 8:
+    bVar1 = *(int *)(this + 0x770) == 1;
+  }
+  if (bVar1) {
+    *(undefined4 *)(this + 0x7f8) = 0;
+  }
+switchD_18012e96e_caseD_0:
+  return;
+}
+
+

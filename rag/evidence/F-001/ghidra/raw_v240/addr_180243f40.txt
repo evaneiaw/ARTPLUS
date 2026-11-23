@@ -1,0 +1,920 @@
+requested=0x180243f40
+resolvedAddress=180243f40
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=180243f40 ApplyRelevantMarkSets
+status=OK
+entry=180243f40
+name=ApplyRelevantMarkSets
+qualifiedName=DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+namespace=DocumentMarks::TaskMarkSets
+signature=void ApplyRelevantMarkSets(TaskMarkSets * this, Page * param_1, int param_2, bool param_3, bool param_4, bool param_5, bool param_6)
+returnType=void
+parameterCount=7
+bodyMin=180243f40
+bodyMax=180244a4d
+bodySize=2824
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aad74 refType=DATA fromFunction=
+18048e49c refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+
+[CALLERS]
+
+[CALLEES]
+1800c82e0 DocumentMarks::AdjustPageBoxes
+18003a010 FUN_18003a010
+180084680 DocumentMarks::GetDynamicMarksController
+1800f4d00 DocumentMarks::DetectNormalizedInkTypes
+EXTERNAL:00000239 DOCUMENT.DLL::ArtDoc::Separation::FindOrAdd
+1800316e0 DocumentMarks::GetChangeTracker
+180023a60 FUN_180023a60
+180117f20 DocumentMarks::UpdateMarksOnPage
+EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180082d70 DocumentMarks::DynamicMarksController::EnableUpdates
+180035ab0 FUN_180035ab0
+1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+1800c83f0 DocumentMarks::GetDynamicMarksBox
+180243bc0 FUN_180243bc0
+1800f3400 DocumentMarks::AddNormalizedInkHint
+EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+18001be10 FUN_18001be10
+1800138d0 FUN_1800138d0
+180046550 DocumentMarks::MoveExpandedMarks
+180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+EXTERNAL:00000273 DOCUMENT.DLL::ArtDoc::Content::GetSeparations
+EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+1802cbfd0 __security_check_cookie
+180016510 FUN_180016510
+EXTERNAL:00000397 DOCUMENT.DLL::ArtDoc::DynamicObjectController::SetAllNeedUpdate
+180045c70 DocumentMarks::MakeFormsFromMarks
+EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+1800ec5f0 DocumentMarks::MergeSeparationInfo
+EXTERNAL:00000236 DOCUMENT.DLL::ArtDoc::Separation::Entry::GetName
+EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+18001c310 FUN_18001c310
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+1800f3430 DocumentMarks::AddNormalizedInkHints
+EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+EXTERNAL:00000213 DOCUMENT.DLL::ArtDoc::Document::SetSeparationInfo
+1800db8a0 DocumentMarks::InkCollector::InkCollector
+EXTERNAL:00000235 DOCUMENT.DLL::ArtDoc::Separations::GetList
+EXTERNAL:0000023b DOCUMENT.DLL::ArtDoc::Document::GetDynamicObjects
+18003f2b0 FUN_18003f2b0
+EXTERNAL:00000261 DOCUMENT.DLL::ArtDoc::PageContent::Accept
+
+[DIRECT_CALL_TARGETS]
+180243f95 -> EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+180243fa3 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180243fac -> 180084680 DocumentMarks::GetDynamicMarksController
+180243fb6 -> 180082d70 DocumentMarks::DynamicMarksController::EnableUpdates
+180243fcd -> 180244016 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180243fd3 -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180243fdc -> 180243fec DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180243fe1 -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180243fea -> 18024400a DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180243fef -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180243ffa -> EXTERNAL:00000236 DOCUMENT.DLL::ArtDoc::Separation::Entry::GetName
+180244005 -> 1800f3400 DocumentMarks::AddNormalizedInkHint
+180244014 -> 180243fd0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244028 -> 180244033 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244031 -> 18024406f DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244048 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+18024405e -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024406a -> 180244040 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244085 -> 1802440d3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244092 -> 1802440a0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244099 -> 180244113 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802440a8 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+1802440be -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802440ca -> 1802440a0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802440d1 -> 180244111 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802440de -> 180244113 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802440e8 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+1802440fe -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024410a -> 1802440e0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024411f -> 180244173 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024412c -> 180244173 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244148 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+18024415e -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+18024416a -> 180244140 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244178 -> 1802441d3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024418b -> 1802441d3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802441a8 -> EXTERNAL:00000170 DOCUMENT.DLL::ArtDoc::Document::GetPagesBegin
+1802441be -> 180245380 DocumentMarks::TaskMarkSets::CopyMarksToPageWithLog
+1802441ca -> 1802441a0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802441d1 -> 1802441db DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802441d5 -> 1802449de DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802441de -> EXTERNAL:00000168 DOCUMENT.DLL::ArtDoc::Page::GetContent
+1802441ee -> 1800f4d00 DocumentMarks::DetectNormalizedInkTypes
+180244200 -> 1800db8a0 DocumentMarks::InkCollector::InkCollector
+18024420f -> EXTERNAL:00000261 DOCUMENT.DLL::ArtDoc::PageContent::Accept
+18024421a -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180244223 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+180244231 -> 180035ab0 FUN_180035ab0
+180244244 -> 18024428c DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244249 -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180244252 -> 180244262 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244257 -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180244260 -> 180244280 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244265 -> EXTERNAL:000001fc DOCUMENT.DLL::ArtDoc::Separation::Entry::GetInkType
+180244270 -> EXTERNAL:00000236 DOCUMENT.DLL::ArtDoc::Separation::Entry::GetName
+18024427b -> 1800f3400 DocumentMarks::AddNormalizedInkHint
+18024428a -> 180244246 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802442a0 -> 180244360 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802442bb -> 18001be10 FUN_18001be10
+1802442cb -> 1802442fc DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802442d8 -> EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+1802442e0 -> 1802442f3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802442e5 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+1802442ee -> 1800f3430 DocumentMarks::AddNormalizedInkHints
+1802442fa -> 1802442d0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024430e -> 1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+18024431e -> 180244351 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244325 -> 18003a010 FUN_18003a010
+180244356 -> 18003a010 FUN_18003a010
+18024436a -> 18024444b DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024437c -> 18024438c DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024438a -> 1802443a8 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244399 -> 18001be10 FUN_18001be10
+1802443b2 -> 1802443ec DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802443c8 -> EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+1802443d0 -> 1802443e3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802443d5 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+1802443de -> 1800f3430 DocumentMarks::AddNormalizedInkHints
+1802443ea -> 1802443c0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802443fe -> 1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+18024440e -> 180244441 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244415 -> 18003a010 FUN_18003a010
+180244446 -> 18003a010 FUN_18003a010
+180244450 -> 18024452b DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244462 -> 180244472 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244470 -> 18024448e DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024447f -> 18001be10 FUN_18001be10
+180244498 -> 1802444cc DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802444a8 -> EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+1802444b0 -> 1802444c3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802444b5 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+1802444be -> 1800f3430 DocumentMarks::AddNormalizedInkHints
+1802444ca -> 1802444a0 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802444de -> 1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+1802444ee -> 180244521 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802444f5 -> 18003a010 FUN_18003a010
+180244526 -> 18003a010 FUN_18003a010
+180244530 -> 18024460b DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244542 -> 180244552 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244550 -> 18024456e DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024455f -> 18001be10 FUN_18001be10
+180244578 -> 1802445ac DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244588 -> EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+180244590 -> 1802445a3 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244595 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+18024459e -> 1800f3430 DocumentMarks::AddNormalizedInkHints
+1802445aa -> 180244580 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802445be -> 1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+1802445ce -> 180244601 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802445d5 -> 18003a010 FUN_18003a010
+180244606 -> 18003a010 FUN_18003a010
+180244610 -> 1802446ee DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244625 -> 180244635 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244633 -> 180244647 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244642 -> 18001be10 FUN_18001be10
+180244653 -> 18024468c DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244668 -> EXTERNAL:0000016f DOCUMENT.DLL::ArtDoc::Document::GetInfoFlag
+180244670 -> 180244683 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244675 -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+18024467e -> 1800f3430 DocumentMarks::AddNormalizedInkHints
+18024468a -> 180244660 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802446a1 -> 1800dc190 DocumentMarks::InkCollector::MergeUsedSeparations
+1802446b1 -> 1802446e4 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802446b8 -> 18003a010 FUN_18003a010
+1802446e9 -> 18003a010 FUN_18003a010
+1802446f9 -> 18024471a DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244708 -> EXTERNAL:00000239 DOCUMENT.DLL::ArtDoc::Separation::FindOrAdd
+180244718 -> 180244700 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244722 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180244735 -> 180035ab0 FUN_180035ab0
+180244740 -> EXTERNAL:00000213 DOCUMENT.DLL::ArtDoc::Document::SetSeparationInfo
+180244749 -> EXTERNAL:00000273 DOCUMENT.DLL::ArtDoc::Content::GetSeparations
+18024475c -> EXTERNAL:00000235 DOCUMENT.DLL::ArtDoc::Separations::GetList
+180244766 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+18024476f -> 1800316e0 DocumentMarks::GetChangeTracker
+1802447a2 -> 1800138d0 FUN_1800138d0
+1802447b2 -> 1802447c7 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802447c4 -> 180016510 FUN_180016510
+1802447ca -> 180117f20 DocumentMarks::UpdateMarksOnPage
+1802447d2 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+1802447db -> EXTERNAL:00000200 DOCUMENT.DLL::ArtDoc::Document::GetSeparationInfo
+1802447e8 -> 180035ab0 FUN_180035ab0
+1802447f1 -> EXTERNAL:00000273 DOCUMENT.DLL::ArtDoc::Content::GetSeparations
+180244804 -> EXTERNAL:00000235 DOCUMENT.DLL::ArtDoc::Separations::GetList
+18024483c -> 180243bc0 FUN_180243bc0
+18024487d -> 180244888 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244882 -> 180244931 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244896 -> 1800ec5f0 DocumentMarks::MergeSeparationInfo
+1802448a6 -> 1802448d9 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802448ad -> 18003a010 FUN_18003a010
+1802448de -> 18003a010 FUN_18003a010
+1802448e6 -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+1802448f9 -> 180035ab0 FUN_180035ab0
+180244904 -> EXTERNAL:00000213 DOCUMENT.DLL::ArtDoc::Document::SetSeparationInfo
+18024490d -> EXTERNAL:0000017c DOCUMENT.DLL::ArtDoc::Content::GetDocument
+180244916 -> EXTERNAL:0000023b DOCUMENT.DLL::ArtDoc::Document::GetDynamicObjects
+180244922 -> EXTERNAL:00000397 DOCUMENT.DLL::ArtDoc::DynamicObjectController::SetAllNeedUpdate
+18024492b -> 180117f20 DocumentMarks::UpdateMarksOnPage
+180244938 -> 18003f2b0 FUN_18003f2b0
+180244942 -> 18003a010 FUN_18003a010
+18024494f -> 18003f2b0 FUN_18003f2b0
+18024495d -> 1802449a1 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+18024497d -> 18024499b DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244992 -> 18024499b DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244994 -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18024499b -> 1802cbea4 API-MS-WIN-CRT-HEAP-L1-1-0.DLL::free
+1802449a6 -> 18003a010 FUN_18003a010
+1802449b0 -> 18001c310 FUN_18001c310
+1802449b9 -> 180023a60 FUN_180023a60
+1802449d8 -> EXTERNAL:000001a4 DOCUMENT.DLL::ArtDoc::ConstVisitorBase::~ConstVisitorBase
+1802449e5 -> 180244a05 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+1802449f1 -> 1800c83f0 DocumentMarks::GetDynamicMarksBox
+180244a00 -> 1800c82e0 DocumentMarks::AdjustPageBoxes
+180244a08 -> 180244a14 DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+180244a0f -> 180045c70 DocumentMarks::MakeFormsFromMarks
+180244a1f -> 180046550 DocumentMarks::MoveExpandedMarks
+180244a2e -> 1802cbfd0 __security_check_cookie
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+180243f40 -> Stack[0x18] block=? sym=
+180243f50 -> Stack[-0x1e8] block=? sym=
+180243f5f -> 180409ec0 block=.data sym=DAT_180409ec0
+180243f69 -> Stack[-0x48] block=? sym=
+180243f70 -> Stack[-0x2c4] block=? sym=
+180243f7e -> Stack[-0x2c8] block=? sym=
+180243f83 -> Stack[-0x2c7] block=? sym=
+180243f88 -> Stack[-0x2c6] block=? sym=
+180243f8d -> Stack[-0x2c5] block=? sym=
+180243f95 -> 1802f1718 block=.rdata sym=PTR_GetContent_1802f1718
+180243f9b -> Stack[-0x270] block=? sym=
+180243fa3 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180243fbf -> Stack[-0x268] block=? sym=
+180243fd3 -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180243fe1 -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180243fef -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180243ffa -> 1802f1d88 block=.rdata sym=PTR_GetName_1802f1d88
+18024401e -> Stack[0x38] block=? sym=
+180244040 -> Stack[-0x2c0] block=? sym=
+180244048 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+180244074 -> Stack[0x28] block=? sym=
+180244094 -> Stack[-0x2c8] block=? sym=
+1802440a0 -> Stack[-0x2c0] block=? sym=
+1802440a8 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+1802440cc -> Stack[-0x2c8] block=? sym=
+1802440e0 -> Stack[-0x2c0] block=? sym=
+1802440e8 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+18024410c -> Stack[-0x2c7] block=? sym=
+180244117 -> Stack[0x38] block=? sym=
+180244140 -> Stack[-0x2c0] block=? sym=
+180244148 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+18024416c -> Stack[-0x2c6] block=? sym=
+180244173 -> Stack[-0x2c4] block=? sym=
+1802441a0 -> Stack[-0x2c0] block=? sym=
+1802441a8 -> 1802f1758 block=.rdata sym=PTR_GetPagesBegin_1802f1758
+1802441cc -> Stack[-0x2c5] block=? sym=
+1802441de -> 1802f1718 block=.rdata sym=PTR_GetContent_1802f1718
+1802441fc -> Stack[-0x248] block=? sym=
+180244206 -> Stack[-0x248] block=? sym=
+18024420a -> Stack[-0x270] block=? sym=
+18024420f -> 1802f1ee0 block=.rdata sym=PTR_Accept_1802f1ee0
+180244215 -> Stack[-0x270] block=? sym=
+18024421a -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180244223 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+18024422c -> Stack[-0x2b8] block=? sym=
+180244237 -> Stack[-0x2b0] block=? sym=
+18024423c -> Stack[-0x2b8] block=? sym=
+180244249 -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180244257 -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180244265 -> 1802f1bb8 block=.rdata sym=PTR_GetInkType_1802f1bb8
+180244270 -> 1802f1d88 block=.rdata sym=PTR_GetName_1802f1d88
+18024428f -> Stack[-0x2a0] block=? sym=
+180244298 -> Stack[-0x290] block=? sym=
+1802442aa -> Stack[-0x2c0] block=? sym=
+1802442af -> Stack[-0x2c0] block=? sym=
+1802442b6 -> Stack[-0x2a0] block=? sym=
+1802442d8 -> 1802f1750 block=.rdata sym=PTR_GetInfoFlag_1802f1750
+1802442e5 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+180244300 -> Stack[-0x2b8] block=? sym=
+180244305 -> Stack[-0x288] block=? sym=
+18024430a -> Stack[-0x248] block=? sym=
+180244316 -> Stack[-0x2b8] block=? sym=
+180244320 -> Stack[-0x2b8] block=? sym=
+18024432d -> Stack[-0x2b8] block=? sym=
+180244336 -> Stack[-0x2b0] block=? sym=
+18024433f -> Stack[-0x2a8] block=? sym=
+180244351 -> Stack[-0x288] block=? sym=
+18024435b -> Stack[-0x290] block=? sym=
+180244360 -> Stack[-0x298] block=? sym=
+180244365 -> Stack[-0x2c7] block=? sym=
+180244374 -> Stack[-0x2c0] block=? sym=
+180244385 -> Stack[-0x298] block=? sym=
+18024438c -> Stack[-0x2c0] block=? sym=
+180244394 -> Stack[-0x2a0] block=? sym=
+18024439e -> Stack[-0x290] block=? sym=
+1802443a3 -> Stack[-0x298] block=? sym=
+1802443c8 -> 1802f1750 block=.rdata sym=PTR_GetInfoFlag_1802f1750
+1802443d5 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+1802443f0 -> Stack[-0x2b8] block=? sym=
+1802443f5 -> Stack[-0x288] block=? sym=
+1802443fa -> Stack[-0x248] block=? sym=
+180244406 -> Stack[-0x2b8] block=? sym=
+180244410 -> Stack[-0x2b8] block=? sym=
+18024441d -> Stack[-0x2b8] block=? sym=
+180244426 -> Stack[-0x2b0] block=? sym=
+18024442f -> Stack[-0x2a8] block=? sym=
+180244441 -> Stack[-0x288] block=? sym=
+18024444b -> Stack[-0x2c8] block=? sym=
+18024445a -> Stack[-0x2c0] block=? sym=
+18024446b -> Stack[-0x298] block=? sym=
+180244472 -> Stack[-0x2c0] block=? sym=
+18024447a -> Stack[-0x2a0] block=? sym=
+180244484 -> Stack[-0x290] block=? sym=
+180244489 -> Stack[-0x298] block=? sym=
+1802444a8 -> 1802f1750 block=.rdata sym=PTR_GetInfoFlag_1802f1750
+1802444b5 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+1802444d0 -> Stack[-0x2b8] block=? sym=
+1802444d5 -> Stack[-0x288] block=? sym=
+1802444da -> Stack[-0x248] block=? sym=
+1802444e6 -> Stack[-0x2b8] block=? sym=
+1802444f0 -> Stack[-0x2b8] block=? sym=
+1802444fd -> Stack[-0x2b8] block=? sym=
+180244506 -> Stack[-0x2b0] block=? sym=
+18024450f -> Stack[-0x2a8] block=? sym=
+180244521 -> Stack[-0x288] block=? sym=
+18024452b -> Stack[-0x2c6] block=? sym=
+18024453a -> Stack[-0x2c0] block=? sym=
+18024454b -> Stack[-0x298] block=? sym=
+180244552 -> Stack[-0x2c0] block=? sym=
+18024455a -> Stack[-0x2a0] block=? sym=
+180244564 -> Stack[-0x290] block=? sym=
+180244569 -> Stack[-0x298] block=? sym=
+180244588 -> 1802f1750 block=.rdata sym=PTR_GetInfoFlag_1802f1750
+180244595 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+1802445b0 -> Stack[-0x2b8] block=? sym=
+1802445b5 -> Stack[-0x288] block=? sym=
+1802445ba -> Stack[-0x248] block=? sym=
+1802445c6 -> Stack[-0x2b8] block=? sym=
+1802445d0 -> Stack[-0x2b8] block=? sym=
+1802445dd -> Stack[-0x2b8] block=? sym=
+1802445e6 -> Stack[-0x2b0] block=? sym=
+1802445ef -> Stack[-0x2a8] block=? sym=
+180244601 -> Stack[-0x288] block=? sym=
+18024460b -> Stack[-0x2c5] block=? sym=
+18024461d -> Stack[-0x2c0] block=? sym=
+18024462e -> Stack[-0x298] block=? sym=
+180244635 -> Stack[-0x2c0] block=? sym=
+18024463d -> Stack[-0x2a0] block=? sym=
+180244668 -> 1802f1750 block=.rdata sym=PTR_GetInfoFlag_1802f1750
+180244675 -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+180244693 -> Stack[-0x2b8] block=? sym=
+180244698 -> Stack[-0x288] block=? sym=
+18024469d -> Stack[-0x248] block=? sym=
+1802446a9 -> Stack[-0x2b8] block=? sym=
+1802446b3 -> Stack[-0x2b8] block=? sym=
+1802446c0 -> Stack[-0x2b8] block=? sym=
+1802446c9 -> Stack[-0x2b0] block=? sym=
+1802446d2 -> Stack[-0x2a8] block=? sym=
+1802446e4 -> Stack[-0x288] block=? sym=
+180244703 -> Stack[-0x2b8] block=? sym=
+180244708 -> 1802f1da0 block=.rdata sym=PTR_FindOrAdd_1802f1da0
+18024471a -> Stack[-0x270] block=? sym=
+180244722 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+18024472b -> Stack[-0x2b8] block=? sym=
+180244730 -> Stack[-0x288] block=? sym=
+180244740 -> 1802f1c70 block=.rdata sym=PTR_SetSeparationInfo_1802f1c70
+180244749 -> 1802f1f70 block=.rdata sym=PTR_GetSeparations_1802f1f70
+180244752 -> Stack[-0x98] block=? sym=
+18024475c -> 1802f1d80 block=.rdata sym=PTR_GetList_1802f1d80
+180244766 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180244774 -> 18032aeb8 block=.rdata sym=std::_Func_impl_no_alloc<`public:_void___cdecl_DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(ArtDoc::Page&___ptr64,int,bool,bool,bool,bool)___ptr64'::`37'::<lambda_1>,void>::vftable
+18024477b -> 18032aeb8 block=.rdata sym=std::_Func_impl_no_alloc<`public:_void___cdecl_DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(ArtDoc::Page&___ptr64,int,bool,bool,bool,bool)___ptr64'::`37'::<lambda_1>,void>::vftable
+18024477b -> Stack[-0xd8] block=? sym=
+180244782 -> Stack[-0xd0] block=? sym=
+180244789 -> Stack[-0xd8] block=? sym=
+180244790 -> Stack[-0xa0] block=? sym=
+180244797 -> Stack[-0xd8] block=? sym=
+1802447a8 -> Stack[-0xa0] block=? sym=
+1802447b4 -> Stack[-0xd8] block=? sym=
+1802447b7 -> Stack[-0xd8] block=? sym=
+1802447c4 -> 18032aed8 block=.rdata sym=vftable[4]
+1802447d2 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+1802447db -> 1802f1bd8 block=.rdata sym=PTR_GetSeparationInfo_1802f1bd8
+1802447e4 -> Stack[-0x260] block=? sym=
+1802447f1 -> 1802f1f70 block=.rdata sym=PTR_GetSeparations_1802f1f70
+1802447fa -> Stack[-0x108] block=? sym=
+180244804 -> 1802f1d80 block=.rdata sym=PTR_GetList_1802f1d80
+18024480b -> Stack[-0xf0] block=? sym=
+180244812 -> Stack[-0xf8] block=? sym=
+180244819 -> Stack[-0x80] block=? sym=
+180244820 -> Stack[-0x88] block=? sym=
+180244827 -> Stack[-0x2b8] block=? sym=
+18024482c -> Stack[-0x268] block=? sym=
+180244830 -> Stack[-0x2a0] block=? sym=
+180244835 -> Stack[-0x108] block=? sym=
+180244888 -> Stack[-0x260] block=? sym=
+18024488c -> Stack[-0x2b8] block=? sym=
+180244891 -> Stack[-0x288] block=? sym=
+18024489e -> Stack[-0x2b8] block=? sym=
+1802448a8 -> Stack[-0x2b8] block=? sym=
+1802448b5 -> Stack[-0x2b8] block=? sym=
+1802448be -> Stack[-0x2b0] block=? sym=
+1802448c7 -> Stack[-0x2a8] block=? sym=
+1802448d9 -> Stack[-0x288] block=? sym=
+1802448e6 -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+1802448ef -> Stack[-0x2b8] block=? sym=
+1802448f4 -> Stack[-0x288] block=? sym=
+180244904 -> 1802f1c70 block=.rdata sym=PTR_SetSeparationInfo_1802f1c70
+18024490d -> 1802f17b8 block=.rdata sym=PTR_GetDocument_1802f17b8
+180244916 -> 1802f1db0 block=.rdata sym=PTR_GetDynamicObjects_1802f1db0
+180244922 -> 1802f2890 block=.rdata sym=PTR_SetAllNeedUpdate_1802f2890
+180244931 -> Stack[-0x108] block=? sym=
+18024493e -> Stack[-0x260] block=? sym=
+180244948 -> Stack[-0x98] block=? sym=
+180244955 -> Stack[-0x2a0] block=? sym=
+18024495f -> Stack[-0x290] block=? sym=
+180244994 -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+1802449a1 -> Stack[-0x2b8] block=? sym=
+1802449ac -> Stack[-0x1f8] block=? sym=
+1802449b5 -> Stack[-0x210] block=? sym=
+1802449be -> 1802fbbe0 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::SNRGrid>::`vftable'
+1802449c5 -> 1802fbbe0 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::SNRGrid>::`vftable'
+1802449c5 -> Stack[-0x238] block=? sym=
+1802449c9 -> 1802f9650 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::DynamicObject>::`vftable'
+1802449d0 -> 1802f9650 block=.rdata sym=ArtDoc::ConstVisitor<DocumentMarks::DynamicObject>::`vftable'
+1802449d0 -> Stack[-0x240] block=? sym=
+1802449d4 -> Stack[-0x248] block=? sym=
+1802449d8 -> 1802f18f8 block=.rdata sym=PTR_~ConstVisitorBase_1802f18f8
+1802449de -> Stack[0x30] block=? sym=
+1802449ea -> Stack[-0x98] block=? sym=
+1802449f6 -> Stack[-0x98] block=? sym=
+180244a24 -> Stack[-0x48] block=? sym=
+180244a33 -> Stack[0x10] block=? sym=
+
+[DECOMPILE]
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __cdecl DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(class ArtDoc::Page &
+   __ptr64,int,bool,bool,bool,bool) __ptr64 */
+
+void __thiscall
+DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets
+          (TaskMarkSets *this,Page *param_1,int param_2,bool param_3,bool param_4,bool param_5,
+          bool param_6)
+
+{
+  TaskMarkSets *pTVar1;
+  Content *this_00;
+  bool bVar2;
+  char cVar3;
+  InkType IVar4;
+  Document *pDVar5;
+  DynamicMarksController *this_01;
+  basic_string<char,std::char_traits<char>,std::allocator<char>_> *pbVar6;
+  undefined8 *puVar7;
+  PageContent *pPVar8;
+  vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *pvVar9;
+  Entry **ppEVar10;
+  undefined8 uVar11;
+  Separations *pSVar12;
+  ChangeTracker *pCVar13;
+  DynamicObjectController *this_02;
+  bool bVar14;
+  void *_Memory;
+  longlong lVar15;
+  undefined8 *puVar16;
+  undefined8 *puVar17;
+  longlong *plVar18;
+  Entry *pEVar19;
+  Entry *pEVar20;
+  longlong *plVar21;
+  undefined1 auStack_2e8 [32];
+  char local_2c8;
+  char local_2c7;
+  char local_2c6;
+  char local_2c5;
+  char local_2c4;
+  TaskMarkSets *local_2c0;
+  Entry *local_2b8;
+  Entry *local_2b0;
+  Entry *local_2a8;
+  void *local_2a0;
+  longlong *plStack_298;
+  longlong *local_290;
+  vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+  local_288 [24];
+  Content *local_270;
+  TaskMarkSets *local_268;
+  undefined1 local_260 [24];
+  InkCollector local_248 [8];
+  undefined **local_240;
+  undefined **local_238;
+  undefined1 local_210 [24];
+  undefined1 local_1f8 [240];
+  undefined1 local_108 [16];
+  longlong local_f8;
+  longlong local_f0;
+  undefined **local_d8;
+  Content *local_d0;
+  undefined ***local_a0;
+  Page local_98 [16];
+  longlong local_88;
+  longlong local_80;
+  ulonglong local_48;
+  
+                    /* 0x243f40  840
+                       ?ApplyRelevantMarkSets@TaskMarkSets@DocumentMarks@@QEAAXAEAVPage@ArtDoc@@H_N111@Z
+                        */
+  local_48 = DAT_180409ec0 ^ (ulonglong)auStack_2e8;
+  local_2c8 = '\0';
+  local_2c7 = '\0';
+  local_2c6 = '\0';
+  local_2c5 = '\0';
+  local_2c4 = param_3;
+  local_270 = (Content *)ArtDoc::Page::GetContent(param_1);
+  pDVar5 = ArtDoc::Content::GetDocument(local_270);
+  this_01 = GetDynamicMarksController(pDVar5);
+  DynamicMarksController::EnableUpdates(this_01,false);
+  local_268 = this + 0x10;
+  pEVar20 = *(Entry **)(this + 0x18);
+  for (pEVar19 = *(Entry **)local_268; pEVar19 != pEVar20; pEVar19 = pEVar19 + 0xf0) {
+    IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19);
+    if ((IVar4 == 2) || (IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19), IVar4 == 3)) {
+      IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar19);
+      pbVar6 = ArtDoc::Separation::Entry::GetName(pEVar19);
+      AddNormalizedInkHint(pbVar6,IVar4);
+    }
+  }
+  puVar16 = *(undefined8 **)(this + 0x28);
+  puVar17 = *(undefined8 **)(this + 0x30);
+  if (puVar16 == puVar17) {
+    bVar2 = false;
+  }
+  else {
+    do {
+      puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+      puVar16 = puVar16 + 1;
+    } while (puVar16 != puVar17);
+    bVar2 = true;
+  }
+  bVar14 = true;
+  if (!bVar2) {
+    bVar14 = param_4;
+  }
+  if ((param_2 & 1U) == 0) {
+    puVar16 = *(undefined8 **)(this + 0x40);
+    puVar17 = *(undefined8 **)(this + 0x48);
+    if (puVar16 != puVar17) {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c7 = '\x01';
+      goto LAB_180244111;
+    }
+  }
+  else {
+    puVar16 = *(undefined8 **)(this + 0x58);
+    puVar17 = *(undefined8 **)(this + 0x60);
+    if (puVar16 == puVar17) {
+      local_2c8 = '\0';
+    }
+    else {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c8 = '\x01';
+LAB_180244111:
+      bVar14 = true;
+    }
+  }
+  if (param_2 == 1) {
+    puVar16 = *(undefined8 **)(this + 0x70);
+    puVar17 = *(undefined8 **)(this + 0x78);
+    if (puVar16 != puVar17) {
+      do {
+        puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+        CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+        puVar16 = puVar16 + 1;
+      } while (puVar16 != puVar17);
+      local_2c6 = '\x01';
+      bVar14 = true;
+    }
+  }
+  if (local_2c4 == '\0') {
+LAB_1802441d3:
+    if (bVar14 == false) goto LAB_1802449de;
+  }
+  else {
+    puVar16 = *(undefined8 **)(this + 0x88);
+    puVar17 = *(undefined8 **)(this + 0x90);
+    if (puVar16 == puVar17) goto LAB_1802441d3;
+    do {
+      puVar7 = (undefined8 *)ArtDoc::Document::GetPagesBegin((Document *)*puVar16);
+      CopyMarksToPageWithLog(this,*(Page **)*puVar7,param_1,!param_6);
+      puVar16 = puVar16 + 1;
+    } while (puVar16 != puVar17);
+    local_2c5 = '\x01';
+  }
+  pPVar8 = ArtDoc::Page::GetContent(param_1);
+  DetectNormalizedInkTypes((Content *)pPVar8,true,true);
+  InkCollector::InkCollector
+            (local_248,param_1,false,
+             (set<unsigned___int64,std::less<unsigned___int64>,std::allocator<unsigned___int64>_> *)
+             0x0);
+  ArtDoc::PageContent::Accept((PageContent *)local_270,(ConstVisitorBase *)local_248);
+  pDVar5 = ArtDoc::Content::GetDocument(local_270);
+  pvVar9 = ArtDoc::Document::GetSeparationInfo(pDVar5);
+  FUN_180035ab0(&local_2b8,pvVar9);
+  pEVar19 = local_2b0;
+  for (pEVar20 = local_2b8; pEVar20 != pEVar19; pEVar20 = pEVar20 + 0xf0) {
+    IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20);
+    if ((IVar4 == 2) || (IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20), IVar4 == 3)) {
+      IVar4 = ArtDoc::Separation::Entry::GetInkType(pEVar20);
+      pbVar6 = ArtDoc::Separation::Entry::GetName(pEVar20);
+      AddNormalizedInkHint(pbVar6,IVar4);
+    }
+  }
+  local_2a0 = (void *)0x0;
+  plStack_298 = (longlong *)0x0;
+  local_290 = (longlong *)0x0;
+  if (bVar2) {
+    local_2c0 = this + 0x28;
+    FUN_18001be10(&local_2a0,0,&local_2c0);
+    puVar16 = *(undefined8 **)(this + 0x30);
+    for (puVar17 = *(undefined8 **)(this + 0x28); puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  plVar18 = plStack_298;
+  plVar21 = local_290;
+  if (local_2c7 != '\0') {
+    pTVar1 = this + 0x40;
+    local_2c0 = pTVar1;
+    if (plStack_298 == local_290) {
+      FUN_18001be10(&local_2a0,plStack_298,&local_2c0);
+    }
+    else {
+      *plStack_298 = (longlong)pTVar1;
+      plStack_298 = plStack_298 + 1;
+    }
+    plVar21 = local_290;
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x48);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c8 != '\0') {
+    pTVar1 = this + 0x58;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+      plVar21 = local_290;
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x60);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c6 != '\0') {
+    pTVar1 = this + 0x70;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+      plVar21 = local_290;
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    plVar18 = plStack_298;
+    puVar16 = *(undefined8 **)(this + 0x78);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  if (local_2c5 != '\0') {
+    pTVar1 = this + 0x88;
+    local_2c0 = pTVar1;
+    if (plVar18 == plVar21) {
+      FUN_18001be10(&local_2a0,plVar18,&local_2c0);
+    }
+    else {
+      *plVar18 = (longlong)pTVar1;
+      plStack_298 = plVar18 + 1;
+    }
+    puVar16 = *(undefined8 **)(this + 0x90);
+    for (puVar17 = *(undefined8 **)pTVar1; puVar17 != puVar16; puVar17 = puVar17 + 1) {
+      bVar2 = ArtDoc::Document::GetInfoFlag((Document *)*puVar17,2);
+      if (bVar2) {
+        pvVar9 = ArtDoc::Document::GetSeparationInfo((Document *)*puVar17);
+        AddNormalizedInkHints(pvVar9);
+      }
+    }
+    ppEVar10 = (Entry **)
+               InkCollector::MergeUsedSeparations
+                         (local_248,local_288,
+                          (vector<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>,std::allocator<std::unique_ptr<ArtDoc::Document,std::default_delete<ArtDoc::Document>_>_>_>
+                           *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+  }
+  pEVar20 = *(Entry **)(this + 0x18);
+  this_00 = local_270;
+  for (pEVar19 = *(Entry **)(this + 0x10); local_270 = this_00, pEVar19 != pEVar20;
+      pEVar19 = pEVar19 + 0xf0) {
+    ArtDoc::Separation::FindOrAdd
+              ((vector<ArtDoc::Separation::Entry,std::allocator<ArtDoc::Separation::Entry>_> *)
+               &local_2b8,pEVar19);
+    this_00 = local_270;
+  }
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  uVar11 = FUN_180035ab0(local_288,&local_2b8);
+  ArtDoc::Document::SetSeparationInfo(pDVar5,uVar11);
+  pSVar12 = ArtDoc::Content::GetSeparations(this_00);
+  ArtDoc::Separations::GetList(pSVar12,SUB81(local_98,0));
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  pCVar13 = GetChangeTracker(pDVar5);
+  local_d8 = std::
+             _Func_impl_no_alloc<`public:_void___cdecl_DocumentMarks::TaskMarkSets::ApplyRelevantMarkSets(ArtDoc::Page&___ptr64,int,bool,bool,bool,bool)___ptr64'::`37'::<lambda_1>,void>
+             ::vftable;
+  local_a0 = &local_d8;
+  local_d0 = this_00;
+  FUN_1800138d0(*(undefined8 *)(pCVar13 + 0x30),&local_d8);
+  if (local_a0 != (undefined ***)0x0) {
+    (*(code *)(*local_a0)[4])
+              (local_a0,CONCAT71((int7)((ulonglong)&local_d8 >> 8),local_a0 != &local_d8));
+  }
+  UpdateMarksOnPage(param_1);
+  pDVar5 = ArtDoc::Content::GetDocument(this_00);
+  pvVar9 = ArtDoc::Document::GetSeparationInfo(pDVar5);
+  FUN_180035ab0(local_260,pvVar9);
+  pSVar12 = ArtDoc::Content::GetSeparations(this_00);
+  ArtDoc::Separations::GetList(pSVar12,SUB81(local_108,0));
+  cVar3 = FUN_180243bc0(local_108,&local_2a0,local_268,&local_2b8);
+  lVar15 = (local_80 - local_88) / 6 + (local_80 - local_88 >> 0x3f);
+  if (((ulonglong)((lVar15 >> 3) - (lVar15 >> 0x3f)) < (ulonglong)((local_f0 - local_f8) / 0x30)) ||
+     (cVar3 != '\0')) {
+    ppEVar10 = (Entry **)
+               MergeSeparationInfo(local_288,
+                                   (vector<class_ArtDoc::Separation::Entry,class_std::allocator<class_ArtDoc::Separation::Entry>_>
+                                    *)&local_2b8);
+    if (&local_2b8 != ppEVar10) {
+      FUN_18003a010(&local_2b8);
+      local_2b8 = *ppEVar10;
+      local_2b0 = ppEVar10[1];
+      local_2a8 = ppEVar10[2];
+      *ppEVar10 = (Entry *)0x0;
+      ppEVar10[1] = (Entry *)0x0;
+      ppEVar10[2] = (Entry *)0x0;
+    }
+    FUN_18003a010(local_288);
+    pDVar5 = ArtDoc::Content::GetDocument(this_00);
+    uVar11 = FUN_180035ab0(local_288,&local_2b8);
+    ArtDoc::Document::SetSeparationInfo(pDVar5,uVar11);
+    pDVar5 = ArtDoc::Content::GetDocument(this_00);
+    this_02 = ArtDoc::Document::GetDynamicObjects(pDVar5);
+    ArtDoc::DynamicObjectController::SetAllNeedUpdate(this_02,param_1);
+    UpdateMarksOnPage(param_1);
+  }
+  FUN_18003f2b0(local_108);
+  FUN_18003a010(local_260);
+  FUN_18003f2b0(local_98);
+  if (local_2a0 != (void *)0x0) {
+    _Memory = local_2a0;
+    if ((0xfff < (ulonglong)(((longlong)local_290 - (longlong)local_2a0 >> 3) * 8)) &&
+       (_Memory = *(void **)((longlong)local_2a0 + -8),
+       0x1f < (ulonglong)((longlong)local_2a0 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  FUN_18003a010(&local_2b8);
+  FUN_18001c310(local_1f8);
+  FUN_180023a60(local_210);
+  local_238 = ArtDoc::ConstVisitor<DocumentMarks::SNRGrid>::_vftable_;
+  local_240 = ArtDoc::ConstVisitor<DocumentMarks::DynamicObject>::_vftable_;
+  ArtDoc::ConstVisitorBase::~ConstVisitorBase((ConstVisitorBase *)local_248);
+LAB_1802449de:
+  if (param_5) {
+    GetDynamicMarksBox(local_98);
+    AdjustPageBoxes(param_1,(RectangleBase<YAGL::MilliPointCoordinateSystem> *)local_98);
+  }
+  if (param_6) {
+    MakeFormsFromMarks(param_1,false);
+  }
+  MoveExpandedMarks(param_1,!param_6);
+  return;
+}
+
+

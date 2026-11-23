@@ -1,0 +1,176 @@
+requested=0x18012c460
+resolvedAddress=18012c460
+minAddress=180000000
+inMemory=true
+isFunctionEntry=true
+containingFunction=18012c460 PDFPlusBearerBar
+status=OK
+entry=18012c460
+name=PDFPlusBearerBar
+qualifiedName=DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+namespace=DocumentMarks::PDFPlusBearerBar
+signature=undefined PDFPlusBearerBar(PDFPlusBearerBar * this, PDFPlusBearerBar * param_1, CloneStrategy * param_2)
+returnType=undefined
+parameterCount=3
+bodyMin=18012c460
+bodyMax=18012c630
+bodySize=463
+isThunk=false
+isExternal=false
+callingConvention=__thiscall
+
+[XREFS_TO]
+1803aa3bc refType=DATA fromFunction=
+1804863cc refType=DATA fromFunction=
+Entry Point refType=EXTERNAL fromFunction=
+18012cadd refType=UNCONDITIONAL_CALL fromFunction=18012cab0 Clone
+
+[CALLERS]
+18012cab0 DocumentMarks::PDFPlusBearerBar::Clone
+
+[CALLEES]
+EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+180016fd0 FUN_180016fd0
+180024cf0 FUN_180024cf0
+1802ccf86 VCRUNTIME140.DLL::memmove
+18006b5c0 DocumentMarks::DynamicMark::DynamicMark
+1802cbe68 FUN_1802cbe68
+180016d60 FUN_180016d60
+180010e20 FUN_180010e20
+
+[DIRECT_CALL_TARGETS]
+18012c477 -> 18006b5c0 DocumentMarks::DynamicMark::DynamicMark
+18012c4d6 -> 18012c515 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c4dc -> 18012c509 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c4e2 -> 18012c4f9 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c4ee -> 180010e20 FUN_180010e20
+18012c4f7 -> 18012c515 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c507 -> 18012c515 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c54d -> 18012c5fd DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c560 -> 18012c62c DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c575 -> 18012c5a6 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c57e -> 18012c626 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c584 -> 1802cbe68 FUN_1802cbe68
+18012c58f -> 18012c59f DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c59d -> 18012c5b3 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c59f -> EXTERNAL:000005ad API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+18012c5a9 -> 18012c5b3 DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+18012c5ae -> 1802cbe68 FUN_1802cbe68
+18012c5e9 -> 1802ccf86 VCRUNTIME140.DLL::memmove
+18012c610 -> 180024cf0 FUN_180024cf0
+18012c626 -> 180016d60 FUN_180016d60
+18012c62c -> 180016fd0 FUN_180016fd0
+
+[STRINGS_REFERENCED]
+
+[DATA_XREFS_FROM_BODY]
+18012c460 -> Stack[0x18] block=? sym=
+18012c465 -> Stack[0x8] block=? sym=
+18012c47d -> 1803162b0 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18012c484 -> 1803162b0 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Detail::ListItem<ArtDoc::ContentObject>'}
+18012c487 -> 180316430 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Visitable'}
+18012c48e -> 180316430 block=.rdata sym=DocumentMarks::PDFPlusBearerBar::`vftable'{for_`ArtDoc::Visitable'}
+18012c4c1 -> Stack[0x10] block=? sym=
+18012c59f -> 1802f3e60 block=.rdata sym=PTR__invalid_parameter_noinfo_noreturn_1802f3e60
+18012c604 -> 180027f50 block=.text sym=FUN_180027f50
+18012c619 -> Stack[0x18] block=? sym=
+
+[DECOMPILE]
+
+/* protected: __cdecl DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar(class
+   DocumentMarks::PDFPlusBearerBar const & __ptr64,class ArtDoc::CloneStrategy & __ptr64) __ptr64 */
+
+PDFPlusBearerBar * __thiscall
+DocumentMarks::PDFPlusBearerBar::PDFPlusBearerBar
+          (PDFPlusBearerBar *this,PDFPlusBearerBar *param_1,CloneStrategy *param_2)
+
+{
+  PDFPlusBearerBar *pPVar1;
+  PDFPlusBearerBar PVar2;
+  void *_Dst;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined8 uVar6;
+  longlong lVar7;
+  ulonglong uVar8;
+  ulonglong uVar9;
+  size_t _Size;
+  
+                    /* 0x12c460  218
+                       ??0PDFPlusBearerBar@DocumentMarks@@IEAA@AEBV01@AEAVCloneStrategy@ArtDoc@@@Z
+                        */
+  DynamicMark::DynamicMark((DynamicMark *)this,(DynamicMark *)param_1,param_2);
+  *(undefined ***)this = _vftable__for__ArtDoc__Detail__ListItem<ArtDoc::ContentObject>__;
+  *(undefined ***)(this + 0x20) = _vftable__for__ArtDoc__Visitable__;
+  uVar6 = *(undefined8 *)(param_1 + 0x758);
+  *(undefined8 *)(this + 0x750) = *(undefined8 *)(param_1 + 0x750);
+  *(undefined8 *)(this + 0x758) = uVar6;
+  uVar3 = *(undefined4 *)(param_1 + 0x764);
+  uVar4 = *(undefined4 *)(param_1 + 0x768);
+  uVar5 = *(undefined4 *)(param_1 + 0x76c);
+  *(undefined4 *)(this + 0x760) = *(undefined4 *)(param_1 + 0x760);
+  *(undefined4 *)(this + 0x764) = uVar3;
+  *(undefined4 *)(this + 0x768) = uVar4;
+  *(undefined4 *)(this + 0x76c) = uVar5;
+  *(undefined4 *)(this + 0x770) = *(undefined4 *)(param_1 + 0x770);
+  pPVar1 = this + 0x778;
+  this[0x7f0] = (PDFPlusBearerBar)0xff;
+  PVar2 = param_1[0x7f0];
+  if (PVar2 != (PDFPlusBearerBar)0xff) {
+    if (PVar2 == (PDFPlusBearerBar)0x0) {
+      *(undefined4 *)pPVar1 = *(undefined4 *)(param_1 + 0x778);
+      this[0x7f0] = (PDFPlusBearerBar)0x0;
+    }
+    else if (PVar2 == (PDFPlusBearerBar)0x1) {
+      *(undefined8 *)pPVar1 = *(undefined8 *)(param_1 + 0x778);
+      this[0x7f0] = (PDFPlusBearerBar)0x1;
+    }
+    else {
+      FUN_180010e20(pPVar1,param_1 + 0x778);
+      this[0x7f0] = (PDFPlusBearerBar)0x2;
+    }
+  }
+  *(undefined4 *)(this + 0x7f8) = *(undefined4 *)(param_1 + 0x7f8);
+  uVar8 = 0;
+  *(undefined8 *)(this + 0x800) = 0;
+  *(undefined8 *)(this + 0x808) = 0;
+  *(undefined8 *)(this + 0x810) = 0;
+  uVar9 = *(longlong *)(param_1 + 0x808) - *(longlong *)(param_1 + 0x800) >> 3;
+  if (uVar9 != 0) {
+    if (0x1fffffffffffffff < uVar9) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180016fd0();
+    }
+    uVar9 = uVar9 * 8;
+    if (uVar9 < 0x1000) {
+      if (uVar9 != 0) {
+        uVar8 = FUN_1802cbe68(uVar9);
+      }
+    }
+    else {
+      if (uVar9 + 0x27 <= uVar9) {
+                    /* WARNING: Subroutine does not return */
+        FUN_180016d60();
+      }
+      lVar7 = FUN_1802cbe68();
+      if (lVar7 == 0) {
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      uVar8 = lVar7 + 0x27U & 0xffffffffffffffe0;
+      *(longlong *)(uVar8 - 8) = lVar7;
+    }
+    *(ulonglong *)(this + 0x800) = uVar8;
+    *(ulonglong *)(this + 0x808) = uVar8;
+    *(ulonglong *)(this + 0x810) = uVar8 + uVar9;
+    _Dst = *(void **)(this + 0x800);
+    _Size = *(longlong *)(param_1 + 0x808) - (longlong)*(void **)(param_1 + 0x800);
+    memmove(_Dst,*(void **)(param_1 + 0x800),_Size);
+    *(void **)(this + 0x808) = (void *)((longlong)_Dst + ((longlong)_Size >> 3) * 8);
+  }
+  FUN_180024cf0(this + 0x818,4,FUN_180027f50);
+  return this;
+}
+
+

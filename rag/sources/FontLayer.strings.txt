@@ -1,0 +1,4222 @@
+
+Strings v2.54 - Search for ANSI and Unicode strings in binary images.
+Copyright (C) 1999-2021 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+!This program cannot be run in DOS mode.
+#D4tpD4tpD4tpML
+uqC4tpD4up
+vqE4tpRichD4tp
+t$ WAVAWH
+x(HcD$`H
+|$ AVAWL
+|$ ATAUAVAWL
+|$@A_A^A]A\
+t$ WAVAWH
+x(HcD$XH
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+xUHcT$@H
+t$ WAVAWL
+t$8A_A^_
+WATAUAVAWH
+0A_A^A]A\_
+|$ ATAVAWH
+USVWATAUAVAWH
+\$0H;\$PD
+H;t$Pt0M
+A_A^A]A\_^[]
+|$ ATAUAVAWL
+|$@A_A^A]A\
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UATAUAVAWH
+A_A^A]A\]
+\$ UWAVH
+\$ UWAVH
+t$ WATAUAVAWH
+A_A^A]A\_
+x UAVAWH
+|$ AVAWL
+|$ AVAWL
+|$ ATAUAVAWL
+|$@A_A^A]A\
+|$ ATAUAVAWL
+|$@A_A^A]A\
+H UVWATAUAVAWH
+x0HcL$xL
+xCHc\$|H
+A_A^A]A\_^]
+@SUVWATAUAVAWH
+(A_A^A]A\_^][
+UVWAVAWH
+0A_A^_^]H
+0A_A^_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+SUATAUAVH
+0A^A]A\][
+ATAUAVAWH
+(A_A^A]A\
+WATAUAVAWH
+A_A^A]A\_
+|$ ATAUAVAWL
+|$@A_A^A]A\
+t$ WAVAWH
+UVWATAUAVAWH
+`A_A^A]A\_^]
+WATAUAVAWH
+A_A^A]A\_
+SUVWATAUAVAWH
+(A_A^A]A\_^][
+t$ WAVAWH
+UVWAVAWH
+@A_A^_^]
+|$ ATAUAVAWL
+|$@A_A^A]A\
+|$ ATAVAWH
+xoHcD$XH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWAVAWH
+PA_A^_^]
+@SUVWATAVAWH
+ A_A^A\_^][
+UVWAVAWH
+ A_A^_^]
+SUVWATAUAVAWH
+hA_A^A]A\_^][
+t$ WATAUAVAWH
+ A_A^A]A\_
+SUVWAVAWH
+(A_A^_^][
+t$ WATAUAVAWH
+0A_A^A]A\_
+|$ AVAWD
+|$ AVAWL
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+t$ WAVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WAVAWH
+|$ ATAUAVAWD
+|$@A_A^A]A\
+t$ WATAUAVAWD
+t$HA_A^A]A\_
+@SATAUAWH
+VWATAVAWH
+0A_A^A\_^
+|$ AUAVAWH
+L$ WAVAWH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+x#HcD$XH
+UWATAVAWH
+A_A^A\_]
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+USVWATAUAVAWH
+t0LcD$,E
+t0LcD$,E
+t0LcD$,E
+t0LcD$,E
+A_A^A]A\_^[]
+VWATAVAWH
+A_A^A\_^
+UWAUAVAWH
+A_A^A]_]
+UVWATAUAVAWH
+pA_A^A]A\_^]
+UWATAVAWH
+A_A^A\_]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWAVAWH
+UATAUAVAWH
+A_A^A]A\]
+t$ WATAUAVAWH
+A_A^A]A\_
+|$ UATAUAVAWH
+A_A^A]A\]
+|$ UAVAWH
+VWATAVAWH
+0A_A^A\_^
+l$ VWAVH
+WATAUAVAWH
+ A_A^A]A\_
+|$ ATAUAVAWL
+|$@A_A^A]A\
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+x#HcD$xH
+0A_A^_^]
+0A_A^_^]
+t$ WATAUAVAWH
+@A_A^A]A\_
+UVWATAUAVAWH
+@A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+UVWATAUAVAWH
+pA_A^A]A\_^]
+|$ ATAVAWH
+|$ ATAVAWH
+UWATAVAWH
+A_A^A\_]
+|$ ATAVAWH
+UVWATAVH
+ A^A\_^]
+ A^A\_^]
+ A^A\_^]
+ A^A\_^]
+|$ ATAUAVAWL
+|$@A_A^A]A\
+\$ UVWATAUAVAWH
+D$hH;D$p}x3
+ A_A^A]A\_^]
+l$ VWAVH
+l$ VWAVH
+\$ UVWATAUAVAWH
+`A_A^A]A\_^]
+@SUVWAVH
+VWATAVAWH
+@A_A^A\_^
+\$ UVWAVAWH
+`A_A^_^]
+UVWATAUAVAWH
+`A_A^A]A\_^]
+\$ UVWATAUAVAWH
+PA_A^A]A\_^]
+VWATAVAWH
+ A_A^A\_^
+\$ UVWATAUAVAWH
+PA_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+x#HcD$xH
+0A_A^_^]
+0A_A^_^]
+UVWAVAWH
+ A_A^_^]
+SUVWAVAWH
+A_A^_^][
+@SUVWAUAVAWH
+@A_A^A]_^][
+VWATAUAVH
+0A^A]A\_^
+0A^A]A\_^
+0A^A]A\_^
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+ A_A^_^]
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+t$ WATAUAVAWH
+ A_A^A]A\_H
+@SUVWATAVAWH
+PA_A^A\_^][
+l$ VWAVH
+UVWAVAWH
+ A_A^_^]
+ A_A^_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWAVAWH
+`A_A^_^]
+|$ ATAUAVAW
+|$@A_A^A]A\
+|$ ATAUAVAW
+|$@A_A^A]A\
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+@SUVWAVH
+t$ UWAUAVAWH
+A_A^A]_]
+UVWAVAWH
+0A_A^_^]H
+0A_A^_^]
+UVWAVAWH
+0A_A^_^]H
+0A_A^_^]
+UVWAVAWH
+x.HcD$xH
+0A_A^_^]H
+0A_A^_^]
+VWATAVAWH
+x=HcD$xH
+A(HcD$xH
+A(HcD$xH
+0A_A^A\_^
+UWATAVAWH
+A_A^A\_]
+@SUVWATAVAWH
+`A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+|$ ATAVAWH
+SVWAVAWH
+ A_A^_^[
+ A_A^_^[
+WATAUAVAWH
+ A_A^A]A\_
+@USVWAVH
+\$ UVWAVAWH
+uK@8nLuEH
+@A_A^_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+|$ ATAUAVAW
+|$@A_A^A]A\
+u*D8~Lu$
+UWATAVAWH
+@A_A^A\_]
+UVWAVAWH
+x+HcT$xH
+0A_A^_^]
+0A_A^_^]
+VWATAVAWH
+A_A^A\_^
+l$ VWAVH
+|$ UATAUAVAWH
+A_A^A]A\]
+@SUVWATAUAVAWH
+hA_A^A]A\_^][
+UVWATAUAVAWH
+ A_A^A]A\_^]
+UVWAVAWH
+`A_A^_^]
+VWATAVAWH
+ A_A^A\_^
+@SUVWAVH
+@USVWAVH
+\$ UVWATAUAVAWH
+`A_A^A]A\_^]
+@USVWATAVAWH
+pA_A^A\_^[]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+|$ ATAUAVAWL
+|$@A_A^A]A\
+@SUVWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+x;HcD$XH
+@USVWATAVAWH
+pA_A^A\_^[]
+@SUAUAVAWH
+0A_A^A]][
+WATAUAVAWH
+0A_A^A]A\_
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_H
+@SVATAUAWH
+ A_A]A\^[
+WATAUAVAWH
+@A_A^A]A\_
+UVWAVAWH
+ A_A^_^]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USVWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+d$ UAVAWH
+|$ UATAUAVAWH
+A_A^A]A\]
+@SUVWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+IdentityH
+WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SVWATAUAVAWH
+A_A^A]A\_^[
+@SUVWAVH
+l$ VWATAUAVH
+ A^A]A\_^
+t$ WAVAWH
+UVWAVAWH
+ A_A^_^]
+|$ ATAUAVAW
+|$@A_A^A]A\
+UATAUAVAWH
+A_A^A]A\]
+x*HcD$XH
+VWATAVAWH
+ A_A^A\_^
+ A_A^A\_^
+t$ WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+t$ WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+t$ UWATAVAWH
+A_A^A\_]
+@USVWATAVAWH
+A_A^A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+x8HcD$hHk
+8HcD$hHk
+xsHc\$XH
+UVWATAUAVAWH
+pA_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+t$ WATAUAVAWH
+ A_A^A]A\_
+@SVWATAUAVAWH
+A_A^A]A\_^[
+x:HcD$XH
+WATAUAVAWH
+@A_A^A]A\_
+UVWAVAWH
+0A_A^_^]
+@SUVWAVH
+\$ UVWATAUAVAWH
+`A_A^A]A\_^]
+@USVWATAUAVAWH
+D$(;D$$H
+A_A^A]A\_^[]
+@USVWATAUAVAWH
+I`HcT$$H
+|$@H;\$x
+A_A^A]A\_^[]
+SVWATAUAVAWH
+pA_A^A]A\_^[
+UVWAVAWH
+x$HcD$xH
+0A_A^_^]
+0A_A^_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+d$ UAVAWH
+UVWATAUAVAWH
+xAHcD$HH
+`A_A^A]A\_^]
+|$ ATAUAVAWD
+|$@A_A^A]A\
+t$ WATAUAVAWD
+t$HA_A^A]A\_
+x9HcD$XH
+WATAUAVAWH
+@A_A^A]A\_
+VWATAVAWH
+ A_A^A\_^
+@SWATAVAWH
+ A_A^A\_[
+ A_A^A\_[
+@SUVWATAVAWH
+`A_A^A\_^][
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+\$ UVWATAUAVAWH
+PA_A^A]A\_^]
+x-HcD$$H
+UVWAVAWH
+0A_A^_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+\$ UVWAVAWH
+`A_A^_^]
+\$ UVWAVAWH
+pA_A^_^]
+x&HcL$(H
+x1HcL$PH
+UVWAVAWH
+ A_A^_^]
+t49|$pt*E3
+UVWAVAWH
+0A_A^_^]H
+0A_A^_^]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+t$ WAVAWH
+\$ UVWATAUAVAWH
+pA_A^A]A\_^]
+9|$pt1E3
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+ A_A^A]A\_
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+|$ ATAVAWH
+SVWATAUAVAWH
+ A_A^A]A\_^[
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+|$`M;7tBM
+L$HH;L$(t
+A_A^A]A\_^]
+SVWATAUAVAWH
+0A_A^A]A\_^[
+@USVWAVAWH
+A_A^_^[]
+WATAUAVAWH
+A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+x!HcD$XH
+8HcD$XHk
+|$ UATAUAVAWH
+A_A^A]A\]
+SVWATAUAVAWH
+PA_A^A]A\_^[
+PA_A^A]A\_^[
+UVWAVAWH
+ A_A^_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+SVWATAVAWH
+A_A^A\_^[
+A_A^A\_^[
+WATAUAVAWH
+I8D;D$(}
+A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ ATAVAWH
+t$8A_A^A\
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+l$ ATAUAVAWH
+l$@A_A^A]A\
+WATAUAVAWH
+ A_A^A]A\_
+WATAUAVAWH
+ A_A^A]A\_
+VWATAVAWH
+A_A^A\_^
+xDHcD$0H
+x2HcL$0H
+x;HcD$XH
+x8Hc\$XH
+t$@Hct$XH
+x?HcD$XH
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+UVWAVAWH
+@A_A^_^]
+UVWAVAWH
+O0fD9qhfD
+ A_A^_^]
+\$ UVWATAUAVAWH
+t8D93~3E
+A_A^A]A\_^]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAVH
+|$ ATAUAVAWD
+|$@A_A^A]A\
+@SUVWAVH
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAVH
+uEHc\$(H
+t$ WATAUAVAWD
+t$HA_A^A]A\_
+SUVWATAVAWH
+A_A^A\_^][
+@SUVWAVH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWAVH
+WATAUAVAWH
+ A_A^A]A\_
+t$ WAVAWH
+uyf9D$Fur@2
+t$ WAVAWH
+WATAUAVAWH
+ A_A^A]A\_
+t$ WAVAWH
+UVWAVAWH
+x.HcD$xH
+0A_A^_^]H
+0A_A^_^]
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+SVWATAUAVAWH
+ A_A^A]A\_^[
+kHf;k0sd
+UVWAVAWH
+SUVWATAUAVAWH
+A_A^A]A\_^][
+I(H;K0t&H
+I(H;K0t&H
+UVWAVAWH
+UVWATAUAVAWH
+D$(fD;h$
+A_A^A]A\_^]
+VWAUAVAWH
+@A_A^A]_^
+x!HcD$$L
+\$ UVWATAUAVAWH
+=  bguII
+PA_A^A]A\_^]
+UVWAVAWH
+PA_A^_^]
+\$ UVWAVAWH
+x!HcD$$H
+PA_A^_^]
+USVWATAUAVAWH
+A_A^A]A\_^[]
+x?HcD$XH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SUVWATAVAWH
+PA_A^A\_^][
+@USVWAVH
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+x-HcT$0H
+|$ AVAWL
+UVWATAUAVAWH
+A_A^A]A\_^]
+@SUVWAVH
+@SUVWAVH
+SVWATAUAVAWH
+0A_A^A]A\_^[
+SVWAVAWH
+pA_A^_^[
+\$(H;\$0t
+\$(H;\$0t
+pA_A^_^[
+WATAUAVAWH
+ A_A^A]A\_
+l$ VATAUAVAWH
+ A_A^A]A\^
+WATAUAVAWH
+0A_A^A]A\_
+USVWATAUAVAWH
+XA_A^A]A\_^[]
+USVWATAUAVAWH
+t.LcD$,E
+t,LcD$,E
+A_A^A]A\_^[]
+WATAUAVAWH
+0A_A^A]A\_
+SVWATAUAVAWH
+D$ D;D$$
+pA_A^A]A\_^[
+UVWAVAWH
+VWATAVAWH
+ A_A^A\_^
+SUVWAVAWH
+XA_A^_^][
+XA_A^_^][
+|$ UATAUAVAWH
+A_A^A]A\]
+\$ UVWAVAWH
+\$ VAVAWH
+UVWAVAWH
+|$ UATAUAVAWH
+A_A^A]A\]
+UVWATAUAVAWH
+A_A^A]A\_^]
+d$ UAVAWH
+t$ UWAUAVAWH
+A_A^A]_]
+t$ WAVAWH
+UVWATAUAVAWH
+`A_A^A]A\_^]
+|$ ATAVAWH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@USVWATAUAVAWH
+hA_A^A]A\_^[]
+USVWATAUAVAWH
+hA_A^A]A\_^[]
+UWATAVAWH
+A_A^A\_]
+SVWATAUAVAWH
+gfffffffI
+gfffffffH
+0A_A^A]A\_^[
+gfffffffH
+@SUVWATAVAWH
+0A_A^A\_^][
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+=perpu.M
+A_A^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+gfffffffH
+pA_A^A]A\_^]
+aehhw7tc
+VWATAVAWH
+0A_A^A\_^
+x?HcD$XH
+UVWAVAWH
+0A_A^_^]
+VWATAVAWH
+A_A^A\_^
+SVWATAUAVAWH
+0A_A^A]A\_^[
+UATAUAVAWH
+A_A^A]A\]
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+SUVWATAUAVAWH
+(A_A^A]A\_^][
+UVWATAUAVAWH
+`A_A^A]A\_^]
+USVWATAUAVAWH
+xA_A^A]A\_^[]
+\$ UVWATAUAVAWH
+A_A^A]A\_^]
+USVWATAUAVAWH
+hA_A^A]A\_^[]
+|$ ATAUAVAW
+|$@A_A^A]A\
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+0A_A^A]A\_^]
+WATAUAVAWH
+ A_A^A]A\_
+l$ VWATAUAVH
+ A^A]A\_^
+UVWATAUAVAWH
+A_A^A]A\_^]
+FPIcFXA;@
+t$ WATAUAVAWH
+0A_A^A]A\_
+C`A9B t.I
+C`=stibt\=pmoctUA
+l$ WAWE3
+D$ HcD$0L
+t[HcT$LD
+l$ VWATAVE3
+l$@A^A\_^
+l$@A^A\_^
+l$@A^A\_^
+L$ SUVAUH
+@UVWATAUAVH
+XA^A]A\_^]
+UVWATAUAVAWH
+@A_A^A]A\_^]
+sMH9;u?H
+\$ WAVAWH
+@SVATAVH
+D$ TSOPL
+D$PH;D$`}
+WATAUAVAWH
+0A_A^A]A\_
+\$ VWAVH
+|$ ATAVAWH
+@SVWAVAWH
+= GVSuuH
+@A_A^_^[I
+@A_A^_^[
+@A_A^_^[
+@SUVWATAUAVH
+0A^A]A\_^][
+0A^A]A\_^][
+0A^A]A\_^][
+0A^A]A\_^][
+@UWAUAVAWH
+A_A^A]_]
+UVWAVAWH
+0A_A^_^]
+0A_A^_^]
+0A_A^_^]
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+UVWATAUAVAWH
+0A_A^A]A\_^]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+|$ ATAVAWH
+l$ VWAVH
+|$ ATAVAWH
+@USVWATAVH
+F`ltuofA
+A^A\_^[]
+UVWATAUAVAWH
+A_A^A]A\_^]
+t$ WATAUAVAWH
+0A_A^A]A\_
+@SWAUAVH
+SUVATAUAWH
+hA_A]A\^][
+@SUVWAVH
+@SUATAUAVAWH
+N|$ D;D$$
+M\$$D;D$(D
+xA_A^A]A\][
+tJ9t$ tLE2
+VWATAVAWH
+0A_A^A\_^
+H9B ugM99ubM
+@VWATAUH
+@SUVWAUAVAWH
+`A_A^A]_^][
+t$ WAVAWH
+t-9l$ t.
+t4H9A u.H;
+@SVATAUAVAWH
+(A_A^A]A\^[
+SUVWATAVAWH
+pA_A^A\_^][
+|$ ATAVAWH
+UAUAVAWH
+hA_A^A]]
+@SUVWATAUAVH
+PA^A]A\_^][
+@SATAUAVH
+L\$4D9D$8D
+L|$LD9T$PD
+L\$4D9D$8H
+T$pL;T$x
+t$ ATAUAVAWIc
+t$@A_A^A]A\
+Hcl$pHcD$XL
+d$HD;d$t
+t4H9A u.H;
+@UVWATAVH
+ A^A\_^]
+\$ UVWATAUAVAWH
+@A_A^A]A\_^]
+UVWATAUAVAWH
+FHA+N8A+F<
+A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+t$ WATAUAVAWH
+0A_A^A]A\_
+@USWATAUAVAWH
+A_A^A]A\_[]
+USVWAUAWH
+hA_A]_^[]
+@VAUAVAWH
+HA_A^A]^
+@SUWAUAWH
+PA_A]_][
+PA_A]_][
+D92vSfff
+@SUVWAVH
+fD;SDsjD
+UVWATAUAVAWH
+ A_A^A]A\_^]
+l$(fA9.uu
+t$ WATAUAVAWH
+ A_A^A]A\_
+\$ UVWATAUAVAWH
+F`ltuoE3
+A_A^A]A\_^]
+SUVWATAUAVAWH
+8A_A^A]A\_^][
+WATAUAVAWH
+A_A^A]A\_
+@UVWATAUAVH
+8A^A]A\_^]
+\$ UVWATAUAVAWH
+pA_A^A]A\_^]
+UVATAUAVAWH
+D$HD9l$0
+D$PD9l$0
+D$xD9l$0
+D$hD9l$0
+l$`D9l$d
+A_A^A]A\^]
+A_A^A]A\^]
+@VWATAWH
+l$ VWAWH
+nrchw;t1
+sxpswKtA
+srcvwNtD
+@SUVWAWH
+@UATAUAVH
+HA^A]A\]
+HA^A]A\]
+\$ VWAUAVAWH
+0A_A^A]_^
+0A_A^A]_^
+t$ WATAWH
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@USWATAVAWH
+|$0@8|$<
+A_A^A\_[]
+l$ VAVAWH
+s WATAUAVAWH
+A_A^A]A\_
+\$ WAVAWH
+USVWATAUAVAWH
+A_A^A]A\_^[]
+t$ WATAUAVAWH
+ A_A^A]A\_
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+F(D9e@u;H
+0A_A^A]A\_^]
+|$ ATAVAWH
+t$ UWATAVAWH
+D$`cinuA
+D$`EBDAfD
+D$`1talfD
+D$`BODAfD
+D$`CBDAf
+A_A^A\_]
+l$ ATAVAWH
+\$ UVAVH
+@USVWATAVAWH
+A_A^A\_^[]
+@SUVWATAVH
+A^A\_^][
+t$ WATAVH
+D9d$ ~tH
+@USVWAVAWH
+D$`D9d$4
+A_A^_^[]
+@SUVWAVH
+SWATAVAWH
+PA_A^A\_[
+PA_A^A\_[
+PA_A^A\_[
+PA_A^A\_[
+PA_A^A\_[
+PA_A^A\_[
+SVWAUAVH
+@A^A]_^[
+@A^A]_^[
+@A^A]_^[
+UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+\$ UVWATAWH
+ A_A\_^]
+ A_A\_^]
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+\$ UVWAUAWH
+0A_A]_^]
+0A_A]_^]
+0A_A]_^]
+WATAUAVAWH
+ A_A^A]A\_
+t$ WAVAWH
+|$ ATAVAWH
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+t$ WATAUAVAWH
+D9l$ tHH
+A_A^A]A\_
+UVWATAUAVAWH
+pA_A^A]A\_^]
+\$ UVWATAUH
+@A]A\_^]
+SVATAUAWH
+PA_A]A\^[
+PA_A]A\^[
+VWATAVAWH
+D9d$pu:H
+0A_A^A\_^
+t$ WATAUAVAWH
+ A_A^A]A\_
+@VWATAWH
+UVWATAUAVAWH
+\$@L9Q u
+PA_A^A]A\_^]
+UVWATAUAVAWH
+ A_A^A]A\_^]
+@UVWATAUAVAWH
+A_A^A]A\_^]
+UVWATAUAVAWH
+A_A^A]A\_^]
+@USATAVAWH
+A_A^A\[]
+C 9l$@u[H
+t$ WAVAWH
+<[tt<{tR
+L$ USVWATH
+<[t><{t!</
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@SUVWAVAWH
+A_A^_^][
+@UWATAUAWH
+scD83tZM
+0A_A]A\_]
+k`@8l$Pt
+\$ UAVAWH
+@UWATAWH
+t$ @8i\u
+k`@8l$Pt'H
+@VWATAUH
+WATAUAVAWH
+ A_A^A]A\_
+s`D8t$`t
+@UVWATAWH
+_`8\$Pt'H
+\$ VWAVL
+UVWATAUAVAWH
+ A_A^A]A\_^]
+t$ WATAUAVAWH
+A_A^A]A\_
+t$ WAVAWH
+s(H9{ v*H
+@SUVWATAUAVH
+ A^A]A\_^][
+dA+Q`x%A
+ A^A]A\_^][
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+WATAUAVAWH
+@A_A^A]A\_
+SUVWAUAVAWH
+@A_A^A]_^][
+UVWATAUAVAWH
+ A_A^A]A\_^]
+SUVWATAVAWH
+`A_A^A\_^][
+@UVAVAWH
+@USVWATAVAWH
+pA_A^A\_^[]
+@USWATAUAVH
+A^A]A\_[]
+UVWATAUAVAWH
+D$XD9d$lt
+tzE9&uuA
+A_A^A]A\_^]
+sUD83tLM
+<<t7<{t,<}
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+VWATAVAWH
+A_A^A\_^
+L$ SVWAUAVAWH
+8A_A^A]_^[
+l$ WAVAWH
+VWATAVAWH
+0A_A^A\_^
+@SUAUAWH
+t$ WATAUAVAWH
+ A_A^A]A\_
+|$ ATAUAVAWL
+|$@A_A^A]A\
+TN<f+TF<f;
+SUATAUAWH
+g4D+o0D+g4E
+{4A+v0A+~4
+pA_A]A\][
+@SVATAVAWH
+A_A^A\^[
+SVWATAUH
+PA]A\_^[
+K SUVWATAVAWH
+0A_A^A\_^][
+0A_A^A\_^][
+VAUAVAWH
+@USATAUAWH
+pA_A]A\[]
+@SVATAUAVH
+D9l$`uiB
+0A^A]A\^[
+USVWAVAWH
+hA_A^_^[]
+hA_A^_^[]
+UVWATAUAVAWH
+D$0cinuH
+@A_A^A]A\_^]
+D8v t L96t
+t$ WATAUAVAWH
+0A_A^A]A\_
+UVWATAVAWH
+hA_A^A\_^]
+hA_A^A\_^]
+|$ AVAWH
+UVWATAUAVAWH
+A_A^A]A\_^]
+Y0M;Y@r+A
+UVWATAUAVAWH
+t$$HcFpA
+@A_A^A]A\_^]
+UVWATAUAVAWH
+0A_A^A]A\_^]
+SUWAVAWH
+PA_A^_][
+@SUATAUAVH
+ A^A]A\][
+SVWAVAWH
+@A_A^_^[
+|$ ATAVAWH
+t$ WATAUAVAWH
+ A_A^A]A\_
+SVWATAUAVAWH
+|!H;|$8rNA
+t/H;|$8r
+pA_A^A]A\_^[
+@VWATAUAVH
+ A^A]A\_^
+@SWAUAVAWH
+ A_A^A]_[
+@SVWAUAWH
+ A_A]_^[
+SUWAUAVAWH
+8A_A^A]_][
+UVWAUAWH
+0A_A]_^]
+0A_A]_^]
+l$ VWATAUAWH
+ A_A]A\_^
+\$ UVWATAUAVAWH
+=xtmvu~f
+=daeht%=dehbt$=GNISu
+^=ATEMuWA
+PA_A^A]A\_^]
+@UATAUAVAWH
+ A_A^A]A\]
+ A_A^A]A\]
+\$ WATAVH
+@UATAUAVAWH
+ A_A^A]A\]
+ A_A^A]A\]
+UVWATAUAVAWH
+PA_A^A]A\_^]
+@USVWAVAWH
+uiL;_@rm
+XA_A^_^[]
+|$ UATAUAVAWH
+A_A^A]A\]
+L$ WAVAWH
+t;=fcttt4=OTTOt-=eurtt&=1pytt
+fctt=fctt
+\$ ATAVAWH
+\$ ATAVAWH
+SUVWATAUAVAWH
+XA_A^A]A\_^][
+@UWATAUAVAWH
+=FFOwtI=fctttB
+A_A^A]A\_]
+@USVWATAUAVAWH
+A_A^A]A\_^[]
+@UVWATAVAWH
+A_A^A\_^]
+@UWAUAVAW
+A_A^A]_]
+SUWATAWH
+pA_A\_][
+pA_A\_][
+@VATAVAWH
+(A_A^A\^
+@SUVWATAUAVAWH
+A_A^A]A\_^][
+UVWAUAWH
+ A_A]_^]
+u,;S`|';Sd
+t$ WAVAWH
+t$ WATAUAVAWH
+A_A^A]A\_
+@USVWATAUAVAWH
+t6D9s$t#D
+XA_A^A]A\_^[]
+|$ ATAUAVAWD
+L$PH9J(u 
+|$@A_A^A]A\
+WATAUAVAWH
+ A_A^A]A\_
+UVWAVAWH
+|$ ATAUAVAWD
+L$PH9J(u
+|$@A_A^A]A\
+U`HcExHk
+U`HcExHk
+U`HcExHk
+U`HcExHk
+U`HcExHk
+U@HcEHHk
+UPHcEXHk
+U`HcExHk
+UPHcE`Hk
+U@HcEHHk
+Unknown exception
+bad array new length
+vector too long
+rrcurveto
+closepath
+callsubr
+hintmask
+cntrmask
+rcurveline
+rlinecurve
+vvcurveto
+hhcurveto
+callgsubr
+vhcurveto
+hvcurveto
+dotsection
+callothersubr
+setcurrentpoint
+operator
+index out of bounds
+ not initialized
+storage 
+operand is not a number
+missing operands on T1 stack
+TopDicts/0
+TopDicts/0/FDArray/
+random operator not supported
+string too long
+/FSType 
+quotedbl
+numbersign
+ampersand
+quoteright
+parenleft
+parenright
+asterisk
+semicolon
+question
+bracketleft
+backslash
+bracketright
+asciicircum
+underscore
+quoteleft
+braceleft
+braceright
+asciitilde
+exclamdown
+sterling
+fraction
+currency
+quotesingle
+quotedblleft
+guillemotleft
+guilsinglleft
+guilsinglright
+daggerdbl
+periodcentered
+paragraph
+quotesinglbase
+quotedblbase
+quotedblright
+guillemotright
+ellipsis
+perthousand
+questiondown
+circumflex
+dotaccent
+dieresis
+hungarumlaut
+ordfeminine
+ordmasculine
+dotlessi
+germandbls
+onesuperior
+logicalnot
+trademark
+plusminus
+onequarter
+brokenbar
+threequarters
+twosuperior
+registered
+multiply
+threesuperior
+copyright
+Acircumflex
+Adieresis
+Ccedilla
+Ecircumflex
+Edieresis
+Icircumflex
+Idieresis
+Ocircumflex
+Odieresis
+Ucircumflex
+Udieresis
+Ydieresis
+acircumflex
+adieresis
+ccedilla
+ecircumflex
+edieresis
+icircumflex
+idieresis
+ocircumflex
+odieresis
+ucircumflex
+udieresis
+ydieresis
+exclamsmall
+Hungarumlautsmall
+dollaroldstyle
+dollarsuperior
+ampersandsmall
+Acutesmall
+parenleftsuperior
+parenrightsuperior
+twodotenleader
+onedotenleader
+zerooldstyle
+oneoldstyle
+twooldstyle
+threeoldstyle
+fouroldstyle
+fiveoldstyle
+sixoldstyle
+sevenoldstyle
+eightoldstyle
+nineoldstyle
+commasuperior
+threequartersemdash
+periodsuperior
+questionsmall
+asuperior
+bsuperior
+centsuperior
+dsuperior
+esuperior
+isuperior
+lsuperior
+msuperior
+nsuperior
+osuperior
+rsuperior
+ssuperior
+tsuperior
+parenleftinferior
+parenrightinferior
+Circumflexsmall
+hyphensuperior
+Gravesmall
+colonmonetary
+onefitted
+Tildesmall
+exclamdownsmall
+centoldstyle
+Lslashsmall
+Scaronsmall
+Zcaronsmall
+Dieresissmall
+Brevesmall
+Caronsmall
+Dotaccentsmall
+Macronsmall
+figuredash
+hypheninferior
+Ogoneksmall
+Ringsmall
+Cedillasmall
+questiondownsmall
+oneeighth
+threeeighths
+fiveeighths
+seveneighths
+onethird
+twothirds
+zerosuperior
+foursuperior
+fivesuperior
+sixsuperior
+sevensuperior
+eightsuperior
+ninesuperior
+zeroinferior
+oneinferior
+twoinferior
+threeinferior
+fourinferior
+fiveinferior
+sixinferior
+seveninferior
+eightinferior
+nineinferior
+centinferior
+dollarinferior
+periodinferior
+commainferior
+Agravesmall
+Aacutesmall
+Acircumflexsmall
+Atildesmall
+Adieresissmall
+Aringsmall
+Ccedillasmall
+Egravesmall
+Eacutesmall
+Ecircumflexsmall
+Edieresissmall
+Igravesmall
+Iacutesmall
+Icircumflexsmall
+Idieresissmall
+Ethsmall
+Ntildesmall
+Ogravesmall
+Oacutesmall
+Ocircumflexsmall
+Otildesmall
+Odieresissmall
+Oslashsmall
+Ugravesmall
+Uacutesmall
+Ucircumflexsmall
+Udieresissmall
+Yacutesmall
+Thornsmall
+Ydieresissmall
+Semibold
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmn
+stuvwxyz
+CMapUnicode
+GFEncoding
+Ifraktur
+Rfraktur
+Upsilon1
+angleleft
+angleright
+approxequal
+arrowboth
+arrowdblboth
+arrowdbldown
+arrowdblleft
+arrowdblright
+arrowdblup
+arrowdown
+arrowhorizex
+arrowleft
+arrowright
+arrowvertex
+asteriskmath
+bracelefttp
+braceleftmid
+braceleftbt
+bracerighttp
+bracerightmid
+bracerightbt
+bracketlefttp
+bracketleftex
+bracketleftbt
+bracketrighttp
+bracketrightex
+bracketrightbt
+carriagereturn
+circlemultiply
+circleplus
+congruent
+copyrightsans
+copyrightserif
+emptyset
+equivalence
+existential
+gradient
+greaterequal
+infinity
+integral
+integraltp
+integralex
+integralbt
+intersection
+lessequal
+logicaland
+logicalor
+notelement
+notequal
+notsubset
+parenlefttp
+parenleftex
+parenleftbt
+parenrighttp
+parenrightex
+parenrightbt
+partialdiff
+perpendicular
+propersubset
+propersuperset
+proportional
+radicalex
+reflexsubset
+reflexsuperset
+registersans
+registerserif
+suchthat
+summation
+therefore
+trademarksans
+trademarkserif
+universal
+weierstrass
+ZapfDingbatsEncoding
+GFEncodingComposite
+EnfFB-Empty-H
+EmptyFallback
+Identity
+UniJIS-UTF16
+UniGB-UTF16
+UniHojo-UTF16
+UniKS-UTF16
+UniCNS-UTF16
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+CIDSystemInfo
+<< /Registry (Adobe)
+/Ordering (UCS) /Supplement 0 >> def
+/CMapName /Adobe-Identity-UCS def
+/CMapType 2 def
+1 begincodespacerange
+<00> <FF>
+endcodespacerange
+ begincodespacerange
+ beginbfchar
+endbfchar
+endcmap CMapName currentdict /CMap defineresource pop end end
+Identity-V
+Identity-H
+UniGB-UTF16-
+UniJIS-UTF16-
+UniHojo-UTF16-
+UniCNS-UTF16-
+UniKS-UTF16-
+MacRomanEncodingTT
+GFEncodingSimple
+MacRomanEncoding
+MacExpertEncoding
+WinAnsiEncoding
+StandardEncoding
+BuiltInEncoding
+NoEncoding
+SymbolEncoding
+GFEncodingUnicode
+Invalid code point
+Invalid UTF-8
+Not enough space
+/Registry
+/Ordering
+/Supplement
+/CMapName
+/CMapVersion
+/CMapType
+begincmap
+begincodespacerange
+endcodespacerange
+beginnotdefrange
+endnotdefrange
+begincidrange
+endcidrange
+beginnotdefchar
+endnotdefchar
+begincidchar
+endcidchar
+beginbfrange
+endbfrange
+beginbfchar
+endbfchar
+map/set too long
+truetype
+CollectionIndex
+GlyphCount
+Vertical
+WritingMode
+FSTypeLicense
+FontInfoCacheVersion
+#BEGINDICT
+#ENDDICT
+FontCollection
+TimesNewRomanPS-ItalicMT
+Helvetica
+unknown font error
+freetype internal error %1
+freetype internal error %1, %2
+internal font or cmap parsing error, no data to process
+glyphs access is not allowed for this font
+font not found
+font format not supported
+font not readable
+font format is not Type 1
+font format is not Truetype
+font format is not MM Type 1
+font format is not CFF
+font format is not OpenType CFF
+font is not a collection
+font format is not OpenType
+CMap not found
+CMap format not supported
+CMap does not map to Unicode
+CMap does not map to CID
+CMap's base map type does not match
+glyph not found
+Unknown error during subsetting
+License does not allow subsetting
+Could not separate character string in character codes
+Subsetting is not implemented for this font format
+invalid font
+license does not allow subsetting
+unsupported font type
+could not convert charstring to char codes
+operation succesfull, but no stream returned
+textrun font does not match original font
+%1 is not a valid glyph ID
+subset data added after subsetting was completed
+no font face found
+could not load font into memory
+no font data found
+empty fontname
+could not convert GID to char code
+invalid opcode at offset %1
+corrupt DICT
+item %1 points to data outside INDEX
+invalid offsize (%1)
+corrupt INDEX
+no CFF data found
+CFF version %1.%1 is not supported
+no data after header
+no header found
+name INDEX is missing item %1
+offset out of bounds
+corrupt data
+invalid absolute offset size (%1)
+object not found after write
+inconsistent offset size
+could not write length
+could not write offset
+CFF data too large
+unexpected amount of TopDicts
+charstrings not found
+could not find local subroutines for %1
+corrupt DICTINDEX
+corrupt char string
+invalid char string type
+invalid char string type (%1)
+invalid glyph ID (%1)
+no data found
+not enough data
+wrong operand count
+There is not exactly one font name after subsetting
+There is not exactly one TopDict after subsetting
+removed invalid key (not a CID font)
+made ROS the first operator
+FDArray not defined
+FDSelect not defined
+key is present but data is missing
+does not contain SID(s)
+garbadge data after number(s)
+%1 is not a predefined charset
+garbadge data at end of object
+%1 is not a predefined encoding
+format %1 is not supported
+wrong amount of elements in the charset
+unsupported charstring operator %1
+invalid CID (%1)
+CID-keyed fonts don't support seac
+seac character code out of bounds (%1)
+missing glyph for seac character code (%1)
+predefined charset %1 has less then %2 entries
+corrupt encoding format
+not a predefined encoding
+missing operator at end of dict
+(%1) is not a valid CFF dict operator
+table %1 is outside the font
+table %1 is missing
+could not lookup glyph location
+glyph %1 is outside the font
+glyph %1 has not enough data
+table %1 is corrupt, length is %2
+could not be converted from Type 1 to CFF
+encoding array is missing
+missing glyphname for GID %1
+could not convert Type 1 charstring to Type 2
+vertical advancement component ignored
+%1 is not a valid number in a Type 2 charstring
+Type 1 charstring only operator (%1) used
+width can only be at start
+unused data after endchar
+operator (%1) is not valid after %2
+multiple moves in between subpaths
+...stemhm cannot be used after ...stem
+...stem cannot be used after ...stemhm
+...mask cannot be used without ...stemhm
+...mask data length does not match
+wrong multiple master argument count
+wrong callothersubr argument count
+could not obtain glyph data for GID %1
+could not read CID data
+unsupported CMap format
+not enough parameters for hint operator
+missing cntr stem group data
+cntr stem group count is not an integer
+cannot process hint/cntr mask without processing stems
+could not convert font to CFF
+could not convert font to CFF: multiple charcodes for same GID
+Corrupt font: Type 1 charstring stack overflow
+Corrupt font: Type 1 charstring stack underflow
+Corrupt font: Type 1 charstring inappropriate number of args on stack
+Corrupt font: PostScript error
+Corrupt font: Type 2 charstring blend operator not in Multiple Master font
+Corrupt font: Invalid Compact font
+Corrupt font: Unknown encoding format in Compact font
+Corrupt font: Unknown FDSelect format in Compact font
+Corrupt font: Font name not found in CFF font file
+Corrupt font: Too many arguments in CFF DICT structure
+Corrupt font: Insufficient arguments in CFF DICT structure
+Corrupt font: Too many arguments in CFF Private DICT
+Corrupt font: Invalid TrueType CMap table structure
+Corrupt font: Illegal operation in isolated CFF Type 2 subroutine
+Corrupt font: Composite character calls another composite character in TrueType font
+Corrupt font: Unknown or inappropriate format post table in TrueType font
+Corrupt font: Not enough space in format2.5 post table
+Corrupt font: Unknown table in TrueType font
+Corrupt font: Off-range access to TrueType font table
+Corrupt font: Type 1 font unknown subroutine
+Corrupt font: Type 1 font is invalid
+Corrupt font: Invalid Compact font Hint Data
+Corrupt font: CFF font unknown sub-routine
+Corrupt font: SEAC function not implemented in Compact Fonts
+Corrupt font: Cannot find required table in TrueType font during subsetting or embedding
+Corrupt font: Cannot subset font (CFF font is Chameleon, MM or Synthetic Base font)
+Corrupt font: CFF illegal SEAC instruction
+Corrupt font: OverFlow or Underflow in Type 1 Data
+Corrupt font: Cannot find required table in OpenType font during subsetting or embedding
+Corrupt font: Too many arguments in CFF Private DICT for operator %s
+Corrupt font: Insufficient arguments in CFF DICT structure for operator %s
+Corrupt font: Type 1 charstring stack overflow. Operator: %s
+Corrupt font: Type 1 charstring stack underflow. Operator: %s
+Corrupt font: Type 1 charstring inappropriate number of arguments on stack. Operator: %s
+Corrupt font: CFF font unknown %1 subroutine: %2
+Corrupt font: Type 1 font unknown subroutine: %s
+Corrupt font: Font name <%s> not found in CFF font file
+Corrupt font: Not enough space in format2.5 post table. need %1 glyphs got %2
+Corrupt font: Cannot subset font (CFF font is a %s font)
+Corrupt font: CFF Illegal SEAC instruction, character code: %s
+Corrupt font: Could not parse TrueType font
+Corrupt font: Error in Type 1 Data: %1
+Corrupt font: No CFF table present
+Corrupt font: the font is not of the right type
+Corrupt font: Not a TrueType Collection (ttc) font.
+FontMMType1
+FontOTFCFF
+!Exclamachine Type Foundry
+Ascender Corporation
+Boutros International
+Finley's Barcode Fonts
+Three Islands Press
+Five Points Technology
+RavenType
+Arabic Dictionary Lab
+Altek Instruments
+Aboutype, Inc.
+Acute Type
+Altered Ego Fonts
+Monotype Imaging (replaced by MONO)
+Alphabets*Inc
+Alphameric Broadcast Solutions Limited
+Alpona Portal
+Art. Lebedev Studio
+Altsys / Made with Fontographer
+Osam Ando
+Anatoletype
+an Art Of Pengwyn
+Apply Interactive
+Apostrophic Laboratories
+Arabetics
+Architext
+Arphic Technology Co.
+EN ARS Ltd.
+Archive Type
+Applied Symbols
+Page Technology Marketing, Inc.
+Australian Type Foundry
+Autodidakt
+Aviation Partners
+Azalea Software, Inc.
+Bigelow & Holmes
+CIA (BAR CODES) UK
+Baseline Fonts
+Barcode Products Ltd
+Berthold
+Bitmap Software
+Bitstream
+Bizfonts.com
+Mister Bla's Fontworx
+Blissym Language Institute
+em2 Solutions
+BoyBeaver Fonts
+Mark Bremmer
+ITSCO - Bar Code Fonts
+Barcodesoft
+B/W Fontworks
+Carter & Cone
+pluginfonts.com
+H.W. Caslon & Company Ltd.
+Christian B
+Borges Lettering & Design
+Centre for Development of Advanced Computing
+Computer Fonts Australia
+Characters
+CakeType
+Connare.com
+Cool Fonts
+corduroy
+CR8 Software Solutions
+CastleType
+China Type Designs Ltd.
+Computers World Wide/AC Capital Funding
+Club Type
+Dalton Maag Limited
+Devon DeLapp
+DecoType (replaced by DT)
+Delve Fonts
+Datascan Font Service Ltd
+Digital Graphic Labs foundry
+Dainippon Screen Mfg. Co., Inc.
+Datascan bv
+Design Science Inc.
+DizajnDesign
+Dubina Nikolay
+DecoType
+Digital Typeface Corp.
+DTP-Software
+dtpTypes Limited
+Duxbury Systems, Inc.
+Rivers Edge Corp.
+Elsner+Flake
+Electronic Font Foundry
+Elfring Fonts Inc.
+E Fonts L.L.C.
+Elseware
+E-Signature
+Evertype
+The Font Bureau, Inc.
+The Font Cabinet
+fontage canada
+FDI fonts.info
+Frank Jonen - Illustration & Typography
+Studio Liddell Graphic Design
+Fontfoundry
+FontFabrik
+Font Source
+The Foundry
+Formula Solutions
+Font Source Europe
+FontShop International
+FontSurfer Ltd
+Fontsmith
+FontFont
+Font Garden
+Fountain
+Fontware Limited
+pagos Design Group, Inc.
+Gerald Gallo
+Gary Ritchie
+GD Fonts
+GarageFonts
+Georgian Internet Avenue
+Glyph Systems
+Free Software Foundation, Inc.
+Dingbat Dungeon
+Fonts-A-Go-Go
+GoHebrew, division of GoME2.com Inc.
+Gamma Productions, Inc.
+Grilled cheese
+grafikk R
+Graphity!
+Hoefler & Frere-Jones
+Hail Design
+TypeHaus
+Sivan Toledo
+Hoefler & Frere-Jones (replaced by H&FJ)
+Hill Systems
+High-Logic
+House Industries
+Hewlett-Packard
+HermesSOFT Company
+The Hoefler Type Foundry, Inc.
+Hexatype
+HanYang System
+IDAutomation.com, Inc.
+IDEE TYPOGRAFICA
+International Digital Fonts
+Indigenous Languages Project
+INRAY Inc.
+Invoice Central
+TYPE INVADERS
+ISE-Aditi Info. Pvt . Ltd.
+Red Rooster Collection (ITF, Inc.)
+Just Another Foundry
+Jake Tilson Studio
+Jan Fromm
+Jeremy Tankard Typography Ltd
+JIYUKOBO Ltd.
+Kingsley/ATF
+Kataoka Design Works
+Karakta Fonthome
+Klim Typographic Design
+Karsten Luecke
+Kuba Tatarkiewicz
+la laiterie
+Lanston Type Company
+Larabiefonts
+Carolina Laudon
+Interleaf, Inc.
+Letraset
+Logix Research Institute, Inc.
+Letterhead Fonts
+Linguist's Software
+Linotype
+Livedesign
+LetterPerfect Fonts
+Le Typophage
+Lighttracks
+LettError
+LucasFonts
+Macromedia / Made with Fontographer
+Tom Mouat's Map Symbol Fonts
+Match Fonts
+Cerajewski Computer Consulting
+Mountaincow
+Meir Sadan
+FontMesa,
+Magic Fonts
+Masterfont
+Majus Corporation
+Majur Inc.
+Micrologic Software
+Michel M.
+Modular Infotech Private Limited.
+Meta One
+Monotype Imaging
+Moonlight Type and Technolog
+Morovia Corporation
+Microsoft Corp.
+Motoya Co.,LTD.
+Murasu Systems Sdn. Bhd
+MyFonts.com
+No Bodoni Typography
+Neufville Digital
+NEC Corporation
+Nick's Fonts
+NIS Corporation
+Norfok Incredible Font Design
+NOVATYPE
+Orbit Enterprises, Inc.
+P22 Inc.
+ParaType Inc.
+Pangea design
+Parsons Design Workx
+Phil's Fonts, Inc.
+Philip Kelly Digital Design
+PLATINUM technology
+Production First Software
+Porchez Typofonderie
+preussTYPE
+PYRS Fontlab Ltd. / Made with FontLab
+QMS/Imagen
+Quadrat Communications
+Underware
+Reall Graphics
+R K Fonts
+Buro Petr van Blokland
+RudynFluffy
+Ryobi Limited
+s.a.x. Software gmbh
+SelfBuild Type Foundry
+The FontSite
+Sarumadhu Services Pvt. Ltd.
+Software Union
+Scooter Graphics
+ShamFonts / Shamrock Int.
+Signature Software, Inc.
+SIL International (SIL)
+Summit Information Technologies Pvt.Ltd,
+Celtic Lady's Fonts
+Silesian Letters
+SourceNet
+Soft Horizons
+Standing Ovations Software
+Brian Sooy & Co + Sooy Type Foundry
+Storm Type Foundry
+Stone Type Foundry
+sunwalk fontworks
+Swfte International
+Page42 Type Foundry
+SynFonts
+Syriac Computing Institute
+TrueBlue Font Foundry
+Tansin A. Darcos & Co.
+Terminal Design, Inc.
+Treacyfaces / Headliners
+Tilde, SIA
+Tim Romano
+Tim Rolands
+Tiro Typeworks
+The MicroFoundry
+Test Pilot Collective
+Typotheque
+Type Revivals
+TamilSoft Corporation
+Torleiv Georg Sverdrup
+Twardoch Typography
+TypeCulture
+Typadelic
+Type Associates Pty Ltd
+Typodermic
+Type Project
+typerepublic
+UnAuthorized Type
+Unitype Inc
+Vijay K. Patel
+Visualogik Technology & Design
+VetteLetters.nl
+Martin Vogel
+Vladimir Romanov
+VorSicht GmbH
+VISUALTYPE SRL
+Wasp Barcode Technologies
+Webmakers India
+Xerox Font Services
+Y&Y, Inc.
+YourFonts.com
+Unrender
+Zebra Font Factory
+Tangram Studio
+Error while parsing TrueType table
+FontTrueType
+FontType1
+Albertus
+Americana
+AntiqueOlive
+AshleyScript
+AstrologyPi
+BaskervilleCyrillic
+BellGothic
+Bernhard
+BernhardModern
+BickhamScript
+BorderPi
+BriemAkademi
+BriemScript
+BundesbahnPi
+Cantoria
+CaravanBorders
+Carolina
+CascadeScript
+Caslon540
+CaslonOpenFace
+Castellar
+CenturyExpanded
+Clairvaux
+Clarendon
+ClearfaceGothic
+Cloister
+ClubTypeMercurius
+CopperplateGothic
+DecorationPi
+DINSchriften
+DomCasual
+DorchesterScript
+DucdeBerry
+Eccentric
+EgyptienneF
+Ehrhardt
+Ellington
+Engravers
+EuropeanPi
+Eurostile
+Excelsior
+ExcelsiorCyrillic
+Fairfield
+Falstaff
+FetteFraktur
+Fournier
+FranklinGothic
+FreestyleScript
+FrizQuadrata
+Frutiger
+Garamond3
+GarthGraphic
+GillFloriatedCapitals
+GillSans
+Gothic13
+GoudyText
+Graphite
+Hadriano
+Hardwood
+HeiseiKakuGothic
+HeiseiMaruGothic
+HeiseiMincho
+HelveticaCyrillic
+HelveticaInserat
+HelveticaInseratCyrillic
+HelveticaNeue
+HelveticaRounded
+Herculanum
+Hiroshige
+HolidayPi
+HorleyOldStyle
+Industria
+Insignia
+Isabella
+ITCAmericanTypewriter
+ITCAvantGardeGothic
+ITCBauhaus
+ITCBeesknees
+ITCBenguiatGothic
+ITCBenguiat
+ITCBerkeleyOldstyle
+ITCBookman
+ITCCaslon224
+ITCCentury
+ITCCenturyHandtooled
+ITCCerigo
+ITCCheltenham
+ITCCheltenhamHandtooled
+ITCClearface
+ITCCushing
+ITCEsprit
+ITCFenice
+ITCFlora
+ITCFranklinGothic
+ITCGalliard
+ITCGaramond
+ITCGaramondHandtooled
+ITCGiovanni
+ITCGoudySans
+ITCHighlander
+ITCIsadora
+ITCKabel
+ITCKorinna
+ITCLeawood
+ITCLegacySans
+ITCLegacySerif
+ITCLubalinGraph
+ITCMachine
+ITCMendozaRoman
+ITCMonaLisa
+ITCMotterCorpus
+ITCNewBaskerville
+ITCNovarese
+ITCOfficinaSans
+ITCOfficinaSerif
+ITCOzwald
+ITCQuorum
+ITCSerifGothic
+ITCSlimbach
+ITCSouvenir
+ITCStoneInformal
+ITCStoneSans
+ITCStoneSerif
+ITCSymbol
+ITCTiepolo
+ITCTiffany
+ITCUsherwood
+ITCVeljovic
+ITCWeidemann
+ITCZapfChancery
+ITCZapfDingbats
+JansonText
+Kaufmann
+KochAntiqua
+stlerScript
+LinoLetter
+Linoscript
+Linotext
+LinotypeCentennial
+LinotypeDidot
+LogoLine
+LucidaMath
+LucidaSans
+LucidaSansTypewriter
+LucidaTypewriter
+Marigold
+MathematicalPi
+MediciScript
+Mercurius
+Meridien
+Minister
+MonolineScript
+MonotypeGoudyModern
+MonotypeGrotesque
+MonotypeItalianOldStyle
+MonotypeModern
+MonotypeOldStyle
+MonotypeScotchRoman
+MonotypeScript
+MVBBossaNova
+MVBCelestiaAntiqua
+MVBEmmascript
+MVBGreymantle
+MVBMagnesium
+MVBMagnolia
+NationalCodes
+NationalCodesPi
+NeueHammerUnziale
+NeuzeitS
+NewAster
+NewBerolina
+NewCaledonia
+NewCenturySchoolbook
+NotreDame
+NuptialScript
+OceanSans
+Octavian
+OldClaude
+OldStyle7
+Olympian
+PalaceScript
+Palatino
+Parisian
+ParkAvenue
+Penumbra
+Perpetua
+PMNCaecilia
+Pompeijana
+PrestigeElite
+Reporter
+Rockwell
+Rotation
+RotisSansSerif
+RotisSemiSans
+RotisSemiSerif
+RotisSerif
+RulingScript
+RussellSquare
+RussellOblique
+Rusticana
+RuzickaFreehand
+SanMarco
+Sassafras
+Serpentine
+SnellRoundhand
+Spectrum
+StempelGaramond
+Strayhorn
+TimesNewRoman
+TimesEuropa
+TimesTen
+TimesTenCyrillic
+TradeGothic
+TrumpMedi
+Universal
+University
+VAGRounded
+Versailles
+Visigoth
+WarningPi
+WiesbadenSwing
+WilhelmKlingsporGotisch
+WittenbergerFraktur
+no error
+cannot open resource
+unknown file format
+broken file
+invalid FreeType version
+module version is too low
+invalid argument
+unimplemented feature
+broken table
+broken offset within table
+array allocation size too large
+missing module
+missing property
+invalid glyph index
+invalid character code
+unsupported glyph image format
+cannot render this glyph format
+invalid outline
+invalid composite glyph
+too many hints
+invalid pixel size
+invalid SVG document
+invalid object handle
+invalid library handle
+invalid module handle
+invalid face handle
+invalid size handle
+invalid glyph slot handle
+invalid charmap handle
+invalid cache manager handle
+invalid stream handle
+too many modules
+too many extensions
+out of memory
+unlisted object
+cannot open stream
+invalid stream seek
+invalid stream skip
+invalid stream read
+invalid stream operation
+invalid frame operation
+nested frame access
+invalid frame read
+raster uninitialized
+raster corrupted
+raster overflow
+negative height while rastering
+too many registered caches
+invalid opcode
+too few arguments
+stack overflow
+code overflow
+bad argument
+division by zero
+invalid reference
+found debug opcode
+found ENDF opcode in execution stream
+nested DEFS
+invalid code range
+execution context too long
+too many function definitions
+too many instruction definitions
+SFNT font table missing
+horizontal header (hhea) table missing
+locations (loca) table missing
+name table missing
+character map (cmap) table missing
+horizontal metrics (hmtx) table missing
+PostScript (post) table missing
+invalid horizontal metrics
+invalid character map (cmap) format
+invalid ppem value
+invalid vertical metrics
+could not find context
+invalid PostScript (post) table format
+invalid PostScript (post) table
+found FDEF or IDEF opcode in glyf bytecode
+missing bitmap in strike
+SVG hooks have not been set
+opcode syntax error
+argument stack underflow
+no Unicode glyph name found
+glyph too big for hinting
+`STARTFONT' field missing
+`FONT' field missing
+`SIZE' field missing
+`FONTBOUNDINGBOX' field missing
+`CHARS' field missing
+`STARTCHAR' field missing
+`ENCODING' field missing
+`BBX' field missing
+`BBX' too big
+Font header corrupted or missing fields
+Font glyphs corrupted or missing fields
+GFParsedStreamManager
+GFParsedStreamManagerCombined
+GFParsedStreamManagerFiles
+fylgacolemanX
+NameIndex
+TopDictIndex
+StringIndex
+GlobalSubrIndex
+TopDictIndex/
+FullName
+FamilyName
+FontBBox
+BlueValues
+OtherBlues
+FamilyBlues
+FamilyOtherBlues
+UniqueID
+Encoding
+CharStrings
+DefaultWidthX
+NominalWidthX
+Copyright
+IsFixedPitch
+ItalicAngle
+UnderlinePosition
+UnderlineThickness
+PaintType
+CharStringType
+FontMatrix
+StrokeWidth
+BlueScale
+BlueShift
+BlueFuzz
+StemSnapH
+StemSnapV
+ForceBold
+LanguageGroup
+ExpansionFactor
+InitialRandomSeed
+SyntheticBase
+PostScript
+BaseFontName
+BaseFontBlend
+CIDFontVersion
+CIDFontRevision
+CIDFontType
+CIDCount
+FDSelect
+FontName
+Microsoft/Windows/Fonts
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Type 1 Installer\Type 1 Fonts
+font-format
+glyph-dict
+postscript-font-name
+sfnt-table
+tt-cmaps
+properties
+truetype-engine
+darkening-parameters
+hinting-engine
+no-stem-darkening
+random-seed
+/..namedfork/rsrc
+resource.frk/
+.resource/
+.AppleDouble/
+postscript-info
+CIDFontName
+Registry
+Ordering
+Supplement
+CIDMapOffset
+isFixedPitch
+FontType
+SubrMapOffset
+SubrCount
+lenBuildCharArray
+ForceBoldThreshold
+password
+MinFeature
+CID Type 1
+%ADOBeginFontDict
+pshinter
+%!PS-Adobe-3.0 Resource-CIDFont
+StartData
+FREETYPE_PROPERTIES
+multi-masters
+metrics-variations
+T H E Z O C Q S
+H E Z L O C U S
+f i j k d b h
+u v x z o e s c
+n r x z o e s c
+p q g j y
+autofitter
+0 1 2 3 4 5 6 7 8 9
+fallback-script
+default-script
+increase-x-height
+glyph-to-script-map
+DFGirl-W6-WIN-BF
+DFGothic-EB
+DFGyoSho-Lt
+DFHSGothic-W5
+DFHSMincho-W3
+DFHSMincho-W7
+DFKaiSho-SB
+DFKaiShu
+DFKai-SB
+HuaTianKaiTi?
+HuaTianSongTi?
+Ming(for ISO10646)
+MingMedium
+PMingLiU
+MingLi43
+                                
+TrueType
+interpreter-version
+OpticalSize
+DesignVector
+BlendDesignPositions
+BlendDesignMap
+BlendAxisTypes
+WeightVector
+BuildCharArray
+ExpertEncoding
+ISOLatin1Encoding
+closefile
+FontDirectory
+postscript-cmaps
+%!PS-AdobeFont
+%!FontType
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmn
+stuvwxyz
+cff-load
+Ascender
+AxisLabel
+AxisType
+CapHeight
+CharWidth
+CharacterSet
+Descender
+EncodingScheme
+EndCharMetrics
+EndComposites
+EndDirection
+EndFontMetrics
+EndKernData
+EndKernPairs
+EndTrackKern
+IsBaseFont
+IsCIDFont
+IsFixedV
+MappingScheme
+MetricsSets
+StartAxis
+StartCharMetrics
+StartComposites
+StartDirection
+StartFontMetrics
+StartKernData
+StartKernPairs
+StartKernPairs0
+StartKernPairs1
+StartTrackKern
+TrackKern
+nonmarkingreturn
+notequal
+infinity
+lessequal
+greaterequal
+partialdiff
+summation
+integral
+approxequal
+nonbreakingspace
+Idotaccent
+Scedilla
+scedilla
+quotedbl
+numbersign
+ampersand
+quoteright
+parenleft
+parenright
+asterisk
+semicolon
+question
+tABCDEFGHIJKLMNOPQRSTUVWXYZ
+bracketleft
+backslash
+bracketright
+asciicircum
+underscore
+quoteleft
+abcdefghijklmnopqrstuvwxyz
+braceleft
+braceright
+asciitilde
+exclamdown
+sterling
+fraction
+currency
+quotesingle
+quotedblleft
+guillemotleft
+guilsinglleft
+guilsinglright
+daggerdbl
+periodcentered
+paragraph
+quotesinglbase
+quotedblbase
+quotedblright
+guillemotright
+ellipsis
+perthousand
+questiondown
+circumflex
+dotaccent
+dieresis
+hungarumlaut
+ordfeminine
+ordmasculine
+dotlessi
+germandbls
+onesuperior
+logicalnot
+trademark
+plusminus
+onequarter
+brokenbar
+threequarters
+twosuperior
+registered
+multiply
+threesuperior
+copyright
+Acircumflex
+Adieresis
+Ccedilla
+Ecircumflex
+Edieresis
+Icircumflex
+Idieresis
+Ocircumflex
+Odieresis
+Ucircumflex
+Udieresis
+Ydieresis
+acircumflex
+adieresis
+ccedilla
+ecircumflex
+edieresis
+icircumflex
+idieresis
+ocircumflex
+odieresis
+ucircumflex
+udieresis
+ydieresis
+exclamsmall
+Hungarumlautsmall
+dollaroldstyle
+dollarsuperior
+ampersandsmall
+Acutesmall
+parenleftsuperior
+parenrightsuperior
+twodotenleader
+onedotenleader
+zerooldstyle
+oneoldstyle
+twooldstyle
+threeoldstyle
+fouroldstyle
+fiveoldstyle
+sixoldstyle
+sevenoldstyle
+eightoldstyle
+nineoldstyle
+commasuperior
+threequartersemdash
+periodsuperior
+questionsmall
+asuperior
+bsuperior
+centsuperior
+dsuperior
+esuperior
+isuperior
+lsuperior
+msuperior
+nsuperior
+osuperior
+rsuperior
+ssuperior
+tsuperior
+parenleftinferior
+parenrightinferior
+Circumflexsmall
+hyphensuperior
+Gravesmall
+colonmonetary
+onefitted
+Tildesmall
+exclamdownsmall
+centoldstyle
+Lslashsmall
+Scaronsmall
+Zcaronsmall
+Dieresissmall
+Brevesmall
+Caronsmall
+Dotaccentsmall
+Macronsmall
+figuredash
+hypheninferior
+Ogoneksmall
+Ringsmall
+Cedillasmall
+questiondownsmall
+oneeighth
+threeeighths
+fiveeighths
+seveneighths
+onethird
+twothirds
+zerosuperior
+foursuperior
+fivesuperior
+sixsuperior
+sevensuperior
+eightsuperior
+ninesuperior
+zeroinferior
+oneinferior
+twoinferior
+threeinferior
+fourinferior
+fiveinferior
+sixinferior
+seveninferior
+eightinferior
+nineinferior
+centinferior
+dollarinferior
+periodinferior
+commainferior
+Agravesmall
+Aacutesmall
+Acircumflexsmall
+Atildesmall
+Adieresissmall
+Aringsmall
+Ccedillasmall
+Egravesmall
+Eacutesmall
+Ecircumflexsmall
+Edieresissmall
+Igravesmall
+Iacutesmall
+Icircumflexsmall
+Idieresissmall
+Ethsmall
+Ntildesmall
+Ogravesmall
+Oacutesmall
+Ocircumflexsmall
+Otildesmall
+Odieresissmall
+Oslashsmall
+Ugravesmall
+Uacutesmall
+Ucircumflexsmall
+Udieresissmall
+Yacutesmall
+Thornsmall
+Ydieresissmall
+Semibold
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmn
+stuvwxyz
+ < C O [ c
+"("4"<"Da
+'!$J$N$R$V$Z$^$b$f$j$n0
+%2%6%:%>%B%F%J%N%R%V0
+%r%v%z%~%
+&2&6&:&>&B&F&J&N&R&V0
+&r&v&z&~&
+' '$'(','0'4'8'<'@0
+'\'`'d'h'l'p't'x'|'
+( ($(((,(0(4(8(<(@0
+(Z(^(b(f(j(n(r(v(z1
+*I*T*e*l*u
+,6,:,>,B,F,J,N,R,V,Z0
+-.-2-6-:->-B-F-J-N-R0
+.B.F.J.N.R.V.Z.^2
+/B/F/J/N/R/V/Z/^/b0
+0!0%0)0-014
+0K0O0S0W0[0_0c0g0k0o0
+1:1>1B1F1J1N1R0
+2)202<2U2e2
+3)323A3O3
+9@9Y9`9y9
+:>:H:`:g:
+;(;1;?;];
+<U<`<k<y<
+[?O?T?Y?e
+E+E\HTH\HfHrH
+BFBQB[Bb
+F'F2F>F\Fsa
+G+GXGfGkGpGuG{G
+G7G;G@GEGJM
+N;NHNQNkN
+I&I,I:IJ
+K&K8KFKQ
+O5OFO\OgO
+RFRQR\Rf
+W$W>WBWSW
+ZDZUZ]Zj
+[#[/[:[[[c[n
+\!\(\A\\\~\
+g]a^+^B^
+a'aCaYb"b8b
+^L^S^\^r
+gZgnhKhWhci
+d]dbdpdyd
+e e%e.e=eM
+f!f=fEfwf
+i(i4i:iP
+-j'j2j>jU
+oEoOoZoaozo
+s1s:sHsX
+z<zRz_zvz
+wDwNwYw`wy
+x>xoxyx~
+xIxRx[xe
+y'y6y?yMa
+|=|K|^|n|
+fraction
+periodcentered
+Tcommaaccent
+tcommaaccent
+W0123456789ABCDEF
+CHARSET_REGISTRY
+CHARSET_ENCODING
+1.3.1.zlib-ng
+bad allocation
+.text$di
+.text$mn
+.text$mn$00
+.text$yd
+.idata$5
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata$T
+.rdata$r
+.rdata$voltmd
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls$ZZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data$rs
+.rsrc$01
+.rsrc$02
+ &"$$*&*(
+4J86:R8T:\
+4,6X8$0$:
+<^:8>.@(B2D:@@:
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+FontLayer.dll
+??0CIDGIDProcessor@GFEncodingComposite@@QEAA@AEBV01@@Z
+??0CIDGIDProcessor@GFEncodingComposite@@QEAA@XZ
+??0CIDToGID@GFEncodingComposite@@QEAA@$$QEAV01@@Z
+??0CIDToGID@GFEncodingComposite@@QEAA@AEAVGInStream@@@Z
+??0CIDToGID@GFEncodingComposite@@QEAA@AEBV01@@Z
+??0CIDToGID@GFEncodingComposite@@QEAA@V?$GAutoPtr@VGBuffer@@UGDeletePtr@@@@@Z
+??0CIDToGID@GFEncodingComposite@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0CIDToGID@GFEncodingComposite@@QEAA@XZ
+??0GFCMap@@QEAA@$$QEAV0@@Z
+??0GFCMap@@QEAA@AEBV0@@Z
+??0GFCMap@@QEAA@AEBVGFParsedStream@@@Z
+??0GFCMap@@QEAA@AEBVGInStream@@@Z
+??0GFCMap@@QEAA@AEBVGPathName@@@Z
+??0GFCMap@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFCMap@@QEAA@XZ
+??0GFCMapCID@@QEAA@$$QEAV0@@Z
+??0GFCMapCID@@QEAA@AEBV0@@Z
+??0GFCMapCID@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+??0GFCMapCID@@QEAA@AEBVGFParsedStream@@@Z
+??0GFCMapCID@@QEAA@AEBVGInStream@@@Z
+??0GFCMapCID@@QEAA@AEBVGPathName@@@Z
+??0GFCMapCID@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFCMapCID@@QEAA@XZ
+??0GFCMapCIDIterator@@QEAA@$$QEAV0@@Z
+??0GFCMapCIDIterator@@QEAA@AEBV0@@Z
+??0GFCMapCIDIterator@@QEAA@AEBVGFCMapCID@@W4NotDefUsage@0@_N@Z
+??0GFCMapUnicode@@QEAA@$$QEAV0@@Z
+??0GFCMapUnicode@@QEAA@AEBV0@@Z
+??0GFCMapUnicode@@QEAA@AEBVGFParsedStream@@@Z
+??0GFCMapUnicode@@QEAA@AEBVGInStream@@@Z
+??0GFCMapUnicode@@QEAA@AEBVGPathName@@@Z
+??0GFCMapUnicode@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFCMapUnicode@@QEAA@XZ
+??0GFEncoding@@IEAA@AEBV0@@Z
+??0GFEncoding@@IEAA@XZ
+??0GFEncodingComposite@@QEAA@AEBV0@@Z
+??0GFEncodingComposite@@QEAA@XZ
+??0GFEncodingIterator@@QEAA@AEBV0@@Z
+??0GFEncodingIterator@@QEAA@AEBVGBuffer@@AEBVGFEncoding@@@Z
+??0GFEncodingNormalizerPDF@@QEAA@W4AllowedEncodingTypes@0@0AEBVGFParsedStreamManager@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z
+??0GFEncodingNormalizerPDF@@QEAA@W4AllowedEncodingTypes@0@AEBVGFParsedStreamManager@@@Z
+??0GFEncodingSimple@@QEAA@AEBV0@@Z
+??0GFEncodingSimple@@QEAA@XZ
+??0GFEncodingUnicode@@QEAA@AEBV0@@Z
+??0GFEncodingUnicode@@QEAA@W4WritingMode@GFEncoding@@@Z
+??0GFException@@QEAA@$$QEAV0@@Z
+??0GFException@@QEAA@AEBV0@@Z
+??0GFException@@QEAA@AEBVGLngString@@@Z
+??0GFException@@QEAA@AEBVGString@@@Z
+??0GFException@@QEAA@J@Z
+??0GFException@@QEAA@JAEBVGString@@@Z
+??0GFException@@QEAA@XZ
+??0GFExceptionHandler@@QEAA@AEBV0@@Z
+??0GFExceptionHandler@@QEAA@XZ
+??0GFFileInfo@@IEAA@XZ
+??0GFFileIterator@@QEAA@XZ
+??0GFFileManager@@QEAA@AEBVGPathName@@@Z
+??0GFFileManager@@QEAA@XZ
+??0GFFileManagerIterator@@IEAA@XZ
+??0GFFileManagerIterator@@QEAA@AEBV0@@Z
+??0GFFileManagerIteratorAll@@QEAA@AEBVGFFileManager@@@Z
+??0GFFileManagerIteratorUnique@@QEAA@AEBVGFFileManager@@@Z
+??0GFFont@@QEAA@$$QEAV0@@Z
+??0GFFont@@QEAA@AEBV0@@Z
+??0GFFont@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFont@@QEAA@AEBVGInStream@@@Z
+??0GFFont@@QEAA@AEBVGPathName@@@Z
+??0GFFont@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFont@@QEAA@V?$unique_ptr@VGFFontImp@@U?$default_delete@VGFFontImp@@@std@@@std@@@Z
+??0GFFont@@QEAA@XZ
+??0GFFontCFF@@QEAA@$$QEAV0@@Z
+??0GFFontCFF@@QEAA@AEBV0@@Z
+??0GFFontCFF@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontCFF@@QEAA@AEBVGInStream@@@Z
+??0GFFontCFF@@QEAA@AEBVGPathName@@@Z
+??0GFFontCFF@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontCFF@@QEAA@V?$unique_ptr@VGFFontCFFImp@@U?$default_delete@VGFFontCFFImp@@@std@@@std@@@Z
+??0GFFontCFF@@QEAA@XZ
+??0GFFontCollection@@QEAA@$$QEAV0@@Z
+??0GFFontCollection@@QEAA@AEBV0@@Z
+??0GFFontCollection@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontCollection@@QEAA@AEBVGInStream@@@Z
+??0GFFontCollection@@QEAA@AEBVGPathName@@@Z
+??0GFFontCollection@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontCollection@@QEAA@XZ
+??0GFFontMMType1@@QEAA@$$QEAV0@@Z
+??0GFFontMMType1@@QEAA@AEBV0@@Z
+??0GFFontMMType1@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontMMType1@@QEAA@AEBVGInStream@@@Z
+??0GFFontMMType1@@QEAA@AEBVGPathName@@@Z
+??0GFFontMMType1@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontMMType1@@QEAA@XZ
+??0GFFontOTFCFF@@QEAA@$$QEAV0@@Z
+??0GFFontOTFCFF@@QEAA@AEBV0@@Z
+??0GFFontOTFCFF@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontOTFCFF@@QEAA@AEBVGInStream@@@Z
+??0GFFontOTFCFF@@QEAA@AEBVGPathName@@@Z
+??0GFFontOTFCFF@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontOTFCFF@@QEAA@XZ
+??0GFFontTrueType@@QEAA@$$QEAV0@@Z
+??0GFFontTrueType@@QEAA@AEBV0@@Z
+??0GFFontTrueType@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontTrueType@@QEAA@AEBVGInStream@@@Z
+??0GFFontTrueType@@QEAA@AEBVGPathName@@@Z
+??0GFFontTrueType@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontTrueType@@QEAA@XZ
+??0GFFontType1@@QEAA@$$QEAV0@@Z
+??0GFFontType1@@QEAA@AEBV0@@Z
+??0GFFontType1@@QEAA@AEBVGFParsedStream@@@Z
+??0GFFontType1@@QEAA@AEBVGInStream@@@Z
+??0GFFontType1@@QEAA@AEBVGPathName@@@Z
+??0GFFontType1@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFFontType1@@QEAA@XZ
+??0GFFontUnicodeMapLookupBlocker@@QEAA@AEBVGFFont@@@Z
+??0GFGlyph@@QEAA@AEBV0@@Z
+??0GFGlyph@@QEAA@PEAVGFGlyphImp@@@Z
+??0GFParsedStream@@QEAA@AEBV0@@Z
+??0GFParsedStream@@QEAA@AEBV?$vector@VGPathName@@V?$allocator@VGPathName@@@std@@@std@@@Z
+??0GFParsedStream@@QEAA@AEBVGInStream@@@Z
+??0GFParsedStream@@QEAA@AEBVGPathName@@@Z
+??0GFParsedStream@@QEAA@V?$unique_ptr@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$default_delete@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z
+??0GFParsedStream@@QEAA@V?$unique_ptr@VGFParsedStreamImp@@U?$default_delete@VGFParsedStreamImp@@@std@@@std@@@Z
+??0GFParsedStream@@QEAA@XZ
+??0GFParsedStreamManager@@QEAA@AEBV0@@Z
+??0GFParsedStreamManager@@QEAA@XZ
+??0GFParsedStreamManagerCombined@@QEAA@AEBV0@@Z
+??0GFParsedStreamManagerCombined@@QEAA@V?$GSmartPtr@VGFParsedStreamManager@@@@0@Z
+??0GFParsedStreamManagerFiles@@QEAA@AEAV?$GAutoPtr@VGFFileManager@@UGDeletePtr@@@@@Z
+??0GFParsedStreamManagerIterator@@QEAA@AEBVGFParsedStreamManager@@_N@Z
+??0GFReport@@QEAA@AEBV0@@Z
+??0GFReport@@QEAA@XZ
+??0GFSubsetPrefixTracker@@QEAA@XZ
+??0GFSubsetter@@QEAA@AEBVGFFont@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_NPEAVGFSubsetPrefixTracker@@@Z
+??0GFSubsetter@@QEAA@AEBVGFFont@@PEAVGFSubsetPrefixTracker@@@Z
+??0GFSystemFontIteratorDS@@QEAA@XZ
+??0Iterator@GFFileManager@@QEAA@$$QEAV01@@Z
+??0Iterator@GFFileManager@@QEAA@AEBV1@@Z
+??1CIDGIDProcessor@GFEncodingComposite@@UEAA@XZ
+??1CIDToGID@GFEncodingComposite@@QEAA@XZ
+??1GFCMap@@UEAA@XZ
+??1GFCMapCID@@UEAA@XZ
+??1GFCMapCIDIterator@@QEAA@XZ
+??1GFCMapUnicode@@UEAA@XZ
+??1GFEncoding@@UEAA@XZ
+??1GFEncodingComposite@@UEAA@XZ
+??1GFEncodingIterator@@QEAA@XZ
+??1GFEncodingNormalizerPDF@@UEAA@XZ
+??1GFEncodingSimple@@UEAA@XZ
+??1GFEncodingUnicode@@UEAA@XZ
+??1GFException@@UEAA@XZ
+??1GFExceptionHandler@@UEAA@XZ
+??1GFFileInfo@@UEAA@XZ
+??1GFFileIterator@@UEAA@XZ
+??1GFFileManager@@UEAA@XZ
+??1GFFileManagerIterator@@UEAA@XZ
+??1GFFileManagerIteratorAll@@UEAA@XZ
+??1GFFileManagerIteratorUnique@@UEAA@XZ
+??1GFFont@@UEAA@XZ
+??1GFFontCFF@@UEAA@XZ
+??1GFFontCollection@@UEAA@XZ
+??1GFFontMMType1@@UEAA@XZ
+??1GFFontOTFCFF@@UEAA@XZ
+??1GFFontTrueType@@UEAA@XZ
+??1GFFontType1@@UEAA@XZ
+??1GFFontUnicodeMapLookupBlocker@@QEAA@XZ
+??1GFGlyph@@QEAA@XZ
+??1GFParsedStream@@UEAA@XZ
+??1GFParsedStreamManager@@UEAA@XZ
+??1GFParsedStreamManagerCombined@@UEAA@XZ
+??1GFParsedStreamManagerFiles@@UEAA@XZ
+??1GFParsedStreamManagerIterator@@QEAA@XZ
+??1GFReport@@UEAA@XZ
+??1GFSubsetPrefixTracker@@QEAA@XZ
+??1GFSubsetter@@QEAA@XZ
+??1GFSystemFontIteratorDS@@UEAA@XZ
+??1Iterator@GFFileManager@@QEAA@XZ
+??4CIDGIDProcessor@GFEncodingComposite@@QEAAAEAV01@AEBV01@@Z
+??4CIDToGID@GFEncodingComposite@@QEAAAEAV01@$$QEAV01@@Z
+??4CIDToGID@GFEncodingComposite@@QEAAAEAV01@AEBV01@@Z
+??4GFCMap@@QEAAAEAV0@$$QEAV0@@Z
+??4GFCMap@@QEAAAEAV0@AEBV0@@Z
+??4GFCMap@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFCMapCID@@QEAAAEAV0@$$QEAV0@@Z
+??4GFCMapCID@@QEAAAEAV0@AEBV0@@Z
+??4GFCMapCID@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFCMapCIDIterator@@QEAAAEAV0@$$QEAV0@@Z
+??4GFCMapCIDIterator@@QEAAAEAV0@AEBV0@@Z
+??4GFCMapUnicode@@QEAAAEAV0@$$QEAV0@@Z
+??4GFCMapUnicode@@QEAAAEAV0@AEBV0@@Z
+??4GFCMapUnicode@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFEncoding@@IEAAAEAV0@AEBV0@@Z
+??4GFEncodingComposite@@QEAAAEAV0@AEBV0@@Z
+??4GFEncodingIterator@@QEAAAEAV0@AEBV0@@Z
+??4GFEncodingSimple@@QEAAAEAV0@AEBV0@@Z
+??4GFEncodingUnicode@@QEAAAEAV0@AEBV0@@Z
+??4GFException@@QEAAAEAV0@$$QEAV0@@Z
+??4GFException@@QEAAAEAV0@AEBV0@@Z
+??4GFExceptionHandler@@QEAAAEAV0@AEBV0@@Z
+??4GFFileManagerIterator@@QEAAAEAV0@AEBV0@@Z
+??4GFFont@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFont@@QEAAAEAV0@AEBV0@@Z
+??4GFFont@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontCFF@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontCFF@@QEAAAEAV0@AEBV0@@Z
+??4GFFontCFF@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontCollection@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontCollection@@QEAAAEAV0@AEBV0@@Z
+??4GFFontCollection@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontMMType1@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontMMType1@@QEAAAEAV0@AEBV0@@Z
+??4GFFontMMType1@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontOTFCFF@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontOTFCFF@@QEAAAEAV0@AEBV0@@Z
+??4GFFontOTFCFF@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontTrueType@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontTrueType@@QEAAAEAV0@AEBV0@@Z
+??4GFFontTrueType@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFFontType1@@QEAAAEAV0@$$QEAV0@@Z
+??4GFFontType1@@QEAAAEAV0@AEBV0@@Z
+??4GFFontType1@@QEAAAEAV0@AEBVGFParsedStream@@@Z
+??4GFGlyph@@QEAAAEAV0@AEBV0@@Z
+??4GFNormalizedString@@QEAAAEAV0@$$QEAV0@@Z
+??4GFNormalizedString@@QEAAAEAV0@AEBV0@@Z
+??4GFParsedStream@@QEAAAEAV0@AEBV0@@Z
+??4GFParsedStreamManager@@QEAAAEAV0@AEBV0@@Z
+??4GFParsedStreamManagerCombined@@QEAAAEAV0@AEBV0@@Z
+??4GFReport@@QEAAAEAV0@AEBV0@@Z
+??4Iterator@GFFileManager@@QEAAAEAV01@$$QEAV01@@Z
+??8GFGlyph@@QEBA_NAEBV0@@Z
+??8GFParsedStream@@QEBA_NAEBV0@@Z
+??9GFGlyph@@QEBA_NAEBV0@@Z
+??9GFParsedStream@@QEBA_NAEBV0@@Z
+??AGFFontCollection@@QEBA?AVGFFont@@J@Z
+??_7CIDGIDProcessor@GFEncodingComposite@@6B@
+??_7GFCMap@@6B@
+??_7GFCMapCID@@6B@
+??_7GFCMapUnicode@@6B@
+??_7GFEncoding@@6B@
+??_7GFEncodingComposite@@6B@
+??_7GFEncodingNormalizerPDF@@6B@
+??_7GFEncodingSimple@@6B@
+??_7GFEncodingUnicode@@6B@
+??_7GFException@@6B@
+??_7GFExceptionHandler@@6B@
+??_7GFFileInfo@@6B@
+??_7GFFileIterator@@6B@
+??_7GFFileManager@@6B@
+??_7GFFileManagerIterator@@6B@
+??_7GFFileManagerIteratorAll@@6B@
+??_7GFFileManagerIteratorUnique@@6B@
+??_7GFFont@@6B@
+??_7GFFontCFF@@6B@
+??_7GFFontCollection@@6B@
+??_7GFFontMMType1@@6B@
+??_7GFFontOTFCFF@@6B@
+??_7GFFontTrueType@@6B@
+??_7GFFontType1@@6B@
+??_7GFParsedStream@@6B@
+??_7GFParsedStreamManager@@6B@
+??_7GFParsedStreamManagerCombined@@6B@
+??_7GFParsedStreamManagerFiles@@6B@
+??_7GFReport@@6B@
+??_7GFSystemFontIteratorDS@@6B@
+??_FGFEncodingUnicode@@QEAAXXZ
+??_FGFGlyph@@QEAAXXZ
+?Add@GFFileManager@@QEAAXAEBVGPathName@@@Z
+?Add@GFFileManager@@QEAAXV?$GAutoPtr@VGFFileIterator@@UGDeletePtr@@@@@Z
+?AddDifference@GFEncodingSimple@@QEAAXEAEBVGBuffer@@@Z
+?AddInfo@GFFileManager@@AEAAXV?$GSharedObject@VGFFileInfoCached@@@@_N@Z
+?ApplyGSUB@GFEncoding@@MEBAXAEAVGBuffer@@@Z
+?ApplyGSUB@GFEncodingComposite@@MEBAXAEAVGBuffer@@@Z
+?Assign@GFCMap@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFCMapCID@@EEAAXAEBVGFParsedStream@@@Z
+?Assign@GFCMapUnicode@@EEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFont@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontCFF@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontCollection@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontMMType1@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontOTFCFF@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontTrueType@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFFontType1@@MEAAXAEBVGFParsedStream@@@Z
+?Assign@GFParsedStream@@MEAAXAEBV1@@Z
+?CanUnicodeMapBeUsed@GFEncoding@@IEBA_N_N@Z
+?CharCodeRangesAreChanged@GFEncoding@@IEAAXXZ
+?CharCodesAreUnicode@GFCMapCID@@QEBA_NXZ
+?CharCodesAreUnicode@GFFileInfo@@QEBA_NXZ
+?Clear@GFEncoding@@UEAAXXZ
+?Clear@GFEncodingComposite@@UEAAXXZ
+?Clear@GFEncodingSimple@@UEAAXXZ
+?Clear@GFReport@@UEAAXXZ
+?ClearCaches@GFEncoding@@MEAAXXZ
+?ClearCaches@GFEncodingComposite@@MEAAXXZ
+?ClearCaches@GFEncodingSimple@@EEAAXXZ
+?ClearDifferences@GFEncodingSimple@@QEAAXXZ
+?ClearFont@GFEncoding@@UEAAXXZ
+?ClearFont@GFEncodingSimple@@UEAAXXZ
+?ClearUnicodeMap@GFEncoding@@QEAAXXZ
+?ClearUnicodeToCID@GFEncodingUnicode@@QEAAXXZ
+?ConvertFrom@GFEncoding@@UEBAJAEBVGBuffer@@PEBVGEncoding@@AEAV2@@Z
+?ConvertFrom@GFEncodingUnicode@@UEBAJAEBVGBuffer@@PEBVGEncoding@@AEAV2@@Z
+?ConvertFromInternal@GFEncodingComposite@@MEBAJAEBVGBuffer@@AEBVGFEncoding@@AEAV2@@Z
+?ConvertFromInternal@GFEncodingSimple@@MEBAJAEBVGBuffer@@AEBVGFEncoding@@AEAV2@@Z
+?ConvertFromInternal@GFEncodingUnicode@@MEBAJAEBVGBuffer@@AEBVGFEncoding@@AEAV2@@Z
+?ConvertFromThroughGID@GFEncoding@@AEBAJAEBVGBuffer@@AEBV1@AEAV2@@Z
+?ConvertFromThroughUnicode@GFEncoding@@AEBAJAEBVGBuffer@@AEBVGEncoding@@AEAV2@@Z
+?ConvertTo@GFEncoding@@UEBAJAEBVGBuffer@@PEBVGUnicodeEncoding@@AEAV2@@Z
+?ConvertTo@GFEncodingUnicode@@UEBAJAEBVGBuffer@@PEBVGUTF8Encoding@@AEAV2@@Z
+?ConvertTo@GFEncodingUnicode@@UEBAJAEBVGBuffer@@PEBVGUnicodeEncoding@@AEAV2@@Z
+?Create@GFEncodingCreator@@YAXAEBVGBuffer@@_N1110AEBV?$GDict@EVGBuffer@@@@AEBVGFCMapUnicode@@AEAVGFEncodingSimple@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFFont@@_N11AEBVGBuffer@@AEBV?$GDict@EVGBuffer@@@@AEBVGFCMapUnicode@@AEAVGFEncodingSimple@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFFont@@_NAEBVGBuffer@@PEBVGEncoding@@AEAVGFEncodingSimple@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@W4WritingMode@GFEncoding@@AEAVGFEncodingUnicode@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFEncodingComposite@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBVGBuffer@@PEBVGEncoding@@W4WritingMode@GFCMap@@AEAVGFEncodingComposite@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBVGBuffer@@PEBVGEncoding@@W4WritingMode@GFCMap@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAVGFEncodingComposite@@@Z
+?Create@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBVGFCMapCID@@AEAVGFEncodingComposite@@@Z
+?CreateBaseEncoding@GFEncodingSimple@@AEAAXAEBVGBuffer@@@Z
+?CreateCFFWithoutOTF@GFFontOTFCFF@@QEBAXAEAV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@@Z
+?CreateClone@GFEncodingComposite@@UEBA?AV?$GSharedObject@VGFEncoding@@@@XZ
+?CreateClone@GFEncodingSimple@@UEBA?AV?$GSharedObject@VGFEncoding@@@@XZ
+?CreateClone@GFEncodingUnicode@@UEBA?AV?$GSharedObject@VGFEncoding@@@@XZ
+?CreateEmbedded@GFFont@@QEBAXAEAV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@AEAVGName@@@Z
+?CreateInstance@GFFontMMType1@@QEBA?AVGFFont@@AEBV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@JU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@J@std@@@2@@std@@@Z
+?CreateStream@CIDToGID@GFEncodingComposite@@QEBA?AV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@XZ
+?CreateStream@GFCMap@@QEBAXAEAV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@@Z
+?CreateSubset@GFSubsetter@@QEBA?AV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEAVGName@@@Z
+?CreateSubset@GFSubsetter@@QEBA?AV?$unique_ptr@VGInStream@@U?$default_delete@VGInStream@@@std@@@std@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@AEAVGName@@AEAVGFReport@@@Z
+?CreateSubsetReport@GFSubsetter@@QEBAXAEAVGFReport@@@Z
+?Current@GFFileManagerIteratorAll@@UEBAAEBVGFFileInfo@@XZ
+?Current@GFFileManagerIteratorUnique@@UEBAAEBVGFFileInfo@@XZ
+?Current@Iterator@GFFileManager@@QEBAAEBVGFFileInfoCached@@XZ
+?DoPartialAdd@GFFileManager@@AEAA_NXZ
+?DoPartialProcessCache@GFFileManager@@AEAA_NXZ
+?DoPartialReadCache@GFFileManager@@AEAA_NXZ
+?DoWriteCache@GFFileManager@@AEAA_NXZ
+?EnsureAddsProcessed@GFFileManager@@AEAAXXZ
+?EnsureCIDToGID@GFEncodingComposite@@QEAAX_N@Z
+?EnsureCacheFileRead@GFFileManager@@AEAAXXZ
+?EnsureCompleteRefresh@GFFileManager@@AEAA_NXZ
+?EnsureSubset@GFSubsetter@@AEBAXXZ
+?EnsureToUnicodeMap@GFEncodingCreator@@YA_NAEAVGFEncoding@@@Z
+?Execute@GFFileManager@@EEAA_NXZ
+?Finalize@GFFontLayer@@YAXXZ
+?GatherIterators@GFParsedStreamManagerIterator@@AEAAXAEBVGFParsedStreamManager@@@Z
+?GenerateCache@GFFileManager@@QEBAXXZ
+?Get@GFParsedStreamManager@@UEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGName@@AEAVGFParsedStream@@W4AllowCIDFonts@1@@Z
+?Get@GFParsedStreamManager@@UEBA_NAEBVGFFileInfo@@AEAVGFParsedStream@@@Z
+?Get@GFParsedStreamManagerCombined@@UEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGName@@AEAVGFParsedStream@@W4AllowCIDFonts@GFParsedStreamManager@@@Z
+?Get@GFParsedStreamManagerCombined@@UEBA_NAEBVGFFileInfo@@AEAVGFParsedStream@@@Z
+?Get@GFParsedStreamManagerFiles@@UEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGName@@AEAVGFParsedStream@@W4AllowCIDFonts@GFParsedStreamManager@@@Z
+?Get@GFParsedStreamManagerFiles@@UEBA_NAEBVGFFileInfo@@AEAVGFParsedStream@@@Z
+?GetASCIIDescription@GFEncodingComposite@@UEBAAEBVGBuffer@@XZ
+?GetASCIIDescription@GFEncodingSimple@@UEBAAEBVGBuffer@@XZ
+?GetASCIIDescription@GFEncodingUnicode@@UEBAAEBVGBuffer@@XZ
+?GetAdvance@GFEncoding@@QEBAXAEBVGCharCode@@AEAV?$GPointBase@N@@@Z
+?GetAdvance@GFEncodingIterator@@QEBAXAEAV?$GPointBase@N@@@Z
+?GetAdvanceVWidth@GFGlyph@@QEBANXZ
+?GetAdvanceWidth@GFGlyph@@QEBANXZ
+?GetAllCharCodesForGID@GFEncoding@@UEBA_NJAEAV?$GTable@VGCharCode@@@@@Z
+?GetAllCharCodesForGID@GFEncodingComposite@@UEBA_NJAEAV?$GTable@VGCharCode@@@@@Z
+?GetAllCharCodesForGID@GFEncodingSimple@@UEBA_NJAEAV?$GTable@VGCharCode@@@@@Z
+?GetAscent@GFFont@@QEBANXZ
+?GetBaseEncoding@GFEncodingSimple@@QEBAAEBVGBuffer@@XZ
+?GetBaseImp@GFParsedStream@@QEBAPEAVGFParsedStreamImp@@XZ
+?GetBaseMap@GFCMap@@QEBA_NAEAV1@@Z
+?GetBestCMap@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBVGBuffer@@PEBVGEncoding@@W4WritingMode@GFCMap@@AEAVGFCMapCID@@@Z
+?GetBestCMap@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFFont@@_NAEBVGBuffer@@PEBVGEncoding@@W4WritingMode@GFCMap@@AEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAVGFCMapCID@@@Z
+?GetBoundingBox@GFFont@@QEBAXAEAV?$GRectBase@N@@@Z
+?GetBoundingBox@GFGlyph@@QEBAAEBV?$GRectBase@N@@XZ
+?GetByteCodeForGlyphName@GFEncodingSimple@@UEBA_NAEBVGBuffer@@AEAE@Z
+?GetCFFImp@GFFontCFF@@IEBAAEBVGFFontCFFImp@@XZ
+?GetCID@GFCMapCIDIterator@@QEBAJXZ
+?GetCIDForCharCode@GFCMapCID@@QEBA_NAEBVGCharCode@@AEAJ@Z
+?GetCIDForCharCode@GFEncodingComposite@@UEBA_NAEBVGCharCode@@AEAJ@Z
+?GetCIDForGID@CIDToGID@GFEncodingComposite@@QEBA_NJAEAJ@Z
+?GetCIDForGID@GFEncodingComposite@@QEBA_NJAEAJ@Z
+?GetCIDImp@GFCMapCID@@AEBAAEBVGFCMapCIDImp@@XZ
+?GetCIDMap@GFEncodingComposite@@QEBAAEBVGFCMapCID@@XZ
+?GetCIDToGID@GFEncodingComposite@@QEBAPEBVCIDToGID@1@XZ
+?GetCIDsForCharString@GFCMapCID@@QEBA_NAEBVGBuffer@@AEAV?$GTable@J@@@Z
+?GetCMap@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFCMap@@@Z
+?GetCMap@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFCMapCID@@@Z
+?GetCMap@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFCMapUnicode@@@Z
+?GetCMapCount@GFFontTrueType@@QEBAHXZ
+?GetCharCode@GFCMapCIDIterator@@QEBAAEBVGCharCode@@XZ
+?GetCharCode@GFEncoding@@UEBAXAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetCharCode@GFEncodingIterator@@QEBAAEBVGCharCode@@XZ
+?GetCharCodeForCID@GFCMapCID@@QEBA_NJAEAVGCharCode@@@Z
+?GetCharCodeForCID@GFEncodingComposite@@UEBA_NJAEAVGCharCode@@@Z
+?GetCharCodeForCharString@GFEncoding@@UEBA_NAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetCharCodeForGID@GFEncodingComposite@@UEBA_NJAEAVGCharCode@@@Z
+?GetCharCodeForGID@GFEncodingSimple@@UEBA_NJAEAVGCharCode@@@Z
+?GetCharCodeForGID@GFEncodingUnicode@@UEBA_NJAEAVGCharCode@@@Z
+?GetCharCodeForUnicode@GFEncoding@@QEBA_NKAEAVGCharCode@@@Z
+?GetCharCodeInternal@GFEncodingComposite@@MEBA_NAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetCharCodeInternal@GFEncodingSimple@@MEBA_NAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetCharCodeInternal@GFEncodingUnicode@@MEBA_NAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetCharCodeRanges@GFEncodingComposite@@UEBAXAEAV?$GTable@VGCharCodeRange@@@@@Z
+?GetCharCodeRanges@GFEncodingSimple@@UEBAXAEAV?$GTable@VGCharCodeRange@@@@@Z
+?GetCharCodeRanges@GFEncodingUnicode@@UEBAXAEAV?$GTable@VGCharCodeRange@@@@@Z
+?GetCharCodesForCID@GFCMapCID@@QEBAXJAEAV?$GTable@VGCharCode@@@@@Z
+?GetCharCodesForCharString@GFCMapCID@@QEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?GetCharCodesForCharString@GFEncodingComposite@@UEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?GetCharCodesForCharString@GFEncodingSimple@@UEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?GetCharCodesForCharString@GFEncodingUnicode@@UEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?GetCharIndex@GFEncodingIterator@@QEBAJXZ
+?GetCharStringForCharCode@GFEncoding@@UEBAXAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetCharStringForCharCode@GFEncodingUnicode@@UEBAXAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetCharStringForCharCodes@GFEncoding@@QEBAXAEBV?$GTable@VGCharCode@@@@AEAVGBuffer@@@Z
+?GetCharStringForUnicode@GFCMapUnicode@@QEBA_NKAEAVGBuffer@@@Z
+?GetCharStringForUnicode@GFEncoding@@QEBA_NKAEAVGBuffer@@@Z
+?GetCharStringForUnicodeInternal@GFEncodingComposite@@MEBA_NKAEAVGBuffer@@@Z
+?GetCharStringForUnicodeInternal@GFEncodingSimple@@MEBA_NKAEAVGBuffer@@@Z
+?GetCharStringForUnicodeInternal@GFEncodingUnicode@@MEBA_NKAEAVGBuffer@@@Z
+?GetCharacterSet@GFEncodingComposite@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAJAEAVGFCMapUnicode@@AEAVGFCMapCID@@@Z
+?GetCheckFontLicenses@GFFontLayer@@YA_NXZ
+?GetCodeSpaceRanges@GFCMap@@QEBAXAEAV?$GTable@VGCharCodeRange@@@@@Z
+?GetCollectionImp@GFFontCollection@@IEBAAEBVGFFontCollectionImp@@XZ
+?GetCollectionIndex@GFFileInfo@@QEBAJXZ
+?GetCopyrightNotice@GFFont@@QEBA_NAEAVGString@@@Z
+?GetCouldNotConvertTextRunToCharCodes@GFEncodingIterator@@QEBA_NXZ
+?GetCount@GFFontCollection@@QEBAJXZ
+?GetDecryptionSelector@GFFontLayer@@YAP6AP6AXPEBE_KPEAE@ZPEBD3@ZXZ
+?GetDefaultCharCode@GFEncodingComposite@@MEBA_NAEAVGCharCode@@@Z
+?GetDefaultCharCode@GFEncodingSimple@@MEBA_NAEAVGCharCode@@@Z
+?GetDefaultCharCode@GFEncodingUnicode@@MEBA_NAEAVGCharCode@@@Z
+?GetDefaultCharString@GFEncoding@@IEBA_NAEAVGBuffer@@@Z
+?GetDefaultUnicode@GFEncoding@@MEBAXAEAG@Z
+?GetDescent@GFFont@@QEBANXZ
+?GetDesignAxis@GFFontMMType1@@QEBAXAEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAV?$vector@JV?$allocator@J@std@@@3@1@Z
+?GetDesignAxis@GFFontType1@@QEBA_NAEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAV?$vector@JV?$allocator@J@std@@@3@11@Z
+?GetDesigner@GFFont@@QEBA_NAEAVGString@@@Z
+?GetDifferences@GFEncodingSimple@@QEBAAEBV?$GDict@EVGBuffer@@@@XZ
+?GetErrors@GFReport@@QEBAAEBV?$vector@VGLngString@@V?$allocator@VGLngString@@@std@@@std@@XZ
+?GetFSTypeLicense@GFFont@@QEBA_NAEAK@Z
+?GetFace@GFFont@@QEBAPEAUFT_FaceRec_@@XZ
+?GetFailureReason@GFEncodingNormalizerPDF@@IEBA?AW4FailureReason@1@XZ
+?GetFamily@GFFont@@QEBA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetFile@GFFileManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGName@@AEAV?$GSharedObject@VGFFileInfo@@@@W4AllowCIDFonts@1@@Z
+?GetFileFromTopLvlType@GFFileManager@@IEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGName@@AEAV?$GSharedObject@VGFFileInfo@@@@W4AllowCIDFonts@1@@Z
+?GetFileManager@GFParsedStreamManagerFiles@@QEBAAEBVGFFileManager@@XZ
+?GetFirst@GFParsedStreamManagerCombined@@QEAAAEAVGFParsedStreamManager@@XZ
+?GetFirst@GFParsedStreamManagerCombined@@QEBAAEBVGFParsedStreamManager@@XZ
+?GetFixedWidth@GFFont@@QEBA_NXZ
+?GetFont@GFEncoding@@QEBAAEBVGFFont@@XZ
+?GetFont@GFEncoding@@QEBA_NAEAVGFFont@@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFont@@W4AllowCIDFonts@1@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFontCFF@@W4AllowCIDFonts@1@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFontMMType1@@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFontOTFCFF@@W4AllowCIDFonts@1@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFontTrueType@@@Z
+?GetFont@GFParsedStreamManager@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVGFFontType1@@W4AllowCIDFonts@1@@Z
+?GetFont@GFSubsetter@@QEBAAEBVGFFont@@XZ
+?GetFontImp@GFFont@@QEAAAEAVGFFontImp@@XZ
+?GetFontImp@GFFont@@QEBAAEBVGFFontImp@@XZ
+?GetFontNames@GFFont@@QEBAXAEAV?$GTable@VGString@@@@@Z
+?GetGID@GFEncodingIterator@@QEBAJXZ
+?GetGIDForBuiltInEncoding@GFFont@@QEBA_NAEAV?$GTable@J@@@Z
+?GetGIDForCID@CIDToGID@GFEncodingComposite@@QEBA_NJAEAJ@Z
+?GetGIDForCID@GFEncodingComposite@@UEBA_NJAEAJAEBVGCharCode@@@Z
+?GetGIDForCharCode@GFEncodingComposite@@UEBA_NAEBVGCharCode@@AEAJ@Z
+?GetGIDForCharCode@GFEncodingSimple@@UEBA_NAEBVGCharCode@@AEAJ@Z
+?GetGIDForCharCode@GFEncodingUnicode@@UEBA_NAEBVGCharCode@@AEAJ@Z
+?GetGIDForGlyphName@GFFont@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SymbolicMappingsUsage@1@AEAJ@Z
+?GetGIDForUnicode@GFEncodingComposite@@IEBA_NAEBVGCharCode@@_NAEAJ@Z
+?GetGIDForUnicode@GFFont@@QEBA_NAEBVGCharCode@@W4SymbolicMappingsUsage@1@AEAJ@Z
+?GetGSUB@GFFontTrueType@@QEBAJJW4FeatureType@1@@Z
+?GetGlyph@GFEncodingIterator@@QEBA_NAEAVGFGlyph@@@Z
+?GetGlyphCount@GFFileInfo@@QEBAJXZ
+?GetGlyphCount@GFFont@@QEBAJXZ
+?GetGlyphEncoding@GFEncodingSimple@@QEBAPEBV1@XZ
+?GetGlyphForByteCode@GFEncodingSimple@@UEBA?AVGFGlyph@@E@Z
+?GetGlyphForByteCode@GFEncodingSimple@@UEBA_NEAEAVGFGlyph@@@Z
+?GetGlyphForCharCode@GFEncoding@@UEBA?AVGFGlyph@@AEBVGCharCode@@@Z
+?GetGlyphForCharCode@GFEncoding@@UEBA_NAEBVGCharCode@@AEAVGFGlyph@@@Z
+?GetGlyphForGID@GFFont@@QEBA?AVGFGlyph@@J@Z
+?GetGlyphForGlyphName@GFEncodingSimple@@UEBA?AVGFGlyph@@AEBVGBuffer@@@Z
+?GetGlyphForGlyphName@GFEncodingSimple@@UEBA_NAEBVGBuffer@@AEAVGFGlyph@@@Z
+?GetGlyphLookupName@GFEncodingSimple@@QEBA_NEAEAVGBuffer@@@Z
+?GetGlyphName@GFEncoding@@UEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetGlyphNameForByteCode@GFEncodingSimple@@UEBA_NEAEAVGBuffer@@@Z
+?GetGlyphNameForGID@GFFont@@QEBA_NJW4SymbolicMappingsUsage@1@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetGlyphNameInternal@GFEncodingComposite@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetGlyphNameInternal@GFEncodingSimple@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetGlyphNameInternal@GFEncodingUnicode@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetImp@GFCMap@@AEBAAEAVGFCMapImp@@XZ
+?GetImp@GFGlyph@@AEBAAEBVGFGlyphImp@@XZ
+?GetImp@GFParsedStreamManagerFiles@@IEBA_NAEBV?$GSharedObject@VGFFileInfo@@@@AEAVGFParsedStream@@@Z
+?GetInfo@GFFileManager@@AEAA?AV?$GSharedObject@VGFFileInfoCached@@@@AEBVGString@@AEBVGName@@W4AllowCIDFonts@1@@Z
+?GetInfo@GFParsedStreamManagerIterator@@QEBAAEBVGFFileInfo@@XZ
+?GetInfoAndCheckCache@GFFileManager@@AEAA?AV?$GSharedObject@VGFFileInfoCached@@@@AEBVGString@@AEBVGName@@W4AllowCIDFonts@1@@Z
+?GetInfos@GFFileManager@@AEAAPEAV?$GTable@V?$GSharedObject@VGFFileInfoCached@@@@@@AEBVGPathName@@@Z
+?GetInfos@GFFileManager@@AEAAPEAV?$GTable@V?$GSharedObject@VGFFileInfoCached@@@@@@AEBVGString@@AEBVGName@@@Z
+?GetItalic@GFFont@@QEBA_NXZ
+?GetItalicAngle@GFFont@@QEBANXZ
+?GetKerning@GFFont@@QEBA_NJJAEAN0@Z
+?GetLeading@GFFont@@QEBANXZ
+?GetLength@GFEncodingComposite@@UEBAJPEBE@Z
+?GetLength@GFEncodingUnicode@@UEBAJPEBE@Z
+?GetLengths@GFFontType1@@SA_NAEBVGInStream@@AEAJ11@Z
+?GetLngDescription@GFException@@UEBA?BVGLngString@@XZ
+?GetLowercaseIsSmallUppercase@GFFont@@QEBA_NXZ
+?GetMMType1Imp@GFFontMMType1@@IEBAAEBVGFFontMMType1Imp@@XZ
+?GetManufacturer@GFFont@@QEBA_NAEAVGString@@@Z
+?GetMaxAdvanceWidth@GFFont@@QEBANXZ
+?GetMaxCID@GFCMapCID@@QEBAJXZ
+?GetMinCID@GFCMapCID@@QEBAJXZ
+?GetModificationDate@GFFileIterator@@QEBAXAEBVGPathName@@AEAVGDateTime@@@Z
+?GetName@GFCMap@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetNames@GFFileInfo@@QEBAAEBV?$GTable@VGString@@@@XZ
+?GetNormalizer@GFEncodingNormalizerPDF@@AEAAAEAVGFEncodingNormalizerPDF_Base@@AEBVGFFont@@@Z
+?GetOTFCFFImp@GFFontOTFCFF@@IEBAAEBVGFFontOTFCFFImp@@XZ
+?GetOrdering@GFCMap@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetOrdering@GFEncodingComposite@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetOutline@GFGlyph@@QEBAAEBVGOutline@@XZ
+?GetParsedBaseMapName@GFCMap@@QEBA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetPathName@GFFileInfo@@QEBAAEBVGPathName@@XZ
+?GetPathName@GFParsedStream@@QEBAAEBVGPathName@@XZ
+?GetPathNames@GFParsedStream@@QEBAAEBV?$vector@VGPathName@@V?$allocator@VGPathName@@@std@@@std@@XZ
+?GetPostScriptFontName@GFFont@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetPostScriptFontName@GFFontMMType1@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetROS@GFFontCFF@@QEBA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAJ@Z
+?GetROS@GFFontType1@@QEBA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAJ@Z
+?GetRawData@CIDToGID@GFEncodingComposite@@QEBAAEBVGBuffer@@XZ
+?GetRefCount@GFParsedStream@@QEBAJXZ
+?GetRegistry@GFCMap@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetRegistry@GFEncodingComposite@@QEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetScript@GFFont@@QEBA_NXZ
+?GetSecond@GFParsedStreamManagerCombined@@QEAAAEAVGFParsedStreamManager@@XZ
+?GetSecond@GFParsedStreamManagerCombined@@QEBAAEBVGFParsedStreamManager@@XZ
+?GetSerif@GFFont@@QEBA_NXZ
+?GetShouldForceBold@GFFont@@QEBA_NXZ
+?GetStemHorizontal@GFFont@@QEBANXZ
+?GetStemVertical@GFFont@@QEBANXZ
+?GetStyle@GFFont@@QEBA_NAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?GetSupplement@GFCMap@@QEBAJXZ
+?GetSupplement@GFEncodingComposite@@QEBAJXZ
+?GetSymbolic@GFFont@@QEBA?AW4GTriState@@XZ
+?GetSymbolicUsage@GFEncodingSimple@@QEBA?AW4SymbolicMappingsUsage@GFFont@@XZ
+?GetTopLvlType@GFParsedStream@@QEBAAEBVGName@@XZ
+?GetTopLvlType@GFParsedStreamManager@@UEBAAEBVGName@@XZ
+?GetTopLvlType@GFParsedStreamManagerCombined@@UEBAAEBVGName@@XZ
+?GetTopLvlType@GFParsedStreamManagerFiles@@UEBAAEBVGName@@XZ
+?GetTrueTypeImp@GFFontTrueType@@IEBAAEBVGFFontTrueTypeImp@@XZ
+?GetType1Imp@GFFontType1@@IEBAAEBVGFFontType1Imp@@XZ
+?GetType@GFFileInfo@@QEBAAEBVGName@@XZ
+?GetType@GFFileIterator@@UEBA?AW4Type@1@AEBVGPathName@@@Z
+?GetUnderlinePosition@GFFont@@QEBANXZ
+?GetUnicodeCMaps@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1JW4WritingMode@GFCMap@@AEAVGFCMapUnicode@@AEAVGFCMapCID@@@Z
+?GetUnicodeCMaps@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBVGFCMapCID@@AEAVGFCMapUnicode@@AEAV3@@Z
+?GetUnicodeForCID@GFEncodingComposite@@UEBA_NJAEAVGBuffer@@@Z
+?GetUnicodeForCharCode@GFCMapUnicode@@QEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetUnicodeForCharCode@GFEncoding@@QEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetUnicodeForCharCodeInternal@GFEncodingComposite@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetUnicodeForCharCodeInternal@GFEncodingSimple@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetUnicodeForCharCodeInternal@GFEncodingUnicode@@MEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetUnicodeForGID@GFFont@@QEBA_NJW4SymbolicMappingsUsage@1@AEAVGCharCode@@@Z
+?GetUnicodeImp@GFCMapUnicode@@AEBAAEBVGFCMapUnicodeImp@@XZ
+?GetUnicodeMap@GFEncoding@@QEBA_NAEAVGFCMapUnicode@@@Z
+?GetUnicodeToCID@GFEncodingUnicode@@QEBA_NAEAVGFCMapCID@@@Z
+?GetVPosX@GFGlyph@@QEBANXZ
+?GetVPosY@GFGlyph@@QEBANXZ
+?GetVendor@GFFont@@QEBA_NAEAVGString@@@Z
+?GetWarnings@GFReport@@QEBAAEBV?$vector@VGLngString@@V?$allocator@VGLngString@@@std@@@std@@XZ
+?GetWritingMode@GFCMap@@QEBA?AW4WritingMode@1@XZ
+?GetWritingMode@GFEncoding@@UEBA?AW4WritingMode@1@XZ
+?GetWritingMode@GFEncodingComposite@@UEBA?AW4WritingMode@GFEncoding@@XZ
+?GetWritingMode@GFEncodingUnicode@@UEBA?AW4WritingMode@GFEncoding@@XZ
+?GetWritingMode@GFFileInfo@@QEBA?AW4WritingMode@GFCMap@@XZ
+?Handle@GFExceptionHandler@@UEBAXXZ
+?Has@GFFileManager@@QEBA_NAEBVGFFileInfo@@@Z
+?HasCMap@GFFontTrueType@@QEBA_NHH@Z
+?HasDifferences@GFEncodingSimple@@QEBA_NXZ
+?HasErrors@GFReport@@QEBA_NXZ
+?HasFont@GFEncoding@@QEBA_NXZ
+?HasGSUB@GFFontTrueType@@QEBA_NW4FeatureType@1@@Z
+?HasGlyphNameExact@GFFont@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?HasNext@GFEncodingIterator@@QEBA_NXZ
+?HasUnicodeMap@GFEncoding@@QEBA_NXZ
+?HasUnicodeToCID@GFEncodingUnicode@@QEBA_NXZ
+?HasWarnings@GFReport@@QEBA_NXZ
+?Initialize@GFFontLayer@@YAXXZ
+?Initialize@GFSubsetter@@AEAAXAEBVGFFont@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_NPEAVGFSubsetPrefixTracker@@@Z
+?IsBufferCompatible@GFEncoding@@UEBA_NAEBVGBuffer@@@Z
+?IsCIDCMap@GFFileInfo@@QEBA_NXZ
+?IsCIDFont@GFFileInfo@@QEBA_NXZ
+?IsCIDFont@GFFontCFF@@QEBA_NXZ
+?IsCIDFont@GFFontType1@@QEBA_NXZ
+?IsEquivalent@GFParsedStream@@QEBA_NAEBV1@@Z
+?IsIdentity@CIDToGID@GFEncodingComposite@@QEBA_NXZ
+?IsInNotDefRange@GFCMapCID@@QEBA_NAEBVGCharCode@@@Z
+?IsMMInstance@GFFontType1@@QEBA_NXZ
+?IsNormalized@GFEncodingNormalizerPDF@@AEAAXAEBVGEncoding@@AEA_N1@Z
+?IsNotDefined@GFEncodingComposite@@UEBA?AW4GTriState@@AEBVGCharCode@@@Z
+?IsNotDefined@GFEncodingSimple@@UEBA?AW4GTriState@@AEBVGCharCode@@@Z
+?IsNotDefined@GFEncodingUnicode@@UEBA?AW4GTriState@@AEBVGCharCode@@@Z
+?IsOfType@GFCMap@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFCMapCID@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFCMapUnicode@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFEncoding@@UEBA_NAEBVGBuffer@@@Z
+?IsOfType@GFEncodingComposite@@UEBA_NAEBVGBuffer@@@Z
+?IsOfType@GFEncodingSimple@@UEBA_NAEBVGBuffer@@@Z
+?IsOfType@GFEncodingUnicode@@UEBA_NAEBVGBuffer@@@Z
+?IsOfType@GFFont@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontCFF@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontCollection@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontMMType1@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontOTFCFF@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontTrueType@@SA_NAEBVGFParsedStream@@@Z
+?IsOfType@GFFontType1@@SA_NAEBVGFParsedStream@@@Z
+?IsPDFFont@GFFileInfo@@QEBA_NXZ
+?IsParsedOK@GFGlyph@@QEBA_NXZ
+?IsTrueTypeFont@GFFileInfo@@QEBA_NXZ
+?IsUnicodeLookupBlockedForFont@GFFontUnicodeMapLookupBlocker@@SA_NPEBVGFFontImp@@@Z
+?IsUsed@GFSubsetter@@QEBA_NJ@Z
+?IsValid@GFGlyph@@QEBA_NXZ
+?IsValid@GFParsedStream@@QEBA_NXZ
+?IsWhiteSpace@GFEncoding@@QEBA?AW4GTriState@@AEBVGCharCode@@@Z
+?LicenseAllows@GFFileInfo@@QEBA_NW4Permissions@GFLicense@@@Z
+?LicenseAllows@GFFont@@QEBA_NW4Permissions@GFLicense@@@Z
+?Log@GFReport@@QEAAXAEBV1@@Z
+?LogError@GFReport@@QEAAXAEBVGLngString@@@Z
+?LogError@GFReport@@QEAAXJ@Z
+?LogErrorImp@GFReport@@MEAAXAEBVGLngString@@@Z
+?LogWarning@GFReport@@QEAAXAEBVGLngString@@@Z
+?LogWarning@GFReport@@QEAAXJ@Z
+?LogWarningImp@GFReport@@MEAAXAEBVGLngString@@@Z
+?MarkUsed@GFSubsetPrefixTracker@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?MarkUsed@GFSubsetter@@QEAA_NAEBVGBuffer@@AEBVGFEncoding@@@Z
+?MarkUsed@GFSubsetter@@QEAA_NAEBVGBuffer@@AEBVGFEncoding@@AEAVGFReport@@@Z
+?Next@GFCMapCIDIterator@@QEAA_NXZ
+?Next@GFEncodingIterator@@QEAA_NXZ
+?Next@GFFileManagerIteratorAll@@UEAA_NXZ
+?Next@GFFileManagerIteratorUnique@@UEAA_NXZ
+?Next@GFParsedStreamManagerIterator@@QEAA_NXZ
+?Next@GFSystemFontIteratorDS@@UEAA_NAEAVGPathName@@@Z
+?Next@Iterator@GFFileManager@@QEAA_NXZ
+?Normalize@GFEncodingNormalizerPDF@@QEAAXAEBVGBuffer@@V?$GSharedObject@VGEncoding@@@@AEBVGFFont@@_N3@Z
+?Normalize@GFEncodingNormalizerPDF@@QEAAXAEBVGBuffer@@V?$GSharedObject@VGFEncoding@@@@_N2@Z
+?Normalize@GFEncodingNormalizerPDF@@QEAAXAEBVGString@@AEBVGFFont@@_N@Z
+?Normalize@GFEncodingUnicode@@UEBAXAEAVGBuffer@@@Z
+?NormalizeFontName@GFNormalizedString@@SAXAEAVGBuffer@@@Z
+?NormalizeFontName@GFNormalizedString@@SAXAEAVGString@@@Z
+?Normalize_Failure@GFEncodingNormalizerPDF@@MEAAXXZ
+?Normalize_Success@GFEncodingNormalizerPDF@@MEAA_NAEBVGBuffer@@V?$GSharedObject@VGFEncoding@@@@_N@Z
+?ProcessCIDGIDPairs@GFEncodingComposite@@QEBAXAEAVCIDGIDProcessor@1@@Z
+?Refresh@GFFileManager@@QEAAXXZ
+?RegisterEncoding@GFEncodingNormalizerPDF@@AEAAXV?$GSharedObject@VGEncoding@@@@@Z
+?RegisterEncoding@GFEncodingNormalizerPDF@@QEAAXV?$GSharedObject@VGFEncoding@@@@_N@Z
+?Remove@GFFileManager@@QEAAXAEBVGPathName@@@Z
+?RemoveAll@GFFileManager@@QEAAXXZ
+?RemoveDifference@GFEncodingSimple@@QEAAXE@Z
+?RemoveInfo@GFFileManager@@AEAAXAEBVGPathName@@@Z
+?RemoveIterators@GFFileManager@@QEAAXXZ
+?Render@GFRenderer@@YAXAEBVGFFont@@AEBV?$GTable@J@@KKW4BitmapType@1@PEAEKKNNW4BlendMode@1@@Z
+?Reset@GFEncodingIterator@@QEAAXXZ
+?Reset@GFEncodingNormalizerPDF@@MEAAXXZ
+?Reset@GFSystemFontIteratorDS@@UEAAXXZ
+?SetBaseEncoding@GFEncodingSimple@@QEAAXAEBVGBuffer@@@Z
+?SetBaseImp@GFParsedStream@@IEAAXPEAVGFParsedStreamImp@@@Z
+?SetBaseMap@GFCMap@@QEAAXAEBV1@@Z
+?SetCIDMap@GFEncodingComposite@@QEAAXAEBVGFCMapCID@@@Z
+?SetCIDToGID@GFEncodingComposite@@QEAAXV?$unique_ptr@VCIDToGID@GFEncodingComposite@@U?$default_delete@VCIDToGID@GFEncodingComposite@@@std@@@std@@@Z
+?SetCharacterSet@GFEncodingComposite@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0J@Z
+?SetCharacterSet@GFEncodingComposite@@QEAAXAEBVGFCMapUnicode@@AEBVGFCMapCID@@@Z
+?SetCharacterSet@GFEncodingComposite@@QEAAXAEBVGFCMapUnicode@@AEBVGFCMapCID@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2J@Z
+?SetCheckFontLicenses@GFFontLayer@@YAX_N@Z
+?SetDecryptionSelector@GFFontLayer@@YAXP6AP6AXPEBE_KPEAE@ZPEBD3@Z@Z
+?SetDifferences@GFEncodingSimple@@QEAAXAEBV?$GDict@EVGBuffer@@@@@Z
+?SetFileManager@GFParsedStreamManagerFiles@@QEAAXAEBV?$GAutoPtr@VGFFileManager@@UGDeletePtr@@@@@Z
+?SetFont@GFEncoding@@UEAAXAEBVGFFont@@@Z
+?SetFont@GFEncodingSimple@@UEAAXAEBVGFFont@@@Z
+?SetGlyphEncoding@GFEncodingSimple@@QEAAXV?$GSharedObject@VGFEncodingSimple@@@@@Z
+?SetROS@GFEncodingCreator@@YAXAEBVGFParsedStreamManager@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1JW4WritingMode@GFCMap@@AEAVGFEncodingComposite@@@Z
+?SetSymbolicUsage@GFEncodingSimple@@QEAAXW4SymbolicMappingsUsage@GFFont@@@Z
+?SetUnicodeMap@GFEncoding@@QEAAXAEBVGFCMapUnicode@@@Z
+?SetUnicodeMapUsabilityTestEnabled@GFEncoding@@QEBA_N_N@Z
+?SetUnicodeToCID@GFEncodingUnicode@@QEAAXAEBVGFCMapCID@@@Z
+?SetWritingMode@GFEncodingUnicode@@QEAAXW4WritingMode@GFEncoding@@@Z
+?StartIdleTimeProcessing@GFFileManager@@AEAAXXZ
+?StripSubsetPrefixes@GFSubsetter@@QEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+?ToCFF@GFConverter@@YA?AVGFFontCFF@@AEBVGFFont@@@Z
+?UsesDefaultCIDMap@GFEncodingComposite@@QEBA_NXZ
+?UsesDefaultCharacterSet@GFEncodingComposite@@QEBA_NXZ
+?cASCIIDescription@GFEncoding@@2VGBuffer@@B
+?cASCIIDescription@GFEncodingComposite@@2VGBuffer@@B
+?cASCIIDescription@GFEncodingSimple@@2VGBuffer@@B
+?cASCIIDescription@GFEncodingUnicode@@2VGBuffer@@B
+?cBuiltIn@GFEncodingSimple@@2VGBuffer@@B
+?cMacExpert@GFEncodingSimple@@2VGBuffer@@B
+?cMacRoman@GFEncodingSimple@@2VGBuffer@@B
+?cNone@GFEncodingSimple@@2VGBuffer@@B
+?cStandard@GFEncodingSimple@@2VGBuffer@@B
+?cSymbol@GFEncodingSimple@@2VGBuffer@@B
+?cType@GFCMap@@2AEBVGName@@EB
+?cType@GFCMapCID@@2AEBVGName@@EB
+?cType@GFCMapUnicode@@2AEBVGName@@EB
+?cType@GFFont@@2AEBVGName@@EB
+?cType@GFFontCFF@@2AEBVGName@@EB
+?cType@GFFontCollection@@2AEBVGName@@EB
+?cType@GFFontMMType1@@2AEBVGName@@EB
+?cType@GFFontOTFCFF@@2AEBVGName@@EB
+?cType@GFFontTrueType@@2AEBVGName@@EB
+?cType@GFFontType1@@2AEBVGName@@EB
+?cType@GFParsedStream@@2AEBVGName@@EB
+?cType@GFParsedStreamManager@@2VGName@@B
+?cType@GFParsedStreamManagerCombined@@2VGName@@B
+?cType@GFParsedStreamManagerFiles@@2VGName@@B
+?cWinAnsi@GFEncodingSimple@@2VGBuffer@@B
+?cZapfDingbats@GFEncodingSimple@@2VGBuffer@@B
+?sBlockedFonts@GFFontUnicodeMapLookupBlocker@@0V?$GSet@PEBVGFParsedStreamImp@@@@A
+??0GFlateDecode@@QEAA@PEAVGInStream@@@Z
+??1GFlateDecode@@UEAA@XZ
+??0GFlateEncode@@QEAA@PEAVGInStream@@J@Z
+??1GFlateEncode@@UEAA@XZ
+?CreateClone@GFlateDecode@@UEBAPEAVGInStream@@XZ
+?Reset@GFlateDecode@@UEAAXXZ
+?Read@GFlateDecode@@UEAAJAEAVGBuffer@@J@Z
+?Initialize@GFlateSupportLayer@@SA_NXZ
+?Finalize@GFlateSupportLayer@@SAXXZ
+FlateSupportLayer.dll
+?GetInstance@GAllocator@@SAAEAV1@XZ
+?Alloc@GAllocator@@QEAAPEAX_K@Z
+?Free@GAllocator@@QEAAXPEAX_K@Z
+??1GRefCount@@UEAA@XZ
+?Acquire@GRefCount@@QEBAXXZ
+?Release@GRefCount@@QEBAXXZ
+??1GString@@QEAA@XZ
+?GetAllocation@GDictUtil@@YAJJ@Z
+??1GPathName@@UEAA@XZ
+??1GBuffer@@QEAA@XZ
+??0GBuffer@@QEAA@N@Z
+?SetLength@GBuffer@@QEAAXJ@Z
+?GetWritePtr@GBuffer@@QEAAPEAEXZ
+??YGBuffer@@QEAAAEAV0@E@Z
+??0GBuffer@@QEAA@AEBV0@@Z
+??0GBuffer@@QEAA@J@Z
+?GetInstance@GUTF8Encoding@@SAPEAV1@XZ
+??0GString@@QEAA@VGBuffer@@PEBVGEncoding@@@Z
+??0GLngString@@QEAA@J@Z
+??0GLngString@@QEAA@AEBV0@@Z
+??1GLngString@@QEAA@XZ
+??4GLngString@@QEAAAEAV0@AEBV0@@Z
+?AddString@GLngString@@QEAAXVGString@@@Z
+??3GFastAllocatable@@SAXPEAX_K@Z
+??3GFastAllocatable@@SAXPEAX0@Z
+??0GBuffer@@QEAA@PEBD@Z
+??4GBuffer@@QEAAAEAV0@PEBD@Z
+??YGBuffer@@QEAAAEAV0@AEBV0@@Z
+??8@YA_NAEBVGBuffer@@0@Z
+?GetHash@GBuffer@@QEBAKXZ
+??0GString@@QEAA@AEBVGBuffer@@@Z
+??4GBuffer@@QEAAAEAV0@AEBV0@@Z
+?GetPrecision@GLocalPrecisionSetter@@SANXZ
+?GetPrecisionType@GLocalPrecisionSetter@@SA?AW4PrecisionType@1@XZ
+?AreEqual@GMathLib@@YA_NNNNW4PrecisionType@GLocalPrecisionSetter@@@Z
+??0?$GPointBase@N@@QEAA@XZ
+??0?$GPointBase@N@@QEAA@NN@Z
+??1ScopeGuardImplBase@@IEAA@XZ
+??0ScopeGuardImplBase@@IEAA@XZ
+?cEmptyBuffer@GBuffer@@2V1@B
+??0GBuffer@@QEAA@XZ
+?SetFromStatic@GBuffer@@QEAAXPEBDJJ@Z
+??H@YA?AVGBuffer@@AEBV0@0@Z
+??0GString@@QEAA@PEBD@Z
+??0GString@@QEAA@J@Z
+??H@YA?BVGString@@AEBV0@0@Z
+??0GRefCount@@QEAA@XZ
+?GetRefCount@GRefCount@@QEBAJXZ
+??0GBuffer@@QEAA@$$QEAV0@@Z
+??0GString@@QEAA@N@Z
+??2GFastAllocatable@@SAPEAX_K@Z
+?Set@GBuffer@@QEAAXPEBEJ@Z
+??4GBuffer@@QEAAAEAV0@$$QEAV0@@Z
+??0GLngString@@QEAA@$$QEAV0@@Z
+??4GLngString@@QEAAAEAV0@$$QEAV0@@Z
+?AddInt32@GLngString@@QEAAXJ@Z
+??0GException@@QEAA@AEBV0@@Z
+??4GException@@QEAAAEAV0@AEBV0@@Z
+??1GException@@UEAA@XZ
+?GetLngFullDescription@GException@@UEBA?BVGLngString@@XZ
+?GetExceptionID@GException@@UEBAJXZ
+??0GBuffer@@QEAA@PEBEJ@Z
+?SetFromStatic@GBuffer@@QEAAXPEBD@Z
+?Remove@GBuffer@@QEAAXJJ@Z
+??YGBuffer@@QEAAAEAV0@PEBD@Z
+??YGBuffer@@QEAAAEAV0@G@Z
+?Allocate@GBuffer@@QEAAXJ@Z
+??0GName@@QEAA@PEBD@Z
+??0GCharCode@@QEAA@XZ
+??0GCharCode@@QEAA@AEBV0@@Z
+??1GCharCode@@QEAA@XZ
+??4GCharCode@@QEAAAEAV0@AEBV0@@Z
+??BGCharCode@@QEBAKXZ
+?Clear@GCharCode@@QEAAXXZ
+?Set@GCharCode@@QEAAXE@Z
+?Set@GCharCode@@QEAAXG@Z
+??GGCharCode@@QEBAJAEBV0@@Z
+??8@YA_NAEBVGCharCode@@0@Z
+??1GCharCodeRange@@QEAA@XZ
+?GetLow@GCharCodeRange@@QEBAXAEAVGCharCode@@@Z
+?GetHigh@GCharCodeRange@@QEBAXAEAVGCharCode@@@Z
+?GetLow@GCharCodeRange@@QEBAPEBEXZ
+?GetHigh@GCharCodeRange@@QEBAPEBEXZ
+?GetCount@GCharCodeRange@@QEBAJXZ
+?GetCharCodes@GCharCodeRange@@QEBAXAEAV?$GTable@VGCharCode@@@@@Z
+??8@YA_NAEBVGCharCodeRange@@0@Z
+?GetHash@GCharCode@@QEBAKXZ
+??YGCharCode@@QEAAAEAV0@K@Z
+??O@YA_NAEBVGCharCode@@0@Z
+?GetInstance@GASCIIEncoding@@SAPEAV1@XZ
+??0GString@@QEAA@XZ
+??0GString@@QEAA@AEBV0@@Z
+?GetBuffer@GString@@QEBAJAEAVGBuffer@@PEBVGEncoding@@@Z
+?GetSubstring@GString@@QEBA?AV1@JJ@Z
+??8@YA_NAEBVGString@@0@Z
+?EnsureUnicode@GString@@QEBAXXZ
+??0GMemoryInStream@@QEAA@PEAVGBuffer@@@Z
+??1GMemoryInStream@@UEAA@XZ
+??0GMemoryOutStream@@QEAA@AEAVGBuffer@@@Z
+??1GMemoryOutStream@@UEAA@XZ
+?Set@GCharCode@@QEAAXPEBEJ@Z
+??M@YA_NAEBVGCharCode@@0@Z
+??0GCharCodeRange@@QEAA@AEBV0@@Z
+?IsInRange@GCharCodeRange@@QEBAJAEBVGCharCode@@@Z
+?CopyStream@GStreamSupport@@SA_JAEAVGInStream@@AEAVGOutStream@@@Z
+?Skip@GInStream@@UEAA_J_J@Z
+?CreateClone@GMemoryInStream@@UEBAPEAVGInStream@@XZ
+?Reset@GMemoryInStream@@UEAAXXZ
+?Skip@GMemoryInStream@@UEAA_J_J@Z
+?Read@GMemoryInStream@@UEAAJAEAVGBuffer@@J@Z
+?Unread@GMemoryInStream@@UEAAJJ@Z
+?SetRollBackPoint@GMemoryInStream@@UEAAXXZ
+?RollBack@GMemoryInStream@@UEAAJXZ
+??0GCharCode@@QEAA@E@Z
+??0GCharCode@@QEAA@G@Z
+??BGCharCode@@QEBAEXZ
+??BGCharCode@@QEBAGXZ
+?SetUTF16@GCharCode@@QEAA_NK@Z
+?Get@GCharCode@@QEBAXAEAVGBuffer@@@Z
+?GetUnicode@GCharCode@@QEBAXAEAVGBuffer@@@Z
+??N@YA_NAEBVGCharCode@@0@Z
+?GetInstance@GUnicodeEncoding@@SAPEAV1@XZ
+?AppendByteArray@GBuffer@@QEAAXPEBEJ@Z
+??0GCharCode@@QEAA@AEBVGBuffer@@@Z
+?SetUnicode@GCharCode@@QEAAXAEBVGBuffer@@@Z
+?GetUTF16@GCharCode@@QEBAKXZ
+?IsValidUTF16@GCharCode@@QEBA_NXZ
+?Get@GCharCode@@QEBAPEBEXZ
+?IsOfType@GEncoding@@UEBA_NAEBVGBuffer@@@Z
+??0GEncoding@@IEAA@XZ
+??1GEncoding@@MEAA@XZ
+?ToStdString@GStdSupport@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVGBuffer@@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGPDFDocEncoding@@AEAV2@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGCustomEncoding@@AEAV2@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGWinAnsiEncoding@@AEAV2@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGASCIIEncoding@@AEAV2@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGMacRomanEncoding@@AEAV2@@Z
+?ConvertTo@GEncoding@@UEBAJAEBVGBuffer@@PEBVGUTF8Encoding@@AEAV2@@Z
+?GetCharCodesForCharString@GEncoding@@UEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?Normalize@GEncoding@@UEBAXAEAVGBuffer@@@Z
+?GetLength@GEncoding@@UEBAJPEBE@Z
+??0GSimpleEncoding@@QEAA@AEBVGBuffer@@@Z
+??1GSimpleEncoding@@UEAA@XZ
+?AddMapping@GSimpleEncoding@@QEAAXEAEBVGBuffer@@AEBVGCharCode@@_N@Z
+?ConvertTo@GSimpleEncoding@@UEBAJAEBVGBuffer@@PEBVGUnicodeEncoding@@AEAV2@@Z
+?GetCharCodesForCharString@GSimpleEncoding@@UEBA_NAEBVGBuffer@@AEAV?$GTable@VGCharCode@@@@@Z
+?ConvertFromUnicode@GSimpleEncoding@@UEBAJAEBVGBuffer@@AEAV2@@Z
+?GetGlyphName@GSimpleEncoding@@UEBA_NAEBVGCharCode@@AEAVGBuffer@@@Z
+?GetCharCode@GSimpleEncoding@@UEBAXAEBVGBuffer@@AEAVGCharCode@@@Z
+?GetASCIIDescription@GSimpleEncoding@@UEBAAEBVGBuffer@@XZ
+?IsBufferCompatible@GCustomEncoding@@UEBA_NAEBVGBuffer@@@Z
+?ConvertFrom@GCustomEncoding@@UEBAJAEBVGBuffer@@PEBVGEncoding@@AEAV2@@Z
+?AddMapping@GSimpleEncoding@@QEAAXEAEBVGBuffer@@G@Z
+??0GCharCode@@QEAA@KJ@Z
+?Set@GCharCode@@QEAAXKJ@Z
+??0GMemoryInStream@@QEAA@AEBVGBuffer@@@Z
+?GetContent@GStreamSupport@@SAJAEAVGInStream@@AEAVGBuffer@@@Z
+??__M@YA?AUstrong_ordering@std@@AEBVGBuffer@@0@Z
+?SwapBigEndian@GBufferSupport@@SAXAEAVGBuffer@@@Z
+?IsGlyphNameFromAdobeGlyphLists@GUnicodeEncoding@@QEBA_NAEBVGBuffer@@@Z
+?GetInstance@GMacRomanEncoding@@SAPEAV1@XZ
+?GetInstance@GWinAnsiEncoding@@SAPEAV1@XZ
+?AddMapping@GSimpleEncoding@@QEAAXEAEBVGBuffer@@@Z
+?AddMapping@GSimpleEncoding@@QEAAXEG@Z
+?GetEncodedBuffer@GString@@QEBAAEBVGBuffer@@XZ
+?GetEncoding@GString@@QEBAAEBV?$GSharedObject@VGEncoding@@@@XZ
+?Dismiss@ScopeGuardImplBase@@QEBAXXZ
+??0GCharCodeRange@@QEAA@KKJ@Z
+?GetInstance@GMacExpertEncoding@@SAPEAV1@XZ
+?GetInstance@GStandardEncoding@@SAPEAV1@XZ
+?sSimpleDescription@GSimpleEncoding@@2VGBuffer@@A
+??0GLngString@@QEAA@VGString@@@Z
+??0GException@@QEAA@J@Z
+?GetPtr@GBuffer@@QEBAPEBEXZ
+?ReplaceByteArray@GBuffer@@QEAAXJJPEBEJ@Z
+?Set@GString@@QEAAXVGBuffer@@PEBVGEncoding@@@Z
+?Set@GCharCode@@QEAAXAEBVGBuffer@@@Z
+??0GCharCodeRange@@QEAA@AEBVGBuffer@@0@Z
+??0GFileInStream@@QEAA@AEBVGPathName@@@Z
+??1GFileInStream@@UEAA@XZ
+??0GPathName@@QEAA@XZ
+??4GPathName@@QEAAAEAV0@AEBV0@@Z
+?GetCrossPlatformString@GPathName@@UEBAAEBVGString@@XZ
+?IsAlias@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+?GetAliasTarget@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@AEAV2@@Z
+?IsEmpty@GPathName@@QEBA_NXZ
+?TryFileExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+??0GString@@QEAA@PEBDPEBVGEncoding@@@Z
+?Find@GString@@QEBAJAEBV1@J@Z
+??0GDateTime@@QEAA@_N@Z
+??0GString@@QEAA@$$QEAV0@@Z
+??0GString@@QEAA@K@Z
+??4GString@@QEAAAEAV0@AEBV0@@Z
+?GetHash@GString@@QEBAKXZ
+?GetInt32@GString@@QEBAJXZ
+?GetUInt32@GString@@QEBAKXZ
+?SetFromPDFDateTime@GDateTime@@QEAAJAEBVGBuffer@@@Z
+??4GDateTime@@QEAAAEAV0@AEBV0@@Z
+?GetAsPDFDateTime@GDateTime@@QEBAXAEAVGBuffer@@@Z
+?CompareWith@GDateTime@@QEBAJAEBV1@@Z
+?Clear@GPathName@@QEAAXXZ
+?SetCrossPlatformString@GPathName@@UEAAXVGString@@@Z
+?SetBuffer@GName@@QEAAXAEBVGBuffer@@@Z
+?GetModificationDateTime@?$GFileSystemBase@VPWin32FileSystemImp@@@@SAXAEBVGPathName@@AEAVGDateTime@@@Z
+?TryFolderExists@?$GFileSystemBase@VPWin32FileSystemImp@@@@SA_NAEBVGPathName@@@Z
+??0GBin2TextStream@@QEAA@PEAVGBufferedInStream@@PEAVGEncoding@@@Z
+??1GBin2TextStream@@UEAA@XZ
+?SkipWhitespace@GBin2TextStream@@QEAAJ_N@Z
+?ReadLine@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?ReadString@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?ReadQuotedString@GBin2TextStream@@QEAA_NAEAVGString@@@Z
+?IsEmpty@GString@@QEBA_NXZ
+?GetEOLString@GDictUtil@@YA?AVGString@@XZ
+??0GText2BinStream@@QEAA@PEAVGOutStream@@PEAVGEncoding@@@Z
+??1GText2BinStream@@UEAA@XZ
+?Write@GText2BinStream@@QEAAXAEBVGString@@@Z
+?ReplaceSpecialChars@GStringSupport@@YAXAEAVGString@@@Z
+??1GIdleTimeClient@@UEAA@XZ
+?Start@GIdleTimeClient@@QEAAXXZ
+??0GIdleTimeClient@@QEAA@XZ
+??0GPathName@@QEAA@AEBV0@@Z
+?GetHash@GPathName@@QEBAKXZ
+??8@YA_NAEBVGPathName@@0@Z
+??0GBufferedInStreamDecorator@@QEAA@PEAVGInStream@@J@Z
+??1GBufferedInStreamDecorator@@UEAA@XZ
+??0GFileSystemIterator@@QEAA@AEBVGPathName@@JJ@Z
+??1GFileSystemIterator@@UEAA@XZ
+??DGFileSystemIterator@@QEBAAEBVGPathName@@XZ
+??EGFileSystemIterator@@QEAAAEAV0@XZ
+??8@YA_NAEBVGFileSystemIterator@@0@Z
+??0GFileOutStream@@QEAA@AEBVGPathName@@_N@Z
+??1GFileOutStream@@UEAA@XZ
+?CreateClone@GBin2TextStream@@UEBAPEAVGInStream@@XZ
+?Reset@GBin2TextStream@@UEAAXXZ
+?Read@GBin2TextStream@@UEAAJAEAVGBuffer@@J@Z
+?Unread@GBin2TextStream@@UEAAJJ@Z
+?SetRollBackPoint@GBin2TextStream@@UEAAXXZ
+?RollBack@GBin2TextStream@@UEAAJXZ
+?Write@GFileOutStream@@UEAAJAEBVGBuffer@@@Z
+?Flush@GFileOutStream@@UEAAXXZ
+?Skip@GFileOutStream@@UEAA_J_J@Z
+?Reset@GFileOutStream@@UEAAXXZ
+?GetLength@GFileOutStream@@UEBA_JXZ
+?CreateClone@GBufferedInStreamDecorator@@UEBAPEAVGInStream@@XZ
+?Reset@GBufferedInStreamDecorator@@UEAAXXZ
+?Read@GBufferedInStreamDecorator@@UEAAJAEAVGBuffer@@J@Z
+?Unread@GBufferedInStreamDecorator@@UEAAJJ@Z
+?SetRollBackPoint@GBufferedInStreamDecorator@@UEAAXXZ
+?RollBack@GBufferedInStreamDecorator@@UEAAJXZ
+?ConvertPortableToWin32@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertWin32ToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToMachO@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertMachOToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToCFM@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertCFMToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertPortableToUNIX@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?ConvertUNIXToPortable@GPathName@@EEBAXAEBVGString@@AEAV2@@Z
+?GetPortablePath@GPathName@@EEBAAEBVGString@@XZ
+?GetNormalizedPortablePathFrom@GPathName@@EEBA?AVGString@@AEBV2@@Z
+?SetPortablePath@GPathName@@EEBAXVGString@@@Z
+?CreateClone@GFileInStream@@UEBAPEAVGInStream@@XZ
+?Reset@GFileInStream@@UEAAXXZ
+?Skip@GFileInStream@@UEAA_J_J@Z
+?Read@GFileInStream@@UEAAJAEAVGBuffer@@J@Z
+?GetLength@GFileInStream@@UEBA_JXZ
+?cEnd@GFileSystemIterator@@2V1@B
+??0GFileSystemIterator@@QEAA@XZ
+?Set@GString@@QEAAXPEBDPEBVGEncoding@@@Z
+?GetWidth@?$GRectBase@N@@QEBANXZ
+?Set@?$GRectBase@N@@QEAAXNNNN@Z
+?GetStartPoint@GOutline@@QEBAXAEAV?$GPointBase@N@@@Z
+?GetData@GOutline@@QEBAAEBVGBuffer@@XZ
+??0GOutlineIterator@@QEAA@AEBVGOutline@@@Z
+?Next@GOutlineIterator@@QEAA_NXZ
+?GetOperator@GOutlineIterator@@QEBAEXZ
+?GetPoint@GOutlineIterator@@QEBAAEBV?$GPointBase@N@@XZ
+?GetPoints@GOutlineIterator@@QEBAXAEAV?$GPointBase@N@@00@Z
+?GetPoints@GOutlineIterator@@QEBAXAEAV?$GPointBase@N@@0@Z
+?GetInstance@GPlatformEncodingFactory@@SAPEAV1@XZ
+?Initialize@GBasicFrameworkCoreLayer@@SA_NXZ
+?Finalize@GBasicFrameworkCoreLayer@@SAXXZ
+?AddStringPoolData@GStringPoolSupport@@SAXAEBVGBuffer@@PEBDPEAUGStringPoolDataStruct@@J_N@Z
+?FindFirstOccurrence@GBuffer@@QEBAJGJ@Z
+?ToUpper@GString@@QEAAXXZ
+?SwapUnicodeBytes@GBufferSupport@@SAXAEAVGBuffer@@@Z
+?GetInstance@GShiftJISEncoding@@SAPEAVGPlatformEncoding@@XZ
+??1GInStream@@UEAA@XZ
+??1GInStreamConnector@@UEAA@XZ
+??0?$GMatrixBase@N@@QEAA@HN@Z
+??0?$GRectBase@N@@QEAA@XZ
+?IsNull@?$GRectBase@N@@QEBA_NXZ
+?Transform@?$GRectBase@N@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?Add@?$GRectBase@N@@QEAAXAEBV1@@Z
+?Add@?$GRectBase@N@@QEAAXNN@Z
+?AppendMoveTo@GOutline@@QEAAXAEBV?$GPointBase@N@@@Z
+?AppendBezier@GOutline@@QEAAXAEBV?$GPointBase@N@@00@Z
+?AppendLineTo@GOutline@@QEAAXAEBV?$GPointBase@N@@@Z
+?Clear@GOutline@@QEAAXXZ
+?Close@GOutline@@QEAAXXZ
+?Transform@GOutline@@QEAAAEAV1@AEBV?$GMatrixBase@N@@@Z
+?TrimMemoryUsage@GOutline@@QEAAXXZ
+??0GOutline@@QEAA@XZ
+??1GOutline@@QEAA@XZ
+?GetRect@GOutlineIterator@@QEBAAEBV?$GRectBase@N@@XZ
+?SubstituteParams@GString@@QEAAAEAV1@AEBV1@0@Z
+?SubstituteParams@GString@@QEAAAEAV1@AEBV1@@Z
+??4GString@@QEAAAEAV0@$$QEAV0@@Z
+?GetString@GStringPool@@SAAEBVGString@@J@Z
+??0GInStream@@QEAA@XZ
+??0GBufferedInStream@@QEAA@XZ
+??1GBufferedInStream@@UEAA@XZ
+?ToLower@GString@@QEAAXXZ
+?Replace@GString@@QEAA_NJAEBV1@0@Z
+?cEmptyString@GString@@2V1@B
+??0GPathName@@QEAA@$$QEAV0@@Z
+?cEmptyPathName@GPathName@@2V1@B
+?ReplaceExtension@GPathName@@QEAAXAEBVGString@@@Z
+?FindFirstNonOccurrence@GBuffer@@QEBAJPEBEJJ@Z
+??0GInStreamConnector@@IEAA@_N@Z
+??0GInStreamTokenizer@@QEAA@PEAVGInStream@@AEBV?$GDict@VGBuffer@@K@@AEBV?$GTable@E@@@Z
+??1GInStreamTokenizer@@QEAA@XZ
+?GetNextToken@GInStreamTokenizer@@QEAAJXZ
+?GetTokenBuffer@GInStreamTokenizer@@QEBAAEBVGBuffer@@XZ
+?GetInt64@GInStreamTokenizer@@QEBA_JXZ
+??0GPartialInStream@@QEAA@AEAVGInStream@@_J1@Z
+??1GPartialInStream@@UEAA@XZ
+?CreateClone@GInStreamConnector@@UEBAPEAVGInStream@@XZ
+?Read@GInStreamConnector@@UEAAJAEAVGBuffer@@J@Z
+?Reset@GInStreamConnector@@UEAAXXZ
+?CreateClone@GPartialInStream@@UEBAPEAVGInStream@@XZ
+?Reset@GPartialInStream@@UEAAXXZ
+?Read@GPartialInStream@@UEAAJAEAVGBuffer@@J@Z
+?Skip@GPartialInStream@@UEAA_J_J@Z
+?cDefaultSeparators@GInStreamTokenizer@@2V?$GTable@E@@B
+??0GPaddedInStream@@QEAA@PEAVGInStream@@KE@Z
+??1GPaddedInStream@@UEAA@XZ
+?CreateClone@GPaddedInStream@@UEBAPEAVGInStream@@XZ
+?Reset@GPaddedInStream@@UEAAXXZ
+?Read@GPaddedInStream@@UEAAJAEAVGBuffer@@J@Z
+??0GMD4Digester@@QEAA@XZ
+?Finalize@GMD4Digester@@QEAAXQEAE@Z
+?Update@GMD4Digester@@QEAAXAEBVGBuffer@@@Z
+?GetSubBuffer@GBuffer@@QEBA?AV1@JJ@Z
+??0GBuffer@@QEAA@K@Z
+?AddLngString@GLngString@@QEAAXV1@@Z
+??0GString@@QEAA@PEBEJPEBVGEncoding@@@Z
+?Clear@GString@@QEAAXXZ
+??AGString@@QEBAGJ@Z
+??0GPathName@@QEAA@PEBD@Z
+??4GPathName@@QEAAAEAV0@$$QEAV0@@Z
+?SetNativePathString@GPathName@@QEAAXAEBVGString@@@Z
+??_0GPathName@@QEAAAEAV0@AEBV0@@Z
+?IsRelative@GPathName@@QEBA_NXZ
+?StartsWith@GPathName@@QEBA_NAEBV1@@Z
+??K@YA?AVGPathName@@AEBV0@0@Z
+??0PRegistryKey@@QEAA@PEAUHKEY__@@AEBVGString@@K@Z
+??1PRegistryKey@@QEAA@XZ
+?BeginEnumerateValue@PRegistryKey@@QEAA_NXZ
+?NextValue@PRegistryKey@@QEAAPEAVPRegistryData@@AEAVGString@@@Z
+?EndEnumerateValue@PRegistryKey@@QEAAXXZ
+?IsWow64@PSystem@@SA_NXZ
+?sAllowedEncodings@PRegistryKey@@0V?$GTable@PEAVGEncoding@@@@A
+BasicFrameworkCoreLayer.dll
+inflateEnd
+inflateInit2_
+zlib1.dll
+MultiByteToWideChar
+KERNEL32.dll
+SHGetFolderPathW
+SHELL32.dll
+?_Xlength_error@std@@YAXPEBD@Z
+MSVCP140.dll
+_purecall
+__std_terminate
+__CxxFrameHandler4
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+__current_exception
+__current_exception_context
+__C_specific_handler
+__intrinsic_setjmp
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+VCRUNTIME140_1.dll
+_invalid_parameter_noinfo_noreturn
+isxdigit
+terminate
+_callnewh
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_initterm
+_initterm_e
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+ReleaseSRWLockExclusive
+AcquireSRWLockExclusive
+WakeAllConditionVariable
+SleepConditionVariableSRW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_alloc@std@@
+.?AVexception@utf8@@
+.?AVinvalid_code_point@utf8@@
+.?AVnot_enough_room@utf8@@
+.?AVinvalid_utf8@utf8@@
+.?AVGFFreeTypeException@@
+.?AVGFCachePSMF@@
+.?AVGFCachePSMFDefault@@
+.?AVGFCMap@@
+.?AVGFParsedStream@@
+.?AVGFReport@@
+.?AVGFCFFCharStringChecker@@
+.?AVGFCFFCharStringProcessor@@
+.?AVGFReportCFF@@
+.?AVGFReportAdapter@@
+.?AVGFCFFCharStringChecker2@@
+.?AVGFCFFCharStringConvertor@@
+.?AVGFCFFCharStringToType2@@
+.?AVStemInfo@GFCFFCharStringToType2@@
+.?AVGRefCount@@
+.?AVGFCFFCharStringTracker@@
+.?AVGFCFFObject@@
+.?AVGFCFFData@@
+.?AVGFCFFDict@@
+.?AVGFCFFDictIndex@@
+.?AVGFException@@
+.?AVGException@@
+.?AVGFFont@@
+.?AVGFFontType1@@
+.?AVGFCFFIndex@@
+.?AVGFCFFToCFF@@
+.?AVGFCMapCID@@
+.?AVGFCMapCIDImp@@
+.?AVGFCMapImp@@
+.?AVGFParsedStreamImp@@
+.?AVGFCMapCIDSingleIterator@@
+.?AVGFCMapCIDIteratorInterface@@
+.?AVGFCMapCIDDoubleIterator@@
+.?AVGFCMapCIDCharIterator@@
+.?AVGFCMapCIDRangeIterator@@
+.?AVGFCMapCIDNotDefCharIterator@@
+.?AVGFCMapCIDNotDefRangeIterator@@
+.?AVGMemoryInStream@@
+.?AVGBufferedInStream@@
+.?AVGInStream@@
+.?AVGFlateDecode@@
+.?AVGFCMapUnicode@@
+.?AVGFCMapUnicodeImp@@
+.?AVGFFontCFF@@
+.?AVGFEncoding@@
+.?AVGEncoding@@
+.?AVGFEncodingBaseSymbol@@
+.?AVGSimpleEncoding@@
+.?AVGCustomEncoding@@
+.?AVGFEncodingBaseZapfDingbats@@
+.?AVGFEncodingComposite@@
+.?AVCIDGIDProcessor@GFEncodingComposite@@
+.?AVGFFontTrueType@@
+.?AVCIDToGIDCreator@@
+.?AVGFParsedStreamManager@@
+.?AVGFEncodingNormalizerPDF@@
+.?AVGFEncodingNormalizerPDF_Base@@
+.?AVGFEncodingNormalizerPDF_Composite@@
+.?AVGFEncodingNormalizerPDF_Failing@@
+.?AVGFEncodingNormalizerPDF_PreferSToC@@
+.?AVGFEncodingNormalizerPDF_Simple@@
+.?AVPrivateEncoding@?A0x62e1d661@@
+.?AVGFEncodingSimple@@
+.?AVGFEncodingNormalizerPDF_Single@@
+.?AVGFEncodingNormalizerPDF_SUnEmbCEmb@@
+.?AVGFEncodingUnicode@@
+.?AVGFExceptionHandler@@
+.?AVGFFileInfo@@
+.?AVGFFontCollection@@
+.?AVGFFontMMType1@@
+.?AVGFFontOTFCFF@@
+.?AVGFFileIterator@@
+.?AVGFFileInfoCached@@
+.?AVGBin2TextStream@@
+.?AVGOutStream@@
+.?AVGPathName@@
+.?AVPWin32PathNameImp@@
+.?AVGFFileManager@@
+.?AVGIdleTimeClient@@
+.?AVGBufferedInStreamDecorator@@
+.?AVGFileInStream@@
+.?AVGFileOutStream@@
+.?AVGFFileManagerIterator@@
+.?AVGFFileManagerIteratorAll@@
+.?AVGFFileManagerIteratorUnique@@
+.?AVGFileSystemIterator@@
+.?AVPWin32FileSystemIteratorImp@@
+.?AVGFFolderIterator@@
+.?AVGFFontCFFImp@@
+.?AVGFFontImp@@
+.?AVGFFontCollectionImp@@
+.?AVGFFontMMType1Imp@@
+.?AVGFFontOTFCFFImp@@
+.?AVTTTableParser@?A0xec7260b9@@
+.?AVFeatureTable@?A0xec7260b9@@
+.?AVFeatureListTable@?A0xec7260b9@@
+.?AVCoverageTable@?A0xec7260b9@@
+.?AVCoverageTable_CoverageFormat1@?A0xec7260b9@@
+.?AUCoverageTable_CoverageFormat2@?A0xec7260b9@@
+.?AVLookupTable@?A0xec7260b9@@
+.?AVSubTable@LookupTable@?A0xec7260b9@@
+.?AVSingleSubstFormat1@LookupTable@?A0xec7260b9@@
+.?AVSingleSubstFormat2@LookupTable@?A0xec7260b9@@
+.?AVLookupListTable@?A0xec7260b9@@
+.?AVGSUB@?A0xec7260b9@@
+.?AVGFFontTrueTypeImp@@
+.?AVGFFontType1Imp@@
+.?AVGFGlyphImp@@
+.?AVGFastAllocatable@@
+.?AVGFFreeTypeStreamAdapter@@
+.?AVGFMemoryInStream@@
+.?AVGFParsedStreamManagerCombined@@
+.?AVGFParsedStreamManagerFiles@@
+.?AVGFStripperASCIIHex@@
+.?AVGFStripperPFA@@
+.?AVGInStreamConnector@@
+.?AVGPartialInStream@@
+.?AVGFStripperPFB@@
+.?AVGFStripperTTC@@
+.?AVGPaddedInStream@@
+.?AVGFStripperOTFTable@@
+.?AVGFSubsetterBase@@
+.?AVGFSubsetterCFF@@
+.?AVGFSubsetterTT@@
+.?AVGFTTSubsetInfo@@
+.?AVGFSystemFontIteratorDS@@
+.?AVGFReportException@@
+.?AVGFTTStream@@
+.?AVPFSystemFontIteratorDS@@
+.?AVtype_info@@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>
+Greater Manchester1
+Salford1
+Comodo CA Limited1!0
+AAA Certificate Services0
+210525000000Z
+281231235959Z0V1
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+H/(@Bp 6
+2http://crl.comodoca.com/AAACertificateServices.crl04
+http://ocsp.comodoca.com0
+DigiCert Inc1
+www.digicert.com1$0"
+DigiCert Assured ID Root CA0
+220801000000Z
+311109235959Z0b1
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+]J<0"0i3
+http://ocsp.digicert.com0C
+7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+Sectigo Limited1-0+
+$Sectigo Public Code Signing Root R460
+210322000000Z
+360321235959Z0W1
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+H/(@Bp 6
+:http://crl.sectigo.com/SectigoPublicCodeSigningRootR46.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningRootR46.p7c0#
+http://ocsp.sectigo.com0
+DigiCert Inc1
+www.digicert.com1!0
+DigiCert Trusted Root G40
+220323000000Z
+370322235959Z0c1
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+http://ocsp.digicert.com0A
+5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R360
+240916000000Z
+270916235959Z0
+08860479831
+Private Organization1
+Oost-Vlaanderen1
+Esko Software1
+Esko Software0
+https://sectigo.com/CPS0
+:http://crl.sectigo.com/SectigoPublicCodeSigningCAEVR36.crl0{
+:http://crt.sectigo.com/SectigoPublicCodeSigningCAEVR36.crt0#
+http://ocsp.sectigo.com0(
+BE-08860479830
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+240926000000Z
+351125235959Z0B1
+DigiCert1 0
+DigiCert Timestamp 20240
+Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+http://ocsp.digicert.com0X
+Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+Sectigo Limited1.0,
+%Sectigo Public Code Signing CA EV R36
+DigiCert, Inc.1;09
+2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+250203230558Z0/

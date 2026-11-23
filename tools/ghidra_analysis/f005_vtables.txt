@@ -1,0 +1,40 @@
+# program=Document.dll sha256=da91e28574c877d392d3e6bef9ccbb7c4dcf3117ebd03655de89834fc8fa9e21
+
+## VT 1802e99a0 count=24
+   [0] slot=1802e99a0 -> 0x180093d10 fn=180093d10 FUN_180093d10 containing=180093d10 FUN_180093d10 sym=FUN_180093d10
+   [1] slot=1802e99a8 -> 0x180147ad0 fn=180147ad0 FUN_180147ad0 containing=180147ad0 FUN_180147ad0 sym=FUN_180147ad0
+   [2] slot=1802e99b0 -> 0x1801463b0 fn=1801463b0 FUN_1801463b0 containing=1801463b0 FUN_1801463b0 sym=FUN_1801463b0
+   [3] slot=1802e99b8 -> 0x180146c50 fn=180146c50 FUN_180146c50 containing=180146c50 FUN_180146c50 sym=FUN_180146c50
+   [4] slot=1802e99c0 -> 0x18031b818 fn=- containing=- sym=ArtDoc::PostReadContext::RTTI_Complete_Object_Locator
+   [5] slot=1802e99c8 -> 0x1800937f0 fn=1800937f0 FUN_1800937f0 containing=1800937f0 FUN_1800937f0 sym=FUN_1800937f0
+   [6] slot=1802e99d0 -> 0x1802afb90 fn=1802afb90 VCRUNTIME140.DLL::_purecall containing=1802afb90 VCRUNTIME140.DLL::_purecall sym=VCRUNTIME140.DLL::_purecall
+   [7] slot=1802e99d8 -> 0x18031a6f0 fn=- containing=- sym=std::basic_filebuf<char,std::char_traits<char>_>::RTTI_Complete_Object_Locator
+   [8] slot=1802e99e0 -> 0x1800939c0 fn=1800939c0 FUN_1800939c0 containing=1800939c0 FUN_1800939c0 sym=FUN_1800939c0
+   [9] slot=1802e99e8 -> 0x18009cd50 fn=18009cd50 FUN_18009cd50 containing=18009cd50 FUN_18009cd50 sym=FUN_18009cd50
+   [10] slot=1802e99f0 -> 0x18009cec0 fn=18009cec0 FUN_18009cec0 containing=18009cec0 FUN_18009cec0 sym=FUN_18009cec0
+   [11] slot=1802e99f8 -> 0x18009e240 fn=18009e240 FUN_18009e240 containing=18009e240 FUN_18009e240 sym=FUN_18009e240
+   [12] slot=1802e9a00 -> 0x18009e490 fn=18009e490 FUN_18009e490 containing=18009e490 FUN_18009e490 sym=FUN_18009e490
+   [13] slot=1802e9a08 -> 0x1802ae3fb fn=1802ae3fb MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::showmanyc containing=1802ae3fb MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::showmanyc sym=MSVCP140.DLL::std::basic_streambuf<char,std::char_traits<char>_>::showmanyc
+   [14] slot=1802e9a10 -> 0x18009ec10 fn=18009ec10 FUN_18009ec10 containing=18009ec10 FUN_18009ec10 sym=FUN_18009ec10
+   [15] slot=1802e9a18 -> 0x18009e920 fn=18009e920 FUN_18009e920 containing=18009e920 FUN_18009e920 sym=FUN_18009e920
+   [16] slot=1802e9a20 -> 0x18009eca0 fn=18009eca0 FUN_18009eca0 containing=18009eca0 FUN_18009eca0 sym=FUN_18009eca0
+   [17] slot=1802e9a28 -> 0x18009ede0 fn=18009ede0 FUN_18009ede0 containing=18009ede0 FUN_18009ede0 sym=FUN_18009ede0
+   [18] slot=1802e9a30 -> 0x18009e5b0 fn=18009e5b0 FUN_18009e5b0 containing=18009e5b0 FUN_18009e5b0 sym=FUN_18009e5b0
+   [19] slot=1802e9a38 -> 0x18009e680 fn=18009e680 FUN_18009e680 containing=18009e680 FUN_18009e680 sym=FUN_18009e680
+   [20] slot=1802e9a40 -> 0x18009e720 fn=18009e720 FUN_18009e720 containing=18009e720 FUN_18009e720 sym=FUN_18009e720
+   [21] slot=1802e9a48 -> 0x18009e800 fn=18009e800 FUN_18009e800 containing=18009e800 FUN_18009e800 sym=FUN_18009e800
+   [22] slot=1802e9a50 -> 0x18009dc90 fn=18009dc90 FUN_18009dc90 containing=18009dc90 FUN_18009dc90 sym=FUN_18009dc90
+   [23] slot=1802e9a58 -> 0x18031a770 fn=- containing=- sym=std::basic_fstream<char,std::char_traits<char>_>::RTTI_Complete_Object_Locator
+
+## VT 1802fa418 count=8
+   [0] slot=1802fa418 -> 0x1801c6880 fn=1801c6880 FUN_1801c6880 containing=1801c6880 FUN_1801c6880 sym=FUN_1801c6880
+   [1] slot=1802fa420 -> 0x180078b40 fn=180078b40 ArtDoc::ConstVisitorBase::Visit containing=180078b40 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+   [2] slot=1802fa428 -> 0x180078b40 fn=180078b40 ArtDoc::ConstVisitorBase::Visit containing=180078b40 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+   [3] slot=1802fa430 -> 0x180070720 fn=180070720 ArtDoc::Clippable::ClippingObjectChanged containing=180070720 ArtDoc::Clippable::ClippingObjectChanged sym=ArtDoc::Clippable::ClippingObjectChanged
+   [4] slot=1802fa438 -> 0x180078b30 fn=180078b30 ArtDoc::ConstVisitorBase::Visit containing=180078b30 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+   [5] slot=1802fa440 -> 0x180078b60 fn=180078b60 ArtDoc::ConstVisitorBase::Visit containing=180078b60 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+   [6] slot=1802fa448 -> 0x180078b60 fn=180078b60 ArtDoc::ConstVisitorBase::Visit containing=180078b60 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+   [7] slot=1802fa450 -> 0x180078b30 fn=180078b30 ArtDoc::ConstVisitorBase::Visit containing=180078b30 ArtDoc::ConstVisitorBase::Visit sym=ArtDoc::ConstVisitorBase::Visit
+
+## VT 180405228 count=1
+   [0] slot=180405228 -> 0x18030f970 fn=- containing=- sym=type_info::vftable
