@@ -5,14 +5,14 @@
 	disabled="0"
 	skipped="0"
 	hostname=""
-	time="0"
-	timestamp="2026-11-21T17:31:29"
+	time="2"
+	timestamp="2026-11-23T19:43:33"
 	>
-	<testcase name="FormXObjects" classname="FormXObjects" time="0.0244979" status="run">
+	<testcase name="FormXObjects" classname="FormXObjects" time="0.271579" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="PdfSmoke" classname="PdfSmoke" time="0.0357566" status="run">
+	<testcase name="PdfSmoke" classname="PdfSmoke" time="0.273521" status="run">
 		<properties/>
 		<system-out>==============================================
 File: H:\Desktop\ArtPlus\tests\fixtures\test_text.pdf
@@ -38,7 +38,7 @@ File: H:\Deskt...
 [This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
 </system-out>
 	</testcase>
-	<testcase name="UnitTests" classname="UnitTests" time="0.0228748" status="run">
+	<testcase name="UnitTests" classname="UnitTests" time="0.288072" status="run">
 		<properties/>
 		<system-out>Running testDocumentCreation...
 testDocumentCreation passed.
@@ -60,57 +60,35 @@ Running testColors...
 testColors passed.
 </system-out>
 	</testcase>
-	<testcase name="PdfRoundTrip" classname="PdfRoundTrip" time="0.0883751" status="run">
+	<testcase name="PdfRoundTrip" classname="PdfRoundTrip" time="0.136271" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="EditingTests" classname="EditingTests" time="0.0310651" status="run">
+	<testcase name="EditingTests" classname="EditingTests" time="0.292015" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="IntegrationTestBasic" classname="IntegrationTestBasic" time="0.0664221" status="run">
+	<testcase name="IntegrationTestBasic" classname="IntegrationTestBasic" time="0.324739" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="MarkSetProcessor" classname="MarkSetProcessor" time="0.0234757" status="run">
-		<properties/>
-		<system-out>DEBUG: Identifying relevant mark sets from static evidence.
-DEBUG: Identifying relevant mark sets from static evidence.
-DEBUG: Preparing marks cache for Page ID: 1
-  Page rect: (0, 0) 595 x 842
-  Boxes (media): (0, 0) 595 x 842
-  Boxes (crop): (0, 0) 595 x 842
-  Marks cache prepared for Page ID 1.
-DEBUG: Preparing marks cache for Page ID: 1
-  Page rect: (10, 20) 300 x 400
-  Boxes (media): (0, 0) 595 x 842
-  Boxes (crop): (10, 20) 300 x 400
-  Marks cache prepared for Page ID 1.
-DEBUG: Applying marks from set: 
-  ERROR: MarkSet ID is empty; cannot apply mark set content.
-DEBUG: Applying marks from set: MarkSet_0x18024D3E0
-DEBUG: Loading mark set file: mockDocuments/MarkSet_0x18024D3E0.markset
-  INFO: File mockDocuments/MarkSet_0x18024D3E0.markset exists and passes version check &gt;= 2.0.
-  INFO: Marks for MarkSet_0x18024D3E0 applied (cache ready).
-DEBUG: Applying marks from set: MarkSet_desconhecido
-DEBUG: Loading mark set file: mockDocuments/MarkSet_desconhecido.markset
-  INFO: File mockDocuments/MarkSet_desconh...
-[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
-</system-out>
-	</testcase>
-	<testcase name="BearerBarTests" classname="BearerBarTests" time="0.0490052" status="run">
+	<testcase name="MarkSetProcessor" classname="MarkSetProcessor" time="0.313026" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="CutMarkTests" classname="CutMarkTests" time="0.0483251" status="run">
+	<testcase name="BearerBarTests" classname="BearerBarTests" time="0.30271" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="SelectionMarkTests" classname="SelectionMarkTests" time="0.0426715" status="run">
+	<testcase name="CutMarkTests" classname="CutMarkTests" time="0.306463" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>
-	<testcase name="SaveDocumentTests" classname="SaveDocumentTests" time="0.0688546" status="run">
+	<testcase name="SaveDocumentTests" classname="SaveDocumentTests" time="0.319103" status="run">
+		<properties/>
+		<system-out></system-out>
+	</testcase>
+	<testcase name="F-008" classname="F-008" time="0.0797157" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>

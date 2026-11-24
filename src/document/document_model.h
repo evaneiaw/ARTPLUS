@@ -67,6 +67,30 @@ struct PageBoxes {
                   artBox(0, 0, 595, 842) {}
 };
 
+// Simple struct for individual page box (name + rect)
+struct PageBox {
+    QString name;
+    QRectF rect;
+    PageBox() = default;
+    PageBox(const QString& n, const QRectF& r) : name(n), rect(r) {}
+};
+
+// Separation (spot color channel) for prepress
+class Separation {
+public:
+    enum class Type { Process, Spot } type = Type::Process;
+    QString name;
+    float tint = 1.0f;
+    QVector<float> cmykEquivalent; // CMYK values for spot simulation
+
+    struct Entry {
+        Type type = Type::Spot;
+        QString name;
+        float tint = 1.0f;
+        QVector<float> cmykEquivalent;
+    };
+};
+
 struct Color {
     enum class Type { CMYK, Spot, RGB, Lab, Gray, Pattern, None } type = Type::None;
     QVector<float> components;
@@ -427,6 +451,12 @@ public:
     QString filePath() const { return m_filePath; }
     void setFilePath(const QString& path) { m_filePath = path; }
 
+    // F-005 R4 / GHIDRA-Document-0x18009C080: o título do documento é um campo
+    // explícito do modelo, inicializado com o nome do arquivo pelo handler de abertura.
+    // Não é chave genérica de metadata() (ADR-014, alternativa 7 descartada).
+    void setTitle(const QString& title);
+    const QString& title() const;
+
     bool modified() const { return m_modified; }
     void setModified(bool m) { m_modified = m; }
 
@@ -447,6 +477,7 @@ private:
     std::vector<ObjectId> m_selection;
 
     QString m_filePath;
+    QString m_title;
     bool m_modified = false;
     QJsonObject m_metadata;
 };

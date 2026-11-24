@@ -22,6 +22,7 @@ O escopo ativo F-008 foi avançado pelo pipeline:
 | Item | Estado |
 |---|---|
 | GATE 0 versão | ok (gate) |
+| F-005 (Open Document) | **auditado** — 7 gates verdes, laudo `F-005-audit-20261123c.md` APROVADO (token `DC5B5724…`), ADR-013 + ADR-014, build isolado exit 0, ctest 11/11 + 18 casos, dossiê Document |
 | F-008 GATE 3 (evidência) | **ok** (5 GHIDRA IDs v24 resolvem + `CAP-20261122-02` resolve) |
 | F-008 GATE 2 (spec) | **ok** (declarados 13 arquivos em `src/color_management/`) |
 | F-008 GATE 2 (arquitetura) | **ok** (`docs/architecture/F-008-ADR.md` aprovado) |

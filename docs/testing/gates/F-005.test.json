@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-22T15:09:44-03:00",
+  "timestamp": "2026-11-23T19:44:31-03:00",
   "feature": "F-005",
   "test_name": "PdfRoundTrip",
-  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-005.xml --output-on-failure -R ^PdfRoundTrip$",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build_f005 --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-005.xml --output-on-failure -R ^PdfRoundTrip$",
   "exit_code": 0,
   "xml_path": "H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-005.xml",
-  "xml_sha256": "FF635B439288DABAB0CF790DC9DEE8CE105AC706C91CB5BC743A35A797A777E8",
-  "log_path": "docs/testing/gates/logs/test-F-005-20261122-150943-885.log",
+  "xml_sha256": "9396D349941C605C700D85CD00A5431A0EF45F27E0E3F78CBEC4DBD25D3CC579",
+  "log_path": "docs/testing/gates/logs/test-F-005-isolated-20261123-194321-662.log",
   "tests": [
     {
       "name": "PdfRoundTrip",
       "status": "passed",
-      "time": 0.375
+      "time": 0.401
     }
   ],
   "failures": 0,

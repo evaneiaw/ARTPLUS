@@ -42,6 +42,8 @@ public:
 
     bool open(const QString& filePath);
     bool isOpen() const { return m_open; }
+    // F-005 §5 / ADR-014: presença local de /Encrypt, sem UI própria de senha.
+    bool isEncrypted() const;
     QString filePath() const { return m_path; }
 
     int pageCount() const { return (int)m_pageRefs.size(); }

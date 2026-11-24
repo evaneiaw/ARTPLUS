@@ -20,6 +20,17 @@ static QByteArray readRawStream(const QByteArray& data, int64_t streamStart, int
 
 // ================================================================== open
 bool PdfDocument::open(const QString& filePath) {
+    // Uma instância pode ser reutilizada; estado da abertura anterior não pode
+    // contaminar a classificação de erro da nova (F-005 §5).
+    m_bytes.clear();
+    m_path.clear();
+    m_open = false;
+    m_info = DocumentInfo();
+    m_startXref = 0;
+    m_objects.clear();
+    m_pageRefs.clear();
+    m_resolvedCache.clear();
+
     QFile f(filePath);
     if (!f.open(QIODevice::ReadOnly)) return false;
     m_bytes = f.readAll();
@@ -106,6 +117,10 @@ bool PdfDocument::open(const QString& filePath) {
     } catch (const std::exception&) {
         return false;
     }
+}
+
+bool PdfDocument::isEncrypted() const {
+    return m_bytes.contains("/Encrypt");
 }
 
 // ===================================================== parse all objects

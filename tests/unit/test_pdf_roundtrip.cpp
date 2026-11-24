@@ -1,11 +1,23 @@
 // F-005 — PDF Round-Trip. Unit tests for PDF import/export round-trip fidelity.
+// F-005 / ADR-014: regressões da abertura de documento — enum OpenError e mensagens
+// simbólicas §5, despacho MIME→handler (R2/R3), PDF sem páginas (R6), título
+// derivado do arquivo (R4) e guarda estática do comando/filtro único (R1/R8/R9).
+// A guarda de UI é estática (leitura de src/ui/main_window.cpp): nenhuma GUI é
+// iniciada nesta suíte, então o diálogo nativo em si permanece sem cobertura.
 #include <QtTest/QtTest>
 #include <QTemporaryDir>
+#include <QDir>
+#include <QFile>
+#include <QFileInfo>
 #include <iostream>
+#include <memory>
 #include "../../src/document/document_model.h"
 #include "../../src/document/document_serializer.h"
+#include "../../src/document/open_error.h"
+#include "../../src/document/file_dispatcher.h"
 #include "../../src/pdf/pdf_importer.h"
 #include "../../src/pdf/pdf_document.h"
+#include "../../src/pdf/pdf_open_handler.h"
 #include "../../src/pdf/pdf_exporter.h"
 #include "../../src/pdf/pdf_content.h"
 
@@ -16,6 +28,31 @@ static QString fixtureDir() {
     const char* env = qgetenv("ARTPLUS_FIXTURES");
     if (env && *env) return QString::fromLatin1(env);
     return QString::fromLatin1("H:\\Desktop\\ArtPlus\\tests\\fixtures");
+}
+
+// F-005: localiza a raiz do repositório para a guarda estática de UI/R1.
+static QString repoRootForSourceGuard() {
+    const QString fromFile = QFileInfo(QString::fromLatin1(__FILE__)).absolutePath();
+    const QString fromFixture = QFileInfo(fixtureDir() + "/..").absolutePath();
+    const QStringList candidates = {
+        QDir::cleanPath(fromFile + "/../.."),
+        QDir::cleanPath(fromFixture + "/.."),
+        QStringLiteral("H:/Desktop/ArtPlus")
+    };
+    for (const QString& candidate : candidates) {
+        if (QFileInfo::exists(candidate + "/src/ui/main_window.cpp")) return candidate;
+    }
+    return QString();
+}
+
+// F-005 R6 / GHIDRA-Document-0x180093D60: PDF sintético válido com zero páginas.
+static QByteArray zeroPagePdfBytes() {
+    QByteArray bytes;
+    bytes.append("%PDF-1.4\n");
+    bytes.append("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n");
+    bytes.append("2 0 obj\n<< /Type /Pages /Count 0 /Kids [] >>\nendobj\n");
+    bytes.append("trailer\n<< /Root 1 0 R >>\nstartxref\n0\n%%EOF\n");
+    return bytes;
 }
 
 class TestPdfRoundTrip : public QObject {
@@ -248,6 +285,199 @@ private slots:
         auto res2 = PdfImporter::import(pdf2, doc2);
         QVERIFY(res2.ok);
         QVERIFY(res2.pathsImported >= 4);
+    }
+
+    // F-005 §5 / ADR-014 §5: os cinco nomes simbólicos do binário e o refinamento
+    // do clone (NoHandlerForMime) precisam ser exatos — não basta "falhou".
+    void testF005OpenErrorSymbolicMessages() {
+        QCOMPARE(openErrorMessage(OpenError::None), QString());
+        QCOMPARE(openErrorMessage(OpenError::FileNotFound),
+                 QStringLiteral("ERROR_FILE_NOT_FOUND"));
+        QCOMPARE(openErrorMessage(OpenError::FileAccessDenied),
+                 QStringLiteral("ERROR_FILE_ACCESS_DENIED"));
+        QCOMPARE(openErrorMessage(OpenError::FileInvalid),
+                 QStringLiteral("ERROR_FILE_INVALID"));
+        QCOMPARE(openErrorMessage(OpenError::WrongPassword),
+                 QStringLiteral("ERROR_WRONG_PASSWORD"));
+        QCOMPARE(openErrorMessage(OpenError::NoHandlerForMime),
+                 QStringLiteral("ERROR_FILE_NO_HANDLER_FOR_MIME"));
+        QCOMPARE(openErrorMessage(OpenError::Unknown),
+                 QStringLiteral("ERROR_FILE_UNKNOWN"));
+    }
+
+    // F-005 R2: extensões do filtro sem handler registrado não viram stub silencioso.
+    void testF005NoHandlerForUnmappedMimes() {
+        QCOMPARE(FileDispatcher::mimeTypeForPath(QStringLiteral("a.pdf")),
+                 QStringLiteral("application/pdf"));
+        QCOMPARE(FileDispatcher::mimeTypeForPath(QStringLiteral("a.artplus")),
+                 QStringLiteral("application/vnd.artplus.document"));
+        QCOMPARE(FileDispatcher::mimeTypeForPath(QStringLiteral("a.PDPDLA")),
+                 QStringLiteral("application/vnd.artplus.pdpdla"));
+        QCOMPARE(FileDispatcher::mimeTypeForPath(QStringLiteral("a.ap")),
+                 QStringLiteral("application/vnd.artplus.ap"));
+        QCOMPARE(FileDispatcher::mimeTypeForPath(QStringLiteral("a.art")),
+                 QStringLiteral("application/vnd.artplus.art"));
+
+        QTemporaryDir dir;
+        QVERIFY(dir.isValid());
+        FileDispatcher dispatcher;
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        const QStringList unsupported = {"probe.pdpdla", "probe.ap", "probe.art"};
+        for (const QString& name : unsupported) {
+            const QString path = dir.filePath(name);
+            QFile file(path);
+            QVERIFY2(file.open(QIODevice::WriteOnly), qPrintable(path));
+            file.write("no handler for this mime");
+            file.close();
+            QVERIFY(!dispatcher.hasHandler(FileDispatcher::mimeTypeForPath(path)));
+            const OpenResult result = dispatcher.open(path);
+            QVERIFY2(result.error == OpenError::NoHandlerForMime,
+                     qPrintable(QString("%1: error=%2 detail=%3")
+                                .arg(name).arg(int(result.error)).arg(result.detail)));
+            QCOMPARE(openErrorMessage(result.error),
+                     QStringLiteral("ERROR_FILE_NO_HANDLER_FOR_MIME"));
+            QVERIFY(!result.document);
+        }
+    }
+
+    // F-005 R2 passo 1: status(path) < 2 → código 0 / ERROR_FILE_NOT_FOUND.
+    void testF005MissingFileIsFileNotFound() {
+        QTemporaryDir dir;
+        QVERIFY(dir.isValid());
+        FileDispatcher dispatcher;
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        const OpenResult result = dispatcher.open(dir.filePath("does-not-exist.pdf"));
+        QVERIFY(result.error == OpenError::FileNotFound);
+        QCOMPARE(openErrorMessage(result.error), QStringLiteral("ERROR_FILE_NOT_FOUND"));
+        QVERIFY(!result.document);
+    }
+
+    // F-005 R3 / GHIDRA-Document-0x180216270: chave duplicada é ignorada e o
+    // handler recebido é descartado — o handler original continua no mapa.
+    void testF005DuplicateHandlerRegistrationIsIgnored() {
+        // ADR-014 R3 / file_dispatcher.cpp:58: a chave duplicada faz o handler
+        // recebido ser descartado. O contador é compartilhado para observar a
+        // chamada sem desreferenciar o objeto já destruído (use-after-free).
+        class CountingHandler final : public OpenFileHandler {
+        public:
+            explicit CountingHandler(std::shared_ptr<int> counter)
+                : calls(std::move(counter)) {}
+            OpenResult open(const QString& path) const override {
+                ++(*calls);
+                return OpenResult::failure(OpenError::Unknown, path);
+            }
+            std::shared_ptr<int> calls;
+        };
+
+        FileDispatcher dispatcher;
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        QVERIFY(dispatcher.hasHandler(QStringLiteral("application/pdf")));
+        QVERIFY(dispatcher.hasHandler(QStringLiteral("application/vnd.artplus.document")));
+
+        auto calls = std::make_shared<int>(0);
+        auto replacement = std::make_unique<CountingHandler>(calls);
+        QVERIFY(!dispatcher.registerHandler(QStringLiteral("application/pdf"),
+                                            std::move(replacement)));
+        QCOMPARE(*calls, 0);
+
+        // Uma segunda chamada de inicialização não troca os handlers embutidos.
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        const OpenResult result = dispatcher.open(fixture("test_vector.pdf"));
+        QVERIFY2(result.error == OpenError::None, qPrintable(result.detail));
+        QVERIFY(result.document);
+        QCOMPARE(*calls, 0); // handler duplicado foi descartado, nunca chamado
+    }
+
+    // F-005 R6 / GHIDRA-Document-0x180093D60: documento sem nenhuma página deve
+    // produzir FileInvalid / ERROR_FILE_INVALID, tanto no handler quanto no dispatcher.
+    void testF005PdfHandlerRejectsZeroPages() {
+        QTemporaryDir dir;
+        QVERIFY(dir.isValid());
+        const QString path = dir.filePath("zero-pages.pdf");
+        QFile file(path);
+        QVERIFY(file.open(QIODevice::WriteOnly));
+        const QByteArray bytes = zeroPagePdfBytes();
+        QCOMPARE(file.write(bytes), qint64(bytes.size()));
+        file.close();
+
+        PDF::PdfDocument pdf;
+        QVERIFY2(pdf.open(path), "synthetic zero-page PDF must parse");
+        QCOMPARE(pdf.pageCount(), 0);
+
+        PdfOpenHandler handler;
+        const OpenResult direct = handler.open(path);
+        QVERIFY(direct.error == OpenError::FileInvalid);
+        QCOMPARE(openErrorMessage(direct.error), QStringLiteral("ERROR_FILE_INVALID"));
+        QVERIFY(!direct.document);
+
+        FileDispatcher dispatcher;
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        const OpenResult viaDispatcher = dispatcher.open(path);
+        QVERIFY(viaDispatcher.error == OpenError::FileInvalid);
+        QCOMPARE(openErrorMessage(viaDispatcher.error), QStringLiteral("ERROR_FILE_INVALID"));
+    }
+
+    // F-005 §5 / ADR-014: /Encrypt é a fonte local para ERROR_WRONG_PASSWORD.
+    void testF005EncryptedMarkerMapsToWrongPasswordMessage() {
+        QTemporaryDir dir;
+        QVERIFY(dir.isValid());
+        const QString path = dir.filePath("encrypted.pdf");
+        QFile file(path);
+        QVERIFY(file.open(QIODevice::WriteOnly));
+        file.write("%PDF-1.4\n"
+                   "1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n"
+                   "2 0 obj\n<< /Type /Pages /Count 0 /Kids [] >>\nendobj\n"
+                   "trailer\n<< /Root 1 0 R /Encrypt 3 0 R >>\n%%EOF\n");
+        file.close();
+        PDF::PdfDocument pdf;
+        QVERIFY(pdf.open(path));
+        QVERIFY(pdf.isEncrypted());
+        QCOMPARE(openErrorMessage(OpenError::WrongPassword),
+                 QStringLiteral("ERROR_WRONG_PASSWORD"));
+    }
+
+    // F-005 R4 / GHIDRA-Document-0x18009C080: título = nome do arquivo.
+    void testF005OpenTitleDerivedFromFileName() {
+        QCOMPARE(OpenResult::success(nullptr, QStringLiteral("/tmp/a/b/named.pdf")).title,
+                 QStringLiteral("named.pdf"));
+
+        QTemporaryDir dir;
+        QVERIFY(dir.isValid());
+        const QString path = dir.filePath("f005-title-probe.pdf");
+        QVERIFY(QFile::copy(fixture("test_vector.pdf"), path));
+        FileDispatcher dispatcher;
+        FileDispatcher::registerBuiltinHandlers(dispatcher);
+        const OpenResult result = dispatcher.open(path);
+        QVERIFY2(result.error == OpenError::None, qPrintable(result.detail));
+        QVERIFY(result.document);
+        QCOMPARE(result.title, QStringLiteral("f005-title-probe.pdf"));
+        QCOMPARE(result.document->title(), QStringLiteral("f005-title-probe.pdf"));
+    }
+
+    // F-005 R1/R8/R9 + ADR-014: guarda estática do contrato de UI observável em
+    // CAP-20261121-01. Não substitui teste de GUI; impede regressão silenciosa
+    // do filtro único, do comando `Open...`, do registro único e do título/relayout.
+    void testF005UiSingleOpenCommandStaticGuard() {
+        const QString root = repoRootForSourceGuard();
+        QVERIFY2(!root.isEmpty(), "repositório F-005 não localizado para guarda de UI");
+        QFile source(root + "/src/ui/main_window.cpp");
+        QVERIFY2(source.open(QIODevice::ReadOnly), qPrintable(source.errorString()));
+        const QString code = QString::fromUtf8(source.readAll());
+
+        QVERIFY2(code.count(QStringLiteral("All supported documents (*.pdf; *.pdpdla; *.ap; *.art)")) == 1,
+                 "filtro R1 deve existir exatamente uma vez");
+        QVERIFY(code.contains(QStringLiteral("addAction(QStringLiteral(\"Open...\"))")));
+        QVERIFY(code.contains(QStringLiteral("addTool(\"Open...\"")));
+        QVERIFY(!code.contains(QStringLiteral("Open PDF...")));
+        QVERIFY(!code.contains(QStringLiteral("Open .artplus...")));
+        QVERIFY(!code.contains(QStringLiteral("m_openAct->setShortcut")));
+        QVERIFY(!code.contains(QStringLiteral("QFileDialog::DontUseNativeDialog")));
+        QVERIFY2(code.count(QStringLiteral("FileDispatcher::registerBuiltinHandlers(m_dispatcher)")) == 1,
+                 "registro R3 deve ocorrer exatamente uma vez na inicialização");
+        QVERIFY(code.contains(QStringLiteral("\" \u2013 ArtPlus\"")));
+        QVERIFY(code.contains(QStringLiteral("visibilityChanged")));
+        QVERIFY(code.contains(QStringLiteral("topLevelChanged")));
+        QVERIFY(code.contains(QStringLiteral("&ArtPlusMainWindow::relayoutViewport")));
     }
 };
 

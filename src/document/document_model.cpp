@@ -19,8 +19,17 @@ void Document::clear() {
     m_objects.clear();
     m_selection.clear();
     m_filePath.clear();
+    m_title.clear();
     m_modified = false;
     m_metadata = QJsonObject();
+}
+
+void Document::setTitle(const QString& title) {
+    m_title = title;
+}
+
+const QString& Document::title() const {
+    return m_title;
 }
 
 uint32_t Page::nextId = 1;

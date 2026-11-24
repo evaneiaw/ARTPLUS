@@ -13,6 +13,11 @@ set(CMAKE_AUTOUIC ON)
 # Source files
 
 set(DOCUMENT_SOURCES
+    src/document/open_error.h
+    src/document/file_dispatcher.cpp
+    src/document/file_dispatcher.h
+    src/document/artplus_open_handler.cpp
+    src/document/artplus_open_handler.h
     src/document/document_model.cpp
     src/document/document_model.h
     src/document/document_serializer.cpp
@@ -21,14 +26,17 @@ set(DOCUMENT_SOURCES
     src/document/undo.h
     src/document/document_save_manager.cpp
     src/document/document_save_manager.h
+    src/document/dynamic_marks_controller.cpp
+    src/document/dynamic_marks_controller.h
 )
 
 set(PDF_SOURCES
+    src/pdf/pdf_open_handler.cpp
+    src/pdf/pdf_open_handler.h
     src/pdf/pdf_types.cpp
     src/pdf/pdf_types.h
     src/pdf/pdf_lexer.cpp
     src/pdf/pdf_lexer.h
-    src/pdf/pdf_parser.h
     src/pdf/pdf_document.cpp
     src/pdf/pdf_document.h
     src/pdf/pdf_content.cpp
@@ -37,6 +45,8 @@ set(PDF_SOURCES
     src/pdf/pdf_importer.h
     src/pdf/pdf_exporter.cpp
     src/pdf/pdf_exporter.h
+    src/pdf/markset_pdf_loader.cpp
+    src/pdf/markset_pdf_loader.h
 )
 
 set(UI_SOURCES
@@ -51,6 +61,9 @@ set(PREPRESS_SOURCES
     src/prepress/cut_mark.h
     src/prepress/markset_processor.cpp
     src/prepress/markset_processor.h
+    src/prepress/markset_commands.cpp
+    src/prepress/markset_commands.h
+    src/prepress/markset_reporter.h
     src/prepress/trapping.cpp
     src/prepress/trapping.h
     src/prepress/step_repeat.cpp
@@ -63,6 +76,13 @@ set(PREPRESS_SOURCES
     src/prepress/imposition.h
     src/prepress/color_manipulation/color_manipulation_layer.cpp
     src/prepress/color_manipulation/color_manipulation_layer.h
+)
+
+set(UI_SOURCES
+    src/ui/main_window.cpp
+    src/ui/main_window.h
+    src/ui/document_marks_panel.cpp
+    src/ui/document_marks_panel.h
 )
 
 set(AUTOMATION_SOURCES

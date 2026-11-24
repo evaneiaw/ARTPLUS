@@ -15,7 +15,10 @@ Uso:
     python scripts/gate.py --feature F-001 --stage code
     python scripts/gate.py --feature F-001 --stage test
     python scripts/gate.py --feature F-001 --stage audit
-    python scripts/gate.py --build                 # build real em build_audit
+    python scripts/gate.py --build                 # build real (padrão: build/)
+    # ARTPLUS_GATE_BUILD_DIR=build_f005_gate python scripts/gate.py --build
+    #   ^ redireciona configure/build para árvore isolada, sem tocar no build/
+    #     compartilhado; o comportamento padrão permanece idêntico.
     python scripts/gate.py --feature F-001 --run-test
     python scripts/gate.py --feature F-001 --emit-token
     python scripts/gate.py --selftest
@@ -74,7 +77,7 @@ CMAKELISTS = os.path.join(REPO, "CMakeLists.txt")
 
 GATES_DIR = os.path.join(REPO, "docs", "testing", "gates")
 LOGS_DIR = os.path.join(GATES_DIR, "logs")
-BUILD_DIR_NAME = "build"
+BUILD_DIR_NAME = os.environ.get("ARTPLUS_GATE_BUILD_DIR") or "build"
 BUILD_DIR = os.path.join(REPO, BUILD_DIR_NAME)
 BUILD_JSON = os.path.join(GATES_DIR, "build.json")
 
@@ -797,8 +800,11 @@ def cmd_build():
     chunks = []
     configure_code = None
 
+    isolated = bool(os.environ.get("ARTPLUS_GATE_BUILD_DIR"))
     if not os.path.exists(os.path.join(BUILD_DIR, "CMakeCache.txt")):
         cfg = [cmake, "--preset", "mingw-msvcrt"]
+        if isolated:
+            cfg += ["-B", BUILD_DIR]
         print("[build] configure:", " ".join(cfg))
         configure_code, cfg_out = _run_capture(cfg, timeout=900)
         chunks.append(("CONFIGURE", cfg, configure_code, cfg_out))
@@ -810,7 +816,8 @@ def cmd_build():
     else:
         print(f"[build] configure ignorado (cache existente em {BUILD_DIR_NAME}/CMakeCache.txt)")
 
-    cmd = [cmake, "--build", "--preset", "release-mingw"]
+    cmd = [cmake, "--build", BUILD_DIR] if isolated else \
+          [cmake, "--build", "--preset", "release-mingw"]
     print("[build] executando:", " ".join(cmd))
     code, out = _run_capture(cmd, timeout=3600)
     chunks.append(("BUILD", cmd, code, out))
