@@ -1,6 +1,6 @@
 # STATUS — estado do projeto ArtPlus
 
-Atualizado: 2026-11-22 14:00 · Supervisor: `orquestrador`
+Atualizado: 2026-11-23 20:20 · Supervisor: `orquestrador` · Cobertura derivada de `python scripts/gate.py --inventory` (F-001 bloqueado por BLO-007; demais estados em `docs/reverse-engineering/INVENTORY.md`).
 
 ## Referência de versão
 
@@ -30,9 +30,9 @@ O escopo ativo F-008 foi avançado pelo pipeline:
 
 ## Cobertura de funcionalidades
 
-- **auditado**: F-001, F-002, F-003, F-005 (laudos aprovados com ressalvas).
+- **auditado**: F-002, F-003, F-005 (laudos aprovados com ressalvas).
 - **fora-do-escopo-v24**: F-004 (Selection Mark ausente na v24.03.10017).
-- **em implementação/testes**: F-008 (Color Management / ICC) — evidência/spec/ADR/implementação OK.
+- **implementado**: F-001 (BLO-007 — build global concorrente reescreveu `build.json` com `exit_code=2`, invalidando laudo aprovado; aguardando estabilização).
 - **bloqueado**: F-006 (BLO-005), F-007 (BLO-003).
 
 Detalhe em `docs/reverse-engineering/INVENTORY.md`, `docs/agents/CHECKPOINT.md` e `FEATURE_MATRIX.csv`.

@@ -1,8 +1,8 @@
 ## Bearer Bar Mark
 
-- **Captura:** `CAP-20261119-02`
-- **Versão:** 24.03.10017 (App v240 — `C:\Esko\bg_prog_artpro+_v240\ArtPro+.app\Contents\Windows\ArtPro+.exe`)
-- **Caminho na UI:** painel `Marks` → botão `+` → item **`Add Bearer Bar Mark`**.
+- **Captura:** `CAP-20261119-02` — **histórico (v25.03.116)**, fora do fluxo ativo (registro mantido por rastreabilidade, não é especificação da v24).
+- **Versão:** 24.03.10017 (App v240 — `C:\Esko\bg_prog_artpro+_v240\ArtPro+.app\Contents\Windows\ArtPro+.exe`, sha256 do executável `ArtPro+.exe`: `9D33166126305F25C50349BB881F7D9ACDC996F3C0C9181D0BE61295D70B0F03`)
+- **Caminho na UI:** painel `Marks` → botão `+` → item **`Add Bearer Bar Mark`** (observado na captura histórica v25 `CAP-20261119-02`; não re-executado em v24 nesta sessão).
   - Rótulo literal do item de menu: `Add Bearer Bar Mark` (ver `crop-marks-menu.png`).
   - Itens irmãos no mesmo menu (observados na captura da F-001): `Add Cut Mark`, `Add Repeat for Grid Mark`, `Add Dimensions Mark`, `Add External File Mark`, `Add Position Mark`, `Add Input File Mark`.
 - **Entrada:** `tools/reference_capture/F-003/input/test_vector.pdf`
@@ -10,6 +10,17 @@
   - SHA-256 do input: `ADFD91B4E95BCE3708DB37055885C355880068EE53A1472AB1DC82E0820640D7`
   - É o mesmo arquivo usado na `CAP-20261119-01` (F-001, hash idêntico): Media Box **210,00 x 297,00 mm**, perfil **ISO Coated v2 300% (ECI)**, separações Cyan/Magenta/Yellow/Black + `PANTONE 485 C`.
   - `input/test_vector.pdf` não foi alterado; `output/` ficou vazio.
+
+### Captura v24 (2026-11-23)
+
+- versao_ref: 24.03.10017
+- sha256 executável v240 (`ArtPro+.exe`): `9D33166126305F25C50349BB881F7D9ACDC996F3C0C9181D0BE61295D70B0F03`
+- fluxo capturado nesta sessão: abertura do aplicativo (diálogo de licença apresentado, fechado com **Continue**) e abertura do PDF `test_vector.pdf` na ArtPro+ v24.03.10017.
+- **Não houve criação da Bearer Bar Mark nesta sessão v24:** o fluxo de criação (Marks → + → Add Bearer Bar Mark) não foi executado. **`CAP-20261123-04` (criação da Bearer Bar) não existe**; registrar como lacuna/bloqueio comportamental.
+- CAP-20261123-* existentes (cópia em `tools/reference_capture/F-003/shots/` e `rag/evidence/F-003/behavior/`):
+  - `CAP-20261123-01-initial-with-license.png` — tela inicial com diálogo de licença aberto
+  - `CAP-20261123-02-after-continue.png` — após clique em Continue (diálogo de licença fechado)
+  - `CAP-20261123-03-open-pdf.png` — `test_vector.pdf` aberto na ArtPro+ v24.03.10017
 
 ### Criação (sem diálogo modal)
 1. `Marks` → `+` → `Add Bearer Bar Mark`.
@@ -75,3 +86,10 @@ Medições de pixel na tela (zoom 97,52%), obtidas pelos scripts `scan_red.ps1` 
 - `probe-corner-tr.png` — sondagem do canto superior-direito
 - `attempt-rightclick-pie.png` — menu radial/pie do botão direito (sem propriedades)
 - `attempt-view-menu-inspector.png` — menu `View` inspecionado (sem item útil de inspetor)
+
+### Capturas v24 (2026-11-23)
+`tools/reference_capture/F-003/shots/CAP-20261123-*.png` (copiadas também para `rag/evidence/F-003/behavior/`):
+
+- `CAP-20261123-01-initial-with-license.png` — tela inicial com diálogo de licença aberto
+- `CAP-20261123-02-after-continue.png` — após clique em Continue (diálogo de licença fechado)
+- `CAP-20261123-03-open-pdf.png` — `test_vector.pdf` aberto na ArtPro+ v24.03.10017

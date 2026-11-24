@@ -84,13 +84,17 @@
     "rag/evidence/F-003/ghidra/DocumentMarks__identity.md"
   ],
   "comportamental": [
-    "CAP-20261119-02"
+    "CAP-20261119-02",
+    "CAP-20261123-01",
+    "CAP-20261123-02",
+    "CAP-20261123-03"
   ],
   "bloqueios": [
     "deslocamento v25 -> v240: 0x180170C20 -> NAO CONFIRMADO (cai em FUN_180170540, sem equivalente provado)",
     "desvio de layout v25 -> v240 (classe legada BearerBar): os campos que a spec descreve ficam em +0x750/+0x758/+0x768/+0x778/+0x780 na v240; o ctor legado 0x18001C270 grava 14173,228346456694 mp (= 5,000 mm) em +0x758",
     "desvio de layout v25 -> v240 (classe PDFPlusBearerBar): os campos ficam em +0x758/+0x768/+0x770/+0x778/+0x7f8 e o objeto e alocado com 0x858 bytes (fabricante 0x1801652B0), nao com os 0x790/0x788 que a spec cita",
     "R5 invertida na v240: 0x18012E950 DocumentMarks::PDFPlusBearerBar::UpdateSizeReference zera SizeReference 1..4 quando Direction == 0 e 5..8 quando Direction == 1 - o inverso do que a R5 da spec afirma; a spec nao foi alterada nesta passada",
-    "GHIDRA-DocumentMarks-0x180170C20 sem equivalente confirmado na v240: o endereco cai em FUN_180170540 e nenhuma funcao de parser de tamanho do PDF+ foi provada; evidencia gravada com confianca media"
+    "GHIDRA-DocumentMarks-0x180170C20 sem equivalente confirmado na v240: o endereco cai em FUN_180170540 e nenhuma funcao de parser de tamanho do PDF+ foi provada; evidencia gravada com confianca media",
+    "fluxo de criação da Bearer Bar Mark NÃO capturado em v24 (CAP-20261123-04 inexistente): sessão v24 de 2026-11-23 capturou apenas abertura do aplicativo e do PDF (CAP-20261123-01/02/03). CAP-20261119-02 mantido como histórico (v25.03.116), não como especificação v24."
   ]
 }
