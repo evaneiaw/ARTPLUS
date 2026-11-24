@@ -9,6 +9,7 @@ e **não é redistribuída** até resolução comprovada.
 | BLO-005 | F-006 (Save Document) | Build/Testes | build quebrado; criptografia não implementada; laudo reprovado | `SaveDocumentTests` (91 asserções), `docs/audit/F-006-audit.md` | corrigir build (ver BLO-006) e fechar `TODO(F-006)` ou reduzir escopo |
 | BLO-006 | GLOBAL (build) | Build | **RESOLVIDO em 2026-11-21** — o build compila e linka 17 alvos (Release/MSVCRT), inclusive em clone limpo do commit `4b174c3`; ctest 11/11. Evidência: `docs/testing/gates/CLEAN_CLONE_BUILD.md`, `docs/testing/gates/build.json`, `docs/testing/gates/ctest-full.xml` | `build_audit` + logs em `docs/testing/gates/logs/` | nenhum — mantido apenas como histórico |
 
+
 ## Premissas refutadas (2026-11-21)
 
 | Premissa | Status | Evidência |
