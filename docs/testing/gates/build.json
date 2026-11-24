@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-11-22T17:58:21-03:00",
+  "timestamp": "2026-11-23T21:24:28-03:00",
   "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\cmake.exe --build --preset release-mingw",
   "exit_code": 0,
-  "log_path": "docs/testing/gates/logs/build-20261122-175714-290.log",
-  "log_sha256": "DCDC59FBBFF4A552CDFBFEE04112BAAB27EDF96357D84AFB08CB61E9BF3B66FA",
+  "log_path": "docs/testing/gates/logs/build-20261123-211830-778.log",
+  "log_sha256": "609C62CB8578082E2B370A4A875D4FA15E7677736301E2E404F674C2BC79DCB9",
   "build_dir": "build",
   "configured": false,
   "configure_exit_code": null

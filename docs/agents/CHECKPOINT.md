@@ -85,4 +85,21 @@ checkpoint_2026-11-23_F003_update:
   - STATUS.md: F-003 listado como auditado
   - FEATURE_MATRIX.csv: F-003 = auditado
   - CHECKPOINT.md: atualizado
-  - proxima_acao: git add/commit/push origin master (conjunto coerente F-003, sem build/dossiers/ghidra_projects) via testes
+  - proxima_acao: commit local SHA `0e8d843` concluído (9 arquivos). PUSH BLOQUEADO: repositório sem remote `origin` (`git remote -v` vazio). Necessário configurar `git remote add origin <URL-artplus-phase3>` e `git push origin master` — delegar ao orquestrador (dono de github-workflow/remotos).
+
+checkpoint_2026-11-23_F004_auto:
+  - tarefa: /auto escopo F-004 (Selection Mark / PDFObjectActions.dll) — fora-do-escopo-v24, nao implementar no clone
+  - gate_zero:
+      check_version_strict: APROVADO (0 tokens proibidos em arquivos ativos; 2384 ocorrencias historicas preservadas)
+      gate_inventory: GATE 0 ok; F-004 aprovado como fora-do-escopo-v24 (ausencia da linha [GATE 7 inventario] REPROVADO = inv_ok=True para fora-do-escopo-v24)
+      gate_individuais: evidence=0, spec=0, adr=0, code=1 (apenas 'arquivo da spec ausente: selection_mark.cpp/.h' = ausencia correta), test=1 ('nenhum teste cita F-004' = ausencia correta; F-004.test.json deletado), audit=1 (derivado dos anteriores)
+      nota: code/test/audit REPROVADO é esperado e CORRETO para fora-do-escopo-v24; nao indica implementacao ausente, sim ausencia comprovada
+  - limpeza_residuos:
+      implementacao (ses_df5e352beffeYzwl43asZdf29A): removeu comentarios '// F-004: Selection Mark' de src/ui/main_window.cpp:876 e main_window.h:200-201; grep confirmou vazio; build ArtPlus [100%] Built target ArtPlus (verde)
+      testes (ses_df5e352bfffe10KDsgTqOJIpL7): removeu docs/testing/gates/F-004.test.json, F-004.xml, tests/unit/test_selection_mark.cpp; confirmou ausencia de todos
+  - build: docs/testing/gates/build.json regenerado via python scripts/gate.py --build com exit_code=0 (log build-20261123-211830-778.log, sha256 609C62CB...)
+  - comportamento: CAP-20261121-02 = NEGATIVO (UI v24: nao existe menu 'Marks', 'Selection Mark' nem Ctrl+Shift+S que e 'Save As'); nenhuma string 'SelectionMark'/'Selection Mark' no PDFObjectActions.dll v240 (busca exata em 37006 strings)
+  - estado_comprovado: arquitetado | estado_declarado: fora-do-escopo-v24 -> COERENTE (gate inventario aprovado)
+  - versao_ref: 24.03.10017 (binario PDFObjectActions.dll SHA-256 8F6A23C1533E45AF657D91E62C18379AF3FE5B59C947C04A068A42E43573184D)
+  - ultima_etapa_concluida: F-004 aprovado pelo gate inventario como fora-do-escopo-v24; nenhum artefato de codigo/teste restante
+  - proxima_acao: despachar testes para `python scripts/dossier.py --module PDFObjectActions`; depois git add/commit/push origin master (conjunto F-004, sem build/dossiers/ghidra_projects)

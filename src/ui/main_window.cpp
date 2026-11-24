@@ -1,4 +1,5 @@
 #include "main_window.h"
+#include "../document/open_error.h"
 #include "../pdf/pdf_document.h"
 #include "../pdf/pdf_importer.h"
 #include "../pdf/pdf_exporter.h"
@@ -20,6 +21,8 @@
 #include <QStyleOptionGraphicsItem>
 #include <QGraphicsPixmapItem>
 #include <QGraphicsRectItem>
+#include <QGraphicsSimpleTextItem>
+#include <QFileInfo>
 #include <QFontMetrics>
 #include <QLabel>
 #include <QFormLayout>
@@ -161,6 +164,11 @@ void ArtPlusScene::setCurrentPage(PageId id) {
     refresh();
 }
 
+void ArtPlusScene::setPageBoxOverlay(const QString& text) {
+    m_pageBoxOverlay = text;
+    refresh(); // refresh() reconstrói a cena e reaplica o overlay persistido
+}
+
 void ArtPlusScene::refresh() {
     clear();
     if (!m_doc) return;
@@ -180,6 +188,18 @@ void ArtPlusScene::refresh() {
             // Page background (white paper)
             addRect(pageRect, QPen(Qt::black, 1), QBrush(Qt::white));
         }
+    }
+
+    // F-005 R8: overlay da Media Box acima da página. O texto é montado pela UI
+    // (pt → mm, vírgula decimal) e reaplicado a cada refresh().
+    if (page && !m_pageBoxOverlay.isEmpty()) {
+        auto* overlay = new QGraphicsSimpleTextItem(m_pageBoxOverlay);
+        QFont font;
+        font.setPointSizeF(11.0);
+        overlay->setFont(font);
+        overlay->setPos(QPointF(0, -28));
+        overlay->setZValue(10);
+        addItem(overlay);
     }
 
     // Only render objects that belong to the current page's layers
@@ -608,7 +628,10 @@ void ArtPlusView::zoomAt(const QPoint& pos, double factor) {
 
 // ================================================================== window
 ArtPlusMainWindow::ArtPlusMainWindow(QWidget* parent) : QMainWindow(parent) {
-    setWindowTitle("ArtPlus");
+    // ADR-014 R3 / GHIDRA-Document-0x1800A1230: registro único na inicialização,
+    // nunca dentro de openDocumentPath().
+    FileDispatcher::registerBuiltinHandlers(m_dispatcher);
+    setWindowTitle(QStringLiteral("ArtPlus"));
     resize(1400, 900);
     setupUi();
     setupMenusAndToolbars();
@@ -694,6 +717,42 @@ void ArtPlusMainWindow::setupUi() {
     connect(m_dynamicMarksList, &QListWidget::itemSelectionChanged,
             this, &ArtPlusMainWindow::refreshInspector);
 
+    // ── F-002: Document > Marks panel (dock widget) ────────────────────────
+    // Painel com engrenagem ▾ (Load/Save/Delete Mark Set, Update, Create, Add)
+    // e + ▾ (tipos de marca), conforme CAP-20261121-03.
+    m_documentMarksDock = new QDockWidget("Marks", this);
+    m_documentMarksDock->setObjectName("DocumentMarksDock");
+    m_documentMarksDock->setAllowedAreas(Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea | Qt::TopDockWidgetArea | Qt::BottomDockWidgetArea);
+    m_documentMarksPanel = new UI::DocumentMarksPanel(&m_document, &m_history, this);
+    m_documentMarksDock->setWidget(m_documentMarksPanel);
+    addDockWidget(Qt::TopDockWidgetArea, m_documentMarksDock);
+
+    // Conecta sinais do painel
+    connect(m_documentMarksPanel, &UI::DocumentMarksPanel::markSetApplied,
+            this, [this](const std::string& path) {
+                m_scene->refresh();
+                refreshDynamicMarksDock();
+                m_statusBar->showMessage(QString("Mark set applied: %1").arg(QString::fromStdString(path)));
+            });
+    connect(m_documentMarksPanel, &UI::DocumentMarksPanel::errorOccurred,
+            this, [this](const QString& msg) {
+                m_statusBar->showMessage(msg);
+            });
+
+    // F-005 R9: qualquer mudança de visibilidade/estado dos docks recalcula a viewport.
+    auto wireRelayout = [this](QDockWidget* dock) {
+        if (!dock) return;
+        connect(dock, &QDockWidget::visibilityChanged,
+                this, &ArtPlusMainWindow::relayoutViewport);
+        connect(dock, &QDockWidget::topLevelChanged,
+                this, &ArtPlusMainWindow::relayoutViewport);
+    };
+    wireRelayout(m_layersDock);
+    wireRelayout(m_objectsDock);
+    wireRelayout(m_dynamicMarksDock);
+    wireRelayout(m_inspectorDock);
+    wireRelayout(m_documentMarksDock);
+
     refreshDynamicMarksDock();
 }
 
@@ -701,12 +760,11 @@ void ArtPlusMainWindow::setupMenusAndToolbars() {
     // File menu
     QMenu* fileMenu = menuBar()->addMenu("&File");
 
-    QAction* openPdfAct = fileMenu->addAction("&Open PDF...");
-    openPdfAct->setShortcut(QKeySequence::Open);
-    connect(openPdfAct, &QAction::triggered, this, &ArtPlusMainWindow::openPdf);
-
-    QAction* openAct = fileMenu->addAction("Open .&artplus...");
-    connect(openAct, &QAction::triggered, this, &ArtPlusMainWindow::openArtPlus);
+    // ADR-014 R1 / CAP-20261121-01: um único `Open...`, sem acelerador
+    // (F-005 §3/§8.1 registram o acelerador como não medido). Os antigos
+    // comandos separados por formato deixam de existir como ações de menu/barra.
+    m_openAct = fileMenu->addAction(QStringLiteral("Open..."));
+    connect(m_openAct, &QAction::triggered, this, &ArtPlusMainWindow::openDocument);
 
     fileMenu->addSeparator();
     QAction* saveAct = fileMenu->addAction("&Save .artplus");
@@ -790,8 +848,7 @@ void ArtPlusMainWindow::setupMenusAndToolbars() {
         return act;
     };
 
-    addTool("Open PDF", "Open a PDF file and import its content", &ArtPlusMainWindow::openPdf);
-    addTool("Open .artplus", "Open an ArtPlus document", &ArtPlusMainWindow::openArtPlus);
+    addTool("Open...", "Open a supported document", &ArtPlusMainWindow::openDocument);
     addTool("Save", "Save as .artplus", &ArtPlusMainWindow::saveArtPlus);
     addTool("Export PDF", "Export the document to PDF", &ArtPlusMainWindow::exportPdf);
     toolbar->addSeparator();
@@ -816,8 +873,7 @@ void ArtPlusMainWindow::setupMenusAndToolbars() {
     addTool("Marks", "Production marks (crop, registration, crease)", &ArtPlusMainWindow::marks);
     addTool("Add Cut Mark", "Insert a cut mark (DynamicObject_PDFPlusCutMark)", &ArtPlusMainWindow::addCutMark);
     addTool("Add Bearer Bar Mark", "Insert a bearer bar mark (DynamicObject_PDFPlusBearerBar)", &ArtPlusMainWindow::addBearerBar);
-    // F-004: Selection Mark
-    
+
     // ── UI Skeleton: placeholders visuais de futuras marcas ───────────────
     m_regMarkAct = addTool("Registration Mark", "Registration Mark (placeholder — not implemented)", &ArtPlusMainWindow::marks);
     m_colorBarAct = addTool("Color Bar", "Color Bar (placeholder — not implemented)", &ArtPlusMainWindow::marks);
@@ -922,72 +978,69 @@ void ArtPlusMainWindow::viewPage(int index) {
     }
 }
 
-bool ArtPlusMainWindow::openPdfPath(const QString& path, QString* errorOut) {
-    PDF::PdfDocument pdf;
-    if (!pdf.open(path)) {
-        if (errorOut) *errorOut = QStringLiteral("The file could not be read as a PDF.");
+bool ArtPlusMainWindow::openDocumentPath(const QString& filePath, QString* errorOut) {
+    if (filePath.isEmpty()) {
+        if (errorOut) *errorOut = QStringLiteral("ERROR_FILE_NOT_FOUND | no file selected");
         return false;
     }
-    // Import into a local document: if the import fails, the document currently open
-    // stays untouched (PdfImporter::import only writes to its target after validating).
-    Document document;
-    PdfImportResult result = PdfImporter::import(pdf, document);
-    if (!result.ok) {
+
+    // ADR-014: o dispatcher decide o formato pelo MIME e devolve um resultado
+    // tipado. O documento corrente só é substituído em caso de sucesso.
+    OpenResult result = m_dispatcher.open(filePath);
+    if (result.error != OpenError::None || !result.document) {
+        const QString message = openErrorMessage(result.error);
         if (errorOut) {
-            *errorOut = result.error.isEmpty()
-                        ? QStringLiteral("The PDF could not be imported.")
-                        : result.error;
+            *errorOut = result.detail.isEmpty() ? message
+                                                : message + QStringLiteral(" | ") + result.detail;
         }
         return false;
     }
-    m_document = std::move(document);
-    m_originalPdfPath = path;
-    m_document.setFilePath(path);
+
+    m_document = std::move(*result.document);
+    m_originalPdfPath = FileDispatcher::mimeTypeForPath(filePath) == QStringLiteral("application/pdf")
+                        ? filePath : QString();
+    m_document.setFilePath(filePath);
     m_document.setModified(false);
     m_history.clear();
-    m_cutMarkManager.loadFromMetadata(); // documento novo: zero marcas
+    m_cutMarkManager.loadFromMetadata();  // documento novo: zero marcas
     m_bearerBarManager.loadFromMetadata(); // documento novo: zero marcas
-    // documento novo: zero selection mark
+
     rebuildScene();
     updateDocumentInfo();
-    updateModifiedIndicator(); // título sem `*` ao abrir
+
+    // R8: overlay da Media Box da primeira página (pt → mm na borda da UI).
+    QRectF mediaBoxPt;
+    if (!m_document.pageOrder().empty()) {
+        if (auto page = m_document.page(m_document.pageOrder().front())) {
+            mediaBoxPt = page->boxes().mediaBox;
+        }
+    }
+    updatePageBoxOverlay(mediaBoxPt);
+    relayoutViewport(); // R8/R9: zoomFit() + título
     return true;
 }
 
-void ArtPlusMainWindow::openPdf() {
-    QString path = QFileDialog::getOpenFileName(this, "Open PDF", QString(), "PDF Files (*.pdf)");
+void ArtPlusMainWindow::openDocument() {
+    // ADR-014 R1 / CAP-20261121-01: filtro literal do original como primeiro e
+    // default; `.artplus` é exceção declarada do clone, acrescentada com `;;`.
+    // `DontUseNativeDialog` NÃO é usado: o diálogo permanece o nativo do sistema.
+    const QString filters =
+        QStringLiteral("All supported documents (*.pdf; *.pdpdla; *.ap; *.art)")
+        + QStringLiteral(";;ArtPlus documents (*.artplus)");
+    const QString path = QFileDialog::getOpenFileName(this,
+                                                      QStringLiteral("Open File"),
+                                                      QString(), filters);
     if (path.isEmpty()) return;
+
     QString error;
-    if (!openPdfPath(path, &error)) {
-        // D-01 (docs/audit/F-005-audit-20261121b.md): failure must be reported, never
-        // masked by the success message.
-        QMessageBox::warning(this, "Open failed",
-                             QStringLiteral("Could not import PDF: %1\n%2").arg(path, error));
+    if (!openDocumentPath(path, &error)) {
+        // D-01: falha nunca é mascarada por mensagem de sucesso.
+        QMessageBox::warning(this, QStringLiteral("Open failed"),
+                             QStringLiteral("Could not open: %1\n%2").arg(path, error));
         m_statusBar->showMessage(QStringLiteral("Open failed: %1").arg(error));
         return;
     }
-    m_statusBar->showMessage(QString("Imported %1").arg(QFileInfo(path).fileName()));
-}
-
-void ArtPlusMainWindow::openArtPlus() {
-    QString path = QFileDialog::getOpenFileName(this, "Open .artplus", QString(), "ArtPlus Files (*.artplus *.json)");
-    if (path.isEmpty()) return;
-
-    Document doc;
-    if (!DocumentSerializer::load(path, doc)) {
-        QMessageBox::critical(this, "Open failed", "Could not load: " + path);
-        return;
-    }
-    m_document = doc;
-    m_originalPdfPath.clear();
-    m_history.clear();
-    m_cutMarkManager.loadFromMetadata(); // restaura metadata.DocumentMarks (ADR-001 D4)
-    m_bearerBarManager.loadFromMetadata(); // restaura metadata.DocumentMarks
-    // restaura metadata.DocumentMarks (ADR-001 D4)
-    rebuildScene();
-    updateDocumentInfo();
-    updateModifiedIndicator(); // título sem `*` ao abrir
-    m_statusBar->showMessage("Opened " + QFileInfo(path).fileName());
+    m_statusBar->showMessage(QStringLiteral("Opened %1").arg(QFileInfo(path).fileName()));
 }
 
 void ArtPlusMainWindow::saveArtPlus() {
@@ -1031,13 +1084,36 @@ void ArtPlusMainWindow::exportPdf() {
     m_statusBar->showMessage("Exported " + QFileInfo(path).fileName());
 }
 
-void ArtPlusMainWindow::zoomIn() { m_view->scale(1.25, 1.25); m_statusBar->showMessage(QString("Zoom %1%").arg((int)(m_view->transform().m11() * 100))); }
-void ArtPlusMainWindow::zoomOut() { m_view->scale(0.8, 0.8); m_statusBar->showMessage(QString("Zoom %1%").arg((int)(m_view->transform().m11() * 100))); }
+namespace {
+// CAP-20261121-01: zoom e caixas usam vírgula decimal (96,45% / 210,00 mm).
+// QString::number com 'f' usa o locale C; a substituição é determinística.
+QString formatCommaDecimal(double value, int decimals) {
+    return QString::number(value, 'f', decimals).replace(QLatin1Char('.'), QLatin1Char(','));
+}
+} // namespace
+
+void ArtPlusMainWindow::zoomIn() {
+    m_view->scale(1.25, 1.25);
+    m_statusBar->showMessage(QStringLiteral("Zoom %1%").arg(formatCommaDecimal(m_view->transform().m11() * 100.0, 2)));
+    updateWindowTitle();
+}
+void ArtPlusMainWindow::zoomOut() {
+    m_view->scale(0.8, 0.8);
+    m_statusBar->showMessage(QStringLiteral("Zoom %1%").arg(formatCommaDecimal(m_view->transform().m11() * 100.0, 2)));
+    updateWindowTitle();
+}
 void ArtPlusMainWindow::zoomFit() {
     if (!m_scene->hasItems()) return;
     QRectF rect = m_scene->itemsBoundingRect();
     m_view->fitInView(rect, Qt::KeepAspectRatio);
-    m_statusBar->showMessage(QString("Zoom %1%").arg((int)(m_view->transform().m11() * 100)));
+    m_statusBar->showMessage(QStringLiteral("Zoom %1%").arg(formatCommaDecimal(m_view->transform().m11() * 100.0, 2)));
+    updateWindowTitle();
+}
+
+void ArtPlusMainWindow::relayoutViewport() {
+    // F-005 R9 / CAP-20261121-01 passo 12: abrir/fechar painel recalcula o zoom.
+    zoomFit();
+    updateWindowTitle();
 }
 
 void ArtPlusMainWindow::undoAction() {
@@ -1708,15 +1784,40 @@ void ArtPlusMainWindow::onSelectionChanged(const std::vector<ObjectId>& ids) {
     if (!ids.empty()) m_statusBar->showMessage(QString("%1 object(s) selected").arg(ids.size()));
 }
 
+void ArtPlusMainWindow::updateWindowTitle() const {
+    // ADR-014 R8 / CAP-20261121-01: `<arquivo> @ <zoom> – ArtPlus`.
+    QString title;
+    if (!m_document.title().isEmpty()) {
+        const double zoomPercent = m_view ? m_view->transform().m11() * 100.0 : 100.0;
+        title = m_document.title() + QStringLiteral(" @ ")
+                + formatCommaDecimal(zoomPercent, 2) + QStringLiteral("%")
+                + QStringLiteral(" – ArtPlus");
+    } else {
+        title = QStringLiteral("ArtPlus");
+    }
+    if (m_document.modified()) title += QStringLiteral(" *");
+    // O contrato da ADR declara o observador `const`; o setter de QWidget não é.
+    const_cast<ArtPlusMainWindow*>(this)->setWindowTitle(title);
+}
+
+void ArtPlusMainWindow::updatePageBoxOverlay(const QRectF& mediaBoxPt) {
+    if (mediaBoxPt.width() <= 0 || mediaBoxPt.height() <= 0) {
+        m_scene->setPageBoxOverlay(QString());
+        return;
+    }
+    const auto toMm = [](double pt) {
+        return formatCommaDecimal(pt * 25.4 / 72.0, 2); // mm = pt × 25,4 / 72
+    };
+    m_scene->setPageBoxOverlay(QStringLiteral("Media Box  %1 x %2 mm")
+                               .arg(toMm(mediaBoxPt.width()), toMm(mediaBoxPt.height())));
+}
+
 void ArtPlusMainWindow::updateModifiedIndicator() {
     // Spec R1/§3: o título ganha `*` enquanto o documento está alterado.
-    // Reconstruído a cada chamada, então o `*` nunca duplica e some no save
-    // (saveArtPlus chama setModified(false) + updateModifiedIndicator()).
-    const QString baseTitle = QStringLiteral("ArtPlus");
-    setWindowTitle(m_document.modified() ? baseTitle + QStringLiteral(" *") : baseTitle);
-
+    // Fonte única do título: updateWindowTitle(), chamada também no relayout.
+    updateWindowTitle();
     if (m_document.modified()) {
-        m_statusBar->showMessage("Modified");
+        m_statusBar->showMessage(QStringLiteral("Modified"));
     }
 }
 
@@ -1764,6 +1865,7 @@ void ArtPlusMainWindow::onPageChanged(int index) {
     // update layers dock to reflect the current page
     m_layersList->clear();
     if (auto page = m_document.page(m_pageIds[index])) {
+        updatePageBoxOverlay(page->boxes().mediaBox); // R8: overlay acompanha a página
         for (LayerId lid : page->layers()) {
             auto layer = m_document.layer(lid);
             if (layer) m_layersList->addItem(layer->name() + (layer->visible() ? "" : " (hidden)"));

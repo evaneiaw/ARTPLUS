@@ -40,8 +40,9 @@ funcionalidades **não existentes na v24**: **`fora-do-escopo-v24`** (não imple
 
 ## Cobertura por estado comprovado
 
-- **auditado**: 3 (F-002, F-003, F-004 — laudos APROVADOS/COM RESSALVAS na data do laudo, revalidação pendente em ciclo próprio)
+- **auditado**: 2 (F-002, F-003 — laudos APROVADOS/COM RESSALVAS na data do laudo, revalidação pendente em ciclo próprio)
 - **testado**: 2 (F-005 REPROVADO, F-008 — build + testes verdes, laudo stale, requer re-auditoria)
+- **fora-do-escopo-v24**: 1 (F-004 — CAP-20261121-02 negativo; UI Selection Mark inexistente na v24.03.10017; não implementar no clone)
 - **implementado**: 0
 - **arquitetado**: 0
 - **spec**: 0

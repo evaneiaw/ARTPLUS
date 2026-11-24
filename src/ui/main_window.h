@@ -1,9 +1,11 @@
 #pragma once
 
 #include "../document/document_model.h"
+#include "../document/file_dispatcher.h"
 #include "../document/undo.h"
 #include "../prepress/cut_mark.h"
 #include "../prepress/bearer_bar.h"
+#include "../ui/document_marks_panel.h"
 
 #include <QMainWindow>
 #include <QGraphicsScene>
@@ -44,6 +46,8 @@ public:
     bool hasItems() const { return !QGraphicsScene::items().isEmpty(); }
     void setCurrentPage(PageId id);
     PageId currentPage() const { return m_currentPage; }
+    // F-005 R8: overlay "Media Box W x H mm" (conversão pt → mm na borda da UI).
+    void setPageBoxOverlay(const QString& text);
 
     // Selection helpers
     std::vector<ObjectId> selectedObjectIds() const;
@@ -62,6 +66,7 @@ protected:
 private:
     Document* m_doc = nullptr;
     PageId m_currentPage = 0;
+    QString m_pageBoxOverlay;
     UndoStack* m_undoStack = nullptr;
     bool m_dragging = false;
     QPointF m_dragStart;
@@ -149,15 +154,15 @@ class ArtPlusMainWindow : public QMainWindow {
 public:
     explicit ArtPlusMainWindow(QWidget* parent = nullptr);
     ~ArtPlusMainWindow() override = default;
-    // Opens `path` into the current document. On failure returns false, fills `errorOut`
-    // (when provided) with the available reason, and leaves the previous document intact.
-    bool openPdfPath(const QString& path, QString* errorOut = nullptr);
+    // F-005 R1/R2: ponto único de abertura — o --open de main.cpp deixa de presumir PDF.
+    // On failure returns false, fills `errorOut` with the symbolic message and leaves
+    // the previous document intact.
+    bool openDocumentPath(const QString& filePath, QString* errorOut = nullptr);
     void viewPage(int index); // 0-based; triggers onPageChanged via the combo
 
 private slots:
     // File operations
-    void openPdf();
-    void openArtPlus();
+    void openDocument();
     void saveArtPlus();
     void saveArtPlusAs();
     void exportPdf();
@@ -166,6 +171,8 @@ private slots:
     void zoomIn();
     void zoomOut();
     void zoomFit();
+    // F-005 R9: recalcula a viewport quando docks são exibidos/ocultados/flutuam.
+    void relayoutViewport();
 
     // Tool selection
     void selectTool();
@@ -190,9 +197,6 @@ private slots:
     void addCutMark();
     // F-003: `Marks > Add Bearer Bar Mark` — cria a marca dinâmica sem diálogo modal.
     void addBearerBar();
-    // F-004: `Marks > Selection Mark` / Ctrl+Shift+S — ativa seleção com handles no objeto corrente.
-    // F-004 foi removido do código (F-004 fora do escopo v24)
-
     // Action Lists (Module 17)
     void actionLists();
     void executeAction(const Action& action);
@@ -222,6 +226,8 @@ private:
     ArtPlusScene* m_scene = nullptr;
     ArtPlusView* m_view = nullptr;
     Document m_document;
+    // F-005 R3: o dispatcher pertence à janela; handlers registrados uma única vez.
+    FileDispatcher m_dispatcher;
     QString m_originalPdfPath;
     QDockWidget* m_layersDock = nullptr;
     QListWidget* m_layersList = nullptr;
@@ -244,14 +250,23 @@ private:
     QFormLayout* m_inspectorLayout = nullptr;
 
     // Toolbar placeholders (futuras marcas visuais)
+    QAction* m_openAct      = nullptr; // F-005 R1: único comando de abertura
     QAction* m_regMarkAct   = nullptr;
     QAction* m_colorBarAct  = nullptr;
     QAction* m_gradStripAct = nullptr;
     QComboBox* m_pageCombo = nullptr;
     std::vector<PageId> m_pageIds;
 
+    // F-002: Document > Marks panel (dock widget)
+    QDockWidget* m_documentMarksDock = nullptr;
+    UI::DocumentMarksPanel* m_documentMarksPanel = nullptr;
+
     // Action Lists recording state
     QVector<Action> m_recordedActions;
+
+    // F-005 R8: título `<arquivo> @ <zoom> – ArtPlus` e overlay em milímetros.
+    void updateWindowTitle() const;
+    void updatePageBoxOverlay(const QRectF& mediaBoxPt);
 
     void setupUi();
     void setupMenusAndToolbars();
