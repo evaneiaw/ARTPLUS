@@ -2,7 +2,8 @@
 
 > **Nota histórica.** Este relatório registra comandos e saídas de 2026-11-21. As URLs de
 > repositório que aparecem nos logs de `git push` são registro histórico daquela sessão e foram
-> redigidas; o repositório canônico atual é `https://github.com/evaneiaw/artplus`.
+> substituídas por `[endereço histórico removido]`; o repositório canônico atual é
+> `https://github.com/evaneiaw/artplus`.
 
 **Data:** 2026-11-21
 **Modo:** HALT ativo · **somente leitura e documentação** · nenhum commit, push, reset, clean,
@@ -478,7 +479,7 @@ Execução e resultado:
 
 ```
 git push origin master
-To <URL do repositório da época — redigida>
+To [endereço histórico removido]
    7d8fbab..706cbdf  master -> master
 ```
 
@@ -627,7 +628,7 @@ Verificações exigidas, todas feitas **antes** do push:
 
 ```
 git push origin master
-To <URL do repositório da época — redigida>
+To [endereço histórico removido]
    706cbdf..5aefbb7  master -> master
 ```
 

@@ -243,7 +243,7 @@ checkpoint_2026-11-23_F003_update:
   - STATUS.md: F-003 listado como auditado
   - FEATURE_MATRIX.csv: F-003 = auditado
   - CHECKPOINT.md: atualizado
-  - proxima_acao: commit local SHA `0e8d843` concluído (9 arquivos). PUSH BLOQUEADO: repositório sem remote `origin` (`git remote -v` vazio). Necessário configurar `git remote add origin <URL-do-repositório>` e `git push origin master` — delegar ao orquestrador (dono de github-workflow/remotos).
+  - proxima_acao: commit local SHA `0e8d843` concluído (9 arquivos). PUSH BLOQUEADO: repositório sem remote `origin` (`git remote -v` vazio). Necessário configurar `git remote add origin [endereço histórico removido]` e `git push origin master` — delegar ao orquestrador (dono de github-workflow/remotos).
 
 checkpoint_2026-11-23_F004_auto:
   - tarefa: /auto escopo F-004 (Selection Mark / PDFObjectActions.dll) — fora-do-escopo-v24, nao implementar no clone

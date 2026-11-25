@@ -1,8 +1,8 @@
 # Fase 3 — Núcleo PDF e Integração com o Modelo de Documento
 
 > **Nota histórica.** Este relatório registra o estado de 2026-11-17. O remote citado era o
-> repositório de trabalho da época (URL redigida); o repositório canônico atual é
-> `https://github.com/evaneiaw/artplus`.
+> repositório de trabalho da época (`[endereço histórico removido]`); o repositório canônico
+> atual é `https://github.com/evaneiaw/artplus`.
 
 **Status: concluída com limitações documentadas.**
 **Data: 2026-11-17**
@@ -125,7 +125,7 @@ Implementado em `src/pdf/`:
 
 **SHA publicado:** `7f6d7f9324028e8a0fdb082d73726f451bddabec` é o último publicado no remoto `origin/master`; este recorte (clipe/alpha/fixes) será commitado a seguir e empurrado para `master` via `origin`.
 
-**Remote:** `origin → <URL do repositório da época — redigida>` (público); o repositório `evaneiaw/artplus` **não foi tocado**.
+**Remote:** `origin → [endereço histórico removido]` (público); o repositório `evaneiaw/artplus` **não foi tocado**.
 
 **Comando de verificação:** `git rev-parse HEAD` → `master`; `git ls-remote origin master` após push.
 
