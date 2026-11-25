@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 18002d570
 nome: Nest
 assinatura: nesterror_type Nest(NestingSheetGenerator * this, Nesting * param_1, long param_2)
 parametros: 3
 retorno: nesterror_type
+confianca: media
+---
 
 ## Callers (xrefs de entrada)
 - 1800719e8 -> unknown (DATA)

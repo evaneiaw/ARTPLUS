@@ -2,27 +2,35 @@
 description: "Triagem estática e correlação de binários do ArtPro+ (PE, imports/exports, strings, RTTI, dependências entre módulos, diff de versões). Fornece o mapa de arquitetura e as evidências que o Ghidra aprofunda."
 mode: subagent
 color: "#7b61ff"
-maxSteps: 32
-permission:
-  edit:
-    "*": deny
-    "rag/evidence/**": allow
-    "rag/sources/**": allow
-    "docs/reverse-engineering/**": allow
-  write:
-    "*": deny
-    "rag/evidence/**": allow
-    "rag/sources/**": allow
-    "docs/reverse-engineering/**": allow
-  bash:
-    "*": allow
-  task:
-    "*": deny
-  webfetch: deny
-  external_directory:
-    "*": ask
-    "C:/Esko/**": allow
-    "C:\\Esko\\**": allow
+steps: 48
+permissions:
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "rag/evidence/*"
+    effect: allow
+  - action: edit
+    resource: "rag/sources/*"
+    effect: allow
+  - action: edit
+    resource: "docs/reverse-engineering/*"
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: allow
+  - action: subagent
+    resource: "*"
+    effect: deny
+  - action: webfetch
+    resource: "*"
+    effect: deny
+  - action: external_directory
+    resource: "*"
+    effect: ask
+  - action: external_directory
+    resource: "C:/Esko/*"
+    effect: allow
 ---
 
 # REA — triagem e mapa de binários
@@ -75,11 +83,27 @@ O MCP `rea` aponta para essa cópia; se a sessão ainda usar o processo antigo, 
 6. **Evidência**: `rag/evidence/F-###/rea/<modulo>.md` + JSON bruto de DIE em `rag/sources/`.
 7. **Relatório**: `docs/reverse-engineering/<Modulo>_TRIAGE.md` com: identidade, superfície funcional, dependências, alvos prioritários para o Ghidra (com endereço/nome quando conhecido) e confiança.
 
+## Fato, hipótese e desconhecido
+
+Toda entrega separa explicitamente os três níveis — nunca os misture no texto:
+
+| Nível | Como escrever | Exemplo |
+|---|---|---|
+| **Fato** | o que o arquivo/PE prova, com caminho/endereço/hash | "`DocumentMarks.dll` exporta `CreateTrimMark` em `0x18001A2C0`" |
+| **Hipótese** | inferência a partir do fato, marcada `> Hipótese:` e com o teste que a confirmaria | "> Hipótese: a função calcula geometria; confirmar com xrefs no Ghidra" |
+| **Desconhecido** | o que não foi medido, com a pergunta objetiva | "Desconhecido: valor default do offset — medir na GUI (comportamento)" |
+
+- Nome de classe RTTI, string de UI ou export **não** autoriza requisito de comportamento.
+- Análise estática nunca substitui evidência comportamental; quando a spec exigir comportamento,
+  a pendência é do `comportamento`, não sua.
+- Não invente requisito, campo, default ou mensagem. Se não está no binário medido, é desconhecido.
+
 ## Regras
 
 - Uma DLL de cada vez; lote só com `scan_binary.py`.
 - Evidência sempre com **hash SHA-256 do binário** e versão — sem isso o achado não é rastreável.
 - Não afirme comportamento por nome de string. "Existe a string X" não é "a função faz X".
+- Preserve o WIP de outras sessões: não reverta hunk alheio, não edite `src/`, `tests/`, specs.
 - Não edite `src/`, `tests/`, specs, roadmap.
 - Não lance subagentes.
 - Se o artefato for assinado/protegido, registre; não tente contornar proteção.

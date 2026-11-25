@@ -15,10 +15,11 @@ Pergunta única: **isto funciona de verdade e pode ser provado por quem não par
 2. **Evidência real** — `rag/evidence/F-###/manifest.json`: `sha256`, `versao_ref`, `binario`, `estatico`, `comportamental`. Arquivo citado que não existe = reprovação automática.
 3. **Código corresponde à spec** — leia `src/**` e confira cada regra numerada; regra sem implementação é lacuna.
 4. **Sem cópia quebrada** — trecho colado do binário que quebra build/manutenção é achado; registre.
-5. **Build limpo** — apague `build/`, configure e compile você mesmo.
+5. **Build limpo em árvore isolada** — configure e compile você mesmo, sem apagar o `build/` compartilhado.
 6. **Teste roda e cobre** — `ctest --preset unit-tests`, saída anexada; teste que não toca o `F-###` não conta.
 7. **Comportamento bate** — compare com `rag/evidence/F-###/behavior/` (valores, geometria, PDF). Divergência não explicada reprova.
 8. **Sem stub disfarçado** — `TODO` em caminho principal, retorno vazio, `catch(...)`, botão inerte.
+9. **Token medido agora** — `python scripts/gate.py --feature F-### --emit-token`; o laudo registra o valor desta sessão.
 
 ## Verificações objetivas
 
@@ -34,11 +35,24 @@ Hash do manifest tem que bater com o binário. Caminho que não existe = falha.
 
 ```powershell
 $cmake = 'C:\Users\Evanei\AppData\Local\Microsoft\WinGet\Packages\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\cmake-4.4.4-windows-x86_64\bin\cmake.exe'
-Remove-Item -Recurse -Force H:\Desktop\ArtPlus\build -ErrorAction SilentlyContinue
-& $cmake -S H:\Desktop\ArtPlus -B H:\Desktop\ArtPlus\build --preset mingw-msvcrt
-& $cmake --build H:\Desktop\ArtPlus\build --preset release-mingw
-& $cmake -E chdir H:\Desktop\ArtPlus ctest --preset unit-tests
+# árvore isolada por feature: nunca apague o build/ compartilhado
+$env:ARTPLUS_GATE_BUILD_DIR = 'build_audit_F-025'
+& $cmake -S H:\Desktop\ArtPlus -B H:\Desktop\ArtPlus\build_audit_F-025 --preset mingw-msvcrt
+& $cmake --build H:\Desktop\ArtPlus\build_audit_F-025
+& $cmake -E chdir H:\Desktop\ArtPlus ctest --test-dir build_audit_F-025 --output-on-failure
 ```
+
+Ou, preferencialmente, deixe o gate gravar o artefato:
+
+```powershell
+$env:ARTPLUS_GATE_BUILD_DIR = 'build_audit_F-025'
+python scripts/gate.py --build
+python scripts/gate.py --feature F-025 --run-test
+python scripts/gate.py --feature F-025 --emit-token
+```
+
+`Remove-Item -Recurse -Force build` em árvore compartilhada é proibido: invalida artefatos de gate
+de outras features e destrói trabalho de outra sessão.
 
 ## Rastreabilidade
 
@@ -81,6 +95,7 @@ Veredito: APROVADO | REPROVADO | APROVADO COM RESSALVAS
 - Aprovação exige comando reproduzível + saída colada. Sem isso, REPROVADO.
 - Seja específico: `src/prepress/marks.cpp:142`, não "o módulo de marcas".
 - Reauditoria gera `F-###-audit-2.md` e cita o que mudou.
+- Preserve o WIP de outras sessões: não apague `build/`, não rode `git checkout/reset/clean/stash`.
 - Não lance subagentes.
 
 ## Referências

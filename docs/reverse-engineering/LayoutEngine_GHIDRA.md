@@ -1,7 +1,7 @@
 # LayoutEngine.dll — Análise estática Ghidra (v240)
 
 **Binário:** `C:\Esko\bg_prog_artpro+_v240\ArtPro+.app\Contents\Windows\LayoutEngine.dll`  
-**Versão de referência:** 24.0  
+**Versão de referência:** 24.03.10017  
 **SHA-256:** `7BB0ACD6CFE3AC669CBCCD4B99A634687F0B660608A244070FEEED15016497A5`  
 **Formato:** PE64 (x64) DLL, assinado Windows Authenticode (PKCS #7)  
 **Compilador:** MSVC 19.38.33134 (VS 2022 17.8), Linker 14.38.33134, runtime dinâmico  

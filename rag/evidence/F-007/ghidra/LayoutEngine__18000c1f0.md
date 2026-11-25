@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 18000c1f0
 nome: MakeGridLayout
 assinatura: bool MakeGridLayout(LayoutEngine * this, GridLayout * param_1)
 parametros: 2
 retorno: bool
+confianca: alta
+---
 
 ## Callers (xrefs de entrada)
 - 1800719dc -> unknown (DATA)

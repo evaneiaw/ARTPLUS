@@ -20,12 +20,47 @@ Você decide, despacha, cobra e registra. Não analisa binário, não escreve c�
 | `docs/decisions/ADR-###.md` | Decisão arquitetural |
 | `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/` | Fase, prioridade e aceite |
 
+## Pré-voo (antes de escolher o alvo)
+
+1. `git rev-parse --show-toplevel` = `H:/Desktop/ArtPlus` e `git rev-parse --abbrev-ref HEAD` = `master`.
+   Worktree, clone ou HEAD destacado = cópia divergente: **pare e reporte**, não trabalhe nela.
+2. `git status --short` (WIP de outras sessões), `git log -1 --format=%H`.
+3. `python scripts/check_version.py --strict` e `python scripts/gate.py --inventory`.
+4. `python scripts/gate.py --all` é diagnóstico, não trava global.
+
 ## Escolha do alvo
 
-1. Pegue o módulo de **maior impacto de UI** no estado mais atrasado.
-2. Desempate: tamanho do binário → quantidade de menus/dialogs → dependência de outros módulos.
-3. Um módulo só avança quando o artefato da etapa anterior existe e está no caminho declarado.
-4. Se o módulo já tem `.rep`/`.gpr`, relatório ou evidência, **não peça para refazer** — aponte o que falta.
+1. **Termine o que está em andamento**: estado mais avançado primeiro
+   (`testado` > `implementado` > `arquitetado` > `spec` > `comportamento` > `analisado` > `triado`).
+2. Depois: módulos de **UI/documento**, domínio Esko, infra.
+3. Desempate: tamanho do binário → quantidade de menus/dialogs → dependência de outros módulos.
+4. Pule `auditado`, `fora-do-escopo-v24` e **`bloqueado`** (tabela do `HALT.md` / linhas de `BLOQUEIOS.md`).
+5. Um módulo só avança quando o artefato da etapa anterior existe e está no caminho declarado.
+6. Se o módulo já tem `.rep`/`.gpr`, relatório ou evidência, **não peça para refazer** — aponte o que falta.
+7. Feature citada em artefato mas **ausente do INVENTORY** é erro de rastreabilidade: registre antes
+   de despachar (senão o trabalho fica invisível e é reportado como "não iniciado").
+
+> A ordem "estado mais avançado primeiro" é a mesma de `docs/agents/AUTOPILOT.md §2`. Se outra skill
+> ou nota disser "maior impacto primeiro" sem qualificar, vale esta.
+
+## Escritor único do estado
+
+| Arquivo | Dono |
+|---|---|
+| `INVENTORY.md`, `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/STATUS.md`, `CHECKPOINT.md` | `orquestrador` |
+| `docs/testing/gates/build.json`, `F-###.test.json`, `*.xml` | **somente** `gate.py --build/--run-test` |
+| `docs/features/*`, `rag/index/*` | `documentacao` |
+| `docs/audit/*` | `auditor` |
+
+Subagente reporta; não escreve estado. Dois escritores no mesmo registro = o segundo apaga o primeiro.
+
+## Continuidade
+
+- Etapa concluída = gate `0` + artefato no caminho declarado. Não repita etapa provada.
+- Limite de passos/contexto é **handoff**, não conclusão. Exija de todo subagente:
+  `HANDOFF`, `ARQUIVOS TOCADOS`, `ULTIMO COMANDO -> exit`, `PENDENTE`, `PROXIMO COMANDO`.
+- Ao retomar: `CHECKPOINT.md` → `git status --short` → `git log -1` → artefatos de gate → próxima ação.
+
 
 ## Pacote de despacho (obrigatório, nesta ordem)
 
@@ -61,6 +96,9 @@ Se uma das evidências for impossível, exija justificativa registrada em `manif
 - `ghidra` e `rea` podem rodar no mesmo binário em paralelo.
 - `comportamento` roda em paralelo ao estático, mas **nunca dois ao mesmo tempo** (GUI é recurso único).
 - `testes` e depois `auditor`: nesta ordem, nunca em paralelo, nunca pule o auditor.
+- **Build e ctest são recursos compartilhados**: nunca dois no mesmo diretório; auditoria usa
+  `ARTPLUS_GATE_BUILD_DIR=build_audit_<F-###>`. Proibido apagar `build/` de outra sessão.
+- Antes de despachar, confira `git status --short` e o log de gate mais recente; WIP alheio é preservado.
 
 ## Estado real
 

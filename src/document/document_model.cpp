@@ -22,6 +22,15 @@ void Document::clear() {
     m_title.clear();
     m_modified = false;
     m_metadata = QJsonObject();
+    m_separationInfo.clear();
+}
+
+std::vector<Separation::Entry> Document::separationInfo() const {
+    return m_separationInfo;
+}
+
+void Document::setSeparationInfo(const std::vector<Separation::Entry>& info) {
+    m_separationInfo = info;
 }
 
 void Document::setTitle(const QString& title) {

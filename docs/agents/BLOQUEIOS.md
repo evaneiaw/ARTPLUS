@@ -5,8 +5,9 @@ e **não é redistribuída** até resolução comprovada.
 
 | ID | Feature | Etapa | Motivo | Evidência existente | Próximo passo |
 |---|---|---|---|---|---|
-| BLO-003 | F-007 (Step & Repeat) | Comportamento | CAP não capturado; UI v24 não produziu fluxo | `rag/evidence/F-007/` (estático, `versao: 24.0`), `LayoutEngine_GHIDRA.md` | capturar CAP real ou manter bloqueado |
-| BLO-005 | F-006 (Save Document) | Build/Testes | build quebrado; criptografia não implementada; laudo reprovado | `SaveDocumentTests` (91 asserções), `docs/audit/F-006-audit.md` | corrigir build (ver BLO-006) e fechar `TODO(F-006)` ou reduzir escopo |
+| BLO-009 | (dependência externa — não bloqueia o escopo da feature) Color Management — integração lcms2/Pantone | Dependência | lcms2 dev headers/libs (MinGW/MSVCRT) e Pantone SDK não instalados; integração real bloqueada até provisionamento + ADR de dependência autorizado. Escopo atual da funcionalidade permanece **auditado** (laudo final5, stubs honestos, sem stub silencioso). | `docs/decisions/ADR-008-lcms2-pantone-dependency.md`, `docs/architecture/F-008-ADR.md` | provisionar lcms2 (MSVCRT-compat) e/ou Pantone SDK; emitir ADR de integração; implementar substituição funcional dos stubs; registrar evidência/teste |
+| BLO-008 | F-007 — Step & Repeat | Comportamento | **Existência PROVADA** em 2026-11-24 (`CAP-20261124-01`: `Prepress > Step & Repeat > Make Grid`, atalho `Ctrl+Alt+G`); restam NÃO medidos os campos do diálogo `Make Grid` (janela em branco na captura) | `rag/evidence/F-007/behavior/CAP-20261124-01.md`, manifest F-007 | capturar os campos do `Make Grid` (janela restaurada/sem overlay); depois escrever spec/ADR |
+| BLO-005 | Save Document | Build/Testes | **SUPERADO em 2026-11-24** — CAP real (menu File, Save As, gravação silenciosa), código/testes verdes (D1/D2/D3/E5 corrigidos, 26 casos), laudo de 2026-11-24 APROVADO COM RESSALVAS. Mantido como histórico. | `CAP-20261124-01` | risco residual de E10 com backup **resolvido por rollback (D4, ADR-006)**; teste `needBackupOnSave+E10` **coberto** (`testE10NeedBackupRollbackRestoresOriginalOnSerializerFailure`, 28 casos) |
 | BLO-006 | GLOBAL (build) | Build | **RESOLVIDO em 2026-11-21** — o build compila e linka 17 alvos (Release/MSVCRT), inclusive em clone limpo do commit `4b174c3`; ctest 11/11. Evidência: `docs/testing/gates/CLEAN_CLONE_BUILD.md`, `docs/testing/gates/build.json`, `docs/testing/gates/ctest-full.xml` | `build_audit` + logs em `docs/testing/gates/logs/` | nenhum — mantido apenas como histórico |
 
 
@@ -18,14 +19,18 @@ e **não é redistribuída** até resolução comprovada.
 
 Consequência: as features de Mark Set, Selection Mark e Open Document **não** estão bloqueadas por licença. O que falta nelas é captura comportamental **na v24** — as capturas de Cut Mark e Bearer Bar existentes são da versão histórica e não substituem a versão-alvo.
 
-> Nota de manutenção: este arquivo é lido por `scripts/gate.py` (`blocked_features()`), que trata
-> **qualquer** token de identificador de feature citado no texto como bloqueio. Não cite
-> identificadores de feature aqui fora da tabela de bloqueios — use o nome da funcionalidade.
+> Nota de manutenção: este arquivo é lido por `scripts/gate.py` (`blocked_features()`), que
+> considera bloqueada **somente** a feature cujo identificador `F-###` aparece na coluna
+> **Feature** da tabela de bloqueios ativos, e ignora linhas marcadas como `RESOLVIDO` ou
+> `SUPERADO`. Citar um identificador em outro campo (motivo, evidência, caminho) **não**
+> bloqueia a feature. A tabela `HALT.md` → "Bloqueado" também é lida.
 
 ## Observações
 
 - `BLO-003` estava referenciado no `INVENTORY.md` mas **não existia neste arquivo** —
-  inconsistência corrigida em 2026-11-21.
+  inconsistência corrigida em 2026-11-21. **Superado em 2026-11-24**: a existência de
+  Step & Repeat foi provada na v24 (`CAP-20261124-01`); substituído por BLO-008 (captura de
+  campos do diálogo `Make Grid`).
 - `BLO-005` citava "permissão shell negada no orquestrador"; a causa real medida agora é
   build quebrado. O bloqueio foi reescrito com a causa verificável.
 - Bloqueio não é desculpa para parar o projeto: só impede a feature bloqueada; as demais

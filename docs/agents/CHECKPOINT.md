@@ -1,3 +1,156 @@
+checkpoint_20261124_agent_core_audit:
+  - tarefa: auditoria corretiva do sistema de agentes/skills/hooks/commands/gate/retomada (nao e feature work)
+  - arvore: H:\Desktop\ArtPlus (master), HEAD 503b922068af07ca21d8032c3465e2738a2b436f; WIP alheio preservado; nada commitado
+  - relatorio: docs/agents/AGENT_CORE_AUDIT_20261124.md (Anexo A com saida real e exit codes)
+  - corrigido_infra:
+      gate.py: parser de bloqueios por tabela (BLOQUEIOS+HALT); crash ValueError em estado bloqueado; frescor de auditoria por feature; token sem build.json global; HALT por escopo; --json puro; deteccao de orfa; discover_features
+      scripts/preflight.py: criado (PASS 3/3)
+      commands: auto/gate/halt/progress com bloco ALVO/ACEITE/LIMITE
+      docs/agents/BLOQUEIOS.md: F-007 na coluna Feature; BLO-009 marcado como dependencia que nao bloqueia
+      estado re-derivado: INVENTORY, ROADMAP, FEATURE_MATRIX, STATUS, AGENTS §7
+  - validacao_medida:
+      check_version --strict = 0 (APROVADO)
+      gate --selftest = 0 (33/33 PASS)
+      gate --inventory = 0 (8 features coerentes; F-009 orfa como aviso)
+      gate --all = 2 (HALT escopado F-007, sem traceback)
+      gate --all --json = JSON valido (version_ok/features/orphans)
+      gate --feature F-002 = 1 (fora do escopo bloqueado); --feature F-007 = 2
+      preflight.py = 0; validate_skills.py = 0 erros (2 avisos /halt,/progress sem $ARGUMENTS)
+      token F-002 deterministico (20B03DF2...C45C); F-008 distinto
+  - estado_comprovado_20261124: F-001/002/003/005/008 testado; F-006 implementado; F-004 fora-do-escopo-v24; F-007 bloqueado (BLO-008); F-009 orfa; auditado=0
+  - motivo_auditado_zero: laudos existentes tem token da formula antiga (incluia build.json) e F-003/F-006/F-008 tiveram spec/codigo/artefato editados depois do laudo. NAO e regressao de produto.
+  - retomada_F002:
+      1. python scripts/preflight.py (0)
+      2. python scripts/gate.py --feature F-002 --stage audit  (hoje 1: token)
+      3. python scripts/gate.py --emit-token --feature F-002  -> 20B03DF2DB4413A6B4E525543EE989B4DBDA24614149E2201D0594981D96C45C
+      4. auditor reemite/confirma docs/audit/F-002-audit-*.md com esse token medido na sessao e a cadeia spec->evidencia->codigo->teste
+      5. python scripts/gate.py --feature F-002 --stage audit (esperado 0) -> entao INVENTORY F-002 volta a auditado
+      Obs.: se spec/manifest/teste/src de F-002 mudarem, o token muda; medir de novo, nao copiar.
+  - retomada_F009:
+      1. F-009 NAO existe como feature rastreada: sem INVENTORY, sem docs/features/F-009.md, sem rag/evidence/F-009/.
+      2. EXISTENCE-FIRST: capturar comportamento de "Gerenciamento de Objetos" na v24.03.10017 (agente comportamento) e criar rag/evidence/F-009/manifest.json com CAP real.
+      3. documentacao escreve docs/features/F-009.md (status spec) a partir da evidencia.
+      4. arquitetura ADR -> implementacao -> testes -> auditor; so entao adicionar linha F-009 ao INVENTORY.
+      5. Ate la, F-009 aparece como orfa em gate --inventory; nao declarar estado.
+  - pendente: reauditar F-001/002/003/005/006/008 (F-006 antes precisa de --run-test); alinhar status das specs (documentacao) junto da reauditoria; F-009 exige captura v24
+  - proibicoes_respeitadas: sem commit/push; sem git reset/clean/rebase/force; sem build concorrente; ArtPlus-UI nao tocado; WIP alheio preservado
+checkpoint_20261124_unit_final:
+  - ETAPA_1_completada: F-008 — decisao de dependencias emitida (arquitetura, 2026-11-24): INTEGRAR DEPOIS de lcms2/Pantone (dev headers/libs e SDK nao instalados; MinGW/MSVCRT sem kit). ADRs: docs/decisions/ADR-008-lcms2-pantone-dependency.md + docs/architecture/F-008-ADR.md. F-008 CONTINUA auditado (stubs honestos, isCmmEngineAvailable()==false). Recomendacao registrada: BLO-009 em docs/agents/BLOQUEIOS.md.
+  - ETAPA_2_completada: F-002 — implementacao retornado (ses_df135bc94ffeKa33F4ZytPuWza): BUILD real exit 0 (clean-first verificado, 11/11 CTest). RETESTE do testes (ses_df06c43a9ffe1s1WVu7kHv6L5Y): --build exit 0 (log build-20261124-190116-664.log); --stage code F-002 exit 0; --stage test F-002 exit 0; ctest --dir build_core_gate 11/11 exit 0. Gate --inventory exit 1 (REPROVADO): F-002 declarado 'auditado' mas comprovado 'testado' — corrigir INVENTORY para estado real 'testado' (sem auditoria independente, --stage audit de F-002 vem depois). F-008 declarado auditado vs bloqueado (auto). Outras falhas conhecidas externas: F-001/F-003/F-005 stakeholders stale, F-007 sem docs. Diferença provada entre "testado" e "auditado" pendente.
+  - ETAPA_3_pendente: F-009 Gerenciamento de Objetos — "Pacote B / F-009 nao iniciados" (REPOSITORY_RECONCILIATION.md:576); iniciar apos ETAPA 2.
+  - regra_proprietario: preservar WIP; sem commit geral das 219 alteracoes; sem tocar ArtPlus-UI; compilar apos cada mudanca; continuar independentes apesar de bloqueios.
+
+checkpoint_20261124_final5:
+  - unidade: F-006 + F-003b — fechamento completo
+  - F-006: rollback E10 (D4) implementado e testado (28 casos, 0 skip); laudo F-006-audit-20261124f.md APROVADO COM RESSALVAS (token A282D873F106FAC8672C1D09AA5045C4973E7189FD92089347D51B1BC36907BC)
+  - F-003: R-a FECHADA — zeragem silenciosa de SizeReference em regenerate()/setParams, coberta por testSizeReferenceZeroingAtRuntime_R5_E3 (12/12); laudo F-003-audit-20261124-final5.md APROVADO COM RESSALVAS (token 73CC1B7AA1928FCB3E453E74976885520CD77F14E60E5FC8BA4E03CE845F107A)
+  - reauditoria: F-001/F-002/F-003/F-005/F-006/F-008 — 6/6 auditado, --stage audit rc0, --inventory 0, CTest 11/11 em build_core_gate (14:11:58)
+  - tokens finais5: F-001 1261DF69…, F-002 72F76C4F…, F-003 73CC1B7A…, F-005 E94240CB…, F-006 A282D873…, F-008 CB7F4E44…
+  - laudos finais5: F-001-audit-20261124-final5.md, F-002-audit-20261124-final5.md, F-003-audit-20261124-final5.md, F-005-audit-20261124-final5.md, F-006-audit-20261124f.md, F-008-audit-20261124-final5.md
+  - F-006: BLO-005 superado; HALT nao lista F-006
+  - git: nada commitado (217 entradas; WIP alheio + lixos na raiz) — pendente commit por escopo
+  - proxima_unidade: F-008 — Color Management (integrar lcms2/Pantone, fechar R7/R9)
+
+checkpoint_20261124_unit_final:
+  - ETAPA_1_completada: F-008 — decisao de dependencias emitida (arquitetura, 2026-11-24): INTEGRAR DEPOIS de lcms2/Pantone (dev headers/libs e SDK nao instalados; MinGW/MSVCRT sem kit). ADRs: docs/decisions/ADR-008-lcms2-pantone-dependency.md + docs/architecture/F-008-ADR.md. F-008 CONTINUA auditado (stubs honestos, isCmmEngineAvailable()==false). Recomendacao registrada: BLO-009 em docs/agents/BLOQUEIOS.md (linha 1-2).
+  - ETAPA_2_em_andamento: F-002 — implementacao aplicou fixes (build_f006 exit 0)
+  - ETAPA_3_pendente: F-009 Gerenciamento de Objetos — "Pacote B / F-009 nao iniciados" (REPOSITORY_RECONCILIATION.md:576); iniciar apos 1 e 2; spec criar
+  - regra_proprietario: preservar WIP; sem commit geral das 219 alteracoes; sem tocar ArtPlus-UI; compilar apos cada mudanca; continuar independentes apesar de bloqueios
+  - interrupcao: Plan mode do sistema pausou o despacho; retomado apos remocao da restricao
+  - unidade: F-006 (E10 rollback) + F-003b (R-a zeragem SizeReference) — encerramento completo
+  - F-006: rollback E10 (D4) implementado+testado (28 casos, 0 skip); laudo F-006-audit-20261124f.md APROVADO COM RESSALVAS (token A282D873F106FAC8672C1D09AA5045C4973E7189FD92089347D51B1BC36907BC)
+  - F-003: R-a FECHADA (zeragem runtime); laudo F-003-audit-20261124-final6.md APROVADO COM RESSALVAS (token F255A982A8507667A52006F35C0A3A6E66E6237BB1652F798470FF31315B2222); spec F-003 + ADR-002 atualizados (E3 aplicada)
+  - reauditoria: F-001/F-002/F-003/F-005/F-006/F-008 — 6/6 auditado, --stage audit rc0, --inventory 0, CTest 11/11 em build_core_gate (14:11:58)
+  - tokens finais: F-001 1261DF69…, F-002 72F76C4F…, F-003 F255A982…, F-005 E94240CB…, F-006 A282D873…, F-008 CB7F4E44…
+  - F-006: BLO-005 superado; HALT nao lista F-006
+  - git: nada commitado (219 linhas status; WIP alheio + lixos na raiz) — pendente commit por escopo
+  - proxima_unidade: F-008 — Color Management (implementacao em andamento; stubs honestos, lcms2/Pantone não instalados, limitação ADR 4-5; build exit 0; teste 1/1; gate code/test/audit verdes; R7/R9 parciais)
+  - unidade: F-006 (E10 rollback) + F-003b (R-a zeragem SizeReference) — encerramento completo do ciclo
+  - F-006: rollback E10 (D4) implementado+testado (28 casos, 0 skip); laudo F-006-audit-20261124f.md APROVADO COM RESSALVAS (token A282D873F106FAC8672C1D09AA5045C4973E7189FD92089347D51B1BC36907BC)
+  - F-003: R-a FECHADA (zeragem runtime); laudo F-003-audit-20261124-final6.md APROVADO COM RESSALVAS (token F255A982A8507667A52006F35C0A3A6E66E6237BB1652F798470FF31315B2222); spec F-003 + ADR-002 atualizados (E3 aplicada)
+  - reauditoria: F-001/F-002/F-003/F-005/F-006/F-008 — 6/6 auditado, --stage audit rc0, --inventory 0, CTest 11/11 em build_core_gate (14:11:58)
+  - tokens finais: F-001 1261DF69…, F-002 72F76C4F…, F-003 F255A982…, F-005 E94240CB…, F-006 A282D873…, F-008 CB7F4E44…
+  - F-006: BLO-005 superado; HALT nao lista F-006
+  - git: nada commitado (217 entradas) — pendente commit por escopo
+  - proxima_unidade: F-008 — Color Management (em andamento no subagente implementacao; laudo F-008 final5 aprovado com lcms2/Pantone adiados, R7/R9 parciais)
+
+checkpoint_20261124_f006_e10:
+  - unidade: F-006 — ressalva needBackupOnSave+E10 RESOLVIDA
+  - implementacao: rollback E10 em document_save_manager.cpp — backup por rename + falha do serializer restaura o original ao destino; backupPath vazio; rollback falho reporta o .bak; incremental/copy sem rollback e destino nunca apagado
+  - testes: testE10NeedBackupRollbackRestoresOriginalOnSerializerFailure + testE10IncrementalBackupDoesNotRollbackNorDeleteDestination (28 casos, falha injetada por icacls DENY(WD), 0 skip; rollback exercitado de fato)
+  - docs: ADR-006 D4 (robustez declarada, nao paridade), F-006-SaveDocument.md, spec §5 E10/§6/§8.2
+  - reauditoria: F-001..F-008 6/6 auditado, --stage audit rc0, --inventory 0, CTest 11/11 em build_core_gate
+  - tokens finais: F-001 0A24A86F…, F-002 AB6BE35D…, F-003 D520E7EB…, F-005 2D3D43B6…, F-006 89D216F0…, F-008 2C3C5E4F…
+  - F-006: BLO-005 superado; HALT nao lista F-006
+  - git: nada commitado (211 entradas; WIP alheio + 13 lixos na raiz) — pendente commit por escopo
+  - proxima_unidade: F-003b — aplicar zeragem silenciosa de SizeReference no fluxo regenerate()/setParams e testar (R-a do laudo F-003)
+
+checkpoint_20261124_continuidade:
+  - diretiva do proprietario 2026-11-24: F-007 em ESPERA (BLO-008 mantido); nao realizar capturas manuais agora; nao interromper o nucleo; nao inventar spec do Step & Repeat
+  - condicao_retomada_F007: evidencia comportamental suficiente do dialogo Make Grid na v24.03.10017 (campos)
+  - estado_atual: auditado=6 (F-001,002,003,005,006,008); fora-de-escopo-v24=1 (F-004); bloqueado=1 (F-007/BLO-008)
+  - pc_control: MCP restaurado e disponivel, mas F-007 NAO sera capturado por decisao do proprietario
+  - fila_de_trabalho: (1) F-006 needBackupOnSave+E10 (em andamento); (2) F-003b SizeReference em runtime; (3) F-008 completar; (4) F-002 integracao/identifyRelevantSets/undo; (5) F-005 import/edicao/export; (6) geometria vetorial; (7) selecao/transformacao; (8) layers/separacoes/cores; (9) preflight/QC; (10) automacao
+  - proibicoes: sem UI no nucleo; sem tocar ArtPlus-UI; sem stubs; sem v25 como spec; preservar WIP; coordenar mudancas compartilhadas
+
+checkpoint_20261124_core_final2:
+  - tarefa: ciclo autonomo do nucleo — F-006 destravado (CAP real + D1/D2/D3/E5) e auditoria final em lote
+  - build: Release build_f008 exit 0; CTest 11/11; F-006 SaveDocumentTests 26 casos (T1-T13 + D1a/D1b/E5) passam
+  - auditorias_finais2 (2026-11-24, --stage audit rc0): F-001, F-002, F-003, F-005, F-006, F-008 todos auditado.
+      F-006: CAP-20261124-01 (Save/Save As na v24) + D1 (guards cripto/flavour antes do backup) + D2 (E5 destino inexistente) + D3 (UI checa SaveResult) + E5 real (doc sem filePath grava); laudo F-006-audit-20261124b.md APROVADO COM RESSALVAS.
+  - estado_final: auditado=6 (F-001,002,003,005,006,008); fora-do-escopo-v24=1 (F-004); bloqueado=1 (F-007 BLO-008).
+  - F-007: existencia PROVADA (CAP-20261124-01: Prepress > Step & Repeat > Make Grid Ctrl+Alt+G); campos do dialogo NAO medidos (janela em branco) -> BLO-008.
+  - bloqueios: BLO-005 superado (Save Document); BLO-003 superado -> BLO-008 (F-007 captura de campos).
+  - registros atualizados: INVENTORY, ROADMAP, FEATURE_MATRIX, STATUS, CHECKPOINT, BLOQUEIOS.
+  - riscos residuais declarados: F-006 backup antes do serializer (needBackupOnSave+E10); F-003b zeragem SizeReference; F-007 campos Make Grid; ressalvas de produto F-001/F-002/F-005/F-008.
+  - proibicoes_respeitadas: sem git reset/clean/force; sem commitar; WIP Mark Set preservado; ArtPlus-UI nao tocado.
+  - proxima_acao: validar gate --inventory final; capturar campos F-007 (BLO-008); fechar riscos residuais; commit/push do conjunto coerente via testes quando autorizado (sem --force).
+
+checkpoint_20261124_core_final:
+  - tarefa: ciclo autônomo do núcleo concluído — build/teste, correções e auditoria final em lote
+  - build: Release real (-O3 -DNDEBUG) em build_f008, exit 0; CTest 11/11
+  - auditorias_finais (2026-11-24, todas --stage audit rc0):
+      F-001 auditado (F-001-audit-20261124-final.md, token DC85D43B…)
+      F-002 auditado (F-002-audit-20261124-final.md, token FFD1594A…)
+      F-003 auditado (F-003-audit-20261124-final.md, token CE63CF87…) — R5 corrigida (src+test+ADR-002); ressalva F-003b (zeragem nao aplicada em runtime)
+      F-005 auditado (F-005-audit-20261124-final.md, token 8C1C9F1A…)
+      F-008 auditado (F-008-audit-20261124-final.md, token 00EB2B11…) — duplicata stub removida, ColorManagement linkada no ArtPlus, R3-R6 reais, teste 28/121/0
+  - estado_final: auditado=5 (F-001,002,003,005,008); fora-do-escopo-v24=1 (F-004); bloqueado=2 (F-006 BLO-005 por GATE 3 CAP-BLOCKED-006; F-007 BLO-003 sem CAP v24)
+  - registros_atualizados: INVENTORY.md (estados + cobertura), ROADMAP.md, FEATURE_MATRIX.csv, docs/phases/STATUS.md, CHECKPOINT.md
+  - F-006: spec reduzida v1 (criptografia container FORA, flavours FORA, serializer JSON); ADR-006 aprovado; manifest corrigido (21 IDs Document.dll v240 sem placeholders); code/test verdes; bloqueio real = evidencia CAP impossivel (GUI inativa) x gate.py que rejeita justificativa (CONFLITOS.md)
+  - F-007: behavior vazio, sem CAP; nao implementar
+  - F-004: fora-do-escopo-v24; nao implementar
+  - pendencia_infra: gate.py cmd_build nao reconfigura com cache; freshness global invalida .test.json de todas as features ao editar qualquer src/tests
+  - proibicoes_respeitadas: sem git reset/clean/force; sem commitar; WIP Mark Set preservado; ArtPlus-UI nao tocado
+  - proxima_acao: validar gate --inventory/--all final; opcional obter CAP F-006/F-007 na GUI v24; fechar ressalvas de produto em ciclos proprios; commit/push do conjunto coerente via testes (sem --force)
+
+checkpoint_20261124_core:
+  - tarefa: diretiva do proprietário — consolidar/evoluir núcleo lógico ArtPlus (H:\Desktop\ArtPlus), v24.03.10017, isolamento total de ArtPlus-UI
+  - gate_zero:
+      shell_orquestrador: NEGADO nesta sessão; verificação delegada ao subagente testes
+      check_version_strict: APROVADO (rc0)
+      gate_inventory_antes: REPROVADO (F-001/002/003/005 declaram auditado, gate prova testado; .test.json stale; F-004/F-006/F-007)
+      gate_all_antes: rc2 (HALT + gates vermelhos)
+      build: gate --build rc0 em build_core_gate; CTest 11/11; POSIX.MSVCRT GCC 16.2.0 / Qt 6.8.3
+  - correcoes_infra_concluidas:
+      CMakePresets.json: CMAKE_BUILD_TYPE=Release nos dois configurePresets; build real agora -O3 -DNDEBUG (antes -O0 vazio)
+      artefatos: F-001/002/003/005/006/008 .test.json + build.json regenerados; --stage test rc0 em F-002/F-006/F-008
+      INVENTORY.md: F-001/002/003/005 baixados auditado->testado (erro de contrato AGENTS §10.3); auditado=0, testado=5
+  - despachos_ativos:
+      auditor (ses_df2e0db1dffe4R9wl4EXA6yodD): reauditoria F-008; alvo docs/audit/F-008-audit-20261124.md
+      documentacao (ses_df2e0db19ffeTZPAYTHwUW6kbk): specs F-006 (arquivos src/, escopo criptografia) e F-004 (remover ref selection_mark ausente)
+      rea (ses_df2e0ab47ffe00nHP9FSfhpqcA): manifests F-006 (Document.dll v240, sem placeholders) e F-007 (versao 24.03.10017, bloqueios)
+  - estado_comprovado_pos_testes: F-001/002/003/005/008 testado; F-004 arquitetado (spec referencia selection_mark ausente); F-006 bloqueado (placeholders); F-007 bloqueado (sem CAP v24)
+  - F-007: behavior/ vazio, comportamental [], versao abreviado -> NAO implementar sem CAP v24
+  - F-004: fora-do-escopo-v24 (CAP-20261121-02 negativo); nao implementar
+  - F-003_reprovado_20261124: auditor REPROVOU (laudo F-003-audit-20261124.md) — R5 sizeReferenceCoherent invertida em src/prepress/bearer_bar.cpp:112-117 vs evidencia 0x18012E950; teste test_bearer_bar.cpp:610-636 e ADR-002 (:28,:484) fixam o comportamento invertido. Correcao: implementacao (bearer_bar.cpp) + testes (test) + arquitetura (ADR-002); depois rodada final em lote.
+  - F-005_auditado_20261124: laudo F-005-audit-20261124.md APROVADO COM RESSALVAS; --stage audit rc0; estado auditado. Ressalvas: spec pre-ADR-014, ERROR_FILE_NO_HANDLER_FOR_MIME refinamento, R8/R9 por guarda estatica, paineis prepress fora de escopo.
+  - F-008_auditado_20261124: laudo docs/audit/F-008-audit-20261124b.md APROVADO COM RESSALVAS (token 5EE2CFA0…); --stage audit rc0; estado comprovado auditado. Correção: duplicata src/prepress/color_manipulation removida, ColorManagement linkada no ArtPlus, R3/R4/R5/R6 reais, teste 28 funcs/121 asserts/0 QVERIFY(true). Ressalvas doc (spec §9/R1e, ADR Consequências) em correção pela documentacao.
+  - F-008_reprovado_20261124: auditor REPROVOU (docs/audit/F-008-audit-20261124.md, token 3F83E983…) — split-brain: src/prepress/color_manipulation (stub TODO) compilado no ArtPlus x src/color_management (testada) só no test; teste nao cobre nucleo (2/9 regras); corrigir unificando + implementando R3/R4/R5/R6; implementacao despachado (ses_df2db8f8affe…)
+  - falhas_infra_abertas: gate.py cmd_build nao reconfigura se CMakeCache existe; freshness global (gate.py:457-463) invalida .test.json de todas as features ao editar qualquer test
+  - proxima_acao: aguardar retornos; depois arquitetura ADR-006 -> implementacao F-006 -> testes -> auditor; reauditorias F-001/002/003/005 com tokens frescos; atualizar ROADMAP/FEATURE_MATRIX/STATUS
+  - proibicoes_respeitadas: sem git reset/clean/force; sem commitar; WIP Mark Set preservado; ArtPlus-UI nao tocado
+
 checkpoint_20261123_F001_auto:
   - tarefa: /auto escopo F-001 (Cut Mark / DocumentMarks.dll) — retomada do pipeline a partir do estado comprovado
   - gate_zero:

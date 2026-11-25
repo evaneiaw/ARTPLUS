@@ -1,20 +1,27 @@
 # Gates e máquina de estados
 
-## Estados do módulo (INVENTORY)
+O estado **não é negociado**: é o que `python scripts/gate.py` deriva. O `INVENTORY.md` transcreve.
+Estados abaixo são os valores aceitos por `gate.py` (`STAGES` + terminais).
 
-| Estado | Critério de entrada | Quem move |
+## Estados da feature (INVENTORY)
+
+| Estado | Critério comprovado pelo gate | Quem produz o artefato |
 |---|---|---|
-| `nao-tratado` | nada feito | — |
 | `triado` | identidade + superfície + dependências + SHA-256 | `rea` |
 | `analisado` | funções principais com endereço, xrefs e confiança | `ghidra` |
 | `comportamento` | ferramenta operada e capturada com `CAP-*` | `comportamento` |
-| `spec` | `F-###` completa e com evidência | `documentacao` |
-| `arquitetado` | `ADR-###` aprovada + mapeamento função → classe | `arquitetura` |
-| `implementado` | `src/**` compilando | `implementacao` |
-| `testado` | teste citando `F-###` passando | `testes` |
-| `auditado` | laudo aprovado com comando e saída | `auditor` |
+| `spec` | `--stage spec` = 0 (8 seções + evidência) | `documentacao` |
+| `arquitetado` | `--stage adr` = 0 (ADR aprovada + mapa função→classe) | `arquitetura` |
+| `implementado` | `--stage code` = 0 (arquivos + build real) | `implementacao` |
+| `testado` | `--stage test` = 0 (teste cita F-### e passa) | `testes` |
+| `auditado` | `--stage audit` = 0 (laudo + token + build/test) | `auditor` |
+| `bloqueado` | linha na tabela de `HALT.md`/`BLOQUEIOS.md`; não é estado de progresso | `orquestrador` |
+| `fora-do-escopo-v24` | evidência negativa na v24 + spec + ADR; sem código/teste | `orquestrador` + `documentacao` |
 
-Um módulo só é `auditado` quando **todas** as funcionalidades de UI que expõe estão `auditado`.
+- O estado de uma **feature** é independente das demais. Não existe estado por módulo que exija
+  "todas as features auditadas" — isso não é verificável e já gerou divergência de inventário.
+- Divergência `declarado > comprovado` é erro de contrato: rebaixe no INVENTORY antes de seguir.
+- Feature presente em artefato e ausente do INVENTORY é lacuna de rastreabilidade: registre.
 
 ## Gate de liberação
 
@@ -47,4 +54,6 @@ CONTEXTO: projeto ArtProPlus já importado; não reimportar; triagem em Document
 
 ## Registro de ciclo
 
-Atualize `INVENTORY.md`, `ROADMAP.md` e `FEATURE_MATRIX.csv` no mesmo ciclo. Estado desejado não substitui estado real.
+Atualize `INVENTORY.md`, `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/STATUS.md` e
+`docs/agents/CHECKPOINT.md` no mesmo ciclo, **depois** de rodar o gate. Estado desejado não
+substitui estado real. Use um único escritor (o orquestrador).

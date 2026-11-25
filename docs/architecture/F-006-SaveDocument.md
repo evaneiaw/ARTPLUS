@@ -1,9 +1,13 @@
 # F-006 — Arquitetura de Save Document
 
-> Decisão formal: `docs/decisions/ADR-006-save-document.md` (proposta).
-> Spec: `docs/features/F-006.md` (confiança **baixa**).
+> Decisão formal (canônica, normativa): `docs/decisions/ADR-006-save-document.md`
+> (`Estado: aprovado`, 2026-11-24). Este arquivo é **visão de módulo**: diagramas, fluxo de
+> dados e dependências — não substitui a ADR. `docs/architecture/F-006-ADR.md` está
+> consolidado na ADR canônica.
+> Spec: `docs/features/F-006.md` (confiança **média**).
 > Evidência: `docs/reverse-engineering/F-006_GHIDRA.md` (21 funções, Document.dll + NDLModel.dll),
-> `CAP-BLOCKED-006` (`docs/behavior/F-006.md`) — comportamento bloqueado por GUI inativa.
+> `CAP-20261124-01` (`docs/behavior/F-006.md`) — Save/Save As observados na v24.03.10017;
+> `CAP-BLOCKED-006` está **SUPERADO** (histórico).
 
 ## 1. Visão geral
 
@@ -21,12 +25,15 @@ NDLModel::SaveDocument (wrapper assíncrono)
     → SwitchToWorkingFile / checagem de estado
     → Backup (copy/rename)                        [FUN_180095230]
     → GADocSaveParams (incremental / NoOptimizedSave / encryption)
-    → GODocument::Save                            [0x1802ad561]
+    → GODocument::Save                            [0x1802ad561 — trampolim, corpo não recuperado]
     → SetDirty(false) / SetFilePath / NotifyChangesCollected
 ```
 
 No ArtPlus o único ponto de escrita é `DocumentSerializer::save` — substitui o comportamento
 de `GODocument::Save`. A paridade de bytes com o formato proprietário permanece `TODO(F-006)`.
+`GODocument::Save` (`0x1802ad561`) e `GODocument::SignOnSave` (`0x1802ad5eb`) são trampolins
+por jumptable: o corpo da gravação e o layout do container **não** foram derivados (ADR-006
+§Contexto).
 
 ## 2. Diagrama de classes (mermaid)
 
@@ -45,7 +52,7 @@ classDiagram
         +deriveBackupPath(path) QString
         +revertToSaved() bool
         -switchToWorkingFile() bool
-        -applyEncryption(params) bool
+        -applyEncryption(SaveEncryptionParams) bool
         -finalizeState(path, opts) void
         +progressStatus(QString) signal
         +finished(SaveResult) signal
@@ -108,34 +115,40 @@ sequenceDiagram
     U->>W: Ctrl+S / File > Save .artplus
     W->>W: resolve destino (filePath ou QFileDialog Save As)
     W->>M: save(destino, WriteOptions)
-    M->>M: switchToWorkingFile() (v1: no-op, TODO(F-006))
+    M->>M: switchToWorkingFile() (v1: no-op declarado; sem filePath não é E1)
     M->>D: lê filePath(), modified(), metadata()
     alt destino inexistente ou diferente do atual
         M->>M: isSaveAs = true (E5)
     else mesmo caminho
         M->>M: isSaveAs = false
     end
-    opt !isSaveAsCopy && !isSaveUnmodified
-        opt needBackupOnSave
-            M->>F: copy_file/rename(destino, backup)
-            Note over M: incremental → copy; senão → rename
-        end
-    end
     opt encryption.encryptionLevel != 0
-        M-->>W: SaveResult{ok=false, erro "criptografia não implementada"}
-        Note over M: TODO(F-006) — nunca grava plaintext
+        M-->>W: SaveResult{ok=false, errorCode=0, "criptografia não suportada"}
+        Note over M: E8 — retorna antes de qualquer escrita
+    end
+    opt flavour != NormalPdf
+        M-->>W: SaveResult{ok=false, errorCode=8, erro do flavour}
+        Note over M: E9 — retorna antes de qualquer escrita
+    end
+    opt !isSaveAs && needBackupOnSave
+        M->>F: copy_file/rename(destino, backup)
+        Note over M: incremental → copy; senão → rename
     end
     M->>D: saveToMetadata() delegado pela UI antes do save
     M->>S: save(doc, destino)
     S->>F: escreve JSON .artplus
     F-->>S: ok / falha
     alt sucesso
-        M->>D: setFilePath(destino), setModified(false)
+        M->>D: setFilePath(destino), setModified(false) (salvo E6/E7)
         M-->>W: SaveResult{ok=true, filePath, backupPath}
         W->>U: status bar "Saved <arquivo>"
     else falha
-        M-->>W: SaveResult{ok=false, errorCode, errorMessage}
-        W->>U: QMessageBox::critical
+        opt backup por rename (original havia sido movido)
+            M->>F: rename(backup, destino) [rollback D4]
+            Note over M: sucesso → backupPath vazio; falha → backupPath = .bak
+        end
+        M-->>W: SaveResult{ok=false, errorCode, errorMessage, backupPath}
+        W->>U: QMessageBox::warning "Save failed" + status bar (nunca "Saved")
     end
 ```
 
@@ -149,7 +162,7 @@ caso. `SaveAsCopy == true` mantém `filePath`/`modified` originais (E7) e não f
 | UI | `m_document.filePath()`, ação do usuário | resolve destino; `QFileDialog` se vazio/Save As | `QString destinationPath` |
 | Adapter NDLModel | `SaveOptions` (string_view) | `WriteOptions::fromSaveOptions()` | `WriteOptions` com flags nomeadas |
 | Decisão de caminho | `doc.filePath()`, `destinationPath` | comparação (`boost::compare_v3` no binário; `QFileInfo` no ArtPlus) | `isSaveAs` |
-| Backup | `destinationPath`, `needBackupOnSave`, `isIncrementalSave` | `deriveBackupPath()` + copy/rename | `backupPath` |
+| Backup | `destinationPath`, `needBackupOnSave`, `isIncrementalSave` | `deriveBackupPath()` + copy/rename | `backupPath` (limpo se o rollback consumir o `.bak`) |
 | Criptografia | `SaveEncryptionParams` | **não implementado** v1 | erro explícito (nunca plaintext) |
 | Serialização | `Document` (modelo em memória) | `DocumentSerializer::toJson` → `QJsonDocument` | arquivo `.artplus` |
 | Finalização | resultado da escrita | `setFilePath`, `setModified(false)` (salvo E6/E7) | estado do documento consistente |
@@ -172,9 +185,14 @@ permanecem em ponto PDF (1/72") no modelo — o save não converte unidades.
 - **Exceções:** `SaveException` é usada internamente (equivalente ao `_CxxThrowException`
   binário), mas é capturada antes da borda Qt e convertida em `SaveResult`; nenhuma
   exceção atravessa um slot (regra `qt-cpp-development`).
-- **Atomicidade:** backup é feito **antes** da escrita; se `DocumentSerializer::save`
-  falhar, o backup permanece e o documento continua com o estado anterior. Não há
-  escrita em arquivo temporário na v1 — `TODO(F-006)` (paridade com working file).
+- **Atomicidade:** backup é feito **antes** da escrita. Se `DocumentSerializer::save` falhar
+  (E10) e o backup tiver **movido** o original (`rename`, R3.4), a v1 faz **rollback** do
+  `.bak` de volta ao destino e devolve `backupPath` vazio; se o rollback falhar, o
+  `backupPath` é reportado e a mensagem nomeia onde está o original (ADR-006, D4). Quando o
+  backup foi `copy_file` (incremental), o destino nunca foi movido: não há rollback e o `.bak`
+  pode permanecer. Esse rollback é **robustez declarada** do clone, não paridade medida no
+  ArtPro+ v24. Não há escrita em arquivo temporário com promoção na v1 — `TODO(F-006)`
+  (paridade com working file).
 
 ## 6. Dependências entre módulos
 
@@ -225,15 +243,16 @@ Proibidas:
 | T8 | `NoOptimizedSave` presente | flag registrada em `WriteOptions`; serializer recebe doc íntegro | F-006 R2 (inferência) |
 | T9 | Criptografia solicitada | `SaveResult.ok==false`, mensagem explícita; nenhum arquivo gravado | ADR-006 D5 |
 | T10 | `Flavour != NormalPdf` | erro explícito (não stub silencioso) | F-006 R2/E3 |
-| T11 | Falha de escrita (diretório inexistente) | `SaveResult.ok==false`, `errorCode` preenchido; backup preservado | F-006 E4 |
+| T11 | Falha de escrita (diretório inexistente) | `SaveResult.ok==false`, `errorCode` preenchido; com backup por `rename`, o rollback devolve o original ao destino (D4, teste combinado **pendente**) | F-006 E4 |
 | T12 | Round-trip `DocumentSerializer::save` → `load` | `IntegrityReport::ok == true` (reuse existente) | F-006 §6 |
-| T13 | UI: `File > Save .artplus` e Ctrl+S | slot chama manager; status bar atualizada | F-006 §3 (escopo, CAP-BLOCKED-006) |
-| T14 | UI: Save As | `QFileDialog` e caminho atualizado | F-006 §3 (escopo, CAP-BLOCKED-006) |
+| T13 | UI: `File > Save .artplus` e Ctrl+S | slot chama manager; status bar atualizada | F-006 §3 (`CAP-20261124-01`) |
+| T14 | UI: Save As | `QFileDialog` e caminho atualizado | F-006 §3 (`CAP-20261124-01`) |
 | T15 | Assíncrono (quando implementado) | `QFuture<SaveResult>`; mutações na thread da UI | ADR-006 D3 (`TODO(F-006)`) |
 
 Método: Qt Test + CTest (`ctest --preset unit-tests`), com `QTemporaryDir` para destino e
 backup. Tolerâncias: comparação de `QString` exata; `IntegrityReport` já existente cobre
-geometria. Nenhum golden de formato binário até `CAP-BLOCKED-006` ser resolvido.
+geometria. Nenhum golden de formato binário até o container `.artplus` ser derivado (fora da v1;
+`CAP-20261124-01` só prova que a v24 grava um arquivo, não o layout).
 
 ## 10. TODO(F-006) — visão consolidada
 

@@ -1,6 +1,8 @@
 #include <QApplication>
 #include <QCommandLineParser>
+#include <QDebug>
 #include <QTimer>
+#include "../color_management/color_manipulation_layer.h"
 #include "../ui/main_window.h"
 
 int main(int argc, char *argv[]) {
@@ -11,6 +13,12 @@ int main(int argc, char *argv[]) {
     parser.addOption(QCommandLineOption("page", "Switch to page N (1-based) after opening", "n"));
     parser.addOption(QCommandLineOption("quit-after", "Quit after N seconds (for smoke testing)", "sec"));
     parser.process(app);
+
+    // F-008 R1: inicialização do subsistema de cor antes da primeira janela.
+    if (!artplus::color::ColorManipulationLayer::initialize()) {
+        qCritical("Color Management indisponível: %s",
+                  "No Color Management support available");
+    }
 
     ArtPlus::ArtPlusMainWindow window;
     window.show();

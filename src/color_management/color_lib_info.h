@@ -37,6 +37,7 @@ public:
     void setCmykDefined(bool v);
     void setColorName(const QString& name);
     void setColorSpaceType(ColorType ct);
+    void setProfile(std::shared_ptr<ICCProfile> profile);
 
 private:
     double m_L = 0.0;
@@ -50,6 +51,7 @@ private:
     bool m_cmykDefined = false;
     QString m_colorName;
     ColorType m_colorSpaceType = ColorType::CMYK;
+    std::shared_ptr<ICCProfile> m_profile;
 };
 
 } // namespace artplus::color

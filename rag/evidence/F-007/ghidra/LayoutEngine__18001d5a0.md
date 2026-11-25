@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 18001d5a0
 nome: GenerateClassicSolution
 assinatura: vector<LayoutEngine::IntermediateSheet,std::allocator<LayoutEngine::IntermediateSheet>_> GenerateClassicSolution(GuillotineSheetGenerator * this, vector<LayoutEngine::OrderedStation,std::allocator<LayoutEngine::OrderedStation>_> * param_1, bool param_2)
 parametros: 3
 retorno: vector<LayoutEngine::IntermediateSheet,std::allocator<LayoutEngine::IntermediateSheet>_>
+confianca: alta
+---
 
 ## Callers (xrefs de entrada)
 - 180071824 -> unknown (DATA)

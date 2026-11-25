@@ -1,0 +1,582 @@
+{
+    "filePath": "H:/Desktop/ArtPlus/tools/reference_capture/F-006/output/saveas-test.artplus",
+    "format": "artplus",
+    "layers": [
+        {
+            "id": 1,
+            "locked": false,
+            "name": "Page 1",
+            "objects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "opacity": 1,
+            "printable": true,
+            "visible": true
+        }
+    ],
+    "metadata": {
+        "DocumentMarks": {
+            "bearerBars": [
+            ],
+            "cutMarks": [
+            ],
+            "version": 1
+        }
+    },
+    "modified": false,
+    "objects": [
+        {
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "closed": true,
+            "elements": [
+                {
+                    "p1x": 400,
+                    "p1y": 241.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 0
+                },
+                {
+                    "p1x": 480,
+                    "p1y": 91.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 560,
+                    "p1y": 241.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 0,
+                    "p1y": 0,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 3
+                }
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                ],
+                "fill": {
+                    "components": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.800000011920929,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 0
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                        0,
+                        0.5,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 2
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 2
+            },
+            "id": 6,
+            "layerId": 1,
+            "locked": false,
+            "name": "Path 5",
+            "parentId": 611,
+            "softMaskId": 0,
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": 1,
+                "m23": 0,
+                "m31": 0,
+                "m32": 0,
+                "m33": 1
+            },
+            "type": "Path",
+            "visible": true
+        },
+        {
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "closed": false,
+            "elements": [
+                {
+                    "p1x": 50,
+                    "p1y": 391.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 0
+                },
+                {
+                    "p1x": 350,
+                    "p1y": 391.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                }
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                    6,
+                    4
+                ],
+                "fill": {
+                    "components": [
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 6
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                        0,
+                        0.5,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 2
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 2
+            },
+            "id": 5,
+            "layerId": 1,
+            "locked": false,
+            "name": "Path 4",
+            "parentId": 0,
+            "softMaskId": 0,
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": 1,
+                "m23": 0,
+                "m31": 0,
+                "m32": 0,
+                "m33": 1
+            },
+            "type": "Path",
+            "visible": true
+        },
+        {
+            "bold": false,
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                ],
+                "fill": {
+                    "components": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 2
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 6
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 1
+            },
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "id": 4,
+            "italic": false,
+            "layerId": 1,
+            "locked": false,
+            "name": "Text 1",
+            "parentId": 0,
+            "softMaskId": 0,
+            "text": "Spot: PANTONE 485 C",
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": -1,
+                "m23": 0,
+                "m31": 50,
+                "m32": 361.88980000000004,
+                "m33": 1
+            },
+            "type": "Text",
+            "visible": true
+        },
+        {
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "closed": true,
+            "elements": [
+                {
+                    "p1x": 50,
+                    "p1y": 281.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 0
+                },
+                {
+                    "p1x": 150,
+                    "p1y": 281.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 150,
+                    "p1y": 341.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 50,
+                    "p1y": 341.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 0,
+                    "p1y": 0,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 3
+                }
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                ],
+                "fill": {
+                    "components": [
+                    ],
+                    "spotName": "PANTONE 485 C",
+                    "tint": 1,
+                    "type": 1
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 6
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 3
+            },
+            "id": 3,
+            "layerId": 1,
+            "locked": false,
+            "name": "Path 3",
+            "parentId": 0,
+            "softMaskId": 0,
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": 1,
+                "m23": 0,
+                "m31": 0,
+                "m32": 0,
+                "m33": 1
+            },
+            "type": "Path",
+            "visible": true
+        },
+        {
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "closed": false,
+            "elements": [
+                {
+                    "p1x": 50,
+                    "p1y": 191.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 0
+                },
+                {
+                    "p1x": 120,
+                    "p1y": 141.88980000000004,
+                    "p2x": 200,
+                    "p2y": 241.88980000000004,
+                    "p3x": 280,
+                    "p3y": 191.88980000000004,
+                    "t": 2
+                }
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                ],
+                "fill": {
+                    "components": [
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 6
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                        0.8999999761581421,
+                        0.10000000149011612,
+                        0.8999999761581421,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 0
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 3
+            },
+            "id": 2,
+            "layerId": 1,
+            "locked": false,
+            "name": "Path 2",
+            "parentId": 269256897,
+            "softMaskId": 0,
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": 1,
+                "m23": 0,
+                "m31": 0,
+                "m32": 0,
+                "m33": 1
+            },
+            "type": "Path",
+            "visible": true
+        },
+        {
+            "children": [
+            ],
+            "clipMasks": [
+            ],
+            "closed": true,
+            "elements": [
+                {
+                    "p1x": 50,
+                    "p1y": 61.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 0
+                },
+                {
+                    "p1x": 200,
+                    "p1y": 61.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 200,
+                    "p1y": 141.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 50,
+                    "p1y": 141.88980000000004,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 1
+                },
+                {
+                    "p1x": 0,
+                    "p1y": 0,
+                    "p2x": 0,
+                    "p2y": 0,
+                    "p3x": 0,
+                    "p3y": 0,
+                    "t": 3
+                }
+            ],
+            "fillStroke": {
+                "capStyle": 0,
+                "dashOffset": 0,
+                "dashPattern": [
+                ],
+                "fill": {
+                    "components": [
+                        0.20000000298023224,
+                        0.800000011920929,
+                        0.10000000149011612,
+                        0
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 0
+                },
+                "fillAlpha": 1,
+                "joinStyle": 0,
+                "miterLimit": 10,
+                "stroke": {
+                    "components": [
+                    ],
+                    "spotName": "",
+                    "tint": 1,
+                    "type": 6
+                },
+                "strokeAlpha": 1,
+                "strokeWidth": 1
+            },
+            "id": 1,
+            "layerId": 1,
+            "locked": false,
+            "name": "Path 1",
+            "parentId": 0,
+            "softMaskId": 0,
+            "transform": {
+                "m11": 1,
+                "m12": 0,
+                "m13": 0,
+                "m21": 0,
+                "m22": 1,
+                "m23": 0,
+                "m31": 0,
+                "m32": 0,
+                "m33": 1
+            },
+            "type": "Path",
+            "visible": true
+        }
+    ],
+    "pages": [
+        {
+            "boxes": {
+                "artBox": {
+                    "h": 841.8898,
+                    "w": 595.2756,
+                    "x": 0,
+                    "y": 0
+                },
+                "bleedBox": {
+                    "h": 841.8898,
+                    "w": 595.2756,
+                    "x": 0,
+                    "y": 0
+                },
+                "cropBox": {
+                    "h": 841.8898,
+                    "w": 595.2756,
+                    "x": 0,
+                    "y": 0
+                },
+                "mediaBox": {
+                    "h": 841.8898,
+                    "w": 595.2756,
+                    "x": 0,
+                    "y": 0
+                },
+                "trimBox": {
+                    "h": 841.8898,
+                    "w": 595.2756,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "id": 1,
+            "layers": [
+                1
+            ]
+        }
+    ],
+    "selection": [
+    ],
+    "version": 1
+}

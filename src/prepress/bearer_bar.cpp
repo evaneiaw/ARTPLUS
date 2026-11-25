@@ -106,14 +106,18 @@ void attachSide(Document& doc, ObjectId groupId,
 
 // ================================================================= BearerBarParams
 
+// R5 (v24.03.10017) — DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+// (0x18012E950): 1..4 são zerados quando Direction == 0; 5..8 quando
+// Direction == 1; 0 ("não definido") cai no `default` do switch e nunca muda.
+// Retorna `true` quando o par (sizeReference, direction) é preservado.
 bool BearerBarParams::sizeReferenceCoherent(int sizeReference, int direction) {
     if (sizeReference < 0 || sizeReference > 8) return false;
     if (sizeReference == 0) return true;
     if (sizeReference >= 1 && sizeReference <= 4) {
-        return direction == 0;
+        return direction == 1;
     }
     if (sizeReference >= 5 && sizeReference <= 8) {
-        return direction == 1;
+        return direction == 0;
     }
     return false;
 }
@@ -299,6 +303,17 @@ bool BearerBar::regenerate(Document& doc, PageId page) {
     auto group = doc.object(m_groupId);
     if (!group || group->type() != ObjectType::Group) return false;
 
+    // R5/E3 (v24.03.10017) — DocumentMarks::PDFPlusBearerBar::UpdateSizeReference
+    // (0x18012E950) roda antes da geometria em regenerateMarkImp (0x18012F6E0) e
+    // ZERA `SizeReference` quando ele é incompatível com `Direction`: correção
+    // silenciosa, sem exceção. `direction` é opaco nesta v1 (não há modelo de
+    // anchors para derivá-lo via UpdateDirection, 0x18012E7D0), portanto o valor
+    // efetivo é o próprio `m_params.direction`. Valores incoerentes viram 0 antes
+    // de gerar geometria e antes de qualquer serialização posterior.
+    if (!BearerBarParams::sizeReferenceCoherent(m_params.sizeReference, m_params.direction)) {
+        m_params.sizeReference = 0;
+    }
+
     const QRectF box = resolveReferenceBox(doc, page);
     if (box.isEmpty()) return false; // preserve previous geometry
 
@@ -415,7 +430,17 @@ bool BearerBarManager::setParams(ObjectId groupId, const BearerBarParams& params
     if (!m_document) return false;
     BearerBar* mark = find(groupId);
     if (!mark) return false;
-    if (mark->params() == params) return true; // nothing to do, no undo action
+
+    // R5/E3 (v24.03.10017) — mesma zeragem silenciosa de UpdateSizeReference
+    // (0x18012E950) aplicada antes de comparar/registrar a ação: assim o valor
+    // corrigido é o que fica na marca, no undo (`captureAfter`) e no metadado.
+    // Sem exceção; `Direction` efetiva = `params.direction` (v1 sem anchors).
+    BearerBarParams normalized = params;
+    if (!BearerBarParams::sizeReferenceCoherent(normalized.sizeReference, normalized.direction)) {
+        normalized.sizeReference = 0;
+    }
+
+    if (mark->params() == normalized) return true; // nothing to do, no undo action
 
     const PageId page = pageOf(*mark);
     if (page == 0) return false;
@@ -424,13 +449,13 @@ bool BearerBarManager::setParams(ObjectId groupId, const BearerBarParams& params
     auto cmd = std::make_unique<BearerBarEditCommand>(this, groupId, mark->displayIndex());
     cmd->capture(*m_document, false, before);
 
-    mark->setParams(params);
+    mark->setParams(normalized);
     if (!mark->regenerate(*m_document, page)) {
         mark->setParams(before); // empty box: keep previous state
         return false;
     }
 
-    cmd->captureAfter(*m_document, false, params);
+    cmd->captureAfter(*m_document, false, normalized);
     if (m_undoStack) m_undoStack->push(std::move(cmd)); // R5: uma única ação
     saveToMetadata();
     return true;

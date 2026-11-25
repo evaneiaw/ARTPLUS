@@ -1,14 +1,15 @@
-# NDLModel 1800508d0
-```yaml
+---
 modulo: NDLModel.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x1800508d0
 nome: ?SavePreflightReport@NDLModel@@YA?AV?$Future@X@Parallel@@USelection@1@UAction@1@AEBVpath@filesystem@boost@@W4PreflightReportType@1@AEBULocale@1@AEBUApplicationInfo@1@2@Z
 mangled: SavePreflightReport
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# NDLModel 1800508d0
 
 ## Assinatura
 ```c

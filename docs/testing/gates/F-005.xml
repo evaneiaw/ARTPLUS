@@ -6,9 +6,9 @@
 	skipped="0"
 	hostname=""
 	time="0"
-	timestamp="2026-11-23T19:43:21"
+	timestamp="2026-11-24T14:12:18"
 	>
-	<testcase name="PdfRoundTrip" classname="PdfRoundTrip" time="0.400729" status="run">
+	<testcase name="PdfRoundTrip" classname="PdfRoundTrip" time="0.181527" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>

@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 1800261f0
 nome: ClassicMinimalLayouts
 assinatura: IntermediateSheet ClassicMinimalLayouts(NestingSheetGenerator * this, vector<LayoutEngine::OrderedStation,std::allocator<LayoutEngine::OrderedStation>_> * param_1)
 parametros: 2
 retorno: IntermediateSheet
+confianca: media
+---
 
 ## Callers (xrefs de entrada)
 - 18007180c -> unknown (DATA)

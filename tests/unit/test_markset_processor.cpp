@@ -42,6 +42,7 @@
 #include "../../src/document/document_serializer.h"
 
 using namespace ArtPlus;
+using namespace ArtPlus::Prepress;
 
 namespace {
 
@@ -139,7 +140,7 @@ private slots:
     {
         MarkSetProcessor processor;
 
-        const std::vector<std::string> sets = processor.identifyRelevantSets();
+        const std::vector<MarkSetInfo> sets = processor.identifyRelevantSets();
         QVERIFY2(sets.empty(), "ids fixos seriam simulação (TODO(F-002) em R4)");
 
         // Estável entre chamadas.
@@ -267,7 +268,7 @@ private slots:
         Document target;
         const DocFixture t = setupPage(target);
 
-        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page)));
+        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page), "test.markset"));
         QVERIFY2(processor.lastError().find("no target document") != std::string::npos,
                  processor.lastError().c_str());
         QCOMPARE(processor.lastCopiedObjectCount(), 0);
@@ -287,7 +288,7 @@ private slots:
         processor.setTargetDocument(target);
 
         Page foreign;
-        QVERIFY(!processor.copyMarksToPage(source, foreign));
+        QVERIFY(!processor.copyMarksToPage(source, foreign, "test.markset"));
         QVERIFY2(processor.lastError().find("does not belong to the target document")
                      != std::string::npos,
                  processor.lastError().c_str());
@@ -306,7 +307,7 @@ private slots:
         const DocFixture t = setupPage(target);
         processor.setTargetDocument(target);
 
-        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page)));
+        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page), "test.markset"));
         QVERIFY2(processor.lastError().find("source document has no pages") != std::string::npos,
                  processor.lastError().c_str());
         QCOMPARE(processor.lastCopiedObjectCount(), 0);
@@ -325,7 +326,7 @@ private slots:
         const DocFixture t = setupPage(target);
         processor.setTargetDocument(target);
 
-        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page)));
+        QVERIFY(!processor.copyMarksToPage(source, *target.page(t.page), "test.markset"));
         QVERIFY2(processor.lastError().find("has no objects") != std::string::npos,
                  processor.lastError().c_str());
         QCOMPARE(processor.lastCopiedObjectCount(), 0);
@@ -347,7 +348,7 @@ private slots:
         QCOMPARE(static_cast<int>(sourceLayerBefore.size()), 3);
 
         Document target;
-        const DocFixture t = setupPage(target);
+        const DocFixture t = setupPage(target, QStringLiteral("Mark Set"));
         auto existing = addPath(target, t.layer, QStringLiteral("existente"));
         QCOMPARE(target.objects().size(), 1u);
 
@@ -355,7 +356,7 @@ private slots:
         QVERIFY2(processor.prepareMarksCachePage(*target.page(t.page)),
                  processor.lastError().c_str());
 
-        QVERIFY2(processor.copyMarksToPage(source, *target.page(t.page)),
+        QVERIFY2(processor.copyMarksToPage(source, *target.page(t.page), "test.markset"),
                  processor.lastError().c_str());
         QCOMPARE(processor.lastCopiedObjectCount(), 6);
         QCOMPARE(target.objects().size(), 7u);
@@ -416,7 +417,7 @@ private slots:
         QVERIFY(source.layer(sourceLayerId)->objects() == sourceLayerBefore);
 
         // Segunda aplicação ANEXA (7 -> 13), não substitui.
-        QVERIFY2(processor.copyMarksToPage(source, *target.page(t.page)),
+        QVERIFY2(processor.copyMarksToPage(source, *target.page(t.page), "test.markset"),
                  processor.lastError().c_str());
         QCOMPARE(processor.lastCopiedObjectCount(), 6);
         QCOMPARE(target.objects().size(), 13u);

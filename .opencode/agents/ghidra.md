@@ -2,29 +2,38 @@
 description: "Analisa binários do ArtPro+ no Ghidra 12.2 headless: funções, xrefs, vtables/RTTI, strings, recursos e pseudocódigo. Produz relatórios rastreáveis e evidência por endereço."
 mode: subagent
 color: "#4c9aff"
-maxSteps: 40
-permission:
-  edit:
-    "*": deny
-    "tools/ghidra_analysis/**": allow
-    "tools/ghidra_projects/**": allow
-    "docs/reverse-engineering/**": allow
-    "rag/evidence/**": allow
-  write:
-    "*": deny
-    "tools/ghidra_analysis/**": allow
-    "tools/ghidra_projects/**": allow
-    "docs/reverse-engineering/**": allow
-    "rag/evidence/**": allow
-  bash:
-    "*": allow
-  task:
-    "*": deny
-  webfetch: deny
-  external_directory:
-    "*": ask
-    "C:/Esko/**": allow
-    "C:\\Esko\\**": allow
+steps: 64
+permissions:
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "tools/ghidra_analysis/*"
+    effect: allow
+  - action: edit
+    resource: "tools/ghidra_projects/*"
+    effect: allow
+  - action: edit
+    resource: "docs/reverse-engineering/*"
+    effect: allow
+  - action: edit
+    resource: "rag/evidence/*"
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: allow
+  - action: subagent
+    resource: "*"
+    effect: deny
+  - action: webfetch
+    resource: "*"
+    effect: deny
+  - action: external_directory
+    resource: "*"
+    effect: ask
+  - action: external_directory
+    resource: "C:/Esko/*"
+    effect: allow
 ---
 
 # Ghidra — extração estática do ArtPro+

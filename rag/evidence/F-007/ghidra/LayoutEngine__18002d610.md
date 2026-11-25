@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 18002d610
 nome: SetUpNest
 assinatura: Nesting * SetUpNest(NestingSheetGenerator * this)
 parametros: 1
 retorno: Nesting *
+confianca: media
+---
 
 ## Callers (xrefs de entrada)
 - 180071a9c -> unknown (DATA)

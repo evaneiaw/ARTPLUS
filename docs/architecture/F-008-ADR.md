@@ -39,7 +39,7 @@ O módulo **não** implementa a UI de Color Management (diálogo, abas, validaç
 | `0x180027c40` | `FUN_180027c40()` | `ColorManipulationLayer` | `initLCMS()` | Inicialização Little CMS / device-link |
 | `0x1800269b0` | `FUN_1800269b0()` | `ColorManipulationLayer` | `initPantone()` | Inicialização bibliotecas Pantone/ColorLib |
 | `0x180014cc0` | `InitializeXYZProfile()` | `ColorManipulationLayer` | `initializeXYZProfile()` | Registra `Enfocus XYZ Profile.icc` como perfil XYZ padrão |
-| `0x180014bd0` | `InitializeStrings()` | `ColorManipulationLayer` | `initializeStrings()` | Carrega mensagens de erro do `.rdata` |
+| `0x180014bd0` | `InitializeStrings()` | `ColorManipulationLayer` | — (tabela de constantes de `color_management_exception.h`, namespace `artplus::color::messages`) | Carrega mensagens de erro do `.rdata`; no ArtPlus não há chamada de inicialização em runtime |
 | `0x1800161c0` | `FUN_1800161c0()` | `ColorManipulation` | `setLevelProfileInternal()` | Efetiva definição/empilhamento de perfil no nível |
 | `0x180015cc0` | `FUN_180015cc0()` | `ColorLibInfo` | `matches(ColorType, CategoryType) const` | Match de tipo/categoria no array de `ColorLibInfo` |
 | `0x180015c00` | `FUN_180015c00()` | `ColorLibInfo` | `getProfile() const` | Retorna `SharedPtr<ICCProfile>` do `ColorLibInfo` |
@@ -63,7 +63,10 @@ private:
     static int sInitialized;            // contador de reentrância
     static bool initLCMS();             // 0x180027c40
     static bool initPantone();          // 0x1800269b0
-    static void initializeStrings();    // 0x180014bd0
+    // R1e — sem chamada de inicialização em runtime no ArtPlus: o equivalente é a
+    // tabela de constantes de src/color_management/color_management_exception.h
+    // (namespace artplus::color::messages). No binário, as mensagens do .rdata são
+    // carregadas por InitializeStrings() (0x180014bd0).
     static void initializeXYZProfile(); // 0x180014cc0
 };
 
@@ -212,7 +215,7 @@ private:
 
 | Arquivo | Ação |
 |---|---|
-| `src/color_management/CMakeLists.txt` | Novo alvo `ColorManagement` (static lib), link contra `Qt6::Core` e `lcms2` (via `find_package`) |
+| `src/color_management/CMakeLists.txt` | Novo alvo `ColorManagement` (static lib) com link **apenas** em `Qt6::Core` — sem `find_package(lcms2)`; integração lcms2/Pantone adiada (Limitação 5). Investigação sistemática (2026-11) confirmou que lcms2 dev headers/libs e Pantone SDK não estão disponíveis para o toolchain MinGW/MSVCRT + Qt 6.8.3 — see findings below. |
 | `src/color_management/color_manipulation_layer.cpp` | Implementa `initialize()`/`shutdown()` conforme pseudocódigo 0x180014b80 |
 | `src/color_management/color_manipulation.cpp` | Implementa singleton, stack de perfos, resolução ativa |
 | `src/color_management/callback_converter.cpp` | Implementa pipeline de callbacks (pseudocódigo pendente — confiança `media`) |
@@ -223,8 +226,94 @@ private:
 
 **Riscos:**
 - `GCCallbackConverter::ConvertColor` (0x18000a2f0) tem confiança `media` — pseudocódigo não disponível; implementação inicial baseada na assinatura e inferência; requer validação futura com `ghidra`/`rea` contra v24.
-- `FUN_180027c40` e `FUN_1800269b0` sem nomes reais — implementação inicial fará stubs que retornam `true`; integração real com `lcms2` e bibliotecas Pantone virá em fase posterior.
+- `FUN_180027c40` e `FUN_1800269b0` sem nomes reais — `initLCMS()` e `initPantone()` são stubs declarados (`TODO(F-008)`) guardados pelas Limitações 4–5. `initLCMS()` grava `sCmmEngineAvailable = false` e `isCmmEngineAvailable()` retorna `false` (nenhuma engine é anunciada); a integração real com `lcms2` e bibliotecas Pantone virá em fase posterior.
 - Ausência de evidência comportamental (BLO-004) — UI de Color Management não será implementada até captura CAP-*.
+
+## Investigação de disponibilidade — lcms2 e Pantone (F-008, 2026-11-24)
+
+Esta seção registra a investigação sistemática de disponibilidade/viabilidade das dependências externas
+que sustentam as Limitações 4–5, conforme solicitado pelo orquestrador. Toda a investigação é leitura
+do ambiente e do repositório; **nenhum** arquivo de `src/`, `tests/` ou evidência foi alterado.
+
+### Evidência da necessidade (binário v24.03.10017)
+
+| Achado | Fonte | Interpretação |
+|---|---|---|
+| Import `lcms.dll` | `rag/sources/ColorManipulationLayer_strings.txt:1027`; `rag/evidence/F-003/rea/scan_binary.txt:95` | O backend v24 usa Little CMS **v1** (`lcms.dll`), não `lcms2.dll`. |
+| RTTI `BCMLittleCMS`, `BCMLittleCMSProfile`, `BCMLittleCMSDLProfile`, `BCMLittleCMSLink` | `rag/sources/ColorManipulationLayer_strings.txt:1336-1342` | Abstração interna de CMM/device-link confirma engine Little CMS no original. |
+| Import `mscms.dll` | spec F-008 §7, `imports.txt` | Windows Color System é usado para perfis do sistema. |
+| Strings ISO 12647-2, FOGRA53, Pantone | spec F-008 §6; `strings64.txt` | Dados de referência de perfis/spots presentes no binário. |
+
+> Observação de versão: a spec F-008 §7 escreve "lcms.dll (Little CMS)" e o ADR original (limitação 5)
+> fala em "lcms2". O binário de referência importa `lcms.dll` (API v1). A decisão abaixo cobre
+> **ambas** as variantes: nenhuma está disponível no toolchain atual. Isto é uma correção de
+> diagnóstico, **não** uma autorização para implementar engine substituta.
+
+### Resultado da busca no ambiente (comandos e caminhos)
+
+| Alvo de busca | Método | Resultado |
+|---|---|---|
+| `lcms2.h` / `lcms.h` em todo `C:\` | glob recursivo `**/lcms2.h` | **nenhum arquivo** |
+| `liblcms*` / `lcms*.lib` / `lcms*.dll` em WinGet packages | glob `**/*lcms*`, `**/liblcms*` | **nenhum arquivo** |
+| lcms em `C:\Qt` (Qt 6.8.3 mingw_64) | glob `**/*lcms*` | **nenhum arquivo** (Qt não distribui lcms2 dev) |
+| vcpkg instalado | glob `vcpkg*` em `C:\` | **ausente** (sem porta `lcms2` disponível) |
+| Conan instalado | glob `**/*conan*` em WinGet | **ausente** |
+| MSYS2 (`C:\msys64`) | glob `**/lcms*` | **diretório inexistente** (sem `mingw-w64-lcms2`) |
+| Pantone SDK / libraries | glob `**/*Pantone*` em `C:\` | **nenhum SDK**; apenas paletas de cores XML do CorelDRAW (`PantonePlusSolidCoated.xml` etc.) — dados de paleta, **não** biblioteca de conversão Pantone/ColorLib |
+| `find_package(lcms2)` no projeto | grep em `src/`, `CMakeLists.txt` | **nenhum** (decisão prévia já vigente) |
+
+O toolchain canônico (`CMakePresets.json`) é WinLibs POSIX.MSVCRT + Qt 6.8.3 `mingw_64`,
+com `Qt6::Core/Gui/Widgets/Test/ZlibPrivate`. Não há pacote lcms2 compatível com esse par
+ABI (MSVCRT, não UCRT) pré-instalado, nem gerenciador de pacotes C++ operacional no ambiente.
+
+### Análise de viabilidade das rotas de integração
+
+| Rota | Viabilidade | Razão |
+|---|---|---|
+| `find_package(lcms2)` com pacote sistema | **Inválida** | Nenhum lcms2 dev instalado; CMake falharia em find_package e quebraria o gate de build. |
+| vcpkg `lcms2` | **Inválida no estado atual** | vcpkg não instalado; exigiria bootstrap + port build + política de licença (dependency-license-audit), fora do escopo desta feature. |
+| Conan `lcms2` | **Inválida no estado atual** | Conan não instalado; mesmo custo de bootstrap e auditoria de dependência. |
+| MSYS2 `mingw-w64-lcms2` | **Inválida no estado atual** | MSYS2 não instalado; além disso, pacotes MSYS2 são UCRT — mistura de heap com o Qt MSVCRT (risco documentado em `AGENTS.md` §5 e `CMakePresets.json`). |
+| Build de lcms2 a partir do fonte com o próprio MinGW/MSVCRT | **Tecnicamente possível, mas bloqueada por política** | Exige importar código de terceiros para `src/` ou `tools/`, registrar licença (Little CMS é MIT — compatível), validar ABI MSVCRT, escrever bridge C++ e testes de conversão calibrada com tolerância ΔE. Nenhuma spec F-### cobre a bridge; fazer isso agora seria decisão por inferência e violaria "evidência primeiro" (AGENTS.md §6, regra 1). |
+| Usar `mscms.dll` (Windows Color System / WCS) como engine | **Rejeitada** | O binário de referência usa lcms como engine de conversão; WCS é usado apenas para acesso a perfis do sistema. Substituir por WCS mudaria o comportamento (intent, BPC, device-link) sem evidência de equivalência — clone funcional exige o mesmo CMM. |
+| Pantone SDK / ColorLib | **Indisponível** | SDK proprietário não encontrado; as paletas XML do CorelDRAW são dados, não API de conversão. Não há caminho de integração sem licença/SDK. |
+
+### Decisão formal (adiamento com registro de bloqueio recomendado)
+
+**Decisão: INTEGRAR DEPOIS (`integrate later`) — não integrar agora, não remover os stubs honestos.**
+
+Justificativa (cada item cita F-008 e sua evidência):
+
+1. F-008 spec §7 e RTTI/imports provam que o original depende de `lcms.dll`/Little CMS e de
+   bibliotecas Pantone; porém a engine não é substituível por outra sem mudar comportamento
+   (intents, BPC, device-link) — integração *now* exigiria a engine real, que não existe no ambiente.
+2. Nenhuma das rotas de integração (pacote, vcpkg, conan, MSYS2) está operacional; a única rota
+   tecnicamente viável (build do fonte lcms2 com MSVCRT) é uma mudança arquitetural de dependência
+   não coberta por spec/ADR aprovada e exigiria auditoria de licença — decisão fora da autonomia
+   desta feature (AGENTS.md §6, regra 1: "evidência primeiro"; regra 8: conflito de contrato vai
+   para `docs/agents/CONFLITOS.md`).
+3. Os stubs `initLCMS()`/`initPantone()` são **honestos**: retornam `true` para não abortar o
+   `initialize()` (que no original só falha se a lib não carregar — aqui não há lib para carregar),
+   mas `isCmmEngineAvailable()` reporta `false` e nenhuma capacidade de conversão calibrada é
+   anunciada. O auditor confirmou (laudo `F-008-audit-20261124c.md` §6) que não há stub silencioso.
+   Remover os stubs sem substituto funcional quebraria o contrato de inicialização (R1) e os
+   testes; portanto permanecem até que a bridge real exista.
+4. As regras 7 e 9 da spec ficam **parcialmente** implementadas por decisão registrada, não por
+   omissão — o laudo de auditoria registra essa parcialidade como ressalva não bloqueante.
+
+**Recomendação ao orquestrador (fora do escopo deste agente):** registrar bloqueio formal em
+`docs/agents/BLOQUEIOS.md` — sugestão de ID `BLO-009` — com o texto: "F-008: integração da engine
+lcms/lcms2 e de Pantone/ColorLib bloqueada — nenhuma dependência dev disponível para toolchain
+MinGW/MSVCRT + Qt 6.8.3; rotas vcpkg/conan/MSYS2 ausentes; build do fonte exige spec+ADR de
+dependência e auditoria de licença. Stubs honestos mantidos (isCmmEngineAvailable()==false)."
+Este agente **não** edita `docs/agents/` (fora do seu escopo de escrita). A recomendação não altera
+o estado comprovado atual da feature, que permanece `auditado` com ressalvas declaradas.
+
+**Critério de desbloqueio (para o orquestrador):** abrir nova spec/ADR de dependência
+(dependency-license-audit) cobrindo: (a) escolha lcms v1 vs v2 com evidence do binário v24,
+(b) build com toolchain MSVCRT e hash do artefato, (c) bridge C++ isolada atrás de
+`CallbackConverter`/`ICCProfileCache`, (d) testes de conversão com tolerância ΔE medida no original.
+Somente após esses artefatos os stubs devem ser substituídos e as regras 7/9 marcadas como completas.
 
 ## Evidência
 
@@ -246,8 +335,8 @@ SHA-256 do binário analisado (v24.03.10017): **A8C26801F3102F09911614DE1947B666
 1. **Funções placeholder (`FUN_180027c40`, `FUN_1800269b0`, `FUN_1800161c0`, `FUN_180015cc0`, `FUN_180015c00`)** — Nomes reais não resolvidos no export Ghidra; mapeamento para métodos internos é inferido.
 2. **Enums `ColorType`/`CategoryType`/`RenderingIntent`** — Valores numéricos exatos não confirmados; mapeamento proposto segue ordem lógica e strings adjacentes; necessita de dump de `GCColorManipulationEnums` via Ghidra.
 3. **Exceções** — Códigos de exceção (ex.: `0x124f85`) mapeados para `ColorException` customizada; hierarquia de exceções do ArtPlus ainda não definida (fora do escopo deste ADR).
-4. **Inicialização Pantone/ColorLib (`initPantone`, `FUN_1800269b0`)** — Stub inicial retorna `true`; integração real com bibliotecas Pantone/ColorLib virá em fase posterior.
-5. **Inicialização LCMS/device-link (`initLCMS`, `FUN_180027c40`)** — Stub inicial retorna `true`; integração real com `lcms2` virá em fase posterior.
+4. **Inicialização Pantone/ColorLib (`initPantone`, `FUN_1800269b0`)** — Stub honesto mantido; integração real não possível no ambiente (Pantone SDK não encontrado — ver *Investigação de disponibilidade* acima e `docs/decisions/ADR-008-lcms2-pantone-dependency.md`).
+5. **Inicialização LCMS/device-link (`initLCMS`, `FUN_180027c40`)** — Stub honesto mantido; integração real não possível no ambiente (lcms2 dev headers/libs não encontrados para MinGW/MSVCRT + Qt 6.8.3 — ver *Investigação de disponibilidade* acima e `docs/decisions/ADR-008-lcms2-pantone-dependency.md`).
 
 ---
 

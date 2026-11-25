@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-22T15:09:44-03:00",
+  "timestamp": "2026-11-24T14:12:18-03:00",
   "feature": "F-002",
   "test_name": "MarkSetProcessor",
-  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-002.xml --output-on-failure -R ^MarkSetProcessor$",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build_core_gate --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-002.xml --output-on-failure -R ^MarkSetProcessor$",
   "exit_code": 0,
   "xml_path": "H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-002.xml",
-  "xml_sha256": "7A09564AC88CB6087E937932C1F0BA4D749C2E4E0AB9A3ACCEFE6C966B316F72",
-  "log_path": "docs/testing/gates/logs/test-F-002-20261122-150943-810.log",
+  "xml_sha256": "FB62AE5E19066BA54A16F15DA0F0AA3251C29F070DE62DCA63EE6D5315B0DF4E",
+  "log_path": "docs/testing/gates/logs/test-F-002-20261124-141218-440.log",
   "tests": [
     {
       "name": "MarkSetProcessor",
       "status": "passed",
-      "time": 0.336
+      "time": 0.114
     }
   ],
   "failures": 0,

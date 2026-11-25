@@ -33,9 +33,12 @@ Artefatos de execução (verificáveis, ficam versionados):
     docs/testing/gates/logs/test-F-###-<timestamp>.log
 
 Token de auditoria (liga o laudo aos artefatos realmente executados):
-    token = SHA-256( sha256(build.json) + sha256(F-###.test.json)
-                     + sha256(spec) + sha256(manifest) )
-    onde sha256(x) é o hexadecimal maiúsculo do SHA-256 de x.
+    token = SHA-256( sha256(F-###.test.json) + sha256(spec) + sha256(manifest)
+                     + sha256(src declarado)* + sha256(testes que citam F-###)* )
+    onde sha256(x) é o hexadecimal maiúsculo do SHA-256 de x e (*) é ordenado
+    por caminho relativo. `build.json` é artefato GLOBAL e NÃO entra no token:
+    um build concorrente de outra feature não pode invalidar este laudo. O vigor
+    do build continua exigido pelo GATE de código (build_artifact_errors).
 
 Códigos de saída:
     0  APROVADO
@@ -55,6 +58,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import xml.etree.ElementTree as ET
 
 # Permite que o --selftest rode o próprio gate contra um repositório temporário
@@ -72,7 +76,6 @@ AUDIT_DIR = os.path.join(REPO, "docs", "audit")
 SPEC_DIR = os.path.join(REPO, "docs", "features")
 ADR_DIR = os.path.join(REPO, "docs", "decisions")
 SRC_DIR = os.path.join(REPO, "src")
-TESTS_DIR = os.path.join(REPO, "tests")
 CMAKELISTS = os.path.join(REPO, "CMakeLists.txt")
 
 GATES_DIR = os.path.join(REPO, "docs", "testing", "gates")
@@ -180,6 +183,138 @@ def newest_file(roots):
                 if m > newest:
                     newest, which = m, fp
     return newest, which
+
+
+# ---------------------------------------------------------------------------
+# Tabelas markdown e descoberta de features
+# ---------------------------------------------------------------------------
+
+_TABLE_SEP_RE = re.compile(r"^\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)*\|?$")
+
+
+def _split_row(line):
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def _norm_cell(cell):
+    """Normaliza um cabeçalho: sem `*`/backtick, sem espaços, minúsculo."""
+    return re.sub(r"[*`\s]", "", cell).lower()
+
+
+def _is_table_separator(line):
+    return bool(line.startswith("|")) and bool(_TABLE_SEP_RE.match(line.strip()))
+
+
+def _md_tables(text):
+    """Retorna [(cabeçalho, [linhas_de_dados])] de todas as tabelas markdown."""
+    lines = text.splitlines()
+    tables = []
+    i = 0
+    while i < len(lines) - 1:
+        head = lines[i].strip()
+        if head.startswith("|") and _is_table_separator(lines[i + 1]):
+            header = _split_row(head)
+            rows = []
+            j = i + 2
+            while j < len(lines) and lines[j].strip().startswith("|"):
+                rows.append(_split_row(lines[j].strip()))
+                j += 1
+            tables.append((header, rows))
+            i = j
+            continue
+        i += 1
+    return tables
+
+
+def _md_section(text, title_re):
+    """Trecho de texto sob o primeiro título que casa `title_re` (até o próximo
+    título de nível igual ou superior)."""
+    lines = text.splitlines()
+    start = level = None
+    for i, ln in enumerate(lines):
+        m = re.match(r"^(#{1,6})\s+(.*)$", ln.strip())
+        if m and re.search(title_re, m.group(2), re.I):
+            start, level = i + 1, len(m.group(1))
+            break
+    if start is None:
+        return ""
+    out = []
+    for ln in lines[start:]:
+        m = re.match(r"^(#{1,6})\s+", ln.strip())
+        if m and len(m.group(1)) <= level:
+            break
+        out.append(ln)
+    return "\n".join(out)
+
+
+def discover_features():
+    """Todas as features rastreáveis: INVENTORY + specs + diretórios de evidência."""
+    ids = set(parse_inventory())
+    if os.path.isdir(SPEC_DIR):
+        for name in os.listdir(SPEC_DIR):
+            m = re.match(r"^(F-\d{3})\.md$", name)
+            if m:
+                ids.add(m.group(1))
+    if os.path.isdir(EVID):
+        for name in os.listdir(EVID):
+            if re.fullmatch(r"F-\d{3}", name) and os.path.isdir(os.path.join(EVID, name)):
+                ids.add(name)
+    return sorted(ids)
+
+
+# Documentos de estado que podem citar uma feature sem que ela exista como
+# artefato rastreável. Ordem define a precedência da "primeira ocorrência".
+ORPHAN_SOURCES = (
+    "docs/agents/CHECKPOINT.md",
+    "docs/phases/STATUS.md",
+    "docs/phases/REPOSITORY_RECONCILIATION.md",
+    "ROADMAP.md",
+)
+
+
+def _first_occurrence(path, token):
+    """Número da primeira linha de `path` que cita `token` (ou None)."""
+    try:
+        for i, ln in enumerate(read_text(path).splitlines(), 1):
+            if re.search(rf"\b{re.escape(token)}\b", ln):
+                return i
+    except OSError:
+        pass
+    return None
+
+
+def orphan_features():
+    """Features citadas em documentos de estado sem INVENTORY/spec/evidência.
+
+    Aviso de rastreabilidade (não altera exit code). Retorna {fid: "arquivo:linha"}
+    da primeira ocorrência, na ordem de `ORPHAN_SOURCES`.
+    """
+    known = set(parse_inventory()) | set(discover_features())
+    out = {}
+    for rel in ORPHAN_SOURCES:
+        p = os.path.join(REPO, rel.replace("/", os.sep))
+        if not os.path.exists(p):
+            continue
+        for tok in re.findall(r"\bF-\d{3}\b", read_text(p)):
+            if tok in known or tok in out:
+                continue
+            line = _first_occurrence(p, tok)
+            out[tok] = f"{rel}:{line}" if line else rel
+    return dict(sorted(out.items()))
+
+
+def format_orphans(orphans):
+    """Linhas da seção de órfãs (vazia se não houver)."""
+    if not orphans:
+        return []
+    lines = ["--- features órfãs (citadas, sem INVENTORY/spec/evidência) ---"]
+    for fid, where in orphans.items():
+        lines.append(f"  {fid}  citada em {where}")
+    return lines
+
+
+def _rel_sorted(paths):
+    return sorted(paths, key=lambda p: _rel(p).replace("\\", "/"))
 
 
 # ---------------------------------------------------------------------------
@@ -463,6 +598,54 @@ def _artifact_stale(path, roots, label):
     return []
 
 
+def _test_files_citing(fid, root=None):
+    """Arquivos `tests/**/*.cpp` que citam a feature (mesma regra de test_errors)."""
+    tests_dir = os.path.join(root or REPO, "tests")
+    files = glob.glob(os.path.join(tests_dir, "**", "*.cpp"), recursive=True)
+    return [f for f in files if re.search(rf"\b{re.escape(fid)}\b", read_text(f))]
+
+
+def _spec_declared_src(fid, root=None):
+    """Arquivos `src/...` declarados no frontmatter `codigo:` da spec (se houver).
+
+    A lista é a dependência de implementação declarada pela própria feature; sem
+    ela o teste não ganha dependência de `src/` (o build.json continua sendo o
+    guarda global de frescor do código, via build_artifact_errors).
+    """
+    repo = root or REPO
+    p = os.path.join(repo, "docs", "features", f"{fid}.md")
+    if not os.path.exists(p):
+        return []
+    m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", read_text(p), re.S)
+    if not m:
+        return []
+    fm = m.group(1)
+    declared, in_block = [], False
+    for ln in fm.splitlines():
+        if re.match(r"^codigo:\s*$", ln):
+            in_block = True
+            continue
+        if in_block:
+            mm = re.match(r"^\s+-\s*[\"']?(.+?)[\"']?\s*$", ln)
+            if mm:
+                declared.append(mm.group(1).strip())
+                continue
+            if re.match(r"^\s*[A-Za-z_][A-Za-z0-9_-]*\s*:", ln):
+                in_block = False
+    im = re.search(r"^codigo:\s*\[(.*?)\]", fm, re.M)
+    if im:
+        declared += [x.strip().strip("\"'") for x in im.group(1).split(",") if x.strip()]
+    out = []
+    for rel in declared:
+        rel = rel.replace("\\", "/")
+        if not re.match(r"^src/[A-Za-z0-9_./-]+\.(?:cpp|h|hpp|cc|cxx)$", rel):
+            continue
+        ap = os.path.join(repo, rel.replace("/", os.sep))
+        if os.path.exists(ap):
+            out.append(ap)
+    return out
+
+
 def build_artifact_errors():
     """Verifica docs/testing/gates/build.json e o log correspondente."""
     errs = []
@@ -529,7 +712,11 @@ def test_artifact_errors(fid):
         errs.append(f"XML JUnit ausente: {xmlp}")
     elif sha256(xmlp) != str(d["xml_sha256"]).upper():
         errs.append(f"xml_sha256 do {fid}.test.json não confere com o XML real")
-    errs.extend(_artifact_stale(jp, [SRC_DIR, TESTS_DIR], f"{fid}.test.json"))
+    # Validade por dependência da feature: o teste que a cita + os arquivos src
+    # declarados no frontmatter `codigo:` da spec. Nunca o diretório tests/
+    # inteiro (editar o teste de outra feature não pode invalidar este artefato).
+    deps = _test_files_citing(fid) + _spec_declared_src(fid)
+    errs.extend(_artifact_stale(jp, deps, f"{fid}.test.json"))
     return errs
 
 
@@ -548,9 +735,13 @@ def resolve_test(fid):
     return name, None
 
 
-def compute_token_files(build_p, test_p, spec_p, manifest_p):
-    """token = sha256(sha256(build)+sha256(test)+sha256(spec)+sha256(manifest))."""
-    paths = [build_p, test_p, spec_p, manifest_p]
+def compute_token_files(test_p, spec_p, manifest_p, extra_paths=()):
+    """token = sha256(sha256(test)+sha256(spec)+sha256(manifest)+sha256(x)...).
+
+    Pura: só hasheia os caminhos recebidos, nesta ordem. `build.json` NÃO entra
+    (é global e um build concorrente de outra feature não pode invalidar o laudo).
+    """
+    paths = [test_p, spec_p, manifest_p] + list(extra_paths)
     missing = [p for p in paths if not os.path.exists(p)]
     if missing:
         return None, [], [f"token impossível: artefato ausente {_rel(p)}" for p in missing]
@@ -559,11 +750,13 @@ def compute_token_files(build_p, test_p, spec_p, manifest_p):
 
 
 def compute_token(fid):
+    extra = (_rel_sorted(_spec_declared_src(fid))
+             + _rel_sorted(_test_files_citing(fid)))
     return compute_token_files(
-        BUILD_JSON,
         test_json_path(fid),
         spec_path(fid),
         os.path.join(EVID, fid, "manifest.json"),
+        extra,
     )
 
 
@@ -592,8 +785,7 @@ def code_errors(fid):
 
 def test_errors(fid):
     errs = []
-    files = glob.glob(os.path.join(TESTS_DIR, "**", "*.cpp"), recursive=True)
-    hit = [f for f in files if re.search(rf"\b{fid}\b", read_text(f))]
+    hit = _test_files_citing(fid)
     if not hit:
         return [f"nenhum teste cita {fid}"]
     for f in hit:
@@ -637,24 +829,54 @@ def audit_errors(fid):
         if token not in found:
             errs.append(f"laudo sem token de gate válido (esperado {token})")
 
-    # frescor: laudo anterior ao código/evidência = inválido
+    # frescor: laudo anterior ao código/evidência DA FEATURE = inválido.
+    # Nunca varrer `src/` inteiro: edição em arquivo de outra feature não pode
+    # invalidar este laudo (AGENTS.md §10.7).
     t_audit = os.path.getmtime(latest)
-    newest, which = newest_file([SRC_DIR])
     mp = os.path.join(EVID, fid, "manifest.json")
+    sp = spec_path(fid)
+    deps = _spec_declared_src(fid) + _test_files_citing(fid)
+    if os.path.exists(sp):
+        deps.append(sp)
     if os.path.exists(mp):
-        m = os.path.getmtime(mp)
-        if m > newest:
-            newest, which = m, mp
-    if t_audit < newest:
+        deps.append(mp)
+    if not deps:
+        deps = [p for p in (sp, mp) if os.path.exists(p)]
+    newest, which = newest_file(deps)
+    if which and t_audit < newest:
         errs.append(f"laudo é mais antigo que {_rel(which)} (stale)")
     return errs
 
 
 def blocked_features():
-    if not os.path.exists(BLOQUEIOS):
-        return set()
-    txt = read_text(BLOQUEIOS)
-    return set(re.findall(r"\bF-\d{3}\b", txt))
+    """Features com bloqueio de ESCOPO registrado (BLOQUEIOS.md + HALT.md).
+
+    Só conta o identificador na coluna `Feature` da tabela de bloqueios ativos
+    (linhas `RESOLVIDO`/`SUPERADO` são históricas) e na primeira célula de cada
+    linha da tabela sob `## Bloqueado` do HALT. Citar `F-###` em motivo,
+    evidência ou caminho NÃO bloqueia a feature (contrato em BLOQUEIOS.md).
+    """
+    blocked = set()
+    if os.path.exists(BLOQUEIOS):
+        for header, rows in _md_tables(read_text(BLOQUEIOS)):
+            norm = [_norm_cell(h) for h in header]
+            if "feature" not in norm:
+                continue
+            idx = norm.index("feature")
+            for row in rows:
+                if len(row) <= idx:
+                    continue
+                row_text = " ".join(row).upper()
+                if "RESOLVIDO" in row_text or "SUPERADO" in row_text:
+                    continue
+                blocked.update(re.findall(r"F-\d{3}", row[idx]))
+    if os.path.exists(HALT_FILE):
+        section = _md_section(read_text(HALT_FILE), r"^Bloqueado\b")
+        for _, rows in _md_tables(section):
+            for row in rows:
+                if row:
+                    blocked.update(re.findall(r"F-\d{3}", row[0]))
+    return blocked
 
 
 def derived_state(fid, results):
@@ -712,16 +934,24 @@ def run_feature(fid):
 
 
 def inventory_verdict(fid, derived, claimed, res):
-    """Retorna (ok, mensagem) da coerência INVENTORY x estado comprovado."""
+    """Retorna (ok, mensagem) da coerência INVENTORY x estado comprovado.
+
+    Nunca lança exceção: estados derivados fora de `STAGES` (`bloqueado`,
+    `fora-do-escopo-v24`) são tratados explicitamente.
+    """
     if not claimed:
         return True, None
     c = STATE_ALIASES.get(claimed, claimed)
+    blocked = blocked_features()
     if c == "bloqueado":
-        if fid not in blocked_features():
+        if fid not in blocked:
             return False, "declara 'bloqueado' sem registro em BLOQUEIOS.md"
         return True, None
+    if derived == "bloqueado":
+        return False, (f"declara '{claimed}' mas a feature está bloqueada "
+                       f"(BLOQUEIOS/HALT)")
     if c == "fora-do-escopo-v24":
-        if fid in blocked_features():
+        if fid in blocked:
             return False, "declara 'fora-do-escopo-v24' mas a feature está bloqueada"
         # For 'fora-do-escopo-v24', evidence, spec, and adr gates must pass.
         # Code and test gates must indicate absence of artifacts.
@@ -760,10 +990,15 @@ def inventory_verdict(fid, derived, claimed, res):
         # The key is that it *must not* fail due to code artifacts existing.
 
         return True, None
-    if c in STAGES:
+    if derived == "fora-do-escopo-v24":
+        return False, (f"declara '{claimed}' mas o estado comprovado é "
+                       f"'fora-do-escopo-v24'")
+    if c in STAGES and derived in STAGES:
         if STAGES.index(c) > STAGES.index(derived):
             return False, f"declara '{claimed}' mas só prova '{derived}'"
         return True, None
+    if c in STAGES:
+        return False, f"declara '{claimed}' mas o estado comprovado é '{derived}'"
     return False, f"estado declarado não reconhecido: '{claimed}'"
 
 
@@ -975,7 +1210,7 @@ def cmd_emit_token(fid):
 
 
 # ---------------------------------------------------------------------------
-# --selftest: 17 cenários em repositórios temporários (não toca o repo real)
+# --selftest: cenários de regressão em repositórios temporários (não toca o repo real)
 # ---------------------------------------------------------------------------
 
 FIXTURE_SPEC = """---
@@ -1016,6 +1251,82 @@ Nada.
 Implementação: `src/feature/feature.cpp`.
 """
 
+FIXTURE_SPEC_F008 = """---
+id: F-008
+modulo: Fixture
+versao_ref: 24.03.10017
+status: spec
+confianca: alta
+evidencia: [GHIDRA-Fixture-0x1000]
+codigo:
+  - src/feature/feature.cpp
+---
+
+# F-008 — fixture
+
+## Resumo
+Fixture de teste do gate (segunda feature).
+
+## Entrada
+Arquivo de fixture.
+
+## UI
+Nenhuma.
+
+## Regras
+R1. Regra sintética.
+
+## Exceções
+E1. Nenhuma.
+
+## Saída
+Resultado sintético.
+
+## Rastreabilidade
+GHIDRA-Fixture-0x1000.
+
+## Em aberto
+Nada.
+
+Implementação: `src/feature/feature.cpp`.
+"""
+
+FIXTURE_SPEC_F009 = """---
+id: F-009
+modulo: Fixture
+versao_ref: 24.03.10017
+status: spec
+confianca: alta
+evidencia: [GHIDRA-Fixture-0x1000]
+---
+
+# F-009 — fixture fora do escopo v24
+
+## Resumo
+Fixture de feature ausente na v24 (nenhuma implementação no clone).
+
+## Entrada
+Nada.
+
+## UI
+Ausente na v24.
+
+## Regras
+R1. Não implementar no clone.
+
+## Exceções
+E1. Nenhuma.
+
+## Saída
+Nenhuma.
+
+## Rastreabilidade
+GHIDRA-Fixture-0x1000.
+
+## Em aberto
+Nada.
+"""
+
 
 def _fixture_write(root, rel, text):
     p = os.path.join(root, rel.replace("/", os.sep))
@@ -1043,6 +1354,59 @@ def _fixture_paths(root):
     }
 
 
+def _fixture_evidence(root, fid, cap="CAP-20261118-01"):
+    binp = os.path.join(root, "rag", "evidence", fid, "bin.dll")
+    os.makedirs(os.path.dirname(binp), exist_ok=True)
+    with open(binp, "wb") as f:
+        f.write(f"MZ fixture binary {fid}".encode())
+    _fixture_write(root, f"rag/evidence/{fid}/ghidra/Fixture__0x1000.md",
+                   "---\nversao: 24.03.10017\nfuncao: fixture_fn\nconfianca: alta\n---\n")
+    _fixture_write(root, f"rag/evidence/{fid}/behavior/{cap}.md",
+                   f"# {cap}\nFixture comportamental de {fid}.\n")
+    write_json(os.path.join(root, "rag", "evidence", fid, "manifest.json"), {
+        "id": fid,
+        "versao_ref": CANON,
+        "binario": binp,
+        "sha256": _sha_file(binp),
+        "estatico": ["GHIDRA-Fixture-0x1000"],
+        "comportamental": [cap],
+        "bloqueios": [],
+    })
+
+
+def _fixture_inventory(root, f001="**auditado**", f008="**auditado**", extra_rows=""):
+    _fixture_write(root, "docs/reverse-engineering/INVENTORY.md",
+                   "# INVENTORY fixture\n\n"
+                   "| # | Feature | Módulo | Estado |\n"
+                   "|---|---|---|---|\n"
+                   f"| 1 | Cut Mark (F-001) | Fixture | {f001} |\n"
+                   f"| 2 | Color Management (F-008) | Fixture | {f008} |\n"
+                   + extra_rows)
+
+
+def _fixture_token(root, fid="F-001"):
+    """Token do fixture calculado com a MESMA composição do gate real."""
+    gates = os.path.join(root, "docs", "testing", "gates")
+    extra = (_rel_sorted(_spec_declared_src(fid, root))
+             + _rel_sorted(_test_files_citing(fid, root)))
+    token, _, errs = compute_token_files(
+        os.path.join(gates, f"{fid}.test.json"),
+        os.path.join(root, "docs", "features", f"{fid}.md"),
+        os.path.join(root, "rag", "evidence", fid, "manifest.json"),
+        extra)
+    assert not errs, errs
+    return token
+
+
+def _fixture_audit(root, fid):
+    token = _fixture_token(root, fid)
+    _fixture_write(root, f"docs/audit/{fid}-audit.md",
+                   f"# {fid} fixture — laudo\n\n"
+                   "Veredito: APROVADO\n\n"
+                   "Comandos: ctest --test-dir build_audit --output-on-failure\n\n"
+                   f"Gate-Token: {token}\n")
+
+
 def _fixture_build(root):
     """Cria um repositório sintético completo e coerente (todos os gates verdes)."""
     _fixture_write(root, "scripts/check_version.py", "import sys\nsys.exit(0)\n")
@@ -1057,32 +1421,27 @@ add_test(NAME CutMarkTests COMMAND test_cut_mark)
     _fixture_write(root, "docs/features/F-001.md", FIXTURE_SPEC)
     _fixture_write(root, "docs/decisions/ADR-001-fixture.md",
                    "# ADR-001 fixture\n\nFeature: F-001\nEstado: aprovado\n")
-    _fixture_write(root, "docs/reverse-engineering/INVENTORY.md", """# INVENTORY fixture
-
-| # | Feature | Módulo | Estado |
-|---|---|---|---|
-| 1 | Cut Mark (F-001) | Fixture | **auditado** |
-""")
-
-    binp = os.path.join(root, "rag", "evidence", "F-001", "bin.dll")
-    os.makedirs(os.path.dirname(binp), exist_ok=True)
-    with open(binp, "wb") as f:
-        f.write(b"MZ fixture binary")
-    _fixture_write(root, "rag/evidence/F-001/ghidra/Fixture__0x1000.md",
-                   "---\nversao: 24.03.10017\nfuncao: fixture_fn\nconfianca: alta\n---\n")
-    _fixture_write(root, "rag/evidence/F-001/behavior/CAP-20261118-01.md",
-                   "# CAP-20261118-01\nFixture comportamental.\n")
-    write_json(os.path.join(root, "rag", "evidence", "F-001", "manifest.json"), {
-        "id": "F-001",
-        "versao_ref": CANON,
-        "binario": binp,
-        "sha256": _sha_file(binp),
-        "estatico": ["GHIDRA-Fixture-0x1000"],
-        "comportamental": ["CAP-20261118-01"],
-        "bloqueios": [],
-    })
+    _fixture_inventory(root)
+    _fixture_evidence(root, "F-001")
 
     paths = _fixture_paths(root)
+    # Segunda feature COMPLETA: prova que a validade de F-###.test.json e do
+    # laudo é por dependência (teste que cita a feature + src do frontmatter
+    # `codigo:`), não pelo diretório tests/ inteiro. F-008 declara `codigo:`
+    # explicitamente; F-001 não declara, então depende só do seu teste.
+    _fixture_write(root, "tests/unit/color_management_tests.cpp",
+                   "// F-008 fixture\nvoid t() { QVERIFY(true); }\n")
+    _fixture_write(root, "docs/features/F-008.md", FIXTURE_SPEC_F008)
+    _fixture_write(root, "docs/decisions/ADR-008-fixture.md",
+                   "# ADR-008 fixture\n\nFeature: F-008\nEstado: aprovado\n")
+    _fixture_evidence(root, "F-008", cap="CAP-20261118-02")
+    _fixture_write(root, "docs/testing/gates/F-008.xml",
+                   '<?xml version="1.0" encoding="UTF-8"?>\n'
+                   '<testsuites><testsuite name="ColorTests" tests="1" failures="0">'
+                   '<testcase name="ColorTests" time="0.010"/></testsuite></testsuites>\n')
+    _write_fixture_test_json(root, failures=0, exit_code=0,
+                             fid="F-008", test_name="ColorTests")
+
     os.makedirs(os.path.join(root, "build_audit"), exist_ok=True)
     logp = os.path.join(root, "docs", "testing", "gates", "logs", "build-fixture.log")
     _fixture_write_bytes(root, "docs/testing/gates/logs/build-fixture.log",
@@ -1100,14 +1459,9 @@ add_test(NAME CutMarkTests COMMAND test_cut_mark)
                    '<testsuites><testsuite name="CutMarkTests" tests="1" failures="0">'
                    '<testcase name="CutMarkTests" time="0.010"/></testsuite></testsuites>\n')
     _write_fixture_test_json(root, failures=0, exit_code=0)
-    token, _, errs = compute_token_files(paths["build"], paths["test"],
-                                         paths["spec"], paths["manifest"])
-    assert not errs, errs
-    _fixture_write(root, "docs/audit/F-001-audit.md",
-                   "# F-001 fixture — laudo\n\n"
-                   "Veredito: APROVADO\n\n"
-                   "Comandos: ctest --test-dir build_audit --output-on-failure\n\n"
-                   f"Gate-Token: {token}\n")
+    _fixture_audit(root, "F-001")
+    _fixture_audit(root, "F-008")
+    _set_fixture_mtimes(root)
 
 
 def _sha_file(path):
@@ -1117,25 +1471,58 @@ def _sha_file(path):
     return h.hexdigest().upper()
 
 
-def _write_fixture_test_json(root, failures, exit_code):
+def _write_fixture_test_json(root, failures, exit_code, fid="F-001",
+                             test_name="CutMarkTests"):
     paths = _fixture_paths(root)
-    tests = [{"name": "CutMarkTests", "status": "passed" if failures == 0 else "failed",
+    tdir = os.path.dirname(paths["test"])
+    test_p = os.path.join(tdir, f"{fid}.test.json")
+    xml_p = os.path.join(tdir, f"{fid}.xml")
+    tests = [{"name": test_name, "status": "passed" if failures == 0 else "failed",
               "time": 0.01}]
-    write_json(paths["test"], {
+    write_json(test_p, {
         "timestamp": _iso(),
-        "feature": "F-001",
-        "test_name": "CutMarkTests",
-        "command": f"ctest --test-dir build_audit --output-junit {paths['xml']} "
-                   f"--output-on-failure -R ^CutMarkTests$",
+        "feature": fid,
+        "test_name": test_name,
+        "command": f"ctest --test-dir build_audit --output-junit {xml_p} "
+                   f"--output-on-failure -R ^{test_name}$",
         "exit_code": exit_code,
-        "xml_path": paths["xml"],
-        "xml_sha256": _sha_file(paths["xml"]),
-        "log_path": "docs/testing/gates/logs/test-F-001-fixture.log",
+        "xml_path": xml_p,
+        "xml_sha256": _sha_file(xml_p),
+        "log_path": f"docs/testing/gates/logs/test-{fid}-fixture.log",
         "tests": tests,
         "failures": failures,
         "failure_details": [] if failures == 0 else [
-            {"name": "CutMarkTests", "status": "failed", "message": "falha sintética"}],
+            {"name": test_name, "status": "failed", "message": "falha sintética"}],
     })
+
+
+def _set_fixture_mtimes(root):
+    """Frescor determinístico: fontes antigas, artefatos de execução recentes."""
+    now = time.time()
+    for sub in ("src", "tests"):
+        for dp, _, fs in os.walk(os.path.join(root, sub)):
+            for f in fs:
+                os.utime(os.path.join(dp, f), (now - 3600, now - 3600))
+    for rel in ("CMakeLists.txt", "docs/features/F-001.md",
+                "docs/features/F-008.md",
+                "docs/decisions/ADR-001-fixture.md",
+                "docs/decisions/ADR-008-fixture.md",
+                "docs/reverse-engineering/INVENTORY.md"):
+        p = os.path.join(root, rel.replace("/", os.sep))
+        if os.path.exists(p):
+            os.utime(p, (now - 3600, now - 3600))
+    for rel, age in (("rag/evidence/F-001/manifest.json", 1500),
+                     ("rag/evidence/F-008/manifest.json", 1500),
+                     ("docs/testing/gates/build.json", 1200),
+                     ("docs/testing/gates/F-001.test.json", 600),
+                     ("docs/testing/gates/F-008.test.json", 600),
+                     ("docs/testing/gates/F-001.xml", 600),
+                     ("docs/testing/gates/F-008.xml", 600),
+                     ("docs/audit/F-001-audit.md", 300),
+                     ("docs/audit/F-008-audit.md", 300)):
+        p = os.path.join(root, rel.replace("/", os.sep))
+        if os.path.exists(p):
+            os.utime(p, (now - age, now - age))
 
 
 def _mut_failed_test(root):
@@ -1156,7 +1543,9 @@ def _mut_audit_rejected(root):
 
 
 def _mut_halt(root):
-    _fixture_write(root, "docs/agents/HALT.md", "# HALT\nAtivo.\n")
+    """HALT com escopo explícito: tabela `## Bloqueado` + INVENTORY coerente."""
+    _fixture_halt_block(root)
+    _fixture_inventory(root, f001="**bloqueado**")
 
 
 def _mut_cap_blocked(root):
@@ -1183,12 +1572,7 @@ def _mut_inventory_coherent_red_stage(root):
     declara 'triado' no INVENTORY. --inventory deve aprovar (0) mesmo com a
     etapa vermelha, enquanto --all reprova (1).
     """
-    _fixture_write(root, "docs/reverse-engineering/INVENTORY.md", """# INVENTORY fixture
-
-| # | Feature | Módulo | Estado |
-|---|---|---|---|
-| 1 | Cut Mark (F-001) | Fixture | **triado** |
-""")
+    _fixture_inventory(root, f001="**triado**")
     p = _fixture_paths(root)["manifest"]
     d = load_json(p)
     d["sha256"] = "0" * 64
@@ -1217,9 +1601,7 @@ def _mut_test_absent(root):
 def _mut_token_mismatch(root):
     p = _fixture_paths(root)["audit"]
     txt = read_text(p)
-    token, _, _ = compute_token_files(*[ _fixture_paths(root)[k]
-                                         for k in ("build", "test", "spec", "manifest")])
-    txt = txt.replace(token, "F" * 64)
+    txt = txt.replace(_fixture_token(root), "F" * 64)
     _fixture_write(root, "docs/audit/F-001-audit.md", txt)
 
 
@@ -1242,12 +1624,163 @@ def _mut_test_stale(root):
     os.utime(p, (newest - 120, newest - 120))
 
 
+def _mut_touch_f001_test(root):
+    """Edita o teste de F-001; não pode invalidar F-008.test.json."""
+    p = os.path.join(root, "tests", "unit", "test_cut_mark.cpp")
+    t = time.time()
+    os.utime(p, (t, t))
+
+
+def _mut_touch_shared_src(root):
+    """Edita src/ compartilhado: invalida build e features que o declaram."""
+    p = os.path.join(root, "src", "feature", "feature.cpp")
+    t = time.time()
+    os.utime(p, (t, t))
+
+
+def _mut_test_json_older_than_its_source(root):
+    """F-008.test.json anterior ao teste que o sustenta; F-001 fica intacto."""
+    t = time.time()
+    os.utime(os.path.join(root, "tests", "unit", "color_management_tests.cpp"),
+             (t - 200, t - 200))
+    os.utime(os.path.join(root, "docs", "testing", "gates", "F-008.test.json"),
+             (t - 400, t - 400))
+
+
+# --- C1/C2: bloqueio por escopo e menção em caminho ------------------------
+
+BLOQUEIOS_TABLE_HEAD = (
+    "| ID | Feature | Etapa | Motivo | Evidência existente | Próximo passo |\n"
+    "|---|---|---|---|---|---|\n")
+
+
+def _fixture_bloqueios(root, row):
+    _fixture_write(root, "docs/agents/BLOQUEIOS.md",
+                   "# BLOQUEIOS fixture\n\n" + BLOQUEIOS_TABLE_HEAD + row + "\n")
+
+
+def _fixture_halt_block(root):
+    _fixture_write(root, "docs/agents/HALT.md",
+                   "# HALT\n\n## Bloqueado (não avançar)\n\n"
+                   "| Item | Motivo | Registro |\n|---|---|---|\n"
+                   "| F-001 — fixture | bloqueio sintético | `docs/agents/BLOQUEIOS.md` |\n"
+                   "| Qualquer tarefa sem pré-condição | AGENTS §6.1 | — |\n")
+
+
+def _mut_blocked_coherent(root):
+    """BLO-001 cita F-001 na coluna Feature; INVENTORY declara 'bloqueado'."""
+    _fixture_bloqueios(root,
+                       "| BLO-001 | F-001 — fixture | Comportamento | captura pendente "
+                       "| `CAP-x` | capturar |")
+    _fixture_inventory(root, f001="**bloqueado**")
+
+
+def _mut_blocked_ahead(root):
+    """Mesmo bloqueio, mas INVENTORY declara 'auditado' (adiantado)."""
+    _fixture_bloqueios(root,
+                       "| BLO-001 | F-001 — fixture | Comportamento | captura pendente "
+                       "| `CAP-x` | capturar |")
+    _fixture_inventory(root)
+
+
+def _mut_mention_not_blocked(root):
+    """F-001 só no motivo/caminho de uma linha cuja coluna Feature é outra."""
+    _fixture_bloqueios(root,
+                       "| BLO-009 | (dependência externa) outro escopo | Dependência "
+                       "| cita F-001 apenas no motivo | `docs/architecture/F-001-ADR.md` "
+                       "| provisionar |")
+    _fixture_inventory(root)  # F-001 e F-008 'auditado' — coerente
+
+
+def _mut_resolved_not_blocked(root):
+    """Linha histórica SUPERADO com F-001 na coluna Feature não bloqueia."""
+    _fixture_bloqueios(root,
+                       "| BLO-005 | F-001 — fixture | Build | **SUPERADO em 2026-11-24** "
+                       "| `CAP-x` | nenhum |")
+    _fixture_inventory(root)
+
+
+def _mut_halt_blocked_coherent(root):
+    """Tabela `## Bloqueado` do HALT cita F-001; INVENTORY coerente."""
+    _fixture_halt_block(root)
+    _fixture_inventory(root, f001="**bloqueado**")
+
+
+def _mut_halt_blocked_ahead(root):
+    """Tabela `## Bloqueado` do HALT cita F-001; INVENTORY diz 'auditado'."""
+    _fixture_halt_block(root)
+    _fixture_inventory(root)
+
+
+def _mut_out_of_scope(root):
+    """F-009 sem código/teste, com evidência+spec+ADR, INVENTORY fora-do-escopo-v24."""
+    _fixture_write(root, "docs/features/F-009.md", FIXTURE_SPEC_F009)
+    _fixture_write(root, "docs/decisions/ADR-009-fixture.md",
+                   "# ADR-009 fixture\n\nFeature: F-009\nEstado: aprovado\n")
+    _fixture_evidence(root, "F-009", cap="CAP-20261118-03")
+    _fixture_inventory(root, extra_rows=(
+        "| 3 | Out of scope (F-009) | Fixture | **fora-do-escopo-v24** |\n"))
+
+
+def _mut_foreign_build(root):
+    """Regenera build.json (conteúdo de build alheio): token e laudo não mudam."""
+    p = _fixture_paths(root)["build"]
+    d = load_json(p)
+    d["timestamp"] = "2030-01-01T00:00:00-03:00"
+    d["command"] = "cmake --build build_audit -j 99  # build de outra feature"
+    write_json(p, d)
+
+
+# --- C9: HALT com escopo (bloqueia só as features da tabela) ----------------
+
+def _mut_halt_scope(root):
+    """HALT bloqueia F-001 (avaliada no --all) e F-002 (sem artefatos)."""
+    _fixture_write(root, "docs/agents/HALT.md",
+                   "# HALT\n\n## Bloqueado (não avançar)\n\n"
+                   "| Item | Motivo | Registro |\n|---|---|---|\n"
+                   "| F-001 — fixture | bloqueio sintético | BLOQUEIOS.md |\n"
+                   "| F-002 — fixture | bloqueio sintético | BLOQUEIOS.md |\n")
+    _fixture_inventory(root, f001="**bloqueado**")
+
+
+# --- C11: features órfãs (citadas sem INVENTORY/spec/evidência) -------------
+
+def _mut_orphan_checkpoint(root):
+    _fixture_write(root, "docs/agents/CHECKPOINT.md",
+                   "# CHECKPOINT fixture\n\n"
+                   "- pendente: F-009 Gerenciamento de Objetos\n")
+
+
+def _mut_orphan_promoted(root):
+    _fixture_write(root, "docs/agents/CHECKPOINT.md",
+                   "# CHECKPOINT fixture\n\n"
+                   "- pendente: F-009 Gerenciamento de Objetos\n")
+    _fixture_inventory(root, extra_rows=(
+        "| 3 | Gerenciamento (F-009) | Fixture | **triado** |\n"))
+
+
+# Validadores de stdout usados nos cenários (recebem só o stdout do subprocesso).
+
+def _stdout_is_json_with_core(out):
+    try:
+        d = json.loads(out)
+    except Exception:  # noqa: BLE001
+        return False
+    return (isinstance(d, dict) and "version_ok" in d and "features" in d
+            and "orphans" in d)
+
+
+def _no_orphan_section(out):
+    return "features órfãs" not in out
+
+
 def run_selftest():
     script = os.path.abspath(__file__)
     tmp = tempfile.mkdtemp(prefix="artplus_gate_selftest_")
     base = os.path.join(tmp, "base")
     os.makedirs(base)
     _fixture_build(base)
+    base_token = _fixture_token(base)
 
     scenarios = [
         ("tudo ok (code/test/audit)", None,
@@ -1289,7 +1822,77 @@ def run_selftest():
         # comprovado) com etapa vermelha ⇒ --inventory = 0 e --all = 1.
         ("inventário coerente c/ etapa vermelha", _mut_inventory_coherent_red_stage,
          [(["--inventory"], 0), (["--all"], 1)]),
+        # Validade de F-###.test.json por dependência da feature (não por tests/).
+        ("teste de F-001 não invalida F-008", _mut_touch_f001_test,
+         [(["--feature", "F-008", "--stage", "test"], 0),
+          (["--feature", "F-001", "--stage", "test"], 1)]),
+        ("src compartilhado invalida dependentes", _mut_touch_shared_src,
+         [(["--feature", "F-008", "--stage", "test"], 1),
+          (["--feature", "F-001", "--stage", "code"], 1),
+          (["--feature", "F-001", "--stage", "test"], 0)]),
+        ("evidência de teste antiga continua rejeitada", _mut_test_json_older_than_its_source,
+         [(["--feature", "F-008", "--stage", "test"], 1),
+          (["--feature", "F-001", "--stage", "test"], 0)]),
+        ("evidência recente segue válida sem mudanças", None,
+         [(["--feature", "F-001", "--stage", "test"], 0),
+          (["--feature", "F-008", "--stage", "test"], 0)]),
+        # --- C1/C2: bloqueio por escopo (tabela Feature) e menção em caminho ---
+        ("bloqueio: inventário coerente", _mut_blocked_coherent,
+         [(["--inventory"], 0),
+          (["--feature", "F-001"], 0, r"estado comprovado: bloqueado")]),
+        ("bloqueio: inventário adiantado", _mut_blocked_ahead,
+         [(["--inventory"], 1)]),
+        ("menção em caminho não bloqueia", _mut_mention_not_blocked,
+         [(["--inventory"], 0),
+          (["--feature", "F-001"], 0, r"estado comprovado: auditado")]),
+        ("bloqueio SUPERADO é histórico", _mut_resolved_not_blocked,
+         [(["--inventory"], 0)]),
+        ("HALT: tabela Bloqueado bloqueia", _mut_halt_blocked_coherent,
+         [(["--inventory"], 0)]),
+        ("HALT: tabela Bloqueado vs inventário", _mut_halt_blocked_ahead,
+         [(["--inventory"], 1)]),
+        # --- C2: estado declarado fora de STAGES não derruba o gate ---
+        ("fora do escopo v24 coerente", _mut_out_of_scope,
+         [(["--inventory"], 0)]),
+        # --- C4: build.json global não entra no token por feature ---
+        ("token independe de build alheio", _mut_foreign_build,
+         [(["--feature", "F-001", "--stage", "audit"], 0),
+          (["--feature", "F-001", "--emit-token"], 0,
+           "^" + re.escape(base_token) + r"\s*$"),
+          (["--feature", "F-008", "--stage", "audit"], 0)]),
+        # --- C9: HALT por escopo — só a feature bloqueada retorna 2 ---
+        ("HALT por escopo: só bloqueada = 2", _mut_halt_scope,
+         [(["--halt"], 2, r"escopo bloqueado: F-001, F-002"),
+          (["--feature", "F-001"], 2),
+          (["--feature", "F-002"], 2),
+          (["--feature", "F-008"], 0),
+          (["--inventory"], 0),
+          (["--all"], 2, r"=== F-001 ===")]),
+        # --- C10: --json entrega JSON válido em stdout; humano em stderr ---
+        ("--all --json parseável", _mut_halt_scope,
+         [(["--all", "--json"], 2, _stdout_is_json_with_core),
+          (["--all", "--json"], 2, r"HALT ATIVO")]),
+        # --- C11: feature órfã citada sem artefatos ---
+        ("órfã citada vira aviso", _mut_orphan_checkpoint,
+         [(["--inventory"], 0,
+           r"F-009\s+citada em docs/agents/CHECKPOINT\.md:3")]),
+        ("órfã com INVENTORY não é órfã", _mut_orphan_promoted,
+         [(["--inventory"], 0, _no_orphan_section)]),
     ]
+
+    def _case_ok(r):
+        args, expected, got, out, validator, so = r
+        if expected != got:
+            return False
+        if "Traceback (most recent call last)" in out:
+            return False
+        if validator:
+            if callable(validator):
+                if not validator(so):
+                    return False
+            elif not re.search(validator, out):
+                return False
+        return True
 
     rows = []
     ok_all = True
@@ -1302,20 +1905,31 @@ def run_selftest():
         env["ARTPLUS_GATE_REPO"] = dst
         env["PYTHONIOENCODING"] = "utf-8"
         results = []
-        for args, expected in checks:
+        for chk in checks:
+            args, expected = chk[0], chk[1]
+            validator = chk[2] if len(chk) > 2 else None
             try:
                 p = subprocess.run([sys.executable, script] + args, cwd=dst, env=env,
-                                   stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                                   stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                    timeout=180)
                 got = p.returncode
-                out = (p.stdout or b"").decode("utf-8", "replace")
+                so = (p.stdout or b"").decode("utf-8", "replace")
+                se = (p.stderr or b"").decode("utf-8", "replace")
             except subprocess.TimeoutExpired:
-                got, out = 124, "timeout"
-            results.append((args, expected, got, out))
-        ok = all(r[1] == r[2] for r in results)
+                got, so, se = 124, "timeout", ""
+            out = so + se
+            results.append((args, expected, got, out, validator, so))
+        ok = all(_case_ok(r) for r in results)
         ok_all = ok_all and ok
-        detail = "; ".join(f"{' '.join(r[0])} => {r[2]} (esperado {r[1]})"
-                           for r in results)
+
+        def _vlabel(v):
+            if callable(v):
+                return f" <{getattr(v, '__name__', 'validator')}>"
+            return f" /{v}/" if v else ""
+
+        detail = "; ".join(
+            f"{' '.join(r[0])} => {r[2]} (esperado {r[1]})" + _vlabel(r[4])
+            for r in results)
         rows.append((title, "PASS" if ok else "FAIL", detail, results))
 
     print("=" * 100)
@@ -1333,10 +1947,15 @@ def run_selftest():
         for title, verdict, _, results in rows:
             if verdict == "PASS":
                 continue
-            for args, expected, got, out in results:
-                if expected == got:
+            for args, expected, got, out, validator, so in results:
+                if _case_ok((args, expected, got, out, validator, so)):
                     continue
-                print(f"\n### {title} :: {' '.join(args)} (esperado {expected}, obtido {got})")
+                if callable(validator):
+                    extra = f" <{getattr(validator, '__name__', 'validator')}>"
+                else:
+                    extra = f" /{validator}/" if validator else ""
+                print(f"\n### {title} :: {' '.join(args)} "
+                      f"(esperado {expected}{extra}, obtido {got})")
                 print(out[-2500:])
     if os.environ.get("ARTPLUS_KEEP_SELFTEST"):
         print(f"\nfixtures preservadas em: {tmp}")
@@ -1373,32 +1992,54 @@ def main():
     if args.emit_token:
         return cmd_emit_token(args.feature)
 
+    # --json: stdout recebe APENAS o objeto JSON; todo texto humano (banner HALT,
+    # GATE 0, blocos por feature, resumos, avisos) vai para stderr.
+    real_stdout = sys.stdout
+    if args.json:
+        try:
+            real_stdout.reconfigure(encoding="utf-8")
+        except Exception:  # noqa: BLE001
+            pass
+        sys.stdout = sys.stderr
+    try:
+        return _run_gate(args, real_stdout)
+    finally:
+        sys.stdout = real_stdout
+
+
+def _run_gate(args, real_stdout):
+    """Avaliação factual. `HALT` bloqueia só o escopo de `blocked_features()`."""
+    blocked = blocked_features()
+    scope = ", ".join(sorted(blocked))
+    halt = check_halt()
+
     if args.halt:
-        if check_halt():
-            print("HALT ATIVO — nenhuma funcionalidade pode avançar.")
+        if blocked:
+            print(f"HALT ATIVO — escopo bloqueado: {scope}")
             return 2
         print("HALT inativo.")
         return 0
 
-    halt = check_halt()
     if halt and not args.inventory:
-        print("HALT ATIVO — gate bloqueia avanço de funcionalidade (docs/agents/HALT.md).")
+        if blocked:
+            print(f"HALT ATIVO — escopo bloqueado: {scope} (docs/agents/HALT.md).")
+        else:
+            print("HALT registrado sem escopo bloqueado (docs/agents/HALT.md).")
         if args.stage:
-            print("(verificação de etapa permitida; o avanço continua bloqueado)")
+            print("(verificação de etapa permitida; avanço só é bloqueado para o escopo acima)")
 
     version_ok, version_details = check_version()
-    if not args.json:
-        print("=" * 72)
-        print("gate.py — verificação factual do pipeline ArtPlus")
-        print(f"versão canônica: {CANON}")
-        print("=" * 72)
-        print(f"[GATE 0 versão] {'ok' if version_ok else 'REPROVADO'}")
-        for d in version_details:
-            print(f"    - {d}")
+    print("=" * 72)
+    print("gate.py — verificação factual do pipeline ArtPlus")
+    print(f"versão canônica: {CANON}")
+    print("=" * 72)
+    print(f"[GATE 0 versão] {'ok' if version_ok else 'REPROVADO'}")
+    for d in version_details:
+        print(f"    - {d}")
 
     inv = parse_inventory() if (args.all or args.inventory) else {}
     features = ([args.feature] if args.feature else
-                (sorted(inv) if (args.all or args.inventory) else []))
+                (discover_features() if (args.all or args.inventory) else []))
 
     results = {}
     status = 0 if version_ok else 1
@@ -1411,6 +2052,7 @@ def main():
         derived, inv_ok = print_feature(fid, res, inv.get(fid))
         results[fid] = {"derived": derived,
                         "claimed": inv.get(fid),
+                        "inv_ok": inv_ok,
                         "gates": {k: res[k] for k in ("evidence", "spec", "adr", "code", "test", "audit")}}
         if any(res[k] for k in ("evidence", "spec", "adr", "code", "test", "audit")):
             status = max(status, 1)
@@ -1418,9 +2060,24 @@ def main():
             status = max(status, 1)
             inv_status = max(inv_status, 1)
 
+    if args.inventory and features:
+        print("\n--- resumo do inventário (uma linha por feature) ---")
+        for fid in features:
+            r = results[fid]
+            claimed = r["claimed"] or "(ausente)"
+            verdict = "coerente" if r["inv_ok"] else "DIVERGENTE"
+            print(f"  {fid}  declarado={claimed:<20} comprovado={r['derived']:<18} {verdict}")
+
+    # Aviso de rastreabilidade: não altera exit code.
+    orphans = orphan_features()
+    if args.all or args.inventory:
+        for ln in format_orphans(orphans):
+            print(ln)
+
     if args.json:
-        print(json.dumps({"version_ok": version_ok, "version_details": version_details,
-                          "features": results}, ensure_ascii=False, indent=2))
+        payload = {"version_ok": version_ok, "version_details": version_details,
+                   "features": results, "orphans": orphans}
+        print(json.dumps(payload, ensure_ascii=False, indent=2), file=real_stdout)
 
     if args.stage:
         if not args.feature:
@@ -1428,15 +2085,27 @@ def main():
             return 3
         stage_ok = not results.get(args.feature, {}).get("gates", {}).get(args.stage, ["x"])
         if halt:
-            print("\nHALT ATIVO: verificação registrada; avanço de funcionalidade bloqueado.")
+            print("\nHALT ATIVO: verificação registrada; avanço bloqueado só para o escopo.")
         return 0 if (stage_ok and version_ok) else 1
 
-    if halt and not args.inventory:
-        print("\nHALT ATIVO: avanço de funcionalidade bloqueado.")
+    if args.inventory:
+        if halt:
+            print("\nHALT ATIVO: inspeção de inventário permitida; avanço bloqueado.")
+        return inv_status
+
+    if halt and blocked:
+        if args.feature and args.feature in blocked:
+            print(f"\nHALT ATIVO: {args.feature} está no escopo bloqueado (avanço bloqueado).")
+            return 2
+        if args.all:
+            print(f"\nHALT ATIVO: escopo bloqueado: {scope}; todas as features avaliadas.")
+            return 2
+        if args.feature:
+            print(f"\nHALT ATIVO: {args.feature} fora do escopo bloqueado; verificação factual.")
+            return status
+        print(f"\nHALT ATIVO: escopo bloqueado: {scope}.")
         return 2
-    if halt:
-        print("\nHALT ATIVO: inspeção de inventário permitida; avanço bloqueado.")
-    return inv_status if args.inventory else status
+    return status
 
 
 if __name__ == "__main__":

@@ -605,33 +605,37 @@ private slots:
         }
     }
 
-    // D8 case 8 — R5: SizeReference coherence.
+    // F-003 R5 — SizeReference coherence (spec docs/features/F-003.md §R5;
+    // evidence GHIDRA-DocumentMarks-0x18012E950 / UpdateSizeReference):
+    // {1,2,3,4} are zeroed when Direction == 0, {5,6,7,8} when Direction == 1;
+    // 0 ("não definido") hits the switch default and is never changed; values
+    // outside 0..8 are incoherent. `true` == the pair is preserved.
     void testSizeReferenceCoherence_R5() {
-        // (1..4, 0) == true
+        // (1..4, 1) == true (preserved)
         for (int sr = 1; sr <= 4; ++sr) {
-            QVERIFY2(BearerBarParams::sizeReferenceCoherent(sr, 0),
-                     qPrintable(QStringLiteral("sizeReference %1, direction 0 must be coherent")
-                                .arg(sr)));
-        }
-
-        // (1..4, 1) == false
-        for (int sr = 1; sr <= 4; ++sr) {
-            QVERIFY2(!BearerBarParams::sizeReferenceCoherent(sr, 1),
-                     qPrintable(QStringLiteral("sizeReference %1, direction 1 must NOT be coherent")
-                                .arg(sr)));
-        }
-
-        // (5..8, 1) == true
-        for (int sr = 5; sr <= 8; ++sr) {
             QVERIFY2(BearerBarParams::sizeReferenceCoherent(sr, 1),
                      qPrintable(QStringLiteral("sizeReference %1, direction 1 must be coherent")
                                 .arg(sr)));
         }
 
-        // (5..8, 0) == false
-        for (int sr = 5; sr <= 8; ++sr) {
+        // (1..4, 0) == false (zeroed / incoherent)
+        for (int sr = 1; sr <= 4; ++sr) {
             QVERIFY2(!BearerBarParams::sizeReferenceCoherent(sr, 0),
                      qPrintable(QStringLiteral("sizeReference %1, direction 0 must NOT be coherent")
+                                .arg(sr)));
+        }
+
+        // (5..8, 0) == true (preserved)
+        for (int sr = 5; sr <= 8; ++sr) {
+            QVERIFY2(BearerBarParams::sizeReferenceCoherent(sr, 0),
+                     qPrintable(QStringLiteral("sizeReference %1, direction 0 must be coherent")
+                                .arg(sr)));
+        }
+
+        // (5..8, 1) == false (zeroed / incoherent)
+        for (int sr = 5; sr <= 8; ++sr) {
+            QVERIFY2(!BearerBarParams::sizeReferenceCoherent(sr, 1),
+                     qPrintable(QStringLiteral("sizeReference %1, direction 1 must NOT be coherent")
                                 .arg(sr)));
         }
 
@@ -646,6 +650,98 @@ private slots:
         // (9, 1) == false (out of range)
         QVERIFY2(!BearerBarParams::sizeReferenceCoherent(9, 1),
                  "sizeReference 9, direction 1 must NOT be coherent (out of range)");
+
+        // (-1, 0) == false (out of range)
+        QVERIFY2(!BearerBarParams::sizeReferenceCoherent(-1, 0),
+                 "sizeReference -1, direction 0 must NOT be coherent (out of range)");
+    }
+
+    // F-003 R5/E3 — runtime zeroing of SizeReference (not just the predicate).
+    // Evidence: GHIDRA-DocumentMarks-0x18012E950 (UpdateSizeReference) runs at the
+    // start of regenerateMarkImp (0x18012F6E0) and silently writes 0 when
+    // SizeReference is incoherent with Direction; no exception, and the corrected
+    // value is what gets serialized. This case drives the real API
+    // (applyTo/regenerate and addBearerBar/setParams) and checks both the live
+    // params and the persisted metadata entry.
+    void testSizeReferenceZeroingAtRuntime_R5_E3() {
+        struct Case {
+            int sizeReference; // input
+            int direction;     // input
+            int expected;      // expected after normalization
+        };
+        // (1,0)->0, (1,1)->1, (5,0)->5, (5,1)->0, (0,1)->0
+        const Case cases[] = {
+            {1, 0, 0},
+            {1, 1, 1},
+            {5, 0, 5},
+            {5, 1, 0},
+            {0, 1, 0},
+        };
+
+        for (const Case& c : cases) {
+            const QString what = QStringLiteral("sizeReference=%1 direction=%2")
+                                     .arg(c.sizeReference).arg(c.direction);
+
+            // Path A — BearerBar::applyTo + BearerBar::regenerate (mark-level API).
+            {
+                Document doc;
+                const PageId pageId = setupPage(doc, kA4Pt, kA4Pt);
+
+                BearerBarParams p;
+                p.sizeReference = c.sizeReference;
+                p.direction = c.direction;
+
+                BearerBar bar(p);
+                const ObjectId gid = bar.applyTo(doc, pageId, 1);
+                QVERIFY2(gid != 0, qPrintable(what + QStringLiteral(": applyTo must create the group")));
+
+                QVERIFY2(bar.regenerate(doc, pageId),
+                         qPrintable(what + QStringLiteral(": regenerate must succeed")));
+
+                QCOMPARE(bar.params().sizeReference, c.expected);
+                QCOMPARE(bar.params().direction, c.direction); // direction itself is untouched
+                QCOMPARE(bar.toMetadata().value(QStringLiteral("sizeReference")).toInt(),
+                         c.expected);
+            }
+
+            // Path B — BearerBarManager::addBearerBar + setParams (manager API, the
+            // path the UI/edit dialog uses; also persists metadata).
+            {
+                Document doc;
+                const PageId pageId = setupPage(doc, kA4Pt, kA4Pt);
+                BearerBarManager mgr(doc);
+
+                BearerBar* mark = mgr.addBearerBar(pageId);
+                QVERIFY2(mark != nullptr, qPrintable(what + QStringLiteral(": addBearerBar failed")));
+
+                BearerBarParams p = mark->params();
+                p.sizeReference = c.sizeReference;
+                p.direction = c.direction;
+                QVERIFY2(mgr.setParams(mark->objectId(), p),
+                         qPrintable(what + QStringLiteral(": setParams failed")));
+
+                QCOMPARE(mark->params().sizeReference, c.expected);
+                QCOMPARE(mark->params().direction, c.direction);
+                QCOMPARE(mark->toMetadata().value(QStringLiteral("sizeReference")).toInt(),
+                         c.expected);
+
+                // Manager metadata list carries the corrected value.
+                const QJsonArray bars = mgr.toMetadata().value(QStringLiteral("bearerBars")).toArray();
+                QCOMPARE(bars.size(), 1);
+                QCOMPARE(bars.at(0).toObject().value(QStringLiteral("sizeReference")).toInt(),
+                         c.expected);
+
+                // ... and so does the document metadata written by setParams.
+                QVERIFY2(mgr.saveToMetadata(),
+                         qPrintable(what + QStringLiteral(": saveToMetadata failed")));
+                const QJsonArray docBars = doc.metadata()
+                                               .value(QStringLiteral("DocumentMarks")).toObject()
+                                               .value(QStringLiteral("bearerBars")).toArray();
+                QCOMPARE(docBars.size(), 1);
+                QCOMPARE(docBars.at(0).toObject().value(QStringLiteral("sizeReference")).toInt(),
+                         c.expected);
+            }
+        }
     }
 };
 

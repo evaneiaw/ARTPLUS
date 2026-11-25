@@ -1,14 +1,15 @@
-# NDLModel 1800428b0
-```yaml
+---
 modulo: NDLModel.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x1800428b0
 nome: ??0SaveOptions@NDLModel@@QEAA@$$QEAV01@@Z
 mangled: SaveOptions
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# NDLModel 1800428b0
 
 ## Assinatura
 ```c

@@ -2,23 +2,32 @@
 description: "Traduz specs F-### em arquitetura C++/Qt: módulos, classes, contratos de interface, ADRs e mapeamento função-do-binário → método-do-ArtPlus. Não implementa."
 mode: subagent
 color: "#9b59b6"
-maxSteps: 32
-permission:
-  edit:
-    "*": deny
-    "docs/architecture/**": allow
-    "docs/decisions/**": allow
-  write:
-    "*": deny
-    "docs/architecture/**": allow
-    "docs/decisions/**": allow
-  bash:
-    "*": deny
-    "python scripts/gate.py*": allow
-    "python scripts/check_version.py*": allow
-  task:
-    "*": deny
-  webfetch: allow
+steps: 48
+permissions:
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "docs/architecture/*"
+    effect: allow
+  - action: edit
+    resource: "docs/decisions/*"
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: deny
+  - action: shell
+    resource: "python scripts/gate.py *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/check_version.py *"
+    effect: allow
+  - action: subagent
+    resource: "*"
+    effect: deny
+  - action: webfetch
+    resource: "*"
+    effect: allow
 ---
 
 # Arquitetura — do comportamento ao desenho C++/Qt

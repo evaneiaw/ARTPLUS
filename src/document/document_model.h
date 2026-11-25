@@ -466,6 +466,10 @@ public:
     QJsonObject metadata() const { return m_metadata; }
     void setMetadata(const QJsonObject& metadata) { m_metadata = metadata; }
 
+    // Informações de separação do documento (usado por MarkSetProcessor/Prepress).
+    std::vector<Separation::Entry> separationInfo() const;
+    void setSeparationInfo(const std::vector<Separation::Entry>& info);
+
 private:
     std::vector<PageId> m_pageOrder;
     std::unordered_map<PageId, std::shared_ptr<Page>> m_pages;
@@ -480,6 +484,7 @@ private:
     QString m_title;
     bool m_modified = false;
     QJsonObject m_metadata;
+    std::vector<Separation::Entry> m_separationInfo;
 };
 
 } // namespace ArtPlus

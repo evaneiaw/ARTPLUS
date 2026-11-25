@@ -1051,7 +1051,14 @@ void ArtPlusMainWindow::saveArtPlus() {
         m_bearerBarManager.saveToMetadata();
         DocumentSaveManager manager(m_document);
         WriteOptions options;
-        manager.save(m_document.filePath(), options);
+        const SaveResult result = manager.save(m_document.filePath(), options);
+        if (!result.ok) {
+            // D3: falha nunca é mascarada por mensagem de sucesso (padrão do Open).
+            QMessageBox::warning(this, QStringLiteral("Save failed"),
+                                 QStringLiteral("Could not save: %1\n%2").arg(m_document.filePath(), result.errorMessage));
+            m_statusBar->showMessage(QStringLiteral("Save failed: %1").arg(result.errorMessage));
+            return;
+        }
         updateModifiedIndicator();
         m_statusBar->showMessage("Saved " + QFileInfo(m_document.filePath()).fileName());
     }
@@ -1067,9 +1074,16 @@ void ArtPlusMainWindow::saveArtPlusAs() {
     DocumentSaveManager manager(m_document);
     WriteOptions options;
     options.isSaveAs = true;
-    manager.save(path, options);
+    const SaveResult result = manager.save(path, options);
+    if (!result.ok) {
+        // D3: falha nunca é mascarada por mensagem de sucesso (padrão do Open).
+        QMessageBox::warning(this, QStringLiteral("Save failed"),
+                             QStringLiteral("Could not save: %1\n%2").arg(path, result.errorMessage));
+        m_statusBar->showMessage(QStringLiteral("Save failed: %1").arg(result.errorMessage));
+        return;
+    }
     updateModifiedIndicator();
-    m_statusBar->showMessage("Saved " + QFileInfo(m_document.filePath()).fileName());
+    m_statusBar->showMessage("Saved " + QFileInfo(path).fileName());
 }
 
 void ArtPlusMainWindow::exportPdf() {

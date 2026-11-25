@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 180022600
 nome: GenerateBleedLayout
 assinatura: vector<LayoutEngine::PlacedPath,std::allocator<LayoutEngine::PlacedPath>_> GenerateBleedLayout(ManualLayoutEngine * this, vector<class_LayoutEngine::PlacedPath,class_std::allocator<class_LayoutEngine::PlacedPath>_> * param_1, vector<double,std::allocator<double>_> * param_2)
 parametros: 3
 retorno: vector<LayoutEngine::PlacedPath,std::allocator<LayoutEngine::PlacedPath>_>
+confianca: alta
+---
 
 ## Callers (xrefs de entrada)
 - 180071820 -> unknown (DATA)

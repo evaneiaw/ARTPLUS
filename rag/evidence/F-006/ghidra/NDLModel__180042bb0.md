@@ -1,14 +1,15 @@
-# NDLModel 180042bb0
-```yaml
+---
 modulo: NDLModel.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x180042bb0
 nome: ?SetIncrementalSave@SaveOptions@NDLModel@@QEAAX_N@Z
 mangled: SetIncrementalSave
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# NDLModel 180042bb0
 
 ## Assinatura
 ```c

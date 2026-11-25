@@ -48,6 +48,13 @@ tests: []
 7. **Rastreabilidade** — tabela `evidência | o que prova | caminho`.
 8. **Em aberto** — o que não se sabe, com a pergunta objetiva.
 
+## Ciclo de vida do `status`
+
+O `status` segue o gate, não a intenção: `spec` → `architecture` → `implemented` → `tested` → `audited`.
+Só avance o campo quando o gate da etapa retornar `0` (`--stage adr/code/test/audit`); caso
+contrário, mantenha o valor e declare no relatório. O `status` nunca fica à frente do comprovado —
+o `gate.py` sinaliza a divergência.
+
 ## Barra de qualidade
 
 - Toda regra precisa ser **testável**: valor de entrada → valor/estado de saída.

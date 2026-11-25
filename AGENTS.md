@@ -45,7 +45,7 @@ Nenhuma etapa começa sem o artefato da anterior. O `auditor` tem veto.
 
 | Agente | Modo | Escreve em | Não pode |
 |---|---|---|---|
-| `orquestrador` | primary | `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/**`, `docs/agents/**`, `docs/reverse-engineering/INVENTORY.md`, `AGENTS.md`, `opencode.jsonc`, `.opencode/agents/**`, `.opencode/commands/**`, `.opencode/skills/**` | editar `src/`, analisar binário, rodar shell livremente (o `git`, restrito a status/add/commit/push-master/log/diff/rev-parse, só em sessão com shell exposto — validar em nova sessão) |
+| `orquestrador` | primary | `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/**`, `docs/agents/**`, `docs/reverse-engineering/INVENTORY.md`, `AGENTS.md`, `opencode.jsonc`, `.opencode/agents/**`, `.opencode/commands/**`, `.opencode/skills/**` | editar `src/`, analisar binário, rodar shell fora do allowlist (git status/add/commit/push-master/log/diff/rev-parse/ls-remote/remote + `python scripts/{gate,check_version,preflight,status,validate_skills}.py`) |
 | `ghidra` | subagent | `tools/ghidra_analysis/**`, `tools/ghidra_projects/**`, `docs/reverse-engineering/**`, `rag/evidence/**` | editar `src/`, `tests/`, specs |
 | `rea` | subagent | `rag/evidence/**`, `rag/sources/**`, `docs/reverse-engineering/**` | editar `src/`, `tests/`, specs |
 | `comportamento` | subagent | `tools/reference_capture/**`, `docs/behavior/**`, `rag/evidence/**` | editar `src/`, `tests/`, specs |
@@ -57,7 +57,11 @@ Nenhuma etapa começa sem o artefato da anterior. O `auditor` tem veto.
 
 Nenhum subagente lança subagente. O `orquestrador` é o único que despacha.
 
-> **Shell do `orquestrador`**: a permissão de `git` no frontmatter só expõe a ferramenta de terminal em **sessão nova** (validar na FASE H). Enquanto não validado, o commit/push é delegado ao `testes`. O limite de **3 subagentes ativos** é obrigatório, mas **não** é imposto automaticamente pela config V1.
+> **Shell do `orquestrador`**: na config V2 (`.opencode/agents/orquestrador.md`) o shell é
+> liberado por allowlist (`git` de inspeção/commit/push-master e os scripts de gate) e o limite é
+> `steps`, não `maxSteps`. O orquestrador **não** usa `cd`/`&&` (o scanner avalia cada subcomando)
+> e passa o diretório de trabalho na própria chamada. O limite de **3 subagentes ativos** é
+> obrigatório, mas **não** é imposto automaticamente pelo runtime.
 
 ## 4. Identificadores e evidência
 
@@ -141,7 +145,10 @@ v25 (histórico, fora do fluxo ativo): C:\Esko\bg_prog_artpro+_v250\ArtPro+.app\
 - Módulos já mapeados em `docs/reverse-engineering/`: `Document.dll` (call graph, estruturas,
   workflows), inventário de binários, mapa de dependências e estratégia Ghidra.
 - Fila de cobertura: `docs/reverse-engineering/INVENTORY.md`.
-- Auditorias concluídas: F-001…F-005 (com ressalvas). Spec: F-006, F-008. Triado: F-007.
+- Cobertura comprovada (2026-11-24, `gate.py --inventory`): F-001/F-002/F-003/F-005/F-008
+  `testado`; F-006 `implementado`; F-004 `fora-do-escopo-v24`; F-007 `bloqueado` (BLO-008);
+  F-009 órfã (sem INVENTORY/spec/evidência). **Nenhuma feature está `auditado`** — os laudos
+  existentes têm token da fórmula antiga e precisam ser reemitidos/reauditados.
   Ver `FEATURE_MATRIX.csv` e `docs/phases/STATUS.md`.
 - Referência de versão: **v24.03.10017** (ver §0 e `docs/agents/REFERENCE_VERSION.md`).
 
@@ -234,3 +241,55 @@ fatos verificáveis por `python scripts/gate.py`, nunca escrito à mão no `INVE
 - Proibido `git reset`, `git clean`, `rebase` ou `push --force` durante recuperação.
 - Trabalho de outra sessão nunca é descartado: registrar e preservar.
 - Sessões paralelas devem parar no HALT e entregar o estado real ao orquestrador.
+
+### 10.5 Árvore canônica e pré-voo de sessão
+
+Antes de qualquer despacho ou retomada, prove onde você está:
+
+```powershell
+git rev-parse --show-toplevel     # H:/Desktop/ArtPlus
+git rev-parse --abbrev-ref HEAD   # master
+git status --short                # WIP de outras sessões (não alterar)
+git log -1 --format=%H
+```
+
+- Worktree, clone paralelo ou HEAD destacado é **cópia divergente**: pare e reporte. Foi assim que
+  uma sessão inteira trabalhou por um dia em snapshot obsoleto e reportou trabalho já feito como
+  "não iniciado".
+- `scripts/preflight.py` (quando presente) automatiza essas checagens e imprime `PASS`/`FAIL`.
+- O estado do projeto só é válido na árvore canônica; artefatos de gate de outra árvore não contam.
+
+### 10.6 Escritor único do estado
+
+- `INVENTORY.md`, `ROADMAP.md`, `FEATURE_MATRIX.csv`, `docs/phases/STATUS.md` e
+  `docs/agents/CHECKPOINT.md`: **somente o orquestrador**.
+- `docs/testing/gates/{build.json,F-###.test.json,*.xml}`: **somente** `python scripts/gate.py`.
+- `docs/features/**` e `rag/index/**`: `documentacao`. `docs/audit/**`: `auditor`.
+- Subagente reporta o que fez; se precisar de mudança de estado, pede ao orquestrador.
+- Dois escritores no mesmo registro = o segundo apaga o primeiro (causou F-002 `testado` no corpo
+  e `auditado` no resumo).
+
+### 10.7 Build e artefatos compartilhados
+
+- `build/` e `docs/testing/gates/build.json` são compartilhados entre sessões.
+- Proibido `Remove-Item -Recurse -Force build` em árvore compartilhada. Use
+  `ARTPLUS_GATE_BUILD_DIR=build_<escopo>` (auditoria: `build_audit_<F-###>`) e declare o diretório.
+- Um build concorrente não pode invalidar laudo de outra feature: o frescor é medido pelos arquivos
+  que a feature declara (`codigo:` na spec + testes que a citam), não por todo o `src/`.
+
+### 10.8 Continuidade e handoff
+
+- Limite de passos/contexto **não é conclusão**. É ponto de handoff.
+- Todo subagente devolve: `HANDOFF`, `ARQUIVOS TOCADOS`, `ULTIMO COMANDO -> exit`, `PENDENTE`,
+  `PROXIMO COMANDO`.
+- Retomada não reinicia missão: lê `CHECKPOINT.md`, `git status --short`, `git log -1`, artefatos de
+  gate e executa a próxima ação pendente.
+- Implementação que chega ao limite entrega o que compila + a lista exata do que falta; nunca
+  "compila parcialmente" nem stub para fechar a conta.
+
+### 10.9 Prova de etapa
+
+- Etapa concluída = `python scripts/gate.py --feature F-### --stage <etapa>` retorna `0` **e** o
+  artefato existe no caminho declarado. Saída colada, exit code incluído.
+- Relatório de subagente não é prova. O orquestrador reexecuta o gate antes de registrar estado.
+- Laudo de auditoria sem token medido na própria sessão é REPROVADO.

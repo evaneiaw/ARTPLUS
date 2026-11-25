@@ -1,14 +1,15 @@
-# NDLModel 180042a40
-```yaml
+---
 modulo: NDLModel.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x180042a40
 nome: ??0SaveOptions@NDLModel@@QEAA@AEBV?$basic_string_view@DU?$char_traits@D@std@@@std@@@Z
 mangled: SaveOptions
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# NDLModel 180042a40
 
 ## Assinatura
 ```c

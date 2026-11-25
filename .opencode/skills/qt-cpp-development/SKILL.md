@@ -69,6 +69,21 @@ RISCOS: <o que pode quebrar>
 - Código morto, `#if 0`, `catch(...)` para "compilar".
 - Campo sem unidade quando a spec tem unidade.
 - Ajustar o ADR por conta própria quando ele conflita com o código: pare e reporte.
+- Remover `#include`, símbolo ou entrada do CMake **sem verificar** quem depende dele.
+- Reverter hunk de outra sessão, reformatar arquivo inteiro, `git checkout/reset/clean/stash`.
+
+## Correção de build
+
+- Corrija **todos** os erros, não só o primeiro; repita build → corrigir até `exit 0`.
+- Não devolva "compila parcialmente". Se o orçamento de passos acabar, entregue o HANDOFF com o
+  próximo comando exato.
+- Se o erro for de toolchain (UCRT×MSVCRT, `0xc0000135`, `QApplication`), não é seu: devolva ao
+  orquestrador com o log.
+
+## Diff e entrega
+
+- Entregue `git diff --stat` + resumo por arquivo; o orquestrador precisa revisar sem adivinhar.
+- Nunca inclua no commit arquivo de outra feature; registre a mistura no relatório.
 
 ## Referências
 

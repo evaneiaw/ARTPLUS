@@ -12,7 +12,7 @@ ALVO: $ARGUMENTS
 SPEC: F-### ou "criar"
 SAÍDA: tools/reference_capture/F-###/{input,output,shots}, docs/behavior/<Ferramenta>.md, rag/evidence/F-###/behavior/
 ACEITE: passos reais, texto literal de UI, campos (default/unidade/faixa), saída observada, erro e captura antes/depois, com CAP-AAAAMMDD-nn
-LIMITE: uma sessão de GUI; no máximo uma variação de borda além do caso nominal
+LIMITE: uma sessão de GUI; capture o caso nominal e as variações de borda necessárias (0, valor típico, negativo unidade alternativa) — declare o que não foi medido
 CONTEXTO: copie a prova de tools/test_documents; nunca abra o original
 ```
 

@@ -1,14 +1,15 @@
-# Document 18023b8e0
-```yaml
+---
 modulo: Document.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x18023b8e0
 nome: ?WriteImage@DocumentIO@@YA?AU?$pair@_NV?$optional@UMappingData@DocumentIO@@@std@@@std@@AEBVContentObject@ArtDoc@@AEBVpath@filesystem@boost@@AEBV?$vector@VEntry@Separation@ArtDoc@@V?$allocator@VEntry@Separation@ArtDoc@@@std@@@3@W4ImageFileFormats@1@AEBV?$optional@UResolution@ArtImg@@@3@@Z
 mangled: WriteImage
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# Document 18023b8e0
 
 ## Assinatura
 ```c

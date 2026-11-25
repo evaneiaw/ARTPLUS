@@ -3,22 +3,74 @@
   "versao_ref": "24.03.10017",
   "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\Document.dll",
   "sha256": "DA91E28574C877D392D3E6BEF9CCBB7C4DCF3117EBD03655DE89834FC8FA9E21",
-  "tamanho": 4922408,
-  "compiler": "Microsoft Visual C/C++ (19.41.34435)",
-  "linker": "Microsoft Linker (14.41.34435)",
-  "tool": "Microsoft Visual Studio (2022, 17.11)",
-  "subsystem": "2 (GUI)",
-  "entrypoint": "0x2D7590",
-  "imagebase": "0x180000000",
-  "machine": "x86-64",
-  "sections": ".text, .rdata, .data, .pdata, .rsrc, .reloc",
-  "exports_critical": "2268 exports including ConstVisitor (mark visors) and updatePdfPropertiesDictImp",
-  "imports_critical": "Document.dll (732), DocumentEdit.dll (66), UniversalText.dll (48), DocumentBarCode.dll (33), YAGL.dll (45), icuuc.dll, icuin.dll, MSVCP140.dll, VCRUNTIME140.dll, KERNEL32.dll, USER32.dll",
-  "estatico": [
-    "GHIDRA-Document-0x...",
-    "GHIDRA-PDFAccessLayer-0x...",
-    "GHIDRA-PDFObjectLayer-0x..."
+  "tamanho": 4421040,
+  "formato": "PE32+ (x86-64), DLL, assinado Windows Authenticode (PKCS #7, 2.0)",
+  "compiler": "Microsoft Visual C/C++ (19.38.33134) [C++]",
+  "linker": "Microsoft Linker (14.38.33134)",
+  "tool": "Microsoft Visual Studio (2022, 17.8)",
+  "runtime": "Microsoft C/C++ Runtime [dynamic]",
+  "debug_data": "Records [POGO]",
+  "secoes": [
+    ".text",
+    ".textidx",
+    ".rdata",
+    ".data",
+    ".pdata",
+    ".fnp_dir",
+    ".fnp_mar",
+    ".rsrc",
+    ".reloc"
   ],
-  "comportamental": [],
-  "bloqueios": []
+  "fontes_brutas": [
+    "rag/sources/Document.die.json"
+  ],
+  "estatico": [
+    "GHIDRA-Document-0x180016730",
+    "GHIDRA-Document-0x180099690",
+    "GHIDRA-Document-0x180099710",
+    "GHIDRA-Document-0x1800a20e0",
+    "GHIDRA-Document-0x1800a2110",
+    "GHIDRA-Document-0x18013f240",
+    "GHIDRA-Document-0x1801954e0",
+    "GHIDRA-Document-0x180195c10",
+    "GHIDRA-Document-0x18023b8e0",
+    "GHIDRA-Document-0x1802ad561",
+    "GHIDRA-Document-0x1802ad5eb",
+    "GHIDRA-NDLModel-0x1800208f0",
+    "GHIDRA-NDLModel-0x180020920",
+    "GHIDRA-NDLModel-0x180021990",
+    "GHIDRA-NDLModel-0x1800428b0",
+    "GHIDRA-NDLModel-0x180042900",
+    "GHIDRA-NDLModel-0x180042a40",
+    "GHIDRA-NDLModel-0x180042b80",
+    "GHIDRA-NDLModel-0x180042bb0",
+    "GHIDRA-NDLModel-0x18004b420",
+    "GHIDRA-NDLModel-0x1800508d0"
+  ],
+  "comportamental": [
+    "CAP-20261124-01"
+  ],
+  "comportamental_artefatos": [
+    "rag/evidence/F-006/behavior/CAP-20261124-01.md",
+    "tools/reference_capture/F-006/output/saveas-test.artplus",
+    "tools/reference_capture/F-006/shots/shot-02-file-menu.png",
+    "tools/reference_capture/F-006/shots/shot-03-save-as-dialog.png",
+    "tools/reference_capture/F-006/shots/shot-04-path-typed.png",
+    "tools/reference_capture/F-006/shots/shot-05-after-saveas.png",
+    "tools/reference_capture/F-006/shots/shot-06-ctrl-s-clean.png"
+  ],
+  "bloqueios": [
+    "BLO-005: build/testes e criptografia de Save Document em aberto (docs/agents/BLOQUEIOS.md)"
+  ],
+  "historico_bloqueios": [
+    {
+      "id": "CAP-BLOCKED-006",
+      "status": "SUPERADO",
+      "superado_por": "CAP-20261124-01",
+      "data_superacao": "2026-11-24",
+      "texto_original": "fluxo Save na GUI v24.03.10017 nao capturado (GUI inativa); nenhum CAP valido em rag/evidence/F-006/behavior/",
+      "motivo": "O menu File abre e File > Save As... grava arquivo em 2026-11-24 na mesma instancia v24.03.10017 (PID 27476): saveas-test.artplus, 15739 bytes, sem confirmacao nem erro. A falha de 2026-11-21 foi de operacao/automacao, nao indisponibilidade da GUI."
+    }
+  ],
+  "observacao": "Metadados e sha256 recalculados nesta sessao a partir do arquivo real em bg_prog_artpro+_v240 (Get-FileHash + diec -j). O valor anterior de compiler/linker (19.41/14.41) e de tamanho (4922408) nao correspondia ao binario-alvo e foi substituido. Os arquivos DocumentMarks__*.md em ghidra/ sao evidencia historica de outro modulo e nao integram estatico[]."
 }

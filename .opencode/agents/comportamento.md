@@ -2,27 +2,35 @@
 description: "Opera o ArtPro+ real (v24.03.10017) e registra o comportamento observável de cada ferramenta: entrada, passos, saída, erros e capturas. Produz a evidência comportamental que valida o clone."
 mode: subagent
 color: "#2ecc71"
-maxSteps: 32
-permission:
-  edit:
-    "*": deny
-    "tools/reference_capture/**": allow
-    "docs/behavior/**": allow
-    "rag/evidence/**": allow
-  write:
-    "*": deny
-    "tools/reference_capture/**": allow
-    "docs/behavior/**": allow
-    "rag/evidence/**": allow
-  bash:
-    "*": allow
-  task:
-    "*": deny
-  webfetch: deny
-  external_directory:
-    "*": ask
-    "C:/Esko/**": allow
-    "C:\\Esko\\**": allow
+steps: 60
+permissions:
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: edit
+    resource: "tools/reference_capture/*"
+    effect: allow
+  - action: edit
+    resource: "docs/behavior/*"
+    effect: allow
+  - action: edit
+    resource: "rag/evidence/*"
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: allow
+  - action: subagent
+    resource: "*"
+    effect: deny
+  - action: webfetch
+    resource: "*"
+    effect: deny
+  - action: external_directory
+    resource: "*"
+    effect: ask
+  - action: external_directory
+    resource: "C:/Esko/*"
+    effect: allow
 ---
 
 # Comportamento — referência operacional do ArtPro+
@@ -69,6 +77,11 @@ Controle de desktop: use as ferramentas do MCP `pc-control` (mouse, teclado, scr
 - **Nunca** sobrescreva prova original; trabalhe sempre em cópia.
 - Uma sessão de captura por vez; feche diálogos pendentes antes de reportar.
 - Anote o texto literal de menus e mensagens — o clone vai precisar dele, e adivinhar custa retrabalho.
+- **Limite de passos não é captura concluída.** Se o orçamento acabar, salve o que já capturou
+  (screenshot + `CAP-AAAAMMDD-nn` parcial), registre o ponto exato (janela, campo, passo) e
+  devolva o bloco HANDOFF com o próximo clique. Nunca invente o que não viu.
+- Não abra nem feche o ArtPro+ quando houver diretiva do proprietário em contrário; use a
+  instância aberta.
 
 ## Contrato de gate (F-###)
 

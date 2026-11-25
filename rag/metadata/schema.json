@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "ArtPlus RAG metadata",
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "definitions": {
     "feature": {
       "type": "object",
@@ -15,6 +15,20 @@
         "historico": { "type": "string" },
         "status": {
           "enum": ["spec", "architecture", "implemented", "tested", "audited"]
+        },
+        "estado": {
+          "enum": [
+            "triado",
+            "analisado",
+            "comportamento",
+            "spec",
+            "arquitetado",
+            "implementado",
+            "testado",
+            "auditado",
+            "fora-do-escopo-v24",
+            "bloqueado"
+          ]
         },
         "confianca": { "enum": ["alta", "media", "baixa"] },
         "evidencia": { "type": "array", "items": { "type": "string" } },

@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 180013d00
 nome: GenerateLayout
 assinatura: vector<LayoutEngine::OutputSheet,std::allocator<LayoutEngine::OutputSheet>_> GenerateLayout(GlobalEngine * this)
 parametros: 1
 retorno: vector<LayoutEngine::OutputSheet,std::allocator<LayoutEngine::OutputSheet>_>
+confianca: media
+---
 
 ## Callers (xrefs de entrada)
 - 18007182c -> unknown (DATA)

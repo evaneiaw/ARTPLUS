@@ -1,10 +1,13 @@
+---
 modulo: LayoutEngine.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 180009fc0
 nome: ApplyBleedOnGridLayout
 assinatura: bool ApplyBleedOnGridLayout(LayoutEngine * this)
 parametros: 1
 retorno: bool
+confianca: media
+---
 
 ## Callers (xrefs de entrada)
 - 1800717f4 -> unknown (DATA)

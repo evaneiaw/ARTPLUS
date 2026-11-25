@@ -1,14 +1,15 @@
-# Document 180195c10
-```yaml
+---
 modulo: Document.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x180195c10
 nome: ?RegisterPieceInfoWriter@ArtDoc@@YA_KV?$function@$$A6A_NAEBVContentObject@ArtDoc@@@Z@std@@V?$function@$$A6A?AV?$unique_ptr@$$CBVPieceInfoWriter@ArtDoc@@U?$default_delete@$$CBVPieceInfoWriter@ArtDoc@@@std@@@std@@AEBVContentObject@ArtDoc@@AEAVWriteContext@4@@Z@3@@Z
 mangled: RegisterPieceInfoWriter
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# Document 180195c10
 
 ## Assinatura
 ```c

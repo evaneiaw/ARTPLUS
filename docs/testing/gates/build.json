@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-23T21:42:36-03:00",
-  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\cmake.exe --build C:\\Users\\Evanei\\AppData\\Local\\Temp\\opencode\\build_f005_gate",
+  "timestamp": "2026-11-24T19:01:32-03:00",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\cmake.exe --build --preset release-mingw",
   "exit_code": 0,
-  "log_path": "docs/testing/gates/logs/build-20261123-214221-078.log",
-  "log_sha256": "3DDEC972481CF6EC0AE1AB2BF384559878C5E5A79747814F4CF1BD07664912CA",
-  "build_dir": "C:\\Users\\Evanei\\AppData\\Local\\Temp\\opencode\\build_f005_gate",
+  "log_path": "docs/testing/gates/logs/build-20261124-190116-664.log",
+  "log_sha256": "AE36C938B3BD0DDF491A1E1AD34FF8578BAD6DA55C3940288E11785D6CB976FD",
+  "build_dir": "build",
   "configured": false,
   "configure_exit_code": null
 }

@@ -19,10 +19,13 @@ em `docs/agents/REFERENCE_VERSION.md` (Esko ArtPro+ **v24.03.10017**).
 
 ## 2. Escolha do alvo (sem escopo)
 
-0. **Bloqueios por escopo**: leia `docs/agents/HALT.md` e `docs/agents/BLOQUEIOS.md`.
-   Pule apenas as features explicitamente bloqueadas. A existência do arquivo HALT, por si só,
-   não suspende as demais features quando o próprio documento declara escopo reduzido.
-   Se declarar suspensão global, faça somente a recuperação descrita nele.
+0. **Pré-voo**: `git rev-parse --show-toplevel` = `H:/Desktop/ArtPlus`, branch `master`,
+   `git status --short` lido, `git log -1` registrado. Worktree/clone/HEAD destacado = cópia
+   divergente: pare e reporte (`AGENTS.md §10.5`).
+0b. **Bloqueios por escopo**: leia `docs/agents/HALT.md` e `docs/agents/BLOQUEIOS.md`.
+    Pule apenas as features explicitamente bloqueadas. A existência do arquivo HALT, por si só,
+    não suspende as demais features quando o próprio documento declara escopo reduzido.
+    Se declarar suspensão global, faça somente a recuperação descrita nele.
 1. **Terminar o que está em andamento**: estado mais avançado primeiro
    (`testado` > `implementado` > `arquitetado` > `spec` > `comportamento` >
    `analisado` > `triado`).
@@ -126,11 +129,20 @@ avançar nas atividades independentes.
 
 - Checkpoint operacional: `docs/agents/CHECKPOINT.md`.
 - Atualizar **após cada etapa concluída** (não só ao fim da sessão).
-- Conteúdo: última tarefa concluída, tarefa atual, próximas tarefas,
-  especialistas acionados, arquivos modificados, estado do build, estado dos
-  testes, auditorias, bloqueios, último commit, próxima ação executável.
+- Conteúdo mínimo (senão a retomada repete trabalho):
+  - árvore (`git rev-parse --show-toplevel`), branch e `HEAD`;
+  - última tarefa concluída + gate que a provou (com exit code);
+  - tarefa atual, próximas tarefas;
+  - especialistas acionados e arquivos tocados;
+  - build: diretório + comando + exit;
+  - testes: suíte + pass/total + exit;
+  - auditorias: laudo + token vigente;
+  - bloqueios ativos;
+  - WIP de outras sessões que **não** deve ser commitado;
+  - próximo comando executável.
 - Se a sessão terminar por limite da plataforma, o checkpoint permite retomada
   sem repetir trabalho.
+- Escritor único: **somente o orquestrador** edita este arquivo.
 
 ## 9. Escalação (única)
 
@@ -183,3 +195,8 @@ comprovado.
   como evidência válida.
 - Concorrência: máximo 3 subagentes, nunca dois `comportamento`; sessões paralelas param no
   HALT e preservam o trabalho existente.
+- Escritor único do estado (`AGENTS.md §10.6`): subagente reporta, orquestrador registra.
+  `docs/testing/gates/*` só por `gate.py`.
+- `build/` e `build.json` são compartilhados: nunca apagar árvore alheia; auditoria usa
+  `ARTPLUS_GATE_BUILD_DIR=build_audit_<F-###>`.
+- Limite de passos é **handoff**, não conclusão (`AGENTS.md §10.8`).

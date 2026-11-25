@@ -5,6 +5,15 @@ agent: orquestrador
 
 Escopo opcional: $ARGUMENTS (ex.: `F-003`).
 
+```
+ALVO: estado comprovado do pipeline (global ou do escopo de $ARGUMENTS)
+SPEC: não se aplica (comando somente leitura)
+SAÍDA: saída real dos gates, colada com exit code de cada comando
+ACEITE: os quatro comandos executados sem alterar arquivo; divergência declarado x comprovado explícita
+LIMITE: não corrige nada, não eleva estado, não roda build
+FALHA: comando com erro/exit != 0 é reportado como está — nunca interpretado como sucesso
+```
+
 Rode, sem alterar nada:
 
 1. `python scripts/gate.py --halt`

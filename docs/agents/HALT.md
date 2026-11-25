@@ -1,6 +1,6 @@
 # HALT — escopo de bloqueio de funcionalidades
 
-**Estado: ATIVO com escopo reduzido** · Atualizado em: 2026-11-21
+**Estado: ATIVO com escopo reduzido** · Atualizado em: 2026-11-24
 **Origem:** ordem do proprietário "Retomada — desenvolvimento autônomo do ArtPlus"
 (encerra a fase de infraestrutura; SET-1, SET-2A e SET-2C concluídos).
 
@@ -10,8 +10,7 @@ Este arquivo **não** é mais uma parada global. Ele delimita o que continua blo
 
 | Item | Motivo | Registro |
 |---|---|---|
-| F-006 — Save Document | BLO-005: criptografia `TODO(F-006)` não implementada; laudo reprovado | `docs/agents/BLOQUEIOS.md` |
-| F-007 — Step & Repeat | BLO-003: sem CAP real; `step_repeat` retorna "Not implemented" | idem |
+| F-007 — Step & Repeat | BLO-008: existência provada em CAP-20261124-01; campos do `Make Grid` não medidos (janela em branco) | `docs/agents/BLOQUEIOS.md` |
 | Qualquer tarefa cuja pré-condição de evidência não exista | `AGENTS.md §6.1` (evidência primeiro) | — |
 
 Também é proibido: inventar comportamento do ArtPro+, publicar placeholder como
@@ -40,4 +39,4 @@ python scripts/gate.py --feature F-### --stage evidence|spec|adr|code|test|audit
 
 ## Como sair
 
-O proprietário remove este arquivo quando os bloqueios BLO-003/005 forem resolvidos. (BLO-004/Color Management resolvido em 2026-11-22.)
+O proprietário remove este arquivo quando os bloqueios forem resolvidos. (BLO-003/005 resolvidos em 2026-11-24; resta BLO-008 de Step & Repeat — captura de campos do `Make Grid`. BLO-004/Color Management resolvido em 2026-11-22.)

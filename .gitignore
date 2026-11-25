@@ -50,3 +50,9 @@ test_results_final.txt
 
 # Artefatos de sessão de agente
 -scriptArgs
+
+# Saídas de scratch na raiz (não fazem parte do snapshot de revisão)
+/*.txt
+/-txt
+/test_results.xml
+/test_qrect.cpp

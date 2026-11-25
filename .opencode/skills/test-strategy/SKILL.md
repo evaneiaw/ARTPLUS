@@ -29,19 +29,35 @@ Um teste que não falha quando a regra é removida não prova nada.
 - Golden nasce de captura do `comportamento` em `rag/evidence/F-###/behavior/`; nunca invente o esperado.
 - Fixture de PDF nova entra em `tests/fixtures/` com origem e hash registrados.
 - Teste de exceção verifica a mensagem/tipo, não só "não crashou".
+- Cubra **normal, limite e falha**; se uma regra não tem teste, reporte a lacuna.
+- **Não substitua o objeto sob teste por mock.** Mock é para borda (I/O, rede, relógio); se o
+  código real da feature não executa, o teste não prova a feature.
+- **Não desative teste** (`QSKIP`, `DISABLED`, remover `add_test`) para obter PASS. Falha vira
+  relatório, não silêncio.
 
 ## Como rodar
 
 ```powershell
 $cmake = 'C:\Users\Evanei\AppData\Local\Microsoft\WinGet\Packages\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\cmake-4.4.4-windows-x86_64\bin\cmake.exe'
-& $cmake --build H:\Desktop\ArtPlus\build --preset release-mingw
-& $cmake -E chdir H:\Desktop\ArtPlus ctest --preset unit-tests
+# use a árvore já configurada; se outra sessão estiver buildando, isole:
+$dir = if ($env:ARTPLUS_GATE_BUILD_DIR) { $env:ARTPLUS_GATE_BUILD_DIR } else { 'build' }
+& $cmake --build $dir
+& $cmake -E chdir H:\Desktop\ArtPlus ctest --test-dir $dir --output-on-failure
 ```
 
 Para um teste específico:
 
 ```powershell
-& $cmake -E chdir H:\Desktop\ArtPlus ctest --preset unit-tests -R PdfRoundTrip --output-on-failure
+& $cmake -E chdir H:\Desktop\ArtPlus ctest --test-dir $dir -R PdfRoundTrip --output-on-failure
+```
+
+Para o artefato oficial de gate (obrigatório antes de declarar `testado`):
+
+```powershell
+$env:ARTPLUS_GATE_BUILD_DIR = 'build_<escopo>'
+python scripts/gate.py --build
+python scripts/gate.py --feature F-### --run-test
+python scripts/gate.py --feature F-### --stage test
 ```
 
 Se `0xc0000135`, exporte `PATH=C:\Qt\6.8.3\mingw_64\bin` antes do `ctest`.

@@ -1,14 +1,15 @@
-# Document 1801954e0
-```yaml
+---
 modulo: Document.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x1801954e0
 nome: ?RegisterDocumentPieceInfoWriter@ArtDoc@@YA_KV?$function@$$A6A_NAEBVDocument@ArtDoc@@@Z@std@@AEBV?$basic_string_view@DU?$char_traits@D@std@@@3@V?$function@$$A6AXAEAVGADict@@AEBVDocument@ArtDoc@@@Z@3@@Z
 mangled: RegisterDocumentPieceInfoWriter
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# Document 1801954e0
 
 ## Assinatura
 ```c

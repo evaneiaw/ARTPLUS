@@ -1,4 +1,5 @@
 # src/color_management/CMakeLists.txt
+# F-008 — módulo canônico de Color Management (spec §9 / ADR-008).
 add_library(ColorManagement STATIC
     color_manipulation_layer.cpp
     color_manipulation_layer.h
@@ -12,6 +13,7 @@ add_library(ColorManagement STATIC
     color_lib_info.h
     icc_profile.cpp
     icc_profile.h
+    color_management_exception.h
 )
 
 target_link_libraries(ColorManagement PUBLIC Qt6::Core)

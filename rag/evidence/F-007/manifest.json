@@ -1,6 +1,6 @@
 {
   "id": "F-007",
-  "versao_ref": "24.0",
+  "versao_ref": "24.03.10017",
   "binario": "C:\\Esko\\bg_prog_artpro+_v240\\ArtPro+.app\\Contents\\Windows\\LayoutEngine.dll",
   "sha256": "7BB0ACD6CFE3AC669CBCCD4B99A634687F0B660608A244070FEEED15016497A5",
   "tamanho_bytes": 533424,
@@ -10,6 +10,9 @@
   "runtime": "Microsoft C/C++ Runtime [dynamic]",
   "formato": "PE64 (x64), DLL, assinado Windows Authenticode (PKCS #7)",
   "secoes": 6,
+  "fontes_brutas": [
+    "rag/sources/LayoutEngine.die.json"
+  ],
   "dependencias_dll": [
     "YAGL.dll",
     "LayoutParameters.dll",
@@ -41,7 +44,14 @@
     "GHIDRA-LayoutEngine-0x18002d610",
     "GHIDRA-LayoutEngine-0x180009fc0"
   ],
-  "comportamental": [],
-  "bloqueios": [],
-  "observacao": "Caminho v250 (C:\\bg_prog_artpro+_v250 e C:\\Esko\\bg_prog_artpro+_v250) nao encontrado; analise realizada no binario v240. Ghidra 12.2/JDK 25: import + analise padrao concluidos (39s). Export: 1273 funcoes, 12709 simbolos (RTTI Microsoft), 2497 xrefs, 772 strings, 3858 entradas callgraph. Decompilacao post-script de 10 funcoes (limite) em rag/evidence/F-007/ghidra/. Indice: docs/reverse-engineering/LayoutEngine_GHIDRA.md. Funcoes GenerateLayout e GenerateClassicSolution(Guillotine) decompilam como thunks virtuais (delegam via vtable); comportamento real em alvos apontados."
+  "comportamental": [
+    "CAP-20261124-01"
+  ],
+  "bloqueios": [
+    "BLO-008: campos do dialogo Make Grid NAO medidos — o comando Prepress > Step & Repeat > Make Grid (Ctrl+Alt+G) foi despachado 3x com 1 objeto selecionado e a janela nao repintou (tela branca; capturas shot-14/shot-15/shot-17 identicas, sha256 2FA301EC5EB78A5B4496F145BA265C91DB9DDEAA506E405DECA74C5CC3C08917). Documento permaneceu nao modificado (titulo sem asterisco). Bloqueio de captura de campos, nao de existencia."
+  ],
+  "bloqueios_superados": [
+    "BLO-003: SUPERADO em 2026-11-24 — a existencia de Step & Repeat na v24.03.10017 esta provada em CAP-20261124-01: Prepress > Step & Repeat e submenu com o item Make Grid (Ctrl+Alt+G); o menu Object nao contem Step & Repeat. Mantido apenas como historico; o que falta agora e so a captura dos campos do dialogo (BLO-008)."
+  ],
+  "observacao": "Caminho v250 (C:\\bg_prog_artpro+_v250 e C:\\Esko\\bg_prog_artpro+_v250) nao encontrado; analise realizada no binario v240. Ghidra 12.2/JDK 25: import + analise padrao concluidos (39s). Export: 1273 funcoes, 12709 simbolos (RTTI Microsoft), 2497 xrefs, 772 strings, 3858 entradas callgraph. Decompilacao post-script de 10 funcoes (limite) em rag/evidence/F-007/ghidra/. Indice: docs/reverse-engineering/LayoutEngine_GHIDRA.md. Funcoes GenerateLayout e GenerateClassicSolution(Guillotine) decompilam como thunks virtuais (delegam via vtable); comportamento real em alvos apontados. versao_ref normalizado de '24.0' para '24.03.10017' e sha256 reconferido do binario real nesta sessao (24/11/2026)."
 }

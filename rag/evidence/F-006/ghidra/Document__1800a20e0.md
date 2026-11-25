@@ -1,14 +1,15 @@
-# Document 1800a20e0
-```yaml
+---
 modulo: Document.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x1800a20e0
 nome: ??0EskoPieceInfoWriter@ArtDoc@@QEAA@$$QEAV01@@Z
 mangled: EskoPieceInfoWriter
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# Document 1800a20e0
 
 ## Assinatura
 ```c

@@ -69,6 +69,11 @@ struct MarkCutMarkSettings {
     Style style = Style::Single;
 };
 
+// TODO(F-002): superseded by MarkSetProcessor (ADR-012)
+// MarksEngine is kept for static preset marks (crop, registration, color bar, etc.)
+// Dynamic mark set workflow (Document > Marks panel, Load/Save Mark Set, ApplyRelevantMarkSets)
+// is handled by MarkSetProcessor and DocumentMarksPanel.
+
 struct MarkCreaseMarkSettings {
     bool enabled = false;
     float weight = 0.2f;

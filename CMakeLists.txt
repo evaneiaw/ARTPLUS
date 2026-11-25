@@ -74,8 +74,6 @@ set(PREPRESS_SOURCES
     src/prepress/marks.h
     src/prepress/imposition.cpp
     src/prepress/imposition.h
-    src/prepress/color_manipulation/color_manipulation_layer.cpp
-    src/prepress/color_manipulation/color_manipulation_layer.h
 )
 
 set(UI_SOURCES
@@ -100,6 +98,10 @@ set(AUTOMATION_SOURCES
 function(setup_target_incdirs target)
     target_include_directories(${target} PRIVATE ${CMAKE_SOURCE_DIR}/src)
 endfunction()
+
+# F-008 Color Management — módulo canônico (spec §9 / ADR-008).
+# Precisa existir antes de ser linkado em ArtPlus.
+add_subdirectory(src/color_management)
 
 # Integration probes
 add_executable(form_parser_probe
@@ -178,7 +180,7 @@ add_executable(ArtPlus
     ${UI_SOURCES}
     ${AUTOMATION_SOURCES}
 )
-target_link_libraries(ArtPlus PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::ZlibPrivate)
+target_link_libraries(ArtPlus PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::ZlibPrivate ColorManagement)
 setup_target_incdirs(ArtPlus)
 
 enable_testing()
@@ -273,8 +275,6 @@ setup_target_incdirs(test_save_document)
 add_test(NAME SaveDocumentTests COMMAND test_save_document)
 set_tests_properties(SaveDocumentTests PROPERTIES ENVIRONMENT "PATH=C:/Qt/6.8.3/mingw_64/bin")
 
-# Include color_management module (F-008)
-add_subdirectory(src/color_management)
 # F-008 Color Management tests
 add_executable(test_color_management tests/unit/color_management_tests.cpp)
 target_link_libraries(test_color_management PRIVATE ColorManagement Qt6::Core Qt6::Test)

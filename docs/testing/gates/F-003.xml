@@ -6,9 +6,9 @@
 	skipped="0"
 	hostname=""
 	time="0"
-	timestamp="2026-11-22T15:09:44"
+	timestamp="2026-11-24T14:12:18"
 	>
-	<testcase name="BearerBarTests" classname="BearerBarTests" time="0.236752" status="run">
+	<testcase name="BearerBarTests" classname="BearerBarTests" time="0.0473512" status="run">
 		<properties/>
 		<system-out></system-out>
 	</testcase>

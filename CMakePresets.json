@@ -8,6 +8,7 @@
             "binaryDir": "${sourceDir}/build",
             "generator": "MinGW Makefiles",
             "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
                 "CMAKE_PREFIX_PATH": "C:/Qt/6.8.3/mingw_64",
                 "CMAKE_CXX_COMPILER": "C:/Users/Evanei/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.MSVCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe"
             }
@@ -19,6 +20,7 @@
             "binaryDir": "${sourceDir}/build",
             "generator": "MinGW Makefiles",
             "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
                 "CMAKE_PREFIX_PATH": "C:/Qt/6.8.3/mingw_64"
             },
             "environment": {

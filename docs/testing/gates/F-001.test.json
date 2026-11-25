@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-22T15:08:31-03:00",
+  "timestamp": "2026-11-24T14:12:18-03:00",
   "feature": "F-001",
   "test_name": "CutMarkTests",
-  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-001.xml --output-on-failure -R ^CutMarkTests$",
+  "command": "C:\\Users\\Evanei\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Kitware.CMake_Microsoft.Winget.Source_8wekyb3d8bbwe\\cmake-4.4.4-windows-x86_64\\bin\\ctest.exe --test-dir build_core_gate --output-junit H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-001.xml --output-on-failure -R ^CutMarkTests$",
   "exit_code": 0,
   "xml_path": "H:\\Desktop\\ArtPlus\\docs\\testing\\gates\\F-001.xml",
-  "xml_sha256": "DA61F43EBFE7A84F2C2EEC24CA6FC0CFEFDB8A03A038097982D986538D48001B",
-  "log_path": "docs/testing/gates/logs/test-F-001-20261122-150830-748.log",
+  "xml_sha256": "C054E865FC6ECCB16CB937619A388446864DC019F5D1976D32DBBDD7ADF523E1",
+  "log_path": "docs/testing/gates/logs/test-F-001-20261124-141218-132.log",
   "tests": [
     {
       "name": "CutMarkTests",
       "status": "passed",
-      "time": 0.132
+      "time": 0.124
     }
   ],
   "failures": 0,

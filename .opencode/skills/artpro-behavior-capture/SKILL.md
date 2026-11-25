@@ -71,7 +71,10 @@ Grave `docs/behavior/<Ferramenta>.md` no formato do agente `comportamento` (vers
 - Uma sessão de GUI por vez; feche diálogos pendentes antes de reportar.
 - Nunca edite `src/`, `tests/`, specs, roadmap ou artefatos de Ghidra/REA.
 - Nunca sobrescreva prova original.
-- Se a tela mudar de escala ou resolução no meio, recalibrare com `get_screen_info` antes de continuar.
+- Se a tela mudar de escala ou resolução no meio, recalibre com `get_screen_info` antes de continuar.
+- **Limite de passos é handoff, não captura concluída.** Salve o que capturou, registre o ponto
+  exato (janela/campo/passo) e devolva `HANDOFF` + `PROXIMO COMANDO`. Não preencha campo que não viu.
+- Não abra nem feche o ArtPro+ contra diretiva do proprietário; use a instância aberta.
 
 ## Referências
 

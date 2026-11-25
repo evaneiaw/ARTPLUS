@@ -1,14 +1,15 @@
-# Document 18013f240
-```yaml
+---
 modulo: Document.dll
-versao: 24.03.10017.10017
+versao: 24.03.10017
 funcao: 0x18013f240
 nome: ??0WriteContext@ArtDoc@@QEAA@AEBV01@@Z
 mangled: WriteContext
 confianca: alta
 xrefs: []
 strings: []
-```
+---
+
+# Document 18013f240
 
 ## Assinatura
 ```c

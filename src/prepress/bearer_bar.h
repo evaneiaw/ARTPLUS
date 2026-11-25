@@ -7,7 +7,7 @@
 //
 // Evidence: GHIDRA-DocumentMarks-0x18001E3C0 (legacy ctor defaults),
 // 0x18001FDB0 (regenerateMarkImp: 1 Path per Location bit),
-// 0x18012FAA0 (PDF+ ctor defaults), 0x180131DC0 (SizeReference coherence).
+// 0x18012FAA0 (PDF+ ctor defaults), 0x18012E950 (SizeReference coherence, R5).
 
 #include "../document/document_model.h"
 #include "../document/undo.h"

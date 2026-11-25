@@ -1,6 +1,8 @@
 // src/color_management/color_lib_info.cpp
 #include "color_lib_info.h"
 
+#include <utility>
+
 namespace artplus::color {
 
 ColorLibInfo::ColorLibInfo() = default;
@@ -28,6 +30,7 @@ void ColorLibInfo::setLabDefined(bool v) { m_labDefined = v; }
 void ColorLibInfo::setCmykDefined(bool v) { m_cmykDefined = v; }
 void ColorLibInfo::setColorName(const QString& name) { m_colorName = name; }
 void ColorLibInfo::setColorSpaceType(ColorType ct) { m_colorSpaceType = ct; }
+void ColorLibInfo::setProfile(std::shared_ptr<ICCProfile> profile) { m_profile = std::move(profile); }
 
 bool ColorLibInfo::matches(ColorType ct, CategoryType cat) const {
     // Match if the requested type matches our color space type (if defined) and category matches
@@ -43,8 +46,9 @@ bool ColorLibInfo::matches(ColorType ct, CategoryType cat) const {
 }
 
 std::shared_ptr<ICCProfile> ColorLibInfo::getProfile() const {
-    // Stub: return default ICC profile
-    return std::make_shared<ICCProfile>();
+    // 0x180015c00 — devolve o perfil associado à entrada, sem fabricar um
+    // ICCProfile quando não há fonte (auditoria F-008 §7).
+    return m_profile;
 }
 
 } // namespace artplus::color

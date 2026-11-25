@@ -24,8 +24,8 @@ aprovado em `docs/decisions/ADR-001-cut-mark.md` (F-001) e `docs/architecture/Do
 | `GHIDRA-DocumentMarks-0x18001F870` | parse legado `DM-BearerBarParams` (`Version < 3`, mm → mp `× 360000/127`, `IsVertical` na v1) |
 | `GHIDRA-DocumentMarks-0x180020950` | escrita legada `Version = 2`, `Width/Extend/Offset` em mm, `Location` bitmask; sem `IsVertical` |
 | `GHIDRA-DocumentMarks-0x180132A70` | `PDFPlusBearerBar::regenerateMarkImp`: direção → anchors → size ref → apaga → `Group`/`Expander` do `FormPaint` → transformação → `InsertNewObjectOnTop` |
-| `GHIDRA-DocumentMarks-0x180131C40` | `Direction` derivado dos anchors (0 vertical / 1 horizontal — inferência média) |
-| `GHIDRA-DocumentMarks-0x180131DC0` | coerência `SizeReference` 1–4 × `Direction 0`; 5–8 × `Direction 1`; inválido → `0` |
+| `GHIDRA-DocumentMarks-0x18012E7D0` | `UpdateDirection`: `Direction` derivado dos anchors (0 vertical / 1 horizontal — inferência média). ID histórico v25 `0x180131C40` |
+| `GHIDRA-DocumentMarks-0x18012E950` | `UpdateSizeReference`, coerência `SizeReference` (R5): `1–4` **zerados** com `Direction 0` (preservados com `1`); `5–8` **zerados** com `Direction 1` (preservados com `0`); `0` e `default` **não alteram**. ID histórico v25 `0x180131DC0` |
 | `GHIDRA-DocumentMarks-0x180131FE0` | `getMarkType()` = `DynamicObject_PDFPlusBearerBar` (30 bytes) |
 | `GHIDRA-DocumentMarks-0x18001F690` | `BearerBar::getMarkType()` = `AIDynamicMarks-BearerBar` (24 bytes) |
 | `GHIDRA-DocumentMarks-0x180179DA0` | parser PDF+ `Position`: `SourceAnchor`/`ReferenceAnchor`/`Reference`/`ObjectID`, `Offset` array `[valor, 0.0]` |
@@ -144,8 +144,12 @@ Regras do modelo:
 - `locationMask`: apenas os 4 bits baixos têm significado (R4); bits acima são preservados no
   metadado e ignorados pela geração (laço `i = 0..3`).
 - `sizeReference` e `direction` são **opacos** em v1: não há UI que os altere e não há modelo
-  de anchors para derivar `direction` (`0x180131C40`). O que entra é um predicado puro de
-  coerência (D3), usado por teste; a correção silenciosa de R5 pertence a F-003b (A3).
+  de anchors para derivar `direction` (`0x18012E7D0`). O predicado de coerência (D3) existe e
+  a correção silenciosa de `SizeReference` (R5/E3) **é aplicada em runtime** em `regenerate()`
+  e `setParams()` antes de geometria/serialização/captura de undo, coberta por
+  `testSizeReferenceZeroingAtRuntime_R5_E3` (R-a fechada no `F-003-audit-20261124-final5.md`).
+  A derivação de `Direction` por anchors continua opaca ⇒ F-003a. O que ainda fica para
+  F-003b são os itens de roundtrip PDF+/legado (R8–R12).
 - `color`: provisório cinza RGB `168,164,164` (a cor da faixa em `CAP-20261119-02`, spec §6).
   O default real é a tinta `Registration` (spec §3, campo não confirmado) e a resolução
   `Registration` × separação de tinta depende de decisão de cor (`src/color` é proibido neste
@@ -157,17 +161,26 @@ Regras do modelo:
 
 Tabela de `SizeReference` (R5, `0x180170C20`) — carregada como inteiro, sem semântica em v1:
 
-| Valor | Nome no PDF+ | Grupo de eixo | `Direction` exigida |
+| Valor | Nome no PDF+ | Grupo de eixo | `Direction` que **preserva** o valor |
 |---|---|---|---|
-| `0` | (não definido) | — | qualquer |
-| `1` | `LeftMostGridLayout` | left/right | `0` |
-| `2` | `RightMostGridLayout` | left/right | `0` |
-| `3` | `LeftMostGridLayoutColumn` | left/right | `0` |
-| `4` | `RightMostGridLayoutColumn` | left/right | `0` |
-| `5` | `TopMostGridLayout` | top/bottom | `1` |
-| `6` | `BottomMostGridLayout` | top/bottom | `1` |
-| `7` | `TopMostGridLayoutRow` | top/bottom | `1` |
-| `8` | `BottomMostGridLayoutRow` | top/bottom | `1` |
+| `0` | (não definido) | — | qualquer (`default` do `switch`: não altera) |
+| `1` | `LeftMostGridLayout` | left/right | `1` |
+| `2` | `RightMostGridLayout` | left/right | `1` |
+| `3` | `LeftMostGridLayoutColumn` | left/right | `1` |
+| `4` | `RightMostGridLayoutColumn` | left/right | `1` |
+| `5` | `TopMostGridLayout` | top/bottom | `0` |
+| `6` | `BottomMostGridLayout` | top/bottom | `0` |
+| `7` | `TopMostGridLayoutRow` | top/bottom | `0` |
+| `8` | `BottomMostGridLayoutRow` | top/bottom | `0` |
+
+> **Correção de leitura (v240).** A redação anterior desta ADR invertia esta coluna (`1–4` ×
+> `Direction 0`, `5–8` × `Direction 1`) por herança da leitura histórica do layout antigo. A
+> evidência da v24.03.10017 — `rag/evidence/F-003/ghidra/DocumentMarks__0x18012E950.md`
+> (símbolo `DocumentMarks::PDFPlusBearerBar::UpdateSizeReference`) — e a spec R5 regras 1–2
+> fixam o contrário: `1–4` só sobrevivem com `Direction == 1`, `5–8` só com `Direction == 0`.
+> Corrigido em 2026-11-24 a partir de `docs/audit/F-003-audit-20261124.md` (Divergência 1);
+> o ID histórico v25 `0x180131DC0` **não** identifica função na v240 (cai dentro de
+> `PDFPlusClipMark::GetNestedMarkFormulas`).
 
 Bitmask de `Location` (R4, `0x18001FDB0`) — ordem = índice do lado na geometria:
 
@@ -226,14 +239,21 @@ Justificativa e limites:
   derivadas (`2,762 px/mm` pela Media Box e `3,686 px/mm` pelo zoom) se contradizem
   (spec §6, §8 itens 9–10). O valor `5 mm` vem do ctor `0x18001E3C0`, não da imagem.
 
-Predicado puro de coerência (R5, `0x180131DC0`), sem mutação:
+Predicado puro de coerência (R5, `0x18012E950`), sem mutação:
 
 ```cpp
+// true  = o valor sobrevive a UpdateSizeReference com esta Direction
+// false = o valor é zerado silenciosamente em runtime por regenerate()/setParams() (R5/E3, R-a fechada)
 static bool sizeReferenceCoherent(int sizeReference, int direction); // regras 1–3 de R5
 ```
 
-v1 não aplica a correção (`sizeReference = 0`); apenas expõe o predicado para teste e para
-F-003b. Valores fora de `0..8` devolvem `false` (sem evidência; nenhum caminho v1 os produz).
+Semântica (v240, `UpdateSizeReference`): `(1..4, 1) == true` e `(1..4, 0) == false`;
+`(5..8, 0) == true` e `(5..8, 1) == false`; `(0, *) == true` ("não definido", nunca zerado).
+A correção silenciosa de `SizeReference` (R5/E3) **é aplicada em runtime** em `regenerate()` e
+`setParams()` antes de geometria/serialização/captura de undo, coberta por
+`testSizeReferenceZeroingAtRuntime_R5_E3` (R-a fechada no `F-003-audit-20261124-final5.md`).
+Valores fora de `0..8` devolvem `false` (guarda de v1, sem evidência de caminho que os
+produza; o `default` do `switch` na v240 não altera o valor).
 
 ### D4 — Persistência: `.artplus` aditivo agora; PDF+ e legado em F-003b
 
@@ -288,7 +308,7 @@ F-003b. Valores fora de `0..8` devolvem `false` (sem evidência; nenhum caminho 
 | Item | Por que fica |
 |---|---|
 | Fórmula fechada do retângulo PDF+ (`0x180132A70` linhas `346..427`) | não derivada; v1 aproxima com faixas retangulares a partir de parâmetros |
-| Pipeline `UpdateDirection` → `ValidateAnchors` → `UpdateSizeReference` (`0x180131C40`, `0x180131E30`, `0x180131DC0`) | exige modelo de anchors; v1 não tem |
+| Pipeline `UpdateDirection` → `ValidateAnchors` → derivação de `Direction`/`SizeReference` por anchors (`0x18012E7D0`, `0x18012E9C0`, `0x18012E950`; IDs históricos `0x180131C40`, `0x180131E30`, `0x180131DC0`) | a zeragem silenciosa de `SizeReference` (R5/E3) já é aplicada em runtime (R-a fechada), mas a derivação de `Direction` por anchors e a validação `ValidateAnchors` continuam opacas em v1 |
 | `GetPDFPlusBoundingBox` (`0x18012D9D0`) e `GetBoundingBoxForPositioning` (`0x18012D5F0`) | dependem do pipeline acima |
 | Transformação por `Extend`/escala e guarda `0,01 mm` (E7) | v1 não calcula escala |
 | Filete vermelho `255,79,79` e separação `Registration` (A5) | natureza do filete não decidida (spec §8 item 5) |
@@ -377,7 +397,7 @@ struct BearerBarParams {
     int    direction     = 1;     // 0=vertical 1=horizontal (A3)
     Color  color = Color::rgb(168.0f / 255.0f, 164.0f / 255.0f, 164.0f / 255.0f); // A5
 
-    // R5 / 0x180131DC0 — regras 1–3; não muta sizeReference em v1.
+    // R5 / 0x18012E950 — regras 1–3; não muta sizeReference em v1.
     static bool sizeReferenceCoherent(int sizeReference, int direction);
 
     bool operator==(const BearerBarParams& o) const;  // qFuzzyCompare nos doubles
@@ -481,8 +501,8 @@ ação cada.
    7b. **Regressão de escritor único** — com 1 Cut Mark + 1 Bearer Bar: salvar, recarregar e
    salvar de novo ⇒ ambas as listas preservadas (falha se `saveToMetadata` de um manager
    apagar a chave do outro).
-8. **Coerência `SizeReference` (R5)** — `sizeReferenceCoherent`: `(1..4, 0) == true`,
-   `(1..4, 1) == false`, `(5..8, 1) == true`, `(5..8, 0) == false`, `(0, 0) == true`,
+8. **Coerência `SizeReference` (R5)** — `sizeReferenceCoherent`: `(1..4, 1) == true`,
+   `(1..4, 0) == false`, `(5..8, 0) == true`, `(5..8, 1) == false`, `(0, 0) == true`,
    `(0, 1) == true`, `(9, 1) == false`.
 
 ## Mapeamento binário → ArtPlus
@@ -494,9 +514,9 @@ ação cada.
 | `0x18016F250` (fábrica PDF+) | `BearerBarManager::addBearerBar` | construção + inserção, sem modal |
 | `0x18001FDB0` / `FUN_18001EDF0` | `BearerBar::buildGeometry` (faixa por lado) | topologia provada; retângulo `FUN_18001EDF0` confiança média ⇒ `TODO(F-003)` (A4) |
 | `0x180132A70` (`regenerateMarkImp` PDF+) | `BearerBar::regenerate` | v1: faixas retas; transformação/anchors ⇒ F-003a |
-| `0x180131C40` (`UpdateDirection`) | `BearerBarParams::direction` (opaco) | derivação de anchors ⇒ F-003a (A3) |
-| `0x180131DC0` (`UpdateSizeReference`) | `BearerBarParams::sizeReferenceCoherent` | predicado implementado; correção silenciosa ⇒ F-003b |
-| `0x180131E30` (`ValidateAnchors`) | — | F-003a (A3) |
+| `0x18012E7D0` (`UpdateDirection`) | `BearerBarParams::direction` (opaco) | derivação de anchors ⇒ F-003a (A3) |
+| `0x18012E950` (`UpdateSizeReference`) | `BearerBarParams::sizeReferenceCoherent` + zeragem em `regenerate()`/`setParams()` | predicado implementado (`1–4` preservados com `Direction 1`; `5–8` com `Direction 0`); correção silenciosa aplicada em runtime antes de geometria/serialização/captura de undo, coberta por `testSizeReferenceZeroingAtRuntime_R5_E3` (R-a fechada no `F-003-audit-20261124-final5.md`); derivação de `Direction` por anchors/`ValidateAnchors` continua opaca ⇒ F-003a |
+| `0x18012E9C0` (`ValidateAnchors`) | — | F-003a (A3) |
 | `0x180131FE0` (`getMarkType`) | `BearerBar::toMetadata().kind = "DynamicObject_PDFPlusBearerBar"` | string de persistência; sem `ObjectType` novo |
 | `0x18001F690` (`getMarkType` legado) | — | F-003b |
 | `0x18001F870` (parser legado) | — | F-003b (`DM-BearerBarParams`, E1) |
@@ -575,7 +595,7 @@ Arquivos afetados: ver D6.
 |---|---|---|
 | A1 | `PageBox = 3` = `TrimBox` é inferência (§8 item 3); a captura ancorou na Media Box visualmente (§6) | v1 usa `TrimBox` (ctor `0x18012FAA0` grava `3`; UI mostra `Trim Box`). Se falso, muda só `referenceBox` default e o mapeamento em F-003b |
 | A2 | PDF+ não tem espessura numérica: largura vem do `FormPaint` escalado (§8 item 1) | `widthMm = 5` é default **legado**; v1 usa como espessura da faixa; **proibido** exportar como chave PDF+ |
-| A3 | `Direction` 0/1 e `ValidateAnchors` (§8 itens 6–7) | campos opacos; predicado de coerência existe, correção não é aplicada |
+| A3 | `Direction` 0/1 e `ValidateAnchors` (§8 itens 6–7) | campos opacos; predicado de coerência existe e a zeragem silenciosa de `SizeReference` (R5/E3) é aplicada em runtime em `regenerate()`/`setParams()` antes de geometria/serialização/captura de undo, coberta por `testSizeReferenceZeroingAtRuntime_R5_E3` (R-a fechada no `F-003-audit-20261124-final5.md`); derivação de `Direction` por anchors (`0x18012E7D0`) e `ValidateAnchors` (`0x18012E9C0`) continua opaca ⇒ F-003a |
 | A4 | Modelo do retângulo legado: `offset` soma à espessura ou desloca a faixa (§8 item 8) | v1: face interna a `offset`, espessura `width`; idêntico ao alternativo com `offset = 0` |
 | A5 | Natureza do filete vermelho `255,79,79` (§8 item 5) e default `Registration` (§3) | não modelado; cor provisória cinza `TODO(F-003)` |
 | A6 | Referência por objeto (`ObjectID`, E8) (§8 item 11 para E8) | fora de v1; `ReferenceKind::Mark` entra em F-003b |
@@ -593,3 +613,19 @@ Se qualquer ambiguidade for resolvida com evidência contrária a D2/D3, o delta
 ## Estado
 
 aprovado (orquestrador, 2026-11-19)
+
+### Revisões
+
+- **2026-11-24 — R5 alinhada à v24.03.10017.** Corrigidas as duas ocorrências da regra
+  (`:28` e D8 item 8) e a coluna `Direction` da tabela D2, que carregavam a leitura histórica
+  invertida (layout antigo). A regra vigente é a da evidência `GHIDRA-DocumentMarks-0x18012E950`
+  (`DocumentMarks::PDFPlusBearerBar::UpdateSizeReference`): `1–4` **preservados** com
+  `Direction == 1` e **zerados** com `Direction == 0`; `5–8` preservados com `0` e zerados
+  com `1`; `0` e `default` não alteram. As citações `0x180131DC0`/`0x180131C40`/`0x180131E30`
+  foram trocadas pelos equivalentes v240 `0x18012E950`/`0x18012E7D0`/`0x18012E9C0`
+  (IDs históricos v25, preservados como nota). Origem: `docs/audit/F-003-audit-20261124.md`
+  (Divergência 1). Estado da feature **inalterado** por esta revisão.
+
+- **2026-11-24 (atualização) — Zeragem silenciosa de SizeReference (R5/E3) aplicada em runtime e testada.** As anotações da ADR foram atualizadas para refletir que a correção antes apontada como "não aplicada" (`→ F-003b`) agora está comprovada em `regenerate()`/`setParams()` com cobertura de teste `testSizeReferenceZeroingAtRuntime_R5_E3` (12/12 casos) e laudo R-a fechada em `F-003-audit-20261124-final5.md`. A derivação de `Direction` por anchors (`0x18012E7D0` / `ValidateAnchors` `0x18012E9C0`) continua opaca em v1 ⇒ ainda F-003a. O estado da feature continua `aprovado`.
+
+  Fonte: `docs/audit/F-003-audit-20261124-final5.md` (token `73CC1B7AA1928FCB3E453E74976885520CD77F14E60E5FC8BA4E03CE845F107A`), `tests/unit/test_bearer_bar.cpp` (`testSizeReferenceZeroingAtRuntime_R5_E3`), e código `src/prepress/bearer_bar.cpp`.
