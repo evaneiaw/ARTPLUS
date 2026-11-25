@@ -23,7 +23,7 @@ Nunca use `git add -A` com árvore suja de outra sessão.
 ```powershell
 git -C H:\Desktop\ArtPlus switch -c feature/F-025-trim-marks
 git -C H:\Desktop\ArtPlus push -u origin feature/F-025-trim-marks
-gh pr create --repo evaneiaw/artplus-phase3 --base master --fill
+gh pr create --repo evaneiaw/artplus --base master --fill
 gh pr checks --watch
 gh pr view --web
 ```
@@ -31,8 +31,8 @@ gh pr view --web
 ## Release
 
 ```powershell
-gh release create v0.1.0 --repo evaneiaw/artplus-phase3 --generate-notes --title "ArtPlus v0.1.0"
-gh release list --repo evaneiaw/artplus-phase3
+gh release create v0.1.0 --repo evaneiaw/artplus --generate-notes --title "ArtPlus v0.1.0"
+gh release list --repo evaneiaw/artplus
 ```
 
 ## Recuperação

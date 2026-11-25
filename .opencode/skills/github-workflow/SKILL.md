@@ -1,13 +1,13 @@
 ---
 name: GitHub Workflow
-description: Versiona e publica o ArtPlus no repositório artplus-phase3 — commits por escopo com evidência, PR via gh, tags de release e higiene de artefatos grandes. Use antes de commitar, ao abrir PR, revisar diff, publicar tag ou auditar o histórico.
+description: Versiona e publica o ArtPlus no repositório artplus — commits por escopo com evidência, PR via gh, tags de release e higiene de artefatos grandes. Use antes de commitar, ao abrir PR, revisar diff, publicar tag ou auditar o histórico.
 metadata:
   version: "2"
 ---
 
 # Git e GitHub do ArtPlus
 
-Repositório: `H:\Desktop\ArtPlus` → `https://github.com/evaneiaw/artplus-phase3`.
+Repositório: `H:\Desktop\ArtPlus` → `https://github.com/evaneiaw/artplus`.
 Conta `gh` autenticada: `evaneiaw` (escopos `repo`, `workflow`).
 
 ## Identidade do repositório (sempre antes de commitar)
@@ -90,7 +90,7 @@ não publique de novo sem investigar.
 
 ```powershell
 git -C H:\Desktop\ArtPlus push -u origin feature/F-025-trim-marks
-gh pr create --repo evaneiaw/artplus-phase3 --base master --fill
+gh pr create --repo evaneiaw/artplus --base master --fill
 gh pr checks --watch
 ```
 
@@ -100,7 +100,7 @@ PR sem comando reproduzível não é revisável.
 ## Release
 
 ```powershell
-gh release create v0.1.0 --repo evaneiaw/artplus-phase3 --generate-notes --title "ArtPlus v0.1.0"
+gh release create v0.1.0 --repo evaneiaw/artplus --generate-notes --title "ArtPlus v0.1.0"
 ```
 
 Tag só depois de: build limpo, `ctest` passando, smoke de inicialização e `docs/audit/` do escopo aprovado.

@@ -157,7 +157,7 @@ uma pendência em motivo para interromper o projeto.
 
 ## 10. Git
 
-- Repositório `https://github.com/evaneiaw/artplus-phase3`, branch `master`.
+- Repositório `https://github.com/evaneiaw/artplus`, branch `master`.
 - Commit por conjunto coerente de alterações validadas; mensagem descritiva;
   push `origin/master`; confirmar o SHA publicado.
 - Não commitar `build/`, `dossiers/`, `tools/ghidra_projects/`.

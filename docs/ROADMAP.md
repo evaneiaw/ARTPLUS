@@ -2,7 +2,7 @@
 
 **Projeto:** ArtPlus  
 **Referência funcional:** Esko ArtPro+ v24.03.10017  
-**Repositório:** https://github.com/evaneiaw/artplus-phase3  
+**Repositório:** <https://github.com/evaneiaw/artplus><br>
 **Branch:** master  
 **Objetivo:** Desenvolver um aplicativo profissional de pré-impressão e edição gráfica, reconstruindo comportamentos comprovados do ArtPro+ por engenharia reversa, observação funcional e implementação independente.
 

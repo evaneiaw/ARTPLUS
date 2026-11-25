@@ -1,3 +1,7 @@
+> **Nota de manutenção (histórico).** Entradas históricas de 2026-11-24 e anteriores podem
+> citar o nome antigo de repositório `artplus-phase3`; isso é registro histórico, não instrução
+> vigente. O repositório canônico atual é `https://github.com/evaneiaw/artplus` (branch `master`).
+
 checkpoint_20261124_agent_core_audit:
   - tarefa: auditoria corretiva do sistema de agentes/skills/hooks/commands/gate/retomada (nao e feature work)
   - arvore: H:\Desktop\ArtPlus (master), HEAD 503b922068af07ca21d8032c3465e2738a2b436f; WIP alheio preservado; nada commitado

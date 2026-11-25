@@ -18,7 +18,7 @@ O projeto ArtPlus consiste na reimplementação funcional do Esko ArtPro+ v24.03
 **Repositórios envolvidos:**
 - `H:\Desktop\ArtPlus` — 7 commits, HEAD `70c3d00`, branch `master`, origin `github.com/evaneiaw/artplus` (case-insensitive).
 - `H:\Desktop\ArtPlus-UI` — 5 commits, HEAD `049ec52`, branch `master`, origin `evaneiaw/ARTPLUS-UI.git`.
-- GitHub: `https://github.com/evaneiaw/artplus-phase3`, branch `master`.
+- GitHub: `https://github.com/evaneiaw/artplus`, branch `master`.
 
 **Arquitetura pretendida:**
 ```
@@ -396,10 +396,10 @@ Detalhar:
 
 | Caminho | Tipo | Referências | Motivo da suspeita | Dependências | Decisão proposta | Risco | Procedimento de recuperação |
 |---|---|---|---|---|---|---|---|
-| `src/prepress/selection_mark.*` | Obsoto | F-004 | F-004 fora do escopo (CAP negativo) | Nenhuma (não referenciado em CMake) | Não importar (F-004) | Baixo | Arquivar cópia histórica em `docs/ui-workshop/legacy-repo/` |
+| `src/prepress/selection_mark.*` | Obsoleto | F-004 | F-004 fora do escopo (CAP negativo) | Nenhuma (não referenciado em CMake) | Não importar (F-004) | Baixo | Arquivar cópia histórica em `docs/ui-workshop/legacy-repo/` |
 | `src/prepress/color_manipulation/*` | Duplicata | F-008 | Concorrente do módulo canônico `color_management/` | Referenciado em `test_color_management.cpp` | Não importar (duplicata F-008) | Médio | Arquivar cópia histórica em `docs/ui-workshop/legacy-repo/` |
-| `tests/unit/test_selection_mark.cpp` | Teste | F-004 | F-004 fora do escopo | Não no CMake | Não importar | Baixo | Remover (giáá arquivado) |
-| `docs/testing/gates/F-004.test.json`, `F-004.xml` | Artefato gate | F-004 | F-004 fora do escopo | Gate.py lê por feature | Remover | Baixo | Remover (giáá arquivado) |
+| `tests/unit/test_selection_mark.cpp` | Teste | F-004 | F-004 fora do escopo | Não no CMake | Não importar | Baixo | Remover (já arquivado) |
+| `docs/testing/gates/F-004.test.json`, `F-004.xml` | Artefato gate | F-004 | F-004 fora do escopo | Gate.py lê por feature | Remover | Baixo | Remover (já arquivado) |
 | Logs `-txt`, `-log` na raiz | Temporário | Múltiplo | Acúmulo ad-hoc durante desenvolvimento | Alguns referenciados por `gate.py` | Remover (verificar 8 pts) | Baixo | Excluir após verificar `.gitignore` |
 | Scripts duplicados na raiz | Scripts | `automatizador.py`, `capture_f004.py`, etc. | 11 scripts duplicam arquivos da raiz do núcleo | Já existem idênticos em `H:\Desktop\ArtPlus\` | Manter versão núcleo; remover da UI | Baixo | `git rm` dos da UI; manter na raiz |
 | `.bak`, `.new` da raiz | Temp | `CMakeLists.txt.bak/.new` | Geração antiga do CMake | Build scripts | Remover (verificar 8 pts) | Baixo | Excluir após verificação |
@@ -622,7 +622,7 @@ Cada linha da matriz deverá relacionar:
 - [ ] Smoke test visual vs `docs/ui-workshop/SCREENSHOTS` dentro de tolerância declarada.
 - [ ] `RELATORIO_7FASES.MD` atualizado com estado final de todas as features.
 - [ ] `docs/agents/CHECKPOINT.md`, `STATUS.md`, `FEATURE_MATRIX.csv`, `ROADMAP.md` atualizados.
-- [ ] `IMPORT_MANIFEST.md` e `UI_TRACEABILITY.md` presentes e populosos.
+- [ ] `IMPORT_MANIFEST.md` e `UI_TRACEABILITY.md` presentes e completos.
 - [ ] `ArtPlus-UI` arquivado (read-only) após aprovação final.
 
 **Entregáveis (após Gate F7):**
@@ -698,7 +698,7 @@ Cada linha da matriz deverá relacionar:
 |---|---|---|---|---|
 | F1 | `gate.py --all` version OK; `gate.py --inventory` 0 | Inventário verificado | 0 (pass) | Concluído |
 | F2 | Backup tags `pre-consolidation`; estrutura unificada; CMake válido; build 16/16; `IMPORT_MANIFEST.md` completo | Backups, `git status`, `cmake --build`, `ctest` | 0 (pass) | Próxima fase |
-| F3 | Interface funcional + painéis populosos; undo/redo operantes; MediaBox ±1e-3 pt; nenhum botão sem função | `gate.py --feature F-### --stage code/test/audit` = 0 (cada feature); capturas smoke test | 0 (pass) | Próxima fase |
+| F3 | Interface funcional + painéis populados; undo/redo operantes; MediaBox ±1e-3 pt; nenhum botão sem função | `gate.py --feature F-### --stage code/test/audit` = 0 (cada feature); capturas smoke test | 0 (pass) | Próxima fase |
 | F4 | `git status` limpo; zero caminhos absolutos ArtPlus-UI; build + ctest verdes; `.gitignore` 8 pts OK | `git status --short`; grep por paths absolutos; `ctest` | 0 (pass) | Próxima fase |
 | F5 | `UI_TRACEABILITY.md` criado; toda linha da matriz de rastreabilidade tem estado; reauditoria F-001/002/003/005/006/008 com token novo; F-004/F-007/F-009 respeitados | `manifest.json` por feature; `gate --stage audit rc0` + token medido | 0 (pass) | Próxima fase |
 | F6 | `validate_skills.py` 0 erros; pipeline subagentes operacional (HANDOFF + arquivos + exit + pendente + próximo); schema V2 em todos agents; caminhos absolutos removidos; `AGENTS.md`/`opencode.jsonc` V2 | saída `validate_skills.py`; `gate.py --selftest`; listagem de paths | 0 (pass) | Próxima fase |
@@ -795,8 +795,8 @@ Os seguintes documentos foram consultados para elaboração deste relatório:
 - `ui-workshop/SCREENSHOTS/` — 96 prints de referência (alguns quebrados: CAP-20261122-01.png, -02.png inexistentes).
 
 **GitHub:**
-- `https://github.com/evaneiaw/artplus-phase3`, branch `master`.
-- Origin/HEAD: `ae06e38fef18091afe32eaa50bd2e5a4710d54dd` (após commit inicial do RELATORIO_7FASES.MD).
+- `https://github.com/evaneiaw/artplus`, branch `master`.
+- Origin/HEAD: sincronizado com `origin/master`; confirmar o SHA vigente com `git rev-parse HEAD` e `git ls-remote origin refs/heads/master`.
 
 ### Validação Final do Documento
 
@@ -806,14 +806,12 @@ Os seguintes documentos foram consultados para elaboração deste relatório:
 4. ✅ Verificar se as sete fases estão detalhadas (cada uma com objetivo, situação inicial, escopo, subfases numeradas, tarefas técnicas, arquivos envolvidos, dependências, riscos, critérios de aceite/gate e entregáveis).
 5. ✅ Verificar se as matrizes estão presentes (matriz de dependências, matriz de arquivos, matriz de funcionalidades, matriz de riscos, matriz de gates, matriz de decisões).
 6. ✅ Verificar se os gates são objetivos (cada gate tem comando `gate.py` específico + condição de saída `0` ou `1` ou `2`; ressalva não aprova gate vermelho).
-7. ✅ Informar quantidade de linhas e tamanho do documento (após geraçãou'll verificar).
+7. ✅ Informar quantidade de linhas e tamanho do documento (após geração, verificar).
 8. ✅ Apresentar o índice das sete fases (visão geral + Parte II + Parte III + Parte IV + Parte V).
-9. ✅ Informar quais fontes foram consultadas (lista completa arriba).
+9. ✅ Informar quais fontes foram consultadas (lista completa acima).
 10. ✅ Informar quais pontos permaneceram pendentes de investigação (F-004/F-007/F-009 gaps; MediaBox precisão pending merge; F-007 campos Make Grid; F-009 captura comportamental v24).
 11. ✅ Apresentar a lista de arquivos alterados (após commit: apenas `RELATORIO_7FASES.MD`).
 
-**O único arquivo autorizado a ser alterado é `RELATORIO_7FASES.MD`.**
+### Nota de escopo
 
-Não criar commit. Não fazer push. Não iniciar a Fase 2.
-
-A missão termina após a entrega e verificação do relatório expandido.
+Este relatório é um documento de planejamento e controle. A execução das fases 2 a 7 depende de aprovação explícita do proprietário e do gate correspondente; esta revisão documental não inicia nenhuma fase operacional.

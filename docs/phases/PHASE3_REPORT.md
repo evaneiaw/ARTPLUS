@@ -1,5 +1,9 @@
 # Fase 3 — Núcleo PDF e Integração com o Modelo de Documento
 
+> **Nota histórica.** Este relatório registra o estado de 2026-11-17. O remote citado
+> (`artplus-phase3`) era o repositório de trabalho na época; o repositório canônico atual é
+> `https://github.com/evaneiaw/artplus`.
+
 **Status: concluída com limitações documentadas.**
 **Data: 2026-11-17**
 

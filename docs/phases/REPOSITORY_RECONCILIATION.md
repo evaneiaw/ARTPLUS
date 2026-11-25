@@ -1,5 +1,9 @@
 # REPOSITORY_RECONCILIATION — reconciliação e controle do working tree
 
+> **Nota histórica.** Este relatório registra comandos e saídas de 2026-11-21. As URLs
+> `artplus-phase3` que aparecem nos logs de `git push` são registro histórico daquela sessão;
+> o repositório canônico atual é `https://github.com/evaneiaw/artplus`.
+
 **Data:** 2026-11-21
 **Modo:** HALT ativo · **somente leitura e documentação** · nenhum commit, push, reset, clean,
 checkout destrutivo ou stash
