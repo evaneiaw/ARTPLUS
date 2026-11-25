@@ -1,6 +1,6 @@
 > **Nota de manutenção (histórico).** Entradas históricas de 2026-11-24 e anteriores podem
-> citar o nome antigo de repositório `artplus-phase3`; isso é registro histórico, não instrução
-> vigente. O repositório canônico atual é `https://github.com/evaneiaw/artplus` (branch `master`).
+> citar um nome antigo de repositório; isso é registro histórico, não instrução vigente.
+> O repositório canônico atual é `https://github.com/evaneiaw/artplus` (branch `master`).
 
 checkpoint_20261124_agent_core_audit:
   - tarefa: auditoria corretiva do sistema de agentes/skills/hooks/commands/gate/retomada (nao e feature work)
@@ -243,7 +243,7 @@ checkpoint_2026-11-23_F003_update:
   - STATUS.md: F-003 listado como auditado
   - FEATURE_MATRIX.csv: F-003 = auditado
   - CHECKPOINT.md: atualizado
-  - proxima_acao: commit local SHA `0e8d843` concluído (9 arquivos). PUSH BLOQUEADO: repositório sem remote `origin` (`git remote -v` vazio). Necessário configurar `git remote add origin <URL-artplus-phase3>` e `git push origin master` — delegar ao orquestrador (dono de github-workflow/remotos).
+  - proxima_acao: commit local SHA `0e8d843` concluído (9 arquivos). PUSH BLOQUEADO: repositório sem remote `origin` (`git remote -v` vazio). Necessário configurar `git remote add origin <URL-do-repositório>` e `git push origin master` — delegar ao orquestrador (dono de github-workflow/remotos).
 
 checkpoint_2026-11-23_F004_auto:
   - tarefa: /auto escopo F-004 (Selection Mark / PDFObjectActions.dll) — fora-do-escopo-v24, nao implementar no clone
@@ -259,6 +259,6 @@ checkpoint_2026-11-23_F004_auto:
   - comportamento: CAP-20261121-02 = NEGATIVO (UI v24: nao existe menu 'Marks', 'Selection Mark' nem Ctrl+Shift+S que e 'Save As'); nenhuma string 'SelectionMark'/'Selection Mark' no PDFObjectActions.dll v240 (busca exata em 37006 strings)
   - estado_comprovado: arquitetado | estado_declarado: fora-do-escopo-v24 -> COERENTE (gate inventario aprovado)
   - versao_ref: 24.03.10017 (binario PDFObjectActions.dll SHA-256 8F6A23C1533E45AF657D91E62C18379AF3FE5B59C947C04A068A42E43573184D)
-  - ultima_etapa_concluida: F-004 aprovado pelo gate inventario como fora-do-escopo-v24; nenhum artefato de codigo/teste restante; commit ac95a41 publicado em https://github.com/evaneiaw/artplus-phase3
+  - ultima_etapa_concluida: F-004 aprovado pelo gate inventario como fora-do-escopo-v24; nenhum artefato de codigo/teste restante; commit ac95a41 publicado em https://github.com/evaneiaw/artplus
   - resolucao_f001: BLO-007 resolvido — build global verde (Ninja, exit_code=0), token vigente 09CF8A4DC0D6C39C38D63D0C431F0B70888B483A07AA8C4A4977C241B5E62FC5 aceito, GATE 6 auditoria ok; F-001 estado bloqueado->auditado; BLO-007 removido de BLOQUEIOS.md; gates F-001 (code/test/audit) rc0 confirmados
   - proxima_acao: despachar testes para git add/commit/push do conjunto F-001 + F-004 docs; depois continuar /auto com proxima feature elegivel (F-005 ou F-008 re-audit)

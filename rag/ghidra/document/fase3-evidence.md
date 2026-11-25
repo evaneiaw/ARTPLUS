@@ -41,7 +41,7 @@ Implementação independente de leitura/interpretação de PDF e da exportação
 1. Implementado parser PDF independente compatível com os fixtures de teste do projeto (`tests/fixtures/*.pdf`).
 2. Integrado ao modelo `ArtPlus::Document` — IDs estáveis, camadas por página, seleção/movimentação/delete/restore de imagens embodied como XObjects `Image` / `DCTDecode` / `DeviceRGB`.
 3. CTest cobre UnitTests (modelo), PdfRoundTrip (round-trip), EditingTests (seleção/move/scale/rotate/delete/reimport).
-4. Documentação em `docs/phases/PHASE3_REPORT.md`; índices RAG atualizados; commit local único até aqui.
+4. Documentação em `docs/phases/FASE3_REPORT.md`; índices RAG atualizados; commit local único até aqui.
 
 ## Verificação (CTest)
 

@@ -1,7 +1,7 @@
 # Fase 3 — Núcleo PDF e Integração com o Modelo de Documento
 
-> **Nota histórica.** Este relatório registra o estado de 2026-11-17. O remote citado
-> (`artplus-phase3`) era o repositório de trabalho na época; o repositório canônico atual é
+> **Nota histórica.** Este relatório registra o estado de 2026-11-17. O remote citado era o
+> repositório de trabalho da época (URL redigida); o repositório canônico atual é
 > `https://github.com/evaneiaw/artplus`.
 
 **Status: concluída com limitações documentadas.**
@@ -10,7 +10,7 @@
 ## 1. Preparação
 
 - Arquitetura analisada: núcleo `src/document/` (modelo ArtPlus pré-existente) + `src/ui/` + novo módulo `src/pdf/`.
-- Evidências do Ghidra consultadas em `rag/ghidra/document/`: `file-io-pdf.md`, `color-management.md`, `document-architecture.md`, `undo-redo-actions.md`, `transparency-blending.md`, `fonts-text.md`, `annotations.md`, `index.md`, `phase3-evidence.md`, `phase3-delivery-evidence.md`.
+- Evidências do Ghidra consultadas em `rag/ghidra/document/`: `file-io-pdf.md`, `color-management.md`, `document-architecture.md`, `undo-redo-actions.md`, `transparency-blending.md`, `fonts-text.md`, `annotations.md`, `index.md`, `fase3-evidence.md`, `fase3-delivery-evidence.md`.
 - Reutilizado Qt 6.8.3 (Core, Gui, Widgets, Svg, ZlibPrivate) — sem novas dependências. `Qt6::ZlibPrivate` fornece `inflate`/`compress2` para `FlateDecode` e para a exportação lossless de imagens (o bundled do Qt).
 
 ## 2. Importação e interpretação PDF
@@ -80,7 +80,7 @@ Implementado em `src/pdf/`:
 
 ## 6. Engenharia reversa
 
-- `rag/ghidra/document/phase3-evidence.md` e `phase3-delivery-evidence.md` registram a cross-evidence:
+- `rag/ghidra/document/fase3-evidence.md` e `fase3-delivery-evidence.md` registram a cross-evidence:
   - endereços Ghidra relevantes (`ReadOptions 1800161e0`, `WriteOptions 180016730`, `PageRanges 1800156d0`, `ContentObject 180015000`, `Representation 180016380`, `ColorConverter 1800271c0`, `Transparency 18001ca50`)
   - observados vs implementação (Form XObjects, α, clipping, anotações)
   - nível de confiança + limitações (form matrices não-identidade; soft masks; SMask; undo/redo).
@@ -120,12 +120,12 @@ Implementado em `src/pdf/`:
 **Arquivos criados/modificados (este último recorte):**
 
 - Modificados: `src/document/document_model.{h,cpp}` (ClippingMaskObject, clipMaskIds, fontes), `src/document/document_serializer.cpp` (persistência de masks/clips/alpha, remap/load fix), `src/pdf/pdf_content.cpp/h` (sequência ordenada, BaseFont, correção de ordem Qt), `src/pdf/pdf_importer.cpp` (ordered import, clipping como objeto, grupo de forms com filhos), `src/pdf/pdf_exporter.cpp/h` (alpha ExtGState, clip emission, Image XObjects lossless), `src/ui/main_window.cpp/h` (ClipAware items, navegação de páginas, Page combo, layer filter, `--page` CLI), `src/app/main.cpp` (`--page`, `--open`), `tests/unit/test_pdf_roundtrip.cpp` (clip mask round-trip, image XObject assert), `tests/unit/test_editing.cpp`, `CMakeLists.txt`
-- Criados: `tests/integration/pdf_smoke.cpp`, `tests/integration/form_xobject_test.cpp`, `tests/unit/test_editing.cpp`, `tests/fixtures/{test_formxobject,test_unsupported}.pdf`, `tests/fixtures/make_test_pdfs.py`, `rag/ghidra/document/phase3-evidence.md`, `rag/ghidra/document/phase3-delivery-evidence.md`
+- Criados: `tests/integration/pdf_smoke.cpp`, `tests/integration/form_xobject_test.cpp`, `tests/unit/test_editing.cpp`, `tests/fixtures/{test_formxobject,test_unsupported}.pdf`, `tests/fixtures/make_test_pdfs.py`, `rag/ghidra/document/fase3-evidence.md`, `rag/ghidra/document/fase3-delivery-evidence.md`
 - Removidos: alvos de diagnóstico `pdf_probe`, `image_export_*`, `clip_debug`; arquivos temporários `qs.cpp`, `repro.cpp`
 
 **SHA publicado:** `7f6d7f9324028e8a0fdb082d73726f451bddabec` é o último publicado no remoto `origin/master`; este recorte (clipe/alpha/fixes) será commitado a seguir e empurrado para `master` via `origin`.
 
-**Remote:** `origin → https://github.com/evaneiaw/artplus-phase3.git` (público); o repositório `evaneiaw/artplus` **não foi tocado**.
+**Remote:** `origin → <URL do repositório da época — redigida>` (público); o repositório `evaneiaw/artplus` **não foi tocado**.
 
 **Comando de verificação:** `git rev-parse HEAD` → `master`; `git ls-remote origin master` após push.
 
