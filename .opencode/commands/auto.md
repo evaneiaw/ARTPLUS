@@ -37,7 +37,13 @@ FALHA: gate != 0 devolve ao dono (máx. 2 tentativas); a terceira vira BLOQUEIOS
 
 Interpretação dos argumentos:
 - vazio: execute a **próxima tarefa elegível** (§2 da política) e **continue**;
-- `F-###` ou nome de módulo: **priorize** esse alvo;
+- `F-###` ou nome de módulo: **priorize** esse alvo.
+  - Se `F-###` **já existe** no INVENTORY/manifest: retome do gate mais avançado.
+  - Se `F-###` **não existe** (órfão): **bootstrap automático**. O orquestrador:
+    - executa `rea` para triagem leve dos binários v24 não cobertos;
+    - escolhe o candidato de maior valor (UI própria Esko, tamanho, menus/dialogs);
+    - cria `rag/evidence/F-###/manifest.json` com id, versao_ref: 24.03.10017, binario, sha256;
+    - segue o pipeline normal (ghidra → comportamento → spec → ...). **Nunca pergunte ao usuário.**
 - `--extract`: investigação, evidência, spec e dossiê — **sem implementação**;
 - `--static`: triagem estática, **sem GUI**;
 - `--max N`: no máximo N módulos nesta execução (limite solicitado pelo usuário, **não** uma regra padrão de encerramento).

@@ -39,6 +39,23 @@ em `docs/agents/REFERENCE_VERSION.md` (Esko ArtPro+ **v24.03.10017**).
 
 Desempate: tamanho decrescente. Registrar a escolha em **uma linha**.
 
+### Alvo `F-###` órfão (bootstrap automático)
+
+Quando o usuário passar `F-###` que **não existe** no `INVENTORY.md` (sem manifest,
+sem spec, sem entrada na fila), o orquestrador **não pergunta ao usuário o que
+estudar**. Ele inicia o bootstrap automático:
+
+1. `rea` faz triagem leve dos binários v24 não cobertos por features existentes;
+2. o orquestrador escolhe o candidato de maior valor (UI própria Esko, tamanho,
+   menus/dialogs, dependência) e registra a escolha em **uma linha** com justificativa;
+3. cria `rag/evidence/F-###/manifest.json` com `id`, `versao_ref: 24.03.10017`,
+   `binario` e `sha256` reais do binário v24;
+4. segue o pipeline normal (§4): `ghidra` + `comportamento` → `documentacao` →
+   `arquitetura` → `implementacao` → `testes` → `auditor`.
+
+Isso vale para qualquer número (`F-012`, `F-013`, `F-014`, ...). A regra EXISTENCE-FIRST
+continua: o CAP comportamental da v24 é obrigatório antes da spec.
+
 ## 3. Execução contínua
 
 A execução continua até:
