@@ -2,7 +2,96 @@
 > citar um nome antigo de repositório; isso é registro histórico, não instrução vigente.
 > O repositório canônico atual é `https://github.com/evaneiaw/artplus` (branch `master`).
 
-checkpoint_20261124_agent_core_audit:
+checkpoint_20261127_ciclo_fechado_f009_f010_f011:
+  - data: 2026-11-27 (retomada 2026-11-26/27) — CICLO FECHADO
+  - arvore: H:/Desktop/ArtPlus, master, HEAD cd78411f2fb8cb8ab873379202d32253a07849f5; WIP alheio preservado (~99 entradas); NADA commitado neste ciclo
+  - gate_zero: preflight PASS (3/3); check_version --strict APROVADO; HALT escopado F-007 (BLO-008); gate_inventory rc0 (11/11 coerente); gate_all rc2 (HALT escopado)
+  - ESTADO FINAL DERIVADO DO GATE (11 features): auditado=9 (F-001/002/003/005/006/008/009/010/011), fora-do-escopo-v24=1 (F-004), bloqueado=1 (F-007/BLO-008); testado=0, implementado=0, arquitetado=0
+  - F-006: laudo F-006-audit-20261127c.md, token EE90FF95BB9DF55E277FF28C279D244AC5611C1F829DB31E885B6058DFFF0325; --stage audit rc0
+  - F-009: laudo F-009-audit-20261127.md, token 4108E64EC7636A2067BA8A5653D9255AE6FE31C8F0F58AE586F79329E9C2D404; --stage audit rc0
+  - F-010: laudo F-010-audit-20261126.md, token A8D35C4D6EFD6C336DF618DB06F7B6FCC56AE3B55B3733B9438747AEC36173C9; --stage audit rc0
+  - F-011: laudo F-011-audit-20261127.md, token [novo emitido]; --stage audit rc0
+  - Próximo ciclo: aguardar resolução BLO-008 (captura campos Make Grid F-007) ou nova feature elegível
+  - Último comando: python scripts/gate.py --inventory -> exit 0 (coerente); APROVADO COM RESSALVAS; --stage audit rc0. Ressalvas: UI "Gerenciar Objetos" nao existe na v24 (CAP-04 negativo); CAP-01/02/03 referenciam screenshots ausentes; setZOrder stub TODO(F-009); undo transacional fora do v1; Scope::ThisLayer/OtherLayers nao diferenciado.
+  - F-010: laudo F-010-audit-20261127b.md, token A8D35C4D6EFD6C336DF618DB06F7B6FCC56AE3B55B3733B9438747AEC36173C9; APROVADO COM RESSALVAS; --stage audit rc0. Ressalvas: wiring /Trapped+pdf:Trapped em src/pdf nao ligado; sem efeito visual de trapping; menu Prepress custom-drawn nao acessivel.
+  - F-011: laudo F-011-audit-20261127.md, token 4ABCD24709DD7F200CD2D151AC0F0E2F385E62E210D983ACACE9DC639CAAFBD9; APROVADO COM RESSALVAS; --stage audit rc0. Ressalvas: servidor AE real (stubs TODO(F-011)); Action Lists fora de escopo; campos login/UI conectada nao capturados; spec §8.13 cita ADR-011 em vez de ADR-017 (corrigir em ciclo de doc).
+  - artefatos gate regenerados: docs/testing/gates/build.json (gate --build rc0, log build-20261126-034700-943.log); F-006/F-009/F-010/F-011.test.json + .xml regenerados; tokens reemitidos apos cada --run-test (regra: auditor mede token proprio)
+  - builds isolados de auditoria: build_audit_F-006/F-009/F-010/F-011 (todos exit 0); build/ compartilhado preservado; sem Remove-Item -Recurse -Force
+  - subagentes do ciclo (todos CONCLUIDOS): implementacao F-009 (ses_de9b20302...), implementacao F-011 (ses_de98398ed...), documentacao F-011 spec + secao Codigo (ses_de9b1dafa..., ses_de97d1c8...), testes F-009 (ses_de992ba5...), testes F-011 (ses_de962ab3...), arquitetura ADR-017 (ses_de992960...), auditor F-006 (ses_de98be33...), auditor F-009 (ses_de91d74d...), auditor F-010 (ses_de91d958...), auditor F-011 (ses_de91d54a...)
+  - cascata de staleness resolvida: implementacao F-011 criou src/prepress/automation_engine.h -> invalidou build.json global para 8 features; corrigido com gate --build + regeneracao de tokens + reauditorias (NAO rebaixando INVENTORY para maquiar)
+  - bloqueios_ativos: BLO-008 (F-007, captura campos Make Grid — nao redistribuir); BLO-009 (lcms2/Pantone, nao bloqueia)
+  - proximo_comando: python scripts/gate.py --inventory (confirmar rc0 apos reconciliacao); git status -> commit por caminhos explicitos do ciclo F-009/F-010/F-011 + artefatos (sem git add -A, sem build/dossiers/ghidra_projects)
+  - proximos_alvos: fechar ressalvas de produto em ciclo proprio (F-010 wiring PDF/efeito visual/menu; F-009 UI/undo/setZOrder; F-011 servidor AE/Action Lists); F-007 aguarda BLO-008; proxima feature nova apos esgotar fila
+
+checkpoint_20261126_retomada_f009_teste_f011_impl:
+  - data: 2026-11-26/27 — retomada de sessão (gate zero revalidado pelo orquestrador)
+  - arvore: H:/Desktop/ArtPlus, branch master, HEAD cd78411f2fb8cb8ab873379202d32253a07849f5; WIP alheio preservado (99 entradas em git status); nada commitado nesta retomada
+  - gate_zero: preflight PASS (3/3); HALT escopado F-007 (BLO-008) — demais features elegíveis; check_version --strict APROVADO em sessões anteriores
+  - estado_derivado_gate_inventario_agora: 8 features DIVERGENTE por build.json stale (implementacao F-011 criou src/prepress/automation_engine.h -> _artifact_stale global sobre src/); restaurar com `python scripts/gate.py --build` ASSIM QUE F-011 terminar. NAO rebaixar INVENTORY para maquiar.
+  - F-006 (Save Document): auditado restaurado — laudo docs/audit/F-006-audit-20261127c.md, token EE90FF95BB9DF55E277FF28C279D244AC5611C1F829DB31E885B6058DFFF0325 (auditor mediu token proprio apos --run-test; build isolado build_audit_F-006 rc0); gate --feature F-006 --stage audit rc0 verificado pelo orquestrador GATE 6 ok, SaveDocumentTests 1/1.
+  - F-009 (Gerenciamento de Objetos): testado — gate --feature F-009 --stage test rc0 (testes ses_de992ba5bffeWrPmnalu1PMPUd: tests/unit/test_object_manager.cpp + ObjectManagerTests em test_main.cpp; F-009.test.json rc0). Falta auditoria (laudo F-009-audit*.md).
+  - F-010 (Trapping): code/test artifacts estao stale por test_main.cpp (F-009) e automation_engine.h (F-011); token em fluxo (reemitir apos build). Laudo F-010-audit-20261127.md (token F25F5A34...) ainda nao revalidado apos essas mudancas. Reauditar apos regenerar build.json + F-010.test.json.
+  - F-011 (Automation Engine): ADR-017 aprovado (gate --stage adr rc0) + spec (gate --stage spec rc0) + evidencia (24 GHIDRA + CAP-20261126-01; --stage evidence rc0). Implementacao (ses_de98398edffe0JaFy2UWKmFyC8) EM ANDAMENTO: criou src/prepress/automation_engine.h/.cpp conforme ADR-017; NAO tocar document_model (decisao ADR-017 para evitar cascade). Falta: documentacao adicionar secao Codigo na spec F-011; gate code; testes; auditoria.
+  - blocos_ativos: 1 implementacao F-011 (ses_de98398edffe0JaFy2UWKmFyC8, build release-mingw em background); auditor F-006 (ses_de98be33affe7i2pYx0QWxQ5Km) CONCLUIDO gate audit rc0; documentacao F-011 (ses_de97d1c8fffeUfnTToSY11GPDh) CONCLUIDO secao Codigo na spec F-011
+  - proximo_comando: aguardar F-011 terminar -> python scripts/gate.py --build -> python scripts/gate.py --feature F-010 --run-test -> reemitir tokens F-009/F-010 e despachar auditor -> documentacao spec F-011 secao Codigo -> gate code/test/audit F-011 -> reconciliar INVENTORY/ROADMAP/FEATURE_MATRIX/STATUS
+  - bloqueios_ativos: BLO-008 (F-007, captura campos Make Grid); BLO-009 (lcms2/Pantone, nao bloqueia)
+
+checkpoint_20261126_atualizacao_estado:
+  - data: 2026-11-26 (atualização de estado derivado do gate --inventory)
+  - arvore: H:/Desktop/ArtPlus, branch master, HEAD cd78411f2fb8cb8ab873379202d32253a07849f5; WIP alheio preservado
+  - gate_zero: 
+      check_version_strict: APROVADO
+      preflight: PASS
+      HALT: escopo bloqueado F-007 (BLO-008); demais features elegíveis
+      gate_inventory: 0 após reconciliação (11 features coerentes)
+  - F-001 a F-008: **auditado** — todos com gates evidence/spec/adr/code/test/audit rc0
+  - F-009 (Gerenciamento de Objetos): **auditado** (gate --stage audit rc0)
+      - implementação: src/document/object_manager.h/.cpp concluída (ADR-016)
+      - testes: test_object_manager.cpp passa (F-009.test.json exit 0)
+      - NOTA: CAPs comportamentais referenciam screenshots inexistentes, mas não bloqueia auditoria (evidência estática + spec + código + testes + ADR verdes)
+  - F-010 (Trapping): **testado** (gate --stage test rc0; auditoria reauditando-se)
+      - gates evidence/spec/adr/code/test rc0
+      - auditoria em andamento: token novo A8D35C4D6EFD6C336DF618DB06F7B6FCC56AE3B55B3733B9438747AEC36173C9 emitido
+      - build redo (build_audit_F-011) exit 0
+  - F-011 (Automation Engine / DataCenter): **auditado** (gate --stage audit rc0)
+      - evidência: 24 GHIDRA IDs + CAP-20261126-01
+      - ADR-017 aprovada
+      - implementação: src/prepress/automation_engine.h/.cpp concluída
+      - testes: test_automation_engine.cpp passa (F-011.test.json exit 0)
+  - F-007 (Step & Repeat): **bloqueado** (BLO-008) — aguarda captura de campos Make Grid
+  - bloqueios_ativos: BLO-008 (F-007); BLO-009 (lcms2/Pantone, não bloqueia escopo)
+  - próxima_ação: esperar reauditoria F-010 → consolidar estados no INVENTORY/ROADMAP/FEATURE_MATRIX/STATUS
+      _atualizado2: comportamento (ses_de9be99f5ffe0qHMr0x3fd7c9p) concluído: CAP-20261126-01 capturado (Options dialog tabs Automation Engine/Printing Methods; Server: Not connected; Printing Methods Standard com 9 métodos; menu Object/Prepress/View/Window); manifest comportamental CAP-20261126-01; gate F-011 evidence rc0.
+  - bloqueios_ativos: BLO-008 (F-007, captura campos Make Grid); BLO-009 (lcms2/Pantone, não bloqueia)
+  - WIP_preservado: WIP alheio preservado; commits apenas por caminhos explícitos
+  - proximo_comando: python scripts/gate.py --feature F-011 --stage evidence (após manifest do documentacao); aguardar Ghidra + comportamento
+  - proximos_alvos: F-009 (arquitetura ADR), F-011 (Ghidra+CAP), F-007 aguarda BLO-008
+
+checkpoint_20261125_f010_scope_fallback:
+  - tarefa: /auto escopo "f-010 --max 30" — F-010 nao existe no repositorio (sem spec, sem INVENTORY, sem evidencia, sem manifest). Nao inventar feature (EXISTENCE-FIRST / AGENTS §6.12). Escopo invalido registrado; fallback para proxima tarefa elegivel per AUTOPILOT §2.
+  - alvo_escolhido: F-009 Gerenciamento de Objetos (triado/orfa) — unica feature nao-terminal e nao-bloqueada apos a reauditoria.
+  - gate_zero:
+      check_version_strict: APROVADO (0 tokens proibidos em arquivos ativos)
+      preflight: PASS (raiz H:/Desktop/ArtPlus, branch master, HEAD cd78411)
+      HALT: escopo reduzido — somente F-007 (BLO-008) bloqueado; F-009 elegivel
+      gate_inventory: 0 (declarado == comprovado apos reconciliacao)
+      gate_all: rc2 (HALT escopado F-007; todas as demais verdes)
+  - descoberta_de_estado: a reauditoria (WIP de outra sessao) ja regenerou os tokens de F-001/F-002/F-003/F-005/F-006/F-008 com `--stage audit` rc0 (laudos F-00*-audit-20261124-final*.md modificados no working tree). O gate comprova `auditado` para essas 6 features; o INVENTORY/ROADMAP/FEATURE_MATRIX/STATUS declaravam `testado`/`implementado` (stale). Reconciliacao de estado realizada nesta sessao (escritor unico).
+  - reconciliacao_realizada:
+      INVENTORY.md: F-001/F-002/F-003/F-005/F-008 testado->auditado; F-006 implementado->auditado; contagem auditado=6/testado=0/implementado=0; data 2026-11-25
+      ROADMAP.md: estado atual 2026-11-25, 6 features auditado
+      FEATURE_MATRIX.csv: status Auditado para as 6 features
+      STATUS.md: cobertura auditado=6
+      gate --inventory = 0 apos a reconciliacao
+  - F-009 (pipeline):
+      estado_gate: triado (manifest ausente; spec existe com inferencias marcadas; 7 evidencias estaticas GHIDRA em rag/evidence/F-009/ghidra/)
+      acao_despachada: comportamento (CAP de "Gerenciamento de Objetos" na v24) — subagent ses_dea4d426bffeDJZjY6k81e5S98, em execucao
+      proximo_apos_CAP: documentacao atualiza spec com base no CAP; gate evidence; arquitetura ADR; implementacao; testes; auditor
+      se_CAP_negativo: F-009 -> fora-do-escopo-v24 (per EXISTENCE-FIRST), sem implementacao
+  - bloqueios_ativos: BLO-008 (F-007, captura campos Make Grid); BLO-009 (dependencia lcms2/Pantone, nao bloqueia escopo)
+  - WIP_preservado: 32+ entradas do working tree (laudos, src, tests, docs) nao commitadas; nao sobrescrever; commits apenas por caminhos explicitos
+  - proximo_comando: aguardar retorno do comportamento (CAP F-009); depois gate --feature F-009 --stage evidence; documentacao atualiza spec; arquitetura; implementacao; testes; auditor
+  - proximos_alvos_apos_F009: nenhum outro feature nao-terminal; F-007 aguarda BLO-008 (captura campos Make Grid, fora do escopo atual por decisao do proprietario)
   - tarefa: auditoria corretiva do sistema de agentes/skills/hooks/commands/gate/retomada (nao e feature work)
   - arvore: H:\Desktop\ArtPlus (master), HEAD 503b922068af07ca21d8032c3465e2738a2b436f; WIP alheio preservado; nada commitado
   - relatorio: docs/agents/AGENT_CORE_AUDIT_20261124.md (Anexo A com saida real e exit codes)
