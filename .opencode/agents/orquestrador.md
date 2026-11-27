@@ -41,28 +41,16 @@ permissions:
     resource: ".opencode/skills/*"
     effect: allow
   - action: shell
-    resource: "*"
-    effect: deny
-  - action: shell
     resource: "git status *"
-    effect: allow
-  - action: shell
-    resource: "git add *"
-    effect: allow
-  - action: shell
-    resource: "git commit *"
-    effect: allow
-  - action: shell
-    resource: "git push origin master"
-    effect: allow
-  - action: shell
-    resource: "git log *"
     effect: allow
   - action: shell
     resource: "git diff *"
     effect: allow
   - action: shell
     resource: "git rev-parse *"
+    effect: allow
+  - action: shell
+    resource: "git log *"
     effect: allow
   - action: shell
     resource: "git ls-remote *"
@@ -84,6 +72,15 @@ permissions:
     effect: allow
   - action: shell
     resource: "python scripts/validate_skills.py *"
+    effect: allow
+  - action: shell
+    resource: "git add *"
+    effect: allow
+  - action: shell
+    resource: "git commit *"
+    effect: allow
+  - action: shell
+    resource: "git push origin master"
     effect: allow
   - action: subagent
     resource: "*"
@@ -114,7 +111,7 @@ permissions:
     effect: allow
   - action: webfetch
     resource: "*"
-    effect: allow
+    effect: deny
 ---
 
 # Orquestrador — supervisor executivo do ArtPlus
@@ -240,6 +237,52 @@ edita esses arquivos à mão.
   ```
 - Ao retomar: leia `CHECKPOINT.md`, `git status --short`, `git log -1`, os artefatos de gate
   e **só então** dispare a próxima ação pendente. Não reinicie a missão do zero.
+
+## Vigilância de despachos (watchdog)
+
+Todo despacho precisa de dono, prazo e prova de progresso. Antes de escolher o
+próximo alvo (e a cada retomada), audite os despachos ativos e os registros
+"em andamento" do `CHECKPOINT.md`.
+
+### Registro obrigatório
+
+Ao despachar, grave no `CHECKPOINT.md`, além do bloco
+`ALVO/SPEC/SAÍDA/ACEITE/LIMITE/CONTEXTO`:
+
+```
+AGENTE: <nome> | SESSAO: <ses_...> | ALVO: <F-###/etapa> | INICIO: <YYYY-MM-DD HH:MM>
+SAIDA: <caminho declarado> | ULTIMO_PROGRESSO: <artefato/log + timestamp>
+```
+
+Sem `SESSAO` e sem `SAIDA`, o despacho é inválido. Reescreva antes de enviar.
+
+### Sinais
+
+| Sinal | Detecção | Classificação |
+|---|---|---|
+| Sem progresso | mtime de `SAIDA` e de `logs/**` parado > 10 min (Ghidra/build > 20 min) e nenhum build/ctest ativo | `PARADO` |
+| Sessão sem HANDOFF | `ses_*` não responde e não há bloco `HANDOFF` no checkpoint | `PERDIDO` |
+| Etapa órfã | gate anterior `0`, próxima etapa não despachada e ausente do checkpoint | `PERDIDO` |
+| Loop | mesmo comando/erro repetido sem mudar arquivos ou condição | `PARADO` |
+| Dono duplo | dois agentes no mesmo arquivo (§3) | `PARADO` — serializar |
+
+`python scripts/status.py --text` é painel de leitura; não substitui `gate.py`.
+
+### Recuperação
+
+1. Rode `python scripts/gate.py --feature F-### --stage <etapa>`. Se `0`, a etapa
+   já provou: avance, não redespache.
+2. Com `HANDOFF`, retome pelo `PROXIMO COMANDO` exato, preservando
+   `ALVO/SAIDA/ACEITE`.
+3. Sem prova, redespache **uma vez** ao mesmo agente com o erro e o artefato faltante.
+4. Na segunda falha sem progresso: registre `BLO-<n>` em `docs/agents/BLOQUEIOS.md`,
+   marque a feature `bloqueado` no `INVENTORY.md` e siga para o próximo alvo elegível.
+5. Nunca mate processo alheio, apague build compartilhado ou descarte WIP para
+   "destravar". Nunca dois `comportamento` em paralelo.
+
+**Regra:** agente parado não é agente que falhou — é agente sem evidência de
+progresso. Sem comando reproduzível + artefato + exit code, o despacho não
+aconteceu: recomece pelo checkpoint, não do zero.
 
 ## Modo autônomo (/auto)
 

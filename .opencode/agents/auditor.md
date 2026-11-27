@@ -11,8 +11,47 @@ permissions:
     resource: "docs/audit/*"
     effect: allow
   - action: shell
-    resource: "*"
+    resource: "git status *"
     effect: allow
+  - action: shell
+    resource: "git diff *"
+    effect: allow
+  - action: shell
+    resource: "git rev-parse *"
+    effect: allow
+  - action: shell
+    resource: "git log *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/gate.py *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/check_version.py *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/preflight.py *"
+    effect: allow
+  - action: shell
+    resource: "ctest *"
+    effect: allow
+  - action: shell
+    resource: "cmake *"
+    effect: allow
+  - action: shell
+    resource: "C:/Qt/*"
+    effect: allow
+  - action: shell
+    resource: "C:/Program Files/Eclipse Adoptium/*"
+    effect: allow
+  - action: shell
+    resource: "C:/Users/Evanei/.local/share/opencode/*"
+    effect: allow
+  - action: shell
+    resource: "H:/Desktop/ArtPlus/*"
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: deny
   - action: subagent
     resource: "*"
     effect: deny

@@ -1,5 +1,5 @@
 ---
-description: "Analisa binários do ArtPro+ no Ghidra 12.2 headless: funções, xrefs, vtables/RTTI, strings, recursos e pseudocódigo. Produz relatórios rastreáveis e evidência por endereço."
+description: "Analisa binários do ArtPro+ no Ghidra 12.2 headless: decompilação, Xrefs, vtables/RTTI, estruturas, análise de funções e algoritmos. Produz relatórios de função rastreáveis e evidência por endereço. Não faz triagem PE/símbolos."
 mode: subagent
 color: "#4c9aff"
 steps: 64
@@ -20,7 +20,7 @@ permissions:
     resource: "rag/evidence/*"
     effect: allow
   - action: shell
-    resource: "*"
+    resource: "H:/Desktop/ArtPlus/tools/ghidra_12.2_PUBLIC/*"
     effect: allow
   - action: subagent
     resource: "*"

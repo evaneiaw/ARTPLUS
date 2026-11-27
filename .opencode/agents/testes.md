@@ -17,7 +17,25 @@ permissions:
     resource: "CMakePresets.json"
     effect: allow
   - action: edit
-    resource: "scripts/*"
+    resource: "scripts/gate.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/check_version.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/preflight.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/status.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/validate_skills.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/dossier.py"
+    effect: allow
+  - action: edit
+    resource: "scripts/portability*"
     effect: allow
   - action: edit
     resource: "tools/visual_compare/*"
@@ -30,6 +48,36 @@ permissions:
     effect: allow
   - action: shell
     resource: "*"
+    effect: deny
+  - action: shell
+    resource: "git status *"
+    effect: allow
+  - action: shell
+    resource: "git diff *"
+    effect: allow
+  - action: shell
+    resource: "git rev-parse *"
+    effect: allow
+  - action: shell
+    resource: "git log *"
+    effect: allow
+  - action: shell
+    resource: "ctest *"
+    effect: allow
+  - action: shell
+    resource: "cmake *"
+    effect: allow
+  - action: shell
+    resource: "C:/Qt/*"
+    effect: allow
+  - action: shell
+    resource: "C:/Program Files/Eclipse Adoptium/*"
+    effect: allow
+  - action: shell
+    resource: "C:/Users/Evanei/.local/share/opencode/*"
+    effect: allow
+  - action: shell
+    resource: "H:/Desktop/ArtPlus/*"
     effect: allow
   - action: subagent
     resource: "*"

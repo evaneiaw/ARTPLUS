@@ -1,5 +1,5 @@
 ---
-description: "Triagem estática e correlação de binários do ArtPro+ (PE, imports/exports, strings, RTTI, dependências entre módulos, diff de versões). Fornece o mapa de arquitetura e as evidências que o Ghidra aprofunda."
+description: "Triagem estática e correlação de binários do ArtPro+ (PE, imports/exports, strings, RTTI, dependências entre módulos, diff de versões). Fornece o mapa de arquitetura e as evidências que o Ghidra aprofunda. Não faz decompilação nem análise de fluxo de execução."
 mode: subagent
 color: "#7b61ff"
 steps: 48
@@ -17,7 +17,34 @@ permissions:
     resource: "docs/reverse-engineering/*"
     effect: allow
   - action: shell
-    resource: "*"
+    resource: "diec *"
+    effect: allow
+  - action: shell
+    resource: "strings64 *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/inspect_pe.py *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/scan_binary.py *"
+    effect: allow
+  - action: shell
+    resource: "git status *"
+    effect: allow
+  - action: shell
+    resource: "git diff *"
+    effect: allow
+  - action: shell
+    resource: "git rev-parse *"
+    effect: allow
+  - action: shell
+    resource: "git log *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/gate.py *"
+    effect: allow
+  - action: shell
+    resource: "python scripts/check_version.py *"
     effect: allow
   - action: subagent
     resource: "*"
